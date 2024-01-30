@@ -72,14 +72,13 @@
   },
   "dependencies": {
     "@babel/runtime": "^7",
-    "@lobehub/ui": "^1",
     "polished": "^4",
-    "react-layout-kit": "^1",
-    "svgo-browser": "^1"
+    "react-layout-kit": "^1"
   },
   "devDependencies": {
     "@commitlint/cli": "^18",
     "@lobehub/lint": "latest",
+    "@lobehub/ui": "^1",
     "@testing-library/react": "^14",
     "@types/pangu": "^4",
     "@types/query-string": "^6",
@@ -105,15 +104,15 @@
     "remark-cli": "^11",
     "semantic-release": "^21",
     "stylelint": "^15",
+    "svgo-browser": "^1",
     "typescript": "^5",
     "vitest": "latest"
   },
   "peerDependencies": {
-    "@lobehub/ui": ">=1",
-    "antd-style": ">=3",
     "polished": ">=4",
     "react": ">=18",
-    "react-dom": ">=18"
+    "react-dom": ">=18",
+    "react-layout-kit": ">=1"
   },
   "publishConfig": {
     "access": "public",

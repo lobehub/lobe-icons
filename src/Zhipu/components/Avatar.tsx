@@ -1,19 +1,22 @@
-import { Avatar as A, type AvatarProps } from '@lobehub/ui';
 import { readableColor } from 'polished';
 import { memo } from 'react';
+
+import IconAvatar, { type IconAvatarProps } from '@/IconAvatar';
 
 import { COLOR_PRIMARY } from '../style';
 import Mono from './Mono';
 
-const Avatar = memo<AvatarProps>(({ size = 64, style, ...rest }) => {
+const Avatar = memo<IconAvatarProps>(({ size = 64, style, background, ...rest }) => {
+  const bg = background || COLOR_PRIMARY;
   return (
-    <A
-      avatar={<Mono size={size * 0.75} />}
-      background={COLOR_PRIMARY}
+    <IconAvatar
+      background={bg}
       size={size}
-      style={{ color: readableColor(COLOR_PRIMARY), ...style }}
+      style={{ color: readableColor(bg), ...style }}
       {...rest}
-    />
+    >
+      <Mono size={size * 0.75} />
+    </IconAvatar>
   );
 });
 

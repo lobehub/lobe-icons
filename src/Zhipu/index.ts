@@ -1,6 +1,24 @@
-export { default as Avatar } from './components/Avatar';
-export { default as Color } from './components/Color';
-export { default as Combine } from './components/Combine';
-export { default as Mono } from './components/Mono';
-export { default as Text } from './components/Text';
-export { COLOR_PRIMARY as colorPrimary } from './style';
+import Avatar from './components/Avatar';
+import Color from './components/Color';
+import Combine from './components/Combine';
+import Mono from './components/Mono';
+import Text from './components/Text';
+import { COLOR_PRIMARY } from './style';
+
+type CompoundedComponent = typeof Mono & {
+  Avatar: typeof Avatar;
+  Color: typeof Color;
+  Combine: typeof Combine;
+  Mono: typeof Mono;
+  Text: typeof Text;
+  colorPrimary: string;
+};
+
+const Icons = Mono as CompoundedComponent;
+Icons.Color = Color;
+Icons.Text = Text;
+Icons.Combine = Combine;
+Icons.Avatar = Avatar;
+Icons.colorPrimary = COLOR_PRIMARY;
+
+export default Icons;

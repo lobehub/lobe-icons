@@ -6,4 +6,4 @@ group:
 title: Edtior
 ---
 
-<code src="./index.tsx" nopadding></code>
+<code src="../components/Editor/index.tsx" inline></code>
