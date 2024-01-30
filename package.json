@@ -72,12 +72,14 @@
   },
   "dependencies": {
     "@babel/runtime": "^7",
+    "polished": "^4",
+    "@lobehub/ui": "^1",
+    "svgo-browser": "^1",
     "react-layout-kit": "^1"
   },
   "devDependencies": {
     "@commitlint/cli": "^18",
     "@lobehub/lint": "latest",
-    "@lobehub/ui": "latest",
     "@testing-library/react": "^14",
     "@types/pangu": "^4",
     "@types/query-string": "^6",
@@ -96,7 +98,6 @@
     "husky": "^8",
     "jsdom": "^23",
     "lint-staged": "^15",
-    "polished": "^4",
     "prettier": "^3",
     "react": "^18",
     "react-dom": "^18",
@@ -104,13 +105,13 @@
     "remark-cli": "^11",
     "semantic-release": "^21",
     "stylelint": "^15",
-    "svgo-browser": "^1",
     "typescript": "^5",
     "vitest": "latest"
   },
   "peerDependencies": {
-    "antd": ">=5",
     "antd-style": ">=3",
+    "@lobehub/ui": ">=1",
+    "polished": ">=4",
     "react": ">=18",
     "react-dom": ">=18"
   },
