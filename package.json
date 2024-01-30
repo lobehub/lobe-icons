@@ -71,7 +71,8 @@
     ]
   },
   "dependencies": {
-    "@babel/runtime": "^7"
+    "@babel/runtime": "^7",
+    "react-layout-kit": "^1"
   },
   "devDependencies": {
     "@commitlint/cli": "^18",
@@ -95,16 +96,15 @@
     "husky": "^8",
     "jsdom": "^23",
     "lint-staged": "^15",
-    "polished": "^4.2.2",
+    "polished": "^4",
     "prettier": "^3",
     "react": "^18",
     "react-dom": "^18",
-    "react-layout-kit": "^1.7.4",
     "remark": "^14",
     "remark-cli": "^11",
     "semantic-release": "^21",
     "stylelint": "^15",
-    "svgo-browser": "^1.3.8",
+    "svgo-browser": "^1",
     "typescript": "^5",
     "vitest": "latest"
   },
