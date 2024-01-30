@@ -1,0 +1,121 @@
+{
+  "name": "@lobehub/icons",
+  "version": "1.0.0",
+  "description": "Popular LLM model brand svg logo and icon collection",
+  "keywords": [
+    "lobehub",
+    "llm icons",
+    "llm brand logo",
+    "react components",
+    "svg icons"
+  ],
+  "homepage": "https://github.com/lobehub/lobe-icons",
+  "bugs": {
+    "url": "https://github.com/lobehub/lobe-icons/issues/new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lobehub/lobe-icons.git"
+  },
+  "license": "MIT",
+  "author": "LobeHub <i@lobehub.com>",
+  "sideEffects": false,
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "files": [
+    "es"
+  ],
+  "scripts": {
+    "build": "father build",
+    "build:watch": "father dev",
+    "ci": "npm run lint && npm run type-check",
+    "clean": "rm -r es lib dist coverage .dumi/tmp .eslintcache node_modules/.cache",
+    "dev": "father dev",
+    "docs:build": "dumi build",
+    "docs:build-analyze": "ANALYZE=1 dumi build",
+    "docs:dev": "dumi dev",
+    "doctor": "father doctor",
+    "lint": "eslint \"{src,tests}/**/*.{js,jsx,ts,tsx}\" --fix",
+    "lint:md": "remark . --quiet --frail --output",
+    "lint:style": "stylelint \"{src,tests}/**/*.{js,jsx,ts,tsx}\" --fix",
+    "prepare": "husky install && npm run setup",
+    "prepublishOnly": "father doctor && npm run build",
+    "prettier": "prettier -c --write --no-error-on-unmatched-pattern \"**/**\"",
+    "pull": "git pull",
+    "release": "semantic-release",
+    "setup": "dumi setup",
+    "start": "npm run docs:dev",
+    "test": "vitest --passWithNoTests",
+    "test:coverage": "vitest run --coverage  --passWithNoTests",
+    "test:update": "vitest -u",
+    "type-check": "tsc -p tsconfig-check.json"
+  },
+  "lint-staged": {
+    "*.md": [
+      "remark --quiet --output --",
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.json": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.{js,jsx}": [
+      "prettier --write",
+      "stylelint --fix",
+      "eslint --fix"
+    ],
+    "*.{ts,tsx}": [
+      "prettier --parser=typescript --write",
+      "stylelint --fix",
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "@babel/runtime": "^7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18",
+    "@lobehub/lint": "latest",
+    "@lobehub/ui": "latest",
+    "@testing-library/react": "^14",
+    "@types/pangu": "^4",
+    "@types/query-string": "^6",
+    "@types/react": "18.2.40",
+    "@types/react-dom": "^18",
+    "@vitest/coverage-v8": "latest",
+    "antd-style": "^3",
+    "babel-plugin-antd-style": "latest",
+    "commitlint": "^18",
+    "concurrently": "^8",
+    "cross-env": "^7",
+    "dumi": "^2",
+    "dumi-theme-lobehub": "latest",
+    "eslint": "^8",
+    "father": "4.3.1",
+    "husky": "^8",
+    "jsdom": "^23",
+    "lint-staged": "^15",
+    "polished": "^4.2.2",
+    "prettier": "^3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-layout-kit": "^1.7.4",
+    "remark": "^14",
+    "remark-cli": "^11",
+    "semantic-release": "^21",
+    "stylelint": "^15",
+    "svgo-browser": "^1.3.8",
+    "typescript": "^5",
+    "vitest": "latest"
+  },
+  "peerDependencies": {
+    "antd": ">=5",
+    "antd-style": ">=3",
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

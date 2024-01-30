@@ -1,0 +1,27 @@
+name: Test CI
+on:
+  pull_request:
+  push:
+    branches:
+      - '!main'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Install deps
+        run: bun i
+
+      - name: CI
+        run: bun run ci
+
+      - name: Test and coverage
+        run: bun run test:coverage
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3

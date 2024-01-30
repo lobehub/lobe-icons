@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "@/*": ["src/*"],
+      "@lobehub/icons": ["src"],
+      "@lobehub/icons/*": ["src/*"],
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["vitest/globals"],
+  },
+  "include": ["src", "docs", "tests", ".dumirc.ts", "*.ts"],
+}
