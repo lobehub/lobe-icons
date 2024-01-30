@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/icons",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Popular LLM model brand svg logo and icon collection",
   "keywords": [
     "lobehub",
@@ -72,10 +72,10 @@
   },
   "dependencies": {
     "@babel/runtime": "^7",
-    "polished": "^4",
     "@lobehub/ui": "^1",
-    "svgo-browser": "^1",
-    "react-layout-kit": "^1"
+    "polished": "^4",
+    "react-layout-kit": "^1",
+    "svgo-browser": "^1"
   },
   "devDependencies": {
     "@commitlint/cli": "^18",
@@ -109,8 +109,8 @@
     "vitest": "latest"
   },
   "peerDependencies": {
-    "antd-style": ">=3",
     "@lobehub/ui": ">=1",
+    "antd-style": ">=3",
     "polished": ">=4",
     "react": ">=18",
     "react-dom": ">=18"
