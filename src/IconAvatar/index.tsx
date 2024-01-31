@@ -5,7 +5,7 @@ import { IconType } from '@/types';
 
 export interface IconAvatarProps extends Omit<FlexboxProps, 'children'> {
   Icon: IconType;
-  background: string;
+  background?: string;
   color?: string;
   iconClassName?: string;
   iconMultiple?: number;
