@@ -1,6 +1,7 @@
 ---
 nav: Components
 group: Icons
+atomId: ChatGLM
 title: Zhipu (ChatGLM)
 description: https://github.com/THUDM/ChatGLM-6B
 ---

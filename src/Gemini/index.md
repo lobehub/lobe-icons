@@ -2,6 +2,7 @@
 nav: Components
 group: Icons
 title: Google (Gemini)
+atomId: Gemini
 description: https://deepmind.google/technologies/gemini
 ---
 
@@ -85,7 +86,3 @@ export default () => (
   </Flexbox>
 );
 ```
-
-## APIs
-
-<API></API>
