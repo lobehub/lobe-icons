@@ -1,21 +1,21 @@
 ---
 nav: Components
 group: Icons
-title: Zhipu (智谱清言)
-atomId: Zhipu
-description: https://chatglm.cn
+title: Spark (讯飞星火)
+atomId: Spark
+description: https://xinghuo.xfyun.cn
 ---
 
 ## Icons
 
 ```tsx
-import { Zhipu } from '@lobehub/icons';
+import { Spark } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Zhipu size={64} />
-    <Zhipu.Color size={64} />
+    <Spark size={64} />
+    <Spark.Color size={64} />
   </Flexbox>
 );
 ```
@@ -23,21 +23,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Zhipu } from '@lobehub/icons';
+import { Spark } from '@lobehub/icons';
 
-export default () => <Zhipu.Text size={48} />;
+export default () => <Spark.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Zhipu } from '@lobehub/icons';
+import { Spark } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16}>
-    <Zhipu.Combine size={64} />
-    <Zhipu.Combine size={64} type={'color'} />
+    <Spark.Combine size={64} />
+    <Spark.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -45,13 +45,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Zhipu } from '@lobehub/icons';
+import { Spark } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Zhipu.Avatar size={64} />
-    <Zhipu.Avatar size={64} shape={'square'} />
+    <Spark.Avatar size={64} />
+    <Spark.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -59,14 +59,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Zhipu } from '@lobehub/icons';
+import { Spark } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Zhipu.colorPrimary} />
+    <ColorPreview color={Spark.colorPrimary} />
   </Flexbox>
 );
 ```

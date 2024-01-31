@@ -1,10 +1,15 @@
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './Anthropic';
+export { default as Baichuan, type CompoundedIcon as BaichuanProps } from './Baichuan';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';
+export { default as Cohere, type CompoundedIcon as CohereProps } from './Cohere';
 export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
 export { default as Gemini, type CompoundedIcon as GeminiProps } from './Gemini';
 export { default as IconAvatar, type IconAvatarProps } from './IconAvatar';
 export { default as IconCombine, type IconCombineProps } from './IconCombine';
+export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
+export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama';
 export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './OpenAI';
+export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';
 export { default as Tongyi, type CompoundedIcon as TongyiProps } from './Tongyi';
 export type { IconType } from './types';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';

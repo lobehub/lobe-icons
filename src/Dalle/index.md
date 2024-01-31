@@ -42,7 +42,3 @@ export default () => (
   </Flexbox>
 );
 ```
-
-## APIs
-
-<API></API>
