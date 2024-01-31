@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.0.2](https://github.com/lobehub/lobe-icons/compare/v1.0.1...v1.0.2)
+
+<sup>Released on **2024-01-31**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix father build ignore.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix father build ignore ([d18b69c](https://github.com/lobehub/lobe-icons/commit/d18b69c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.1](https://github.com/lobehub/lobe-icons/compare/v1.0.0...v1.0.1)
 
 <sup>Released on **2024-01-30**</sup>
