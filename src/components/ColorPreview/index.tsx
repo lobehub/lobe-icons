@@ -1,6 +1,5 @@
 import { CopyButton } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
-import { readableColor } from 'polished';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
@@ -53,7 +52,7 @@ const IconPreview = memo<IconPreviewProps>(({ color }) => {
       justify={'center'}
       style={{ background: color }}
     >
-      <div style={{ color: readableColor(color) }}>{color}</div>
+      <div style={{ color: '#fff' }}>{color}</div>
       <CopyButton className={styles.btn} content={color} />
     </Flexbox>
   );

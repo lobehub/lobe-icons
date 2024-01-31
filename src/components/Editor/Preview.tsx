@@ -8,6 +8,7 @@ import IconPreview from '@/components/IconPreview';
 const useStyles = createStyles(({ css }) => {
   return {
     code: css`
+      flex: 1;
       height: 96px;
 
       pre {
@@ -39,7 +40,7 @@ const Preview = forwardRef<HTMLDivElement, PreviewProps>(({ svg, title, precent 
       </Flexbox>
       <Flexbox gap={8} horizontal ref={ref}>
         <IconPreview>{svg}</IconPreview>
-        <Highlighter className={styles.code} language={'html'} type={'ghost'}>
+        <Highlighter className={styles.code} language={'tsx'} type={'ghost'}>
           {svg}
         </Highlighter>
       </Flexbox>

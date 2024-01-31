@@ -72,7 +72,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7",
-    "polished": "^4",
     "react-layout-kit": "^1"
   },
   "devDependencies": {

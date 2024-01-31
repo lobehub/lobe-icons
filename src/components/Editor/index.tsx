@@ -57,16 +57,16 @@ export default () => {
   useEffect(() => {
     if (mono.isLoading) return setMonoSvg('loading...');
     setMonoSvg(monoRef?.current?.querySelector('svg')?.innerHTML || '');
-  }, [mono.isLoading]);
+  }, [mono]);
 
   useEffect(() => {
     if (compression.isLoading) return setColorSvg('loading...');
-    setColorSvg(monoRef?.current?.querySelector('svg')?.innerHTML || '');
-    const viewBox = monoRef?.current?.querySelector('svg')?.viewBox.baseVal;
+    setColorSvg(colorRef?.current?.querySelector('svg')?.innerHTML || '');
+    const viewBox = colorRef?.current?.querySelector('svg')?.viewBox.baseVal;
     if (viewBox) {
       setViewbox(`${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`);
     }
-  }, [compression.isLoading]);
+  }, [compression]);
 
   return (
     <StoryBook className={styles.container} levaStore={levaStore} style={{ position: 'relative' }}>
