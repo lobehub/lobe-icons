@@ -5,7 +5,7 @@ import { IconType } from '@/types';
 
 export interface IconCombineProps extends FlexboxProps {
   Icon: IconType;
-  Text: IconType;
+  Text?: IconType;
   color?: string;
   extra?: string;
   extraClassName?: string;
@@ -35,7 +35,7 @@ const IconCombine = memo<IconCombineProps>(
     return (
       <Flexbox align={'center'} flex={'none'} horizontal style={{ color, ...style }} {...rest}>
         {showLogo && <Icon size={size} style={{ marginRight: size * spaceMultiple }} />}
-        {showText && <Text size={size * textMultiple} />}
+        {showText && Text && <Text size={size * textMultiple} />}
         {extra && (
           <span
             className={extraClassName}

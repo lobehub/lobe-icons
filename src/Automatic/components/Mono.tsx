@@ -15,7 +15,13 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
-      <path d="M7.333 2h-3.2l-2 4.333V17.8L0 22h5.2l2.028-4.2L7.333 2zm7.334 0h-5.2v20h5.2V2zM16.8 7.733H22V22h-5.2V7.733zM22 2h-5.2v4.133H22V2z"></path>
+      <g>
+        <path d="M8.462 3.5h2.924l8.33 17h-1.46L10.617 4.942l-1.442.001z" opacity=".8"></path>
+        <path d="M5.474 20.5l2.817-5.366 2.873 5.366h5.541l-8.362-17L0 20.5z"></path>
+        <path d="M12.768 3.501L21.113 20.5h1.46L14.238 3.504z" opacity=".4"></path>
+        <path d="M14.195 3.501L22.54 20.5H24L15.666 3.504z" opacity=".2"></path>
+        <path d="M11.34 3.501L19.683 20.5h1.464L12.81 3.504z" opacity=".6"></path>
+      </g>
     </svg>
   );
 });

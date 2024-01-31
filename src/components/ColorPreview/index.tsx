@@ -1,4 +1,4 @@
-import { CopyButton } from '@lobehub/ui';
+import { CopyButton, Tooltip } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
@@ -9,8 +9,6 @@ const useStyles = createStyles(({ css, token, cx }) => {
       'copy-button',
       css`
         position: absolute;
-        top: 4px;
-        right: 4px;
         opacity: 0;
       `,
     ),
@@ -19,12 +17,8 @@ const useStyles = createStyles(({ css, token, cx }) => {
 
       flex: none;
 
-      min-width: 98px;
+      width: 98px;
       height: 98px;
-      padding-inline: 16px;
-
-      font-family: ${token.fontFamilyCode};
-      line-height: 1;
 
       background: ${token.colorBgContainer};
       border: 1px solid ${token.colorBorder};
@@ -47,15 +41,16 @@ const IconPreview = memo<IconPreviewProps>(({ color }) => {
   const { styles } = useStyles();
 
   return (
-    <Flexbox
-      align={'center'}
-      className={styles.container}
-      justify={'center'}
-      style={{ background: color }}
-    >
-      <div style={{ color: '#fff' }}>{color}</div>
-      <CopyButton className={styles.btn} content={color} />
-    </Flexbox>
+    <Tooltip title={color}>
+      <Flexbox
+        align={'center'}
+        className={styles.container}
+        justify={'center'}
+        style={{ background: color }}
+      >
+        <CopyButton className={styles.btn} content={color} />
+      </Flexbox>
+    </Tooltip>
   );
 });
 
