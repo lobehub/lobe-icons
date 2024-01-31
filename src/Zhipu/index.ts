@@ -5,7 +5,7 @@ import Mono from './components/Mono';
 import Text from './components/Text';
 import { COLOR_PRIMARY } from './style';
 
-type CompoundedComponent = typeof Mono & {
+export type CompoundedIcon = typeof Mono & {
   Avatar: typeof Avatar;
   Color: typeof Color;
   Combine: typeof Combine;
@@ -14,7 +14,7 @@ type CompoundedComponent = typeof Mono & {
   colorPrimary: string;
 };
 
-const Icons = Mono as CompoundedComponent;
+const Icons = Mono as CompoundedIcon;
 Icons.Color = Color;
 Icons.Text = Text;
 Icons.Combine = Combine;

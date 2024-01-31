@@ -1,8 +1,9 @@
 ---
 nav: Components
 group: Icons
-title: 文新
+title: Wenxin (文心)
 atomId: Wenxin
+description: https://yiyan.baidu.com
 ---
 
 ## Icons
@@ -37,6 +38,7 @@ export default () => (
   <Flexbox gap={16}>
     <Wenxin.Combine size={64} />
     <Wenxin.Combine size={64} type={'color'} />
+    <Wenxin.Combine size={64} type={'color'} extra={'一言'} />
   </Flexbox>
 );
 ```
@@ -49,6 +51,7 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
+    <Wenxin.Avatar size={64} background={Wenxin.colorPrimary} />
     <Wenxin.Avatar size={64} />
     <Wenxin.Avatar size={64} shape={'square'} />
   </Flexbox>
@@ -58,12 +61,19 @@ export default () => (
 ## Colors
 
 ```tsx
-/**
- * inline: true
- */
 import { Wenxin } from '@lobehub/icons';
+import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
-export default () => <ColorPreview color={Wenxin.colorPrimary} />;
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Wenxin.colorPrimary} />
+    <ColorPreview color={Wenxin.colorGradient} />
+  </Flexbox>
+);
 ```
+
+## APIs
+
+<API></API>

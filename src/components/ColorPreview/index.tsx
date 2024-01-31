@@ -19,8 +19,9 @@ const useStyles = createStyles(({ css, token, cx }) => {
 
       flex: none;
 
-      width: 98px;
+      min-width: 98px;
       height: 98px;
+      padding-inline: 16px;
 
       font-family: ${token.fontFamilyCode};
       line-height: 1;

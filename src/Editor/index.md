@@ -2,7 +2,7 @@
 nav: Components
 group:
   title: Utils
-  sort: 999
+  order: 999
 title: Edtior
 ---
 

@@ -1,8 +1,9 @@
 ---
 nav: Components
 group: Icons
-title: 智谱清言
+title: Zhipu (智谱清言)
 atomId: Zhipu
+description: https://chatglm.cn
 ---
 
 ## Icons
@@ -58,12 +59,18 @@ export default () => (
 ## Colors
 
 ```tsx
-/**
- * inline: true
- */
 import { Zhipu } from '@lobehub/icons';
+import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
-export default () => <ColorPreview color={Zhipu.colorPrimary} />;
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Zhipu.colorPrimary} />
+  </Flexbox>
+);
 ```
+
+## APIs
+
+<API></API>

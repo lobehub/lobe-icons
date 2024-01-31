@@ -1,5 +1,11 @@
-export { default as ChatGLM } from './ChatGLM';
-export { default as Tongyi } from './Tongyi';
+export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './Anthropic';
+export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';
+export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
+export { default as Gemini, type CompoundedIcon as GeminiProps } from './Gemini';
+export { default as IconAvatar, type IconAvatarProps } from './IconAvatar';
+export { default as IconCombine, type IconCombineProps } from './IconCombine';
+export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './OpenAI';
+export { default as Tongyi, type CompoundedIcon as TongyiProps } from './Tongyi';
 export type { IconType } from './types';
-export { default as Wenxin } from './Wenxin';
-export { default as Zhipu } from './Zhipu';
+export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
+export { default as Zhipu, type CompoundedIcon as ZhipuProps } from './Zhipu';

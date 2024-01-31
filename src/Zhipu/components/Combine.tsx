@@ -1,23 +1,26 @@
 import { memo } from 'react';
-import { Flexbox, type FlexboxProps } from 'react-layout-kit';
+
+import IconCombine, { type IconCombineProps } from '@/IconCombine';
 
 import { SPACE_MULTIPLE, TEXT_MULTIPLE } from '../style';
 import Color from './Color';
 import Mono from './Mono';
 import Text from './Text';
 
-export interface CombineProps extends FlexboxProps {
-  size?: number;
+export interface CombineProps extends Omit<IconCombineProps, 'Icon' | 'Text'> {
   type?: 'color' | 'mono';
 }
-const Combine = memo<CombineProps>(({ type = 'mono', size = 24, ...rest }) => {
+const Combine = memo<CombineProps>(({ type = 'mono', ...rest }) => {
   const Icon = type === 'color' ? Color : Mono;
 
   return (
-    <Flexbox align={'center'} flex={'none'} gap={size * SPACE_MULTIPLE} horizontal {...rest}>
-      <Icon size={size} />
-      <Text size={size * TEXT_MULTIPLE} />
-    </Flexbox>
+    <IconCombine
+      Icon={Icon}
+      Text={Text}
+      spaceMultiple={SPACE_MULTIPLE}
+      textMultiple={TEXT_MULTIPLE}
+      {...rest}
+    />
   );
 });
 

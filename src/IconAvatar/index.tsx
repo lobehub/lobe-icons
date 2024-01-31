@@ -1,14 +1,31 @@
-import { memo } from 'react';
+import { CSSProperties, memo } from 'react';
 import { Flexbox, type FlexboxProps } from 'react-layout-kit';
 
-export interface IconAvatarProps extends FlexboxProps {
+import { IconType } from '@/types';
+
+export interface IconAvatarProps extends Omit<FlexboxProps, 'children'> {
+  Icon: IconType;
   background: string;
+  color?: string;
+  iconClassName?: string;
+  iconMultiple?: number;
+  iconStyle?: CSSProperties;
   shape?: 'circle' | 'square';
   size: number;
 }
 
 const IconAvatar = memo<IconAvatarProps>(
-  ({ shape = 'circle', background, size, style, children }) => {
+  ({
+    shape = 'circle',
+    color = '#fff',
+    background,
+    size,
+    style,
+    iconMultiple = 0.75,
+    Icon,
+    iconStyle,
+    iconClassName,
+  }) => {
     return (
       <Flexbox
         align={'center'}
@@ -17,12 +34,13 @@ const IconAvatar = memo<IconAvatarProps>(
         style={{
           background,
           borderRadius: shape === 'circle' ? '50%' : Math.floor(size * 0.1),
+          color,
           height: size,
           width: size,
           ...style,
         }}
       >
-        {children}
+        <Icon className={iconClassName} size={size * iconMultiple} style={iconStyle} />
       </Flexbox>
     );
   },

@@ -1,8 +1,9 @@
 ---
 nav: Components
 group: Icons
-title: 通义
+title: Tongyi (通义)
 atomId: Tongyi
+description: https://tongyi.aliyun.com
 ---
 
 ## Icons
@@ -37,6 +38,7 @@ export default () => (
   <Flexbox gap={16}>
     <Tongyi.Combine size={64} />
     <Tongyi.Combine size={64} type={'color'} />
+    <Tongyi.Combine size={64} type={'color'} extra={'千问'} />
   </Flexbox>
 );
 ```
@@ -49,6 +51,7 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
+    <Tongyi.Avatar size={64} background={Tongyi.colorPrimary} />
     <Tongyi.Avatar size={64} />
     <Tongyi.Avatar size={64} shape={'square'} />
   </Flexbox>
@@ -58,12 +61,19 @@ export default () => (
 ## Colors
 
 ```tsx
-/**
- * inline: true
- */
 import { Tongyi } from '@lobehub/icons';
+import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
-export default () => <ColorPreview color={Tongyi.colorPrimary} />;
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Tongyi.colorPrimary} />
+    <ColorPreview color={Tongyi.colorGradient} />
+  </Flexbox>
+);
 ```
+
+## APIs
+
+<API></API>
