@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.2.0](https://github.com/lobehub/lobe-icons/compare/v1.1.0...v1.2.0)
+
+<sup>Released on **2024-01-31**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Google Gemini.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Google Gemini ([f4a71e0](https://github.com/lobehub/lobe-icons/commit/f4a71e0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.1.0](https://github.com/lobehub/lobe-icons/compare/v1.0.2...v1.1.0)
 
 <sup>Released on **2024-01-31**</sup>
