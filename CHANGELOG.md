@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.2.1](https://github.com/lobehub/lobe-icons/compare/v1.2.0...v1.2.1)
+
+<sup>Released on **2024-01-31**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix avatar type.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix avatar type ([0e3404b](https://github.com/lobehub/lobe-icons/commit/0e3404b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.2.0](https://github.com/lobehub/lobe-icons/compare/v1.1.0...v1.2.0)
 
 <sup>Released on **2024-01-31**</sup>
