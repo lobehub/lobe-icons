@@ -11,6 +11,7 @@ export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
 export { default as Gemini, type CompoundedIcon as GeminiProps } from './Gemini';
 export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from './HuggingFace';
+export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
 export { default as IconAvatar, type IconAvatarProps } from './IconAvatar';
 export { default as IconCombine, type IconCombineProps } from './IconCombine';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
