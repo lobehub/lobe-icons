@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.8.0](https://github.com/lobehub/lobe-icons/compare/v1.7.0...v1.8.0)
+
+<sup>Released on **2024-02-01**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Hunyuan.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Hunyuan ([d2dc21a](https://github.com/lobehub/lobe-icons/commit/d2dc21a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.7.0](https://github.com/lobehub/lobe-icons/compare/v1.6.0...v1.7.0)
 
 <sup>Released on **2024-02-01**</sup>
