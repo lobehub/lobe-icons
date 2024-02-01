@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.7.0](https://github.com/lobehub/lobe-icons/compare/v1.6.0...v1.7.0)
+
+<sup>Released on **2024-02-01**</sup>
+
+#### ✨ Features
+
+- **misc**: Add more llm icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add more llm icons ([d1b27da](https://github.com/lobehub/lobe-icons/commit/d1b27da))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.6.0](https://github.com/lobehub/lobe-icons/compare/v1.5.0...v1.6.0)
 
 <sup>Released on **2024-02-01**</sup>
