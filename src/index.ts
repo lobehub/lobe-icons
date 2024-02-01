@@ -1,6 +1,8 @@
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './Anthropic';
 export { default as Automatic, type CompoundedIcon as AutomaticProps } from './Automatic';
+export { default as Aws, type CompoundedIcon as AwsProps } from './Aws';
 export { default as Baichuan, type CompoundedIcon as BaichuanProps } from './Baichuan';
+export { default as Bedrock, type CompoundedIcon as BedrockProps } from './Bedrock';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';
 export { default as Cohere, type CompoundedIcon as CohereProps } from './Cohere';
 export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
@@ -11,6 +13,7 @@ export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minim
 export { default as Mistral, type CompoundedIcon as MistralProps } from './Mistral';
 export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama';
 export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './OpenAI';
+export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';
 export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './Stability';
 export { default as Tongyi, type CompoundedIcon as TongyiProps } from './Tongyi';

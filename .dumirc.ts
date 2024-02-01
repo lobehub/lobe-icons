@@ -13,7 +13,7 @@ const themeConfig = {
       text: 'Github',
     },
     {
-      link: '/components/zhipu',
+      link: '/components/anthropic',
       text: 'Get Started',
       type: 'primary',
     },
@@ -29,8 +29,7 @@ const themeConfig = {
   footer: 'Made with 🤯 by LobeHub',
   name: 'Icons',
   nav: [
-    { link: '/components/zhipu', title: 'Icons' },
-    { link: 'https://ui.lobehub.com', mode: 'override', title: 'Components' },
+    { link: '/components/anthropic', title: 'Icons' },
     { link: '/changelog', title: 'Changelog' },
   ],
   socialLinks: {

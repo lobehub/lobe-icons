@@ -1,21 +1,21 @@
 ---
 nav: Components
 group: Icons
-title: Zhipu (智谱)
-atomId: Zhipu
+title: Qingyan (智谱清言)
+atomId: Qingyan
 description: https://chatglm.cn
 ---
 
 ## Icons
 
 ```tsx
-import { Zhipu } from '@lobehub/icons';
+import { Qingyan } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Zhipu size={64} />
-    <Zhipu.Color size={64} />
+    <Qingyan size={64} />
+    <Qingyan.Color size={64} />
   </Flexbox>
 );
 ```
@@ -23,21 +23,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Zhipu } from '@lobehub/icons';
+import { Qingyan } from '@lobehub/icons';
 
-export default () => <Zhipu.Text size={48} />;
+export default () => <Qingyan.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Zhipu } from '@lobehub/icons';
+import { Qingyan } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16}>
-    <Zhipu.Combine size={64} />
-    <Zhipu.Combine size={64} type={'color'} />
+    <Qingyan.Combine size={64} />
+    <Qingyan.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -45,13 +45,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Zhipu } from '@lobehub/icons';
+import { Qingyan } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Zhipu.Avatar size={64} />
-    <Zhipu.Avatar size={64} shape={'square'} />
+    <Qingyan.Avatar size={64} />
+    <Qingyan.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -59,14 +59,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Zhipu } from '@lobehub/icons';
+import { Qingyan } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Zhipu.colorPrimary} />
+    <ColorPreview color={Qingyan.colorPrimary} />
   </Flexbox>
 );
 ```
