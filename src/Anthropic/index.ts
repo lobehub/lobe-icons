@@ -5,7 +5,7 @@ import { COLOR_PRIMARY } from './style';
 
 export type CompoundedIcon = typeof Mono & {
   Avatar: typeof Avatar;
-  Mono: typeof Mono;
+
   Text: typeof Text;
   colorPrimary: string;
 };

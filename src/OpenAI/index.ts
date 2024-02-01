@@ -7,7 +7,7 @@ import { COLOR_GPT_3, COLOR_GPT_4, COLOR_PRIMARY } from './style';
 export type CompoundedIcon = typeof Mono & {
   Avatar: typeof Avatar;
   Combine: typeof Combine;
-  Mono: typeof Mono;
+
   Text: typeof Text;
   colorGpt3: string;
   colorGpt4: string;

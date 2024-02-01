@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Icons
-title: Qingyan (智谱清言)
+title: Zhipu (智谱清言)
 atomId: Qingyan
 description: https://chatglm.cn
 ---

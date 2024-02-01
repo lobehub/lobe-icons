@@ -3,7 +3,7 @@ nav: Components
 group: Icons
 title: Zhipu (智谱)
 atomId: Zhipu
-description: https://chatglm.cn
+description: https://zhipuai.cn
 ---
 
 ## Icons

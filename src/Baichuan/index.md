@@ -3,7 +3,7 @@ nav: Components
 group: Icons
 title: Baichuan (百川)
 atomId: Baichuan
-description: https://www.baichuan-ai.com
+description: https://baichuan-ai.com
 ---
 
 ## Icons

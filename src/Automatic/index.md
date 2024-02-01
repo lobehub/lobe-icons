@@ -8,7 +8,9 @@ description: https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
 ## Icons
 
-Not Official: <https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/2901>
+**Not Official**: This icon has not been verified by the official source and comes from the online community.
+
+<https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/2901>
 
 ```tsx
 import { Automatic } from '@lobehub/icons';

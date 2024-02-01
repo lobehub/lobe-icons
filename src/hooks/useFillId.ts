@@ -5,3 +5,14 @@ export const useFillId = (namespace: string) => {
     id,
   };
 };
+
+export const useFillIds = (namespace: string, length: number) => {
+  const ids = Array.from({ length }, (_, i) => {
+    const id = `lobe-icons-${namespace}-fill-${i}`;
+    return {
+      fill: `url(#${id})`,
+      id,
+    };
+  });
+  return ids;
+};

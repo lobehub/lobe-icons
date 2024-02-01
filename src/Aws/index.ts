@@ -13,7 +13,7 @@ export type CompoundedIcon = typeof Mono & {
   BrandColor: typeof BrandColor;
   Color: typeof Color;
   Combine: typeof Combine;
-  Mono: typeof Mono;
+
   Text: typeof Text;
   colorPrimary: string;
 };

@@ -9,7 +9,7 @@ export type CompoundedIcon = typeof Mono & {
   Avatar: typeof Avatar;
   Color: typeof Color;
   Combine: typeof Combine;
-  Mono: typeof Mono;
+
   Text: typeof Text;
 
   colorPrimary: string;
