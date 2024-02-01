@@ -9,6 +9,7 @@ export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
 export { default as Gemini, type CompoundedIcon as GeminiProps } from './Gemini';
 export { default as IconAvatar, type IconAvatarProps } from './IconAvatar';
 export { default as IconCombine, type IconCombineProps } from './IconCombine';
+export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from './Midjourney';
 export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
 export { default as Mistral, type CompoundedIcon as MistralProps } from './Mistral';
 export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama';
