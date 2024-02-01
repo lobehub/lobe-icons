@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.6.0](https://github.com/lobehub/lobe-icons/compare/v1.5.0...v1.6.0)
+
+<sup>Released on **2024-02-01**</sup>
+
+#### ✨ Features
+
+- **misc**: Add midjourney.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add midjourney ([49f2030](https://github.com/lobehub/lobe-icons/commit/49f2030))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.5.0](https://github.com/lobehub/lobe-icons/compare/v1.4.0...v1.5.0)
 
 <sup>Released on **2024-02-01**</sup>
