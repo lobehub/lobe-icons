@@ -8,16 +8,16 @@
 
 <h1>Lobe Icons</h1>
 
-Popular LLM model brand svg logo and icon collection
+Popular AI / LLM model brand svg logo and icon collection
 
-English ・ [Changelog](./CHANGELOG.md) · [Report Bug][github-issues-link] · [Request Feature][github-issues-link]
+[Changelog](./CHANGELOG.md) · [Report Bug][github-issues-link] · [Request Feature][github-issues-link]
 
 <!-- SHIELD GROUP -->
 
 [![][npm-release-shield]][npm-release-link]
 [![][vercel-shield]][vercel-link]
 [![][discord-shield]][discord-link]
-[![][npm-downloads-shield]][npm-downloads-link]
+[![][npm-downloads-shield]][npm-downloads-link]<br/>
 [![][github-releasedate-shield]][github-releasedate-link]
 [![][github-action-test-shield]][github-action-test-link]
 [![][github-action-release-shield]][github-action-release-link]<br/>
@@ -27,7 +27,7 @@ English ・ [Changelog](./CHANGELOG.md) · [Report Bug][github-issues-link] · [
 [![][github-issues-shield]][github-issues-link]
 [![][github-license-shield]][github-license-link]
 
-![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![](https://github.com/lobehub/lobe-icons/assets/17870709/328b3ebd-0c28-41fe-a81c-34f6c70b0630)
 
 </div>
 
@@ -196,5 +196,5 @@ This project is [MIT](./LICENSE) licensed.
 [pr-welcome-link]: https://github.com/lobehub/lobe-chat/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/🤯_pr_welcome-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-link]: https://github.com/lobehub
-[vercel-link]: https://ui.lobehub.com
+[vercel-link]: https://icons.lobehub.com
 [vercel-shield]: https://img.shields.io/website?down_message=offline&label=vercel&labelColor=black&logo=vercel&style=flat-square&up_message=online&url=https%3A%2F%2Fui.lobehub.com
