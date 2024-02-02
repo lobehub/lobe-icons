@@ -1,12 +1,9 @@
 import { Features, FeaturesProps } from '@lobehub/ui';
-import { Segmented } from 'antd';
 import { createStyles } from 'antd-style';
 import { Expand, GitPullRequest, Trees } from 'lucide-react';
-import { useState } from 'react';
 import { Center } from 'react-layout-kit';
 
 import Dashboard from '@/components/Dashboard';
-import DashboardText from '@/components/Dashboard/Text';
 
 const items: FeaturesProps['items'] = [
   {
@@ -45,23 +42,11 @@ const useStyles = createStyles(({ css, token }) => ({
 }));
 
 export default () => {
-  const [avtive, setActive] = useState('icons');
   const { styles } = useStyles();
 
   return (
     <Center className={styles.container} gap={16}>
-      <Segmented
-        className={styles.segmented}
-        onChange={(v) => setActive(v as any)}
-        options={[
-          { label: 'Brand Icons', value: 'icons' },
-          { label: 'Brand Texts', value: 'texts' },
-        ]}
-        size={'large'}
-        value={avtive}
-      />
-      {avtive === 'icons' && <Dashboard className={styles.dashboard} />}
-      {avtive === 'texts' && <DashboardText className={styles.dashboard} />}
+      <Dashboard className={styles.dashboard} />
       <Features items={items} />
     </Center>
   );
