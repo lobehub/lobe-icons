@@ -1,5 +1,7 @@
 ---
 hero:
   title: LobeHub <b>Icons</b>
-  description: Popular LLM model brand svg logo and icon collection
+  description: Popular AI / LLM Model Brand SVG Logo and Icon Collection
 ---
+
+<code src="./index.tsx" inline></code>

@@ -54,9 +54,6 @@ export default () => (
 ## Colors
 
 ```tsx
-/**
- * inline: true
- */
 import { Fireworks } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 

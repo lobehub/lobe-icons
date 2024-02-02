@@ -53,9 +53,6 @@ export default () => (
 ## Colors
 
 ```tsx
-/**
- * inline: true
- */
 import { Ollama } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 

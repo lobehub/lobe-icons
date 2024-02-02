@@ -56,9 +56,6 @@ export default () => (
 ## Colors
 
 ```tsx
-/**
- * inline: true
- */
 import { OpenAI } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 

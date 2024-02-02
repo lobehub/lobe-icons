@@ -8,7 +8,7 @@
 
 <h1>Lobe Icons</h1>
 
-Popular AI / LLM model brand svg logo and icon collection
+Popular AI / LLM Model Brand SVG Logo and Icon Collection
 
 [Changelog](./CHANGELOG.md) · [Report Bug][github-issues-link] · [Request Feature][github-issues-link]
 
@@ -46,6 +46,12 @@ Popular AI / LLM model brand svg logo and icon collection
 ####
 
 </details>
+
+## ✨ Features
+
+- 🚀 **Lightweight & Scalable**: Icons are designed to be lightweight, utilizing highly optimized scalable vector graphics (SVG) for the best performance and quality.
+- 🌳 **Tree Shakable**: The collection is tree-shakable, ensuring that you only import the icons that you use, which helps in reducing the overall bundle size of your project.
+- 👥 **Active Community**: Lobe Icons boasts an active community of designers and developers. Engage with us on platforms like GitHub and Discord to contribute or get support.
 
 ## 📦 Installation
 

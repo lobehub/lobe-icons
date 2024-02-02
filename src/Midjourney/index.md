@@ -53,9 +53,6 @@ export default () => (
 ## Colors
 
 ```tsx
-/**
- * inline: true
- */
 import { Midjourney } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 

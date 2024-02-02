@@ -60,9 +60,6 @@ export default () => (
 ## Colors
 
 ```tsx
-/**
- * inline: true
- */
 import { Bedrock } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 

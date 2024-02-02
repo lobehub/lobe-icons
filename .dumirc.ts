@@ -14,7 +14,7 @@ const themeConfig = {
     },
     {
       link: '/components/anthropic',
-      text: 'Get Started',
+      text: 'View all icons',
       type: 'primary',
     },
   ],
@@ -25,7 +25,6 @@ const themeConfig = {
     sourceUrl: `{github}/tree/master/src/{atomId}/index.tsx`,
   },
   description: 'Lobe UI is an open-source UI component library for building AIGC web apps',
-  docStyle: 'pure',
   footer: 'Made with 🤯 by LobeHub',
   name: 'Icons',
   nav: [
