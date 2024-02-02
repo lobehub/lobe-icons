@@ -36,6 +36,7 @@ Popular AI / LLM Model Brand SVG Logo and Icon Collection
 
 #### TOC
 
+- [✨ Features](#-features)
 - [📦 Installation](#-installation)
   - [Compile with NextJS](#compile-with-nextjs)
 - [⌨️ Local Development](#️-local-development)
@@ -52,6 +53,12 @@ Popular AI / LLM Model Brand SVG Logo and Icon Collection
 - 🚀 **Lightweight & Scalable**: Icons are designed to be lightweight, utilizing highly optimized scalable vector graphics (SVG) for the best performance and quality.
 - 🌳 **Tree Shakable**: The collection is tree-shakable, ensuring that you only import the icons that you use, which helps in reducing the overall bundle size of your project.
 - 👥 **Active Community**: Lobe Icons boasts an active community of designers and developers. Engage with us on platforms like GitHub and Discord to contribute or get support.
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
 
 ## 📦 Installation
 
