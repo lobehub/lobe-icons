@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.8.1](https://github.com/lobehub/lobe-icons/compare/v1.8.0...v1.8.1)
+
+<sup>Released on **2024-02-02**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix ollama icon position.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix ollama icon position ([9d614df](https://github.com/lobehub/lobe-icons/commit/9d614df))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.8.0](https://github.com/lobehub/lobe-icons/compare/v1.7.0...v1.8.0)
 
 <sup>Released on **2024-02-01**</sup>
