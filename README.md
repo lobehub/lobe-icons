@@ -27,7 +27,7 @@ Popular AI / LLM Model Brand SVG Logo and Icon Collection
 [![][github-issues-shield]][github-issues-link]
 [![][github-license-shield]][github-license-link]
 
-![](https://github.com/lobehub/lobe-icons/assets/17870709/328b3ebd-0c28-41fe-a81c-34f6c70b0630)
+![](https://github.com/lobehub/lobe-icons/assets/17870709/7e2c56d2-d7ea-4cb8-842b-22de162d6486)
 
 </div>
 
