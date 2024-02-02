@@ -1,7 +1,8 @@
-import { CopyButton } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { ReactNode, memo, useRef } from 'react';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox, FlexboxProps } from 'react-layout-kit';
+
+import DownloadButton from '@/components/DownloadButton';
 
 const useStyles = createStyles(({ css, token, cx }) => {
   return {
@@ -49,17 +50,23 @@ const useStyles = createStyles(({ css, token, cx }) => {
   };
 });
 
-export interface IconPreviewProps {
+export interface IconPreviewProps extends FlexboxProps {
   children: string | ReactNode;
 }
 
-const IconPreview = memo<IconPreviewProps>(({ children }) => {
-  const { styles } = useStyles();
+const IconPreview = memo<IconPreviewProps>(({ className, children, ...rest }) => {
+  const { cx, styles } = useStyles();
   const ref = useRef<HTMLDivElement>(null);
   const isString = typeof children === 'string';
 
   return (
-    <Flexbox align={'center'} className={styles.container} flex={'none'} justify={'center'}>
+    <Flexbox
+      align={'center'}
+      className={cx(styles.container, className)}
+      flex={'none'}
+      justify={'center'}
+      {...rest}
+    >
       {isString ? (
         <div className={styles.inner} dangerouslySetInnerHTML={{ __html: children }} ref={ref} />
       ) : (
@@ -67,9 +74,20 @@ const IconPreview = memo<IconPreviewProps>(({ children }) => {
           {children}
         </div>
       )}
-      <CopyButton
+      <DownloadButton
         className={styles.btn}
-        content={String(ref?.current?.querySelector('svg')?.outerHTML)}
+        onClick={() => {
+          const svgString = String(ref?.current?.querySelector('svg')?.outerHTML);
+          const blob = new Blob([svgString], { type: 'image/svg+xml;charset=utf-8' });
+          const url = URL.createObjectURL(blob);
+          const downloadLink = document.createElement('a');
+          downloadLink.href = url;
+          downloadLink.download = 'icon.svg';
+          document.body.append(downloadLink);
+          downloadLink.click();
+          downloadLink.remove();
+          URL.revokeObjectURL(url);
+        }}
       />
     </Flexbox>
   );

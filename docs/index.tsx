@@ -1,61 +1,68 @@
-import * as Icons from '@lobehub/icons';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui';
+import { Features, FeaturesProps } from '@lobehub/ui';
+import { Segmented } from 'antd';
 import { createStyles } from 'antd-style';
-import { Flexbox } from 'react-layout-kit';
+import { Expand, GitPullRequest, Trees } from 'lucide-react';
+import { useState } from 'react';
+import { Center } from 'react-layout-kit';
 
-const data = Object.values(Icons).filter((icon: any) => icon?.colorPrimary);
+import Dashboard from '@/components/Dashboard';
+import DashboardText from '@/components/Dashboard/Text';
+
+const items: FeaturesProps['items'] = [
+  {
+    description:
+      'Icons are designed to be lightweight, utilizing highly optimized scalable vector graphics (SVG) for the best performance and quality.',
+    icon: Expand,
+    title: 'Lightweight & Scalable',
+  },
+  {
+    description:
+      'The collection is tree-shakable, ensuring that you only import the icons that you use, which helps in reducing the overall bundle size of your project.',
+    icon: Trees,
+    title: 'Tree Shakable',
+  },
+  {
+    description:
+      'Lobe Icons boasts an active community of designers and developers. Engage with us on platforms like GitHub and Discord to contribute or get support.',
+    icon: GitPullRequest,
+    title: 'Active Community',
+  },
+];
 
 const useStyles = createStyles(({ css, token }) => ({
   container: css`
-    overflow: hidden;
-
-    max-width: 960px;
     margin-top: -4%;
-
+  `,
+  dashboard: css`
+    overflow: hidden;
+    max-width: 960px;
     border: 1px solid ${token.colorBorder};
     border-radius: ${token.borderRadiusLG}px;
   `,
-  item: css`
-    width: 96px;
-    height: 96px;
-    background: ${token.colorBgContainer};
+  segmented: css`
+    border: 1px solid ${token.colorBorder};
   `,
 }));
 
 export default () => {
+  const [avtive, setActive] = useState('icons');
   const { styles } = useStyles();
-  const store = useCreateStore();
-
-  const { size, color, monochrome } = useControls(
-    {
-      color: {
-        color: true,
-        value: '#fff',
-      },
-      monochrome: true,
-      size: {
-        max: 96,
-        min: 16,
-        step: 1,
-        value: 48,
-      },
-    },
-    { store },
-  );
 
   return (
-    <StoryBook className={styles.container} levaStore={store}>
-      <Flexbox align={'center'} gap={4} horizontal justify={'center'} style={{ flexWrap: 'wrap' }}>
-        {data.map((Icon: any, index) => {
-          const IconRender = !monochrome && Icon.Color ? Icon.Color : Icon;
-
-          return (
-            <Flexbox align={'center'} className={styles.item} justify={'center'} key={index}>
-              <IconRender color={color === '#fff' ? undefined : color} size={size} />
-            </Flexbox>
-          );
-        })}
-      </Flexbox>
-    </StoryBook>
+    <Center className={styles.container} gap={16}>
+      <Segmented
+        className={styles.segmented}
+        onChange={(v) => setActive(v as any)}
+        options={[
+          { label: 'Brand Icons', value: 'icons' },
+          { label: 'Brand Texts', value: 'texts' },
+        ]}
+        size={'large'}
+        value={avtive}
+      />
+      {avtive === 'icons' && <Dashboard className={styles.dashboard} />}
+      {avtive === 'texts' && <DashboardText className={styles.dashboard} />}
+      <Features items={items} />
+    </Center>
   );
 };
