@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.10.0](https://github.com/lobehub/lobe-icons/compare/v1.9.0...v1.10.0)
+
+<sup>Released on **2024-02-02**</sup>
+
+#### ✨ Features
+
+- **misc**: Add more ai brand.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add more ai brand ([8e63d1b](https://github.com/lobehub/lobe-icons/commit/8e63d1b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.9.0](https://github.com/lobehub/lobe-icons/compare/v1.8.1...v1.9.0)
 
 <sup>Released on **2024-02-02**</sup>
