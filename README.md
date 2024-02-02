@@ -176,7 +176,7 @@ This project is [MIT](./LICENSE) licensed.
 [bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
 [codespaces-link]: https://codespaces.new/lobehub/lobe-icons
 [codespaces-shield]: https://github.com/codespaces/badge.svg
-[contributors-contrib]: https://contrib.rocks/image?repo=lobehub/lobe-icons
+[contributors-contrib]: https://contrib.rocks/image?repo=lobehub/icons
 [contributors-link]: https://github.com/lobehub/lobe-icons/graphs/contributors
 [discord-link]: https://discord.gg/AYFPHvv2jT
 [discord-shield]: https://img.shields.io/discord/1127171173982154893?color=5865F2&label=discord&labelColor=black&logo=discord&logoColor=white&style=flat-square
