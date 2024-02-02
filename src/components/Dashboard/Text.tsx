@@ -25,7 +25,7 @@ const Dashboard = memo<{ className: string }>(({ className }) => {
     {
       color: {
         color: true,
-        value: '#fff',
+        value: '#ffffff',
       },
       size: {
         max: 96,
@@ -45,7 +45,7 @@ const Dashboard = memo<{ className: string }>(({ className }) => {
           if (!IconRender) return null;
           return (
             <IconPreview className={styles.item} key={index}>
-              <IconRender color={color === '#fff' ? undefined : color} size={size} />
+              <IconRender color={color === '#ffffff' ? undefined : color} size={size} />
             </IconPreview>
           );
         })}
