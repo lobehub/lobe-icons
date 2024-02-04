@@ -94,7 +94,7 @@
     "eslint": "^8",
     "father": "4.3.1",
     "husky": "^8",
-    "jsdom": "^23",
+    "jsdom": "^24.0.0",
     "lint-staged": "^15",
     "lucide-react": "latest",
     "prettier": "^3",
