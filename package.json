@@ -103,7 +103,7 @@
     "remark": "^14",
     "remark-cli": "^11",
     "semantic-release": "^21",
-    "stylelint": "^15",
+    "stylelint": "^16.0.0",
     "svgo-browser": "^1",
     "typescript": "^5",
     "vitest": "latest"
