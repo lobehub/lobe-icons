@@ -54,6 +54,49 @@ Popular AI / LLM Model Brand SVG Logo and Icon Collection
 - 🌳 **Tree Shakable**: The collection is tree-shakable, ensuring that you only import the icons that you use, which helps in reducing the overall bundle size of your project.
 - 👥 **Active Community**: Lobe Icons boasts an active community of designers and developers. Engage with us on platforms like GitHub and Discord to contribute or get support.
 
+**Supported brands:**
+
+- [x] Anthropic (Claude)
+- [x] Automatic1111 (SD Webui)
+- [x] AWS
+- [x] AWS (Bedrock)
+- [x] Baichuan (百川)
+- [x] Cloudflare
+- [x] Cloudflare (WorkersAI)
+- [x] Cohere (Command)
+- [x] Fireworks
+- [x] Github
+- [x] Github (Copilot)
+- [x] Google
+- [x] Google (DeepMind)
+- [x] Google (Gemini)
+- [x] HuggingFace
+- [x] Hunyuan (腾讯混元)
+- [x] Meta (Llama)
+- [x] Microsoft (Azure)
+- [x] Microsoft (Bing)
+- [x] Microsoft (Copilot)
+- [x] Midjourney
+- [x] Minimax
+- [x] Mistral
+- [x] Moonshot (月之暗面)
+- [x] Ollama
+- [x] OpenAI (ChatGPT)
+- [x] OpenAI (DALL·E)
+- [x] Perplexity
+- [x] Pollinations
+- [x] Replicate
+- [x] Spark (讯飞星火)
+- [x] Stability (StableDiffusion)
+- [x] Tongyi (通义)
+- [x] Wenxin (文心)
+- [x] Zhipu (ChatGLM)
+- [x] Zhipu (智谱)
+- [x] Zhipu (智谱清言)
+
+> \[!TIP]\
+> More brands are being added, and `PR` is welcome at the same time.
+
 <div align="right">
 
 [![][back-to-top]](#readme-top)
