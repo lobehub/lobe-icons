@@ -102,7 +102,7 @@
     "react-dom": "^18",
     "remark": "^14",
     "remark-cli": "^11",
-    "semantic-release": "^21",
+    "semantic-release": "^23.0.0",
     "stylelint": "^15",
     "svgo-browser": "^1",
     "typescript": "^5",
