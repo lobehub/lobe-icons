@@ -100,7 +100,7 @@
     "prettier": "^3",
     "react": "^18",
     "react-dom": "^18",
-    "remark": "^14",
+    "remark": "^15.0.0",
     "remark-cli": "^11",
     "semantic-release": "^21",
     "stylelint": "^15",
