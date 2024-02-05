@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.10.3](https://github.com/lobehub/lobe-icons/compare/v1.10.2...v1.10.3)
+
+<sup>Released on **2024-02-05**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix svg id.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix svg id ([f7c69b9](https://github.com/lobehub/lobe-icons/commit/f7c69b9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.2](https://github.com/lobehub/lobe-icons/compare/v1.10.1...v1.10.2)
 
 <sup>Released on **2024-02-02**</sup>
