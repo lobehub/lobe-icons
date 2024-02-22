@@ -68,7 +68,9 @@ Popular AI / LLM Model Brand SVG Logo and Icon Collection
 - [x] Github
 - [x] Github (Copilot)
 - [x] Google
+- [x] Google (Colab)
 - [x] Google (DeepMind)
+- [x] Google (Gemina)
 - [x] Google (Gemini)
 - [x] HuggingFace
 - [x] Hunyuan (腾讯混元)
@@ -80,6 +82,7 @@ Popular AI / LLM Model Brand SVG Logo and Icon Collection
 - [x] Minimax
 - [x] Mistral
 - [x] Moonshot (月之暗面)
+- [x] Nvidia (ChatWithRTX)
 - [x] Ollama
 - [x] OpenAI (ChatGPT)
 - [x] OpenAI (DALL·E)

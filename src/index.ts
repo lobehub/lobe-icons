@@ -8,11 +8,13 @@ export { default as Bing, type CompoundedIcon as BingProps } from './Bing';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';
 export { default as Cloudflare, type CompoundedIcon as CloudflareProps } from './Cloudflare';
 export { default as Cohere, type CompoundedIcon as CohereProps } from './Cohere';
+export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
 export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
 export { default as DeepMind, type CompoundedIcon as DeepMindProps } from './DeepMind';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
 export { default as Gemini, type CompoundedIcon as GeminiProps } from './Gemini';
+export { default as Gemma, type CompoundedIcon as GemmaProps } from './Gemma';
 export { default as Github, type CompoundedIcon as GithubProps } from './Github';
 export {
   default as GithubCopilot,
@@ -28,6 +30,7 @@ export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from '.
 export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
 export { default as Mistral, type CompoundedIcon as MistralProps } from './Mistral';
 export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moonshot';
+export { default as Nvidia, type CompoundedIcon as NvidiaProps } from './Nvidia';
 export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama';
 export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './OpenAI';
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './Perplexity';
