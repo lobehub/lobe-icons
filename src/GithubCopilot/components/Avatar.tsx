@@ -9,7 +9,7 @@ export type AvatarProps = Omit<IconAvatarProps, 'Icon'>;
 
 const Avatar = memo<AvatarProps>(({ background, ...rest }) => {
   return (
-    <IconAvatar Icon={Mono} background={background || COLOR_PRIMARY} color={'#000'} {...rest} />
+    <IconAvatar Icon={Mono} background={background || COLOR_PRIMARY} color={'#fff'} {...rest} />
   );
 });
 
