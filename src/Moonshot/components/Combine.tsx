@@ -13,6 +13,7 @@ const Combine = memo<CombineProps>(({ ...rest }) => {
     <IconCombine
       Icon={Mono}
       Text={Text as any}
+      aria-label={'Moonshot AI'}
       spaceMultiple={SPACE_MULTIPLE}
       textMultiple={TEXT_MULTIPLE}
       {...rest}

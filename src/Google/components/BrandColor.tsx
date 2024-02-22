@@ -5,6 +5,7 @@ import type { IconType } from '@/types';
 const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
   return (
     <svg
+      aria-label={'Google'}
       height={size}
       ref={ref}
       style={{ flex: 'none', lineHeight: 1, width: 'fit-content', ...style }}

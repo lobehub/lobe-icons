@@ -33,7 +33,14 @@ const IconCombine = memo<IconCombineProps>(
     ...rest
   }) => {
     return (
-      <Flexbox align={'center'} flex={'none'} horizontal style={{ color, ...style }} {...rest}>
+      <Flexbox
+        align={'center'}
+        flex={'none'}
+        horizontal
+        justify={'flex-start'}
+        style={{ color, ...style }}
+        {...rest}
+      >
         {showLogo && <Icon size={size} style={{ marginRight: size * spaceMultiple }} />}
         {showText && Text && <Text size={size * textMultiple} />}
         {extra && (
