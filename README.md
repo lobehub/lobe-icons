@@ -70,8 +70,8 @@ Popular AI / LLM Model Brand SVG Logo and Icon Collection
 - [x] Google
 - [x] Google (Colab)
 - [x] Google (DeepMind)
-- [x] Google (Gemina)
 - [x] Google (Gemini)
+- [x] Google (Gemma)
 - [x] HuggingFace
 - [x] Hunyuan (腾讯混元)
 - [x] Meta (Llama)
