@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.11.0](https://github.com/lobehub/lobe-icons/compare/v1.10.3...v1.11.0)
+
+<sup>Released on **2024-02-22**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Gemina Colab Nvidia.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Gemina Colab Nvidia ([8472d5c](https://github.com/lobehub/lobe-icons/commit/8472d5c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.10.3](https://github.com/lobehub/lobe-icons/compare/v1.10.2...v1.10.3)
 
 <sup>Released on **2024-02-05**</sup>
