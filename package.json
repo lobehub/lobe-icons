@@ -83,7 +83,7 @@
     "@types/react": "18.2.40",
     "@types/react-dom": "^18",
     "@vitest/coverage-v8": "latest",
-    "antd": "^5.13.3",
+    "antd": "^5.14.1",
     "antd-style": "^3",
     "babel-plugin-antd-style": "latest",
     "commitlint": "^18",
@@ -109,10 +109,8 @@
     "vitest": "latest"
   },
   "peerDependencies": {
-    "polished": ">=4",
     "react": ">=18",
-    "react-dom": ">=18",
-    "react-layout-kit": ">=1"
+    "react-dom": ">=18"
   },
   "publishConfig": {
     "access": "public",

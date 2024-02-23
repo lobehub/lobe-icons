@@ -20,6 +20,15 @@ export default () => (
 );
 ```
 
+## Simple
+
+```tsx
+import { Gemma } from '@lobehub/icons';
+import { Flexbox } from 'react-layout-kit';
+
+export default () => <Gemma.Simple size={64} />;
+```
+
 ## Text
 
 ```tsx
