@@ -8,7 +8,8 @@
 
 <h1>Lobe Icons</h1>
 
-Popular AI / LLM Model Brand SVG Logo and Icon Collection
+Popular AI / LLM Model Brand SVG Logo and Icon Collection. See them all on one page at [icons.lobehub.com](https://icons.lobehub.com/).<br/>
+Contributions, corrections & requests can be made on GitHub.
 
 [Changelog](./CHANGELOG.md) · [Report Bug][github-issues-link] · [Request Feature][github-issues-link]
 
