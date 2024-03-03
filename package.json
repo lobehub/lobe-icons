@@ -74,7 +74,7 @@
     "react-layout-kit": "^1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18",
+    "@commitlint/cli": "^19.0.0",
     "@lobehub/lint": "latest",
     "@lobehub/ui": "^1",
     "@testing-library/react": "^14",
