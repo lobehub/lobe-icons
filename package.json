@@ -86,7 +86,7 @@
     "antd": "^5.14.1",
     "antd-style": "^3",
     "babel-plugin-antd-style": "latest",
-    "commitlint": "^18",
+    "commitlint": "^19.0.0",
     "concurrently": "^8",
     "cross-env": "^7",
     "dumi": "^2",
