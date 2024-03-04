@@ -3,8 +3,10 @@ import { forwardRef } from 'react';
 import { useFillId } from '@/hooks/useFillId';
 import type { IconType } from '@/types';
 
+import { TITLE } from '../style';
+
 const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
-  const { id, fill } = useFillId('wenxin');
+  const { id, fill } = useFillId(TITLE);
 
   return (
     <svg
@@ -16,6 +18,7 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
+      <title>{TITLE}</title>
       <defs>
         <linearGradient id={id} x1="9.155%" x2="90.531%" y1="75.177%" y2="25.028%">
           <stop offset="0%" stopColor="#0A51C3"></stop>

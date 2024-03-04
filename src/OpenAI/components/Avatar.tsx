@@ -2,7 +2,7 @@ import { memo } from 'react';
 
 import IconAvatar, { type IconAvatarProps } from '@/IconAvatar';
 
-import { COLOR_GPT_3, COLOR_GPT_4, COLOR_PRIMARY } from '../style';
+import { COLOR_GPT_3, COLOR_GPT_4, COLOR_PRIMARY, TITLE } from '../style';
 import Mono from './Mono';
 
 export interface AvatarProps extends Omit<IconAvatarProps, 'Icon'> {
@@ -26,7 +26,7 @@ const Avatar = memo<AvatarProps>(({ background, type = 'normal', ...rest }) => {
     }
   }
 
-  return <IconAvatar Icon={Mono} background={bg} {...rest} />;
+  return <IconAvatar Icon={Mono} aria-label={TITLE} background={bg} {...rest} />;
 });
 
 export default Avatar;

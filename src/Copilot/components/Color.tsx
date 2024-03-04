@@ -3,8 +3,10 @@ import { forwardRef } from 'react';
 import { useFillIds } from '@/hooks/useFillId';
 import type { IconType } from '@/types';
 
+import { TITLE } from '../style';
+
 const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
-  const [a, b, c, d, e, f] = useFillIds('copilot', 6);
+  const [a, b, c, d, e, f] = useFillIds(TITLE, 6);
   return (
     <svg
       height={size}
@@ -15,6 +17,7 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
+      <title>{TITLE}</title>
       <defs>
         <radialGradient
           cx="85.44%"

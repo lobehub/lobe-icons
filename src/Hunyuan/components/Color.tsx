@@ -2,6 +2,8 @@ import { forwardRef } from 'react';
 
 import type { IconType } from '@/types';
 
+import { TITLE } from '../style';
+
 const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
   return (
     <svg
@@ -13,6 +15,7 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
+      <title>{TITLE}</title>
       <g fill="none" fillRule="evenodd">
         <circle cx="12" cy="12" fill="#0055E9" r="12"></circle>
         <path

@@ -2,7 +2,7 @@ import { memo } from 'react';
 
 import IconCombine, { type IconCombineProps } from '@/IconCombine';
 
-import { SPACE_MULTIPLE, TEXT_MULTIPLE } from '../style';
+import { SPACE_MULTIPLE, TEXT_MULTIPLE, TITLE } from '../style';
 import Color from './Color';
 import Mono from './Mono';
 import Text from './Text';
@@ -17,6 +17,7 @@ const Combine = memo<CombineProps>(({ type = 'mono', extraStyle, ...rest }) => {
     <IconCombine
       Icon={Icon}
       Text={Text}
+      aria-label={TITLE}
       extraStyle={{ fontWeight: 500, ...extraStyle }}
       spaceMultiple={SPACE_MULTIPLE}
       textMultiple={TEXT_MULTIPLE}

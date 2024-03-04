@@ -8,6 +8,7 @@ import { useSvgo } from '@/components/Editor/useSvgo';
 import Color from './Color';
 import Mono from './Mono';
 import Preview from './Preview';
+import Text from './Text';
 import { svgIcon } from './data';
 import { defaultPlugins } from './svgo';
 
@@ -27,12 +28,13 @@ export default () => {
   const [monoSvg, setMonoSvg] = useState<string>('');
   const { styles } = useStyles();
   const levaStore = useCreateStore();
-  const { svg } = useControls(
+  const { svg, text } = useControls(
     {
       svg: {
         rows: true,
         value: svgIcon,
       },
+      text: false,
     },
     { store: levaStore },
   );
@@ -79,7 +81,12 @@ export default () => {
           title={'Compression'}
         />
         <Preview precent={mono.precent} ref={monoRef} svg={mono.svg} title={'Monochrome'} />
-        <Mono svg={monoSvg} title={'Mono'} viewbox={viewbox} />
+        {text ? (
+          <Text svg={monoSvg} title={'Text'} viewbox={viewbox} />
+        ) : (
+          <Mono svg={monoSvg} title={'Mono'} viewbox={viewbox} />
+        )}
+
         <Color svg={colorSvg} title={'Color'} viewbox={viewbox} />
       </Flexbox>
     </StoryBook>

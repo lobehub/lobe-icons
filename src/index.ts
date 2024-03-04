@@ -25,6 +25,7 @@ export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from 
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
 export { default as IconAvatar, type IconAvatarProps } from './IconAvatar';
 export { default as IconCombine, type IconCombineProps } from './IconCombine';
+export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
 export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from './Midjourney';
 export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
@@ -33,6 +34,7 @@ export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moo
 export { default as Nvidia, type CompoundedIcon as NvidiaProps } from './Nvidia';
 export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama';
 export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './OpenAI';
+export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './OpenRouter';
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './Perplexity';
 export { default as Pollinations, type CompoundedIcon as PollinationsProps } from './Pollinations';
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';

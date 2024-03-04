@@ -1,3 +1,4 @@
+export const TITLE = 'Minimax';
 export const TEXT_MULTIPLE = 0.45;
 export const SPACE_MULTIPLE = 0.15;
 export const COLOR_PRIMARY = '#F23F5D';

@@ -2,6 +2,8 @@ import { forwardRef } from 'react';
 
 import type { IconType } from '@/types';
 
+import { TITLE } from '../style';
+
 const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
   return (
     <svg
@@ -13,6 +15,7 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
+      <title>{TITLE}</title>
       <g fill="none" fillRule="nonzero">
         <path
           d="M24 12.267c0-.987-.082-1.707-.258-2.454H12.245v4.454h6.748c-.136 1.106-.87 2.773-2.503 3.893l-.023.149 3.635 2.76.252.024C22.667 19 24 15.92 24 12.267"

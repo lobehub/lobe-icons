@@ -3,8 +3,10 @@ import { forwardRef } from 'react';
 import { useFillId } from '@/hooks/useFillId';
 import type { IconType } from '@/types';
 
+import { TITLE } from '../style';
+
 const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
-  const { id, fill } = useFillId('gemini-brand');
+  const { id, fill } = useFillId(`${TITLE}-brand`);
   return (
     <svg
       height={size}
@@ -14,6 +16,7 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
+      <title>{TITLE}</title>
       <defs>
         <radialGradient
           cx="67.977%"

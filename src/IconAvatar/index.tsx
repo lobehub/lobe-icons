@@ -4,7 +4,7 @@ import { Flexbox, type FlexboxProps } from 'react-layout-kit';
 import { IconType } from '@/types';
 
 export interface IconAvatarProps extends Omit<FlexboxProps, 'children'> {
-  Icon: IconType;
+  Icon?: IconType;
   background?: string;
   color?: string;
   iconClassName?: string;
@@ -40,7 +40,7 @@ const IconAvatar = memo<IconAvatarProps>(
           ...style,
         }}
       >
-        <Icon className={iconClassName} size={size * iconMultiple} style={iconStyle} />
+        {Icon && <Icon className={iconClassName} size={size * iconMultiple} style={iconStyle} />}
       </Flexbox>
     );
   },

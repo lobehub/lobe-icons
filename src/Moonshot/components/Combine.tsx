@@ -2,7 +2,7 @@ import { memo } from 'react';
 
 import IconCombine, { type IconCombineProps } from '@/IconCombine';
 
-import { SPACE_MULTIPLE, TEXT_MULTIPLE } from '../style';
+import { SPACE_MULTIPLE, TEXT_MULTIPLE, TITLE } from '../style';
 import Mono from './Mono';
 import Text from './Text';
 
@@ -13,7 +13,7 @@ const Combine = memo<CombineProps>(({ ...rest }) => {
     <IconCombine
       Icon={Mono}
       Text={Text as any}
-      aria-label={'Moonshot AI'}
+      aria-label={TITLE}
       spaceMultiple={SPACE_MULTIPLE}
       textMultiple={TEXT_MULTIPLE}
       {...rest}
