@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.12.0](https://github.com/lobehub/lobe-icons/compare/v1.11.2...v1.12.0)
+
+<sup>Released on **2024-03-04**</sup>
+
+#### ✨ Features
+
+- **misc**: Add OpenRouter and LLaVA.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add OpenRouter and LLaVA ([7997637](https://github.com/lobehub/lobe-icons/commit/7997637))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.11.2](https://github.com/lobehub/lobe-icons/compare/v1.11.1...v1.11.2)
 
 <sup>Released on **2024-02-23**</sup>
