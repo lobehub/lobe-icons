@@ -97,7 +97,7 @@
     "father": "4",
     "front-matter": "^4",
     "glob": "^10",
-    "husky": "^8",
+    "husky": "^9.0.0",
     "jsdom": "^23",
     "lint-staged": "^15",
     "lodash-es": "^4",
