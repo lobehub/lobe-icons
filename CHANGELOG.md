@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.13.0](https://github.com/lobehub/lobe-icons/compare/v1.12.0...v1.13.0)
+
+<sup>Released on **2024-03-05**</sup>
+
+#### ✨ Features
+
+- **misc**: Add new Claude icon and Groq.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add new Claude icon and Groq ([97fb5ed](https://github.com/lobehub/lobe-icons/commit/97fb5ed))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.12.0](https://github.com/lobehub/lobe-icons/compare/v1.11.2...v1.12.0)
 
 <sup>Released on **2024-03-04**</sup>
