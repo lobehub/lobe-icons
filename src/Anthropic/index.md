@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Icons
-title: Anthropic (Claude)
+title: Anthropic
 atomId: Anthropic
 description: https://anthropic.com
 ---

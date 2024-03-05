@@ -57,49 +57,57 @@ Contributions, corrections & requests can be made on GitHub.
 
 **Supported brands:**
 
-- [x] Anthropic (Claude)
-- [x] Automatic1111 (SD Webui)
-- [x] AWS
-- [x] AWS (Bedrock)
-- [x] Baichuan (百川)
-- [x] Cloudflare
-- [x] Cloudflare (WorkersAI)
-- [x] Cohere (Command)
-- [x] Fireworks
-- [x] Github
-- [x] Github (Copilot)
-- [x] Google
-- [x] Google (Colab)
-- [x] Google (DeepMind)
-- [x] Google (Gemini)
-- [x] Google (Gemma)
-- [x] HuggingFace
-- [x] Hunyuan (腾讯混元)
-- [x] Meta (Llama)
-- [x] Microsoft (Azure)
-- [x] Microsoft (Bing)
-- [x] Microsoft (Copilot)
-- [x] Midjourney
-- [x] Minimax
-- [x] Mistral
-- [x] Moonshot (月之暗面)
-- [x] Nvidia (ChatWithRTX)
-- [x] Ollama
-- [x] OpenAI (ChatGPT)
-- [x] OpenAI (DALL·E)
-- [x] Perplexity
-- [x] Pollinations
-- [x] Replicate
-- [x] Spark (讯飞星火)
-- [x] Stability (StableDiffusion)
-- [x] Tongyi (通义)
-- [x] Wenxin (文心)
-- [x] Zhipu (ChatGLM)
-- [x] Zhipu (智谱)
-- [x] Zhipu (智谱清言)
+<!-- ICON LIST -->
+
+- [x] [Zhipu (智谱)](https://icons.lobehub.com/components/zhipu)
+- [x] [Cloudflare (WorkersAI)](https://icons.lobehub.com/components/workers-ai)
+- [x] [Wenxin (文心)](https://icons.lobehub.com/components/wenxin)
+- [x] [Tongyi (通义)](https://icons.lobehub.com/components/tongyi)
+- [x] [Stability (StableDiffusion)](https://icons.lobehub.com/components/stability)
+- [x] [Spark (讯飞星火)](https://icons.lobehub.com/components/spark)
+- [x] [Replicate](https://icons.lobehub.com/components/replicate)
+- [x] [Zhipu (智谱清言)](https://icons.lobehub.com/components/qingyan)
+- [x] [Pollinations](https://icons.lobehub.com/components/pollinations)
+- [x] [Perplexity](https://icons.lobehub.com/components/perplexity)
+- [x] [OpenRouter](https://icons.lobehub.com/components/open-router)
+- [x] [OpenAI (ChatGPT)](https://icons.lobehub.com/components/open-ai)
+- [x] [Ollama](https://icons.lobehub.com/components/ollama)
+- [x] [Nvidia (ChatWithRTX)](https://icons.lobehub.com/components/nvidia)
+- [x] [Moonshot (月之暗面)](https://icons.lobehub.com/components/moonshot)
+- [x] [Mistral](https://icons.lobehub.com/components/mistral)
+- [x] [Minimax](https://icons.lobehub.com/components/minimax)
+- [x] [Midjourney](https://icons.lobehub.com/components/midjourney)
+- [x] [Meta (Llama)](https://icons.lobehub.com/components/meta)
+- [x] [LLaVA](https://icons.lobehub.com/components/l-la-va)
+- [x] [Hunyuan (腾讯混元)](https://icons.lobehub.com/components/hunyuan)
+- [x] [HuggingFace](https://icons.lobehub.com/components/hugging-face)
+- [x] [Groq](https://icons.lobehub.com/components/groq)
+- [x] [Google](https://icons.lobehub.com/components/google)
+- [x] [Github (Copilot)](https://icons.lobehub.com/components/github-copilot)
+- [x] [Github](https://icons.lobehub.com/components/github)
+- [x] [Google (Gemma)](https://icons.lobehub.com/components/gemma)
+- [x] [Google (Gemini)](https://icons.lobehub.com/components/gemini)
+- [x] [Fireworks](https://icons.lobehub.com/components/fireworks)
+- [x] [Google (DeepMind)](https://icons.lobehub.com/components/deep-mind)
+- [x] [OpenAI (DALL·E)](https://icons.lobehub.com/components/dalle)
+- [x] [Microsoft (Copilot)](https://icons.lobehub.com/components/copilot)
+- [x] [Google (Colab)](https://icons.lobehub.com/components/colab)
+- [x] [Cohere (Command)](https://icons.lobehub.com/components/cohere)
+- [x] [Cloudflare](https://icons.lobehub.com/components/cloudflare)
+- [x] [Anthropic (Claude)](https://icons.lobehub.com/components/claude)
+- [x] [Zhipu (ChatGLM)](https://icons.lobehub.com/components/chat-glm)
+- [x] [Microsoft (Bing)](https://icons.lobehub.com/components/bing)
+- [x] [AWS (Bedrock)](https://icons.lobehub.com/components/bedrock)
+- [x] [Baichuan (百川)](https://icons.lobehub.com/components/baichuan)
+- [x] [Microsoft (Azure)](https://icons.lobehub.com/components/azure)
+- [x] [AWS](https://icons.lobehub.com/components/aws)
+- [x] [Automatic1111 (SD Webui)](https://icons.lobehub.com/components/automatic)
+- [x] [Anthropic](https://icons.lobehub.com/components/anthropic)
+
+ <!-- ICON LIST -->
 
 > \[!TIP]\
-> More brands are being added, and `PR` is welcome at the same time.
+> More brands are being added, and `PR` welcome.
 
 <div align="right">
 

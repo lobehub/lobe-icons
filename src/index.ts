@@ -6,6 +6,7 @@ export { default as Baichuan, type CompoundedIcon as BaichuanProps } from './Bai
 export { default as Bedrock, type CompoundedIcon as BedrockProps } from './Bedrock';
 export { default as Bing, type CompoundedIcon as BingProps } from './Bing';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';
+export { default as Claude, type CompoundedIcon as ClaudeProps } from './Claude';
 export { default as Cloudflare, type CompoundedIcon as CloudflareProps } from './Cloudflare';
 export { default as Cohere, type CompoundedIcon as CohereProps } from './Cohere';
 export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
@@ -21,6 +22,7 @@ export {
   type CompoundedIcon as GithubCopilotProps,
 } from './GithubCopilot';
 export { default as Google, type CompoundedIcon as GoogleProps } from './Google';
+export { default as Groq, type CompoundedIcon as GroqProps } from './Groq';
 export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from './HuggingFace';
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
 export { default as IconAvatar, type IconAvatarProps } from './IconAvatar';

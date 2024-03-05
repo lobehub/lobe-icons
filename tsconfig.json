@@ -17,5 +17,5 @@
     "strict": true,
     "types": ["vitest/globals"],
   },
-  "include": ["src", "docs", "tests", ".dumirc.ts", "*.ts"],
+  "include": ["src", "docs", "scripts", ".dumirc.ts", "*.ts"],
 }
