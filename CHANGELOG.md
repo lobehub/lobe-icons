@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.13.1](https://github.com/lobehub/lobe-icons/compare/v1.13.0...v1.13.1)
+
+<sup>Released on **2024-03-15**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Groq Combine, fix Groq miss combine.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix Groq Combine, closes [#15](https://github.com/lobehub/lobe-icons/issues/15) [#14](https://github.com/lobehub/lobe-icons/issues/14) ([79be47e](https://github.com/lobehub/lobe-icons/commit/79be47e))
+- **misc**: Fix Groq miss combine, closes [#13](https://github.com/lobehub/lobe-icons/issues/13) ([dc1ca6a](https://github.com/lobehub/lobe-icons/commit/dc1ca6a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.13.0](https://github.com/lobehub/lobe-icons/compare/v1.12.0...v1.13.0)
 
 <sup>Released on **2024-03-05**</sup>
