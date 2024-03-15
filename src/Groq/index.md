@@ -23,6 +23,20 @@ import { Groq } from '@lobehub/icons';
 export default () => <Groq.Text size={48} />;
 ```
 
+## Combine
+
+```tsx
+import { Groq } from '@lobehub/icons';
+import { Flexbox } from 'react-layout-kit';
+
+export default () => (
+  <Flexbox gap={16}>
+    <Groq.Combine size={64} />
+    <Groq.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
 ## Avatars
 
 ```tsx
