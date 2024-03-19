@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: Zhipu (智谱)
 atomId: Zhipu
 description: https://zhipuai.cn

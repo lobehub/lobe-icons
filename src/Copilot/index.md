@@ -1,7 +1,7 @@
 ---
 nav: Components
-group: Icons
-title: Microsoft (Copilot)
+group: Application
+title: Microsoft Copilot
 atomId: Copilot
 description: https://copilot.microsoft.com
 ---

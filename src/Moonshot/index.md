@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: Moonshot (月之暗面)
 atomId: Moonshot
 description: https://moonshot.cn

@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: HuggingFace
 atomId: HuggingFace
 description: https://huggingface.co

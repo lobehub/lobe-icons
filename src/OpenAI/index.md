@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: OpenAI (ChatGPT)
 atomId: OpenAI
 description: https://openai.com

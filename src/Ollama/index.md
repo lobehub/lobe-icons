@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: Ollama
 atomId: Ollama
 description: https://ollama.ai

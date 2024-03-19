@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: Cohere (Command)
 atomId: Cohere
 description: https://cohere.com

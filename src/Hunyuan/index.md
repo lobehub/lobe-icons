@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Model
 title: Hunyuan (腾讯混元)
 atomId: Hunyuan
 description: https://hunyuan.tencent.com

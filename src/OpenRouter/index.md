@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: OpenRouter
 atomId: OpenRouter
 description: https://openrouter.ai

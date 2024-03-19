@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Model
 title: Grok
 atomId: Grok
 description: https://grok.x.ai

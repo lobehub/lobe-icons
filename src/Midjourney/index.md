@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Application
 title: Midjourney
 atomId: Midjourney
 description: https://midjourney.com

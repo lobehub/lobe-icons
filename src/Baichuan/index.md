@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Model
 title: Baichuan (百川)
 atomId: Baichuan
 description: https://baichuan-ai.com

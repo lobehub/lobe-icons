@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Application
 title: Github
 atomId: Github
 description: https://github.com

@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Model
 title: Mistral
 atomId: Mistral
 description: https://mistral.ai

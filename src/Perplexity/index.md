@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: Perplexity
 atomId: Perplexity
 description: https://perplexity.ai

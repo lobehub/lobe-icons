@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Application
 title: Nvidia (ChatWithRTX)
 atomId: Nvidia
 description: https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/

@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Model
 title: Minimax
 atomId: Minimax
 description: https://api.minimax.chat

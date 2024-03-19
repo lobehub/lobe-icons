@@ -1,7 +1,7 @@
 ---
 nav: Components
-group: Icons
-title: Github (Copilot)
+group: Application
+title: Github Copilot
 atomId: GithubCopilot
 description: https://github.com/features/copilot
 ---

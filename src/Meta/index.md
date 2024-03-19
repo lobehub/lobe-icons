@@ -1,7 +1,7 @@
 ---
 nav: Components
-group: Icons
-title: Meta (Llama)
+group: Provider
+title: Meta
 atomId: Meta
 description: https://llama.meta.com
 ---

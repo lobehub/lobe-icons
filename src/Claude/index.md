@@ -1,7 +1,7 @@
 ---
 nav: Components
-group: Icons
-title: Anthropic (Claude)
+group: Model
+title: Claude
 atomId: Claude
 description: https://claude.ai
 ---

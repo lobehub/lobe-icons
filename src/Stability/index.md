@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: Stability (StableDiffusion)
 atomId: Stability
 description: https://deepmind.google/technologies/gemini

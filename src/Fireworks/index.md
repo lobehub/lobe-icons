@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: Fireworks
 atomId: Fireworks
 description: https://fireworks.ai

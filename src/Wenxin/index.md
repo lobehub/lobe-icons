@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Model
 title: Wenxin (文心)
 atomId: Wenxin
 description: https://yiyan.baidu.com

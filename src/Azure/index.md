@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: Microsoft (Azure)
 atomId: Azure
 description: https://azure.microsoft.com

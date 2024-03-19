@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: AWS
 atomId: Aws
 description: https://aws.amazon.com

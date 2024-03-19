@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Model
 title: Tongyi (通义)
 atomId: Tongyi
 description: https://tongyi.aliyun.com

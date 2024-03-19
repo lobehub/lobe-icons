@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: Cloudflare
 atomId: Cloudflare
 description: https://cloudflare.com

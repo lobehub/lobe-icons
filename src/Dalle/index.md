@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Model
 title: OpenAI (DALL·E)
 atomId: Dalle
 description: https://openai.com/dall-e-3

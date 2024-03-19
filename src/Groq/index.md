@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: Groq
 atomId: Groq
 description: https://wow.groq.com

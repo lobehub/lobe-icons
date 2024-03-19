@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Application
 title: Automatic1111 (SD Webui)
 atomId: Automatic
 description: https://github.com/AUTOMATIC1111/stable-diffusion-webui

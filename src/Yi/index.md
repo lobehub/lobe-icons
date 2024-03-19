@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Model
 title: Yi (零一万物)
 atomId: Yi
 description: https://www.lingyiwanwu.com/

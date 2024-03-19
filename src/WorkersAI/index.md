@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: Cloudflare (WorkersAI)
 atomId: WorkersAI
 description: https://developers.cloudflare.com/workers-ai

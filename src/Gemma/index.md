@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Model
 title: Google (Gemma)
 atomId: Gemma
 description: https://ai.google.dev/gemma

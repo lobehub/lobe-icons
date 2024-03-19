@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: Replicate
 atomId: Replicate
 description: https://replicate.com

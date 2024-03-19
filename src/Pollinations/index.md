@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Application
 title: Pollinations
 atomId: Pollinations
 description: https://pollinations.ai`

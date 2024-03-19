@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Model
 title: LLaVA
 atomId: LLaVA
 description: https://github.com/haotian-liu/LLaVA

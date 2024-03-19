@@ -1,7 +1,9 @@
 ---
 nav: Components
-group: Icons
-title: Microsoft (Bing)
+group:
+  title: Application
+  order: 10
+title: Microsoft Bing
 atomId: Bing
 description: https://bing.com
 ---

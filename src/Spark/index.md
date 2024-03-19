@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Model
 title: Spark (讯飞星火)
 atomId: Spark
 description: https://xinghuo.xfyun.cn
