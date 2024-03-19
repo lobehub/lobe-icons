@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Icons
+group: Provider
 title: 01.AI (零一万物)
 atomId: Lingyi
 description: https://www.lingyiwanwu.com/
