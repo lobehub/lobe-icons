@@ -57,9 +57,10 @@ Contributions, corrections & requests can be made on GitHub.
 
 **Supported brands:**
 
-<!-- ICON LIST -->
+<!-- ICON LIST --> 
 
 - [x] [Zhipu (智谱)](https://icons.lobehub.com/components/zhipu)
+- [x] [Yi (零一万物)](https://icons.lobehub.com/components/yi)
 - [x] [Cloudflare (WorkersAI)](https://icons.lobehub.com/components/workers-ai)
 - [x] [Wenxin (文心)](https://icons.lobehub.com/components/wenxin)
 - [x] [Tongyi (通义)](https://icons.lobehub.com/components/tongyi)
@@ -82,6 +83,7 @@ Contributions, corrections & requests can be made on GitHub.
 - [x] [Hunyuan (腾讯混元)](https://icons.lobehub.com/components/hunyuan)
 - [x] [HuggingFace](https://icons.lobehub.com/components/hugging-face)
 - [x] [Groq](https://icons.lobehub.com/components/groq)
+- [x] [Grok](https://icons.lobehub.com/components/grok)
 - [x] [Google](https://icons.lobehub.com/components/google)
 - [x] [Github (Copilot)](https://icons.lobehub.com/components/github-copilot)
 - [x] [Github](https://icons.lobehub.com/components/github)
