@@ -13,7 +13,7 @@ const themeConfig = {
       text: 'Github',
     },
     {
-      link: '/components/zero-one',
+      link: '/components/baichuan',
       text: 'View all icons',
       type: 'primary',
     },
@@ -28,7 +28,7 @@ const themeConfig = {
   footer: 'Made with 🤯 by LobeHub',
   name: 'Icons',
   nav: [
-    { link: '/components/zero-one', title: 'Icons' },
+    { link: '/components/baichuan', title: 'Icons' },
     { link: '/changelog', title: 'Changelog' },
   ],
   socialLinks: {
