@@ -27,7 +27,9 @@ const run = () => {
     })
     .filter(Boolean);
 
-  const contents = metas.map((meta) => `- [x] [${meta.title}](${BASE_URL}${kebabCase(meta.path)})`);
+  const contents = metas
+    .sort((a, b) => a.title.localeCompare(b.title))
+    .map((meta) => `- [x] [${meta.title}](${BASE_URL}${kebabCase(meta.path)})`);
 
   const readmePath = resolve(ROOT_PATH, 'README.md');
 

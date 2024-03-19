@@ -49,4 +49,5 @@ export type { IconType } from './types';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
 export { default as Yi, type CompoundedIcon as YiProps } from './Yi';
+export { default as ZeroOne, type CompoundedIcon as ZeroOneProps } from './ZeroOne';
 export { default as Zhipu, type CompoundedIcon as ZhipuProps } from './Zhipu';

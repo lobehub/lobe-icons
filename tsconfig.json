@@ -10,12 +10,12 @@
       "@@/*": [".dumi/tmp/*"],
       "@/*": ["src/*"],
       "@lobehub/icons": ["src"],
-      "@lobehub/icons/*": ["src/*"],
+      "@lobehub/icons/*": ["src/*"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "types": ["vitest/globals"],
+    "types": ["vitest/globals"]
   },
-  "include": ["src", "docs", "scripts", ".dumirc.ts", "*.ts"],
+  "include": ["src", "docs", "scripts", ".dumirc.ts", "*.ts"]
 }

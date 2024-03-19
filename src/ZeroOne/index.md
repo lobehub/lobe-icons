@@ -1,21 +1,20 @@
 ---
 nav: Components
-group: Model
-title: Yi (零一万物)
-atomId: Yi
-description: https://github.com/01-ai/Yi
+group: Icons
+title: 01.AI (零一万物)
+atomId: Lingyi
+description: https://www.lingyiwanwu.com/
 ---
 
 ## Icons
 
 ```tsx
-import { Yi } from '@lobehub/icons';
+import { ZeroOne } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Yi size={64} />
-    <Yi.Color size={64} />
+    <ZeroOne size={64} />
   </Flexbox>
 );
 ```
@@ -23,21 +22,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Yi } from '@lobehub/icons';
+import { ZeroOne } from '@lobehub/icons';
 
-export default () => <Yi.Text size={48} />;
+export default () => <ZeroOne.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Yi } from '@lobehub/icons';
+import { ZeroOne } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16}>
-    <Yi.Combine size={64} />
-    <Yi.Combine size={64} type={'color'} />
+    <ZeroOne.Combine size={64} />
+    <ZeroOne.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -45,13 +44,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Yi } from '@lobehub/icons';
+import { ZeroOne } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Yi.Avatar size={64} />
-    <Yi.Avatar size={64} shape={'square'} />
+    <ZeroOne.Avatar size={64} />
+    <ZeroOne.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -59,14 +58,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Yi } from '@lobehub/icons';
+import { ZeroOne } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Yi.colorPrimary} />
+    <ColorPreview color={ZeroOne.colorPrimary} />
   </Flexbox>
 );
 ```

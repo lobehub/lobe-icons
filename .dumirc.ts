@@ -13,7 +13,7 @@ const themeConfig = {
       text: 'Github',
     },
     {
-      link: '/components/anthropic',
+      link: '/components/zero-one',
       text: 'View all icons',
       type: 'primary',
     },
@@ -28,7 +28,7 @@ const themeConfig = {
   footer: 'Made with 🤯 by LobeHub',
   name: 'Icons',
   nav: [
-    { link: '/components/anthropic', title: 'Icons' },
+    { link: '/components/zero-one', title: 'Icons' },
     { link: '/changelog', title: 'Changelog' },
   ],
   socialLinks: {

@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+npm run sync:md
+git add .
 npm run type-check
 npx --no-install lint-staged
