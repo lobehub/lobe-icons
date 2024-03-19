@@ -2,7 +2,7 @@
 nav: Components
 group: Provider
 title: 01.AI (零一万物)
-atomId: Lingyi
+atomId: ZeroOne
 description: https://www.lingyiwanwu.com/
 ---
 
