@@ -22,6 +22,7 @@ export {
   type CompoundedIcon as GithubCopilotProps,
 } from './GithubCopilot';
 export { default as Google, type CompoundedIcon as GoogleProps } from './Google';
+export { default as Grok, type CompoundedIcon as GrokProps } from './Grok';
 export { default as Groq, type CompoundedIcon as GroqProps } from './Groq';
 export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from './HuggingFace';
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
@@ -47,4 +48,5 @@ export { default as Tongyi, type CompoundedIcon as TongyiProps } from './Tongyi'
 export type { IconType } from './types';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
+export { default as Yi, type CompoundedIcon as YiProps } from './Yi';
 export { default as Zhipu, type CompoundedIcon as ZhipuProps } from './Zhipu';

@@ -14,6 +14,7 @@ const Combine = memo<CombineProps>(({ ...rest }) => {
       Icon={Avatar}
       Text={Text}
       aria-label={TITLE}
+      iconProps={{ shape: 'square', style: { borderRadius: 0 } }}
       spaceMultiple={SPACE_MULTIPLE}
       textMultiple={TEXT_MULTIPLE}
       {...rest}
