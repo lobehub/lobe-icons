@@ -14,12 +14,13 @@ const updateReadme = (split: string, md: string, content: string): string => {
   return mds.join(split);
 };
 const run = () => {
-  const mds = globSync(resolve(ROOT_PATH, './src/**/index.md'));
+  const mds = globSync(resolve(ROOT_PATH, './src/**/index.md').replace('\\', '/'));
   const metas = mds
     .map((md) => {
       const meta: any = fm(readFileSync(md, 'utf8')).attributes;
       const paths = md.split('/');
-      if (meta.group !== 'Icons') return false;
+      if (!['model', 'provider', 'application'].includes(String(meta.group).toLowerCase()))
+        return false;
       return {
         ...meta,
         path: paths.at(-2),

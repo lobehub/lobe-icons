@@ -1,10 +1,14 @@
+export { default as Alibaba, type CompoundedIcon as AlibabaProps } from './Alibaba';
+export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './AntGroup';
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './Anthropic';
 export { default as Automatic, type CompoundedIcon as AutomaticProps } from './Automatic';
 export { default as Aws, type CompoundedIcon as AwsProps } from './Aws';
 export { default as Azure, type CompoundedIcon as AzureProps } from './Azure';
 export { default as Baichuan, type CompoundedIcon as BaichuanProps } from './Baichuan';
+export { default as Baidu, type CompoundedIcon as BaiduProps } from './Baidu';
 export { default as Bedrock, type CompoundedIcon as BedrockProps } from './Bedrock';
 export { default as Bing, type CompoundedIcon as BingProps } from './Bing';
+export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './ByteDance';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';
 export { default as Claude, type CompoundedIcon as ClaudeProps } from './Claude';
 export { default as Cloudflare, type CompoundedIcon as CloudflareProps } from './Cloudflare';
@@ -44,6 +48,7 @@ export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingy
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './Replicate';
 export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './Stability';
+export { default as Tencent, type CompoundedIcon as TencentProps } from './Tencent';
 export { default as Tongyi, type CompoundedIcon as TongyiProps } from './Tongyi';
 export type { IconType } from './types';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
