@@ -32,6 +32,7 @@ export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from 
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
 export { default as IconAvatar, type IconAvatarProps } from './IconAvatar';
 export { default as IconCombine, type IconCombineProps } from './IconCombine';
+export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './Langfuse';
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
 export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from './Midjourney';
@@ -48,11 +49,14 @@ export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingy
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './Replicate';
 export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './Stability';
+export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';
 export { default as Tencent, type CompoundedIcon as TencentProps } from './Tencent';
+export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
 export { default as Tongyi, type CompoundedIcon as TongyiProps } from './Tongyi';
 export type { IconType } from './types';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
 export { default as Yi, type CompoundedIcon as YiProps } from './Yi';
+export { default as Zeabur, type CompoundedIcon as ZeaburProps } from './Zeabur';
 export { default as ZeroOne, type CompoundedIcon as ZeroOneProps } from './ZeroOne';
 export { default as Zhipu, type CompoundedIcon as ZhipuProps } from './Zhipu';
