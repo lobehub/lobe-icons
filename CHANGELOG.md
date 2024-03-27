@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.17.0](https://github.com/lobehub/lobe-icons/compare/v1.16.0...v1.17.0)
+
+<sup>Released on **2024-03-27**</sup>
+
+#### ✨ Features
+
+- **misc**: Add new icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add new icons ([977ed25](https://github.com/lobehub/lobe-icons/commit/977ed25))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.16.0](https://github.com/lobehub/lobe-icons/compare/v1.15.0...v1.16.0)
 
 <sup>Released on **2024-03-23**</sup>
