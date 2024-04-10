@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.18.0](https://github.com/lobehub/lobe-icons/compare/v1.17.0...v1.18.0)
+
+<sup>Released on **2024-04-10**</sup>
+
+#### ✨ Features
+
+- **misc**: Add RWKV DBRX OpenChat.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add RWKV DBRX OpenChat ([fa45b93](https://github.com/lobehub/lobe-icons/commit/fa45b93))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.17.0](https://github.com/lobehub/lobe-icons/compare/v1.16.0...v1.17.0)
 
 <sup>Released on **2024-03-27**</sup>
