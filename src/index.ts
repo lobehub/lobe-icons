@@ -16,6 +16,7 @@ export { default as Cohere, type CompoundedIcon as CohereProps } from './Cohere'
 export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
 export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
+export { default as Dbrx, type CompoundedIcon as DbrxProps } from './Dbrx';
 export { default as DeepMind, type CompoundedIcon as DeepMindProps } from './DeepMind';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
 export { default as Gemini, type CompoundedIcon as GeminiProps } from './Gemini';
@@ -42,11 +43,13 @@ export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moo
 export { default as Nvidia, type CompoundedIcon as NvidiaProps } from './Nvidia';
 export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama';
 export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './OpenAI';
+export { default as OpenChat, type CompoundedIcon as OpenChatProps } from './OpenChat';
 export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './OpenRouter';
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './Perplexity';
 export { default as Pollinations, type CompoundedIcon as PollinationsProps } from './Pollinations';
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './Replicate';
+export { default as Rwkv, type CompoundedIcon as RwkvProps } from './Rwkv';
 export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './Stability';
 export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';

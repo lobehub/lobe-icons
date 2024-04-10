@@ -1,9 +1,5 @@
 import { Features, FeaturesProps } from '@lobehub/ui';
-import { createStyles } from 'antd-style';
 import { Expand, GitPullRequest, Trees } from 'lucide-react';
-import { Center } from 'react-layout-kit';
-
-import Dashboard from '@/components/Dashboard';
 
 const items: FeaturesProps['items'] = [
   {
@@ -26,28 +22,6 @@ const items: FeaturesProps['items'] = [
   },
 ];
 
-const useStyles = createStyles(({ css, token }) => ({
-  container: css`
-    margin-top: -4%;
-  `,
-  dashboard: css`
-    overflow: hidden;
-    max-width: 960px;
-    border: 1px solid ${token.colorBorder};
-    border-radius: ${token.borderRadiusLG}px;
-  `,
-  segmented: css`
-    border: 1px solid ${token.colorBorder};
-  `,
-}));
-
 export default () => {
-  const { styles } = useStyles();
-
-  return (
-    <Center className={styles.container} gap={16}>
-      <Dashboard className={styles.dashboard} />
-      <Features items={items} />
-    </Center>
-  );
+  return <Features items={items} />;
 };
