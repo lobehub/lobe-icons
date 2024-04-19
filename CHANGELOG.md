@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.19.0](https://github.com/lobehub/lobe-icons/compare/v1.18.0...v1.19.0)
+
+<sup>Released on **2024-04-19**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Adobe / Firefly / FishAudio / Ai21.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Adobe / Firefly / FishAudio / Ai21, closes [#18](https://github.com/lobehub/lobe-icons/issues/18) ([bb94c7a](https://github.com/lobehub/lobe-icons/commit/bb94c7a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.18.0](https://github.com/lobehub/lobe-icons/compare/v1.17.0...v1.18.0)
 
 <sup>Released on **2024-04-10**</sup>
