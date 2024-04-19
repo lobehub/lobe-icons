@@ -1,3 +1,6 @@
+export { default as Adobe, type CompoundedIcon as AdobeProps } from './Adobe';
+export { default as AdobeFirefly, type CompoundedIcon as AdobeFireflyProps } from './AdobeFirefly';
+export { default as Ai21, type CompoundedIcon as Ai21Props } from './Ai21';
 export { default as Alibaba, type CompoundedIcon as AlibabaProps } from './Alibaba';
 export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './AntGroup';
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './Anthropic';
@@ -19,6 +22,7 @@ export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
 export { default as Dbrx, type CompoundedIcon as DbrxProps } from './Dbrx';
 export { default as DeepMind, type CompoundedIcon as DeepMindProps } from './DeepMind';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
+export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './FishAudio';
 export { default as Gemini, type CompoundedIcon as GeminiProps } from './Gemini';
 export { default as Gemma, type CompoundedIcon as GemmaProps } from './Gemma';
 export { default as Github, type CompoundedIcon as GithubProps } from './Github';

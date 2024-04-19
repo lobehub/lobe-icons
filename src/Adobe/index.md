@@ -1,21 +1,21 @@
 ---
 nav: Components
-group: Provider
-title: Google（DeepMind)
-atomId: DeepMind
-description: https://deepmind.google
+group: Application
+title: Adobe
+atomId: Adobe
+description: https://adobe.com
 ---
 
 ## Icons
 
 ```tsx
-import { DeepMind } from '@lobehub/icons';
+import { Adobe } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <DeepMind size={64} />
-    <DeepMind.Color size={64} />
+    <Adobe size={64} />
+    <Adobe.Color size={64} />
   </Flexbox>
 );
 ```
@@ -23,21 +23,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { DeepMind } from '@lobehub/icons';
+import { Adobe } from '@lobehub/icons';
 
-export default () => <DeepMind.Text size={48} />;
+export default () => <Adobe.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { DeepMind } from '@lobehub/icons';
+import { Adobe } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16}>
-    <DeepMind.Combine size={64} />
-    <DeepMind.Combine size={64} type={'color'} />
+    <Adobe.Combine size={64} />
+    <Adobe.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -45,13 +45,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { DeepMind } from '@lobehub/icons';
+import { Adobe } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <DeepMind.Avatar size={64} />
-    <DeepMind.Avatar size={64} shape={'square'} />
+    <Adobe.Avatar size={64} />
+    <Adobe.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -59,14 +59,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { DeepMind } from '@lobehub/icons';
+import { Adobe } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={DeepMind.colorPrimary} />
+    <ColorPreview color={Adobe.colorPrimary} />
   </Flexbox>
 );
 ```
