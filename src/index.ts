@@ -21,6 +21,7 @@ export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copil
 export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
 export { default as Dbrx, type CompoundedIcon as DbrxProps } from './Dbrx';
 export { default as DeepMind, type CompoundedIcon as DeepMindProps } from './DeepMind';
+export { default as DeepSeek, type CompoundedIcon as DeepSeekProps } from './DeepSeek';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
 export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './FishAudio';
 export { default as Gemini, type CompoundedIcon as GeminiProps } from './Gemini';
