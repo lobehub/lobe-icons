@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.20.0](https://github.com/lobehub/lobe-icons/compare/v1.19.0...v1.20.0)
+
+<sup>Released on **2024-05-11**</sup>
+
+#### ✨ Features
+
+- **misc**: Add deepseek.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add deepseek ([b8f4bb4](https://github.com/lobehub/lobe-icons/commit/b8f4bb4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.19.0](https://github.com/lobehub/lobe-icons/compare/v1.18.0...v1.19.0)
 
 <sup>Released on **2024-04-19**</sup>
