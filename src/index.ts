@@ -40,6 +40,7 @@ export { default as IconAvatar, type IconAvatarProps } from './IconAvatar';
 export { default as IconCombine, type IconCombineProps } from './IconCombine';
 export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './Langfuse';
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
+export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmStudio';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
 export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from './Midjourney';
 export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
