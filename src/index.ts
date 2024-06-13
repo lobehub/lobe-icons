@@ -59,11 +59,13 @@ export { default as Replicate, type CompoundedIcon as ReplicateProps } from './R
 export { default as Rwkv, type CompoundedIcon as RwkvProps } from './Rwkv';
 export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './Stability';
+export { default as Stepfun, type CompoundedIcon as StepfunProps } from './Stepfun';
 export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';
 export { default as Tencent, type CompoundedIcon as TencentProps } from './Tencent';
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
 export { default as Tongyi, type CompoundedIcon as TongyiProps } from './Tongyi';
 export type { IconType } from './types';
+export { default as Vllm, type CompoundedIcon as VllmProps } from './Vllm';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
 export { default as Yi, type CompoundedIcon as YiProps } from './Yi';
