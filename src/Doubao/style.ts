@@ -1,4 +1,4 @@
 export const TITLE = 'Doubao';
-export const TEXT_MULTIPLE = 0.65;
-export const SPACE_MULTIPLE = 0.2;
-export const COLOR_PRIMARY = '#4D6BFE';
+export const TEXT_MULTIPLE = 0.8;
+export const SPACE_MULTIPLE = 0.05;
+export const COLOR_PRIMARY = '#EEEEEE';
