@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.25.1](https://github.com/lobehub/lobe-icons/compare/v1.25.0...v1.25.1)
+
+<sup>Released on **2024-06-29**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix some logo style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix some logo style ([34ce7b6](https://github.com/lobehub/lobe-icons/commit/34ce7b6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.25.0](https://github.com/lobehub/lobe-icons/compare/v1.24.0...v1.25.0)
 
 <sup>Released on **2024-06-29**</sup>
