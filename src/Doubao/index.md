@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Model
-title: Doubao
+title: Doubao (豆包)
 atomId: Doubao
 description: https://team.doubao.com
 ---

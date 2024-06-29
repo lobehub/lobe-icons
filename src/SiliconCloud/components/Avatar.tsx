@@ -2,19 +2,19 @@ import { memo } from 'react';
 
 import IconAvatar, { type IconAvatarProps } from '@/IconAvatar';
 
-import { TITLE } from '../style';
-import Color from './Color';
+import { COLOR_PRIMARY, TITLE } from '../style';
+import Mono from './Mono';
 
 export type AvatarProps = Omit<IconAvatarProps, 'Icon'>;
 
 const Avatar = memo<AvatarProps>(({ background, ...rest }) => {
   return (
     <IconAvatar
-      Icon={Color}
+      Icon={Mono}
       aria-label={TITLE}
-      background={background}
-      iconMultiple={1.12}
-      shape={'square'}
+      background={background || COLOR_PRIMARY}
+      color={'#fff'}
+      iconMultiple={0.65}
       {...rest}
     />
   );

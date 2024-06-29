@@ -50,7 +50,6 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <SiliconCloud.Avatar size={64} background={SiliconCloud.colorPrimary} />
     <SiliconCloud.Avatar size={64} />
     <SiliconCloud.Avatar size={64} shape={'square'} />
   </Flexbox>

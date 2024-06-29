@@ -2,7 +2,7 @@ import { forwardRef } from 'react';
 
 import type { IconType } from '@/types';
 
-import { TITLE } from '../style';
+import { COLOR_PRIMARY, TITLE } from '../style';
 
 const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
   return (
@@ -10,15 +10,17 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
       height={size}
       ref={ref}
       style={{ flex: 'none', lineHeight: 1, ...style }}
-      viewBox="-2 -2 20 20"
+      viewBox="0 0 24 24"
       width={size}
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
       <title>{TITLE}</title>
       <path
-        d="M10.72 1.5H9.265v3.198l1.455.004V1.5zM7.36 3.347l1.516 1.517-1.032 1.025-1.513-1.513 1.03-1.029zM4.485 6.28h3.202l-.005 1.455H4.485V6.28zm1.848 3.36l1.515-1.516 1.026 1.032-1.512 1.512-1.03-1.029zm2.932 2.875V9.313l1.455.005v3.197H9.265zm3.36-1.845l-1.517-1.517 1.032-1.026 1.514 1.514-1.03 1.029zM15.5 7.735h-3.202l.005-1.455H15.5v1.455zm-1.847-3.359l-1.516 1.516-1.025-1.032 1.513-1.513 1.028 1.03zM2 1.829v.82h-.822v1.315H2v.821h1.314v-.82h.821V2.65h-.821v-.821H2zm0 12.842v-1.5H.5v-1.314H2v-1.499h1.314v1.499h1.5v1.314h-1.5v1.5H2z"
-        fill="orange"
+        clipRule="evenodd"
+        d="M15.99 2.444h-2.135v4.69l2.134.006V2.444zM11.06 5.153l2.224 2.225L11.77 8.88 9.552 6.662l1.51-1.51zM6.845 9.455h4.696l-.007 2.133h-4.69V9.456zm2.71 4.928l2.222-2.224 1.505 1.514-2.218 2.217-1.51-1.509.001.002zm4.3 4.216v-4.696l2.134.007v4.69h-2.134zm4.928-2.706l-2.225-2.225 1.514-1.504 2.22 2.22-1.51 1.51h.001zM23 11.588h-4.696l.007-2.133H23v2.133zm-2.709-4.926l-2.223 2.223-1.504-1.513 2.22-2.22 1.507 1.51zM3.2 2.926V4.13H1.994v1.929H3.2v1.204h1.927V6.059h1.204V4.131H5.127V2.926H3.2zm0 18.835v-2.2H1v-1.927h2.2v-2.198h1.927v2.198h2.2v1.927h-2.2v2.2H3.2z"
+        fill={COLOR_PRIMARY}
+        fillRule="evenodd"
       ></path>
     </svg>
   );
