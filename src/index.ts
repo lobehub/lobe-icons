@@ -58,6 +58,7 @@ export { default as Pollinations, type CompoundedIcon as PollinationsProps } fro
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './Replicate';
 export { default as Rwkv, type CompoundedIcon as RwkvProps } from './Rwkv';
+export { default as SiliconCloud, type CompoundedIcon as SiliconCloudProps } from './SiliconCloud';
 export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './Stability';
 export { default as Stepfun, type CompoundedIcon as StepfunProps } from './Stepfun';
