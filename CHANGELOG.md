@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.25.2](https://github.com/lobehub/lobe-icons/compare/v1.25.1...v1.25.2)
+
+<sup>Released on **2024-07-01**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update lint.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update lint ([b7a1955](https://github.com/lobehub/lobe-icons/commit/b7a1955))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.1](https://github.com/lobehub/lobe-icons/compare/v1.25.0...v1.25.1)
 
 <sup>Released on **2024-06-29**</sup>
