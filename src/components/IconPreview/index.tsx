@@ -10,8 +10,8 @@ const useStyles = createStyles(({ css, token, cx }) => {
       'copy-button',
       css`
         position: absolute;
-        top: 4px;
-        right: 4px;
+        inset-block-start: 4px;
+        inset-inline-end: 4px;
         opacity: 0;
       `,
     ),

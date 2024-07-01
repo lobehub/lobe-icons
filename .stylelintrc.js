@@ -6,5 +6,6 @@ module.exports = {
     'custom-property-pattern': null,
     'selector-pseudo-element-no-unknown': null,
     'no-descending-specificity': null,
+    ...config.rules,
   },
 };
