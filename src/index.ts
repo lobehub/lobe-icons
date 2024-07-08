@@ -1,6 +1,8 @@
 export { default as Adobe, type CompoundedIcon as AdobeProps } from './Adobe';
 export { default as AdobeFirefly, type CompoundedIcon as AdobeFireflyProps } from './AdobeFirefly';
 export { default as Ai21, type CompoundedIcon as Ai21Props } from './Ai21';
+export { default as Ai360, type CompoundedIcon as Ai360Props } from './Ai360';
+export { default as AiMass, type CompoundedIcon as AiMassProps } from './AiMass';
 export { default as Alibaba, type CompoundedIcon as AlibabaProps } from './Alibaba';
 export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './AntGroup';
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './Anthropic';
@@ -48,6 +50,7 @@ export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from '.
 export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
 export { default as Mistral, type CompoundedIcon as MistralProps } from './Mistral';
 export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moonshot';
+export { default as Novita, type CompoundedIcon as NovitaProps } from './Novita';
 export { default as Nvidia, type CompoundedIcon as NvidiaProps } from './Nvidia';
 export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama';
 export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './OpenAI';

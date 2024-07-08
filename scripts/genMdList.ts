@@ -9,6 +9,8 @@ const ROOT_PATH = resolve(__dirname, '..');
 
 const BASE_URL = 'https://icons.lobehub.com/components/';
 
+const fixWindowsPath = (path: string): string => path.replaceAll('\\', '/');
+
 const updateReadme = (split: string, md: string, content: string): string => {
   const mds = md.split(split);
   mds[1] = [' ', content, ' '].join('\n\n');
@@ -30,7 +32,9 @@ const genMd = (
     .join('<br/>');
 
 const run = () => {
-  const mds = globSync(resolve(ROOT_PATH, './src/**/index.md').replace('\\', '/'));
+  const mds = globSync(fixWindowsPath(resolve(ROOT_PATH, './src/**/index.md'))).map((md) =>
+    fixWindowsPath(md),
+  );
   const metas: any = mds
     .map((md) => {
       const { data } = matter(readFileSync(md, 'utf8'));

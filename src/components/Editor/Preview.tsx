@@ -35,12 +35,12 @@ const Preview = forwardRef<HTMLDivElement, PreviewProps>(({ svg, title, precent 
   return (
     <Flexbox flex={'none'} gap={16} style={{ position: 'relative', width: '100%' }}>
       <Flexbox align={'center'} gap={8} horizontal>
-        <h2 style={{ lineHeight: 1, margin: 0 }}>{title}</h2>
+        <h3 style={{ lineHeight: 1, margin: 0 }}>{title}</h3>
         {precent && <Tag>{precent}</Tag>}
       </Flexbox>
       <Flexbox gap={8} horizontal ref={ref}>
         <IconPreview>{svg}</IconPreview>
-        <Highlighter className={styles.code} language={'tsx'} type={'ghost'}>
+        <Highlighter className={styles.code} language={'tsx'}>
           {svg}
         </Highlighter>
       </Flexbox>

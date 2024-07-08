@@ -30,9 +30,9 @@ const Preview = memo<PreviewProps>(({ svg, title, viewbox }) => {
   return (
     <Flexbox flex={'none'} gap={16} style={{ position: 'relative', width: '100%' }}>
       <Flexbox align={'center'} gap={8} horizontal>
-        <h2 style={{ lineHeight: 1, margin: 0 }}>{title}</h2>
+        <h3 style={{ lineHeight: 1, margin: 0 }}>{title}</h3>
       </Flexbox>
-      <Highlighter className={styles.code} language={'tsx'} type={'ghost'}>
+      <Highlighter className={styles.code} language={'tsx'}>
         {`import { forwardRef } from 'react';
 import type { IconType } from '@/types';
 
