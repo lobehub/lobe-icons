@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.26.0](https://github.com/lobehub/lobe-icons/compare/v1.25.2...v1.26.0)
+
+<sup>Released on **2024-07-08**</sup>
+
+#### ✨ Features
+
+- **misc**: Add `novita.ai` `紫东太初` `360 智脑`.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add `novita.ai` `紫东太初` `360 智脑` ([02e6848](https://github.com/lobehub/lobe-icons/commit/02e6848))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.25.2](https://github.com/lobehub/lobe-icons/compare/v1.25.1...v1.25.2)
 
 <sup>Released on **2024-07-01**</sup>
