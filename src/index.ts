@@ -17,6 +17,7 @@ export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './B
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';
 export { default as Claude, type CompoundedIcon as ClaudeProps } from './Claude';
 export { default as Cloudflare, type CompoundedIcon as CloudflareProps } from './Cloudflare';
+export { default as CodeGeeX, type CompoundedIcon as CodeGeeXProps } from './CodeGeeX';
 export { default as Cohere, type CompoundedIcon as CohereProps } from './Cohere';
 export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
