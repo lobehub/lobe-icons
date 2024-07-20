@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.27.0](https://github.com/lobehub/lobe-icons/compare/v1.26.0...v1.27.0)
+
+<sup>Released on **2024-07-20**</sup>
+
+#### ✨ Features
+
+- **misc**: Add `CodeGeeX`.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add `CodeGeeX`, closes [#30](https://github.com/lobehub/lobe-icons/issues/30) ([7c301df](https://github.com/lobehub/lobe-icons/commit/7c301df))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.26.0](https://github.com/lobehub/lobe-icons/compare/v1.25.2...v1.26.0)
 
 <sup>Released on **2024-07-08**</sup>
