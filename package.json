@@ -91,7 +91,7 @@
     "dumi-theme-lobehub": "latest",
     "eslint": "^8.57.0",
     "father": "^4.4.5",
-    "glob": "^10.4.5",
+    "glob": "^11.0.0",
     "gray-matter": "^4.0.3",
     "husky": "^8.0.3",
     "jsdom": "^23.2.0",
