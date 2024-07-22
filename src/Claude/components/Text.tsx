@@ -8,7 +8,7 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
   return (
     <svg
       fill="currentColor"
-      fillRule="evenodd"
+      fillRule="nonzero"
       height={size}
       ref={ref}
       style={{ flex: 'none', lineHeight: 1, width: 'fit-content', ...style }}
