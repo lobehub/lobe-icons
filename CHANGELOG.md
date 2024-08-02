@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.28.0](https://github.com/lobehub/lobe-icons/compare/v1.27.0...v1.28.0)
+
+<sup>Released on **2024-08-02**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Cohere Aya (resolve.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Cohere Aya (resolve, closes [#32](https://github.com/lobehub/lobe-icons/issues/32) ([c35e8fb](https://github.com/lobehub/lobe-icons/commit/c35e8fb))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.27.0](https://github.com/lobehub/lobe-icons/compare/v1.26.0...v1.27.0)
 
 <sup>Released on **2024-07-20**</sup>
