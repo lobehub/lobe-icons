@@ -8,6 +8,7 @@ export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './Ant
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './Anthropic';
 export { default as Automatic, type CompoundedIcon as AutomaticProps } from './Automatic';
 export { default as Aws, type CompoundedIcon as AwsProps } from './Aws';
+export { default as Aya, type CompoundedIcon as AyaProps } from './Aya';
 export { default as Azure, type CompoundedIcon as AzureProps } from './Azure';
 export { default as Baichuan, type CompoundedIcon as BaichuanProps } from './Baichuan';
 export { default as Baidu, type CompoundedIcon as BaiduProps } from './Baidu';
