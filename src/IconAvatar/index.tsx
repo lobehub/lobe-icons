@@ -1,5 +1,5 @@
 import { CSSProperties, forwardRef } from 'react';
-import { Flexbox, type FlexboxProps } from 'react-layout-kit';
+import { Center, type FlexboxProps } from 'react-layout-kit';
 
 import { IconType } from '@/types';
 
@@ -30,10 +30,8 @@ const IconAvatar = forwardRef<HTMLDivElement, IconAvatarProps>(
     ref,
   ) => {
     return (
-      <Flexbox
-        align={'center'}
+      <Center
         flex={'none'}
-        justify={'center'}
         ref={ref}
         style={{
           background,
@@ -45,7 +43,7 @@ const IconAvatar = forwardRef<HTMLDivElement, IconAvatarProps>(
         }}
       >
         {Icon && <Icon className={iconClassName} size={size * iconMultiple} style={iconStyle} />}
-      </Flexbox>
+      </Center>
     );
   },
 );

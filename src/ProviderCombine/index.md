@@ -1,14 +1,16 @@
 ---
 nav: Components
-group:
-  title: Components
-  order: 10
-title: IconAvatar
+group: Components
+title: ProviderCombine
 ---
 
 ## Default
 
 <code src="./demos/index.tsx" center></code>
+
+## Mono
+
+<code src="./demos/Mono.tsx" center></code>
 
 ## APIs
 

@@ -33,7 +33,12 @@ export default () => <Ai21.Text size={48} />;
 import { Ai21 } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
-export default () => <Ai21.Combine size={64} />;
+export default () => (
+  <Flexbox gap={16}>
+    <Ai21.Combine size={64} />
+    <Ai21.Combine size={64} type={'color'} />
+  </Flexbox>
+);
 ```
 
 ## Brands

@@ -51,7 +51,7 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Baichuan.Avatar size={64} background={Baichuan.colorPrimary} />
+    <Baichuan.Avatar size={64} background={Baichuan.colorGradient} />
     <Baichuan.Avatar size={64} />
     <Baichuan.Avatar size={64} shape={'square'} />
   </Flexbox>

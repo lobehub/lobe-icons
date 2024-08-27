@@ -51,7 +51,7 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Tongyi.Avatar size={64} background={Tongyi.colorPrimary} />
+    <Tongyi.Avatar size={64} background={Tongyi.colorGradient} />
     <Tongyi.Avatar size={64} />
     <Tongyi.Avatar size={64} shape={'square'} />
   </Flexbox>

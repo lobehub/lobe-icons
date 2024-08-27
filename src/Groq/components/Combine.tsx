@@ -6,14 +6,17 @@ import { SPACE_MULTIPLE, TEXT_MULTIPLE, TITLE } from '../style';
 import Avatar from './Avatar';
 import Text from './Text';
 
-export type CombineProps = Omit<IconCombineProps, 'Icon' | 'Text'>;
+export interface CombineProps extends Omit<IconCombineProps, 'Icon' | 'Text'> {
+  type?: 'mono' | 'color';
+}
 
-const Combine = memo<CombineProps>(({ ...rest }) => {
+const Combine = memo<CombineProps>(({ type = 'mono', ...rest }) => {
   return (
     <IconCombine
       Icon={Avatar}
       Text={Text}
       aria-label={TITLE}
+      showLogo={type === 'color'}
       spaceMultiple={SPACE_MULTIPLE}
       textMultiple={TEXT_MULTIPLE}
       {...rest}

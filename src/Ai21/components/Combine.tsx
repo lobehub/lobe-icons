@@ -6,8 +6,13 @@ import { SPACE_MULTIPLE, TEXT_MULTIPLE, TITLE } from '../style';
 import Avatar from './Avatar';
 import Text from './Text';
 
-export type CombineProps = Omit<IconCombineProps, 'Icon' | 'Text'>;
-const Combine = memo<CombineProps>(({ iconProps, ...rest }) => {
+export interface CombineProps extends Omit<IconCombineProps, 'Icon' | 'Text'> {
+  type: 'mono' | 'color';
+}
+const Combine = memo<CombineProps>(({ type = 'mono', iconProps, ...rest }) => {
+  // @ts-ignore
+  if (type === 'mono') return <Text {...rest} />;
+
   return (
     <IconCombine
       Icon={Avatar}

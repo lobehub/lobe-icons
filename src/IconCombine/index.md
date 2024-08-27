@@ -3,6 +3,7 @@ nav: Components
 group:
   title: Components
   order: 10
+title: IconCombine
 ---
 
 ## Default

@@ -32,6 +32,7 @@ import { Flexbox } from 'react-layout-kit';
 export default () => (
   <Flexbox gap={16}>
     <Moonshot.Combine size={64} />
+    <Moonshot.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```

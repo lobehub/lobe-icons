@@ -1,9 +1,7 @@
 ---
 nav: Components
-group:
-  title: Components
-  order: 10
-title: IconAvatar
+group: Components
+title: ModelTag
 ---
 
 ## Default
