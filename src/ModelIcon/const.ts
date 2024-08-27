@@ -5,11 +5,13 @@ import Ai21 from '@/Ai21';
 import Ai360 from '@/Ai360';
 import AiMass from '@/AiMass';
 import Aws from '@/Aws';
+import Aya from '@/Aya';
 import Azure from '@/Azure';
 import Baichuan from '@/Baichuan';
 import ByteDance from '@/ByteDance';
 import ChatGLM from '@/ChatGLM';
 import Claude from '@/Claude';
+import CodeGeeX from '@/CodeGeeX';
 import Cohere from '@/Cohere';
 import Dbrx from '@/Dbrx';
 import DeepSeek from '@/DeepSeek';
@@ -55,10 +57,11 @@ export interface ModelMapping {
 
 // Create a mapping of model keywords to their respective Icon functions
 export const modelMappings: ModelMapping[] = [
-  { Icon: OpenAI, keywords: ['^gpt-3'], props: { type: 'gpt3' } },
-  { Icon: OpenAI, keywords: ['^gpt-4'], props: { type: 'gpt4' } },
-  { Icon: OpenAI, keywords: ['^gpt', 'openai', 'dalle'] },
-  { Icon: ChatGLM, keywords: ['glm', 'chatglm'] },
+  { Icon: OpenAI, keywords: ['gpt-3'], props: { type: 'gpt3' } },
+  { Icon: OpenAI, keywords: ['gpt-4'], props: { type: 'gpt4' } },
+  { Icon: OpenAI, keywords: ['gpt', 'openai', 'dalle', 'text-embedding-'] },
+  { Icon: ChatGLM, keywords: ['glm-', 'chatglm'] },
+  { Icon: CodeGeeX, keywords: ['^codegeex'] },
   { Icon: DeepSeek, keywords: ['deepseek'] },
   { Icon: Claude, keywords: ['claude'] },
   { Icon: Aws, keywords: ['titan'] },
@@ -67,25 +70,20 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Gemini, keywords: ['gemini'] },
   { Icon: Gemma, keywords: ['gemma'] },
   { Icon: Moonshot, keywords: ['moonshot'] },
-  {
-    Icon: Tongyi,
-    keywords: ['qwen'],
-  },
+  { Icon: Tongyi, keywords: ['qwen'] },
   { Icon: Minimax, keywords: ['minmax', 'abab'] },
-  { Icon: Mistral, keywords: ['mistral', 'mixtral'] },
+  { Icon: Mistral, keywords: ['mistral', 'mixtral', 'codestral', 'mathstral'] },
   { Icon: Perplexity, keywords: ['pplx', 'sonar'] },
   { Icon: Yi, keywords: ['^yi-'] },
   { Icon: OpenRouter, keywords: ['^openrouter'] },
   { Icon: OpenChat, keywords: ['^openchat'] },
+  { Icon: Aya, keywords: ['aya'] },
   { Icon: Cohere, keywords: ['command'] },
   { Icon: Dbrx, keywords: ['dbrx'] },
   { Icon: Stepfun, keywords: ['step'] },
   { Icon: AiMass, keywords: ['taichu'] },
   { Icon: Ai360, keywords: ['360gpt'] },
-  {
-    Icon: Baichuan,
-    keywords: ['baichuan'],
-  },
+  { Icon: Baichuan, keywords: ['baichuan'] },
   { Icon: Rwkv, keywords: ['rwkv'] },
   { Icon: Wenxin, keywords: ['ernie'] },
   { Icon: Spark, keywords: ['spark'] },

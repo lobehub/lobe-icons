@@ -15,10 +15,12 @@ import LobeHub from '@/LobeHub';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import Moonshot from '@/Moonshot';
+import Novita from '@/Novita';
 import Ollama from '@/Ollama';
 import OpenAI from '@/OpenAI';
 import OpenRouter from '@/OpenRouter';
 import Perplexity from '@/Perplexity';
+import SiliconCloud from '@/SiliconCloud';
 import Stepfun from '@/Stepfun';
 import Together from '@/Together';
 import Tongyi from '@/Tongyi';
@@ -54,11 +56,13 @@ export enum ModelProvider {
   Minimax = 'minimax',
   Mistral = 'mistral',
   Moonshot = 'moonshot',
+  Novita = 'novita',
   Ollama = 'ollama',
   OpenAI = 'openai',
   OpenRouter = 'openrouter',
   Perplexity = 'perplexity',
   Qwen = 'qwen',
+  SiliconCloud = 'siliconcloud',
   Stepfun = 'stepfun',
   Taichu = 'taichu',
   TogetherAI = 'togetherai',
@@ -76,6 +80,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Google, keywords: [ModelProvider.Google] },
   { Icon: Azure, keywords: [ModelProvider.Azure] },
   { Icon: Moonshot, keywords: [ModelProvider.Moonshot] },
+  { Icon: Novita, keywords: [ModelProvider.Novita] },
   { Icon: OpenAI, keywords: [ModelProvider.OpenAI] },
   { Icon: Ollama, keywords: [ModelProvider.Ollama] },
   { Icon: Perplexity, keywords: [ModelProvider.Perplexity] },
@@ -91,4 +96,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Baichuan, keywords: [ModelProvider.Baichuan] },
   { Icon: AiMass, keywords: [ModelProvider.Taichu] },
   { Icon: Ai360, keywords: [ModelProvider.Ai360] },
+  { Icon: SiliconCloud, keywords: [ModelProvider.SiliconCloud] },
 ];

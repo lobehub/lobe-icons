@@ -18,11 +18,13 @@ import LobeHub from '@/LobeHub';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import Moonshot from '@/Moonshot';
+import Novita from '@/Novita';
 import Ollama from '@/Ollama';
 import OpenAI from '@/OpenAI';
 import OpenRouter from '@/OpenRouter';
 import Perplexity from '@/Perplexity';
 import { ModelProvider } from '@/ProviderIcon/const';
+import SiliconCloud from '@/SiliconCloud';
 import Stepfun from '@/Stepfun';
 import Together from '@/Together';
 import Tongyi from '@/Tongyi';
@@ -127,4 +129,6 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Baichuan.Combine, keywords: [ModelProvider.Baichuan], multiple: 0.83 },
   { Icon: AiMass.Combine, keywords: [ModelProvider.Taichu], multiple: 1.16 },
   { Icon: Ai360.Combine, keywords: [ModelProvider.Ai360], multiple: 0.83 },
+  { Icon: Novita.Combine, keywords: [ModelProvider.Novita], multiple: 0.95 },
+  { Icon: SiliconCloud.Combine, keywords: [ModelProvider.SiliconCloud], multiple: 0.75 },
 ];
