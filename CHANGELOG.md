@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.30.0](https://github.com/lobehub/lobe-icons/compare/v1.29.1...v1.30.0)
+
+<sup>Released on **2024-08-28**</sup>
+
+#### ✨ Features
+
+- **misc**: Add InternLM.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add InternLM ([2e1295b](https://github.com/lobehub/lobe-icons/commit/2e1295b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.29.1](https://github.com/lobehub/lobe-icons/compare/v1.29.0...v1.29.1)
 
 <sup>Released on **2024-08-27**</sup>
