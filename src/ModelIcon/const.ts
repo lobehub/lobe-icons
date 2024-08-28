@@ -31,11 +31,11 @@ import OpenAI from '@/OpenAI';
 import OpenChat from '@/OpenChat';
 import OpenRouter from '@/OpenRouter';
 import Perplexity from '@/Perplexity';
+import Qwen from '@/Qwen';
 import Rwkv from '@/Rwkv';
 import Spark from '@/Spark';
 import Stability from '@/Stability';
 import Stepfun from '@/Stepfun';
-import Tongyi from '@/Tongyi';
 import Wenxin from '@/Wenxin';
 import Yi from '@/Yi';
 import type { IconType } from '@/types';
@@ -71,7 +71,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Gemini, keywords: ['gemini'] },
   { Icon: Gemma, keywords: ['gemma'] },
   { Icon: Moonshot, keywords: ['moonshot'] },
-  { Icon: Tongyi, keywords: ['qwen'] },
+  { Icon: Qwen, keywords: ['qwen'] },
   { Icon: Minimax, keywords: ['minmax', 'abab'] },
   { Icon: Mistral, keywords: ['mistral', 'mixtral', 'codestral', 'mathstral'] },
   { Icon: Perplexity, keywords: ['pplx', 'sonar'] },

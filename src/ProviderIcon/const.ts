@@ -20,10 +20,10 @@ import Ollama from '@/Ollama';
 import OpenAI from '@/OpenAI';
 import OpenRouter from '@/OpenRouter';
 import Perplexity from '@/Perplexity';
+import Qwen from '@/Qwen';
 import SiliconCloud from '@/SiliconCloud';
 import Stepfun from '@/Stepfun';
 import Together from '@/Together';
-import Tongyi from '@/Tongyi';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
 import type { IconType } from '@/types';
@@ -91,7 +91,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: OpenRouter, keywords: [ModelProvider.OpenRouter] },
   { Icon: ZeroOne, keywords: [ModelProvider.ZeroOne] },
   { Icon: Together, keywords: [ModelProvider.TogetherAI] },
-  { Icon: Tongyi, keywords: [ModelProvider.Qwen] },
+  { Icon: Qwen, keywords: [ModelProvider.Qwen] },
   { Icon: Stepfun, keywords: [ModelProvider.Stepfun] },
   { Icon: Baichuan, keywords: [ModelProvider.Baichuan] },
   { Icon: AiMass, keywords: [ModelProvider.Taichu] },

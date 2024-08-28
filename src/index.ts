@@ -68,6 +68,8 @@ export { default as ProviderCombine, type ProviderCombineProps } from './Provide
 export { default as ProviderIcon, type ProviderIconProps } from './ProviderIcon';
 export { ModelProvider, type ModelProviderKey, providerMappings } from './ProviderIcon/const';
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';
+export { default as Qwen, type CompoundedIcon as QwenProps } from './Qwen';
+export { default as Tongyi, type CompoundedIcon as TongyiProps } from './Qwen';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './Replicate';
 export { default as Rwkv, type CompoundedIcon as RwkvProps } from './Rwkv';
 export { default as SiliconCloud, type CompoundedIcon as SiliconCloudProps } from './SiliconCloud';
@@ -77,7 +79,6 @@ export { default as Stepfun, type CompoundedIcon as StepfunProps } from './Stepf
 export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';
 export { default as Tencent, type CompoundedIcon as TencentProps } from './Tencent';
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
-export { default as Tongyi, type CompoundedIcon as TongyiProps } from './Tongyi';
 export type { IconType } from './types';
 export { default as Vllm, type CompoundedIcon as VllmProps } from './Vllm';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';

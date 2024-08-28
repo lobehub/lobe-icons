@@ -25,10 +25,10 @@ import OpenAI from '@/OpenAI';
 import OpenRouter from '@/OpenRouter';
 import Perplexity from '@/Perplexity';
 import { ModelProvider } from '@/ProviderIcon/const';
+import Qwen from '@/Qwen';
 import SiliconCloud from '@/SiliconCloud';
 import Stepfun from '@/Stepfun';
 import Together from '@/Together';
-import Tongyi from '@/Tongyi';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
 
@@ -126,7 +126,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: OpenRouter.Combine, keywords: [ModelProvider.OpenRouter], multiple: 0.8 },
   { Icon: ZeroOne.Combine, keywords: [ModelProvider.ZeroOne], multiple: 0.9 },
   { Icon: Together.Combine, keywords: [ModelProvider.TogetherAI] },
-  { Icon: Tongyi.Combine, keywords: [ModelProvider.Qwen] },
+  { Icon: Qwen.Combine, keywords: [ModelProvider.Qwen] },
   { Icon: Stepfun.Combine, keywords: [ModelProvider.Stepfun], multiple: 0.83 },
   { Icon: Baichuan.Combine, keywords: [ModelProvider.Baichuan], multiple: 0.83 },
   { Icon: AiMass.Combine, keywords: [ModelProvider.Taichu], multiple: 1.16 },
