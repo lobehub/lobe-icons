@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.30.1](https://github.com/lobehub/lobe-icons/compare/v1.30.0...v1.30.1)
+
+<sup>Released on **2024-08-28**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Qwen.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Qwen ([a5f59ac](https://github.com/lobehub/lobe-icons/commit/a5f59ac))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.30.0](https://github.com/lobehub/lobe-icons/compare/v1.29.1...v1.30.0)
 
 <sup>Released on **2024-08-28**</sup>
