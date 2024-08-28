@@ -21,6 +21,7 @@ import Gemma from '@/Gemma';
 import Hunyuan from '@/Hunyuan';
 import type { IconAvatarProps } from '@/IconAvatar';
 import type { IconCombineProps } from '@/IconCombine';
+import InternLM from '@/InternLM';
 import LLaVA from '@/LLaVA';
 import Meta from '@/Meta';
 import Minimax from '@/Minimax';
@@ -59,7 +60,7 @@ export interface ModelMapping {
 export const modelMappings: ModelMapping[] = [
   { Icon: OpenAI, keywords: ['gpt-3'], props: { type: 'gpt3' } },
   { Icon: OpenAI, keywords: ['gpt-4'], props: { type: 'gpt4' } },
-  { Icon: OpenAI, keywords: ['gpt', 'openai', 'dalle', 'text-embedding-'] },
+  { Icon: OpenAI, keywords: ['^gpt-', '/gpt-', 'openai', 'dalle', 'text-embedding-'] },
   { Icon: ChatGLM, keywords: ['glm-', 'chatglm'] },
   { Icon: CodeGeeX, keywords: ['^codegeex'] },
   { Icon: DeepSeek, keywords: ['deepseek'] },
@@ -74,7 +75,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Minimax, keywords: ['minmax', 'abab'] },
   { Icon: Mistral, keywords: ['mistral', 'mixtral', 'codestral', 'mathstral'] },
   { Icon: Perplexity, keywords: ['pplx', 'sonar'] },
-  { Icon: Yi, keywords: ['^yi-'] },
+  { Icon: Yi, keywords: ['^yi-', '/yi-'] },
   { Icon: OpenRouter, keywords: ['^openrouter'] },
   { Icon: OpenChat, keywords: ['^openchat'] },
   { Icon: Aya, keywords: ['aya'] },
@@ -107,4 +108,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Azure, keywords: ['wizardlm', 'phi3', 'phi-3'] },
   { Icon: Adobe, keywords: ['firefly'] },
   { Icon: Ai21, keywords: ['jamba', '^j2-'] },
+  { Icon: InternLM, keywords: ['internlm'] },
 ];

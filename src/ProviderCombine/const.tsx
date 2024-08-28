@@ -9,6 +9,7 @@ import Anthropic from '@/Anthropic';
 import Aws from '@/Aws';
 import Azure from '@/Azure';
 import Baichuan from '@/Baichuan';
+import Bedrock from '@/Bedrock';
 import Claude from '@/Claude';
 import DeepSeek from '@/DeepSeek';
 import Gemini from '@/Gemini';
@@ -56,13 +57,14 @@ export const providerMappings: ProviderMapping[] = [
   {
     Icon: ({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={type === 'color' ? <Aws.Color size={size * 1.3} /> : <Aws size={size * 1.3} />}
-        right={<OpenAI.Combine size={size} />}
+        left={type === 'color' ? <Aws.Color size={size * 1.2} /> : <Aws size={size * 1.2} />}
+        right={<Bedrock.Combine size={size} type={type} />}
         size={size}
         {...props}
       />
     ),
     keywords: [ModelProvider.Bedrock],
+    multiple: 1.1,
   },
   { Icon: DeepSeek.Combine, keywords: [ModelProvider.DeepSeek], multiple: 1.16 },
   {

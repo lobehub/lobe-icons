@@ -43,6 +43,7 @@ export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from 
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
 export { default as IconAvatar, type IconAvatarProps } from './IconAvatar';
 export { default as IconCombine, type IconCombineProps } from './IconCombine';
+export { default as InternLM, type CompoundedIcon as InternLMProps } from './InternLM';
 export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './Langfuse';
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmStudio';
