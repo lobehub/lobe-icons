@@ -19,6 +19,7 @@ import Fireworks from '@/Fireworks';
 import FishAudio from '@/FishAudio';
 import Gemini from '@/Gemini';
 import Gemma from '@/Gemma';
+import Google from '@/Google';
 import Hunyuan from '@/Hunyuan';
 import type { IconAvatarProps } from '@/IconAvatar';
 import type { IconCombineProps } from '@/IconCombine';
@@ -113,4 +114,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Ai21, keywords: ['jamba', '^j2-'] },
   { Icon: InternLM, keywords: ['internlm'] },
   { Icon: Upstage, keywords: ['^solar-'] },
+  { Icon: Google, keywords: ['google'] },
 ];
