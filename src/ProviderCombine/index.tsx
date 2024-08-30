@@ -1,20 +1,20 @@
-import { CSSProperties, memo, useMemo } from 'react';
+import { forwardRef, useMemo } from 'react';
+import { Flexbox, FlexboxProps } from 'react-layout-kit';
 
 import DefaultIcon from '@/ProviderIcon/DefaultIcon';
 import { ModelProviderKey } from '@/ProviderIcon/const';
 
 import { providerMappings } from './const';
 
-export interface ProviderCombineProps {
-  className?: string;
+export interface ProviderCombineProps
+  extends Omit<FlexboxProps, 'children' | 'horizontal' | 'height' | 'width' | 'align' | 'justify'> {
   provider?: ModelProviderKey | string;
   size?: number;
-  style?: CSSProperties;
   type?: 'mono' | 'color';
 }
 
-const ProviderCombine = memo<ProviderCombineProps>(
-  ({ provider: originProvider, size = 12, type = 'color', ...rest }) => {
+const ProviderCombine = forwardRef<HTMLDivElement, ProviderCombineProps>(
+  ({ provider: originProvider, size = 12, type = 'color', ...rest }, ref) => {
     const Render = useMemo(() => {
       if (!originProvider) return;
       const provider = originProvider.toLowerCase();
@@ -26,15 +26,24 @@ const ProviderCombine = memo<ProviderCombineProps>(
       }
     }, [originProvider]);
 
-    if (!Render?.Icon) return <DefaultIcon size={size} {...rest} />;
+    let icon = Render?.Icon ? (
+      <Render.Icon size={size * (Render?.multiple || 1)} type={type} {...(Render?.props || {})} />
+    ) : (
+      <DefaultIcon size={size} />
+    );
 
     return (
-      <Render.Icon
-        size={size * (Render?.multiple || 1)}
-        type={type}
-        {...(Render?.props || {})}
+      <Flexbox
+        align={'center'}
+        flex={'none'}
+        height={size * 1.5}
+        horizontal
+        ref={ref}
+        width={'fit-content'}
         {...rest}
-      />
+      >
+        {icon}
+      </Flexbox>
     );
   },
 );
