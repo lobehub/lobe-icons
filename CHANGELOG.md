@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.32.3](https://github.com/lobehub/lobe-icons/compare/v1.32.2...v1.32.3)
+
+<sup>Released on **2024-08-30**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Enum.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix Enum ([82b5fee](https://github.com/lobehub/lobe-icons/commit/82b5fee))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.32.2](https://github.com/lobehub/lobe-icons/compare/v1.32.1...v1.32.2)
 
 <sup>Released on **2024-08-30**</sup>
