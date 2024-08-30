@@ -24,6 +24,7 @@ import Qwen from '@/Qwen';
 import SiliconCloud from '@/SiliconCloud';
 import Stepfun from '@/Stepfun';
 import Together from '@/Together';
+import Upsate from '@/Upsate';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
 import type { IconType } from '@/types';
@@ -66,6 +67,7 @@ export enum ModelProvider {
   Stepfun = 'stepfun',
   Taichu = 'taichu',
   TogetherAI = 'togetherai',
+  Upsate = 'upsate',
   ZeroOne = 'zeroone',
   ZhiPu = 'zhipu',
 }
@@ -97,4 +99,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: AiMass, keywords: [ModelProvider.Taichu] },
   { Icon: Ai360, keywords: [ModelProvider.Ai360] },
   { Icon: SiliconCloud, keywords: [ModelProvider.SiliconCloud] },
+  { Icon: Upsate, keywords: [ModelProvider.Upsate] },
 ];

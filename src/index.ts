@@ -80,6 +80,7 @@ export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';
 export { default as Tencent, type CompoundedIcon as TencentProps } from './Tencent';
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
 export type { IconType } from './types';
+export { default as Upsate, type CompoundedIcon as UpsateProps } from './Upsate';
 export { default as Vllm, type CompoundedIcon as VllmProps } from './Vllm';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';

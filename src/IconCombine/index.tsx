@@ -12,6 +12,7 @@ export interface IconCombineProps extends FlexboxProps {
   extraClassName?: string;
   extraStyle?: CSSProperties;
   iconProps?: Partial<IconAvatarProps>;
+  inverse?: boolean;
   showLogo?: boolean;
   showText?: boolean;
   size?: number;
@@ -34,10 +35,25 @@ const IconCombine = forwardRef<HTMLDivElement, IconCombineProps>(
       showLogo = true,
       extraClassName,
       iconProps,
+      inverse,
       ...rest
     },
     ref,
   ) => {
+    const logo = showLogo && (
+      <Icon
+        size={size}
+        {...(iconProps as any)}
+        style={
+          inverse
+            ? { marginLeft: size * spaceMultiple, ...iconProps?.style }
+            : { marginRight: size * spaceMultiple, ...iconProps?.style }
+        }
+      />
+    );
+
+    const text = showText && Text && <Text size={size * textMultiple} />;
+
     return (
       <Flexbox
         align={'center'}
@@ -48,14 +64,17 @@ const IconCombine = forwardRef<HTMLDivElement, IconCombineProps>(
         style={{ color, ...style }}
         {...rest}
       >
-        {showLogo && (
-          <Icon
-            size={size}
-            {...(iconProps as any)}
-            style={{ marginRight: size * spaceMultiple, ...iconProps?.style }}
-          />
+        {inverse ? (
+          <>
+            {text}
+            {logo}
+          </>
+        ) : (
+          <>
+            {logo}
+            {text}
+          </>
         )}
-        {showText && Text && <Text size={size * textMultiple} />}
         {extra && (
           <span
             className={extraClassName}
