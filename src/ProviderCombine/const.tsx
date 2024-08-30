@@ -12,6 +12,7 @@ import Baichuan from '@/Baichuan';
 import Bedrock from '@/Bedrock';
 import Claude from '@/Claude';
 import DeepSeek from '@/DeepSeek';
+import Fireworks from '@/Fireworks';
 import Gemini from '@/Gemini';
 import Google from '@/Google';
 import Groq from '@/Groq';
@@ -27,6 +28,7 @@ import Perplexity from '@/Perplexity';
 import { ModelProvider } from '@/ProviderIcon/const';
 import Qwen from '@/Qwen';
 import SiliconCloud from '@/SiliconCloud';
+import Spark from '@/Spark';
 import Stepfun from '@/Stepfun';
 import Together from '@/Together';
 import Upstage from '@/Upstage';
@@ -127,6 +129,8 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: OpenRouter.Combine, keywords: [ModelProvider.OpenRouter], multiple: 0.8 },
   { Icon: ZeroOne.Combine, keywords: [ModelProvider.ZeroOne], multiple: 0.9 },
   { Icon: Together.Combine, keywords: [ModelProvider.TogetherAI] },
+  { Icon: Fireworks.Combine, keywords: [ModelProvider.FireworksAI], multiple: 1.14 },
+  { Icon: Spark.Combine, keywords: [ModelProvider.Spark], multiple: 0.92 },
   { Icon: Qwen.Combine, keywords: [ModelProvider.Qwen] },
   { Icon: Stepfun.Combine, keywords: [ModelProvider.Stepfun], multiple: 0.83 },
   { Icon: Baichuan.Combine, keywords: [ModelProvider.Baichuan], multiple: 0.83 },

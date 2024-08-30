@@ -7,6 +7,7 @@ import Azure from '@/Azure';
 import Baichuan from '@/Baichuan';
 import Bedrock from '@/Bedrock';
 import DeepSeek from '@/DeepSeek';
+import Fireworks from '@/Fireworks';
 import Google from '@/Google';
 import Groq from '@/Groq';
 import type { IconAvatarProps } from '@/IconAvatar';
@@ -22,6 +23,7 @@ import OpenRouter from '@/OpenRouter';
 import Perplexity from '@/Perplexity';
 import Qwen from '@/Qwen';
 import SiliconCloud from '@/SiliconCloud';
+import Spark from '@/Spark';
 import Stepfun from '@/Stepfun';
 import Together from '@/Together';
 import Upstage from '@/Upstage';
@@ -51,6 +53,7 @@ export enum ModelProvider {
   Baichuan = 'baichuan',
   Bedrock = 'bedrock',
   DeepSeek = 'deepseek',
+  FireworksAI = 'fireworksai',
   Google = 'google',
   Groq = 'groq',
   LobeHub = 'lobehub',
@@ -64,6 +67,7 @@ export enum ModelProvider {
   Perplexity = 'perplexity',
   Qwen = 'qwen',
   SiliconCloud = 'siliconcloud',
+  Spark = 'spark',
   Stepfun = 'stepfun',
   Taichu = 'taichu',
   TogetherAI = 'togetherai',
@@ -95,6 +99,8 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Together, keywords: [ModelProvider.TogetherAI] },
   { Icon: Qwen, keywords: [ModelProvider.Qwen] },
   { Icon: Stepfun, keywords: [ModelProvider.Stepfun] },
+  { Icon: Spark, keywords: [ModelProvider.Spark] },
+  { Icon: Fireworks, keywords: [ModelProvider.FireworksAI] },
   { Icon: Baichuan, keywords: [ModelProvider.Baichuan] },
   { Icon: AiMass, keywords: [ModelProvider.Taichu] },
   { Icon: Ai360, keywords: [ModelProvider.Ai360] },
