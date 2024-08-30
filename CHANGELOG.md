@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.31.0](https://github.com/lobehub/lobe-icons/compare/v1.30.1...v1.31.0)
+
+<sup>Released on **2024-08-30**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Upsate and Solar.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Upsate and Solar ([265887d](https://github.com/lobehub/lobe-icons/commit/265887d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.30.1](https://github.com/lobehub/lobe-icons/compare/v1.30.0...v1.30.1)
 
 <sup>Released on **2024-08-28**</sup>
