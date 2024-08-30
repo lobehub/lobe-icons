@@ -48,6 +48,7 @@ export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './Lan
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmStudio';
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeHub';
+export { default as Magic, type CompoundedIcon as MagicProps } from './Magic';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
 export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from './Midjourney';
 export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
