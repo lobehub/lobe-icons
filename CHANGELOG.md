@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.32.1](https://github.com/lobehub/lobe-icons/compare/v1.32.0...v1.32.1)
+
+<sup>Released on **2024-08-30**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix components, Fix LobeHub icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix components ([c21f99a](https://github.com/lobehub/lobe-icons/commit/c21f99a))
+- **misc**: Fix LobeHub icon ([6b5070d](https://github.com/lobehub/lobe-icons/commit/6b5070d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.32.0](https://github.com/lobehub/lobe-icons/compare/v1.31.0...v1.32.0)
 
 <sup>Released on **2024-08-30**</sup>
