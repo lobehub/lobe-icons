@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.32.4](https://github.com/lobehub/lobe-icons/compare/v1.32.3...v1.32.4)
+
+<sup>Released on **2024-08-30**</sup>
+
+#### 💄 Styles
+
+- **misc**: Support Fireworks & Spark icon display.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Support Fireworks & Spark icon display, closes [#33](https://github.com/lobehub/lobe-icons/issues/33) ([152d1b3](https://github.com/lobehub/lobe-icons/commit/152d1b3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.32.3](https://github.com/lobehub/lobe-icons/compare/v1.32.2...v1.32.3)
 
 <sup>Released on **2024-08-30**</sup>
