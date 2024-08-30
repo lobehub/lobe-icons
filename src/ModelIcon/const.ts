@@ -124,5 +124,16 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Upstage, keywords: ['^solar-'] },
   { Icon: PaLM, keywords: ['palm'] },
   { Icon: Google, keywords: ['google'] },
-  { Icon: Spark, keywords: ['spark', 'general', 'pro-128k', '4.0ultra'] },
+  {
+    Icon: Spark,
+    keywords: [
+      'spark',
+      'general$',
+      'generalv3$',
+      'generalv3.5$',
+      '4.0ultra$',
+      'pro-128k$',
+      '4.0ultra$',
+    ],
+  },
 ];
