@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.32.2](https://github.com/lobehub/lobe-icons/compare/v1.32.1...v1.32.2)
+
+<sup>Released on **2024-08-30**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix Upstage typo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix Upstage typo ([d56f026](https://github.com/lobehub/lobe-icons/commit/d56f026))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.32.1](https://github.com/lobehub/lobe-icons/compare/v1.32.0...v1.32.1)
 
 <sup>Released on **2024-08-30**</sup>
