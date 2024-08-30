@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.32.5](https://github.com/lobehub/lobe-icons/compare/v1.32.4...v1.32.5)
+
+<sup>Released on **2024-08-30**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update model const.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update model const ([bd4dbc0](https://github.com/lobehub/lobe-icons/commit/bd4dbc0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.32.4](https://github.com/lobehub/lobe-icons/compare/v1.32.3...v1.32.4)
 
 <sup>Released on **2024-08-30**</sup>
