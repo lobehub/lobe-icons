@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.32.7](https://github.com/lobehub/lobe-icons/compare/v1.32.6...v1.32.7)
+
+<sup>Released on **2024-08-30**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix doubao model icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix doubao model icon, closes [#34](https://github.com/lobehub/lobe-icons/issues/34) ([0eaaa33](https://github.com/lobehub/lobe-icons/commit/0eaaa33))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.32.6](https://github.com/lobehub/lobe-icons/compare/v1.32.5...v1.32.6)
 
 <sup>Released on **2024-08-30**</sup>
