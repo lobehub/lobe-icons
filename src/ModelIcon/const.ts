@@ -15,6 +15,7 @@ import CodeGeeX from '@/CodeGeeX';
 import Cohere from '@/Cohere';
 import Dbrx from '@/Dbrx';
 import DeepSeek from '@/DeepSeek';
+import Fireworks from '@/Fireworks';
 import FishAudio from '@/FishAudio';
 import Gemini from '@/Gemini';
 import Gemma from '@/Gemma';
@@ -67,6 +68,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: DeepSeek, keywords: ['deepseek'] },
   { Icon: Claude, keywords: ['claude'] },
   { Icon: Aws, keywords: ['titan'] },
+  { Icon: Fireworks, keywords: ['accounts/fireworks/models/fire'] },
   { Icon: Meta, keywords: ['llama'] },
   { Icon: LLaVA, keywords: ['llava'] },
   { Icon: Gemini, keywords: ['gemini'] },
@@ -88,7 +90,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Baichuan, keywords: ['baichuan'] },
   { Icon: Rwkv, keywords: ['rwkv'] },
   { Icon: Wenxin, keywords: ['ernie'] },
-  { Icon: Spark, keywords: ['spark'] },
+  { Icon: Spark, keywords: ['spark', 'general', 'pro-128k', '4.0ultra'] },
   { Icon: Hunyuan, keywords: ['hunyuan'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
   { Icon: ByteDance, keywords: ['skylark'] },
