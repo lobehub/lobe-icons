@@ -2,10 +2,11 @@ import { CSSProperties, forwardRef, useMemo } from 'react';
 
 import DefaultAvatar from './DefaultAvatar';
 import DefaultIcon from './DefaultIcon';
-import { ModelProviderKey, providerMappings } from './const';
+import { ModelProvider, ModelProviderKey, providerMappings } from './const';
 
 export interface ProviderIconProps {
   className?: string;
+  forceMono?: boolean;
   provider?: ModelProviderKey | string;
   size?: number;
   style?: CSSProperties;
@@ -13,7 +14,7 @@ export interface ProviderIconProps {
 }
 
 const ProviderIcon = forwardRef<any, ProviderIconProps>(
-  ({ provider: originProvider, size = 12, type = 'avatar', ...rest }, ref) => {
+  ({ provider: originProvider, size = 12, type = 'avatar', forceMono, ...rest }, ref) => {
     const Render = useMemo(() => {
       if (!originProvider) return;
       const provider = originProvider.toLowerCase();
@@ -32,6 +33,10 @@ const ProviderIcon = forwardRef<any, ProviderIconProps>(
       }
       case 'mono': {
         if (!Render?.Icon) return <DefaultIcon ref={ref} size={size} {...rest} />;
+        if (!forceMono && originProvider === ModelProvider.LobeHub) {
+          // @ts-ignore
+          return <Render.Icon.Color ref={ref} size={size} {...(Render?.props || {})} {...rest} />;
+        }
         return <Render.Icon ref={ref} size={size} {...(Render?.props || {})} {...rest} />;
       }
       case 'color': {
