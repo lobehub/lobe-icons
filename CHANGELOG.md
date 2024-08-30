@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.32.0](https://github.com/lobehub/lobe-icons/compare/v1.31.0...v1.32.0)
+
+<sup>Released on **2024-08-30**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Magic.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Magic ([2f4462e](https://github.com/lobehub/lobe-icons/commit/2f4462e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.31.0](https://github.com/lobehub/lobe-icons/compare/v1.30.1...v1.31.0)
 
 <sup>Released on **2024-08-30**</sup>
