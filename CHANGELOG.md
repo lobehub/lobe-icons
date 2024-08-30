@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.33.0](https://github.com/lobehub/lobe-icons/compare/v1.32.7...v1.33.0)
+
+<sup>Released on **2024-08-30**</sup>
+
+#### ✨ Features
+
+- **misc**: Add FLux and PaLM.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix spark const, Fix spark in const.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add FLux and PaLM ([c0108cf](https://github.com/lobehub/lobe-icons/commit/c0108cf))
+
+#### What's fixed
+
+- **misc**: Fix spark const ([68299a5](https://github.com/lobehub/lobe-icons/commit/68299a5))
+- **misc**: Fix spark in const ([f696abe](https://github.com/lobehub/lobe-icons/commit/f696abe))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.32.7](https://github.com/lobehub/lobe-icons/compare/v1.32.6...v1.32.7)
 
 <sup>Released on **2024-08-30**</sup>
