@@ -2,7 +2,7 @@
 nav: Components
 group: Model
 atomId: ChatGLM
-title: Zhipu (ChatGLM)
+title: ChatGLM (智谱)
 description: https://github.com/THUDM/ChatGLM-6B
 ---
 

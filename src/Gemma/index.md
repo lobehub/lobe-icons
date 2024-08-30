@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Model
-title: Google (Gemma)
+title: Gemma (Google)
 atomId: Gemma
 description: https://ai.google.dev/gemma
 ---

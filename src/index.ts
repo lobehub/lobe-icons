@@ -29,6 +29,7 @@ export { default as DeepSeek, type CompoundedIcon as DeepSeekProps } from './Dee
 export { default as Doubao, type CompoundedIcon as DoubaoProps } from './Doubao';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
 export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './FishAudio';
+export { default as Flux, type CompoundedIcon as FluxProps } from './Flux';
 export { default as Gemini, type CompoundedIcon as GeminiProps } from './Gemini';
 export { default as Gemma, type CompoundedIcon as GemmaProps } from './Gemma';
 export { default as Github, type CompoundedIcon as GithubProps } from './Github';
@@ -63,6 +64,7 @@ export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama'
 export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './OpenAI';
 export { default as OpenChat, type CompoundedIcon as OpenChatProps } from './OpenChat';
 export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './OpenRouter';
+export { default as PaLM, type CompoundedIcon as PaLMProps } from './PaLM';
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './Perplexity';
 export { default as Pollinations, type CompoundedIcon as PollinationsProps } from './Pollinations';
 export { default as ProviderCombine, type ProviderCombineProps } from './ProviderCombine';

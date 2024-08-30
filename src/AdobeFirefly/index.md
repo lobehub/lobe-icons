@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Application
-title: Adobe (Firefly)
+title: Firefly (Adobe)
 atomId: AdobeFirefly
 description: https://firefly.adobe.com
 ---

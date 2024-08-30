@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Provider
-title: AWS (Bedrock)
+title: Bedrock (AWS)
 atomId: Bedrock
 description: https://aws.amazon.com/bedrock
 ---

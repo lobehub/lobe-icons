@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Provider
-title: Cloudflare (WorkersAI)
+title: WorkersAI (Cloudflare)
 atomId: WorkersAI
 description: https://developers.cloudflare.com/workers-ai
 ---

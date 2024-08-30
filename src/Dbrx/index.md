@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Model
-title: Databricks (DBRX)
+title: DBRX (Databricks)
 atomId: Dbrx
 description: https://www.databricks.com
 ---

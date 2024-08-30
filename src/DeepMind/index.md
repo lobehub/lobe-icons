@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Provider
-title: Google（DeepMind)
+title: DeepMind (Google)
 atomId: DeepMind
 description: https://deepmind.google
 ---

@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Model
-title: Google (Gemini)
+title: Gemini (Google)
 atomId: Gemini
 description: https://deepmind.google/technologies/gemini
 ---
