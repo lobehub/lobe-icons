@@ -37,7 +37,7 @@ import Rwkv from '@/Rwkv';
 import Spark from '@/Spark';
 import Stability from '@/Stability';
 import Stepfun from '@/Stepfun';
-import Upsate from '@/Upsate';
+import Upstage from '@/Upstage';
 import Wenxin from '@/Wenxin';
 import Yi from '@/Yi';
 import type { IconType } from '@/types';
@@ -112,5 +112,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Adobe, keywords: ['firefly'] },
   { Icon: Ai21, keywords: ['jamba', '^j2-'] },
   { Icon: InternLM, keywords: ['internlm'] },
-  { Icon: Upsate, keywords: ['^solar-'] },
+  { Icon: Upstage, keywords: ['^solar-'] },
 ];

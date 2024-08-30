@@ -5,7 +5,7 @@ export default () => {
   return (
     <Flexbox gap={8} horizontal width={'100%'} wrap={'wrap'}>
       {Object.values(ModelProvider).map((provider) => (
-        <ProviderIcon key={provider} provider={provider} size={48} type={'mono'} />
+        <ProviderIcon forceMono key={provider} provider={provider} size={48} type={'mono'} />
       ))}
     </Flexbox>
   );

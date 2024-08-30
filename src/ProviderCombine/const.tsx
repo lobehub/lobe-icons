@@ -31,7 +31,7 @@ import SiliconCloud from '@/SiliconCloud';
 import Spark from '@/Spark';
 import Stepfun from '@/Stepfun';
 import Together from '@/Together';
-import Upsate from '@/Upsate';
+import Upstage from '@/Upstage';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
 
@@ -137,6 +137,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Ai360.Combine, keywords: [ModelProvider.Ai360], multiple: 0.83 },
   { Icon: Novita.Combine, keywords: [ModelProvider.Novita], multiple: 0.95 },
   { Icon: SiliconCloud.Combine, keywords: [ModelProvider.SiliconCloud], multiple: 0.75 },
-  { Icon: Spark.Combine, keywords: [ModelProvider.Spark] },
-  { Icon: Upsate.Combine, keywords: [ModelProvider.Upsate], multiple: 0.9 },
+  { Icon: Upstage.Combine, keywords: [ModelProvider.Upstage], multiple: 0.9 },
 ];

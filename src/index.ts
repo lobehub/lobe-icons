@@ -48,6 +48,7 @@ export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './Lan
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmStudio';
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeHub';
+export { default as Magic, type CompoundedIcon as MagicProps } from './Magic';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
 export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from './Midjourney';
 export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
@@ -80,7 +81,7 @@ export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';
 export { default as Tencent, type CompoundedIcon as TencentProps } from './Tencent';
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
 export type { IconType } from './types';
-export { default as Upsate, type CompoundedIcon as UpsateProps } from './Upsate';
+export { default as Upstage, type CompoundedIcon as UpstageProps } from './Upstage';
 export { default as Vllm, type CompoundedIcon as VllmProps } from './Vllm';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
