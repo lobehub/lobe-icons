@@ -15,6 +15,7 @@ import CodeGeeX from '@/CodeGeeX';
 import Cohere from '@/Cohere';
 import Dbrx from '@/Dbrx';
 import DeepSeek from '@/DeepSeek';
+import Doubao from '@/Doubao';
 import Fireworks from '@/Fireworks';
 import FishAudio from '@/FishAudio';
 import Gemini from '@/Gemini';
@@ -114,5 +115,6 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Ai21, keywords: ['jamba', '^j2-'] },
   { Icon: InternLM, keywords: ['internlm'] },
   { Icon: Upstage, keywords: ['^solar-'] },
+  { Icon: Doubao, keywords: ['^doubao', 'doubao-'] },
   { Icon: Google, keywords: ['google'] },
 ];
