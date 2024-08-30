@@ -13,11 +13,13 @@ import ChatGLM from '@/ChatGLM';
 import Claude from '@/Claude';
 import CodeGeeX from '@/CodeGeeX';
 import Cohere from '@/Cohere';
+import Dalle from '@/Dalle';
 import Dbrx from '@/Dbrx';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
 import Fireworks from '@/Fireworks';
 import FishAudio from '@/FishAudio';
+import Flux from '@/Flux';
 import Gemini from '@/Gemini';
 import Gemma from '@/Gemma';
 import Google from '@/Google';
@@ -33,12 +35,14 @@ import Moonshot from '@/Moonshot';
 import OpenAI from '@/OpenAI';
 import OpenChat from '@/OpenChat';
 import OpenRouter from '@/OpenRouter';
+import PaLM from '@/PaLM';
 import Perplexity from '@/Perplexity';
 import Qwen from '@/Qwen';
 import Rwkv from '@/Rwkv';
 import Spark from '@/Spark';
 import Stability from '@/Stability';
 import Stepfun from '@/Stepfun';
+import Suno from '@/Suno';
 import Upstage from '@/Upstage';
 import Wenxin from '@/Wenxin';
 import Yi from '@/Yi';
@@ -64,21 +68,22 @@ export interface ModelMapping {
 export const modelMappings: ModelMapping[] = [
   { Icon: OpenAI, keywords: ['gpt-3'], props: { type: 'gpt3' } },
   { Icon: OpenAI, keywords: ['gpt-4'], props: { type: 'gpt4' } },
-  { Icon: OpenAI, keywords: ['^gpt-', '/gpt-', 'openai', 'dalle', 'text-embedding-'] },
+  { Icon: Dalle, keywords: ['dalle'] },
+  { Icon: OpenAI, keywords: ['^gpt-', '/gpt-', 'openai', 'text-embedding-'] },
   { Icon: ChatGLM, keywords: ['glm-', 'chatglm'] },
   { Icon: CodeGeeX, keywords: ['^codegeex'] },
   { Icon: DeepSeek, keywords: ['deepseek'] },
   { Icon: Claude, keywords: ['claude'] },
   { Icon: Aws, keywords: ['titan'] },
   { Icon: Fireworks, keywords: ['accounts/fireworks/models/fire'] },
-  { Icon: Meta, keywords: ['llama'] },
+  { Icon: Meta, keywords: ['llama', '/l3'] },
   { Icon: LLaVA, keywords: ['llava'] },
   { Icon: Gemini, keywords: ['gemini'] },
   { Icon: Gemma, keywords: ['gemma'] },
   { Icon: Moonshot, keywords: ['moonshot'] },
   { Icon: Qwen, keywords: ['qwen'] },
   { Icon: Minimax, keywords: ['minmax', 'abab'] },
-  { Icon: Mistral, keywords: ['mistral', 'mixtral', 'codestral', 'mathstral'] },
+  { Icon: Mistral, keywords: ['mistral', 'mixtral', 'codestral', 'mathstral', '/mn-'] },
   { Icon: Perplexity, keywords: ['pplx', 'sonar'] },
   { Icon: Yi, keywords: ['^yi-', '/yi-'] },
   { Icon: OpenRouter, keywords: ['^openrouter'] },
@@ -90,8 +95,9 @@ export const modelMappings: ModelMapping[] = [
   { Icon: AiMass, keywords: ['taichu'] },
   { Icon: Ai360, keywords: ['360gpt'] },
   { Icon: Baichuan, keywords: ['baichuan'] },
-  { Icon: Rwkv, keywords: ['rwkv'] },
+  { Icon: Rwkv, keywords: ['rwkv', '/eagle-'] },
   { Icon: Wenxin, keywords: ['ernie'] },
+  { Icon: Doubao, keywords: ['^doubao', 'doubao-'] },
   { Icon: Hunyuan, keywords: ['hunyuan'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
   { Icon: ByteDance, keywords: ['skylark'] },
@@ -109,12 +115,14 @@ export const modelMappings: ModelMapping[] = [
       '^sd1',
     ],
   },
+  { Icon: Flux, keywords: ['flux'] },
+  { Icon: Suno, keywords: ['suno'] },
   { Icon: Azure, keywords: ['wizardlm', 'phi3', 'phi-3'] },
   { Icon: Adobe, keywords: ['firefly'] },
   { Icon: Ai21, keywords: ['jamba', '^j2-'] },
   { Icon: InternLM, keywords: ['internlm'] },
   { Icon: Upstage, keywords: ['^solar-'] },
-  { Icon: Doubao, keywords: ['^doubao', 'doubao-'] },
+  { Icon: PaLM, keywords: ['palm'] },
   { Icon: Google, keywords: ['google'] },
   { Icon: Spark, keywords: ['spark', 'general', 'pro-128k', '4.0ultra'] },
 ];
