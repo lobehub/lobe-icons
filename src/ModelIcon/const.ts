@@ -119,7 +119,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Suno, keywords: ['suno'] },
   { Icon: Azure, keywords: ['wizardlm', 'phi3', 'phi-3'] },
   { Icon: Adobe, keywords: ['firefly'] },
-  { Icon: Ai21, keywords: ['jamba', '^j2-'] },
+  { Icon: Ai21, keywords: ['jamba', '^j2-', 'ai21'] },
   { Icon: InternLM, keywords: ['internlm'] },
   { Icon: Upstage, keywords: ['^solar-'] },
   { Icon: PaLM, keywords: ['palm'] },
