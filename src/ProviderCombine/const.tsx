@@ -3,6 +3,7 @@ import { Divider } from 'antd';
 import { FC, ReactNode, memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
+import Ai21 from '@/Ai21'
 import Ai360 from '@/Ai360';
 import AiMass from '@/AiMass';
 import Anthropic from '@/Anthropic';
@@ -139,4 +140,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Novita.Combine, keywords: [ModelProvider.Novita], multiple: 0.95 },
   { Icon: SiliconCloud.Combine, keywords: [ModelProvider.SiliconCloud], multiple: 0.75 },
   { Icon: Upstage.Combine, keywords: [ModelProvider.Upstage], multiple: 0.9 },
+  { Icon: Ai21.Combine, keywords: [ModelProvider.Ai21] },
 ];

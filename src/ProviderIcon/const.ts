@@ -1,5 +1,6 @@
 import { FC } from 'react';
 
+import Ai21 from '@/Ai21';
 import Ai360 from '@/Ai360';
 import AiMass from '@/AiMass';
 import Anthropic from '@/Anthropic';
@@ -47,6 +48,7 @@ export interface ProviderMapping {
 }
 
 export enum ModelProvider {
+  Ai21 = 'ai21',
   Ai360 = 'ai360',
   Anthropic = 'anthropic',
   Azure = 'azure',
@@ -106,4 +108,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Ai360, keywords: [ModelProvider.Ai360] },
   { Icon: SiliconCloud, keywords: [ModelProvider.SiliconCloud] },
   { Icon: Upstage, keywords: [ModelProvider.Upstage] },
+  { Icon: Ai21, keywords: [ModelProvider.Ai21] },
 ];
