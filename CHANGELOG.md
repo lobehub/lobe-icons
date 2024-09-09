@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.33.2](https://github.com/lobehub/lobe-icons/compare/v1.33.1...v1.33.2)
+
+<sup>Released on **2024-09-09**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix AI21 modelTag display in Bedrock & add providerIcon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix AI21 modelTag display in Bedrock & add providerIcon, closes [#36](https://github.com/lobehub/lobe-icons/issues/36) ([561d3ac](https://github.com/lobehub/lobe-icons/commit/561d3ac))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.33.1](https://github.com/lobehub/lobe-icons/compare/v1.33.0...v1.33.1)
 
 <sup>Released on **2024-08-30**</sup>
