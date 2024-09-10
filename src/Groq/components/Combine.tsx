@@ -1,3 +1,4 @@
+import { useTheme } from 'antd-style';
 import { memo } from 'react';
 
 import IconCombine, { type IconCombineProps } from '@/IconCombine';
@@ -10,13 +11,19 @@ export interface CombineProps extends Omit<IconCombineProps, 'Icon' | 'Text'> {
   type?: 'mono' | 'color';
 }
 
-const Combine = memo<CombineProps>(({ type = 'mono', ...rest }) => {
+const Combine = memo<CombineProps>(({ type = 'mono', iconProps, ...rest }) => {
+  const theme = useTheme();
   return (
     <IconCombine
       Icon={Avatar}
       Text={Text}
       aria-label={TITLE}
-      showLogo={type === 'color'}
+      iconProps={{
+        background: type === 'mono' ? theme.colorText : undefined,
+        color: type === 'mono' ? theme.colorBgLayout : undefined,
+        shape: 'circle',
+        ...iconProps,
+      }}
       spaceMultiple={SPACE_MULTIPLE}
       textMultiple={TEXT_MULTIPLE}
       {...rest}

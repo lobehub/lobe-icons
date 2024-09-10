@@ -9,6 +9,7 @@ import Baichuan from '@/Baichuan';
 import Bedrock from '@/Bedrock';
 import DeepSeek from '@/DeepSeek';
 import Fireworks from '@/Fireworks';
+import Github from '@/Github';
 import Google from '@/Google';
 import Groq from '@/Groq';
 import type { IconAvatarProps } from '@/IconAvatar';
@@ -56,6 +57,7 @@ export enum ModelProvider {
   Bedrock = 'bedrock',
   DeepSeek = 'deepseek',
   FireworksAI = 'fireworksai',
+  Github = 'github',
   Google = 'google',
   Groq = 'groq',
   LobeHub = 'lobehub',
@@ -109,4 +111,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: SiliconCloud, keywords: [ModelProvider.SiliconCloud] },
   { Icon: Upstage, keywords: [ModelProvider.Upstage] },
   { Icon: Ai21, keywords: [ModelProvider.Ai21] },
+  { Icon: Github, keywords: [ModelProvider.Github] },
 ];
