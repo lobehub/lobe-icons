@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.33.3](https://github.com/lobehub/lobe-icons/compare/v1.33.2...v1.33.3)
+
+<sup>Released on **2024-09-10**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update GitHub to ProviderIcon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update GitHub to ProviderIcon ([d5090be](https://github.com/lobehub/lobe-icons/commit/d5090be))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.33.2](https://github.com/lobehub/lobe-icons/compare/v1.33.1...v1.33.2)
 
 <sup>Released on **2024-09-09**</sup>
