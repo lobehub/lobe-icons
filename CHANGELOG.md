@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.33.4](https://github.com/lobehub/lobe-icons/compare/v1.33.3...v1.33.4)
+
+<sup>Released on **2024-09-12**</sup>
+
+#### 💄 Styles
+
+- **misc**: SafariIconWidthFix.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: SafariIconWidthFix ([172d50a](https://github.com/lobehub/lobe-icons/commit/172d50a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.33.3](https://github.com/lobehub/lobe-icons/compare/v1.33.2...v1.33.3)
 
 <sup>Released on **2024-09-10**</sup>
