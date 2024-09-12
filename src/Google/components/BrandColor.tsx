@@ -10,7 +10,7 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
       aria-label={'Google'}
       height={size}
       ref={ref}
-      style={{ flex: 'none', lineHeight: 1, width: 'fit-content', ...style }}
+      style={{ flex: 'none', lineHeight: 1, ...style }}
       viewBox="0 0 77 24"
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
