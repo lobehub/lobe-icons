@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.33.6](https://github.com/lobehub/lobe-icons/compare/v1.33.5...v1.33.6)
+
+<sup>Released on **2024-09-13**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add roundToEven.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add roundToEven ([f7198fe](https://github.com/lobehub/lobe-icons/commit/f7198fe))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.33.5](https://github.com/lobehub/lobe-icons/compare/v1.33.4...v1.33.5)
 
 <sup>Released on **2024-09-13**</sup>
