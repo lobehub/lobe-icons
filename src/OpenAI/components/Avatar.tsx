@@ -2,11 +2,11 @@ import { memo } from 'react';
 
 import IconAvatar, { type IconAvatarProps } from '@/IconAvatar';
 
-import { COLOR_GPT_3, COLOR_GPT_4, COLOR_PRIMARY, TITLE } from '../style';
+import { COLOR_GPT_3, COLOR_GPT_4, COLOR_O_1, COLOR_PRIMARY, TITLE } from '../style';
 import Mono from './Mono';
 
 export interface AvatarProps extends Omit<IconAvatarProps, 'Icon'> {
-  type?: 'normal' | 'gpt3' | 'gpt4';
+  type?: 'normal' | 'gpt3' | 'gpt4' | 'o1';
 }
 
 const Avatar = memo<AvatarProps>(({ background, type = 'normal', ...rest }) => {
@@ -19,6 +19,10 @@ const Avatar = memo<AvatarProps>(({ background, type = 'normal', ...rest }) => {
     }
     case 'gpt4': {
       bg = COLOR_GPT_4;
+      break;
+    }
+    case 'o1': {
+      bg = COLOR_O_1;
       break;
     }
     default: {

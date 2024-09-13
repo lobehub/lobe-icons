@@ -68,6 +68,7 @@ export interface ModelMapping {
 export const modelMappings: ModelMapping[] = [
   { Icon: OpenAI, keywords: ['gpt-3'], props: { type: 'gpt3' } },
   { Icon: OpenAI, keywords: ['gpt-4'], props: { type: 'gpt4' } },
+  { Icon: OpenAI, keywords: ['o1-'], props: { type: 'o1' } },
   { Icon: Dalle, keywords: ['dalle'] },
   { Icon: OpenAI, keywords: ['^gpt-', '/gpt-', 'openai', 'text-embedding-'] },
   { Icon: ChatGLM, keywords: ['glm-', 'chatglm'] },
