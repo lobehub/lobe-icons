@@ -86,7 +86,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Minimax, keywords: ['minmax', 'abab'] },
   { Icon: Mistral, keywords: ['mistral', 'mixtral', 'codestral', 'mathstral', '/mn-'] },
   { Icon: Perplexity, keywords: ['pplx', 'sonar'] },
-  { Icon: Yi, keywords: ['^yi-', '/yi-'] },
+  { Icon: Yi, keywords: ['^yi-', '/yi-', '-yi-'] },
   { Icon: OpenRouter, keywords: ['^openrouter'] },
   { Icon: OpenChat, keywords: ['^openchat'] },
   { Icon: Aya, keywords: ['aya'] },
@@ -122,7 +122,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Adobe, keywords: ['firefly'] },
   { Icon: Ai21, keywords: ['jamba', '^j2-', 'ai21'] },
   { Icon: InternLM, keywords: ['internlm'] },
-  { Icon: Upstage, keywords: ['^solar-'] },
+  { Icon: Upstage, keywords: ['^solar-', '/solar'] },
   { Icon: PaLM, keywords: ['palm'] },
   { Icon: Google, keywords: ['google'] },
   {
