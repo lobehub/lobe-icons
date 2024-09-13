@@ -3,6 +3,8 @@ import { Center, type FlexboxProps } from 'react-layout-kit';
 
 import { IconType } from '@/types';
 
+import { roundToEven } from './util';
+
 export interface IconAvatarProps extends Omit<FlexboxProps, 'children'> {
   Icon?: IconType;
   background?: string;
@@ -42,7 +44,13 @@ const IconAvatar = forwardRef<HTMLDivElement, IconAvatarProps>(
           ...style,
         }}
       >
-        {Icon && <Icon className={iconClassName} size={size * iconMultiple} style={iconStyle} />}
+        {Icon && (
+          <Icon
+            className={iconClassName}
+            size={roundToEven(size * iconMultiple)}
+            style={iconStyle}
+          />
+        )}
       </Center>
     );
   },
