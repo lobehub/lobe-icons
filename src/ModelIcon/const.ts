@@ -98,7 +98,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Baichuan, keywords: ['baichuan'] },
   { Icon: Rwkv, keywords: ['rwkv', '/eagle-'] },
   { Icon: Wenxin, keywords: ['ernie'] },
-  { Icon: Doubao, keywords: ['^ep-'] },
+  { Icon: Doubao, keywords: ['^ep-', 'doubao-'] },
   { Icon: Hunyuan, keywords: ['hunyuan'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
   { Icon: ByteDance, keywords: ['skylark'] },
