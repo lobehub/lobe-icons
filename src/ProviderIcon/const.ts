@@ -8,6 +8,7 @@ import Azure from '@/Azure';
 import Baichuan from '@/Baichuan';
 import Bedrock from '@/Bedrock';
 import DeepSeek from '@/DeepSeek';
+import Doubao from '@/Doubao';
 import Fireworks from '@/Fireworks';
 import Github from '@/Github';
 import Google from '@/Google';
@@ -56,6 +57,7 @@ export enum ModelProvider {
   Baichuan = 'baichuan',
   Bedrock = 'bedrock',
   DeepSeek = 'deepseek',
+  Doubao = 'Doubao',
   FireworksAI = 'fireworksai',
   Github = 'github',
   Google = 'google',
@@ -112,4 +114,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Upstage, keywords: [ModelProvider.Upstage] },
   { Icon: Ai21, keywords: [ModelProvider.Ai21] },
   { Icon: Github, keywords: [ModelProvider.Github] },
+  { Icon: Doubao, keywords: [ModelProvider.Doubao] },
 ];
