@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.33.5](https://github.com/lobehub/lobe-icons/compare/v1.33.4...v1.33.5)
+
+<sup>Released on **2024-09-13**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Yi & Solar icon display in TogetherAI provider.
+
+#### 💄 Styles
+
+- **misc**: Add Doubao Model, Support OpenAI o1-preview and o1-mini.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Yi & Solar icon display in TogetherAI provider, closes [#35](https://github.com/lobehub/lobe-icons/issues/35) ([2e9dafb](https://github.com/lobehub/lobe-icons/commit/2e9dafb))
+
+#### Styles
+
+- **misc**: Add Doubao Model, closes [#37](https://github.com/lobehub/lobe-icons/issues/37) ([6f91171](https://github.com/lobehub/lobe-icons/commit/6f91171))
+- **misc**: Support OpenAI o1-preview and o1-mini ([a8c8163](https://github.com/lobehub/lobe-icons/commit/a8c8163))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.33.4](https://github.com/lobehub/lobe-icons/compare/v1.33.3...v1.33.4)
 
 <sup>Released on **2024-09-12**</sup>
