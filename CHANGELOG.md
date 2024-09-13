@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.33.7](https://github.com/lobehub/lobe-icons/compare/v1.33.6...v1.33.7)
+
+<sup>Released on **2024-09-13**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix doubao.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix doubao ([37e871d](https://github.com/lobehub/lobe-icons/commit/37e871d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.33.6](https://github.com/lobehub/lobe-icons/compare/v1.33.5...v1.33.6)
 
 <sup>Released on **2024-09-13**</sup>
