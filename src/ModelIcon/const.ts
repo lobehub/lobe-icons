@@ -84,7 +84,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Moonshot, keywords: ['moonshot'] },
   { Icon: Qwen, keywords: ['qwen'] },
   { Icon: Minimax, keywords: ['minmax', 'abab'] },
-  { Icon: Mistral, keywords: ['mistral', 'mixtral', 'codestral', 'mathstral', '/mn-'] },
+  { Icon: Mistral, keywords: ['mistral', 'mixtral', 'codestral', 'mathstral', '/mn-','pixtral'] },
   { Icon: Perplexity, keywords: ['pplx', 'sonar'] },
   { Icon: Yi, keywords: ['^yi-', '/yi-', '-yi-'] },
   { Icon: OpenRouter, keywords: ['^openrouter'] },
