@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.33.8](https://github.com/lobehub/lobe-icons/compare/v1.33.7...v1.33.8)
+
+<sup>Released on **2024-09-19**</sup>
+
+#### 💄 Styles
+
+- **misc**: Upload pixtral model icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Upload pixtral model icon, closes [#38](https://github.com/lobehub/lobe-icons/issues/38) ([adfa071](https://github.com/lobehub/lobe-icons/commit/adfa071))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.33.7](https://github.com/lobehub/lobe-icons/compare/v1.33.6...v1.33.7)
 
 <sup>Released on **2024-09-13**</sup>
