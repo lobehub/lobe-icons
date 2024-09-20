@@ -26,6 +26,12 @@ const themeConfig = {
   },
   description: description,
   footer: 'Made with 🤯 by LobeHub',
+  giscus: {
+    category: 'Q&A',
+    categoryId: 'DIC_kwDOLLYRIs4Cin-i',
+    repo: 'lobehub/lobe-icons',
+    repoId: 'R_kgDOLLYRIg',
+  },
   name: 'Icons',
   nav: [
     { link: '/components/ai21', title: 'Icons' },
@@ -46,12 +52,6 @@ export default defineConfig({
   },
   extraBabelPlugins: ['babel-plugin-antd-style'],
   favicons: ['https://lobehub.com/favicon.ico'],
-  giscus: {
-    category: 'Q&A',
-    categoryId: 'DIC_kwDOLLYRIs4Cin-i',
-    repo: 'lobehub/lobe-icons',
-    repoId: 'R_kgDOLLYRIg',
-  },
   locales: [{ id: 'en-US', name: 'English' }],
   mfsu: isWin ? undefined : {},
   npmClient: 'pnpm',
