@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-import { homepage, name } from './package.json';
+import { description, homepage, name } from './package.json';
 
 const isProduction = process.env.NODE_ENV === 'production';
 const isWin = process.platform === 'win32';
@@ -13,7 +13,7 @@ const themeConfig = {
       text: 'Github',
     },
     {
-      link: '/components/baichuan',
+      link: '/components/ai21',
       text: 'View all icons',
       type: 'primary',
     },
@@ -24,11 +24,11 @@ const themeConfig = {
     pkg: name,
     sourceUrl: `{github}/tree/master/src/{atomId}/index.tsx`,
   },
-  description: 'Lobe UI is an open-source UI component library for building AIGC web apps',
+  description: description,
   footer: 'Made with 🤯 by LobeHub',
   name: 'Icons',
   nav: [
-    { link: '/components/baichuan', title: 'Icons' },
+    { link: '/components/ai21', title: 'Icons' },
     { link: '/changelog', title: 'Changelog' },
   ],
   socialLinks: {
@@ -45,7 +45,13 @@ export default defineConfig({
     'process.env': process.env,
   },
   extraBabelPlugins: ['babel-plugin-antd-style'],
-  favicons: ['https://npm.elemecdn.com/@lobehub/assets-favicons/assets/favicon.ico'],
+  favicons: ['https://lobehub.com/favicon.ico'],
+  giscus: {
+    category: 'Q&A',
+    categoryId: 'DIC_kwDOLLYRIs4Cin-i',
+    repo: 'lobehub/lobe-icons',
+    repoId: 'R_kgDOLLYRIg',
+  },
   locales: [{ id: 'en-US', name: 'English' }],
   mfsu: isWin ? undefined : {},
   npmClient: 'pnpm',
@@ -55,6 +61,9 @@ export default defineConfig({
         entryFile: './src/index.ts',
       }
     : undefined,
+  sitemap: {
+    hostname: 'https://icons.lobehub.com',
+  },
   styles: [
     `html, body { background: transparent;  }
 
