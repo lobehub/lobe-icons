@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.34.0](https://github.com/lobehub/lobe-icons/compare/v1.33.8...v1.34.0)
+
+<sup>Released on **2024-09-20**</sup>
+
+#### ✨ Features
+
+- **misc**: Add sitemap.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix giscus.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add sitemap ([18b8962](https://github.com/lobehub/lobe-icons/commit/18b8962))
+
+#### What's fixed
+
+- **misc**: Fix giscus ([b4ccf79](https://github.com/lobehub/lobe-icons/commit/b4ccf79))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.33.8](https://github.com/lobehub/lobe-icons/compare/v1.33.7...v1.33.8)
 
 <sup>Released on **2024-09-19**</sup>
