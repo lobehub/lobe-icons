@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.34.1](https://github.com/lobehub/lobe-icons/compare/v1.34.0...v1.34.1)
+
+<sup>Released on **2024-09-23**</sup>
+
+#### 💄 Styles
+
+- **misc**: Support Spark Max-32k.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Support Spark Max-32k, closes [#41](https://github.com/lobehub/lobe-icons/issues/41) ([e31c969](https://github.com/lobehub/lobe-icons/commit/e31c969))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.34.0](https://github.com/lobehub/lobe-icons/compare/v1.33.8...v1.34.0)
 
 <sup>Released on **2024-09-20**</sup>
