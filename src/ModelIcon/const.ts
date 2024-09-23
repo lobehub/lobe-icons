@@ -127,6 +127,6 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Google, keywords: ['google'] },
   {
     Icon: Spark,
-    keywords: ['spark', 'general$', 'generalv3$', 'generalv3.5$', '4.0ultra$', 'pro-128k$'],
+    keywords: ['spark', 'general$', 'generalv3$', 'generalv3.5$', '4.0ultra$', 'pro-128k$', '^max-32k$'],
   },
 ];
