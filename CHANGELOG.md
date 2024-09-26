@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.34.2](https://github.com/lobehub/lobe-icons/compare/v1.34.1...v1.34.2)
+
+<sup>Released on **2024-09-26**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add Hunyuan provider icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add Hunyuan provider icon, closes [#42](https://github.com/lobehub/lobe-icons/issues/42) ([ef45525](https://github.com/lobehub/lobe-icons/commit/ef45525))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.34.1](https://github.com/lobehub/lobe-icons/compare/v1.34.0...v1.34.1)
 
 <sup>Released on **2024-09-23**</sup>
