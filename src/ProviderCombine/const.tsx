@@ -18,6 +18,7 @@ import Gemini from '@/Gemini';
 import Github from '@/Github';
 import Google from '@/Google';
 import Groq from '@/Groq';
+import Hunyuan from '@/Hunyuan';
 import LobeHub from '@/LobeHub';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
@@ -143,4 +144,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Upstage.Combine, keywords: [ModelProvider.Upstage], multiple: 0.9 },
   { Icon: Ai21.Combine, keywords: [ModelProvider.Ai21], multiple: 0.9 },
   { Icon: Github.Combine, keywords: [ModelProvider.Github], multiple: 0.95 },
+  { Icon: Hunyuan.Combine, keywords: [ModelProvider.Hunyuan], multiple: 0.9 },
 ];
