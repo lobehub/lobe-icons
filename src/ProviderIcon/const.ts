@@ -13,6 +13,7 @@ import Fireworks from '@/Fireworks';
 import Github from '@/Github';
 import Google from '@/Google';
 import Groq from '@/Groq';
+import Hunyuan from '@/Hunyuan';
 import type { IconAvatarProps } from '@/IconAvatar';
 import type { IconCombineProps } from '@/IconCombine';
 import LobeHub from '@/LobeHub';
@@ -62,6 +63,7 @@ export enum ModelProvider {
   Github = 'github',
   Google = 'google',
   Groq = 'groq',
+  Hunyuan = 'hunyuan',
   LobeHub = 'lobehub',
   Minimax = 'minimax',
   Mistral = 'mistral',
@@ -115,4 +117,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Ai21, keywords: [ModelProvider.Ai21] },
   { Icon: Github, keywords: [ModelProvider.Github] },
   { Icon: Doubao, keywords: [ModelProvider.Doubao] },
+  { Icon: Hunyuan, keywords: [ModelProvider.Hunyuan] },
 ];
