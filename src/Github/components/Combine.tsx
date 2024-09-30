@@ -1,6 +1,6 @@
 import { memo } from 'react';
 
-import IconCombine, { type IconCombineProps } from '@/IconCombine';
+import IconCombine, { type IconCombineProps } from '@/features/IconCombine';
 
 import { SPACE_MULTIPLE, TEXT_MULTIPLE, TITLE } from '../style';
 import Mono from './Mono';

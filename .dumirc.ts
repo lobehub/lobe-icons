@@ -35,6 +35,8 @@ const themeConfig = {
   name: 'Icons',
   nav: [
     { link: '/components/ai21', title: 'Icons' },
+    { link: '/features/model-icon', title: 'Components' },
+    { link: '/editor', title: 'Editor' },
     { link: '/changelog', title: 'Changelog' },
   ],
   socialLinks: {

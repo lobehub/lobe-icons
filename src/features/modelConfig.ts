@@ -24,8 +24,6 @@ import Gemini from '@/Gemini';
 import Gemma from '@/Gemma';
 import Google from '@/Google';
 import Hunyuan from '@/Hunyuan';
-import type { IconAvatarProps } from '@/IconAvatar';
-import type { IconCombineProps } from '@/IconCombine';
 import InternLM from '@/InternLM';
 import LLaVA from '@/LLaVA';
 import Meta from '@/Meta';
@@ -47,6 +45,8 @@ import Suno from '@/Suno';
 import Upstage from '@/Upstage';
 import Wenxin from '@/Wenxin';
 import Yi from '@/Yi';
+import type { IconAvatarProps } from '@/features/IconAvatar';
+import type { IconCombineProps } from '@/features/IconCombine';
 import type { IconType } from '@/types';
 
 type ModelIconType = FC<IconType & any> & {

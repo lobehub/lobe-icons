@@ -1,6 +1,6 @@
 import { memo } from 'react';
 
-import IconAvatar, { type IconAvatarProps } from '@/IconAvatar';
+import IconAvatar, { type IconAvatarProps } from '@/features/IconAvatar';
 
 import { COLOR_GPT_3, COLOR_GPT_4, COLOR_O_1, COLOR_PRIMARY, TITLE } from '../style';
 import Mono from './Mono';

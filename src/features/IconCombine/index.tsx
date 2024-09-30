@@ -1,7 +1,7 @@
 import { CSSProperties, forwardRef } from 'react';
 import { Flexbox, type FlexboxProps } from 'react-layout-kit';
 
-import IconAvatar, { IconAvatarProps } from '@/IconAvatar';
+import IconAvatar, { IconAvatarProps } from '@/features/IconAvatar';
 import { IconType } from '@/types';
 
 export interface IconCombineProps extends FlexboxProps {

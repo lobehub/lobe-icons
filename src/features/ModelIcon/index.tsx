@@ -1,8 +1,8 @@
 import { CSSProperties, forwardRef, useMemo } from 'react';
 
+import { modelMappings } from '../modelConfig';
 import DefaultAvatar from './DefaultAvatar';
 import DefaultIcon from './DefaultIcon';
-import { modelMappings } from './const';
 
 export interface ModelIconProps {
   className?: string;

@@ -8,8 +8,4 @@ title: IconAvatar
 
 ## Default
 
-<code src="./demos/index.tsx" center></code>
-
-## APIs
-
-<API></API>
+<code src="./demos/IconAvatar.tsx" center></code>

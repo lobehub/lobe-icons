@@ -1,10 +1,9 @@
 import { forwardRef, useMemo } from 'react';
 import { Flexbox, FlexboxProps } from 'react-layout-kit';
 
-import DefaultIcon from '@/ProviderIcon/DefaultIcon';
-import { ModelProviderKey } from '@/ProviderIcon/const';
-
-import { providerMappings } from './const';
+import DefaultIcon from '../ProviderIcon/DefaultIcon';
+import { providerMappings } from '../providerConfig';
+import { ModelProviderKey } from '../providerEnum';
 
 export interface ProviderCombineProps
   extends Omit<FlexboxProps, 'children' | 'horizontal' | 'height' | 'width' | 'align' | 'justify'> {
@@ -26,8 +25,18 @@ const ProviderCombine = forwardRef<HTMLDivElement, ProviderCombineProps>(
       }
     }, [originProvider]);
 
-    let icon = Render?.Icon ? (
-      <Render.Icon size={size * (Render?.multiple || 1)} type={type} {...(Render?.props || {})} />
+    let icon = Render?.Combine ? (
+      <Render.Combine
+        size={size * (Render?.combineMultiple || 1)}
+        type={type}
+        {...(Render?.props || {})}
+      />
+    ) : Render?.Icon?.Combine ? (
+      <Render.Icon.Combine
+        size={size * (Render?.combineMultiple || 1)}
+        type={type}
+        {...(Render?.props || {})}
+      />
     ) : (
       <DefaultIcon size={size} />
     );

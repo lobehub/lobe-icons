@@ -1,8 +1,9 @@
 import { CSSProperties, forwardRef, useMemo } from 'react';
 
+import { providerMappings } from '../providerConfig';
+import { ModelProvider, ModelProviderKey } from '../providerEnum';
 import DefaultAvatar from './DefaultAvatar';
 import DefaultIcon from './DefaultIcon';
-import { ModelProvider, ModelProviderKey, providerMappings } from './const';
 
 export interface ProviderIconProps {
   className?: string;

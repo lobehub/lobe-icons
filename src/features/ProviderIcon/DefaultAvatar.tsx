@@ -2,8 +2,7 @@ import { useTheme } from 'antd-style';
 import { forwardRef } from 'react';
 import { Center } from 'react-layout-kit';
 
-import { IconAvatarProps } from '@/IconAvatar';
-
+import { IconAvatarProps } from '../IconAvatar';
 import DefaultIcon from './DefaultIcon';
 
 const DefaultAvatar = forwardRef<HTMLDivElement, Omit<IconAvatarProps, 'Icon'>>(

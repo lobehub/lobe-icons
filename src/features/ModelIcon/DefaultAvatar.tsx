@@ -2,7 +2,7 @@ import { useTheme } from 'antd-style';
 import { forwardRef } from 'react';
 import { Center } from 'react-layout-kit';
 
-import { IconAvatarProps } from '@/IconAvatar';
+import { IconAvatarProps } from '@/features/IconAvatar';
 
 import DefaultIcon from './DefaultIcon';
 
