@@ -39,6 +39,7 @@ import PaLM from '@/PaLM';
 import Perplexity from '@/Perplexity';
 import Qwen from '@/Qwen';
 import Rwkv from '@/Rwkv';
+import SenseNova from '@/SenseNova';
 import Spark from '@/Spark';
 import Stability from '@/Stability';
 import Stepfun from '@/Stepfun';
@@ -125,8 +126,17 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Upstage, keywords: ['^solar-', '/solar'] },
   { Icon: PaLM, keywords: ['palm'] },
   { Icon: Google, keywords: ['google'] },
+  { Icon: SenseNova, keywords: ['SenseChat'] },
   {
     Icon: Spark,
-    keywords: ['spark', 'general$', 'generalv3$', 'generalv3.5$', '4.0ultra$', 'pro-128k$', '^max-32k$'],
+    keywords: [
+      'spark',
+      'general$',
+      'generalv3$',
+      'generalv3.5$',
+      '4.0ultra$',
+      'pro-128k$',
+      '^max-32k$',
+    ],
   },
 ];

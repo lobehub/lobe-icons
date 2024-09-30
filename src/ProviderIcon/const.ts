@@ -26,11 +26,13 @@ import OpenAI from '@/OpenAI';
 import OpenRouter from '@/OpenRouter';
 import Perplexity from '@/Perplexity';
 import Qwen from '@/Qwen';
+import SenseNova from '@/SenseNova';
 import SiliconCloud from '@/SiliconCloud';
 import Spark from '@/Spark';
 import Stepfun from '@/Stepfun';
 import Together from '@/Together';
 import Upstage from '@/Upstage';
+import Wenxin from '@/Wenxin';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
 import type { IconType } from '@/types';
@@ -74,12 +76,14 @@ export enum ModelProvider {
   OpenRouter = 'openrouter',
   Perplexity = 'perplexity',
   Qwen = 'qwen',
+  SenseNova = 'sensenova',
   SiliconCloud = 'siliconcloud',
   Spark = 'spark',
   Stepfun = 'stepfun',
   Taichu = 'taichu',
   TogetherAI = 'togetherai',
   Upstage = 'upstage',
+  Wenxin = 'wenxin',
   ZeroOne = 'zeroone',
   ZhiPu = 'zhipu',
 }
@@ -118,4 +122,6 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Github, keywords: [ModelProvider.Github] },
   { Icon: Doubao, keywords: [ModelProvider.Doubao] },
   { Icon: Hunyuan, keywords: [ModelProvider.Hunyuan] },
+  { Icon: Wenxin, keywords: [ModelProvider.Wenxin] },
+  { Icon: SenseNova, keywords: [ModelProvider.SenseNova] },
 ];

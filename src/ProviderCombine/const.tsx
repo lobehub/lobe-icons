@@ -10,9 +10,11 @@ import Anthropic from '@/Anthropic';
 import Aws from '@/Aws';
 import Azure from '@/Azure';
 import Baichuan from '@/Baichuan';
+import BaiduCloud from '@/BaiduCloud';
 import Bedrock from '@/Bedrock';
 import Claude from '@/Claude';
 import DeepSeek from '@/DeepSeek';
+import Doubao from '@/Doubao';
 import Fireworks from '@/Fireworks';
 import Gemini from '@/Gemini';
 import Github from '@/Github';
@@ -30,11 +32,13 @@ import OpenRouter from '@/OpenRouter';
 import Perplexity from '@/Perplexity';
 import { ModelProvider } from '@/ProviderIcon/const';
 import Qwen from '@/Qwen';
+import SenseNova from '@/SenseNova';
 import SiliconCloud from '@/SiliconCloud';
 import Spark from '@/Spark';
 import Stepfun from '@/Stepfun';
 import Together from '@/Together';
 import Upstage from '@/Upstage';
+import Wenxin from '@/Wenxin';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
 
@@ -144,5 +148,18 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Upstage.Combine, keywords: [ModelProvider.Upstage], multiple: 0.9 },
   { Icon: Ai21.Combine, keywords: [ModelProvider.Ai21], multiple: 0.9 },
   { Icon: Github.Combine, keywords: [ModelProvider.Github], multiple: 0.95 },
-  { Icon: Hunyuan.Combine, keywords: [ModelProvider.Hunyuan], multiple: 0.9 },
+  { Icon: Hunyuan.Combine, keywords: [ModelProvider.Hunyuan] },
+  { Icon: Doubao.Combine, keywords: [ModelProvider.Doubao] },
+  {
+    Icon: ({ size = 24, type = 'color', ...props }) => (
+      <Combine
+        left={<BaiduCloud.Combine size={size * 0.9} type={type} />}
+        right={<Wenxin.Combine extra={'千帆'} size={size} type={type} {...props} />}
+        size={size}
+        {...props}
+      />
+    ),
+    keywords: [ModelProvider.Wenxin],
+  },
+  { Icon: SenseNova.Combine, keywords: [ModelProvider.SenseNova], multiple: 0.95 },
 ];
