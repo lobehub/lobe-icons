@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.35.0](https://github.com/lobehub/lobe-icons/compare/v1.34.2...v1.35.0)
+
+<sup>Released on **2024-09-30**</sup>
+
+#### ✨ Features
+
+- **misc**: Add BaiduCloud and SenseNova (resolve.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add BaiduCloud and SenseNova (resolve, closes [#43](https://github.com/lobehub/lobe-icons/issues/43) ([f194d23](https://github.com/lobehub/lobe-icons/commit/f194d23))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.34.2](https://github.com/lobehub/lobe-icons/compare/v1.34.1...v1.34.2)
 
 <sup>Released on **2024-09-26**</sup>
