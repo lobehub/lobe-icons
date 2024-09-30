@@ -3,7 +3,7 @@ nav: Components
 group: Application
 title: Pollinations
 atomId: Pollinations
-description: https://pollinations.ai`
+description: https://pollinations.ai
 ---
 
 ## Icons

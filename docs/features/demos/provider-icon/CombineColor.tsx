@@ -3,9 +3,9 @@ import { Grid } from '@lobehub/ui';
 
 export default () => {
   return (
-    <Grid gap={12} width={'100%'} wrap={'wrap'}>
+    <Grid gap={16} rows={2} width={'100%'}>
       {Object.values(ModelProvider).map((provider) => (
-        <ProviderIcon key={provider} provider={provider} size={32} type={'combine-color'} />
+        <ProviderIcon key={provider} provider={provider} size={28} type={'combine-color'} />
       ))}
     </Grid>
   );
