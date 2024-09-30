@@ -11,6 +11,7 @@ export enum ModelProvider {
   Github = 'github',
   Google = 'google',
   Groq = 'groq',
+  HuggingFace = 'huggingface',
   Hunyuan = 'hunyuan',
   LobeHub = 'lobehub',
   Minimax = 'minimax',
@@ -31,7 +32,7 @@ export enum ModelProvider {
   Upstage = 'upstage',
   Wenxin = 'wenxin',
   ZeroOne = 'zeroone',
-  ZhiPu = 'zhipu',
+  ZhiPu = 'zhipu'
 }
 
 export type ModelProviderKey = Lowercase<keyof typeof ModelProvider>;

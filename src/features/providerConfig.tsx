@@ -18,6 +18,7 @@ import Gemini from '@/Gemini';
 import Github from '@/Github';
 import Google from '@/Google';
 import Groq from '@/Groq';
+import HuggingFace from '@/HuggingFace';
 import Hunyuan from '@/Hunyuan';
 import LobeHub from '@/LobeHub';
 import Minimax from '@/Minimax';
@@ -160,4 +161,5 @@ export const providerMappings: ProviderMapping[] = [
     keywords: [ModelProvider.Wenxin],
   },
   { Icon: SenseNova, combineMultiple: 0.95, keywords: [ModelProvider.SenseNova] },
+  { Icon: HuggingFace, combineMultiple: 1.16, keywords: [ModelProvider.HuggingFace] },
 ];
