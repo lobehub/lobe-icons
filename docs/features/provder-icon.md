@@ -2,6 +2,9 @@
 nav: Components
 group: Features
 title: ProviderIcon
+apiHeader:
+  docUrl: 'https://github.com/lobehub/lobe-icons/tree/master/docs/features/provider-icon.md'
+  sourceUrl: 'https://github.com/lobehub/lobe-icons/tree/master/src/features/ProviderIcon/index.tsx'
 ---
 
 ## Default
@@ -23,3 +26,8 @@ title: ProviderIcon
 ## Avatar
 
 <code src="./demos/provider-icon/Avatar.tsx" center></code>
+
+## Config
+
+- **Enum:** <https://github.com/lobehub/lobe-icons/blob/master/src/features/providerEnum.ts>
+- **Config:** <https://github.com/lobehub/lobe-icons/blob/master/src/features/providerConfig.tsx>

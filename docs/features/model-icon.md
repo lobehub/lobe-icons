@@ -2,6 +2,9 @@
 nav: Components
 group: Features
 title: ModelIcon
+apiHeader:
+  docUrl: 'https://github.com/lobehub/lobe-icons/tree/master/docs/features/model-icon.md'
+  sourceUrl: 'https://github.com/lobehub/lobe-icons/tree/master/src/features/ModelIcon/index.tsx'
 ---
 
 ## Default
@@ -23,3 +26,7 @@ title: ModelIcon
 ## Combine Color
 
 <code src="./demos/model-icon/CombineColor.tsx" center></code>
+
+## Config
+
+- **Config:** <https://github.com/lobehub/lobe-icons/blob/master/src/features/modelConfig.ts>

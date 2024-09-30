@@ -1,5 +1,5 @@
 import { DivProps } from '@lobehub/ui';
-import { FC } from 'react';
+import { FC, memo } from 'react';
 
 import Ai21 from '@/Ai21';
 import Ai360 from '@/Ai360';
@@ -67,21 +67,21 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: LobeHub, keywords: [ModelProvider.LobeHub] },
   { Icon: Zhipu, combineMultiple: 1.25, keywords: [ModelProvider.ZhiPu] },
   {
-    Combine: ({ size = 24, type = 'color', ...props }) => (
+    Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
         left={type === 'color' ? <Aws.Color size={size * 1.2} /> : <Aws size={size * 1.2} />}
         right={<Bedrock.Combine size={size} type={type} />}
         size={size}
         {...props}
       />
-    ),
+    )),
     Icon: Bedrock,
     combineMultiple: 1.1,
     keywords: [ModelProvider.Bedrock],
   },
   { Icon: DeepSeek, combineMultiple: 1.16, keywords: [ModelProvider.DeepSeek] },
   {
-    Combine: ({ size = 24, type = 'color', ...props }) => (
+    Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
         left={
           type === 'color' ? (
@@ -94,20 +94,20 @@ export const providerMappings: ProviderMapping[] = [
         size={size}
         {...props}
       />
-    ),
+    )),
     Icon: Google,
     combineMultiple: 0.92,
     keywords: [ModelProvider.Google],
   },
   {
-    Combine: ({ size = 24, type = 'color', ...props }) => (
+    Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
         left={<Azure.Combine size={size * 0.92} type={type} />}
         right={<OpenAI.Combine size={size} />}
         size={size}
         {...props}
       />
-    ),
+    )),
     Icon: Azure,
     keywords: [ModelProvider.Azure],
   },
@@ -119,14 +119,14 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Minimax, combineMultiple: 1.3, keywords: [ModelProvider.Minimax] },
   { Icon: Mistral, combineMultiple: 1.08, keywords: [ModelProvider.Mistral] },
   {
-    Combine: ({ size = 24, type = 'color', ...props }) => (
+    Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
         left={<Anthropic.Text size={size * 0.75} />}
         right={<Claude.Combine size={size} type={type} />}
         size={size}
         {...props}
       />
-    ),
+    )),
     Icon: Anthropic,
     combineMultiple: 0.83,
     keywords: [ModelProvider.Anthropic],
@@ -149,14 +149,14 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Doubao, keywords: [ModelProvider.Doubao] },
   { Icon: Hunyuan, keywords: [ModelProvider.Hunyuan] },
   {
-    Combine: ({ size = 24, type = 'color', ...props }) => (
+    Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
         left={<BaiduCloud.Combine size={size * 0.9} type={type} />}
         right={<Wenxin.Combine extra={'千帆'} size={size} type={type} {...props} />}
         size={size}
         {...props}
       />
-    ),
+    )),
     Icon: Wenxin,
     keywords: [ModelProvider.Wenxin],
   },
