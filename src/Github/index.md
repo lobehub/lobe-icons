@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Application
+group: Provider
 title: Github
 atomId: Github
 description: https://github.com

@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Provider
+group: Application
 title: Zeabur
 atomId: Zeabur
 description: https://zeabur.com

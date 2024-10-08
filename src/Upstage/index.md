@@ -1,21 +1,21 @@
 ---
 nav: Components
 group: Provider
-title: Upsate
-atomId: Upsate
+title: Upstage
+atomId: Upstage
 description: https://www.upstage.ai
 ---
 
 ## Icons
 
 ```tsx
-import { Upsate } from '@lobehub/icons';
+import { Upstage } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Upsate size={64} />
-    <Upsate.Color size={64} />
+    <Upstage size={64} />
+    <Upstage.Color size={64} />
   </Flexbox>
 );
 ```
@@ -23,21 +23,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Upsate } from '@lobehub/icons';
+import { Upstage } from '@lobehub/icons';
 
-export default () => <Upsate.Text size={48} />;
+export default () => <Upstage.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Upsate } from '@lobehub/icons';
+import { Upstage } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16}>
-    <Upsate.Combine size={64} />
-    <Upsate.Combine size={64} type={'color'} />
+    <Upstage.Combine size={64} />
+    <Upstage.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -45,14 +45,14 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Upsate } from '@lobehub/icons';
+import { Upstage } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Upsate.Avatar size={64} background={Upsate.colorPrimary} />
-    <Upsate.Avatar size={64} />
-    <Upsate.Avatar size={64} shape={'square'} />
+    <Upstage.Avatar size={64} background={Upstage.colorPrimary} />
+    <Upstage.Avatar size={64} />
+    <Upstage.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -60,14 +60,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Upsate } from '@lobehub/icons';
+import { Upstage } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Upsate.colorPrimary} />
+    <ColorPreview color={Upstage.colorPrimary} />
   </Flexbox>
 );
 ```
