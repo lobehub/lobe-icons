@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.35.5](https://github.com/lobehub/lobe-icons/compare/v1.35.4...v1.35.5)
+
+<sup>Released on **2024-10-21**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add modelIcon support `InternVL` vision model from InternLM.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add modelIcon support `InternVL` vision model from InternLM, closes [#45](https://github.com/lobehub/lobe-icons/issues/45) ([461d67a](https://github.com/lobehub/lobe-icons/commit/461d67a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.35.4](https://github.com/lobehub/lobe-icons/compare/v1.35.3...v1.35.4)
 
 <sup>Released on **2024-10-08**</sup>
