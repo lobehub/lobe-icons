@@ -137,6 +137,7 @@ export const modelMappings: ModelMapping[] = [
       '4.0ultra$',
       'pro-128k$',
       '^max-32k$',
+      '^lite$',
     ],
   },
 ];
