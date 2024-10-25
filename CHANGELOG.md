@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.35.7](https://github.com/lobehub/lobe-icons/compare/v1.35.6...v1.35.7)
+
+<sup>Released on **2024-10-25**</sup>
+
+#### 💄 Styles
+
+- **misc**: Support Spark Lite icon (New model ID: `lite`).
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Support Spark Lite icon (New model ID: `lite`), closes [#47](https://github.com/lobehub/lobe-icons/issues/47) ([2b45002](https://github.com/lobehub/lobe-icons/commit/2b45002))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.35.6](https://github.com/lobehub/lobe-icons/compare/v1.35.5...v1.35.6)
 
 <sup>Released on **2024-10-21**</sup>
