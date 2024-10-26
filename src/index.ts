@@ -87,6 +87,7 @@ export { default as Tencent, type CompoundedIcon as TencentProps } from './Tence
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
 export type { IconType } from './types';
 export { default as Upstage, type CompoundedIcon as UpstageProps } from './Upstage';
+export { default as VertexAI, type CompoundedIcon as VertexAIProps } from './VertexAI';
 export { default as Vllm, type CompoundedIcon as VllmProps } from './Vllm';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
