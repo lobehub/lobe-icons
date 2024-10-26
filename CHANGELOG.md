@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.36.0](https://github.com/lobehub/lobe-icons/compare/v1.35.7...v1.36.0)
+
+<sup>Released on **2024-10-26**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Google Vertex AI.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Google Vertex AI ([c01d77a](https://github.com/lobehub/lobe-icons/commit/c01d77a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.35.7](https://github.com/lobehub/lobe-icons/compare/v1.35.6...v1.35.7)
 
 <sup>Released on **2024-10-25**</sup>
