@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.37.0](https://github.com/lobehub/lobe-icons/compare/v1.36.0...v1.37.0)
+
+<sup>Released on **2024-10-29**</sup>
+
+#### ✨ Features
+
+- **misc**: Add LM Studio to ProviderIcon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add LM Studio to ProviderIcon ([e310622](https://github.com/lobehub/lobe-icons/commit/e310622))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.36.0](https://github.com/lobehub/lobe-icons/compare/v1.35.7...v1.36.0)
 
 <sup>Released on **2024-10-26**</sup>
