@@ -1,6 +1,6 @@
 import { Icon } from '@lobehub/ui';
 import { useTheme } from 'antd-style';
-import { BrainCircuitIcon } from 'lucide-react';
+import { Radar } from 'lucide-react';
 import { CSSProperties, forwardRef } from 'react';
 
 interface DefaultIconProps {
@@ -15,7 +15,7 @@ const DefaultIcon = forwardRef<any, DefaultIconProps>(({ color, size = 12, ...re
   return (
     <Icon
       color={color || theme.colorTextDescription}
-      icon={BrainCircuitIcon}
+      icon={Radar}
       ref={ref}
       size={{ fontSize: size }}
       {...rest}

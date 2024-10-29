@@ -20,6 +20,7 @@ import Google from '@/Google';
 import Groq from '@/Groq';
 import HuggingFace from '@/HuggingFace';
 import Hunyuan from '@/Hunyuan';
+import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
@@ -162,4 +163,5 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: SenseNova, combineMultiple: 0.95, keywords: [ModelProvider.SenseNova] },
   { Icon: HuggingFace, combineMultiple: 1.16, keywords: [ModelProvider.HuggingFace] },
+  { Icon: LmStudio, keywords: [ModelProvider.LmStudio] },
 ];
