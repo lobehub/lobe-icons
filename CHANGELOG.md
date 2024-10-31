@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.37.1](https://github.com/lobehub/lobe-icons/compare/v1.37.0...v1.37.1)
+
+<sup>Released on **2024-10-31**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix dalle.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix dalle ([7e5e2d5](https://github.com/lobehub/lobe-icons/commit/7e5e2d5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.37.0](https://github.com/lobehub/lobe-icons/compare/v1.36.0...v1.37.0)
 
 <sup>Released on **2024-10-29**</sup>
