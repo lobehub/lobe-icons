@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.38.0](https://github.com/lobehub/lobe-icons/compare/v1.37.1...v1.38.0)
+
+<sup>Released on **2024-11-07**</sup>
+
+#### ✨ Features
+
+- **misc**: Add xAI (resolve.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add xAI (resolve, closes [#48](https://github.com/lobehub/lobe-icons/issues/48) ([a1544e7](https://github.com/lobehub/lobe-icons/commit/a1544e7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.37.1](https://github.com/lobehub/lobe-icons/compare/v1.37.0...v1.37.1)
 
 <sup>Released on **2024-10-31**</sup>
