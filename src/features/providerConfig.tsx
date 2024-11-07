@@ -38,6 +38,7 @@ import Stepfun from '@/Stepfun';
 import Together from '@/Together';
 import Upstage from '@/Upstage';
 import Wenxin from '@/Wenxin';
+import XAI from '@/XAI';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
 import type { IconType } from '@/types';
@@ -164,4 +165,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: SenseNova, combineMultiple: 0.95, keywords: [ModelProvider.SenseNova] },
   { Icon: HuggingFace, combineMultiple: 1.16, keywords: [ModelProvider.HuggingFace] },
   { Icon: LmStudio, keywords: [ModelProvider.LmStudio] },
+  { Icon: XAI, combineMultiple: 0.85, keywords: [ModelProvider.XAI] },
 ];

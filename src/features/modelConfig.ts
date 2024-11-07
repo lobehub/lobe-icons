@@ -23,6 +23,7 @@ import Flux from '@/Flux';
 import Gemini from '@/Gemini';
 import Gemma from '@/Gemma';
 import Google from '@/Google';
+import Grok from '@/Grok';
 import Hunyuan from '@/Hunyuan';
 import InternLM from '@/InternLM';
 import LLaVA from '@/LLaVA';
@@ -130,6 +131,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: PaLM, keywords: ['palm'] },
   { Icon: Google, keywords: ['google'] },
   { Icon: SenseNova, keywords: ['SenseChat'] },
+  { Icon: Grok, keywords: ['^grok-'] },
   {
     Icon: Spark,
     keywords: [

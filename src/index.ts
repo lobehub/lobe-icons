@@ -91,6 +91,7 @@ export { default as VertexAI, type CompoundedIcon as VertexAIProps } from './Ver
 export { default as Vllm, type CompoundedIcon as VllmProps } from './Vllm';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
+export { default as XAI, type CompoundedIcon as XAIProps } from './XAI';
 export { default as Yi, type CompoundedIcon as YiProps } from './Yi';
 export { default as Zeabur, type CompoundedIcon as ZeaburProps } from './Zeabur';
 export { default as ZeroOne, type CompoundedIcon as ZeroOneProps } from './ZeroOne';
