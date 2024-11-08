@@ -11,6 +11,7 @@ import Baichuan from '@/Baichuan';
 import BaiduCloud from '@/BaiduCloud';
 import Bedrock from '@/Bedrock';
 import Claude from '@/Claude';
+import Cloudflare from '@/Cloudflare';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
 import Fireworks from '@/Fireworks';
@@ -166,4 +167,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: HuggingFace, combineMultiple: 1.16, keywords: [ModelProvider.HuggingFace] },
   { Icon: LmStudio, keywords: [ModelProvider.LmStudio] },
   { Icon: XAI, combineMultiple: 0.85, keywords: [ModelProvider.XAI] },
+  { Icon: Cloudflare, combineMultiple: 1.3, keywords: [ModelProvider.Cloudflare] },
 ];
