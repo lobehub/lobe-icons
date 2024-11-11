@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.38.2](https://github.com/lobehub/lobe-icons/compare/v1.38.1...v1.38.2)
+
+<sup>Released on **2024-11-11**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add WorkersAI to Cloudflare.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add WorkersAI to Cloudflare, closes [#50](https://github.com/lobehub/lobe-icons/issues/50) ([97ea647](https://github.com/lobehub/lobe-icons/commit/97ea647))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.38.1](https://github.com/lobehub/lobe-icons/compare/v1.38.0...v1.38.1)
 
 <sup>Released on **2024-11-08**</sup>
