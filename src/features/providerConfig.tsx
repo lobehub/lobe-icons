@@ -39,6 +39,7 @@ import Stepfun from '@/Stepfun';
 import Together from '@/Together';
 import Upstage from '@/Upstage';
 import Wenxin from '@/Wenxin';
+import WorkersAI from '@/WorkersAI';
 import XAI from '@/XAI';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
@@ -167,5 +168,17 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: HuggingFace, combineMultiple: 1.16, keywords: [ModelProvider.HuggingFace] },
   { Icon: LmStudio, keywords: [ModelProvider.LmStudio] },
   { Icon: XAI, combineMultiple: 0.85, keywords: [ModelProvider.XAI] },
-  { Icon: Cloudflare, combineMultiple: 1.3, keywords: [ModelProvider.Cloudflare] },
+  {
+    Combine: memo(({ size = 24, type = 'color', ...props }) => (
+      <Combine
+        left={<Cloudflare.Combine size={size} type={type} />}
+        right={<WorkersAI.Combine size={size} type={type} />}
+        size={size}
+        {...props}
+      />
+    )),
+    Icon: Cloudflare,
+    combineMultiple: 1.1,
+    keywords: [ModelProvider.Cloudflare],
+  },
 ];
