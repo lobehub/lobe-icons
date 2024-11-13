@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.38.3](https://github.com/lobehub/lobe-icons/compare/v1.38.2...v1.38.3)
+
+<sup>Released on **2024-11-13**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add tts adn whisper.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add tts adn whisper ([5fe41d8](https://github.com/lobehub/lobe-icons/commit/5fe41d8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.38.2](https://github.com/lobehub/lobe-icons/compare/v1.38.1...v1.38.2)
 
 <sup>Released on **2024-11-11**</sup>
