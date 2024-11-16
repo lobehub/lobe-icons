@@ -21,6 +21,7 @@ import Google from '@/Google';
 import Groq from '@/Groq';
 import HuggingFace from '@/HuggingFace';
 import Hunyuan from '@/Hunyuan';
+import InternLM from '@/InternLM';
 import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
 import Minimax from '@/Minimax';
@@ -181,4 +182,5 @@ export const providerMappings: ProviderMapping[] = [
     combineMultiple: 1.1,
     keywords: [ModelProvider.Cloudflare],
   },
+  { Icon: InternLM, combineMultiple: 0.95, keywords: [ModelProvider.InternLM] },
 ];
