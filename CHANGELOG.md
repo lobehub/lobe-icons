@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.39.1](https://github.com/lobehub/lobe-icons/compare/v1.39.0...v1.39.1)
+
+<sup>Released on **2024-11-18**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add InternLM provider icon, fix `phi-2` model icon in CF `@cf/microsoft/phi-2`.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add InternLM provider icon, closes [#51](https://github.com/lobehub/lobe-icons/issues/51) ([147d091](https://github.com/lobehub/lobe-icons/commit/147d091))
+- **misc**: Fix `phi-2` model icon in CF `@cf/microsoft/phi-2`, closes [#52](https://github.com/lobehub/lobe-icons/issues/52) ([46f9ba9](https://github.com/lobehub/lobe-icons/commit/46f9ba9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.39.0](https://github.com/lobehub/lobe-icons/compare/v1.38.3...v1.39.0)
 
 <sup>Released on **2024-11-18**</sup>
