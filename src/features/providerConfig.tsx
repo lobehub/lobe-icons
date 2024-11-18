@@ -19,6 +19,7 @@ import Gemini from '@/Gemini';
 import Github from '@/Github';
 import Google from '@/Google';
 import Groq from '@/Groq';
+import Higress from '@/Higress';
 import HuggingFace from '@/HuggingFace';
 import Hunyuan from '@/Hunyuan';
 import InternLM from '@/InternLM';
@@ -172,8 +173,8 @@ export const providerMappings: ProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={<Cloudflare.Combine size={size} type={type} />}
-        right={<WorkersAI.Combine size={size} type={type} />}
+        left={<Cloudflare.Combine size={size * 1.1} type={type} />}
+        right={<WorkersAI.Combine size={size * 0.9} type={type} />}
         size={size}
         {...props}
       />
@@ -183,4 +184,5 @@ export const providerMappings: ProviderMapping[] = [
     keywords: [ModelProvider.Cloudflare],
   },
   { Icon: InternLM, combineMultiple: 0.95, keywords: [ModelProvider.InternLM] },
+  { Icon: Higress, keywords: [ModelProvider.Higress] },
 ];
