@@ -50,6 +50,7 @@ export {
 export { default as Google, type CompoundedIcon as GoogleProps } from './Google';
 export { default as Grok, type CompoundedIcon as GrokProps } from './Grok';
 export { default as Groq, type CompoundedIcon as GroqProps } from './Groq';
+export { default as Higress, type CompoundedIcon as HigressProps } from './Higress';
 export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from './HuggingFace';
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './InternLM';
