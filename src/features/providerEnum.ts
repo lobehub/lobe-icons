@@ -9,6 +9,7 @@ export enum ModelProvider {
   DeepSeek = 'deepseek',
   Doubao = 'Doubao',
   FireworksAI = 'fireworksai',
+  GiteeAI = 'giteeai',
   Github = 'github',
   Google = 'google',
   Groq = 'groq',

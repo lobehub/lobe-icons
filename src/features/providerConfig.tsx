@@ -16,6 +16,7 @@ import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
 import Fireworks from '@/Fireworks';
 import Gemini from '@/Gemini';
+import GiteeAI from '@/GiteeAI';
 import Github from '@/Github';
 import Google from '@/Google';
 import Groq from '@/Groq';
@@ -185,4 +186,5 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: InternLM, combineMultiple: 0.95, keywords: [ModelProvider.InternLM] },
   { Icon: Higress, keywords: [ModelProvider.Higress] },
+  { Icon: GiteeAI, combineMultiple: 0.95, keywords: [ModelProvider.GiteeAI] },
 ];

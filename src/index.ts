@@ -42,6 +42,7 @@ export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './F
 export { default as Flux, type CompoundedIcon as FluxProps } from './Flux';
 export { default as Gemini, type CompoundedIcon as GeminiProps } from './Gemini';
 export { default as Gemma, type CompoundedIcon as GemmaProps } from './Gemma';
+export { default as GiteeAI, type CompoundedIcon as GiteeAIProps } from './GiteeAI';
 export { default as Github, type CompoundedIcon as GithubProps } from './Github';
 export {
   default as GithubCopilot,
