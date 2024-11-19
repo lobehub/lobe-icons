@@ -27,7 +27,7 @@
     "es"
   ],
   "scripts": {
-    "build": "father build && build:svg",
+    "build": "father build && npm run build:svg",
     "build:svg": "tsx scripts/svgWorkflow/index.ts",
     "build:watch": "father dev",
     "ci": "npm run lint && npm run type-check",
