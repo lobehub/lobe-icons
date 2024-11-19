@@ -43,7 +43,7 @@
     "prepublishOnly": "npm run build",
     "prettier": "prettier -c --write --no-error-on-unmatched-pattern \"**/**\"",
     "pull": "git pull",
-    "release": "multi-semantic-release",
+    "release": "semantic-release && multi-semantic-release",
     "setup": "dumi setup",
     "start": "npm run dev",
     "sync:md": "tsx scripts/readmeWorkflow/index.ts",
