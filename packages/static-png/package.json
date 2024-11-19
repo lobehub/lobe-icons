@@ -1,0 +1,31 @@
+{
+  "name": "@lobehub/icon-static-png",
+  "version": "1.40.0",
+  "description": "Popular AI / LLM Model Brand SVG Logo and Icon Collection",
+  "keywords": [
+    "lobehub",
+    "llm icons",
+    "llm brand logo",
+    "react components",
+    "svg icons"
+  ],
+  "homepage": "https://github.com/lobehub/lobe-icons",
+  "bugs": {
+    "url": "https://github.com/lobehub/lobe-icons/issues/new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lobehub/lobe-icons.git"
+  },
+  "license": "MIT",
+  "author": "LobeHub <i@lobehub.com>",
+  "sideEffects": false,
+  "files": [
+    "light",
+    "dark"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
