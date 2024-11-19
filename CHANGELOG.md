@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.40.0](https://github.com/lobehub/lobe-icons/compare/v1.39.1...v1.40.0)
+
+<sup>Released on **2024-11-19**</sup>
+
+#### ✨ Features
+
+- **misc**: Add GiteeAI.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add GiteeAI, closes [#53](https://github.com/lobehub/lobe-icons/issues/53) ([0cd6dc1](https://github.com/lobehub/lobe-icons/commit/0cd6dc1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.39.1](https://github.com/lobehub/lobe-icons/compare/v1.39.0...v1.39.1)
 
 <sup>Released on **2024-11-18**</sup>
