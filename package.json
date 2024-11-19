@@ -27,13 +27,13 @@
     "es"
   ],
   "scripts": {
-    "build": "father build",
+    "build": "father build && build:svg",
     "build:svg": "tsx scripts/svgWorkflow/index.ts",
     "build:watch": "father dev",
     "ci": "npm run lint && npm run type-check",
     "clean": "rm -r es lib dist coverage .dumi/tmp .eslintcache node_modules/.cache",
     "dev": "dumi dev",
-    "docs:build": "dumi build && build:svg",
+    "docs:build": "dumi build",
     "docs:build-analyze": "ANALYZE=1 dumi build",
     "doctor": "father doctor",
     "lint": "eslint \"{src,tests}/**/*.{js,jsx,ts,tsx}\" --fix",
