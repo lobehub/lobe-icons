@@ -38,6 +38,7 @@ Contributions, corrections & requests can be made on GitHub.
 #### TOC
 
 - [✨ Features](#-features)
+  - [Static Packages](#static-packages)
 - [📦 Installation](#-installation)
   - [Compile with NextJS](#compile-with-nextjs)
 - [⌨️ Local Development](#️-local-development)
@@ -69,6 +70,16 @@ Contributions, corrections & requests can be made on GitHub.
 
 > \[!TIP]\
 > More brands are being added, and `PR` welcome.
+
+<br/>
+
+### Static Packages
+
+| Package                                                                                | FileType | Version                                                                                                                                                                                           |
+| -------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [@lobehub/icons-static-svg](https://www.npmjs.com/package/@lobehub/icons-static-svg)   | `SVG`    | [![](https://img.shields.io/npm/v/@lobehub/icons-static-svg?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-svg)   |
+| [@lobehub/icons-static-png](https://www.npmjs.com/package/@lobehub/icons-static-png)   | `PNG`    | [![](https://img.shields.io/npm/v/@lobehub/icons-static-png?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-png)   |
+| [@lobehub/icons-static-webp](https://www.npmjs.com/package/@lobehub/icons-static-webp) | `WEBP`   | [![](https://img.shields.io/npm/v/@lobehub/icons-static-webp?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-webp) |
 
 <div align="right">
 
