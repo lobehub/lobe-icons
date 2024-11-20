@@ -73,7 +73,7 @@ class SvgWorkflow {
   }
 
   async runSvg() {
-    const data = Object.values(Icons).filter((icon: any) => icon?.colorPrimary);
+    const data = Object.values(Icons);
 
     await pMap(data, async (Icon: any) => {
       try {

@@ -27,8 +27,8 @@
     "es"
   ],
   "scripts": {
-    "build": "father build && npm run build:svg",
-    "build:svg": "tsx scripts/svgWorkflow/index.ts",
+    "build": "father build",
+    "build:static": "tsx scripts/svgWorkflow/index.ts",
     "build:watch": "father dev",
     "ci": "npm run lint && npm run type-check",
     "clean": "rm -r es lib dist coverage .dumi/tmp .eslintcache node_modules/.cache",
@@ -43,7 +43,8 @@
     "prepublishOnly": "npm run build",
     "prettier": "prettier -c --write --no-error-on-unmatched-pattern \"**/**\"",
     "pull": "git pull",
-    "release": "semantic-release && multi-semantic-release",
+    "release": "semantic-release",
+    "release:static": "multi-semantic-release",
     "setup": "dumi setup",
     "start": "npm run dev",
     "sync:md": "tsx scripts/readmeWorkflow/index.ts",
