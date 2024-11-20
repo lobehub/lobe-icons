@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.44.0](https://github.com/lobehub/lobe-icons/compare/v1.43.0...v1.44.0)
+
+<sup>Released on **2024-11-20**</sup>
+
+#### ✨ Features
+
+- **misc**: Update workflow and dashboard.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix scripts.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Update workflow and dashboard ([be085bd](https://github.com/lobehub/lobe-icons/commit/be085bd))
+
+#### What's fixed
+
+- **misc**: Fix scripts ([83dafe6](https://github.com/lobehub/lobe-icons/commit/83dafe6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.43.0](https://github.com/lobehub/lobe-icons/compare/v1.42.0...v1.43.0)
 
 <sup>Released on **2024-11-20**</sup>
