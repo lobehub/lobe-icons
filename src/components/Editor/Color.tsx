@@ -1,3 +1,5 @@
+'use client';
+
 import { Highlighter } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';

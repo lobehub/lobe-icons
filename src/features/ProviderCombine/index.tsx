@@ -1,3 +1,5 @@
+'use client';
+
 import { forwardRef, useMemo } from 'react';
 import { Flexbox, FlexboxProps } from 'react-layout-kit';
 

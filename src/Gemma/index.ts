@@ -1,3 +1,5 @@
+'use client';
+
 import Avatar from './components/Avatar';
 import Color from './components/Color';
 import Combine from './components/Combine';

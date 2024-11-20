@@ -1,3 +1,5 @@
+'use client';
+
 import { useThemeMode } from 'antd-style';
 import { memo } from 'react';
 

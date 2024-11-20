@@ -1,3 +1,5 @@
+'use client';
+
 import { CSSProperties, forwardRef } from 'react';
 import { Center, type FlexboxProps } from 'react-layout-kit';
 

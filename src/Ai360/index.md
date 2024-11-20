@@ -68,7 +68,7 @@ import ColorPreview from '../components/ColorPreview';
 export default () => (
   <Flexbox gap={16} horizontal>
     <ColorPreview color={Ai360.colorPrimary} />
-    <ColorPreview color={Higress.colorGradient} />
+    <ColorPreview color={Ai360.colorGradient} />
   </Flexbox>
 );
 ```

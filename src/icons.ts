@@ -71,7 +71,6 @@ export { default as Perplexity, type CompoundedIcon as PerplexityProps } from '.
 export { default as Pollinations, type CompoundedIcon as PollinationsProps } from './Pollinations';
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';
 export { default as Qwen, type CompoundedIcon as QwenProps } from './Qwen';
-export { default as Tongyi, type CompoundedIcon as TongyiProps } from './Qwen';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './Replicate';
 export { default as Runway, type CompoundedIcon as RunwayProps } from './Runway';
 export { default as Rwkv, type CompoundedIcon as RwkvProps } from './Rwkv';

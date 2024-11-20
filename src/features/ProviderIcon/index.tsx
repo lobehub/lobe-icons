@@ -1,3 +1,5 @@
+'use client';
+
 import { CSSProperties, forwardRef, useMemo } from 'react';
 
 import { providerMappings } from '../providerConfig';

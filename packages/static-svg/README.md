@@ -51,29 +51,29 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 
 ### Example
 
-<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/open-ai.svg">
+<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai.svg">
 
 ```html
 <!--UNPKG-->
-<img height="64" src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/open-ai.svg" />
+<img height="64" src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg" />
 
 <!--ALIYUN-->
 <img
   height="64"
-  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/open-ai.svg"
+  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai.svg"
 />
 ```
 
-<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/open-ai-text.svg">
+<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai-text.svg">
 
 ```html
 <!--UNPKG-->
-<img height="64" src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/open-ai-text.svg" />
+<img height="64" src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai-text.svg" />
 
 <!--ALIYUN-->
 <img
   height="64"
-  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/open-ai-text.svg"
+  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai-text.svg"
 />
 ```
 

@@ -1,3 +1,5 @@
+'use client';
+
 import { memo } from 'react';
 
 import IconAvatar, { type IconAvatarProps } from '@/features/IconAvatar';

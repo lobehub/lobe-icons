@@ -1,3 +1,5 @@
+'use client';
+
 import * as Icons from '@lobehub/icons';
 import { StoryBook, useControls, useCreateStore } from '@lobehub/ui';
 import { createStyles } from 'antd-style';

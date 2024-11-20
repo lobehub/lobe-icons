@@ -1,5 +1,4 @@
 import consola from 'consola';
-import { kebabCase } from 'lodash-es';
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import pMap from 'p-map';
@@ -31,7 +30,7 @@ class SvgWorkflow {
       throw new Error('No SVG content found in the rendered component');
     }
 
-    const filename = resolve(outputDir, kebabCase(outputFileName) + '.svg');
+    const filename = resolve(outputDir, outputFileName + '.svg');
     writeFileSync(filename, svgContent, 'utf8');
     consola.success(`Exported SVG to ${filename}`);
   }
@@ -73,28 +72,26 @@ class SvgWorkflow {
   }
 
   async runSvg() {
-    const data = Object.values(Icons);
-
-    await pMap(data, async (Icon: any) => {
+    await pMap(Object.entries(Icons), async ([key, Icon]: [string, any]) => {
       try {
-        this.exportSvg(Icon, `${Icon.title}`);
+        this.exportSvg(Icon, `${key.toLowerCase()}`);
         if (Icon?.Color) {
-          this.exportSvg(Icon.Color, `${Icon.title}-color`);
+          this.exportSvg(Icon.Color, `${key.toLowerCase()}-color`);
         }
         if (Icon?.Text) {
-          this.exportSvg(Icon.Text, `${Icon.title}-text`);
+          this.exportSvg(Icon.Text, `${key.toLowerCase()}-text`);
         }
         if (Icon?.TextCn) {
-          this.exportSvg(Icon.TextCn, `${Icon.title}-text-cn`);
+          this.exportSvg(Icon.TextCn, `${key.toLowerCase()}-text-cn`);
         }
         if (Icon?.Brand) {
-          this.exportSvg(Icon.Brand, `${Icon.title}-brand`);
+          this.exportSvg(Icon.Brand, `${key.toLowerCase()}-brand`);
         }
         if (Icon?.BrandColor) {
-          this.exportSvg(Icon.BrandColor, `${Icon.title}-brand-color`);
+          this.exportSvg(Icon.BrandColor, `${key.toLowerCase()}-brand-color`);
         }
       } catch {
-        consola.error(`Failed to export ${Icon.title}`);
+        consola.error(`Failed to export ${key.toLowerCase()}`);
       }
     });
   }
