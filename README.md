@@ -38,6 +38,10 @@ Contributions, corrections & requests can be made on GitHub.
 #### TOC
 
 - [✨ Features](#-features)
+- [🤯 CDN Usage](#-cdn-usage)
+  - [`A` CDN with SVG](#a-cdn-with-svg)
+  - [`B` CDN with PNG](#b-cdn-with-png)
+  - [`C` CDN with WEBP](#c-cdn-with-webp)
   - [Static Packages](#static-packages)
 - [📦 Installation](#-installation)
   - [Compile with NextJS](#compile-with-nextjs)
@@ -70,6 +74,248 @@ Contributions, corrections & requests can be made on GitHub.
 
 > \[!TIP]\
 > More brands are being added, and `PR` welcome.
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+## 🤯 CDN Usage
+
+Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simply use the lobe icons npm package and specify a version in the URL like the following:
+
+### `A` CDN with SVG
+
+We provide a CDN service (`@lobehub/icons-static-svg`) which allows you to use SVG.
+
+```html
+<!--UNPKG-->
+<img height="64" src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/[ICON SLUG].svg" />
+
+<!--ALIYUN-->
+<img
+  height="64"
+  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/[ICON SLUG].svg"
+/>
+```
+
+#### Example
+
+<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/open-ai.svg">
+
+```html
+<!--UNPKG-->
+<img height="64" src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/open-ai.svg" />
+
+<!--ALIYUN-->
+<img
+  height="64"
+  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/open-ai.svg"
+/>
+```
+
+<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/open-ai-text.svg">
+
+```html
+<!--UNPKG-->
+<img height="64" src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/open-ai-text.svg" />
+
+<!--ALIYUN-->
+<img
+  height="64"
+  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/open-ai-text.svg"
+/>
+```
+
+<br/>
+
+### `B` CDN with PNG
+
+We provide a CDN service (`@lobehub/icons-static-png`) which allows you to use PNG.
+
+```html
+<!--UNPKG-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://unpkg.com/@lobehub/icons-static-png@latest/dark/[ICON SLUG].png"
+  />
+  <img height="64" src="https://unpkg.com/@lobehub/icons-static-png@latest/light/[ICON SLUG].png" />
+</picture>
+
+<!--ALIYUN-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/[ICON SLUG].png"
+  />
+  <img
+    height="64"
+    src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/[ICON SLUG].png"
+  />
+</picture>
+```
+
+#### Example
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/open-ai.png">
+  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/open-ai.png">
+</picture>
+
+```html
+<!--UNPKG-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://unpkg.com/@lobehub/icons-static-png@latest/dark/open-ai.png"
+  />
+  <img height="64" src="https://unpkg.com/@lobehub/icons-static-png@latest/light/open-ai.png" />
+</picture>
+
+<!--ALIYUN-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/open-ai.png"
+  />
+  <img
+    height="64"
+    src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/open-ai.png"
+  />
+</picture>
+```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/open-ai-text.png">
+  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/open-ai-text.png">
+</picture>
+
+```html
+<!--UNPKG-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://unpkg.com/@lobehub/icons-static-png@latest/dark/open-ai-text.png"
+  />
+  <img
+    height="64"
+    src="https://unpkg.com/@lobehub/icons-static-png@latest/light/open-ai-text.png"
+  />
+</picture>
+
+<!--ALIYUN-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="
+      https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/open-ai-text.png
+    "
+  />
+  <img
+    height="64"
+    src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/open-ai-text.png"
+  />
+</picture>
+```
+
+<br/>
+
+### `C` CDN with WEBP
+
+We provide a CDN service (`@lobehub/icons-static-webp`) which allows you to use WEBP.
+
+```html
+<!--UNPKG-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://unpkg.com/@lobehub/icons-static-webp@latest/dark/[ICON SLUG].webp"
+  />
+  <img
+    height="64"
+    src="https://unpkg.com/@lobehub/icons-static-webp@latest/light/[ICON SLUG].webp"
+  />
+</picture>
+
+<!--ALIYUN-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/[ICON SLUG].webp"
+  />
+  <img
+    height="64"
+    src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/[ICON SLUG].webp"
+  />
+</picture>
+```
+
+#### Example
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/open-ai.webp">
+  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/open-ai.webp">
+</picture>
+
+```html
+<!--UNPKG-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://unpkg.com/@lobehub/icons-static-webp@latest/dark/open-ai.webp"
+  />
+  <img height="64" src="https://unpkg.com/@lobehub/icons-static-webp@latest/light/open-ai.webp" />
+</picture>
+
+<!--ALIYUN-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="
+      https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/open-ai.webp
+    "
+  />
+  <img
+    height="64"
+    src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/open-ai.webp"
+  />
+</picture>
+```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/open-ai-text.webp">
+  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/open-ai-text.webp">
+</picture>
+
+```html
+<!--UNPKG-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://unpkg.com/@lobehub/icons-static-webp@latest/dark/open-ai-text.webp"
+  />
+  <img
+    height="64"
+    src="https://unpkg.com/@lobehub/icons-static-webp@latest/light/open-ai-text.webp"
+  />
+</picture>
+
+<!--ALIYUN-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="
+      https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/open-ai-text.webp
+    "
+  />
+  <img
+    height="64"
+    src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/open-ai-text.webp"
+  />
+</picture>
+```
 
 <br/>
 

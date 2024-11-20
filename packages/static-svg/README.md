@@ -34,6 +34,69 @@ Contributions, corrections & requests can be made on GitHub.
 
 </div>
 
+## 🤯 CDN Usage
+
+Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simply use the lobe icons npm package and specify a version in the URL like the following:
+
+```html
+<!--UNPKG-->
+<img height="64" src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/[ICON SLUG].svg" />
+
+<!--ALIYUN-->
+<img
+  height="64"
+  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/[ICON SLUG].svg"
+/>
+```
+
+### Example
+
+<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/open-ai.svg">
+
+```html
+<!--UNPKG-->
+<img height="64" src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/open-ai.svg" />
+
+<!--ALIYUN-->
+<img
+  height="64"
+  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/open-ai.svg"
+/>
+```
+
+<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/open-ai-text.svg">
+
+```html
+<!--UNPKG-->
+<img height="64" src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/open-ai-text.svg" />
+
+<!--ALIYUN-->
+<img
+  height="64"
+  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/open-ai-text.svg"
+/>
+```
+
+<div align="right">
+
+[!\[\]\[back-to-top\]](#readme-top)
+
+</div>
+
+## 📦 Static Packages
+
+| Package                                                                                | FileType | Version                                                                                                                                                                                           |
+| -------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [@lobehub/icons-static-svg](https://www.npmjs.com/package/@lobehub/icons-static-svg)   | `SVG`    | [![](https://img.shields.io/npm/v/@lobehub/icons-static-svg?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-svg)   |
+| [@lobehub/icons-static-png](https://www.npmjs.com/package/@lobehub/icons-static-png)   | `PNG`    | [![](https://img.shields.io/npm/v/@lobehub/icons-static-png?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-png)   |
+| [@lobehub/icons-static-webp](https://www.npmjs.com/package/@lobehub/icons-static-webp) | `WEBP`   | [![](https://img.shields.io/npm/v/@lobehub/icons-static-webp?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-webp) |
+
+<div align="right">
+
+[!\[\]\[back-to-top\]](#readme-top)
+
+</div>
+
 ---
 
 <details><summary><h4>📝 License</h4></summary>

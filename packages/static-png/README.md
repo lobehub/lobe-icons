@@ -3,7 +3,7 @@
 <div align="center">
 
 <img height="120" src="https://registry.npmmirror.com/@lobehub/assets-logo/1.0.0/files/assets/logo-3d.webp">
-<img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
+<img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.png">
 <img height="120" src="https://registry.npmmirror.com/@lobehub/fluent-emoji-3d/1.1.0/files/assets/1f968.webp">
 
 # Lobe Icons
@@ -34,6 +34,116 @@ Contributions, corrections & requests can be made on GitHub.
 
 </div>
 
+## 🤯 CDN Usage
+
+Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simply use the lobe icons npm package and specify a version in the URL like the following:
+
+```html
+<!--UNPKG-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://unpkg.com/@lobehub/icons-static-png@latest/dark/[ICON SLUG].png"
+  />
+  <img height="64" src="https://unpkg.com/@lobehub/icons-static-png@latest/light/[ICON SLUG].png" />
+</picture>
+
+<!--ALIYUN-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/[ICON SLUG].png"
+  />
+  <img
+    height="64"
+    src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/[ICON SLUG].png"
+  />
+</picture>
+```
+
+### Example
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/open-ai.png">
+  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/open-ai.png">
+</picture>
+
+```html
+<!--UNPKG-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://unpkg.com/@lobehub/icons-static-png@latest/dark/open-ai.png"
+  />
+  <img height="64" src="https://unpkg.com/@lobehub/icons-static-png@latest/light/open-ai.png" />
+</picture>
+
+<!--ALIYUN-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/open-ai.png"
+  />
+  <img
+    height="64"
+    src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/open-ai.png"
+  />
+</picture>
+```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/open-ai-text.png">
+  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/open-ai-text.png">
+</picture>
+
+```html
+<!--UNPKG-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://unpkg.com/@lobehub/icons-static-png@latest/dark/open-ai-text.png"
+  />
+  <img
+    height="64"
+    src="https://unpkg.com/@lobehub/icons-static-png@latest/light/open-ai-text.png"
+  />
+</picture>
+
+<!--ALIYUN-->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="
+      https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/open-ai-text.png
+    "
+  />
+  <img
+    height="64"
+    src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/open-ai-text.png"
+  />
+</picture>
+```
+
+<div align="right">
+
+[!\[\]\[back-to-top\]](#readme-top)
+
+</div>
+
+## 📦 Static Packages
+
+| Package                                                                                | FileType | Version                                                                                                                                                                                           |
+| -------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [@lobehub/icons-static-svg](https://www.npmjs.com/package/@lobehub/icons-static-svg)   | `SVG`    | [![](https://img.shields.io/npm/v/@lobehub/icons-static-svg?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-svg)   |
+| [@lobehub/icons-static-png](https://www.npmjs.com/package/@lobehub/icons-static-png)   | `PNG`    | [![](https://img.shields.io/npm/v/@lobehub/icons-static-png?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-png)   |
+| [@lobehub/icons-static-webp](https://www.npmjs.com/package/@lobehub/icons-static-webp) | `WEBP`   | [![](https://img.shields.io/npm/v/@lobehub/icons-static-webp?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-webp) |
+
+<div align="right">
+
+[!\[\]\[back-to-top\]](#readme-top)
+
+</div>
+
 ---
 
 <details><summary><h4>📝 License</h4></summary>
@@ -50,7 +160,7 @@ This project is [MIT](./LICENSE) licensed.
 [discord-link]: https://discord.gg/AYFPHvv2jT
 [discord-shield]: https://img.shields.io/discord/1127171173982154893?color=5865F2&label=discord&labelColor=black&logo=discord&logoColor=white&style=flat-square
 [fossa-license-link]: https://app.fossa.com/projects/git%2Bgithub.com%2Flobehub%2Flobe-icons
-[fossa-license-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2Flobehub%2Flobe-icons.svg?type=large
+[fossa-license-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2Flobehub%2Flobe-icons.png?type=large
 [github-action-release-link]: https://github.com/actions/workflows/lobehub/lobe-icons/release.yml
 [github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-icons/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
 [github-action-test-link]: https://github.com/actions/workflows/lobehub/lobe-icons/test.yml
