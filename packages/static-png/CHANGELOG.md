@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.2.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-png@1.1.0...@lobehub/icons-static-png@1.2.0)
+
+<sup>Released on **2024-11-20**</sup>
+
+#### ✨ Features
+
+- **misc**: Update workflow and dashboard.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Update workflow and dashboard ([be085bd](https://github.com/lobehub/lobe-icons/commit/be085bd))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.1.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-png@1.0.0...@lobehub/icons-static-png@1.1.0)
 
 <sup>Released on **2024-11-20**</sup>
