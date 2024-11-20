@@ -20,6 +20,8 @@ export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatG
 export { default as Claude, type CompoundedIcon as ClaudeProps } from './Claude';
 export { default as Cloudflare, type CompoundedIcon as CloudflareProps } from './Cloudflare';
 export { default as CodeGeeX, type CompoundedIcon as CodeGeeXProps } from './CodeGeeX';
+export { default as CogVideo, type CompoundedIcon as CogVideoProps } from './CogVideo';
+export { default as CogView, type CompoundedIcon as CogViewProps } from './CogView';
 export { default as Cohere, type CompoundedIcon as CohereProps } from './Cohere';
 export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
@@ -46,10 +48,12 @@ export { default as Higress, type CompoundedIcon as HigressProps } from './Higre
 export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from './HuggingFace';
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './InternLM';
+export { default as Kling, type CompoundedIcon as KlingProps } from './Kling';
 export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './Langfuse';
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmStudio';
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeHub';
+export { default as Luma, type CompoundedIcon as LumaProps } from './Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './Magic';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
 export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from './Midjourney';
@@ -69,6 +73,7 @@ export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingy
 export { default as Qwen, type CompoundedIcon as QwenProps } from './Qwen';
 export { default as Tongyi, type CompoundedIcon as TongyiProps } from './Qwen';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './Replicate';
+export { default as Runway, type CompoundedIcon as RunwayProps } from './Runway';
 export { default as Rwkv, type CompoundedIcon as RwkvProps } from './Rwkv';
 export { default as SenseNova, type CompoundedIcon as SenseNovaProps } from './SenseNova';
 export { default as SiliconCloud, type CompoundedIcon as SiliconCloudProps } from './SiliconCloud';
@@ -80,6 +85,7 @@ export { default as Tencent, type CompoundedIcon as TencentProps } from './Tence
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
 export { default as Upstage, type CompoundedIcon as UpstageProps } from './Upstage';
 export { default as VertexAI, type CompoundedIcon as VertexAIProps } from './VertexAI';
+export { default as Viggle, type CompoundedIcon as ViggleProps } from './Viggle';
 export { default as Vllm, type CompoundedIcon as VllmProps } from './Vllm';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
