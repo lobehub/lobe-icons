@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.42.0](https://github.com/lobehub/lobe-icons/compare/v1.41.0...v1.42.0)
+
+<sup>Released on **2024-11-20**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Runway & Kling & Luma & Runway & Viggle & CogView & CogVideo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Runway & Kling & Luma & Runway & Viggle & CogView & CogVideo ([dce7dd1](https://github.com/lobehub/lobe-icons/commit/dce7dd1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.41.0](https://github.com/lobehub/lobe-icons/compare/v1.40.0...v1.41.0)
 
 <sup>Released on **2024-11-19**</sup>
