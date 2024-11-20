@@ -27,7 +27,7 @@
     "es"
   ],
   "scripts": {
-    "build": "build:toc && father build",
+    "build": "father build",
     "build:static": "tsx scripts/svgWorkflow/index.ts",
     "build:toc": "tsx scripts/tocWorkflow/index.ts",
     "build:watch": "father dev",
