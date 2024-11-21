@@ -13,22 +13,42 @@ const run = () => {
     const { data } = matter(md);
     return {
       color: Icon.colorPrimary,
+      colorGradient: Icon?.colorGradient,
       desc: data?.description,
       docsUrl: customKebabCase(key),
       fullTitle: data?.title,
       group: String(data?.group?.title || data?.group).toLowerCase(),
       id: key,
+      param: {
+        hasAvatar: !!Icon?.Avatar,
+        hasBrand: !!Icon?.Brand,
+        hasBrandColor: !!Icon?.BrandColor,
+        hasColor: !!Icon?.Color,
+        hasCombine: !!Icon?.Combine,
+        hasText: !!Icon?.Text,
+        hasTextCn: !!Icon?.TextCn,
+      },
       title: Icon.title,
     };
   });
 
   const content = `export interface IconToc {
   color: string;
+  colorGradient?: string;
   desc: string;
   docsUrl: string;
   fullTitle: string;
   group: 'model' | 'provider' | 'application';
   id: string;
+    param: {
+    hasAvatar: boolean;
+    hasBrand: boolean;
+    hasBrandColor: boolean;
+    hasColor: boolean;
+    hasCombine: boolean;
+    hasText: boolean;
+    hasTextCn: boolean;
+  };
   title: string;
 }
 
