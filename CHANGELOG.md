@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.44.2](https://github.com/lobehub/lobe-icons/compare/v1.44.1...v1.44.2)
+
+<sup>Released on **2024-11-22**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Update dumi.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Update dumi ([9bfe0a5](https://github.com/lobehub/lobe-icons/commit/9bfe0a5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.44.1](https://github.com/lobehub/lobe-icons/compare/v1.44.0...v1.44.1)
 
 <sup>Released on **2024-11-21**</sup>
