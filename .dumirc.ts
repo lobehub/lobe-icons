@@ -36,7 +36,9 @@ const themeConfig = {
   nav: [
     { link: '/components/ai21', title: 'Icons' },
     { link: '/features/model-icon', title: 'Components' },
-    { link: '/editor', title: 'Editor' },
+    { link: '/editor', title: 'SVG Editor' },
+    { link: 'https://ui.lobehub.com', mode: 'override', title: 'UI' },
+    { link: 'https://charts.lobehub.com', mode: 'override', title: 'Charts' },
     { link: '/changelog', title: 'Changelog' },
   ],
   socialLinks: {

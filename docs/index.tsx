@@ -1,5 +1,8 @@
-import { Features, FeaturesProps } from '@lobehub/ui';
+import { Features, FeaturesProps, Snippet } from '@lobehub/ui';
 import { Expand, GitPullRequest, Trees } from 'lucide-react';
+import { Center, Flexbox } from 'react-layout-kit';
+
+import Dashboard from '@/components/Dashboard';
 
 const items: FeaturesProps['items'] = [
   {
@@ -23,5 +26,14 @@ const items: FeaturesProps['items'] = [
 ];
 
 export default () => {
-  return <Features items={items} />;
+  return (
+    <Flexbox gap={48}>
+      <Center>
+        <h2 style={{ fontSize: 20 }}>To install Lobe Icons, run the following command:</h2>
+        <Snippet language={'bash'}>{'$ bun add @lobehub/icons'}</Snippet>
+      </Center>
+      <Dashboard />
+      <Features items={items} />
+    </Flexbox>
+  );
 };

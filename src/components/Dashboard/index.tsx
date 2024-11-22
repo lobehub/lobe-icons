@@ -44,7 +44,7 @@ const Dashboard = memo(() => {
           onSearch={(v) => setKeyword(v)}
           placeholder={'Search by brand or model keywords...'}
           style={{ width: '100%' }}
-          variant={'filled'}
+          type={'block'}
         />
         <Segmented
           defaultValue={type}

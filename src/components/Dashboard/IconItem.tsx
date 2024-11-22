@@ -27,7 +27,10 @@ const useStyles = createStyles(({ cx, css, token }) => {
   return {
     card: css`
       position: relative;
+
       overflow: hidden;
+
+      background: ${token.colorBgContainer};
       border: 1px solid ${token.colorBorderSecondary};
       border-radius: ${token.borderRadiusLG}px;
     `,
