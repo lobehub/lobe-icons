@@ -7,7 +7,7 @@ import toc, { IconToc } from '../../src/toc';
 
 const ROOT_PATH = resolve(__dirname, '../..');
 
-const BASE_URL = 'https://icons.lobehub.com/components/';
+const BASE_URL = 'https://lobehub.com/icons/';
 
 const updateReadme = (split: string, md: string, content: string): string => {
   const mds = md.split(split);
@@ -17,14 +17,14 @@ const updateReadme = (split: string, md: string, content: string): string => {
 
 const genMd = (data: IconToc): string =>
   [
-    [
-      `<picture>`,
-      `<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/${data.id.toLowerCase()}.png" />`,
-      `<img height="56" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/${data.id.toLowerCase()}.png" />`,
-      `</picture>`,
-    ].join(''),
-    `[${data.title}](${BASE_URL}${data.docsUrl})`,
-  ].join('<br/>');
+    `<a href="${BASE_URL}${data.id.toLowerCase()}">`,
+    `<picture>`,
+    `<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/${data.param.hasColor ? data.id.toLowerCase() + '-color' : data.id.toLowerCase()}.png" />`,
+    `<img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/${data.param.hasColor ? data.id.toLowerCase() + '-color' : data.id.toLowerCase()}.png" />`,
+    `</picture>`,
+    '<br/>',
+    data.fullTitle,
+  ].join('');
 
 const run = () => {
   const model = toc
