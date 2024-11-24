@@ -64,7 +64,7 @@ const Dashboard = memo(() => {
           }}
         />
       </Flexbox>
-      <Grid maxItemWidth={200} rows={8}>
+      <Grid maxItemWidth={160} rows={5}>
         {iconsGroup.map(([key, Icon]: [string, any]) => {
           const IconRender = isMono ? Icon : Icon.Color || Icon;
           return (

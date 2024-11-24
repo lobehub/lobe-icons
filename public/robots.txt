@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://icons.lobehub.com
+Sitemap: https://icons.lobehub.com/sitemap.xml
