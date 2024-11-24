@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.45.2](https://github.com/lobehub/lobe-icons/compare/v1.45.1...v1.45.2)
+
+<sup>Released on **2024-11-24**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix ssr.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix ssr ([bbc3730](https://github.com/lobehub/lobe-icons/commit/bbc3730))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.45.1](https://github.com/lobehub/lobe-icons/compare/v1.45.0...v1.45.1)
 
 <sup>Released on **2024-11-24**</sup>
