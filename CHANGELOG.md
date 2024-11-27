@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.48.0](https://github.com/lobehub/lobe-icons/compare/v1.47.0...v1.48.0)
+
+<sup>Released on **2024-11-27**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Fix Cursor icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([e633956](https://github.com/lobehub/lobe-icons/commit/e633956))
+
+#### Styles
+
+- **misc**: Fix Cursor icon ([8d8aee7](https://github.com/lobehub/lobe-icons/commit/8d8aee7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.47.0](https://github.com/lobehub/lobe-icons/compare/v1.46.2...v1.47.0)
 
 <sup>Released on **2024-11-27**</sup>
