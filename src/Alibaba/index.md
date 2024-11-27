@@ -27,7 +27,7 @@ import { Alibaba } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Alibaba.Text size={48} />
     <Alibaba.TextCn size={48} />
   </Flexbox>
@@ -41,7 +41,7 @@ import { Alibaba } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Alibaba.Brand size={64} />
     <Alibaba.BrandColor size={64} />
   </Flexbox>

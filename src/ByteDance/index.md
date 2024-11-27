@@ -27,7 +27,7 @@ import { ByteDance } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <ByteDance.Text size={48} />
     <ByteDance.TextCn size={48} />
   </Flexbox>
@@ -41,7 +41,7 @@ import { ByteDance } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <ByteDance.Brand size={64} />
     <ByteDance.BrandColor size={64} />
   </Flexbox>

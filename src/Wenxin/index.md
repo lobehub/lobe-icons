@@ -35,7 +35,7 @@ import { Wenxin } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Wenxin.Combine size={64} />
     <Wenxin.Combine size={64} type={'color'} />
     <Wenxin.Combine size={64} type={'color'} extra={'一言'} />

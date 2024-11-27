@@ -35,7 +35,7 @@ import { Mistral } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Mistral.Combine size={64} />
     <Mistral.Combine size={64} type={'color'} />
   </Flexbox>

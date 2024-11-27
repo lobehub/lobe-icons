@@ -35,7 +35,7 @@ import { Doubao } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Doubao.Combine size={64} />
     <Doubao.Combine size={64} type={'color'} />
   </Flexbox>

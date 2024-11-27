@@ -27,7 +27,7 @@ import { Tencent } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Tencent.Text size={48} />
     <Tencent.TextCn size={48} />
   </Flexbox>
@@ -41,7 +41,7 @@ import { Tencent } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Tencent.Brand size={64} />
     <Tencent.BrandColor size={64} />
   </Flexbox>

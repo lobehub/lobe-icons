@@ -35,7 +35,7 @@ import { AiMass } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <AiMass.Combine size={64} />
     <AiMass.Combine size={64} type={'color'} />
   </Flexbox>

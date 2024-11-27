@@ -35,7 +35,7 @@ import { ChatGLM } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <ChatGLM.Combine size={64} />
     <ChatGLM.Combine size={64} type={'color'} />
   </Flexbox>

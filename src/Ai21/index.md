@@ -34,7 +34,7 @@ import { Ai21 } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Ai21.Combine size={64} />
     <Ai21.Combine size={64} type={'color'} />
   </Flexbox>
@@ -48,7 +48,7 @@ import { Ai21 } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Ai21.Brand size={48} />
     <Ai21.BrandColor size={48} />
   </Flexbox>

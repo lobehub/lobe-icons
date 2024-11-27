@@ -35,7 +35,7 @@ import { Together } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Together.Combine size={64} />
     <Together.Combine size={64} type={'color'} />
   </Flexbox>
@@ -49,7 +49,7 @@ import { Together } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Together.Brand size={64} />
     <Together.BrandColor size={64} />
   </Flexbox>

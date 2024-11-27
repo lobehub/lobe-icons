@@ -35,7 +35,7 @@ import { Meta } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Meta.Combine size={64} />
     <Meta.Combine size={64} type={'color'} />
   </Flexbox>
@@ -49,7 +49,7 @@ import { Meta } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Meta.Brand size={64} />
     <Meta.BrandColor size={64} />
   </Flexbox>

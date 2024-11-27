@@ -35,7 +35,7 @@ import { Cohere } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Cohere.Combine size={64} />
     <Cohere.Combine size={64} type={'color'} />
     <Cohere.Combine size={64} type={'color'} color={Cohere.colorPrimary} />

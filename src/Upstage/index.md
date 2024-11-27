@@ -35,7 +35,7 @@ import { Upstage } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Upstage.Combine size={64} />
     <Upstage.Combine size={64} type={'color'} />
   </Flexbox>

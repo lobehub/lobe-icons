@@ -35,7 +35,7 @@ import { Zeabur } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Zeabur.Combine size={64} />
     <Zeabur.Combine size={64} type={'color'} />
   </Flexbox>

@@ -4,6 +4,7 @@ export { default as Ai21, type CompoundedIcon as Ai21Props } from './Ai21';
 export { default as Ai360, type CompoundedIcon as Ai360Props } from './Ai360';
 export { default as AiMass, type CompoundedIcon as AiMassProps } from './AiMass';
 export { default as Alibaba, type CompoundedIcon as AlibabaProps } from './Alibaba';
+export { default as AlibabaCloud, type CompoundedIcon as AlibabaCloudProps } from './AlibabaCloud';
 export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './AntGroup';
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './Anthropic';
 export { default as Automatic, type CompoundedIcon as AutomaticProps } from './Automatic';
@@ -26,6 +27,7 @@ export { default as Cohere, type CompoundedIcon as CohereProps } from './Cohere'
 export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
 export { default as ComfyUI, type CompoundedIcon as ComfyUIProps } from './ComfyUI';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
+export { default as Coze, type CompoundedIcon as CozeProps } from './Coze';
 export { default as Cursor, type CompoundedIcon as CursorProps } from './Cursor';
 export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
 export { default as Dbrx, type CompoundedIcon as DbrxProps } from './Dbrx';
@@ -66,6 +68,7 @@ export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minim
 export { default as Mistral, type CompoundedIcon as MistralProps } from './Mistral';
 export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moonshot';
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './MyShell';
+export { default as Notion, type CompoundedIcon as NotionProps } from './Notion';
 export { default as Novita, type CompoundedIcon as NovitaProps } from './Novita';
 export { default as Nvidia, type CompoundedIcon as NvidiaProps } from './Nvidia';
 export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama';
@@ -93,6 +96,8 @@ export { default as Tiangong, type CompoundedIcon as TiangongProps } from './Tia
 export { default as TII, type CompoundedIcon as TIIProps } from './TII';
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
 export { default as Upstage, type CompoundedIcon as UpstageProps } from './Upstage';
+export { default as V0, type CompoundedIcon as V0Props } from './V0';
+export { default as Vercel, type CompoundedIcon as VercelProps } from './Vercel';
 export { default as VertexAI, type CompoundedIcon as VertexAIProps } from './VertexAI';
 export { default as Viggle, type CompoundedIcon as ViggleProps } from './Viggle';
 export { default as Vllm, type CompoundedIcon as VllmProps } from './Vllm';

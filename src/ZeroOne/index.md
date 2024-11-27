@@ -34,7 +34,7 @@ import { ZeroOne } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <ZeroOne.Combine size={64} />
     <ZeroOne.Combine size={64} type={'color'} />
   </Flexbox>

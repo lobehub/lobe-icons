@@ -35,7 +35,7 @@ import { DeepMind } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <DeepMind.Combine size={64} />
     <DeepMind.Combine size={64} type={'color'} />
   </Flexbox>

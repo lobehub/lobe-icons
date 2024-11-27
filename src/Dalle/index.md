@@ -37,7 +37,7 @@ import { Dalle } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Dalle.Combine size={64} />
     <Dalle.Combine size={64} extra={3} />
   </Flexbox>

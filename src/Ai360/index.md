@@ -35,7 +35,7 @@ import { Ai360 } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Ai360.Combine size={64} />
     <Ai360.Combine size={64} type={'color'} />
   </Flexbox>

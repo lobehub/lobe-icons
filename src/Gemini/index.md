@@ -35,7 +35,7 @@ import { Gemini } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Gemini.Combine size={64} />
     <Gemini.Combine size={64} type={'color'} />
   </Flexbox>
@@ -49,7 +49,7 @@ import { Gemini } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Gemini.Brand size={64} />
     <Gemini.BrandColor size={64} />
   </Flexbox>

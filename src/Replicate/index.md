@@ -26,7 +26,7 @@ import { Replicate } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Replicate.Brand size={64} />
   </Flexbox>
 );

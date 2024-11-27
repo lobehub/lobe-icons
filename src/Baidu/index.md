@@ -27,7 +27,7 @@ import { Baidu } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Baidu.Text size={48} />
     <Baidu.TextCn size={48} />
   </Flexbox>
@@ -41,7 +41,7 @@ import { Baidu } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Baidu.Brand size={64} />
     <Baidu.BrandColor size={64} />
   </Flexbox>

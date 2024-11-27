@@ -35,7 +35,7 @@ import { SenseNova } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <SenseNova.Combine size={64} />
     <SenseNova.Combine size={64} type={'color'} />
   </Flexbox>
@@ -49,7 +49,7 @@ import { SenseNova } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <SenseNova.Brand size={64} />
     <SenseNova.BrandColor size={64} />
   </Flexbox>

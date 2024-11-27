@@ -35,7 +35,7 @@ import { InternLM } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <InternLM.Combine size={64} />
     <InternLM.Combine size={64} type={'color'} />
   </Flexbox>

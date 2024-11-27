@@ -9,7 +9,7 @@ import Color from './Color';
 
 export type AvatarProps = Omit<IconAvatarProps, 'Icon'>;
 
-const Avatar = memo<AvatarProps>(({ background, size, ...rest }) => {
+const Avatar = memo<AvatarProps>(({ shape = 'circle', background, size, iconStyle, ...rest }) => {
   return (
     <IconAvatar
       Icon={Color}
@@ -17,6 +17,11 @@ const Avatar = memo<AvatarProps>(({ background, size, ...rest }) => {
       background={background || COLOR_PRIMARY}
       color={'#fff'}
       iconMultiple={0.65}
+      iconStyle={{
+        marginLeft: shape === 'circle' ? size * 0.1 : undefined,
+        ...iconStyle,
+      }}
+      shape={shape}
       size={size}
       {...rest}
     />

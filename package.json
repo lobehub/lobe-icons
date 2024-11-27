@@ -49,6 +49,7 @@
     "release:static": "multi-semantic-release",
     "setup": "dumi setup",
     "start": "npm run dev",
+    "sync:cnpm": "cnpm sync @lobehub/icons-static-svg @lobehub/icons-static-png @lobehub/icons-static-webp",
     "sync:md": "npm run build:toc && tsx scripts/readmeWorkflow/index.ts",
     "test": "vitest --passWithNoTests",
     "test:coverage": "vitest run --coverage  --passWithNoTests",

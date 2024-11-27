@@ -35,7 +35,7 @@ import { Dbrx } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Dbrx.Combine size={64} />
     <Dbrx.Combine size={64} type={'color'} />
   </Flexbox>
@@ -49,7 +49,7 @@ import { Dbrx } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Dbrx.Brand size={64} />
     <Dbrx.BrandColor size={64} />
   </Flexbox>

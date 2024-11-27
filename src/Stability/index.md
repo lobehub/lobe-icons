@@ -35,7 +35,7 @@ import { Stability } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Stability.Combine size={64} />
     <Stability.Combine size={64} type={'color'} />
   </Flexbox>
@@ -49,7 +49,7 @@ import { Stability } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Stability.Brand size={64} />
     <Stability.BrandColor size={64} />
   </Flexbox>

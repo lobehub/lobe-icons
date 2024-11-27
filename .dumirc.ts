@@ -8,7 +8,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 const isWin = process.platform === 'win32';
 
 const nav: INavItem[] = [
-  { link: '/components/ai21', title: 'Icons' },
+  { link: '/components/lobe-hub', title: 'Icons' },
   { link: '/features/model-icon', title: 'Components' },
   { link: '/editor', title: 'SVG Editor' },
   { link: 'https://ui.lobehub.com', mode: 'override', title: 'UI' },
@@ -25,7 +25,7 @@ const themeConfig: SiteThemeConfig = {
       text: 'Github',
     },
     {
-      link: '/components/ai21',
+      link: '/components/lobe-hub',
       text: 'View all icons',
       type: 'primary',
     },

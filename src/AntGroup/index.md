@@ -27,7 +27,7 @@ import { AntGroup } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <AntGroup.Text size={48} />
     <AntGroup.TextCn size={48} />
   </Flexbox>
@@ -41,7 +41,7 @@ import { AntGroup } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <AntGroup.Brand size={64} />
     <AntGroup.BrandColor size={64} />
   </Flexbox>

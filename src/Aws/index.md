@@ -35,7 +35,7 @@ import { Aws } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Aws.Combine size={64} />
     <Aws.Combine size={64} type={'color'} />
   </Flexbox>
@@ -49,7 +49,7 @@ import { Aws } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Aws.Brand size={64} />
     <Aws.BrandColor size={64} />
   </Flexbox>

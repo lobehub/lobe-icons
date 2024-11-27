@@ -35,7 +35,7 @@ import { Cloudflare } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
-  <Flexbox gap={16}>
+  <Flexbox gap={16} align={'flex-start'}>
     <Cloudflare.Combine size={64} />
     <Cloudflare.Combine size={64} type={'color'} />
   </Flexbox>
