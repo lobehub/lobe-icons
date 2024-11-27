@@ -3,21 +3,21 @@ nav: Components
 group:
   title: Application
   order: 10
-title: Kling (可灵)
-atomId: Kling
-description: https://klingai.com
+title: Hailuo (海螺)
+atomId: Hailuo
+description: https://hailuoai.video
 ---
 
 ## Icons
 
 ```tsx
-import { Kling } from '@lobehub/icons';
+import { Hailuo } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Kling size={64} />
-    <Kling.Color size={64} />
+    <Hailuo size={64} />
+    <Hailuo.Color size={64} />
   </Flexbox>
 );
 ```
@@ -25,21 +25,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Kling } from '@lobehub/icons';
+import { Hailuo } from '@lobehub/icons';
 
-export default () => <Kling.Text size={48} />;
+export default () => <Hailuo.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Kling } from '@lobehub/icons';
+import { Hailuo } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16}>
-    <Kling.Combine size={64} />
-    <Kling.Combine size={64} type={'color'} />
+    <Hailuo.Combine size={64} />
+    <Hailuo.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -47,13 +47,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Kling } from '@lobehub/icons';
+import { Hailuo } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Kling.Avatar size={64} />
-    <Kling.Avatar size={64} shape={'square'} />
+    <Hailuo.Avatar size={64} />
+    <Hailuo.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -61,15 +61,15 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Kling } from '@lobehub/icons';
+import { Hailuo } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Kling.colorPrimary} />
-    <ColorPreview color={Kling.colorGradient} />
+    <ColorPreview color={Hailuo.colorPrimary} />
+    <ColorPreview color={Hailuo.colorGradient} />
   </Flexbox>
 );
 ```

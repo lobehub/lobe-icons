@@ -24,6 +24,7 @@ export { default as CogVideo, type CompoundedIcon as CogVideoProps } from './Cog
 export { default as CogView, type CompoundedIcon as CogViewProps } from './CogView';
 export { default as Cohere, type CompoundedIcon as CohereProps } from './Cohere';
 export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
+export { default as ComfyUI, type CompoundedIcon as ComfyUIProps } from './ComfyUI';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
 export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
 export { default as Dbrx, type CompoundedIcon as DbrxProps } from './Dbrx';
@@ -44,6 +45,7 @@ export {
 export { default as Google, type CompoundedIcon as GoogleProps } from './Google';
 export { default as Grok, type CompoundedIcon as GrokProps } from './Grok';
 export { default as Groq, type CompoundedIcon as GroqProps } from './Groq';
+export { default as Hailuo, type CompoundedIcon as HailuoProps } from './Hailuo';
 export { default as Higress, type CompoundedIcon as HigressProps } from './Higress';
 export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from './HuggingFace';
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
@@ -72,6 +74,7 @@ export { default as Pollinations, type CompoundedIcon as PollinationsProps } fro
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';
 export { default as Qwen, type CompoundedIcon as QwenProps } from './Qwen';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './Replicate';
+export { default as Replit, type CompoundedIcon as ReplitProps } from './Replit';
 export { default as Runway, type CompoundedIcon as RunwayProps } from './Runway';
 export { default as Rwkv, type CompoundedIcon as RwkvProps } from './Rwkv';
 export { default as SenseNova, type CompoundedIcon as SenseNovaProps } from './SenseNova';
@@ -81,6 +84,7 @@ export { default as Stability, type CompoundedIcon as StabilityProps } from './S
 export { default as Stepfun, type CompoundedIcon as StepfunProps } from './Stepfun';
 export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';
 export { default as Tencent, type CompoundedIcon as TencentProps } from './Tencent';
+export { default as TII, type CompoundedIcon as TIIProps } from './TII';
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
 export { default as Upstage, type CompoundedIcon as UpstageProps } from './Upstage';
 export { default as VertexAI, type CompoundedIcon as VertexAIProps } from './VertexAI';

@@ -35,7 +35,9 @@ const Preview = memo<PreviewProps>(({ svg, title, viewbox }) => {
         <h3 style={{ lineHeight: 1, margin: 0 }}>{title}</h3>
       </Flexbox>
       <Highlighter className={styles.code} language={'tsx'}>
-        {`import { forwardRef } from 'react';
+        {`'use client';
+
+import { forwardRef } from 'react';
 import type { IconType } from '@/types';
 
 import { TITLE } from '../style';

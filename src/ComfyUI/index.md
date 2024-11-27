@@ -3,21 +3,21 @@ nav: Components
 group:
   title: Application
   order: 10
-title: Kling (可灵)
-atomId: Kling
-description: https://klingai.com
+title: ComfyUI
+atomId: ComfyUI
+description: https://www.comfy.org
 ---
 
 ## Icons
 
 ```tsx
-import { Kling } from '@lobehub/icons';
+import { ComfyUI } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Kling size={64} />
-    <Kling.Color size={64} />
+    <ComfyUI size={64} />
+    <ComfyUI.Color size={64} />
   </Flexbox>
 );
 ```
@@ -25,21 +25,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Kling } from '@lobehub/icons';
+import { ComfyUI } from '@lobehub/icons';
 
-export default () => <Kling.Text size={48} />;
+export default () => <ComfyUI.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Kling } from '@lobehub/icons';
+import { ComfyUI } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16}>
-    <Kling.Combine size={64} />
-    <Kling.Combine size={64} type={'color'} />
+    <ComfyUI.Combine size={64} />
+    <ComfyUI.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -47,13 +47,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Kling } from '@lobehub/icons';
+import { ComfyUI } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Kling.Avatar size={64} />
-    <Kling.Avatar size={64} shape={'square'} />
+    <ComfyUI.Avatar size={64} />
+    <ComfyUI.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -61,15 +61,15 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Kling } from '@lobehub/icons';
+import { ComfyUI } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Kling.colorPrimary} />
-    <ColorPreview color={Kling.colorGradient} />
+    <ColorPreview color={ComfyUI.colorPrimary} />
+    <ColorPreview color={ComfyUI.colorGradient} />
   </Flexbox>
 );
 ```
