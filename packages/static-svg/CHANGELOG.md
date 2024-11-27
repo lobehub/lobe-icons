@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.5.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.4.0...@lobehub/icons-static-svg@1.5.0)
+
+<sup>Released on **2024-11-27**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Fix Cursor icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([1e6b7cf](https://github.com/lobehub/lobe-icons/commit/1e6b7cf))
+
+#### Styles
+
+- **misc**: Fix Cursor icon ([8d8aee7](https://github.com/lobehub/lobe-icons/commit/8d8aee7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.4.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.3.0...@lobehub/icons-static-svg@1.4.0)
 
 <sup>Released on **2024-11-27**</sup>
