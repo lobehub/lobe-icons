@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+npm run build:toc
 git add .
 npm run type-check
 npx --no-install lint-staged

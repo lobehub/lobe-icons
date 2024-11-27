@@ -87,7 +87,7 @@ const IconItem = memo<IconItemProps>(({ children, title, color, id }) => {
     const url = URL.createObjectURL(blob);
     const downloadLink = document.createElement('a');
     downloadLink.href = url;
-    downloadLink.download = 'icon.svg';
+    downloadLink.download = `${id.toLowerCase()}.svg`;
     document.body.append(downloadLink);
     downloadLink.click();
     downloadLink.remove();
@@ -132,9 +132,14 @@ const IconItem = memo<IconItemProps>(({ children, title, color, id }) => {
         </Center>
         <Flexbox flex={1} horizontal paddingInline={12}>
           <Center flex={1} height={32}>
-            <Link style={{ color: 'inherit' }} to={`/components/${customKebabCase(id)}`}>
+            <a
+              href={`https://lobehub.com/icons/${customKebabCase(id)}`}
+              rel="noreferrer"
+              style={{ color: 'inherit' }}
+              target={'_blank'}
+            >
               <ActionIcon icon={SearchIcon} size={'small'} />
-            </Link>
+            </a>
           </Center>
           <Center flex={1} height={32} onClick={handleDownload}>
             <ActionIcon icon={DownloadIcon} size={'small'} />
