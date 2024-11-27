@@ -27,6 +27,7 @@ const run = () => {
         hasCombine: !!Icon?.Combine,
         hasText: !!Icon?.Text,
         hasTextCn: !!Icon?.TextCn,
+        hasTextColor: !!Icon?.hasTextColor,
       },
       title: Icon.title,
     };
@@ -48,6 +49,7 @@ const run = () => {
     hasCombine: boolean;
     hasText: boolean;
     hasTextCn: boolean;
+    hasTextColor: boolean;
   };
   title: string;
 }

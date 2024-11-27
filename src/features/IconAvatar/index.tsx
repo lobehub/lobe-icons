@@ -49,6 +49,7 @@ const IconAvatar = forwardRef<HTMLDivElement, IconAvatarProps>(
         {Icon && (
           <Icon
             className={iconClassName}
+            color={color}
             size={roundToEven(size * iconMultiple)}
             style={iconStyle}
           />

@@ -2,7 +2,7 @@ export interface LobeIconCdnConfig {
   cdn?: 'aliyun' | 'unpkg';
   format?: 'svg' | 'png' | 'webp';
   isDarkMode?: boolean;
-  type?: 'mono' | 'color' | 'text' | 'text-cn' | 'brand' | 'brand-color';
+  type?: 'mono' | 'color' | 'text' | 'text-cn' | 'text-color' | 'brand' | 'brand-color';
 }
 
 const ALIYUN_ICON_CDN = (type: LobeIconCdnConfig['format']) =>

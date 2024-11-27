@@ -18,7 +18,7 @@ const Avatar = memo<AvatarProps>(({ size = 24, background, iconStyle, ...rest })
       iconStyle={{ marginLeft: size * 0.1, ...iconStyle }}
       size={size}
       {...rest}
-    ></IconAvatar>
+    />
   );
 });
 

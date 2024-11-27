@@ -20,38 +20,38 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
       {...rest}
     >
       <title>{TITLE}</title>
-      <path d="M2 5.999L12.392 0v24L2 18V5.999z" fill="#000"></path>
-      <path d="M12.392 24L2 18l10.392-6 10.393 6-10.393 6z" fill={a.fill}></path>
-      <path d="M12.392 24L2 18l10.392-6 10.393 6-10.393 6z" fill={b.fill}></path>
+      <path d="M2 5.999L12.392 0v24L2 18V5.999z" fill="#000" />
+      <path d="M12.392 24L2 18l10.392-6 10.393 6-10.393 6z" fill={a.fill} />
+      <path d="M12.392 24L2 18l10.392-6 10.393 6-10.393 6z" fill={b.fill} />
       <path
         d="M2 5.999L12.392 0v24L2 18V5.999z"
         fill={c.fill}
         style={{
           mixBlendMode: 'screen',
         }}
-      ></path>
+      />
       <path
         d="M12.392 24L2 18l10.392-6 10.393 6-10.393 6z"
         fill={d.fill}
         style={{
           mixBlendMode: 'overlay',
         }}
-      ></path>
+      />
       <path
         d="M2 5.999L12.392 0v24L2 18V5.999z"
         fill={e.fill}
         style={{
           mixBlendMode: 'overlay',
         }}
-      ></path>
+      />
       <defs>
         <linearGradient gradientUnits="userSpaceOnUse" id={a.id} x1="2" x2="22.785" y1="18" y2="18">
-          <stop stopColor="#00A"></stop>
-          <stop offset="1" stopColor="#A78DFF"></stop>
+          <stop stopColor="#00A" />
+          <stop offset="1" stopColor="#A78DFF" />
         </linearGradient>
         <linearGradient gradientUnits="userSpaceOnUse" id={b.id} x1="2" x2="22.785" y1="18" y2="18">
-          <stop stopColor="#00A"></stop>
-          <stop offset="1" stopColor="#A78DFF"></stop>
+          <stop stopColor="#00A" />
+          <stop offset="1" stopColor="#A78DFF" />
         </linearGradient>
         <linearGradient
           gradientUnits="userSpaceOnUse"
@@ -61,12 +61,12 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
           y1="22.642"
           y2="3.745"
         >
-          <stop stopColor="#004EFF"></stop>
-          <stop offset="1" stopColor="#0FF"></stop>
+          <stop stopColor="#004EFF" />
+          <stop offset="1" stopColor="#0FF" />
         </linearGradient>
         <linearGradient gradientUnits="userSpaceOnUse" id={d.id} x1="2" x2="22.785" y1="18" y2="18">
-          <stop stopColor="#00A"></stop>
-          <stop offset="1" stopColor="#A78DFF"></stop>
+          <stop stopColor="#00A" />
+          <stop offset="1" stopColor="#A78DFF" />
         </linearGradient>
         <linearGradient
           gradientUnits="userSpaceOnUse"
@@ -76,8 +76,8 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
           y1="22.642"
           y2="3.745"
         >
-          <stop stopColor="#004EFF"></stop>
-          <stop offset="1" stopColor="#0FF"></stop>
+          <stop stopColor="#004EFF" />
+          <stop offset="1" stopColor="#0FF" />
         </linearGradient>
       </defs>
     </svg>

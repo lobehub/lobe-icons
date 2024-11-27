@@ -21,11 +21,11 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
     >
       <title>{TITLE}</title>
       <g>
-        <path d="M0 10h4.8v5H0z" opacity=".08"></path>
-        <path d="M4.8 10h4.8v5H4.8z" opacity=".2"></path>
-        <path d="M9.6 10h4.8v5H9.6z" opacity=".3"></path>
-        <path d="M14.4 10h4.8v5h-4.8z" opacity=".5"></path>
-        <path d="M19.2 10H24v5h-4.8z" opacity=".6"></path>
+        <path d="M0 10h4.8v5H0z" opacity=".08" />
+        <path d="M4.8 10h4.8v5H4.8z" opacity=".2" />
+        <path d="M9.6 10h4.8v5H9.6z" opacity=".3" />
+        <path d="M14.4 10h4.8v5h-4.8z" opacity=".5" />
+        <path d="M19.2 10H24v5h-4.8z" opacity=".6" />
       </g>
     </svg>
   );

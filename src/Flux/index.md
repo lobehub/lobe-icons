@@ -3,7 +3,7 @@ nav: Components
 group: Model
 title: Flux (black forest labs)
 atomId: Flux
-description: https://blackforestlabs.ai/#get-flux
+description: https://blackforestlabs.ai
 ---
 
 ## Icons

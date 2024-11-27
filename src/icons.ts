@@ -26,10 +26,13 @@ export { default as Cohere, type CompoundedIcon as CohereProps } from './Cohere'
 export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
 export { default as ComfyUI, type CompoundedIcon as ComfyUIProps } from './ComfyUI';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
+export { default as Cursor, type CompoundedIcon as CursorProps } from './Cursor';
 export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
 export { default as Dbrx, type CompoundedIcon as DbrxProps } from './Dbrx';
+export { default as DeepAI, type CompoundedIcon as DeepAIProps } from './DeepAI';
 export { default as DeepMind, type CompoundedIcon as DeepMindProps } from './DeepMind';
 export { default as DeepSeek, type CompoundedIcon as DeepSeekProps } from './DeepSeek';
+export { default as Dify, type CompoundedIcon as DifyProps } from './Dify';
 export { default as Doubao, type CompoundedIcon as DoubaoProps } from './Doubao';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
 export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './FishAudio';
@@ -62,6 +65,7 @@ export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from '.
 export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
 export { default as Mistral, type CompoundedIcon as MistralProps } from './Mistral';
 export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moonshot';
+export { default as MyShell, type CompoundedIcon as MyShellProps } from './MyShell';
 export { default as Novita, type CompoundedIcon as NovitaProps } from './Novita';
 export { default as Nvidia, type CompoundedIcon as NvidiaProps } from './Nvidia';
 export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama';
@@ -70,6 +74,7 @@ export { default as OpenChat, type CompoundedIcon as OpenChatProps } from './Ope
 export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './OpenRouter';
 export { default as PaLM, type CompoundedIcon as PaLMProps } from './PaLM';
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './Perplexity';
+export { default as Poe, type CompoundedIcon as PoeProps } from './Poe';
 export { default as Pollinations, type CompoundedIcon as PollinationsProps } from './Pollinations';
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';
 export { default as Qwen, type CompoundedIcon as QwenProps } from './Qwen';
@@ -84,6 +89,7 @@ export { default as Stability, type CompoundedIcon as StabilityProps } from './S
 export { default as Stepfun, type CompoundedIcon as StepfunProps } from './Stepfun';
 export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';
 export { default as Tencent, type CompoundedIcon as TencentProps } from './Tencent';
+export { default as Tiangong, type CompoundedIcon as TiangongProps } from './Tiangong';
 export { default as TII, type CompoundedIcon as TIIProps } from './TII';
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
 export { default as Upstage, type CompoundedIcon as UpstageProps } from './Upstage';

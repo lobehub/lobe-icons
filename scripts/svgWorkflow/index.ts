@@ -22,6 +22,8 @@ const themeColors = {
 };
 
 class SvgWorkflow {
+  ignoreList = ['dify.svg', 'dify-color.svg'];
+
   exportSvg(Component: ComponentType, outputFileName: string): void {
     const svgString = renderToStaticMarkup(createElement(Component));
     const svgContent = svgString.match(/<svg[^>]*>[\S\s]*<\/svg>/i)?.[0];
@@ -81,6 +83,9 @@ class SvgWorkflow {
         if (Icon?.Text) {
           this.exportSvg(Icon.Text, `${key.toLowerCase()}-text`);
         }
+        if (Icon?.TextColor) {
+          this.exportSvg(Icon.TextColor, `${key.toLowerCase()}-text-color`);
+        }
         if (Icon?.TextCn) {
           this.exportSvg(Icon.TextCn, `${key.toLowerCase()}-text-cn`);
         }
@@ -100,7 +105,7 @@ class SvgWorkflow {
     await pMap(
       readdirSync(outputDir),
       async (file) => {
-        if (file.endsWith('.svg')) {
+        if (file.endsWith('.svg') && !this.ignoreList.includes(file)) {
           const svgPath = resolve(outputDir, file);
           const pngLightPath = resolve(outputPngDir, 'light', file.replace('.svg', '.png'));
           const pngDarkPath = resolve(outputPngDir, 'dark', file.replace('.svg', '.png'));
@@ -116,7 +121,7 @@ class SvgWorkflow {
     await pMap(
       readdirSync(outputDir),
       async (file) => {
-        if (file.endsWith('.svg')) {
+        if (file.endsWith('.svg') && !this.ignoreList.includes(file)) {
           const svgPath = resolve(outputDir, file);
           const webpLightPath = resolve(outputWebpDir, 'light', file.replace('.svg', '.webp'));
           const webpDarkPath = resolve(outputWebpDir, 'dark', file.replace('.svg', '.webp'));

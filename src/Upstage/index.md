@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: Upstage
 atomId: Upstage
-description: https://www.upstage.ai
+description: https://upstage.ai
 ---
 
 ## Icons

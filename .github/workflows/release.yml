@@ -28,9 +28,6 @@ jobs:
       - name: Test
         run: bun run test
 
-      - name: Build Toc
-        run: bun run build:toc
-
       - name: Build
         run: bun run build
 
@@ -41,7 +38,9 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Build Static
-        run: bun run build:static
+        run: |-
+          bun run build:static
+          bun run sync:md
 
       - name: Commit changes
         run: |-
