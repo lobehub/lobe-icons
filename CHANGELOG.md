@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.49.0](https://github.com/lobehub/lobe-icons/compare/v1.48.0...v1.49.0)
+
+<sup>Released on **2024-11-27**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add AlibabaCloud, Vercel, V0, Notion, Coze.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([1e6b7cf](https://github.com/lobehub/lobe-icons/commit/1e6b7cf))
+- **misc**: Add AlibabaCloud, Vercel, V0, Notion, Coze ([56f01ac](https://github.com/lobehub/lobe-icons/commit/56f01ac))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.48.0](https://github.com/lobehub/lobe-icons/compare/v1.47.0...v1.48.0)
 
 <sup>Released on **2024-11-27**</sup>
