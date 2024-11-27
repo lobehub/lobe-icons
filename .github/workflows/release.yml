@@ -49,7 +49,7 @@ jobs:
           git config --global user.name "lobehubbot"
           git config --global user.email "i@lobehub.com"
           git add .
-          git commit -m "🤖 feat: Auto build static icons" || exit 0
+          git commit -m "✨ feat(auto): Auto build static icons" || exit 0
           git push
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
