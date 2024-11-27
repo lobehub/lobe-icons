@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.4.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-webp@1.3.0...@lobehub/icons-static-webp@1.4.0)
+
+<sup>Released on **2024-11-27**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add Dify, Poe, Cursor, MyShell, DeepAI and Tiangong.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([e633956](https://github.com/lobehub/lobe-icons/commit/e633956))
+- **misc**: Add Dify, Poe, Cursor, MyShell, DeepAI and Tiangong ([6d50760](https://github.com/lobehub/lobe-icons/commit/6d50760))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.3.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-webp@1.2.0...@lobehub/icons-static-webp@1.3.0)
 
 <sup>Released on **2024-11-27**</sup>
