@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.46.2](https://github.com/lobehub/lobe-icons/compare/v1.46.1...v1.46.2)
+
+<sup>Released on **2024-11-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix build workflow.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix build workflow ([643ca5b](https://github.com/lobehub/lobe-icons/commit/643ca5b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.46.1](https://github.com/lobehub/lobe-icons/compare/v1.46.0...v1.46.1)
 
 <sup>Released on **2024-11-27**</sup>
