@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.46.1](https://github.com/lobehub/lobe-icons/compare/v1.46.0...v1.46.1)
+
+<sup>Released on **2024-11-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Rm father doctor.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Rm father doctor ([2cf0f5f](https://github.com/lobehub/lobe-icons/commit/2cf0f5f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.46.0](https://github.com/lobehub/lobe-icons/compare/v1.45.2...v1.46.0)
 
 <sup>Released on **2024-11-27**</sup>
