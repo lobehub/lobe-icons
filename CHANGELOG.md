@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.50.0](https://github.com/lobehub/lobe-icons/compare/v1.49.0...v1.50.0)
+
+<sup>Released on **2024-11-29**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Add qwen qwq.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([a418240](https://github.com/lobehub/lobe-icons/commit/a418240))
+
+#### Styles
+
+- **misc**: Add qwen qwq ([f60fa59](https://github.com/lobehub/lobe-icons/commit/f60fa59))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.49.0](https://github.com/lobehub/lobe-icons/compare/v1.48.0...v1.49.0)
 
 <sup>Released on **2024-11-27**</sup>
