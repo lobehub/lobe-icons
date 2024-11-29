@@ -81,6 +81,7 @@ export { default as Poe, type CompoundedIcon as PoeProps } from './Poe';
 export { default as Pollinations, type CompoundedIcon as PollinationsProps } from './Pollinations';
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';
 export { default as Qwen, type CompoundedIcon as QwenProps } from './Qwen';
+export { default as Recraft, type CompoundedIcon as RecraftProps } from './Recraft';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './Replicate';
 export { default as Replit, type CompoundedIcon as ReplitProps } from './Replit';
 export { default as Runway, type CompoundedIcon as RunwayProps } from './Runway';
