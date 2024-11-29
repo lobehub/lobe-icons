@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.52.0](https://github.com/lobehub/lobe-icons/compare/v1.51.0...v1.52.0)
+
+<sup>Released on **2024-11-29**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add Civitai.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([9eda6c5](https://github.com/lobehub/lobe-icons/commit/9eda6c5))
+- **misc**: Add Civitai ([9527910](https://github.com/lobehub/lobe-icons/commit/9527910))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.51.0](https://github.com/lobehub/lobe-icons/compare/v1.50.0...v1.51.0)
 
 <sup>Released on **2024-11-29**</sup>
