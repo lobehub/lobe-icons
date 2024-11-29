@@ -18,6 +18,7 @@ export { default as Bedrock, type CompoundedIcon as BedrockProps } from './Bedro
 export { default as Bing, type CompoundedIcon as BingProps } from './Bing';
 export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './ByteDance';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';
+export { default as Civitai, type CompoundedIcon as CivitaiProps } from './Civitai';
 export { default as Claude, type CompoundedIcon as ClaudeProps } from './Claude';
 export { default as Cloudflare, type CompoundedIcon as CloudflareProps } from './Cloudflare';
 export { default as CodeGeeX, type CompoundedIcon as CodeGeeXProps } from './CodeGeeX';
