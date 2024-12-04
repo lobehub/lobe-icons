@@ -56,6 +56,7 @@ export { default as Higress, type CompoundedIcon as HigressProps } from './Higre
 export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from './HuggingFace';
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './InternLM';
+export { default as Kimi, type CompoundedIcon as KimiProps } from './Kimi';
 export { default as Kling, type CompoundedIcon as KlingProps } from './Kling';
 export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './Langfuse';
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
@@ -70,6 +71,7 @@ export { default as Mistral, type CompoundedIcon as MistralProps } from './Mistr
 export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moonshot';
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './MyShell';
 export { default as Notion, type CompoundedIcon as NotionProps } from './Notion';
+export { default as Nova, type CompoundedIcon as NovaProps } from './Nova';
 export { default as Novita, type CompoundedIcon as NovitaProps } from './Novita';
 export { default as Nvidia, type CompoundedIcon as NvidiaProps } from './Nvidia';
 export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama';

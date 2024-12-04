@@ -1,8 +1,6 @@
 ---
 nav: Components
-group:
-  title: Provider
-  order: 10
+group: Provider
 title: Civitai
 atomId: Civitai
 description: https://civitai.com
