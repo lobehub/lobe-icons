@@ -58,6 +58,7 @@ export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyu
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './InternLM';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './Kimi';
 export { default as Kling, type CompoundedIcon as KlingProps } from './Kling';
+export { default as LangChain, type CompoundedIcon as LangChainProps } from './LangChain';
 export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './Langfuse';
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmStudio';
