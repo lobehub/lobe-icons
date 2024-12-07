@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.54.0](https://github.com/lobehub/lobe-icons/compare/v1.53.0...v1.54.0)
+
+<sup>Released on **2024-12-07**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add LangChain.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([5a95f32](https://github.com/lobehub/lobe-icons/commit/5a95f32))
+- **misc**: Add LangChain ([7926983](https://github.com/lobehub/lobe-icons/commit/7926983))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.53.0](https://github.com/lobehub/lobe-icons/compare/v1.52.0...v1.53.0)
 
 <sup>Released on **2024-12-04**</sup>
