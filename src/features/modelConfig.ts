@@ -43,6 +43,7 @@ import Spark from '@/Spark';
 import Stability from '@/Stability';
 import Stepfun from '@/Stepfun';
 import Suno from '@/Suno';
+import Udio from '@/Udio';
 import Upstage from '@/Upstage';
 import Wenxin from '@/Wenxin';
 import Yi from '@/Yi';
@@ -145,4 +146,5 @@ export const modelMappings: ModelMapping[] = [
       '^lite$',
     ],
   },
+  { Icon: Udio, keywords: ['udio'] },
 ];
