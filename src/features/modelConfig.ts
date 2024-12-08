@@ -25,6 +25,7 @@ import Gemma from '@/Gemma';
 import Google from '@/Google';
 import Grok from '@/Grok';
 import Hunyuan from '@/Hunyuan';
+import Ideogram from '@/Ideogram';
 import InternLM from '@/InternLM';
 import LLaVA from '@/LLaVA';
 import Meta from '@/Meta';
@@ -132,6 +133,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Google, keywords: ['google'] },
   { Icon: SenseNova, keywords: ['SenseChat'] },
   { Icon: Grok, keywords: ['^grok-'] },
+  { Icon: Ideogram, keywords: ['ideogram'] },
   {
     Icon: Spark,
     keywords: [

@@ -55,6 +55,7 @@ export { default as Hailuo, type CompoundedIcon as HailuoProps } from './Hailuo'
 export { default as Higress, type CompoundedIcon as HigressProps } from './Higress';
 export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from './HuggingFace';
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
+export { default as Ideogram, type CompoundedIcon as IdeogramProps } from './Ideogram';
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './InternLM';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './Kimi';
 export { default as Kling, type CompoundedIcon as KlingProps } from './Kling';
