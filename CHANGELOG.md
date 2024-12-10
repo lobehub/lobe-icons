@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.56.0](https://github.com/lobehub/lobe-icons/compare/v1.55.0...v1.56.0)
+
+<sup>Released on **2024-12-10**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Update Ideogram style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([bf3f13a](https://github.com/lobehub/lobe-icons/commit/bf3f13a))
+
+#### Styles
+
+- **misc**: Update Ideogram style ([09ec320](https://github.com/lobehub/lobe-icons/commit/09ec320))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.55.0](https://github.com/lobehub/lobe-icons/compare/v1.54.0...v1.55.0)
 
 <sup>Released on **2024-12-10**</sup>
