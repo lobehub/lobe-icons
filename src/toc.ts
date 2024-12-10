@@ -1062,7 +1062,7 @@ const toc: IconToc[] = [
     title: 'Hunyuan',
   },
   {
-    color: '#000',
+    color: '#fff',
     desc: 'https://ideogram.ai',
     docsUrl: 'ideogram',
     fullTitle: 'Ideogram',
