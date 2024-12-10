@@ -101,6 +101,7 @@ export { default as Tencent, type CompoundedIcon as TencentProps } from './Tence
 export { default as Tiangong, type CompoundedIcon as TiangongProps } from './Tiangong';
 export { default as TII, type CompoundedIcon as TIIProps } from './TII';
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
+export { default as Udio, type CompoundedIcon as UdioProps } from './Udio';
 export { default as Upstage, type CompoundedIcon as UpstageProps } from './Upstage';
 export { default as V0, type CompoundedIcon as V0Props } from './V0';
 export { default as Vercel, type CompoundedIcon as VercelProps } from './Vercel';
