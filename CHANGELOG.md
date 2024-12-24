@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.58.2](https://github.com/lobehub/lobe-icons/compare/v1.58.1...v1.58.2)
+
+<sup>Released on **2024-12-24**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update o1 keywords.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update o1 keywords ([31f2da4](https://github.com/lobehub/lobe-icons/commit/31f2da4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.58.1](https://github.com/lobehub/lobe-icons/compare/v1.58.0...v1.58.1)
 
 <sup>Released on **2024-12-24**</sup>
