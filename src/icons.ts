@@ -37,6 +37,7 @@ export { default as DeepMind, type CompoundedIcon as DeepMindProps } from './Dee
 export { default as DeepSeek, type CompoundedIcon as DeepSeekProps } from './DeepSeek';
 export { default as Dify, type CompoundedIcon as DifyProps } from './Dify';
 export { default as Doubao, type CompoundedIcon as DoubaoProps } from './Doubao';
+export { default as Fal, type CompoundedIcon as FalProps } from './Fal';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
 export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './FishAudio';
 export { default as Flux, type CompoundedIcon as FluxProps } from './Flux';
