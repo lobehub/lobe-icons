@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.57.0](https://github.com/lobehub/lobe-icons/compare/v1.56.0...v1.57.0)
+
+<sup>Released on **2024-12-24**</sup>
+
+#### ✨ Features
+
+- **misc**: Add FalAI (resolve.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add FalAI (resolve, closes [#58](https://github.com/lobehub/lobe-icons/issues/58) ([25155c9](https://github.com/lobehub/lobe-icons/commit/25155c9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.56.0](https://github.com/lobehub/lobe-icons/compare/v1.55.0...v1.56.0)
 
 <sup>Released on **2024-12-10**</sup>
