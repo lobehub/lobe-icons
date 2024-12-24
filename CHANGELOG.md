@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.58.0](https://github.com/lobehub/lobe-icons/compare/v1.57.0...v1.58.0)
+
+<sup>Released on **2024-12-24**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Add shape to ModelIcon and ProviderIcon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([328e85b](https://github.com/lobehub/lobe-icons/commit/328e85b))
+
+#### Styles
+
+- **misc**: Add shape to ModelIcon and ProviderIcon ([25417aa](https://github.com/lobehub/lobe-icons/commit/25417aa))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.57.0](https://github.com/lobehub/lobe-icons/compare/v1.56.0...v1.57.0)
 
 <sup>Released on **2024-12-24**</sup>
