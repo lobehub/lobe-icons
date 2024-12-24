@@ -11,13 +11,14 @@ export interface ProviderIconProps {
   className?: string;
   forceMono?: boolean;
   provider?: ModelProviderKey | string;
+  shape?: 'circle' | 'square';
   size?: number;
   style?: CSSProperties;
   type?: 'avatar' | 'mono' | 'color' | 'combine' | 'combine-color';
 }
 
 const ProviderIcon = forwardRef<any, ProviderIconProps>(
-  ({ provider: originProvider, size = 12, type = 'avatar', forceMono, ...rest }, ref) => {
+  ({ provider: originProvider, size = 12, type = 'avatar', forceMono, shape, ...rest }, ref) => {
     const Render = useMemo(() => {
       if (!originProvider) return;
       const provider = originProvider.toLowerCase();
@@ -38,8 +39,8 @@ const ProviderIcon = forwardRef<any, ProviderIconProps>(
 
     switch (type) {
       case 'avatar': {
-        if (!Render?.Icon) return <DefaultAvatar {...props} />;
-        return <Render.Icon.Avatar {...props} />;
+        if (!Render?.Icon) return <DefaultAvatar shape={shape} {...props} />;
+        return <Render.Icon.Avatar shape={shape} {...props} />;
       }
       case 'mono': {
         if (!Render?.Icon) return <DefaultIcon {...props} />;

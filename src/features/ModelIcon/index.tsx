@@ -9,13 +9,14 @@ import DefaultIcon from './DefaultIcon';
 export interface ModelIconProps {
   className?: string;
   model?: string;
+  shape?: 'circle' | 'square';
   size?: number;
   style?: CSSProperties;
   type?: 'avatar' | 'mono' | 'color' | 'combine' | 'combine-color';
 }
 
 const ModelIcon = forwardRef<any, ModelIconProps>(
-  ({ model: originModel, size = 12, type = 'avatar', ...rest }, ref) => {
+  ({ model: originModel, size = 12, type = 'avatar', shape, ...rest }, ref) => {
     const Render = useMemo(() => {
       if (!originModel) return;
       const model = originModel.toLowerCase();
@@ -35,8 +36,8 @@ const ModelIcon = forwardRef<any, ModelIconProps>(
 
     switch (type) {
       case 'avatar': {
-        if (!Render?.Icon) return <DefaultAvatar {...props} />;
-        return <Render.Icon.Avatar {...props} />;
+        if (!Render?.Icon) return <DefaultAvatar shape={shape} {...props} />;
+        return <Render.Icon.Avatar shape={shape} {...props} />;
       }
       case 'mono': {
         if (!Render?.Icon) return <DefaultIcon {...props} />;
