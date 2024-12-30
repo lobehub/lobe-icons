@@ -71,6 +71,7 @@ export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
 export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from './Midjourney';
 export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
 export { default as Mistral, type CompoundedIcon as MistralProps } from './Mistral';
+export { default as ModelScope, type CompoundedIcon as ModelScopeProps } from './ModelScope';
 export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moonshot';
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './MyShell';
 export { default as Notion, type CompoundedIcon as NotionProps } from './Notion';

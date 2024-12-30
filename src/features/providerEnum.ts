@@ -21,6 +21,7 @@ export enum ModelProvider {
   LobeHub = 'lobehub',
   Minimax = 'minimax',
   Mistral = 'mistral',
+  ModelScope = 'modelscope',
   Moonshot = 'moonshot',
   Novita = 'novita',
   Ollama = 'ollama',

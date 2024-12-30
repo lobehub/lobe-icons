@@ -28,6 +28,7 @@ import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
+import ModelScope from '@/ModelScope';
 import Moonshot from '@/Moonshot';
 import Novita from '@/Novita';
 import Ollama from '@/Ollama';
@@ -187,4 +188,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: InternLM, combineMultiple: 0.95, keywords: [ModelProvider.InternLM] },
   { Icon: Higress, keywords: [ModelProvider.Higress] },
   { Icon: GiteeAI, combineMultiple: 0.95, keywords: [ModelProvider.GiteeAI] },
+  { Icon: ModelScope, combineMultiple: 0.95, keywords: [ModelProvider.ModelScope] },
 ];
