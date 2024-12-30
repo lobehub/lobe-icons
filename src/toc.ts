@@ -1372,10 +1372,10 @@ const toc: IconToc[] = [
     title: 'Mistral',
   },
   {
-    color: '#fff',
+    color: '#624AFF',
     desc: 'https://modelscope.cn',
     docsUrl: 'model-scope',
-    fullTitle: 'ModelScope(魔搭)',
+    fullTitle: 'ModelScope (魔搭)',
     group: 'provider',
     id: 'ModelScope',
     param: {

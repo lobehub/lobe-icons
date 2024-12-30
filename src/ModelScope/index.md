@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Provider
-title: ModelScope(魔搭)
+title: ModelScope (魔搭)
 atomId: ModelScope
 description: https://modelscope.cn
 ---
