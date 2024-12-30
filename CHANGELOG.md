@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.59.1](https://github.com/lobehub/lobe-icons/compare/v1.59.0...v1.59.1)
+
+<sup>Released on **2024-12-30**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update ModelScope Mono Icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update ModelScope Mono Icon ([31e395c](https://github.com/lobehub/lobe-icons/commit/31e395c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.59.0](https://github.com/lobehub/lobe-icons/compare/v1.58.2...v1.59.0)
 
 <sup>Released on **2024-12-30**</sup>
