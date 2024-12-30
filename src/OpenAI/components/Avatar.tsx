@@ -8,7 +8,7 @@ import { COLOR_GPT_3, COLOR_GPT_4, COLOR_O_1, COLOR_PRIMARY, TITLE } from '../st
 import Mono from './Mono';
 
 export interface AvatarProps extends Omit<IconAvatarProps, 'Icon'> {
-  type?: 'normal' | 'gpt3' | 'gpt4' | 'o1';
+  type?: 'normal' | 'gpt3' | 'gpt4' | 'o1' | 'o3';
 }
 
 const Avatar = memo<AvatarProps>(({ background, type = 'normal', ...rest }) => {
@@ -23,6 +23,7 @@ const Avatar = memo<AvatarProps>(({ background, type = 'normal', ...rest }) => {
       bg = COLOR_GPT_4;
       break;
     }
+    case 'o3':
     case 'o1': {
       bg = COLOR_O_1;
       break;
