@@ -6,16 +6,19 @@
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es6",
+    "types": ["vitest/globals"],
     "paths": {
       "@@/*": [".dumi/tmp/*"],
       "@/*": ["src/*"],
       "@lobehub/icons": ["src"],
       "@lobehub/icons/*": ["src/*"]
-    },
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "types": ["vitest/globals"]
+    }
   },
-  "include": ["src", "docs", "scripts", ".dumirc.ts", "*.ts"]
+  "include": ["src", "docs", "tests", ".dumirc.ts", ".fatherrc.ts"]
 }

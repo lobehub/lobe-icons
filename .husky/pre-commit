@@ -3,4 +3,5 @@
 npm run build:toc
 git add .
 npm run type-check
+npm run lint:circular
 npx --no-install lint-staged

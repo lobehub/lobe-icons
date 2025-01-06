@@ -3,7 +3,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import SvgoClient, { SvgoConfig } from '@/components/Editor/svgo';
 
 export const useSvgo = (svg: string, config: SvgoConfig) => {
-  const svgoInstance = useRef<SvgoClient>();
+  const svgoInstance = useRef<SvgoClient>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [newSvg, setNewSvg] = useState(svg);
 
