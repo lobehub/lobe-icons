@@ -97,6 +97,7 @@
     "@types/react-dom": "^19.0.2",
     "@vitest/coverage-v8": "~1.2.2",
     "babel-plugin-antd-style": "^1.0.4",
+    "clean-package": "^2.2.0",
     "commitlint": "^18.6.1",
     "concurrently": "^8.2.2",
     "consola": "^3.3.3",
