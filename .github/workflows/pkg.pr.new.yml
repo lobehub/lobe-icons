@@ -1,0 +1,31 @@
+name: Pkg Pr New CI
+on:
+  pull_request:
+  push:
+    branches:
+      - '!master'
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install deps
+        run: bun i
+
+      - name: CI
+        run: bun run ci
+
+      - name: Test
+        run: bun run test
+
+      - name: Build
+        run: bun run build
+
+      - name: Release
+        run: bunx pkg-pr-new publish --comment=update
