@@ -21,7 +21,7 @@ const ProviderCombine = forwardRef<HTMLDivElement, ProviderCombineProps>(
       const provider = originProvider.toLowerCase();
 
       for (const item of providerMappings) {
-        if (item.keywords.some((keyword) => new RegExp(keyword, 'i').test(provider))) {
+        if (item.keywords.some((keyword) => keyword.toLowerCase() === provider)) {
           return item;
         }
       }
