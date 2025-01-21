@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.62.1](https://github.com/lobehub/lobe-icons/compare/v1.62.0...v1.62.1)
+
+<sup>Released on **2025-01-21**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add VertexAI to ProviderIcon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add VertexAI to ProviderIcon ([ca8859c](https://github.com/lobehub/lobe-icons/commit/ca8859c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.62.0](https://github.com/lobehub/lobe-icons/compare/v1.61.1...v1.62.0)
 
 <sup>Released on **2025-01-09**</sup>
