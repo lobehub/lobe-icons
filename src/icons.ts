@@ -62,6 +62,7 @@ export { default as Kimi, type CompoundedIcon as KimiProps } from './Kimi';
 export { default as Kling, type CompoundedIcon as KlingProps } from './Kling';
 export { default as LangChain, type CompoundedIcon as LangChainProps } from './LangChain';
 export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './Langfuse';
+export { default as LiveKit, type CompoundedIcon as LiveKitProps } from './LiveKit';
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmStudio';
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeHub';
