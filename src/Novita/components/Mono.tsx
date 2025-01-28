@@ -14,13 +14,16 @@ const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
       height={size}
       ref={ref}
       style={{ flex: 'none', lineHeight: 1, ...style }}
-      viewBox="0 0 47 47"
+      viewBox="0 0 24 24"
       width={size}
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
       <title>{TITLE}</title>
-      <path d="M17.9526 9V20.0949L0 38.0474H17.9526V26.952L29.0486 38.0474H47L17.9526 9Z" />
+      <path
+        clipRule="evenodd"
+        d="M9.167 4.17v5.665L0 19.003h9.167v-5.666l5.666 5.666H24L9.167 4.17z"
+      />
     </svg>
   );
 });
