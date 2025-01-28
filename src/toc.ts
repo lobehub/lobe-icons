@@ -1487,8 +1487,7 @@ const toc: IconToc[] = [
     title: 'Nova',
   },
   {
-    color: '#6847f5',
-    colorGradient: 'linear-gradient(-45deg, #A717FF,  #2622FF)',
+    color: '#23D57C',
     desc: 'https://novita.ai/',
     docsUrl: 'novita',
     fullTitle: 'Novita',
@@ -1504,7 +1503,7 @@ const toc: IconToc[] = [
       hasTextCn: false,
       hasTextColor: false,
     },
-    title: 'novita.ai',
+    title: 'Novita AI',
   },
   {
     color: '#74B71B',
