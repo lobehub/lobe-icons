@@ -88,7 +88,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Gemma, keywords: ['gemma'] },
   { Icon: Moonshot, keywords: ['moonshot'] },
   { Icon: Qwen, keywords: ['qwen', 'qwq', 'qvq'] },
-  { Icon: Minimax, keywords: ['minmax', 'abab'] },
+  { Icon: Minimax, keywords: ['minimax', 'abab'] },
   {
     Icon: Mistral,
     keywords: ['mistral', 'mixtral', 'codestral', 'mathstral', '/mn-', 'pixtral', 'ministral'],
@@ -102,7 +102,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Dbrx, keywords: ['dbrx'] },
   { Icon: Stepfun, keywords: ['step'] },
   { Icon: AiMass, keywords: ['taichu'] },
-  { Icon: Ai360, keywords: ['360gpt'] },
+  { Icon: Ai360, keywords: ['360gpt', '360zhinao'] },
   { Icon: Baichuan, keywords: ['baichuan'] },
   { Icon: Rwkv, keywords: ['rwkv', '/eagle-'] },
   { Icon: Wenxin, keywords: ['ernie'] },
