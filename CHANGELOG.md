@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.65.1](https://github.com/lobehub/lobe-icons/compare/v1.65.0...v1.65.1)
+
+<sup>Released on **2025-02-04**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add support for `360zhinao2-o1` & `MiniMax-Text-01`.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add support for `360zhinao2-o1` & `MiniMax-Text-01`, closes [#67](https://github.com/lobehub/lobe-icons/issues/67) ([83a87be](https://github.com/lobehub/lobe-icons/commit/83a87be))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.65.0](https://github.com/lobehub/lobe-icons/compare/v1.64.0...v1.65.0)
 
 <sup>Released on **2025-02-03**</sup>
