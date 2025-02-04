@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.66.0](https://github.com/lobehub/lobe-icons/compare/v1.65.1...v1.66.0)
+
+<sup>Released on **2025-02-04**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Pika, Xuanyan, Glif and Clipdrop.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Pika, Xuanyan, Glif and Clipdrop ([4583059](https://github.com/lobehub/lobe-icons/commit/4583059))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.65.1](https://github.com/lobehub/lobe-icons/compare/v1.65.0...v1.65.1)
 
 <sup>Released on **2025-02-04**</sup>
