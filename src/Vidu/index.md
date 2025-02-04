@@ -3,21 +3,21 @@ nav: Components
 group:
   title: Application
   order: 10
-title: Microsoft Bing
-atomId: Bing
-description: https://bing.com
+title: Vidu
+atomId: Vidu
+description: https://vidu.com
 ---
 
 ## Icons
 
 ```tsx
-import { Bing } from '@lobehub/icons';
+import { Vidu } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Bing size={64} />
-    <Bing.Color size={64} />
+    <Vidu size={64} />
+    <Vidu.Color size={64} />
   </Flexbox>
 );
 ```
@@ -25,21 +25,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Bing } from '@lobehub/icons';
+import { Vidu } from '@lobehub/icons';
 
-export default () => <Bing.Text size={48} />;
+export default () => <Vidu.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Bing } from '@lobehub/icons';
+import { Vidu } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <Bing.Combine size={64} />
-    <Bing.Combine size={64} type={'color'} />
+    <Vidu.Combine size={64} />
+    <Vidu.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -47,14 +47,14 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Bing } from '@lobehub/icons';
+import { Vidu } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Bing.Avatar size={64} background={Bing.colorPrimary} />
-    <Bing.Avatar size={64} />
-    <Bing.Avatar size={64} shape={'square'} />
+    <Vidu.Avatar size={64} background={Vidu.colorPrimary} />
+    <Vidu.Avatar size={64} />
+    <Vidu.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -62,15 +62,15 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Bing } from '@lobehub/icons';
+import { Vidu } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Bing.colorPrimary} />
-    <ColorPreview color={Bing.colorGradient} />
+    <ColorPreview color={Vidu.colorPrimary} />
+    <ColorPreview color={Vidu.colorGradient} />
   </Flexbox>
 );
 ```
