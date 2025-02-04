@@ -20,6 +20,7 @@ export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './B
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';
 export { default as Civitai, type CompoundedIcon as CivitaiProps } from './Civitai';
 export { default as Claude, type CompoundedIcon as ClaudeProps } from './Claude';
+export { default as Clipdrop, type CompoundedIcon as ClipdropProps } from './Clipdrop';
 export { default as Cloudflare, type CompoundedIcon as CloudflareProps } from './Cloudflare';
 export { default as CodeGeeX, type CompoundedIcon as CodeGeeXProps } from './CodeGeeX';
 export { default as CogVideo, type CompoundedIcon as CogVideoProps } from './CogVideo';
@@ -49,6 +50,7 @@ export {
   default as GithubCopilot,
   type CompoundedIcon as GithubCopilotProps,
 } from './GithubCopilot';
+export { default as Glif, type CompoundedIcon as GlifProps } from './Glif';
 export { default as Google, type CompoundedIcon as GoogleProps } from './Google';
 export { default as Grok, type CompoundedIcon as GrokProps } from './Grok';
 export { default as Groq, type CompoundedIcon as GroqProps } from './Groq';
@@ -85,6 +87,7 @@ export { default as OpenChat, type CompoundedIcon as OpenChatProps } from './Ope
 export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './OpenRouter';
 export { default as PaLM, type CompoundedIcon as PaLMProps } from './PaLM';
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './Perplexity';
+export { default as Pika, type CompoundedIcon as PikaProps } from './Pika';
 export { default as Poe, type CompoundedIcon as PoeProps } from './Poe';
 export { default as Pollinations, type CompoundedIcon as PollinationsProps } from './Pollinations';
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';
@@ -114,6 +117,7 @@ export { default as Vllm, type CompoundedIcon as VllmProps } from './Vllm';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
 export { default as XAI, type CompoundedIcon as XAIProps } from './XAI';
+export { default as Xuanyuan, type CompoundedIcon as XuanyuanProps } from './Xuanyuan';
 export { default as Yi, type CompoundedIcon as YiProps } from './Yi';
 export { default as Zeabur, type CompoundedIcon as ZeaburProps } from './Zeabur';
 export { default as ZeroOne, type CompoundedIcon as ZeroOneProps } from './ZeroOne';
