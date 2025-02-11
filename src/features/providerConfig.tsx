@@ -40,6 +40,7 @@ import SenseNova from '@/SenseNova';
 import SiliconCloud from '@/SiliconCloud';
 import Spark from '@/Spark';
 import Stepfun from '@/Stepfun';
+import TencentCloud from '@/TencentCloud';
 import Together from '@/Together';
 import Upstage from '@/Upstage';
 import VertexAI from '@/VertexAI';
@@ -157,6 +158,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Github, combineMultiple: 0.95, keywords: [ModelProvider.Github] },
   { Icon: Doubao, keywords: [ModelProvider.Doubao] },
   { Icon: Hunyuan, keywords: [ModelProvider.Hunyuan] },
+  { Icon: TencentCloud, keywords: [ModelProvider.TencentCloud] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine

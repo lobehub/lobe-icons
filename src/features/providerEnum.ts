@@ -34,13 +34,14 @@ export enum ModelProvider {
   Spark = 'spark',
   Stepfun = 'stepfun',
   Taichu = 'taichu',
+  TencentCloud = 'tencentcloud',
   TogetherAI = 'togetherai',
   Upstage = 'upstage',
   VertexAI = 'vertexai',
   Wenxin = 'wenxin',
   XAI = 'xai',
   ZeroOne = 'zeroone',
-  ZhiPu = 'zhipu'
+  ZhiPu = 'zhipu',
 }
 
 export type ModelProviderKey = Lowercase<keyof typeof ModelProvider>;
