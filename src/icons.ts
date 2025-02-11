@@ -109,6 +109,7 @@ export { default as Stepfun, type CompoundedIcon as StepfunProps } from './Stepf
 export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';
 export { default as Sync, type CompoundedIcon as SyncProps } from './Sync';
 export { default as Tencent, type CompoundedIcon as TencentProps } from './Tencent';
+export { default as TencentCloud, type CompoundedIcon as TencentCloudProps } from './TencentCloud';
 export { default as Tiangong, type CompoundedIcon as TiangongProps } from './Tiangong';
 export { default as TII, type CompoundedIcon as TIIProps } from './TII';
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';

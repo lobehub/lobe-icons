@@ -77,7 +77,6 @@ export const modelMappings: ModelMapping[] = [
   { Icon: OpenAI, keywords: ['^gpt-', '/gpt-', 'openai', 'text-embedding-', 'tts-', 'whisper-'] },
   { Icon: ChatGLM, keywords: ['glm-', 'chatglm'] },
   { Icon: CodeGeeX, keywords: ['^codegeex'] },
-  { Icon: DeepSeek, keywords: ['deepseek'] },
   { Icon: Claude, keywords: ['claude'] },
   { Icon: Aws, keywords: ['titan'] },
   { Icon: Fireworks, keywords: ['accounts/fireworks/models/fire'] },
@@ -149,4 +148,5 @@ export const modelMappings: ModelMapping[] = [
     ],
   },
   { Icon: Udio, keywords: ['udio'] },
+  { Icon: DeepSeek, keywords: ['deepseek'] },
 ];
