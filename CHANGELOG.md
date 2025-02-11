@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.69.0](https://github.com/lobehub/lobe-icons/compare/v1.68.0...v1.69.0)
+
+<sup>Released on **2025-02-11**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add tencent cloud as provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([211d8e9](https://github.com/lobehub/lobe-icons/commit/211d8e9))
+- **misc**: Add tencent cloud as provider, closes [#68](https://github.com/lobehub/lobe-icons/issues/68) ([419510f](https://github.com/lobehub/lobe-icons/commit/419510f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.68.0](https://github.com/lobehub/lobe-icons/compare/v1.67.0...v1.68.0)
 
 <sup>Released on **2025-02-04**</sup>
