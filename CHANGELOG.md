@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.70.0](https://github.com/lobehub/lobe-icons/compare/v1.69.0...v1.70.0)
+
+<sup>Released on **2025-02-14**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Add nvidia as provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([e6ded3c](https://github.com/lobehub/lobe-icons/commit/e6ded3c))
+
+#### Styles
+
+- **misc**: Add nvidia as provider, closes [#73](https://github.com/lobehub/lobe-icons/issues/73) ([06979a1](https://github.com/lobehub/lobe-icons/commit/06979a1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.69.0](https://github.com/lobehub/lobe-icons/compare/v1.68.0...v1.69.0)
 
 <sup>Released on **2025-02-11**</sup>
