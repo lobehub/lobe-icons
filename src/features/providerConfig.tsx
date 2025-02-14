@@ -24,6 +24,7 @@ import Higress from '@/Higress';
 import HuggingFace from '@/HuggingFace';
 import Hunyuan from '@/Hunyuan';
 import InternLM from '@/InternLM';
+import Jina from '@/Jina';
 import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
 import Minimax from '@/Minimax';
@@ -197,4 +198,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: GiteeAI, combineMultiple: 0.95, keywords: [ModelProvider.GiteeAI] },
   { Icon: ModelScope, combineMultiple: 0.95, keywords: [ModelProvider.ModelScope] },
   { Icon: VertexAI, keywords: [ModelProvider.VertexAI] },
+  { Icon: Jina, keywords: [ModelProvider.Jina] },
 ];
