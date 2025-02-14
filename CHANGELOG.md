@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.71.0](https://github.com/lobehub/lobe-icons/compare/v1.70.0...v1.71.0)
+
+<sup>Released on **2025-02-14**</sup>
+
+#### ✨ Features
+
+- **misc**: Add jina logo, add new provider icon PPIO.
+
+#### 💄 Styles
+
+- **misc**: Add vllm provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add jina logo, closes [#74](https://github.com/lobehub/lobe-icons/issues/74) ([02b4fba](https://github.com/lobehub/lobe-icons/commit/02b4fba))
+- **misc**: Add new provider icon PPIO, closes [#72](https://github.com/lobehub/lobe-icons/issues/72) ([775d232](https://github.com/lobehub/lobe-icons/commit/775d232))
+
+#### Styles
+
+- **misc**: Add vllm provider, closes [#75](https://github.com/lobehub/lobe-icons/issues/75) ([bb34abb](https://github.com/lobehub/lobe-icons/commit/bb34abb))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.70.0](https://github.com/lobehub/lobe-icons/compare/v1.69.0...v1.70.0)
 
 <sup>Released on **2025-02-14**</sup>
