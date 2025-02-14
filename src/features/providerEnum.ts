@@ -17,6 +17,7 @@ export enum ModelProvider {
   HuggingFace = 'huggingface',
   Hunyuan = 'hunyuan',
   InternLM = 'internlm',
+  Jina = 'jina',
   LmStudio = 'lmstudio',
   LobeHub = 'lobehub',
   Minimax = 'minimax',
