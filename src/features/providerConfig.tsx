@@ -49,6 +49,7 @@ import WorkersAI from '@/WorkersAI';
 import XAI from '@/XAI';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
+import { Nvidia } from '@/icons';
 import type { IconType } from '@/types';
 
 import type { IconAvatarProps } from './IconAvatar';
@@ -159,6 +160,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Doubao, keywords: [ModelProvider.Doubao] },
   { Icon: Hunyuan, keywords: [ModelProvider.Hunyuan] },
   { Icon: TencentCloud, keywords: [ModelProvider.TencentCloud] },
+  { Icon: Nvidia, keywords: [ModelProvider.Nvidia] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
