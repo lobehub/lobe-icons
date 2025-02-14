@@ -9,6 +9,7 @@ import { COLOR_PRIMARY, TITLE } from '../style';
 const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
   return (
     <svg
+      fill="currentColor"
       height={size}
       ref={ref}
       style={{ flex: 'none', lineHeight: 1, ...style }}
