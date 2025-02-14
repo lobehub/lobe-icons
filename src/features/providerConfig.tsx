@@ -44,6 +44,7 @@ import TencentCloud from '@/TencentCloud';
 import Together from '@/Together';
 import Upstage from '@/Upstage';
 import VertexAI from '@/VertexAI';
+import Vllm from '@/Vllm';
 import Wenxin from '@/Wenxin';
 import WorkersAI from '@/WorkersAI';
 import XAI from '@/XAI';
@@ -192,6 +193,7 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: InternLM, combineMultiple: 0.95, keywords: [ModelProvider.InternLM] },
   { Icon: Higress, keywords: [ModelProvider.Higress] },
+  { Icon: Vllm, keywords: [ModelProvider.VLLM] },
   { Icon: GiteeAI, combineMultiple: 0.95, keywords: [ModelProvider.GiteeAI] },
   { Icon: ModelScope, combineMultiple: 0.95, keywords: [ModelProvider.ModelScope] },
   { Icon: VertexAI, keywords: [ModelProvider.VertexAI] },
