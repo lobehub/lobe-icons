@@ -34,6 +34,19 @@ export default () => (
 );
 ```
 
+## Combine
+
+```tsx
+import { PPIO } from '@lobehub/icons';
+import { Flexbox } from 'react-layout-kit';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <PPIO.Combine size={64} />
+  </Flexbox>
+);
+```
+
 ## Brands
 
 ```tsx
