@@ -35,6 +35,7 @@ import Novita from '@/Novita';
 import Ollama from '@/Ollama';
 import OpenAI from '@/OpenAI';
 import OpenRouter from '@/OpenRouter';
+import PPIO from '@/PPIO';
 import Perplexity from '@/Perplexity';
 import Qwen from '@/Qwen';
 import SenseNova from '@/SenseNova';
@@ -161,8 +162,8 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Github, combineMultiple: 0.95, keywords: [ModelProvider.Github] },
   { Icon: Doubao, keywords: [ModelProvider.Doubao] },
   { Icon: Hunyuan, keywords: [ModelProvider.Hunyuan] },
-  { Icon: TencentCloud, keywords: [ModelProvider.TencentCloud] },
   { Icon: Nvidia, keywords: [ModelProvider.Nvidia] },
+  { Icon: TencentCloud, keywords: [ModelProvider.TencentCloud] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -198,5 +199,6 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: GiteeAI, combineMultiple: 0.95, keywords: [ModelProvider.GiteeAI] },
   { Icon: ModelScope, combineMultiple: 0.95, keywords: [ModelProvider.ModelScope] },
   { Icon: VertexAI, keywords: [ModelProvider.VertexAI] },
+  { Icon: PPIO, keywords: [ModelProvider.PPIO] },
   { Icon: Jina, keywords: [ModelProvider.Jina] },
 ];
