@@ -162,6 +162,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Hunyuan, keywords: [ModelProvider.Hunyuan] },
   { Icon: Nvidia, keywords: [ModelProvider.Nvidia] },
   { Icon: TencentCloud, keywords: [ModelProvider.TencentCloud] },
+  { Icon: Nvidia, keywords: [ModelProvider.Nvidia] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
