@@ -193,7 +193,7 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: InternLM, combineMultiple: 0.95, keywords: [ModelProvider.InternLM] },
   { Icon: Higress, keywords: [ModelProvider.Higress] },
-  { Icon: Vllm, keywords: [ModelProvider.vLLM] },
+  { Icon: Vllm, keywords: [ModelProvider.VLLM] },
   { Icon: GiteeAI, combineMultiple: 0.95, keywords: [ModelProvider.GiteeAI] },
   { Icon: ModelScope, combineMultiple: 0.95, keywords: [ModelProvider.ModelScope] },
   { Icon: VertexAI, keywords: [ModelProvider.VertexAI] },
