@@ -24,6 +24,7 @@ import Higress from '@/Higress';
 import HuggingFace from '@/HuggingFace';
 import Hunyuan from '@/Hunyuan';
 import InternLM from '@/InternLM';
+import Jina from '@/Jina';
 import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
 import Minimax from '@/Minimax';
@@ -45,6 +46,7 @@ import TencentCloud from '@/TencentCloud';
 import Together from '@/Together';
 import Upstage from '@/Upstage';
 import VertexAI from '@/VertexAI';
+import Vllm from '@/Vllm';
 import Wenxin from '@/Wenxin';
 import WorkersAI from '@/WorkersAI';
 import XAI from '@/XAI';
@@ -162,7 +164,6 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Hunyuan, keywords: [ModelProvider.Hunyuan] },
   { Icon: Nvidia, keywords: [ModelProvider.Nvidia] },
   { Icon: TencentCloud, keywords: [ModelProvider.TencentCloud] },
-  { Icon: Nvidia, keywords: [ModelProvider.Nvidia] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -194,8 +195,10 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: InternLM, combineMultiple: 0.95, keywords: [ModelProvider.InternLM] },
   { Icon: Higress, keywords: [ModelProvider.Higress] },
+  { Icon: Vllm, keywords: [ModelProvider.VLLM] },
   { Icon: GiteeAI, combineMultiple: 0.95, keywords: [ModelProvider.GiteeAI] },
   { Icon: ModelScope, combineMultiple: 0.95, keywords: [ModelProvider.ModelScope] },
   { Icon: VertexAI, keywords: [ModelProvider.VertexAI] },
   { Icon: PPIO, keywords: [ModelProvider.PPIO] },
+  { Icon: Jina, keywords: [ModelProvider.Jina] },
 ];
