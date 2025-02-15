@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.73.0](https://github.com/lobehub/lobe-icons/compare/v1.72.0...v1.73.0)
+
+<sup>Released on **2025-02-15**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Add jina deep search icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([af332ca](https://github.com/lobehub/lobe-icons/commit/af332ca))
+
+#### Styles
+
+- **misc**: Add jina deep search icons, closes [#76](https://github.com/lobehub/lobe-icons/issues/76) ([265a76d](https://github.com/lobehub/lobe-icons/commit/265a76d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.72.0](https://github.com/lobehub/lobe-icons/compare/v1.71.0...v1.72.0)
 
 <sup>Released on **2025-02-15**</sup>
