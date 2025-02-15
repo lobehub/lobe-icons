@@ -11,6 +11,7 @@ export { default as Automatic, type CompoundedIcon as AutomaticProps } from './A
 export { default as Aws, type CompoundedIcon as AwsProps } from './Aws';
 export { default as Aya, type CompoundedIcon as AyaProps } from './Aya';
 export { default as Azure, type CompoundedIcon as AzureProps } from './Azure';
+export { default as AzureAI, type CompoundedIcon as AzureAIProps } from './AzureAI';
 export { default as Baichuan, type CompoundedIcon as BaichuanProps } from './Baichuan';
 export { default as Baidu, type CompoundedIcon as BaiduProps } from './Baidu';
 export { default as BaiduCloud, type CompoundedIcon as BaiduCloudProps } from './BaiduCloud';
@@ -124,6 +125,7 @@ export { default as VertexAI, type CompoundedIcon as VertexAIProps } from './Ver
 export { default as Vidu, type CompoundedIcon as ViduProps } from './Vidu';
 export { default as Viggle, type CompoundedIcon as ViggleProps } from './Viggle';
 export { default as Vllm, type CompoundedIcon as VllmProps } from './Vllm';
+export { default as Volcengine, type CompoundedIcon as VolcengineProps } from './Volcengine';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
 export { default as XAI, type CompoundedIcon as XAIProps } from './XAI';

@@ -1,7 +1,7 @@
 ---
 nav: Components
-group: Provider
-title: SenseNova
+group: Model
+title: SenseNova (商汤)
 atomId: SenseNova
 description: https://platform.sensenova.cn
 ---

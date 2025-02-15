@@ -27,18 +27,18 @@ const ProviderCombine = forwardRef<HTMLDivElement, ProviderCombineProps>(
       }
     }, [originProvider]);
 
+    const iconProps = {
+      size: size * (Render?.combineMultiple || 1),
+      type,
+      ...Render?.props,
+    };
+
     let icon = Render?.Combine ? (
-      <Render.Combine
-        size={size * (Render?.combineMultiple || 1)}
-        type={type}
-        {...(Render?.props || {})}
-      />
+      <Render.Combine {...iconProps} />
     ) : Render?.Icon?.Combine ? (
-      <Render.Icon.Combine
-        size={size * (Render?.combineMultiple || 1)}
-        type={type}
-        {...(Render?.props || {})}
-      />
+      <Render.Icon.Combine {...iconProps} />
+    ) : Render?.Icon?.Text ? (
+      <Render.Icon.Text {...iconProps} />
     ) : (
       <DefaultIcon size={size} />
     );

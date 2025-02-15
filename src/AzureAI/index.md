@@ -1,21 +1,21 @@
 ---
 nav: Components
 group: Provider
-title: Fireworks
-atomId: Fireworks
-description: https://fireworks.ai
+title: AzureAI
+atomId: AzureAI
+description: https://ai.azure.com
 ---
 
 ## Icons
 
 ```tsx
-import { Fireworks } from '@lobehub/icons';
+import { AzureAI } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Fireworks size={64} />
-    <Fireworks.Color size={64} />
+    <AzureAI size={64} />
+    <AzureAI.Color size={64} />
   </Flexbox>
 );
 ```
@@ -23,21 +23,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Fireworks } from '@lobehub/icons';
+import { AzureAI } from '@lobehub/icons';
 
-export default () => <Fireworks.Text size={48} />;
+export default () => <AzureAI.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Fireworks } from '@lobehub/icons';
+import { AzureAI } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <Fireworks.Combine size={64} />
-    <Fireworks.Combine type={'color'} size={64} />
+    <AzureAI.Combine size={64} />
+    <AzureAI.Combine type={'color'} size={64} />
   </Flexbox>
 );
 ```
@@ -45,13 +45,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Fireworks } from '@lobehub/icons';
+import { AzureAI } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Fireworks.Avatar size={64} />
-    <Fireworks.Avatar size={64} shape={'square'} />
+    <AzureAI.Avatar size={64} />
+    <AzureAI.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -59,14 +59,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Fireworks } from '@lobehub/icons';
+import { AzureAI } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Fireworks.colorPrimary} />
+    <ColorPreview color={AzureAI.colorPrimary} />
   </Flexbox>
 );
 ```

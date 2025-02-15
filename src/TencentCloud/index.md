@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Model
+group: Provider
 title: TencentCloud (腾讯云)
 atomId: TencentCloud
 description: https://cloud.tencent.com

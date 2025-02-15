@@ -43,20 +43,7 @@ import { Flexbox } from 'react-layout-kit';
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
     <PPIO.Combine size={64} />
-  </Flexbox>
-);
-```
-
-## Brands
-
-```tsx
-import { PPIO } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
-
-export default () => (
-  <Flexbox gap={16} align={'flex-start'}>
-    <PPIO.Brand size={64} />
-    <PPIO.BrandColor size={64} />
+    <PPIO.Combine type={'color'} size={64} />
   </Flexbox>
 );
 ```

@@ -7,6 +7,7 @@ import AiMass from '@/AiMass';
 import Anthropic from '@/Anthropic';
 import Aws from '@/Aws';
 import Azure from '@/Azure';
+import AzureAI from '@/AzureAI';
 import Baichuan from '@/Baichuan';
 import BaiduCloud from '@/BaiduCloud';
 import Bedrock from '@/Bedrock';
@@ -32,6 +33,7 @@ import Mistral from '@/Mistral';
 import ModelScope from '@/ModelScope';
 import Moonshot from '@/Moonshot';
 import Novita from '@/Novita';
+import Nvidia from '@/Nvidia';
 import Ollama from '@/Ollama';
 import OpenAI from '@/OpenAI';
 import OpenRouter from '@/OpenRouter';
@@ -47,12 +49,12 @@ import Together from '@/Together';
 import Upstage from '@/Upstage';
 import VertexAI from '@/VertexAI';
 import Vllm from '@/Vllm';
+import Volcengine from '@/Volcengine';
 import Wenxin from '@/Wenxin';
 import WorkersAI from '@/WorkersAI';
 import XAI from '@/XAI';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
-import { Nvidia } from '@/icons';
 import type { IconType } from '@/types';
 
 import type { IconAvatarProps } from './IconAvatar';
@@ -195,10 +197,12 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: InternLM, combineMultiple: 0.95, keywords: [ModelProvider.InternLM] },
   { Icon: Higress, keywords: [ModelProvider.Higress] },
-  { Icon: Vllm, keywords: [ModelProvider.VLLM] },
+  { Icon: Vllm, combineMultiple: 0.85, keywords: [ModelProvider.VLLM] },
   { Icon: GiteeAI, combineMultiple: 0.95, keywords: [ModelProvider.GiteeAI] },
-  { Icon: ModelScope, combineMultiple: 0.95, keywords: [ModelProvider.ModelScope] },
+  { Icon: ModelScope, combineMultiple: 1.2, keywords: [ModelProvider.ModelScope] },
   { Icon: VertexAI, keywords: [ModelProvider.VertexAI] },
-  { Icon: PPIO, keywords: [ModelProvider.PPIO] },
+  { Icon: PPIO, combineMultiple: 0.85, keywords: [ModelProvider.PPIO] },
   { Icon: Jina, keywords: [ModelProvider.Jina] },
+  { Icon: AzureAI, keywords: [ModelProvider.AzureAI] },
+  { Icon: Volcengine, keywords: [ModelProvider.Volcengine] },
 ];

@@ -15,7 +15,6 @@ import { Flexbox } from 'react-layout-kit';
 export default () => (
   <Flexbox gap={16} horizontal>
     <Jina size={64} />
-    <Jina.Color size={64} />
   </Flexbox>
 );
 ```
@@ -26,20 +25,6 @@ export default () => (
 import { Jina } from '@lobehub/icons';
 
 export default () => <Jina.Text size={48} />;
-```
-
-## Combine
-
-```tsx
-import { Jina } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
-
-export default () => (
-  <Flexbox gap={16} align={'flex-start'}>
-    <Jina.Combine size={64} />
-    <Jina.Combine size={64} type={'color'} />
-  </Flexbox>
-);
 ```
 
 ## Avatars
