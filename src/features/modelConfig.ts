@@ -27,6 +27,7 @@ import Grok from '@/Grok';
 import Hunyuan from '@/Hunyuan';
 import Ideogram from '@/Ideogram';
 import InternLM from '@/InternLM';
+import Jina from '@/Jina';
 import LLaVA from '@/LLaVA';
 import Meta from '@/Meta';
 import Minimax from '@/Minimax';
@@ -105,6 +106,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Baichuan, keywords: ['baichuan'] },
   { Icon: Rwkv, keywords: ['rwkv', '/eagle-'] },
   { Icon: Wenxin, keywords: ['ernie'] },
+  { Icon: Jina, keywords: ['^jina'] },
   { Icon: Doubao, keywords: ['^ep-', 'doubao-'] },
   { Icon: Hunyuan, keywords: ['hunyuan'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
