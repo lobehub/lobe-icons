@@ -1,21 +1,21 @@
 ---
 nav: Components
 group: Provider
-title: Microsoft Azure
-atomId: Azure
-description: https://azure.microsoft.com
+title: Microsoft
+atomId: Microsoft
+description: https://microsoft.com
 ---
 
 ## Icons
 
 ```tsx
-import { Azure } from '@lobehub/icons';
+import { Microsoft } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Azure size={64} />
-    <Azure.Color size={64} />
+    <Microsoft size={64} />
+    <Microsoft.Color size={64} />
   </Flexbox>
 );
 ```
@@ -23,21 +23,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Azure } from '@lobehub/icons';
+import { Microsoft } from '@lobehub/icons';
 
-export default () => <Azure.Text size={48} />;
+export default () => <Microsoft.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Azure } from '@lobehub/icons';
+import { Microsoft } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <Azure.Combine size={64} />
-    <Azure.Combine size={64} type={'color'} />
+    <Microsoft.Combine size={64} />
+    <Microsoft.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -45,13 +45,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Azure } from '@lobehub/icons';
+import { Microsoft } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Azure.Avatar size={64} />
-    <Azure.Avatar size={64} shape={'square'} />
+    <Microsoft.Avatar size={64} />
+    <Microsoft.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -59,14 +59,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Azure } from '@lobehub/icons';
+import { Microsoft } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Azure.colorPrimary} />
+    <ColorPreview color={Microsoft.colorPrimary} />
   </Flexbox>
 );
 ```

@@ -76,6 +76,7 @@ export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeH
 export { default as Luma, type CompoundedIcon as LumaProps } from './Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './Magic';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
+export { default as Microsoft, type CompoundedIcon as MicrosoftProps } from './Microsoft';
 export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from './Midjourney';
 export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
 export { default as Mistral, type CompoundedIcon as MistralProps } from './Mistral';
