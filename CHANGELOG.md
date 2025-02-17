@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.75.0](https://github.com/lobehub/lobe-icons/compare/v1.74.0...v1.75.0)
+
+<sup>Released on **2025-02-17**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Update MistralAI.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([1fa12c1](https://github.com/lobehub/lobe-icons/commit/1fa12c1))
+
+#### Styles
+
+- **misc**: Update MistralAI ([fa9ad3e](https://github.com/lobehub/lobe-icons/commit/fa9ad3e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.74.0](https://github.com/lobehub/lobe-icons/compare/v1.73.1...v1.74.0)
 
 <sup>Released on **2025-02-17**</sup>
