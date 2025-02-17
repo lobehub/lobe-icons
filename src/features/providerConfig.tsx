@@ -40,6 +40,7 @@ import OpenRouter from '@/OpenRouter';
 import PPIO from '@/PPIO';
 import Perplexity from '@/Perplexity';
 import Qwen from '@/Qwen';
+import SambaNova from '@/SambaNova';
 import SenseNova from '@/SenseNova';
 import SiliconCloud from '@/SiliconCloud';
 import Spark from '@/Spark';
@@ -205,4 +206,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Jina, keywords: [ModelProvider.Jina] },
   { Icon: AzureAI, keywords: [ModelProvider.AzureAI] },
   { Icon: Volcengine, keywords: [ModelProvider.Volcengine] },
+  { Icon: SambaNova, combineMultiple: 0.85, keywords: [ModelProvider.SambaNova] },
 ];

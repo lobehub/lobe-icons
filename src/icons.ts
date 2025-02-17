@@ -105,6 +105,7 @@ export { default as Replicate, type CompoundedIcon as ReplicateProps } from './R
 export { default as Replit, type CompoundedIcon as ReplitProps } from './Replit';
 export { default as Runway, type CompoundedIcon as RunwayProps } from './Runway';
 export { default as Rwkv, type CompoundedIcon as RwkvProps } from './Rwkv';
+export { default as SambaNova, type CompoundedIcon as SambaNovaProps } from './SambaNova';
 export { default as SenseNova, type CompoundedIcon as SenseNovaProps } from './SenseNova';
 export { default as SiliconCloud, type CompoundedIcon as SiliconCloudProps } from './SiliconCloud';
 export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';
