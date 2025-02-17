@@ -1522,8 +1522,7 @@ const toc: IconToc[] = [
     title: 'Minimax',
   },
   {
-    color: '#fd6f00',
-    colorGradient: 'linear-gradient(to bottom, #F7D046, #F2A73B, #EE792F, #EE792F, #EA3326',
+    color: '#FA520F',
     desc: 'https://mistral.ai',
     docsUrl: 'mistral',
     fullTitle: 'Mistral',

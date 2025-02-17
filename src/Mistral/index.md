@@ -50,7 +50,6 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Mistral.Avatar size={64} background={Mistral.colorPrimary} />
     <Mistral.Avatar size={64} />
     <Mistral.Avatar size={64} shape={'square'} />
   </Flexbox>
@@ -68,7 +67,6 @@ import ColorPreview from '../components/ColorPreview';
 export default () => (
   <Flexbox gap={16} horizontal>
     <ColorPreview color={Mistral.colorPrimary} />
-    <ColorPreview color={Mistral.colorGradient} />
   </Flexbox>
 );
 ```
