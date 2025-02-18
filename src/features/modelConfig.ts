@@ -86,7 +86,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: LLaVA, keywords: ['llava'] },
   { Icon: Gemini, keywords: ['gemini'] },
   { Icon: Gemma, keywords: ['gemma'] },
-  { Icon: Moonshot, keywords: ['moonshot'] },
+  { Icon: Moonshot, keywords: ['kimi', 'moonshot'] },
   { Icon: Qwen, keywords: ['qwen', 'qwq', 'qvq'] },
   { Icon: Minimax, keywords: ['minimax', 'abab'] },
   {
