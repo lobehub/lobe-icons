@@ -5,7 +5,7 @@ import { memo } from 'react';
 import IconCombine, { type IconCombineProps } from '@/features/IconCombine';
 
 import { SPACE_MULTIPLE, TEXT_MULTIPLE, TITLE } from '../style';
-import Avatar from './Avatar';
+import Mono from './Mono';
 import Text from './Text';
 
 export type CombineProps = Omit<IconCombineProps, 'Icon' | 'Text'>;
@@ -13,7 +13,7 @@ export type CombineProps = Omit<IconCombineProps, 'Icon' | 'Text'>;
 const Combine = memo<CombineProps>(({ ...rest }) => {
   return (
     <IconCombine
-      Icon={Avatar}
+      Icon={Mono}
       Text={Text}
       aria-label={TITLE}
       iconProps={{ shape: 'square' }}

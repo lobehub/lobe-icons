@@ -1021,7 +1021,7 @@ const toc: IconToc[] = [
     title: 'Google',
   },
   {
-    color: '#fff',
+    color: '#000',
     desc: 'https://grok.x.ai',
     docsUrl: 'grok',
     fullTitle: 'Grok (xAI)',
