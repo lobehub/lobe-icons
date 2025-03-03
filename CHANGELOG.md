@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.80.0](https://github.com/lobehub/lobe-icons/compare/v1.79.0...v1.80.0)
+
+<sup>Released on **2025-03-03**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add BAAI (resolve.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([58ad35b](https://github.com/lobehub/lobe-icons/commit/58ad35b))
+- **misc**: Add BAAI (resolve, closes [#80](https://github.com/lobehub/lobe-icons/issues/80) ([509d749](https://github.com/lobehub/lobe-icons/commit/509d749))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.79.0](https://github.com/lobehub/lobe-icons/compare/v1.78.0...v1.79.0)
 
 <sup>Released on **2025-03-03**</sup>
