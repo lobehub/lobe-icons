@@ -111,6 +111,7 @@ export { default as SenseNova, type CompoundedIcon as SenseNovaProps } from './S
 export { default as SiliconCloud, type CompoundedIcon as SiliconCloudProps } from './SiliconCloud';
 export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './Stability';
+export { default as StateCloud, type CompoundedIcon as StateCloudProps } from './StateCloud';
 export { default as Stepfun, type CompoundedIcon as StepfunProps } from './Stepfun';
 export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';
 export { default as Sync, type CompoundedIcon as SyncProps } from './Sync';
