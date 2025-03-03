@@ -34,6 +34,7 @@ export enum ModelProvider {
   Perplexity = 'perplexity',
   Qwen = 'qwen',
   SambaNova = 'sambanova',
+  Search1API = 'search1api',
   SenseNova = 'sensenova',
   SiliconCloud = 'siliconcloud',
   Spark = 'spark',
@@ -48,7 +49,7 @@ export enum ModelProvider {
   Wenxin = 'wenxin',
   XAI = 'xai',
   ZeroOne = 'zeroone',
-  ZhiPu = 'zhipu'
+  ZhiPu = 'zhipu',
 }
 
 export type ModelProviderKey = Lowercase<keyof typeof ModelProvider>;
