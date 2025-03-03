@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.79.0](https://github.com/lobehub/lobe-icons/compare/v1.78.0...v1.79.0)
+
+<sup>Released on **2025-03-03**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add IFlyTekCloud (resolve.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([f3aabe9](https://github.com/lobehub/lobe-icons/commit/f3aabe9))
+- **misc**: Add IFlyTekCloud (resolve, closes [#78](https://github.com/lobehub/lobe-icons/issues/78) ([0ac8b5f](https://github.com/lobehub/lobe-icons/commit/0ac8b5f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.78.0](https://github.com/lobehub/lobe-icons/compare/v1.77.0...v1.78.0)
 
 <sup>Released on **2025-03-03**</sup>
