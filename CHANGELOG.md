@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.78.0](https://github.com/lobehub/lobe-icons/compare/v1.77.0...v1.78.0)
+
+<sup>Released on **2025-03-03**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add StateCloud.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([d5a35c9](https://github.com/lobehub/lobe-icons/commit/d5a35c9))
+- **misc**: Add StateCloud, closes [#83](https://github.com/lobehub/lobe-icons/issues/83) ([a7f4aa7](https://github.com/lobehub/lobe-icons/commit/a7f4aa7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.77.0](https://github.com/lobehub/lobe-icons/compare/v1.76.1...v1.77.0)
 
 <sup>Released on **2025-03-03**</sup>
