@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.76.1](https://github.com/lobehub/lobe-icons/compare/v1.76.0...v1.76.1)
+
+<sup>Released on **2025-03-03**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update new grok logo (fix.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update new grok logo (fix, closes [#79](https://github.com/lobehub/lobe-icons/issues/79) ([d5f4a97](https://github.com/lobehub/lobe-icons/commit/d5f4a97))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.76.0](https://github.com/lobehub/lobe-icons/compare/v1.75.0...v1.76.0)
 
 <sup>Released on **2025-02-18**</sup>
