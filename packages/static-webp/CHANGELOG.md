@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.27.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-webp@1.26.0...@lobehub/icons-static-webp@1.27.0)
+
+<sup>Released on **2025-03-03**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([f3aabe9](https://github.com/lobehub/lobe-icons/commit/f3aabe9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.26.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-webp@1.25.0...@lobehub/icons-static-webp@1.26.0)
 
 <sup>Released on **2025-03-03**</sup>
