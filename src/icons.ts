@@ -62,6 +62,7 @@ export { default as Higress, type CompoundedIcon as HigressProps } from './Higre
 export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from './HuggingFace';
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
 export { default as Ideogram, type CompoundedIcon as IdeogramProps } from './Ideogram';
+export { default as IFlyTekCloud, type CompoundedIcon as IFlyTekCloudProps } from './IFlyTekCloud';
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './InternLM';
 export { default as Jina, type CompoundedIcon as JinaProps } from './Jina';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './Kimi';
