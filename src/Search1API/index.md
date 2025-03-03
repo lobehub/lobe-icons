@@ -15,6 +15,7 @@ import { Flexbox } from 'react-layout-kit';
 export default () => (
   <Flexbox gap={16} horizontal>
     <Search1API size={64} />
+    <Search1API.Color size={64} />
   </Flexbox>
 );
 ```
