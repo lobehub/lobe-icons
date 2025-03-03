@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.77.0](https://github.com/lobehub/lobe-icons/compare/v1.76.1...v1.77.0)
+
+<sup>Released on **2025-03-03**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([54126d0](https://github.com/lobehub/lobe-icons/commit/54126d0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.76.1](https://github.com/lobehub/lobe-icons/compare/v1.76.0...v1.76.1)
 
 <sup>Released on **2025-03-03**</sup>
