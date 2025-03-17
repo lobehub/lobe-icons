@@ -13,6 +13,7 @@ import BaiduCloud from '@/BaiduCloud';
 import Bedrock from '@/Bedrock';
 import Claude from '@/Claude';
 import Cloudflare from '@/Cloudflare';
+import Cohere from '@/Cohere';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
 import Fireworks from '@/Fireworks';
@@ -207,4 +208,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: AzureAI, keywords: [ModelProvider.AzureAI] },
   { Icon: Volcengine, keywords: [ModelProvider.Volcengine] },
   { Icon: SambaNova, combineMultiple: 0.85, keywords: [ModelProvider.SambaNova] },
+  { Icon: Cohere, keywords: [ModelProvider.Cohere] },
 ];
