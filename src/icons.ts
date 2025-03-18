@@ -3,6 +3,7 @@ export { default as AdobeFirefly, type CompoundedIcon as AdobeFireflyProps } fro
 export { default as Ai21, type CompoundedIcon as Ai21Props } from './Ai21';
 export { default as Ai360, type CompoundedIcon as Ai360Props } from './Ai360';
 export { default as AiMass, type CompoundedIcon as AiMassProps } from './AiMass';
+export { default as AiStudio, type CompoundedIcon as AiStudioProps } from './AiStudio';
 export { default as Alibaba, type CompoundedIcon as AlibabaProps } from './Alibaba';
 export { default as AlibabaCloud, type CompoundedIcon as AlibabaCloudProps } from './AlibabaCloud';
 export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './AntGroup';
