@@ -64,10 +64,12 @@ export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from 
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
 export { default as Ideogram, type CompoundedIcon as IdeogramProps } from './Ideogram';
 export { default as IFlyTekCloud, type CompoundedIcon as IFlyTekCloudProps } from './IFlyTekCloud';
+export { default as Infinigence, type CompoundedIcon as InfinigenceProps } from './Infinigence';
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './InternLM';
 export { default as Jina, type CompoundedIcon as JinaProps } from './Jina';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './Kimi';
 export { default as Kling, type CompoundedIcon as KlingProps } from './Kling';
+export { default as Lambda, type CompoundedIcon as LambdaProps } from './Lambda';
 export { default as LangChain, type CompoundedIcon as LangChainProps } from './LangChain';
 export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './Langfuse';
 export { default as Lightricks, type CompoundedIcon as LightricksProps } from './Lightricks';
@@ -77,6 +79,7 @@ export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmS
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeHub';
 export { default as Luma, type CompoundedIcon as LumaProps } from './Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './Magic';
+export { default as MCP, type CompoundedIcon as MCPProps } from './MCP';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
 export { default as Microsoft, type CompoundedIcon as MicrosoftProps } from './Microsoft';
 export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from './Midjourney';
@@ -102,6 +105,7 @@ export { default as Pollinations, type CompoundedIcon as PollinationsProps } fro
 export { default as PPIO, type CompoundedIcon as PPIOProps } from './PPIO';
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';
 export { default as Qwen, type CompoundedIcon as QwenProps } from './Qwen';
+export { default as Railway, type CompoundedIcon as RailwayProps } from './Railway';
 export { default as Recraft, type CompoundedIcon as RecraftProps } from './Recraft';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './Replicate';
 export { default as Replit, type CompoundedIcon as ReplitProps } from './Replit';
@@ -136,6 +140,7 @@ export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin'
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
 export { default as XAI, type CompoundedIcon as XAIProps } from './XAI';
 export { default as Xuanyuan, type CompoundedIcon as XuanyuanProps } from './Xuanyuan';
+export { default as Yandex, type CompoundedIcon as YandexProps } from './Yandex';
 export { default as Yi, type CompoundedIcon as YiProps } from './Yi';
 export { default as Zeabur, type CompoundedIcon as ZeaburProps } from './Zeabur';
 export { default as ZeroOne, type CompoundedIcon as ZeroOneProps } from './ZeroOne';
