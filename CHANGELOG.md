@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.81.0](https://github.com/lobehub/lobe-icons/compare/v1.80.0...v1.81.0)
+
+<sup>Released on **2025-03-18**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Support cohere provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([610d824](https://github.com/lobehub/lobe-icons/commit/610d824))
+
+#### Styles
+
+- **misc**: Support cohere provider, closes [#88](https://github.com/lobehub/lobe-icons/issues/88) ([4d46e81](https://github.com/lobehub/lobe-icons/commit/4d46e81))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.80.0](https://github.com/lobehub/lobe-icons/compare/v1.79.0...v1.80.0)
 
 <sup>Released on **2025-03-03**</sup>
