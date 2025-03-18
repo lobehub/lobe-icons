@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.82.0](https://github.com/lobehub/lobe-icons/compare/v1.81.0...v1.82.0)
+
+<sup>Released on **2025-03-18**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add Manus, Monica, OpenWebUI, Flowith, n8n, Make (resolve.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([2889d30](https://github.com/lobehub/lobe-icons/commit/2889d30))
+- **misc**: Add Manus, Monica, OpenWebUI, Flowith, n8n, Make (resolve, closes [#86](https://github.com/lobehub/lobe-icons/issues/86) ([6c8f1ac](https://github.com/lobehub/lobe-icons/commit/6c8f1ac))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.81.0](https://github.com/lobehub/lobe-icons/compare/v1.80.0...v1.81.0)
 
 <sup>Released on **2025-03-18**</sup>
