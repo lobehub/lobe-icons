@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.86.0](https://github.com/lobehub/lobe-icons/compare/v1.85.0...v1.86.0)
+
+<sup>Released on **2025-03-18**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add Gradio.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([b6bdf36](https://github.com/lobehub/lobe-icons/commit/b6bdf36))
+- **misc**: Add Gradio ([ce6def2](https://github.com/lobehub/lobe-icons/commit/ce6def2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.85.0](https://github.com/lobehub/lobe-icons/compare/v1.84.0...v1.85.0)
 
 <sup>Released on **2025-03-18**</sup>
