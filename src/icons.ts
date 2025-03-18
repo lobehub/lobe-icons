@@ -43,6 +43,7 @@ export { default as Doubao, type CompoundedIcon as DoubaoProps } from './Doubao'
 export { default as Fal, type CompoundedIcon as FalProps } from './Fal';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
 export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './FishAudio';
+export { default as Flowith, type CompoundedIcon as FlowithProps } from './Flowith';
 export { default as Flux, type CompoundedIcon as FluxProps } from './Flux';
 export { default as Gemini, type CompoundedIcon as GeminiProps } from './Gemini';
 export { default as Gemma, type CompoundedIcon as GemmaProps } from './Gemma';
@@ -79,6 +80,8 @@ export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmS
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeHub';
 export { default as Luma, type CompoundedIcon as LumaProps } from './Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './Magic';
+export { default as Make, type CompoundedIcon as MakeProps } from './Make';
+export { default as Manus, type CompoundedIcon as ManusProps } from './Manus';
 export { default as MCP, type CompoundedIcon as MCPProps } from './MCP';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
 export { default as Microsoft, type CompoundedIcon as MicrosoftProps } from './Microsoft';
@@ -86,8 +89,10 @@ export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from '.
 export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
 export { default as Mistral, type CompoundedIcon as MistralProps } from './Mistral';
 export { default as ModelScope, type CompoundedIcon as ModelScopeProps } from './ModelScope';
+export { default as Monica, type CompoundedIcon as MonicaProps } from './Monica';
 export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moonshot';
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './MyShell';
+export { default as N8n, type CompoundedIcon as N8nProps } from './N8n';
 export { default as Notion, type CompoundedIcon as NotionProps } from './Notion';
 export { default as Nova, type CompoundedIcon as NovaProps } from './Nova';
 export { default as Novita, type CompoundedIcon as NovitaProps } from './Novita';
@@ -96,6 +101,7 @@ export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama'
 export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './OpenAI';
 export { default as OpenChat, type CompoundedIcon as OpenChatProps } from './OpenChat';
 export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './OpenRouter';
+export { default as OpenWebUI, type CompoundedIcon as OpenWebUIProps } from './OpenWebUI';
 export { default as PaLM, type CompoundedIcon as PaLMProps } from './PaLM';
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './Perplexity';
 export { default as Pika, type CompoundedIcon as PikaProps } from './Pika';
