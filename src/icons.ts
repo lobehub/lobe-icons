@@ -35,6 +35,7 @@ export { default as ComfyUI, type CompoundedIcon as ComfyUIProps } from './Comfy
 export { default as CommandA, type CompoundedIcon as CommandAProps } from './CommandA';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
 export { default as Coze, type CompoundedIcon as CozeProps } from './Coze';
+export { default as CrewAI, type CompoundedIcon as CrewAIrops } from './CrewAI';
 export { default as Cursor, type CompoundedIcon as CursorProps } from './Cursor';
 export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
 export { default as Dbrx, type CompoundedIcon as DbrxProps } from './Dbrx';
@@ -114,6 +115,7 @@ export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from '.
 export { default as OpenWebUI, type CompoundedIcon as OpenWebUIProps } from './OpenWebUI';
 export { default as PaLM, type CompoundedIcon as PaLMProps } from './PaLM';
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './Perplexity';
+export { default as Phidata, type CompoundedIcon as PhidataProps } from './Phidata';
 export { default as Pika, type CompoundedIcon as PikaProps } from './Pika';
 export { default as PixVerse, type CompoundedIcon as PixVerseProps } from './PixVerse';
 export { default as Poe, type CompoundedIcon as PoeProps } from './Poe';
