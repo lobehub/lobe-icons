@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Provider
+group: Application
 title: Railway
 atomId: Railway
 description: https://railway.com

@@ -1446,7 +1446,7 @@ const toc: IconToc[] = [
     color: '#1C3C3C',
     desc: 'https://langchain.com/langsmith',
     docsUrl: 'lang-smith',
-    fullTitle: 'LangSmith',
+    fullTitle: 'LangSmith (LangChain)',
     group: 'application',
     id: 'LangSmith',
     param: {
@@ -2215,7 +2215,7 @@ const toc: IconToc[] = [
     desc: 'https://railway.com',
     docsUrl: 'railway',
     fullTitle: 'Railway',
-    group: 'provider',
+    group: 'application',
     id: 'Railway',
     param: {
       hasAvatar: true,

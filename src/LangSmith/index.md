@@ -1,8 +1,8 @@
 ---
 nav: Components
 group: Application
-title: LangSmith
-atomId: LangSmith (LangChain)
+title: LangSmith (LangChain)
+atomId: LangSmith
 description: https://langchain.com/langsmith
 ---
 
