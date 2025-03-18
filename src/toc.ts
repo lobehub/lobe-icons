@@ -595,7 +595,7 @@ const toc: IconToc[] = [
       hasTextCn: false,
       hasTextColor: false,
     },
-    title: 'CommandA',
+    title: 'Cohere',
   },
   {
     color: '#F9AB00',
