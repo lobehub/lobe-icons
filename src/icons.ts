@@ -56,6 +56,7 @@ export {
 } from './GithubCopilot';
 export { default as Glif, type CompoundedIcon as GlifProps } from './Glif';
 export { default as Google, type CompoundedIcon as GoogleProps } from './Google';
+export { default as Gradio, type CompoundedIcon as GradioProps } from './Gradio';
 export { default as Grok, type CompoundedIcon as GrokProps } from './Grok';
 export { default as Groq, type CompoundedIcon as GroqProps } from './Groq';
 export { default as Hailuo, type CompoundedIcon as HailuoProps } from './Hailuo';
