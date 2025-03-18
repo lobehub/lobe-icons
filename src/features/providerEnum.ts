@@ -7,6 +7,7 @@ export enum ModelProvider {
   Baichuan = 'baichuan',
   Bedrock = 'bedrock',
   Cloudflare = 'cloudflare',
+  Cohere = 'cohere',
   DeepSeek = 'deepseek',
   Doubao = 'Doubao',
   FireworksAI = 'fireworksai',
