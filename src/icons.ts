@@ -23,6 +23,7 @@ export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './B
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';
 export { default as Civitai, type CompoundedIcon as CivitaiProps } from './Civitai';
 export { default as Claude, type CompoundedIcon as ClaudeProps } from './Claude';
+export { default as Cline, type CompoundedIcon as ClineProps } from './Cline';
 export { default as Clipdrop, type CompoundedIcon as ClipdropProps } from './Clipdrop';
 export { default as Cloudflare, type CompoundedIcon as CloudflareProps } from './Cloudflare';
 export { default as CodeGeeX, type CompoundedIcon as CodeGeeXProps } from './CodeGeeX';
@@ -57,6 +58,7 @@ export {
 } from './GithubCopilot';
 export { default as Glif, type CompoundedIcon as GlifProps } from './Glif';
 export { default as Google, type CompoundedIcon as GoogleProps } from './Google';
+export { default as Goose, type CompoundedIcon as GooseProps } from './Goose';
 export { default as Gradio, type CompoundedIcon as GradioProps } from './Gradio';
 export { default as Grok, type CompoundedIcon as GrokProps } from './Grok';
 export { default as Groq, type CompoundedIcon as GroqProps } from './Groq';
