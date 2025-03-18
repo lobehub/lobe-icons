@@ -30,6 +30,7 @@ export { default as CogView, type CompoundedIcon as CogViewProps } from './CogVi
 export { default as Cohere, type CompoundedIcon as CohereProps } from './Cohere';
 export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
 export { default as ComfyUI, type CompoundedIcon as ComfyUIProps } from './ComfyUI';
+export { default as CommandA, type CompoundedIcon as CommandAProps } from './CommandA';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
 export { default as Coze, type CompoundedIcon as CozeProps } from './Coze';
 export { default as Cursor, type CompoundedIcon as CursorProps } from './Cursor';

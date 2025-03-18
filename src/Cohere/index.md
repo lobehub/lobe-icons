@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Provider
-title: Cohere (Command)
+title: Cohere
 atomId: Cohere
 description: https://cohere.com
 ---

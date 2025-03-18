@@ -582,7 +582,7 @@ const toc: IconToc[] = [
     color: '#39594D',
     desc: 'https://cohere.com',
     docsUrl: 'cohere',
-    fullTitle: 'Cohere (Command)',
+    fullTitle: 'Cohere',
     group: 'provider',
     id: 'Cohere',
     param: {
@@ -595,7 +595,7 @@ const toc: IconToc[] = [
       hasTextCn: false,
       hasTextColor: false,
     },
-    title: 'Cohere',
+    title: 'CommandA',
   },
   {
     color: '#F9AB00',
@@ -635,6 +635,25 @@ const toc: IconToc[] = [
       hasTextColor: false,
     },
     title: 'ComfyUI',
+  },
+  {
+    color: '#39594D',
+    desc: 'https://cohere.com/blog/command',
+    docsUrl: 'command-a',
+    fullTitle: 'CommandA (Cohere)',
+    group: 'model',
+    id: 'CommandA',
+    param: {
+      hasAvatar: true,
+      hasBrand: false,
+      hasBrandColor: false,
+      hasColor: true,
+      hasCombine: true,
+      hasText: true,
+      hasTextCn: false,
+      hasTextColor: false,
+    },
+    title: 'CommandA',
   },
   {
     color: '#fff',
