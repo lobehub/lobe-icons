@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.90.0](https://github.com/lobehub/lobe-icons/compare/v1.89.0...v1.90.0)
+
+<sup>Released on **2025-03-21**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Add Infinigence Provider icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([6976e64](https://github.com/lobehub/lobe-icons/commit/6976e64))
+
+#### Styles
+
+- **misc**: Add Infinigence Provider icons ([0e8277f](https://github.com/lobehub/lobe-icons/commit/0e8277f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.89.0](https://github.com/lobehub/lobe-icons/compare/v1.88.0...v1.89.0)
 
 <sup>Released on **2025-03-18**</sup>
