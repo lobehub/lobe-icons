@@ -25,6 +25,7 @@ import Groq from '@/Groq';
 import Higress from '@/Higress';
 import HuggingFace from '@/HuggingFace';
 import Hunyuan from '@/Hunyuan';
+import Infinigence from '@/Infinigence';
 import InternLM from '@/InternLM';
 import Jina from '@/Jina';
 import LmStudio from '@/LmStudio';
@@ -211,4 +212,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: SambaNova, combineMultiple: 0.85, keywords: [ModelProvider.SambaNova] },
   { Icon: Cohere, keywords: [ModelProvider.Cohere] },
   { Icon: Search1API, keywords: [ModelProvider.Search1API] },
+  { Icon: Infinigence, keywords: [ModelProvider.InfiniAI] },
 ];
