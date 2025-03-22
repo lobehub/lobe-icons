@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.91.0](https://github.com/lobehub/lobe-icons/compare/v1.90.0...v1.91.0)
+
+<sup>Released on **2025-03-22**</sup>
+
+#### ✨ Features
+
+- **misc**: Add KREA (resolve.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add KREA (resolve, closes [#90](https://github.com/lobehub/lobe-icons/issues/90) ([b7122a7](https://github.com/lobehub/lobe-icons/commit/b7122a7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.90.0](https://github.com/lobehub/lobe-icons/compare/v1.89.0...v1.90.0)
 
 <sup>Released on **2025-03-21**</sup>
