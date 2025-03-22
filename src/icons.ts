@@ -76,6 +76,7 @@ export { default as IFlyTekCloud, type CompoundedIcon as IFlyTekCloudProps } fro
 export { default as Infinigence, type CompoundedIcon as InfinigenceProps } from './Infinigence';
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './InternLM';
 export { default as Jina, type CompoundedIcon as JinaProps } from './Jina';
+export { default as Kera, type CompoundedIcon as KeraProps } from './Kera';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './Kimi';
 export { default as Kling, type CompoundedIcon as KlingProps } from './Kling';
 export { default as Lambda, type CompoundedIcon as LambdaProps } from './Lambda';
