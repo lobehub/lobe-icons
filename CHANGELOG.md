@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.93.0](https://github.com/lobehub/lobe-icons/compare/v1.92.0...v1.93.0)
+
+<sup>Released on **2025-03-23**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add DreamMachine, TopazLabs, Yuanbao.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([9de6a04](https://github.com/lobehub/lobe-icons/commit/9de6a04))
+- **misc**: Add DreamMachine, TopazLabs, Yuanbao ([c22e36f](https://github.com/lobehub/lobe-icons/commit/c22e36f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.92.0](https://github.com/lobehub/lobe-icons/compare/v1.91.0...v1.92.0)
 
 <sup>Released on **2025-03-23**</sup>
