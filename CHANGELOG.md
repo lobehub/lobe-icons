@@ -2,6 +2,34 @@
 
 # Changelog
 
+## [Version 1.92.0](https://github.com/lobehub/lobe-icons/compare/v1.91.0...v1.92.0)
+
+<sup>Released on **2025-03-23**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add Cerebras, DeepInfra, Add NotebookLM, Flora, Exa, SearchApi, VectorizerAI, RSSHub, Doc2X.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([fd2e5fa](https://github.com/lobehub/lobe-icons/commit/fd2e5fa))
+- **misc**: Add Cerebras, DeepInfra ([c56a1d0](https://github.com/lobehub/lobe-icons/commit/c56a1d0))
+- **misc**: Add NotebookLM, Flora, Exa, SearchApi, VectorizerAI, RSSHub, Doc2X ([39162a9](https://github.com/lobehub/lobe-icons/commit/39162a9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.91.0](https://github.com/lobehub/lobe-icons/compare/v1.90.0...v1.91.0)
 
 <sup>Released on **2025-03-22**</sup>
