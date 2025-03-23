@@ -16,7 +16,7 @@ const Avatar = memo<AvatarProps>(({ ...rest }) => {
       aria-label={TITLE}
       background={COLOR_PRIMARY}
       color={'#fff'}
-      iconMultiple={0.65}
+      iconMultiple={0.7}
       {...rest}
     />
   );

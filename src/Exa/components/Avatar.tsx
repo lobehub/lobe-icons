@@ -9,14 +9,15 @@ import Mono from './Mono';
 
 export type AvatarProps = Omit<IconAvatarProps, 'Icon'>;
 
-const Avatar = memo<AvatarProps>(({ ...rest }) => {
+const Avatar = memo<AvatarProps>(({ background, size, ...rest }) => {
   return (
     <IconAvatar
       Icon={Mono}
       aria-label={TITLE}
-      background={COLOR_PRIMARY}
+      background={background || COLOR_PRIMARY}
       color={'#fff'}
       iconMultiple={0.65}
+      size={size}
       {...rest}
     />
   );
