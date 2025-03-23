@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: StateCloud (天翼云)
 atomId: StateCloud
-description: https://www.ctyun.cn/act/xirang/deepseek
+description: https://ctyun.cn/act/xirang/deepseek
 ---
 
 ## Icons

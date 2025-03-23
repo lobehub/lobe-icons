@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: AlibabaCloud (阿里云)
 atomId: AlibabaCloud
-description: https://www.aliyun.com
+description: https://aliyun.com
 ---
 
 ## Icons

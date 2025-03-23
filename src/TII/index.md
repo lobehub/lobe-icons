@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: Technology Innovation Institute (Falcon)
 atomId: TII
-description: https://www.tii.ae
+description: https://tii.ae
 ---
 
 ## Icons

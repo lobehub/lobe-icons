@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: 01.AI (零一万物)
 atomId: ZeroOne
-description: https://www.lingyiwanwu.com/
+description: https://lingyiwanwu.com/
 ---
 
 ## Icons

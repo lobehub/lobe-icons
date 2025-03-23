@@ -20,6 +20,7 @@ export { default as BaiduCloud, type CompoundedIcon as BaiduCloudProps } from '.
 export { default as Bedrock, type CompoundedIcon as BedrockProps } from './Bedrock';
 export { default as Bing, type CompoundedIcon as BingProps } from './Bing';
 export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './ByteDance';
+export { default as Cerebras, type CompoundedIcon as CerebrasProps } from './Cerebras';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';
 export { default as Civitai, type CompoundedIcon as CivitaiProps } from './Civitai';
 export { default as Claude, type CompoundedIcon as ClaudeProps } from './Claude';
@@ -40,6 +41,7 @@ export { default as Cursor, type CompoundedIcon as CursorProps } from './Cursor'
 export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
 export { default as Dbrx, type CompoundedIcon as DbrxProps } from './Dbrx';
 export { default as DeepAI, type CompoundedIcon as DeepAIProps } from './DeepAI';
+export { default as DeepInfra, type CompoundedIcon as DeepInfraProps } from './DeepInfra';
 export { default as DeepMind, type CompoundedIcon as DeepMindProps } from './DeepMind';
 export { default as DeepSeek, type CompoundedIcon as DeepSeekProps } from './DeepSeek';
 export { default as Dify, type CompoundedIcon as DifyProps } from './Dify';

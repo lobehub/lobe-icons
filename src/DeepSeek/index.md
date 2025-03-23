@@ -3,7 +3,7 @@ nav: Components
 group: Model
 title: DeepSeek
 atomId: DeepSeek
-description: https://www.deepseek.com
+description: https://deepseek.com
 ---
 
 ## Icons

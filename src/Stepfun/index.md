@@ -3,7 +3,7 @@ nav: Components
 group: Model
 title: Stepfun (阶跃星辰)
 atomId: Stepfun
-description: https://www.stepfun.com
+description: https://stepfun.com
 ---
 
 ## Icons

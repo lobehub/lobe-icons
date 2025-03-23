@@ -5,7 +5,7 @@ group:
   order: 10
 title: Tiangong (天工)
 atomId: Tiangong
-description: https://www.tiangong.cn
+description: https://tiangong.cn
 ---
 
 ## Icons

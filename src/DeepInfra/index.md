@@ -1,21 +1,21 @@
 ---
 nav: Components
-group: Application
-title: Tripo
-atomId: Tripo
-description: https://tripo3d.ai
+group: Provider
+title: DeepInfra
+atomId: DeepInfra
+description: https://deepinfra.com
 ---
 
 ## Icons
 
 ```tsx
-import { Tripo } from '@lobehub/icons';
+import { DeepInfra } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Tripo size={64} />
-    <Tripo.Color size={64} />
+    <DeepInfra size={64} />
+    <DeepInfra.Color size={64} />
   </Flexbox>
 );
 ```
@@ -23,21 +23,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Tripo } from '@lobehub/icons';
+import { DeepInfra } from '@lobehub/icons';
 
-export default () => <Tripo.Text size={48} />;
+export default () => <DeepInfra.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Tripo } from '@lobehub/icons';
+import { DeepInfra } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <Tripo.Combine size={64} />
-    <Tripo.Combine size={64} type={'color'} />
+    <DeepInfra.Combine size={64} />
+    <DeepInfra.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -45,13 +45,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Tripo } from '@lobehub/icons';
+import { DeepInfra } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Tripo.Avatar size={64} />
-    <Tripo.Avatar size={64} shape={'square'} />
+    <DeepInfra.Avatar size={64} />
+    <DeepInfra.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -59,14 +59,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Tripo } from '@lobehub/icons';
+import { DeepInfra } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Tripo.colorPrimary} />
+    <ColorPreview color={DeepInfra.colorPrimary} />
   </Flexbox>
 );
 ```

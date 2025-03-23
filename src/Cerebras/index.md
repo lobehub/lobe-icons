@@ -1,21 +1,21 @@
 ---
 nav: Components
 group: Provider
-title: together.ai
-atomId: Together
-description: https://together.ai
+title: Cerebras
+atomId: Cerebras
+description: https://cerebras.ai
 ---
 
 ## Icons
 
 ```tsx
-import { Together } from '@lobehub/icons';
+import { Cerebras } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Together size={64} />
-    <Together.Color size={64} />
+    <Cerebras size={64} />
+    <Cerebras.Color size={64} />
   </Flexbox>
 );
 ```
@@ -23,21 +23,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Together } from '@lobehub/icons';
+import { Cerebras } from '@lobehub/icons';
 
-export default () => <Together.Text size={48} />;
+export default () => <Cerebras.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Together } from '@lobehub/icons';
+import { Cerebras } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <Together.Combine size={64} />
-    <Together.Combine size={64} type={'color'} />
+    <Cerebras.Combine size={64} />
+    <Cerebras.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -45,13 +45,13 @@ export default () => (
 ## Brands
 
 ```tsx
-import { Together } from '@lobehub/icons';
+import { Cerebras } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <Together.Brand size={64} />
-    <Together.BrandColor size={64} />
+    <Cerebras.Brand size={64} />
+    <Cerebras.BrandColor size={64} />
   </Flexbox>
 );
 ```
@@ -59,13 +59,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Together } from '@lobehub/icons';
+import { Cerebras } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Together.Avatar size={64} />
-    <Together.Avatar size={64} shape={'square'} />
+    <Cerebras.Avatar size={64} />
+    <Cerebras.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -73,14 +73,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Together } from '@lobehub/icons';
+import { Cerebras } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Together.colorPrimary} />
+    <ColorPreview color={Cerebras.colorPrimary} />
   </Flexbox>
 );
 ```

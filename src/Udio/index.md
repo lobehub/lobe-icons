@@ -3,7 +3,7 @@ nav: Components
 group: Application
 title: Udio
 atomId: Udio
-description: https://www.udio.com
+description: https://udio.com
 ---
 
 ## Icons

@@ -157,7 +157,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#FF6A00',
-    desc: 'https://www.aliyun.com',
+    desc: 'https://aliyun.com',
     docsUrl: 'alibaba-cloud',
     fullTitle: 'AlibabaCloud (阿里云)',
     group: 'provider',
@@ -444,6 +444,25 @@ const toc: IconToc[] = [
     title: 'ByteDance',
   },
   {
+    color: '#F15A29',
+    desc: 'https://cerebras.ai',
+    docsUrl: 'cerebras',
+    fullTitle: 'Cerebras',
+    group: 'provider',
+    id: 'Cerebras',
+    param: {
+      hasAvatar: true,
+      hasBrand: true,
+      hasBrandColor: true,
+      hasColor: true,
+      hasCombine: true,
+      hasText: true,
+      hasTextCn: false,
+      hasTextColor: false,
+    },
+    title: 'Cerebras',
+  },
+  {
     color: '#4268FA',
     colorGradient: 'linear-gradient(-45deg, #3485FF,  #504AF4)',
     desc: 'https://github.com/THUDM/ChatGLM-6B',
@@ -657,7 +676,7 @@ const toc: IconToc[] = [
   {
     color: '#000',
     colorGradient: 'linear-gradient(135deg, #0CD7FE, #03ACFF, #0272E1)',
-    desc: 'https://www.comfy.org',
+    desc: 'https://comfy.org',
     docsUrl: 'comfy-ui',
     fullTitle: 'ComfyUI',
     group: 'application',
@@ -791,7 +810,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#EE3D2C',
-    desc: 'https://www.databricks.com',
+    desc: 'https://databricks.com',
     docsUrl: 'dbrx',
     fullTitle: 'DBRX (Databricks)',
     group: 'model',
@@ -828,6 +847,25 @@ const toc: IconToc[] = [
     title: 'DeepAI',
   },
   {
+    color: '#fff',
+    desc: 'https://deepinfra.com',
+    docsUrl: 'deep-infra',
+    fullTitle: 'DeepInfra',
+    group: 'provider',
+    id: 'DeepInfra',
+    param: {
+      hasAvatar: true,
+      hasBrand: false,
+      hasBrandColor: false,
+      hasColor: true,
+      hasCombine: true,
+      hasText: true,
+      hasTextCn: false,
+      hasTextColor: false,
+    },
+    title: 'DeepInfra',
+  },
+  {
     color: '#4285F4',
     desc: 'https://deepmind.google',
     docsUrl: 'deep-mind',
@@ -848,7 +886,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#4D6BFE',
-    desc: 'https://www.deepseek.com',
+    desc: 'https://deepseek.com',
     docsUrl: 'deep-seek',
     fullTitle: 'DeepSeek',
     group: 'model',
@@ -1423,7 +1461,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#2A80E2',
-    desc: 'https://www.xfyun.cn',
+    desc: 'https://xfyun.cn',
     docsUrl: 'i-fly-tek-cloud',
     fullTitle: 'IFlyTekCloud (讯飞开放平台)',
     group: 'provider',
@@ -2152,7 +2190,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#74B71B',
-    desc: 'https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/',
+    desc: 'https://nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/',
     docsUrl: 'nvidia',
     fullTitle: 'Nvidia (ChatWithRTX)',
     group: 'application',
@@ -2726,7 +2764,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#DF0428',
-    desc: 'https://www.ctyun.cn/act/xirang/deepseek',
+    desc: 'https://ctyun.cn/act/xirang/deepseek',
     docsUrl: 'state-cloud',
     fullTitle: 'StateCloud (天翼云)',
     group: 'provider',
@@ -2745,7 +2783,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#005AFF',
-    desc: 'https://www.stepfun.com',
+    desc: 'https://stepfun.com',
     docsUrl: 'stepfun',
     fullTitle: 'Stepfun (阶跃星辰)',
     group: 'model',
@@ -2802,7 +2840,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#6400FF',
-    desc: 'https://www.tii.ae',
+    desc: 'https://tii.ae',
     docsUrl: 'tii',
     fullTitle: 'Technology Innovation Institute (Falcon)',
     group: 'provider',
@@ -2860,7 +2898,7 @@ const toc: IconToc[] = [
   {
     color: '#0057ff',
     colorGradient: 'linear-gradient(to right, #6865FC, #467DF9)',
-    desc: 'https://www.tiangong.cn',
+    desc: 'https://tiangong.cn',
     docsUrl: 'tiangong',
     fullTitle: 'Tiangong (天工)',
     group: 'application',
@@ -2879,7 +2917,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#0f6fff',
-    desc: 'https://www.together.ai',
+    desc: 'https://together.ai',
     docsUrl: 'together',
     fullTitle: 'together.ai',
     group: 'provider',
@@ -2898,7 +2936,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#000',
-    desc: 'https://www.tripo3d.ai',
+    desc: 'https://tripo3d.ai',
     docsUrl: 'tripo',
     fullTitle: 'Tripo',
     group: 'application',
@@ -2917,7 +2955,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#e30a5d',
-    desc: 'https://www.udio.com',
+    desc: 'https://udio.com',
     docsUrl: 'udio',
     fullTitle: 'Udio',
     group: 'application',
@@ -3262,7 +3300,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#003425',
-    desc: 'https://www.lingyiwanwu.com/',
+    desc: 'https://lingyiwanwu.com/',
     docsUrl: 'zero-one',
     fullTitle: '01.AI (零一万物)',
     group: 'provider',

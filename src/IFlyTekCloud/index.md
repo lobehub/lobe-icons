@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: IFlyTekCloud (讯飞开放平台)
 atomId: IFlyTekCloud
-description: https://www.xfyun.cn
+description: https://xfyun.cn
 ---
 
 ## Icons

@@ -3,7 +3,7 @@ nav: Components
 group: Model
 title: DBRX (Databricks)
 atomId: Dbrx
-description: https://www.databricks.com
+description: https://databricks.com
 ---
 
 ## Icons

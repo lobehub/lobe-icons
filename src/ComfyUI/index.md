@@ -5,7 +5,7 @@ group:
   order: 10
 title: ComfyUI
 atomId: ComfyUI
-description: https://www.comfy.org
+description: https://comfy.org
 ---
 
 ## Icons
