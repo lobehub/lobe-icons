@@ -57,7 +57,8 @@
     "test": "vitest --passWithNoTests",
     "test:coverage": "vitest run --coverage  --passWithNoTests",
     "test:update": "vitest -u",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "vectorizer": "tsx scripts/vectorizer/index.ts"
   },
   "lint-staged": {
     "*.md": [
@@ -79,31 +80,32 @@
     ]
   },
   "dependencies": {
-    "@lobehub/ui": "^1.165.6",
+    "@lobehub/ui": "^1.168.7",
     "antd-style": "^3.7.1",
     "lucide-react": "^0.469.0",
     "polished": "^4.3.1",
     "react-layout-kit": "^1.9.1"
   },
   "devDependencies": {
-    "@babel/runtime": "^7.26.10",
+    "@babel/runtime": "^7.27.0",
     "@commitlint/cli": "^19.8.0",
     "@lobehub/lint": "^1.25.7",
     "@testing-library/react": "^16.2.0",
     "@types/lodash-es": "^4.17.12",
     "@types/pangu": "^4.0.2",
-    "@types/react": "^19.0.11",
+    "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
     "@vitest/coverage-v8": "^3.0.9",
     "ajv": "^8.17.1",
     "babel-plugin-antd-style": "^1.0.4",
     "clean-package": "^2.2.0",
     "commitlint": "^19.8.0",
-    "consola": "^3.4.1",
+    "consola": "^3.4.2",
     "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
     "dpdm": "^3.14.0",
     "dumi": "^2.4.18",
-    "dumi-theme-lobehub": "^1.15.0",
+    "dumi-theme-lobehub": "^1.15.1",
     "eslint": "^8.57.1",
     "father": "^4.5.2",
     "glob": "^11.0.1",

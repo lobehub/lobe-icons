@@ -1,4 +1,4 @@
-import consola from 'consola';
+import { consola } from 'consola';
 import { markdownTable } from 'markdown-table';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';

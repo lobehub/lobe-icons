@@ -35,6 +35,7 @@ export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
 export { default as ComfyUI, type CompoundedIcon as ComfyUIProps } from './ComfyUI';
 export { default as CommandA, type CompoundedIcon as CommandAProps } from './CommandA';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
+export { default as Coqui, type CompoundedIcon as CoquiProps } from './Coqui';
 export { default as Coze, type CompoundedIcon as CozeProps } from './Coze';
 export { default as CrewAI, type CompoundedIcon as CrewAIrops } from './CrewAI';
 export { default as Cursor, type CompoundedIcon as CursorProps } from './Cursor';
@@ -170,6 +171,7 @@ export { default as Volcengine, type CompoundedIcon as VolcengineProps } from '.
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
 export { default as XAI, type CompoundedIcon as XAIProps } from './XAI';
+export { default as Xinference, type CompoundedIcon as XinferenceProps } from './Xinference';
 export { default as Xuanyuan, type CompoundedIcon as XuanyuanProps } from './Xuanyuan';
 export { default as Yandex, type CompoundedIcon as YandexProps } from './Yandex';
 export { default as Yi, type CompoundedIcon as YiProps } from './Yi';

@@ -6,7 +6,6 @@ import Ai360 from '@/Ai360';
 import AiMass from '@/AiMass';
 import Aws from '@/Aws';
 import Aya from '@/Aya';
-import Azure from '@/Azure';
 import Baichuan from '@/Baichuan';
 import ByteDance from '@/ByteDance';
 import ChatGLM from '@/ChatGLM';
@@ -30,6 +29,7 @@ import InternLM from '@/InternLM';
 import Jina from '@/Jina';
 import LLaVA from '@/LLaVA';
 import Meta from '@/Meta';
+import Microsoft from '@/Microsoft';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import Moonshot from '@/Moonshot';
@@ -127,7 +127,7 @@ export const modelMappings: ModelMapping[] = [
   },
   { Icon: Flux, keywords: ['flux'] },
   { Icon: Suno, keywords: ['suno'] },
-  { Icon: Azure, keywords: ['wizardlm', 'phi3', 'phi-3', 'phi-2'] },
+  { Icon: Microsoft, keywords: ['wizardlm', 'phi3', '^/phi-', '^phi-'] },
   { Icon: Adobe, keywords: ['firefly'] },
   { Icon: Ai21, keywords: ['jamba', '^j2-', 'ai21'] },
   { Icon: Upstage, keywords: ['^solar-', '/solar'] },

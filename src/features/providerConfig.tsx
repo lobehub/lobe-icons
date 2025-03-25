@@ -57,6 +57,7 @@ import Volcengine from '@/Volcengine';
 import Wenxin from '@/Wenxin';
 import WorkersAI from '@/WorkersAI';
 import XAI from '@/XAI';
+import Xinference from '@/Xinference';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
 import type { IconType } from '@/types';
@@ -209,8 +210,9 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Jina, keywords: [ModelProvider.Jina] },
   { Icon: AzureAI, keywords: [ModelProvider.AzureAI] },
   { Icon: Volcengine, keywords: [ModelProvider.Volcengine] },
-  { Icon: SambaNova, combineMultiple: 0.85, keywords: [ModelProvider.SambaNova] },
+  { Icon: SambaNova, combineMultiple: 0.8, keywords: [ModelProvider.SambaNova] },
   { Icon: Cohere, keywords: [ModelProvider.Cohere] },
-  { Icon: Search1API, keywords: [ModelProvider.Search1API] },
-  { Icon: Infinigence, keywords: [ModelProvider.InfiniAI] },
+  { Icon: Search1API, combineMultiple: 0.9, keywords: [ModelProvider.Search1API] },
+  { Icon: Infinigence, combineMultiple: 0.8, keywords: [ModelProvider.InfiniAI] },
+  { Icon: Xinference, combineMultiple: 0.85, keywords: [ModelProvider.Xinference] },
 ];

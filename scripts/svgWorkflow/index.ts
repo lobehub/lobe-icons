@@ -1,4 +1,4 @@
-import consola from 'consola';
+import { consola } from 'consola';
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import pMap from 'p-map';
