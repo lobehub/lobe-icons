@@ -4,6 +4,7 @@ import Adobe from '@/Adobe';
 import Ai21 from '@/Ai21';
 import Ai360 from '@/Ai360';
 import AiMass from '@/AiMass';
+import AssemblyAI from '@/AssemblyAI';
 import Aws from '@/Aws';
 import Aya from '@/Aya';
 import Baichuan from '@/Baichuan';
@@ -28,6 +29,7 @@ import Ideogram from '@/Ideogram';
 import InternLM from '@/InternLM';
 import Jina from '@/Jina';
 import LLaVA from '@/LLaVA';
+import Liquid from '@/Liquid';
 import Meta from '@/Meta';
 import Microsoft from '@/Microsoft';
 import Minimax from '@/Minimax';
@@ -47,6 +49,7 @@ import Stepfun from '@/Stepfun';
 import Suno from '@/Suno';
 import Udio from '@/Udio';
 import Upstage from '@/Upstage';
+import Voyage from '@/Voyage';
 import Wenxin from '@/Wenxin';
 import Yi from '@/Yi';
 import type { IconAvatarProps } from '@/features/IconAvatar';
@@ -151,4 +154,7 @@ export const modelMappings: ModelMapping[] = [
   },
   { Icon: Udio, keywords: ['udio'] },
   { Icon: DeepSeek, keywords: ['deepseek'] },
+  { Icon: Voyage, keywords: ['voyage'] },
+  { Icon: AssemblyAI, keywords: ['assemblyai'] },
+  { Icon: Liquid, keywords: ['liquid', 'lfm'] },
 ];

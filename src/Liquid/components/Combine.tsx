@@ -5,19 +5,18 @@ import { memo } from 'react';
 import IconCombine, { type IconCombineProps } from '@/features/IconCombine';
 
 import { SPACE_MULTIPLE, TEXT_MULTIPLE, TITLE } from '../style';
-import Color from './BrandColor';
-import Mono from './BrandMono';
+import Mono from './Mono';
+import Text from './Text';
 
-export interface CombineProps extends Omit<IconCombineProps, 'Icon' | 'Text'> {
-  type?: 'color' | 'mono';
-}
-const Combine = memo<CombineProps>(({ type = 'mono', ...rest }) => {
-  const Icon = type === 'color' ? Color : Mono;
+export type CombineProps = Omit<IconCombineProps, 'Icon' | 'Text'>;
 
+const Combine = memo<CombineProps>(({ ...rest }) => {
   return (
     <IconCombine
-      Icon={Icon}
+      Icon={Mono}
+      Text={Text}
       aria-label={TITLE}
+      iconProps={{ shape: 'square' }}
       spaceMultiple={SPACE_MULTIPLE}
       textMultiple={TEXT_MULTIPLE}
       {...rest}
