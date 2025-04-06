@@ -4,19 +4,18 @@ import { memo } from 'react';
 
 import IconAvatar, { type IconAvatarProps } from '@/features/IconAvatar';
 
-import { COLOR_GRADIENT, TITLE } from '../style';
+import { COLOR_PRIMARY, TITLE } from '../style';
 import Mono from './Mono';
 
 export type AvatarProps = Omit<IconAvatarProps, 'Icon'>;
 
-const Avatar = memo<AvatarProps>((props) => {
-  const { ...rest } = props;
+const Avatar = memo<AvatarProps>(({ background, ...rest }) => {
   return (
     <IconAvatar
       Icon={Mono}
       aria-label={TITLE}
-      background={COLOR_GRADIENT}
-      color={'#fff'}
+      background={background || COLOR_PRIMARY}
+      color={COLOR_PRIMARY}
       {...rest}
     />
   );
