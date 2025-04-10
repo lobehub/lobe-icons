@@ -1,7 +1,7 @@
 'use client';
 
 import { useThemeMode } from 'antd-style';
-import { CSSProperties, forwardRef } from 'react';
+import { CSSProperties, memo } from 'react';
 import { Center, type FlexboxProps } from 'react-layout-kit';
 
 import { IconType } from '@/types';
@@ -19,26 +19,22 @@ export interface IconAvatarProps extends Omit<FlexboxProps, 'children'> {
   size: number;
 }
 
-const IconAvatar = forwardRef<HTMLDivElement, IconAvatarProps>(
-  (
-    {
-      shape = 'circle',
-      color = '#fff',
-      background,
-      size,
-      style,
-      iconMultiple = 0.75,
-      Icon,
-      iconStyle,
-      iconClassName,
-    },
-    ref,
-  ) => {
+const IconAvatar = memo<IconAvatarProps>(
+  ({
+    shape = 'circle',
+    color = '#fff',
+    background,
+    size,
+    style,
+    iconMultiple = 0.75,
+    Icon,
+    iconStyle,
+    iconClassName,
+  }) => {
     const { isDarkMode } = useThemeMode();
     return (
       <Center
         flex={'none'}
-        ref={ref}
         style={{
           background,
           borderRadius: shape === 'circle' ? '50%' : Math.floor(size * 0.1),

@@ -1,7 +1,7 @@
 import { Icon } from '@lobehub/ui';
 import { useTheme } from 'antd-style';
 import { Radar } from 'lucide-react';
-import { CSSProperties, forwardRef } from 'react';
+import { type CSSProperties, memo } from 'react';
 
 interface DefaultIconProps {
   className?: string;
@@ -10,17 +10,9 @@ interface DefaultIconProps {
   style?: CSSProperties;
 }
 
-const DefaultIcon = forwardRef<any, DefaultIconProps>(({ color, size = 12, ...rest }, ref) => {
+const DefaultIcon = memo<DefaultIconProps>(({ color, size = 12, ...rest }) => {
   const theme = useTheme();
-  return (
-    <Icon
-      color={color || theme.colorTextDescription}
-      icon={Radar}
-      ref={ref}
-      size={{ fontSize: size }}
-      {...rest}
-    />
-  );
+  return <Icon color={color || theme.colorTextDescription} icon={Radar} size={size} {...rest} />;
 });
 
 export default DefaultIcon;
