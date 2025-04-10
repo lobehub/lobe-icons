@@ -1,14 +1,14 @@
 'use client';
 
 import { useThemeMode } from 'antd-style';
-import { forwardRef } from 'react';
+import { memo } from 'react';
 
 import { useFillId } from '@/hooks/useFillId';
 import type { IconType } from '@/types';
 
 import { TITLE } from '../style';
 
-const Icon: IconType = forwardRef(({ size = '1em', style, color, ...rest }, ref) => {
+const Icon: IconType = memo(({ size = '1em', style, color, ...rest }) => {
   const { fill, id } = useFillId(TITLE);
   const { isDarkMode } = useThemeMode();
   return (
@@ -16,7 +16,6 @@ const Icon: IconType = forwardRef(({ size = '1em', style, color, ...rest }, ref)
       fill="currentColor"
       fillRule="evenodd"
       height={size}
-      ref={ref}
       style={{
         flex: 'none',
         lineHeight: 1,

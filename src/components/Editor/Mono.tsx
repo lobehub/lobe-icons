@@ -37,18 +37,18 @@ const Preview = memo<PreviewProps>(({ svg, title, viewbox }) => {
       <Highlighter className={styles.code} language={'tsx'}>
         {`'use client';
 
-import { forwardRef } from 'react';
+import { memo } from 'react';
 import type { IconType } from '@/types';
 
 import { TITLE } from '../style';
 
-const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
+const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
   return (
     <svg
       fill="currentColor"
       fillRule="evenodd"
       height={size}
-      ref={ref}
+
       style={{ flex: 'none', lineHeight: 1, ...style }}
       viewBox="${viewbox}"
       width={size}

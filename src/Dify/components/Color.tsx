@@ -1,20 +1,19 @@
 'use client';
 
-import { forwardRef } from 'react';
+import { memo } from 'react';
 
 import { useFillId } from '@/hooks/useFillId';
 import type { IconType } from '@/types';
 
 import { COLOR_GRADIENT, TITLE } from '../style';
 
-const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
+const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
   const { fill, id } = useFillId(TITLE);
   return (
     <svg
       fill="currentColor"
       fillRule="evenodd"
       height={size}
-      ref={ref}
       style={{
         flex: 'none',
         lineHeight: 1,

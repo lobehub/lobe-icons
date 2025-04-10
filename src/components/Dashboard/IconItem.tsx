@@ -30,13 +30,14 @@ const useStyles = createStyles(({ cx, css, token }) => {
 
       overflow: hidden;
 
-      background: ${token.colorBgContainer};
       border: 1px solid ${token.colorBorderSecondary};
       border-radius: ${token.borderRadiusLG}px;
+
+      background: ${token.colorBgContainer};
     `,
     color: css`
-      font-family: ${token.fontFamilyCode};
       border-inline-end: 1px solid ${token.colorBorderSecondary};
+      font-family: ${token.fontFamilyCode};
 
       &:hover {
         .color-text {
@@ -97,7 +98,7 @@ const IconItem = memo<IconItemProps>(({ children, title, color, id }) => {
   return (
     <Flexbox className={styles.card}>
       <Link style={{ color: 'inherit' }} to={`/components/${customKebabCase(id)}`}>
-        <Center height={96} ref={ref} style={{ position: 'relative' }} width={'100%'}>
+        <Center height={96} style={{ position: 'relative' }} width={'100%'}>
           {children}
         </Center>
       </Link>
