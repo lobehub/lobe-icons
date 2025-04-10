@@ -1,29 +1,25 @@
 import { useTheme } from 'antd-style';
-import { forwardRef } from 'react';
+import { memo } from 'react';
 import { Center } from 'react-layout-kit';
 
-import { IconAvatarProps } from '../IconAvatar';
+import type { IconAvatarProps } from '../IconAvatar';
 import DefaultIcon from './DefaultIcon';
 
-const DefaultAvatar = forwardRef<HTMLDivElement, Omit<IconAvatarProps, 'Icon'>>(
-  (
-    {
-      shape = 'circle',
-      color,
-      background,
-      size,
-      style,
-      iconMultiple = 0.6,
-      iconStyle,
-      iconClassName,
-    },
-    ref,
-  ) => {
+const DefaultAvatar = memo<Omit<IconAvatarProps, 'Icon'>>(
+  ({
+    shape = 'circle',
+    color,
+    background,
+    size,
+    style,
+    iconMultiple = 0.6,
+    iconStyle,
+    iconClassName,
+  }) => {
     const theme = useTheme();
     return (
       <Center
         flex={'none'}
-        ref={ref}
         style={{
           background: background || theme.colorFillSecondary,
           borderRadius: shape === 'circle' ? '50%' : Math.floor(size * 0.1),

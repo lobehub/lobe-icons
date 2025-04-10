@@ -21,12 +21,12 @@ const useStyles = createStyles(({ css, token, cx }) => {
       flex: none;
 
       padding: 12px;
+      border: 1px solid ${token.colorBorder};
+      border-radius: ${token.borderRadius}px;
 
       line-height: 1;
 
       background: ${token.colorBgContainer};
-      border: 1px solid ${token.colorBorder};
-      border-radius: ${token.borderRadius}px;
 
       &:hover {
         .copy-button {
@@ -68,11 +68,9 @@ const IconPreview = memo<IconPreviewProps>(({ className, children, ...rest }) =>
       {...rest}
     >
       {isString ? (
-        <div className={styles.inner} dangerouslySetInnerHTML={{ __html: children }} ref={ref} />
+        <div className={styles.inner} dangerouslySetInnerHTML={{ __html: children }} />
       ) : (
-        <div className={styles.inner} ref={ref}>
-          {children}
-        </div>
+        <div className={styles.inner}>{children}</div>
       )}
       <DownloadButton
         className={styles.btn}

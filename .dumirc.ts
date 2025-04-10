@@ -19,10 +19,10 @@ const nav: INavItem[] = [
 const themeConfig: SiteThemeConfig = {
   actions: [
     {
-      icon: 'Github',
+      github: true,
       link: homepage,
       openExternal: true,
-      text: 'Github',
+      text: 'GitHub',
     },
     {
       link: '/components/lobe-hub',

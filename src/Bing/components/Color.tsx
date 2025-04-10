@@ -1,19 +1,18 @@
 'use client';
 
-import { forwardRef } from 'react';
+import { memo } from 'react';
 
 import { useFillIds } from '@/hooks/useFillId';
 import type { IconType } from '@/types';
 
 import { TITLE } from '../style';
 
-const Icon: IconType = forwardRef(({ size = '1em', style, ...rest }, ref) => {
+const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
   const [a, b, c] = useFillIds(TITLE, 3);
 
   return (
     <svg
       height={size}
-      ref={ref}
       style={{ flex: 'none', lineHeight: 1, ...style }}
       viewBox="0 0 24 24"
       width={size}
