@@ -7,7 +7,7 @@ import IconAvatar, { IconAvatarProps } from '@/features/IconAvatar';
 import { IconType } from '@/types';
 
 export interface IconCombineProps extends FlexboxProps {
-  Icon: IconType | typeof IconAvatar;
+  Icon?: IconType | typeof IconAvatar;
   Text?: IconType;
   color?: string;
   extra?: string;
@@ -42,7 +42,7 @@ const IconCombine = forwardRef<HTMLDivElement, IconCombineProps>(
     },
     ref,
   ) => {
-    const logo = showLogo && (
+    const logo = Icon && showLogo && (
       <Icon
         size={size}
         {...(iconProps as any)}

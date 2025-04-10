@@ -1,21 +1,21 @@
 ---
 nav: Components
 group: Provider
-title: AiHubMix (推理时代)
-atomId: AiHubMix
-description: https://aihubmix.com
+title: Infermatic
+atomId: Infermatic
+description: https://infermatic.ai
 ---
 
 ## Icons
 
 ```tsx
-import { AiHubMix } from '@lobehub/icons';
+import { Infermatic } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <AiHubMix size={64} />
-    <AiHubMix.Color size={64} />
+    <Infermatic size={64} />
+    <Infermatic.Color size={64} />
   </Flexbox>
 );
 ```
@@ -23,21 +23,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { AiHubMix } from '@lobehub/icons';
+import { Infermatic } from '@lobehub/icons';
 
-export default () => <AiHubMix.Text size={48} />;
+export default () => <Infermatic.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { AiHubMix } from '@lobehub/icons';
+import { Infermatic } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <AiHubMix.Combine size={64} />
-    <AiHubMix.Combine size={64} type={'color'} />
+    <Infermatic.Combine size={64} />
+    <Infermatic.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -45,13 +45,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { AiHubMix } from '@lobehub/icons';
+import { Infermatic } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <AiHubMix.Avatar size={64} />
-    <AiHubMix.Avatar size={64} shape={'square'} />
+    <Infermatic.Avatar size={64} />
+    <Infermatic.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -59,14 +59,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { AiHubMix } from '@lobehub/icons';
+import { Infermatic } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={AiHubMix.colorPrimary} />
+    <ColorPreview color={Infermatic.colorPrimary} />
   </Flexbox>
 );
 ```
