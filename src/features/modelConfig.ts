@@ -4,6 +4,7 @@ import Adobe from '@/Adobe';
 import Ai21 from '@/Ai21';
 import Ai360 from '@/Ai360';
 import AiMass from '@/AiMass';
+import AionLabs from '@/AionLabs';
 import AssemblyAI from '@/AssemblyAI';
 import Aws from '@/Aws';
 import Aya from '@/Aya';
@@ -26,6 +27,7 @@ import Google from '@/Google';
 import Grok from '@/Grok';
 import Hunyuan from '@/Hunyuan';
 import Ideogram from '@/Ideogram';
+import Inflection from '@/Inflection';
 import InternLM from '@/InternLM';
 import Jina from '@/Jina';
 import LLaVA from '@/LLaVA';
@@ -157,4 +159,6 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Voyage, keywords: ['voyage'] },
   { Icon: AssemblyAI, keywords: ['assemblyai'] },
   { Icon: Liquid, keywords: ['liquid', 'lfm'] },
+  { Icon: Inflection, keywords: ['inflection-'] },
+  { Icon: AionLabs, keywords: ['aion-'] },
 ];
