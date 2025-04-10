@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.96.0](https://github.com/lobehub/lobe-icons/compare/v1.95.0...v1.96.0)
+
+<sup>Released on **2025-04-10**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add AiHubMix, AionLabs, Crusoe, Featherless, Inference, Infermatic, Inflection, LeptonAI, Parasail, Targon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([e45c3d4](https://github.com/lobehub/lobe-icons/commit/e45c3d4))
+- **misc**: Add AiHubMix, AionLabs, Crusoe, Featherless, Inference, Infermatic, Inflection, LeptonAI, Parasail, Targon, closes [#95](https://github.com/lobehub/lobe-icons/issues/95) [#93](https://github.com/lobehub/lobe-icons/issues/93) [#94](https://github.com/lobehub/lobe-icons/issues/94) ([3a9daf1](https://github.com/lobehub/lobe-icons/commit/3a9daf1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.95.0](https://github.com/lobehub/lobe-icons/compare/v1.94.0...v1.95.0)
 
 <sup>Released on **2025-03-31**</sup>
