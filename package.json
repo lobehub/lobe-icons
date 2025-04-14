@@ -80,7 +80,7 @@
     ]
   },
   "dependencies": {
-    "@lobehub/ui": "https://pkg.pr.new/lobehub/lobe-ui/@lobehub/ui@306e573",
+    "@lobehub/ui": "https://pkg.pr.new/lobehub/lobe-ui/@lobehub/ui@94975dd",
     "antd-style": "^3.7.1",
     "lucide-react": "^0.469.0",
     "polished": "^4.3.1",

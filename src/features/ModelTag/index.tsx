@@ -13,4 +13,6 @@ const ModelTag = memo<ModelTagProps>(({ type = 'mono', model, ...rest }) => (
   </Tag>
 ));
 
+ModelTag.displayName = 'ModelTag';
+
 export default ModelTag;

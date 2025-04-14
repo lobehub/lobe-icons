@@ -84,4 +84,6 @@ const ProviderIcon = memo<ProviderIconProps>(
   },
 );
 
+ProviderIcon.displayName = 'ProviderIcon';
+
 export default ProviderIcon;
