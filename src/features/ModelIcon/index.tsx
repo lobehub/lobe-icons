@@ -77,4 +77,6 @@ const ModelIcon = memo<ModelIconProps>(
   },
 );
 
+ModelIcon.displayName = 'ModelIcon';
+
 export default ModelIcon;

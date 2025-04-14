@@ -58,4 +58,6 @@ const ProviderCombine = memo<ProviderCombineProps>(
   },
 );
 
+ProviderCombine.displayName = 'ProviderCombine';
+
 export default ProviderCombine;
