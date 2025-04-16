@@ -138,7 +138,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Upstage, keywords: ['^solar-', '/solar'] },
   { Icon: PaLM, keywords: ['palm'] },
   { Icon: Google, keywords: ['google'] },
-  { Icon: SenseNova, keywords: ['SenseChat'] },
+  { Icon: SenseNova, keywords: ['SenseChat', 'SenseNova'] },
   { Icon: Grok, keywords: ['^grok-'] },
   { Icon: Ideogram, keywords: ['ideogram'] },
   {
