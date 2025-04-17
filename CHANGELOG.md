@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.97.0](https://github.com/lobehub/lobe-icons/compare/v1.96.0...v1.97.0)
+
+<sup>Released on **2025-04-17**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Add `SenseNova-V6` series icon support.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([d1e2c0b](https://github.com/lobehub/lobe-icons/commit/d1e2c0b))
+
+#### Styles
+
+- **misc**: Add `SenseNova-V6` series icon support, closes [#100](https://github.com/lobehub/lobe-icons/issues/100) ([772c866](https://github.com/lobehub/lobe-icons/commit/772c866))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.96.0](https://github.com/lobehub/lobe-icons/compare/v1.95.0...v1.96.0)
 
 <sup>Released on **2025-04-10**</sup>
