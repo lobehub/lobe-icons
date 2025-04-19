@@ -78,7 +78,7 @@ export interface ModelMapping {
 export const modelMappings: ModelMapping[] = [
   { Icon: OpenAI, keywords: ['gpt-3'], props: { type: 'gpt3' } },
   { Icon: OpenAI, keywords: ['gpt-4'], props: { type: 'gpt4' } },
-  { Icon: OpenAI, keywords: ['o1-', '^o1', '/o1', 'o3-', '^o3', '/o3'], props: { type: 'o1' } },
+  { Icon: OpenAI, keywords: ['o1-', '^o1', '/o1', 'o3-', '^o3', '/o3', 'o4-', '^o4', '/o4'], props: { type: 'o1' } },
   { Icon: Dalle, keywords: ['dalle', 'dall-e'] },
   { Icon: OpenAI, keywords: ['^gpt-', '/gpt-', 'openai', 'text-embedding-', 'tts-', 'whisper-'] },
   { Icon: ChatGLM, keywords: ['glm-', 'chatglm'] },
@@ -132,7 +132,7 @@ export const modelMappings: ModelMapping[] = [
   },
   { Icon: Flux, keywords: ['flux'] },
   { Icon: Suno, keywords: ['suno'] },
-  { Icon: Microsoft, keywords: ['wizardlm', 'phi3', '^/phi-', '^phi-'] },
+  { Icon: Microsoft, keywords: ['wizardlm', 'phi3', 'phi4', '^/phi-', '^phi-'] },
   { Icon: Adobe, keywords: ['firefly'] },
   { Icon: Ai21, keywords: ['jamba', '^j2-', 'ai21'] },
   { Icon: Upstage, keywords: ['^solar-', '/solar'] },
