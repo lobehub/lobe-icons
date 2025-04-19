@@ -1,7 +1,7 @@
 'use client';
 
 import * as Icons from '@lobehub/icons';
-import { StoryBook, useControls, useCreateStore } from '@lobehub/ui';
+import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
@@ -14,8 +14,8 @@ const useStyles = createStyles(({ css, token }) => ({
   item: css`
     height: 96px;
     padding: 16px;
-    background: ${token.colorBgContainer};
     border: none;
+    background: ${token.colorBgContainer};
   `,
 }));
 

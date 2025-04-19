@@ -1,6 +1,6 @@
 'use client';
 
-import { CSSProperties, forwardRef, useMemo } from 'react';
+import { CSSProperties, memo, useMemo } from 'react';
 
 import { providerMappings } from '../providerConfig';
 import { ModelProvider, ModelProviderKey } from '../providerEnum';
@@ -17,8 +17,8 @@ export interface ProviderIconProps {
   type?: 'avatar' | 'mono' | 'color' | 'combine' | 'combine-color';
 }
 
-const ProviderIcon = forwardRef<any, ProviderIconProps>(
-  ({ provider: originProvider, size = 12, type = 'avatar', forceMono, shape, ...rest }, ref) => {
+const ProviderIcon = memo<ProviderIconProps>(
+  ({ provider: originProvider, size = 12, type = 'avatar', forceMono, shape, ...rest }) => {
     const Render = useMemo(() => {
       if (!originProvider) return;
       const provider = originProvider.toLowerCase();
@@ -31,7 +31,6 @@ const ProviderIcon = forwardRef<any, ProviderIconProps>(
     }, [originProvider]);
 
     const props = {
-      ref,
       size,
       ...Render?.props,
       ...rest,
@@ -84,5 +83,7 @@ const ProviderIcon = forwardRef<any, ProviderIconProps>(
     }
   },
 );
+
+ProviderIcon.displayName = 'ProviderIcon';
 
 export default ProviderIcon;
