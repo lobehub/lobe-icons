@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.97.1](https://github.com/lobehub/lobe-icons/compare/v1.97.0...v1.97.1)
+
+<sup>Released on **2025-04-19**</sup>
+
+#### 💄 Styles
+
+- **misc**: Support o4 icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Support o4 icons, closes [#101](https://github.com/lobehub/lobe-icons/issues/101) ([3659051](https://github.com/lobehub/lobe-icons/commit/3659051))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.97.0](https://github.com/lobehub/lobe-icons/compare/v1.96.0...v1.97.0)
 
 <sup>Released on **2025-04-17**</sup>
