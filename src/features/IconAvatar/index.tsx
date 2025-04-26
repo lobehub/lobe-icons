@@ -2,13 +2,13 @@
 
 import { useThemeMode } from 'antd-style';
 import { CSSProperties, memo } from 'react';
-import { Center, type FlexboxProps } from 'react-layout-kit';
+import { Center, type CenterProps } from 'react-layout-kit';
 
 import { IconType } from '@/types';
 
 import { getAvatarShadow, roundToEven } from './util';
 
-export interface IconAvatarProps extends Omit<FlexboxProps, 'children'> {
+export interface IconAvatarProps extends Omit<CenterProps, 'children'> {
   Icon?: IconType;
   background?: string;
   color?: string;
@@ -30,6 +30,7 @@ const IconAvatar = memo<IconAvatarProps>(
     Icon,
     iconStyle,
     iconClassName,
+    ...rest
   }) => {
     const { isDarkMode } = useThemeMode();
     return (
@@ -44,6 +45,7 @@ const IconAvatar = memo<IconAvatarProps>(
           width: size,
           ...style,
         }}
+        {...rest}
       >
         {Icon && (
           <Icon
