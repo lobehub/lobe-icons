@@ -1,5 +1,3 @@
-'use client';
-
 import Avatar from './components/Avatar';
 import Combine from './components/Combine';
 import Mono from './components/Mono';

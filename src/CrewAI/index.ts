@@ -1,5 +1,3 @@
-'use client';
-
 import Avatar from './components/Avatar';
 import Brand from './components/Brand';
 import BrandColor from './components/BrandColor';

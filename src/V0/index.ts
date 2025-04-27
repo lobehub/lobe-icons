@@ -1,5 +1,3 @@
-'use client';
-
 import Avatar from './components/Avatar';
 import Mono from './components/Mono';
 import { COLOR_PRIMARY, TITLE } from './style';
