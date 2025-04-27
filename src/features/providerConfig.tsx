@@ -41,6 +41,7 @@ import OpenAI from '@/OpenAI';
 import OpenRouter from '@/OpenRouter';
 import PPIO from '@/PPIO';
 import Perplexity from '@/Perplexity';
+import Qiniu from '@/Qiniu';
 import Qwen from '@/Qwen';
 import SambaNova from '@/SambaNova';
 import Search1API from '@/Search1API';
@@ -156,6 +157,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: OpenRouter, combineMultiple: 0.8, keywords: [ModelProvider.OpenRouter] },
   { Icon: ZeroOne, combineMultiple: 0.9, keywords: [ModelProvider.ZeroOne] },
   { Icon: Together, keywords: [ModelProvider.TogetherAI] },
+  { Icon: Qiniu, combineMultiple: 1.1, keywords: [ModelProvider.Qiniu] },
   { Icon: Qwen, keywords: [ModelProvider.Qwen] },
   { Icon: Stepfun, combineMultiple: 0.83, keywords: [ModelProvider.Stepfun] },
   { Icon: Spark, combineMultiple: 0.92, keywords: [ModelProvider.Spark] },

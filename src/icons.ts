@@ -150,6 +150,7 @@ export { default as Poe, type CompoundedIcon as PoeProps } from './Poe';
 export { default as Pollinations, type CompoundedIcon as PollinationsProps } from './Pollinations';
 export { default as PPIO, type CompoundedIcon as PPIOProps } from './PPIO';
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';
+export { default as Qiniu, type CompoundedIcon as QiniuProps } from './Qiniu';
 export { default as Qwen, type CompoundedIcon as QwenProps } from './Qwen';
 export { default as Railway, type CompoundedIcon as RailwayProps } from './Railway';
 export { default as Recraft, type CompoundedIcon as RecraftProps } from './Recraft';
