@@ -42,6 +42,7 @@ import OpenChat from '@/OpenChat';
 import OpenRouter from '@/OpenRouter';
 import PaLM from '@/PaLM';
 import Perplexity from '@/Perplexity';
+import Qiniu from '@/Qiniu';
 import Qwen from '@/Qwen';
 import Rwkv from '@/Rwkv';
 import SenseNova from '@/SenseNova';
@@ -78,7 +79,11 @@ export interface ModelMapping {
 export const modelMappings: ModelMapping[] = [
   { Icon: OpenAI, keywords: ['gpt-3'], props: { type: 'gpt3' } },
   { Icon: OpenAI, keywords: ['gpt-4'], props: { type: 'gpt4' } },
-  { Icon: OpenAI, keywords: ['o1-', '^o1', '/o1', 'o3-', '^o3', '/o3', 'o4-', '^o4', '/o4'], props: { type: 'o1' } },
+  {
+    Icon: OpenAI,
+    keywords: ['o1-', '^o1', '/o1', 'o3-', '^o3', '/o3', 'o4-', '^o4', '/o4'],
+    props: { type: 'o1' },
+  },
   { Icon: Dalle, keywords: ['dalle', 'dall-e'] },
   { Icon: OpenAI, keywords: ['^gpt-', '/gpt-', 'openai', 'text-embedding-', 'tts-', 'whisper-'] },
   { Icon: ChatGLM, keywords: ['glm-', 'chatglm'] },
@@ -92,6 +97,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Gemini, keywords: ['gemini'] },
   { Icon: Gemma, keywords: ['gemma'] },
   { Icon: Moonshot, keywords: ['kimi', 'moonshot'] },
+  { Icon: Qiniu, keywords: ['qiniu'] },
   { Icon: Qwen, keywords: ['qwen', 'qwq', 'qvq'] },
   { Icon: Minimax, keywords: ['minimax', 'abab'] },
   {
