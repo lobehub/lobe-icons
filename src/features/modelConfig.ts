@@ -152,6 +152,7 @@ export const modelMappings: ModelMapping[] = [
       'pro-128k$',
       '^max-32k$',
       '^lite$',
+      '^x1$'
     ],
   },
   { Icon: Udio, keywords: ['udio'] },
