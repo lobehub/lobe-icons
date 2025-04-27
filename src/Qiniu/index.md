@@ -1,9 +1,9 @@
 ---
 nav: Components
-group: Model
+group: Provider
 title: Qiniu (七牛云)
 atomId: Qiniu
-description: https://www.qiniu.com
+description: https://qiniu.com
 ---
 
 ## Icons

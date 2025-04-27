@@ -2875,10 +2875,10 @@ const toc: IconToc[] = [
   },
   {
     color: '#06AEEF',
-    desc: 'https://www.qiniu.com',
+    desc: 'https://qiniu.com',
     docsUrl: 'qiniu',
     fullTitle: 'Qiniu (七牛云)',
-    group: 'model',
+    group: 'provider',
     id: 'Qiniu',
     param: {
       hasAvatar: true,
