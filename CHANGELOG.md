@@ -2,6 +2,37 @@
 
 # Changelog
 
+## [Version 1.98.0](https://github.com/lobehub/lobe-icons/compare/v1.97.2...v1.98.0)
+
+<sup>Released on **2025-04-28**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Migrate to @lobehub/ui v2 \[force major].
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([44891e7](https://github.com/lobehub/lobe-icons/commit/44891e7))
+- **misc**: Migrate to @lobehub/ui v2 \[force major], closes [#97](https://github.com/lobehub/lobe-icons/issues/97) ([d832e82](https://github.com/lobehub/lobe-icons/commit/d832e82))
+
+</details>
+
+#### 💥 BREAKING CHANGES
+
+- **misc**: <https://github.com/lobehub/lobe-ui/pull/322>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.97.2](https://github.com/lobehub/lobe-icons/compare/v1.97.1...v1.97.2)
 
 <sup>Released on **2025-04-27**</sup>
