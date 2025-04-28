@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/icons",
-  "version": "1.97.2",
+  "version": "2.0.0",
   "description": "Popular AI / LLM Model Brand SVG Logo and Icon Collection",
   "keywords": [
     "lobehub",
@@ -80,7 +80,7 @@
     ]
   },
   "dependencies": {
-    "@lobehub/ui": "https://pkg.pr.new/lobehub/lobe-ui/@lobehub/ui@94975dd",
+    "@lobehub/ui": "^2.0.0",
     "antd-style": "^3.7.1",
     "lucide-react": "^0.469.0",
     "polished": "^4.3.1",
@@ -105,7 +105,7 @@
     "dotenv": "^16.4.7",
     "dpdm": "^3.14.0",
     "dumi": "^2.4.20",
-    "dumi-theme-lobehub": "https://pkg.pr.new/lobehub/dumi-theme-lobehub@8546cf3",
+    "dumi-theme-lobehub": "^2.0.0",
     "eslint": "^8.57.1",
     "father": "^4.5.2",
     "glob": "^11.0.1",
