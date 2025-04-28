@@ -1,7 +1,7 @@
 import { Icon } from '@lobehub/ui';
 import { useTheme } from 'antd-style';
 import { Brain } from 'lucide-react';
-import { CSSProperties, forwardRef } from 'react';
+import { CSSProperties, memo } from 'react';
 
 interface DefaultIconProps {
   className?: string;
@@ -10,17 +10,9 @@ interface DefaultIconProps {
   style?: CSSProperties;
 }
 
-const DefaultAvatar = forwardRef<any, DefaultIconProps>(({ color, size = 12, ...rest }, ref) => {
+const DefaultAvatar = memo<DefaultIconProps>(({ color, size = 12, ...rest }) => {
   const theme = useTheme();
-  return (
-    <Icon
-      color={color || theme.colorTextDescription}
-      icon={Brain}
-      ref={ref}
-      size={{ fontSize: size }}
-      {...rest}
-    />
-  );
+  return <Icon color={color || theme.colorTextDescription} icon={Brain} size={size} {...rest} />;
 });
 
 export default DefaultAvatar;

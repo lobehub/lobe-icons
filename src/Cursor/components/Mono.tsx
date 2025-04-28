@@ -1,14 +1,14 @@
 'use client';
 
 import { useThemeMode } from 'antd-style';
-import { forwardRef } from 'react';
+import { memo } from 'react';
 
 import { useFillIds } from '@/hooks/useFillId';
 import type { IconType } from '@/types';
 
 import { TITLE } from '../style';
 
-const Icon: IconType = forwardRef(({ color, size = '1em', style, ...rest }, ref) => {
+const Icon: IconType = memo(({ color, size = '1em', style, ...rest }) => {
   const [a, b, c] = useFillIds(TITLE + color, 3);
   const { isDarkMode } = useThemeMode();
   const fill = isDarkMode || color === '#fff' ? '#fff' : '#000';
@@ -17,7 +17,6 @@ const Icon: IconType = forwardRef(({ color, size = '1em', style, ...rest }, ref)
   return (
     <svg
       height={size}
-      ref={ref}
       style={{ flex: 'none', lineHeight: 1, ...style }}
       viewBox="0 0 24 24"
       width={size}

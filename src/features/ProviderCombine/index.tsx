@@ -1,6 +1,6 @@
 'use client';
 
-import { forwardRef, useMemo } from 'react';
+import { memo, useMemo } from 'react';
 import { Flexbox, FlexboxProps } from 'react-layout-kit';
 
 import DefaultIcon from '../ProviderIcon/DefaultIcon';
@@ -14,8 +14,8 @@ export interface ProviderCombineProps
   type?: 'mono' | 'color';
 }
 
-const ProviderCombine = forwardRef<HTMLDivElement, ProviderCombineProps>(
-  ({ provider: originProvider, size = 12, type = 'color', ...rest }, ref) => {
+const ProviderCombine = memo<ProviderCombineProps>(
+  ({ provider: originProvider, size = 12, type = 'color', ...rest }) => {
     const Render = useMemo(() => {
       if (!originProvider) return;
       const provider = originProvider.toLowerCase();
@@ -49,7 +49,6 @@ const ProviderCombine = forwardRef<HTMLDivElement, ProviderCombineProps>(
         flex={'none'}
         height={size * 1.5}
         horizontal
-        ref={ref}
         width={'fit-content'}
         {...rest}
       >
@@ -58,5 +57,7 @@ const ProviderCombine = forwardRef<HTMLDivElement, ProviderCombineProps>(
     );
   },
 );
+
+ProviderCombine.displayName = 'ProviderCombine';
 
 export default ProviderCombine;

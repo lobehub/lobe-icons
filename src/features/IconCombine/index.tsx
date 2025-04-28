@@ -1,6 +1,6 @@
 'use client';
 
-import { CSSProperties, forwardRef } from 'react';
+import { CSSProperties, memo } from 'react';
 import { Flexbox, type FlexboxProps } from 'react-layout-kit';
 
 import IconAvatar, { IconAvatarProps } from '@/features/IconAvatar';
@@ -21,27 +21,24 @@ export interface IconCombineProps extends FlexboxProps {
   spaceMultiple?: number;
   textMultiple?: number;
 }
-const IconCombine = forwardRef<HTMLDivElement, IconCombineProps>(
-  (
-    {
-      Icon,
-      style,
-      Text,
-      color,
-      size = 24,
-      spaceMultiple = 1,
-      textMultiple = 1,
-      extra,
-      extraStyle,
-      showText = true,
-      showLogo = true,
-      extraClassName,
-      iconProps,
-      inverse,
-      ...rest
-    },
-    ref,
-  ) => {
+const IconCombine = memo<IconCombineProps>(
+  ({
+    Icon,
+    style,
+    Text,
+    color,
+    size = 24,
+    spaceMultiple = 1,
+    textMultiple = 1,
+    extra,
+    extraStyle,
+    showText = true,
+    showLogo = true,
+    extraClassName,
+    iconProps,
+    inverse,
+    ...rest
+  }) => {
     const logo = Icon && showLogo && (
       <Icon
         size={size}
@@ -62,7 +59,6 @@ const IconCombine = forwardRef<HTMLDivElement, IconCombineProps>(
         flex={'none'}
         horizontal
         justify={'flex-start'}
-        ref={ref}
         style={{ color, ...style }}
         {...rest}
       >

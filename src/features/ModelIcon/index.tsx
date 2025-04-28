@@ -1,6 +1,6 @@
 'use client';
 
-import { CSSProperties, forwardRef, useMemo } from 'react';
+import { CSSProperties, memo, useMemo } from 'react';
 
 import { modelMappings } from '../modelConfig';
 import DefaultAvatar from './DefaultAvatar';
@@ -15,8 +15,8 @@ export interface ModelIconProps {
   type?: 'avatar' | 'mono' | 'color' | 'combine' | 'combine-color';
 }
 
-const ModelIcon = forwardRef<any, ModelIconProps>(
-  ({ model: originModel, size = 12, type = 'avatar', shape, ...rest }, ref) => {
+const ModelIcon = memo<ModelIconProps>(
+  ({ model: originModel, size = 12, type = 'avatar', shape, ...rest }) => {
     const Render = useMemo(() => {
       if (!originModel) return;
       const model = originModel.toLowerCase();
@@ -28,7 +28,6 @@ const ModelIcon = forwardRef<any, ModelIconProps>(
     }, [originModel]);
 
     const props = {
-      ref,
       size,
       ...Render?.props,
       ...rest,
@@ -77,5 +76,7 @@ const ModelIcon = forwardRef<any, ModelIconProps>(
     }
   },
 );
+
+ModelIcon.displayName = 'ModelIcon';
 
 export default ModelIcon;

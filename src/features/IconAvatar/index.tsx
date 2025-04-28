@@ -1,14 +1,14 @@
 'use client';
 
 import { useThemeMode } from 'antd-style';
-import { CSSProperties, forwardRef } from 'react';
-import { Center, type FlexboxProps } from 'react-layout-kit';
+import { CSSProperties, memo } from 'react';
+import { Center, type CenterProps } from 'react-layout-kit';
 
 import { IconType } from '@/types';
 
 import { getAvatarShadow, roundToEven } from './util';
 
-export interface IconAvatarProps extends Omit<FlexboxProps, 'children'> {
+export interface IconAvatarProps extends Omit<CenterProps, 'children'> {
   Icon?: IconType;
   background?: string;
   color?: string;
@@ -19,26 +19,23 @@ export interface IconAvatarProps extends Omit<FlexboxProps, 'children'> {
   size: number;
 }
 
-const IconAvatar = forwardRef<HTMLDivElement, IconAvatarProps>(
-  (
-    {
-      shape = 'circle',
-      color = '#fff',
-      background,
-      size,
-      style,
-      iconMultiple = 0.75,
-      Icon,
-      iconStyle,
-      iconClassName,
-    },
-    ref,
-  ) => {
+const IconAvatar = memo<IconAvatarProps>(
+  ({
+    shape = 'circle',
+    color = '#fff',
+    background,
+    size,
+    style,
+    iconMultiple = 0.75,
+    Icon,
+    iconStyle,
+    iconClassName,
+    ...rest
+  }) => {
     const { isDarkMode } = useThemeMode();
     return (
       <Center
         flex={'none'}
-        ref={ref}
         style={{
           background,
           borderRadius: shape === 'circle' ? '50%' : Math.floor(size * 0.1),
@@ -48,6 +45,7 @@ const IconAvatar = forwardRef<HTMLDivElement, IconAvatarProps>(
           width: size,
           ...style,
         }}
+        {...rest}
       >
         {Icon && (
           <Icon
