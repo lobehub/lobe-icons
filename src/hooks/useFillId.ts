@@ -21,5 +21,5 @@ export const useFillIds = (namespace: string, length: number) => {
       };
     });
     return ids;
-  }, [namespace]);
+  }, [namespace, length]);
 };

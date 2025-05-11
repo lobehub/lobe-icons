@@ -1,5 +1,5 @@
 import { createStyles } from 'antd-style';
-import { ReactNode, memo, useRef } from 'react';
+import { ReactNode, Ref, memo, useRef } from 'react';
 import { Flexbox, FlexboxProps } from 'react-layout-kit';
 
 import DownloadButton from '@/components/DownloadButton';
@@ -52,6 +52,7 @@ const useStyles = createStyles(({ css, token, cx }) => {
 
 export interface IconPreviewProps extends FlexboxProps {
   children: string | ReactNode;
+  ref?: Ref<HTMLDivElement>;
 }
 
 const IconPreview = memo<IconPreviewProps>(({ className, children, ...rest }) => {

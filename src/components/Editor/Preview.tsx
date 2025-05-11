@@ -30,7 +30,7 @@ interface PreviewProps {
   title: string;
 }
 
-const Preview = memo<PreviewProps>(({ svg, title, precent }) => {
+const Preview = memo<PreviewProps>(({ svg, title, precent, ref }) => {
   const { styles } = useStyles();
 
   return (
@@ -39,7 +39,7 @@ const Preview = memo<PreviewProps>(({ svg, title, precent }) => {
         <h3 style={{ lineHeight: 1, margin: 0 }}>{title}</h3>
         {precent && <Tag>{precent}</Tag>}
       </Flexbox>
-      <Flexbox gap={8} horizontal>
+      <Flexbox gap={8} horizontal ref={ref}>
         <IconPreview>{svg}</IconPreview>
         <Highlighter className={styles.code} language={'tsx'}>
           {svg}

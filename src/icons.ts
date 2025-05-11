@@ -59,6 +59,7 @@ export { default as Doubao, type CompoundedIcon as DoubaoProps } from './Doubao'
 export { default as DreamMachine, type CompoundedIcon as DreamMachineProps } from './DreamMachine';
 export { default as Exa, type CompoundedIcon as ExaProps } from './Exa';
 export { default as Fal, type CompoundedIcon as FalProps } from './Fal';
+export { default as FastGPT, type CompoundedIcon as FastGPTProps } from './FastGPT';
 export { default as Featherless, type CompoundedIcon as FeatherlessProps } from './Featherless';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
 export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './FishAudio';
@@ -95,6 +96,7 @@ export { default as Infermatic, type CompoundedIcon as InfermaticProps } from '.
 export { default as Infinigence, type CompoundedIcon as InfinigenceProps } from './Infinigence';
 export { default as Inflection, type CompoundedIcon as InflectionProps } from './Inflection';
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './InternLM';
+export { default as Jimeng, type CompoundedIcon as JimengProps } from './Jimeng';
 export { default as Jina, type CompoundedIcon as JinaProps } from './Jina';
 export { default as Kera, type CompoundedIcon as KeraProps } from './Kera';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './Kimi';
@@ -119,6 +121,8 @@ export { default as Make, type CompoundedIcon as MakeProps } from './Make';
 export { default as Manus, type CompoundedIcon as ManusProps } from './Manus';
 export { default as MCP, type CompoundedIcon as MCPProps } from './MCP';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
+export { default as MetaAI, type CompoundedIcon as MetaAIProps } from './MetaAI';
+export { default as MetaGPT, type CompoundedIcon as MetaGPTProps } from './MetaGPT';
 export { default as Microsoft, type CompoundedIcon as MicrosoftProps } from './Microsoft';
 export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from './Midjourney';
 export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
@@ -149,6 +153,7 @@ export { default as PixVerse, type CompoundedIcon as PixVerseProps } from './Pix
 export { default as Poe, type CompoundedIcon as PoeProps } from './Poe';
 export { default as Pollinations, type CompoundedIcon as PollinationsProps } from './Pollinations';
 export { default as PPIO, type CompoundedIcon as PPIOProps } from './PPIO';
+export { default as PydanticAI, type CompoundedIcon as PydanticAIProps } from './PydanticAI';
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingyan';
 export { default as Qiniu, type CompoundedIcon as QiniuProps } from './Qiniu';
 export { default as Qwen, type CompoundedIcon as QwenProps } from './Qwen';
@@ -199,6 +204,7 @@ export { default as Xuanyuan, type CompoundedIcon as XuanyuanProps } from './Xua
 export { default as Yandex, type CompoundedIcon as YandexProps } from './Yandex';
 export { default as Yi, type CompoundedIcon as YiProps } from './Yi';
 export { default as Yuanbao, type CompoundedIcon as YuanbaoProps } from './Yuanbao';
+export { default as Zapier, type CompoundedIcon as ZapierProps } from './Zapier';
 export { default as Zeabur, type CompoundedIcon as ZeaburProps } from './Zeabur';
 export { default as ZeroOne, type CompoundedIcon as ZeroOneProps } from './ZeroOne';
 export { default as Zhipu, type CompoundedIcon as ZhipuProps } from './Zhipu';
