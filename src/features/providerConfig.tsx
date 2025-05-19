@@ -16,6 +16,7 @@ import Cloudflare from '@/Cloudflare';
 import Cohere from '@/Cohere';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
+import Fal from '@/Fal';
 import Fireworks from '@/Fireworks';
 import Gemini from '@/Gemini';
 import GiteeAI from '@/GiteeAI';
@@ -217,4 +218,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Search1API, combineMultiple: 0.9, keywords: [ModelProvider.Search1API] },
   { Icon: Infinigence, combineMultiple: 0.8, keywords: [ModelProvider.InfiniAI] },
   { Icon: Xinference, combineMultiple: 0.85, keywords: [ModelProvider.Xinference] },
+  { Icon: Fal, keywords: [ModelProvider.Fal] },
 ];
