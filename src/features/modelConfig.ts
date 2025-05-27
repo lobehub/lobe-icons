@@ -96,7 +96,8 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Meta, keywords: ['llama', '/l3'] },
   { Icon: LLaVA, keywords: ['llava'] },
   { Icon: Gemini, keywords: ['gemini'] },
-  { Icon: DeepMind, keywords: ['imagen'] },
+  // google is imagen-4.0-ultra-generate-exp-05-20; fal is imagen4/preview
+  { Icon: DeepMind, keywords: ['^imagen-', '^imagen\\d/'] },
   { Icon: Gemma, keywords: ['gemma'] },
   { Icon: Moonshot, keywords: ['kimi', 'moonshot'] },
   { Icon: Qiniu, keywords: ['qiniu'] },
