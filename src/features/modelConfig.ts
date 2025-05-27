@@ -16,6 +16,7 @@ import CodeGeeX from '@/CodeGeeX';
 import Cohere from '@/Cohere';
 import Dalle from '@/Dalle';
 import Dbrx from '@/Dbrx';
+import DeepMind from '@/DeepMind';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
 import Fireworks from '@/Fireworks';
@@ -95,6 +96,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Meta, keywords: ['llama', '/l3'] },
   { Icon: LLaVA, keywords: ['llava'] },
   { Icon: Gemini, keywords: ['gemini'] },
+  { Icon: DeepMind, keywords: ['imagen'] },
   { Icon: Gemma, keywords: ['gemma'] },
   { Icon: Moonshot, keywords: ['kimi', 'moonshot'] },
   { Icon: Qiniu, keywords: ['qiniu'] },
@@ -158,7 +160,7 @@ export const modelMappings: ModelMapping[] = [
       'pro-128k$',
       '^max-32k$',
       '^lite$',
-      '^x1$'
+      '^x1$',
     ],
   },
   { Icon: Udio, keywords: ['udio'] },
