@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: BURNCLOUD
 atomId: BURNCLOUD
-description: https://burncloud.ai/
+description: https://ai.burncloud.com/
 ---
 
 ## Icons

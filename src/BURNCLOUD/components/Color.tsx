@@ -11,7 +11,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
     <svg
       height={size}
       style={{ flex: 'none', lineHeight: 1, ...style }}
-      viewBox="0 0 800 800"
+      viewBox="170 220 460 360"
       width={size}
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
