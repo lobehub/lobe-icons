@@ -169,7 +169,7 @@ export const providerMappings: ProviderMapping[] = [
         {...props}
       />
     )),
-    Icon: Qwen,
+    Icon: AlibabaCloud,
     combineMultiple: 1.1,
     keywords: [ModelProvider.Qwen],
   },
