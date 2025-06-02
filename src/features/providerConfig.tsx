@@ -4,6 +4,7 @@ import { FC, memo } from 'react';
 import Ai21 from '@/Ai21';
 import Ai360 from '@/Ai360';
 import AiMass from '@/AiMass';
+import AlibabaCloud from '@/AlibabaCloud';
 import Anthropic from '@/Anthropic';
 import Aws from '@/Aws';
 import Azure from '@/Azure';
@@ -159,7 +160,19 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: ZeroOne, combineMultiple: 0.9, keywords: [ModelProvider.ZeroOne] },
   { Icon: Together, keywords: [ModelProvider.TogetherAI] },
   { Icon: Qiniu, combineMultiple: 1.1, keywords: [ModelProvider.Qiniu] },
-  { Icon: Qwen, keywords: [ModelProvider.Qwen] },
+  {
+    Combine: memo(({ size = 24, type = 'color', ...props }) => (
+      <Combine
+        left={<AlibabaCloud.Combine size={size} type={type} />}
+        right={<Qwen.Combine size={size} type={type} />}
+        size={size}
+        {...props}
+      />
+    )),
+    Icon: AlibabaCloud,
+    combineMultiple: 1.1,
+    keywords: [ModelProvider.Qwen],
+  },
   { Icon: Stepfun, combineMultiple: 0.83, keywords: [ModelProvider.Stepfun] },
   { Icon: Spark, combineMultiple: 0.92, keywords: [ModelProvider.Spark] },
   { Icon: Fireworks, combineMultiple: 1.14, keywords: [ModelProvider.FireworksAI] },
