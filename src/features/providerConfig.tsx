@@ -159,7 +159,16 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: ZeroOne, combineMultiple: 0.9, keywords: [ModelProvider.ZeroOne] },
   { Icon: Together, keywords: [ModelProvider.TogetherAI] },
   { Icon: Qiniu, combineMultiple: 1.1, keywords: [ModelProvider.Qiniu] },
-  { Icon: Qwen, keywords: [ModelProvider.Qwen] },
+  { 
+    Combine: memo(({ size = 24, type = 'color', ...props }) => (
+      <Combine
+        left={type === 'color' ? <Aws.Color size={size * 1.2} /> : <Aws size={size * 1.2} />}
+        right={<Bedrock.Combine size={size} type={type} />}
+        size={size}
+        {...props}
+      />
+    )),
+    Icon: Qwen, keywords: [ModelProvider.Qwen] },
   { Icon: Stepfun, combineMultiple: 0.83, keywords: [ModelProvider.Stepfun] },
   { Icon: Spark, combineMultiple: 0.92, keywords: [ModelProvider.Spark] },
   { Icon: Fireworks, combineMultiple: 1.14, keywords: [ModelProvider.FireworksAI] },
