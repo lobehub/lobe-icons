@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 2.2.1](https://github.com/lobehub/lobe-icons/compare/v2.2.0...v2.2.1)
+
+<sup>Released on **2025-06-02**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add AlibabaCloud icon for Qwen.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add AlibabaCloud icon for Qwen, closes [#116](https://github.com/lobehub/lobe-icons/issues/116) ([7459c07](https://github.com/lobehub/lobe-icons/commit/7459c07))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.2.0](https://github.com/lobehub/lobe-icons/compare/v2.1.0...v2.2.0)
 
 <sup>Released on **2025-05-28**</sup>
