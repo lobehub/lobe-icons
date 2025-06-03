@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 2.3.0](https://github.com/lobehub/lobe-icons/compare/v2.2.1...v2.3.0)
+
+<sup>Released on **2025-06-03**</sup>
+
+#### ✨ Features
+
+- **misc**: Add 'platform' type to Avatar and extend model icon mappings for new platforms, Adjust Qwen icon size and AiHubMix combineMultiple for consistency.
+
+#### 💄 Styles
+
+- **misc**: Add aihubmix.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add 'platform' type to Avatar and extend model icon mappings for new platforms ([410d287](https://github.com/lobehub/lobe-icons/commit/410d287))
+- **misc**: Adjust Qwen icon size and AiHubMix combineMultiple for consistency ([3935e97](https://github.com/lobehub/lobe-icons/commit/3935e97))
+
+#### Styles
+
+- **misc**: Add aihubmix, closes [#117](https://github.com/lobehub/lobe-icons/issues/117) ([1937621](https://github.com/lobehub/lobe-icons/commit/1937621))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.2.1](https://github.com/lobehub/lobe-icons/compare/v2.2.0...v2.2.1)
 
 <sup>Released on **2025-06-02**</sup>
