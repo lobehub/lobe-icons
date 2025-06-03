@@ -5,6 +5,7 @@ import Ai21 from '@/Ai21';
 import Ai360 from '@/Ai360';
 import AiMass from '@/AiMass';
 import AionLabs from '@/AionLabs';
+import Anthropic from '@/Anthropic';
 import AssemblyAI from '@/AssemblyAI';
 import Aws from '@/Aws';
 import Aya from '@/Aya';
@@ -53,6 +54,7 @@ import Stepfun from '@/Stepfun';
 import Suno from '@/Suno';
 import Udio from '@/Udio';
 import Upstage from '@/Upstage';
+import VertexAI from '@/VertexAI';
 import Voyage from '@/Voyage';
 import Wenxin from '@/Wenxin';
 import Yi from '@/Yi';
@@ -86,18 +88,37 @@ export const modelMappings: ModelMapping[] = [
     props: { type: 'o1' },
   },
   { Icon: Dalle, keywords: ['dalle', 'dall-e'] },
-  { Icon: OpenAI, keywords: ['^gpt-', '/gpt-', 'openai', 'text-embedding-', 'tts-', 'whisper-'] },
-  { Icon: ChatGLM, keywords: ['glm-', 'chatglm'] },
-  { Icon: CodeGeeX, keywords: ['^codegeex'] },
+  {
+    Icon: OpenAI,
+    keywords: [
+      'text-embedding-',
+      'tts-',
+      'whisper-',
+      'codex',
+      'davinci',
+      'babbage',
+      'omni-moderation',
+      'text-moderation',
+      'text-adb',
+      'computer-use',
+    ],
+    props: { type: 'platform' },
+  },
+  {
+    Icon: OpenAI,
+    keywords: ['^gpt-', '/gpt-', 'openai'],
+  },
+  { Icon: ChatGLM, keywords: ['^glm-', '/glm-', 'chatglm'] },
+  { Icon: CodeGeeX, keywords: ['^codegeex', '/codegeex'] },
   { Icon: Claude, keywords: ['claude'] },
+  { Icon: Anthropic, keywords: ['anthropic'] },
   { Icon: Aws, keywords: ['titan'] },
   { Icon: Fireworks, keywords: ['accounts/fireworks/models/fire'] },
   { Icon: InternLM, keywords: ['internlm', 'internvl'] },
   { Icon: Meta, keywords: ['llama', '/l3'] },
   { Icon: LLaVA, keywords: ['llava'] },
   { Icon: Gemini, keywords: ['gemini'] },
-  // google is imagen-4.0-ultra-generate-exp-05-20; fal is imagen4/preview
-  { Icon: DeepMind, keywords: ['^imagen-', '^imagen\\d/'] },
+  { Icon: DeepMind, keywords: ['^imagen-', '/imagen-', '^imagen\\d/'] },
   { Icon: Gemma, keywords: ['gemma'] },
   { Icon: Moonshot, keywords: ['kimi', 'moonshot'] },
   { Icon: Qiniu, keywords: ['qiniu'] },
@@ -120,7 +141,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Baichuan, keywords: ['baichuan'] },
   { Icon: Rwkv, keywords: ['rwkv', '/eagle-'] },
   { Icon: Wenxin, keywords: ['ernie'] },
-  { Icon: Jina, keywords: ['^jina'] },
+  { Icon: Jina, keywords: ['^jina', '/jina'] },
   { Icon: Doubao, keywords: ['^ep-', 'doubao-'] },
   { Icon: Hunyuan, keywords: ['hunyuan'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
@@ -141,14 +162,13 @@ export const modelMappings: ModelMapping[] = [
   },
   { Icon: Flux, keywords: ['flux'] },
   { Icon: Suno, keywords: ['suno'] },
-  { Icon: Microsoft, keywords: ['wizardlm', 'phi3', 'phi4', '^/phi-', '^phi-'] },
+  { Icon: Microsoft, keywords: ['wizardlm', '/phi-', '^phi-', '-phi-'] },
   { Icon: Adobe, keywords: ['firefly'] },
   { Icon: Ai21, keywords: ['jamba', '^j2-', 'ai21'] },
   { Icon: Upstage, keywords: ['^solar-', '/solar'] },
   { Icon: PaLM, keywords: ['palm'] },
-  { Icon: Google, keywords: ['google'] },
   { Icon: SenseNova, keywords: ['SenseChat', 'SenseNova'] },
-  { Icon: Grok, keywords: ['^grok-'] },
+  { Icon: Grok, keywords: ['^grok-', '/grok-'] },
   { Icon: Ideogram, keywords: ['ideogram'] },
   {
     Icon: Spark,
@@ -171,4 +191,6 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Liquid, keywords: ['liquid', 'lfm'] },
   { Icon: Inflection, keywords: ['inflection-'] },
   { Icon: AionLabs, keywords: ['aion-'] },
+  { Icon: VertexAI, keywords: ['^veo-', '/veo-'] },
+  { Icon: Google, keywords: ['google'] },
 ];

@@ -49,6 +49,7 @@ export default () => (
     <OpenAI.Avatar size={64} type={'gpt3'} />
     <OpenAI.Avatar size={64} type={'gpt4'} />
     <OpenAI.Avatar size={64} type={'o1'} />
+    <OpenAI.Avatar size={64} type={'platform'} />
     <OpenAI.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
@@ -68,6 +69,7 @@ export default () => (
     <ColorPreview color={OpenAI.colorGpt3} />
     <ColorPreview color={OpenAI.colorGpt4} />
     <ColorPreview color={OpenAI.colorO1} />
+    <ColorPreview color={OpenAI.colorPlatform} />
   </Flexbox>
 );
 ```
