@@ -3,6 +3,7 @@ import { FC, memo } from 'react';
 
 import Ai21 from '@/Ai21';
 import Ai360 from '@/Ai360';
+import AiHubMix from '@/AiHubMix';
 import AiMass from '@/AiMass';
 import AlibabaCloud from '@/AlibabaCloud';
 import Anthropic from '@/Anthropic';
@@ -232,4 +233,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Infinigence, combineMultiple: 0.8, keywords: [ModelProvider.InfiniAI] },
   { Icon: Xinference, combineMultiple: 0.85, keywords: [ModelProvider.Xinference] },
   { Icon: Fal, keywords: [ModelProvider.Fal] },
+  { Icon: AiHubMix, keywords: [ModelProvider.AiHubMix] },
 ];

@@ -3,6 +3,7 @@ import { FC } from 'react';
 import Adobe from '@/Adobe';
 import Ai21 from '@/Ai21';
 import Ai360 from '@/Ai360';
+import AiHubMix from '@/AiHubMix';
 import AiMass from '@/AiMass';
 import AionLabs from '@/AionLabs';
 import Anthropic from '@/Anthropic';
@@ -191,6 +192,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Liquid, keywords: ['liquid', 'lfm'] },
   { Icon: Inflection, keywords: ['inflection-'] },
   { Icon: AionLabs, keywords: ['aion-'] },
+  { Icon: AiHubMix, keywords: ['aihubmix'] },
   { Icon: VertexAI, keywords: ['^veo-', '/veo-'] },
   { Icon: Google, keywords: ['google'] },
 ];
