@@ -165,7 +165,7 @@ export const providerMappings: ProviderMapping[] = [
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
         left={<AlibabaCloud.Combine size={size} type={type} />}
-        right={<Qwen.Combine size={size} type={type} />}
+        right={<Qwen.Combine size={size * 0.9} type={type} />}
         size={size}
         {...props}
       />
@@ -233,5 +233,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Infinigence, combineMultiple: 0.8, keywords: [ModelProvider.InfiniAI] },
   { Icon: Xinference, combineMultiple: 0.85, keywords: [ModelProvider.Xinference] },
   { Icon: Fal, keywords: [ModelProvider.Fal] },
-  { Icon: AiHubMix, keywords: [ModelProvider.AiHubMix] },
+  { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
 ];
