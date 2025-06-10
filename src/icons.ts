@@ -150,6 +150,7 @@ export { default as Perplexity, type CompoundedIcon as PerplexityProps } from '.
 export { default as Phidata, type CompoundedIcon as PhidataProps } from './Phidata';
 export { default as Pika, type CompoundedIcon as PikaProps } from './Pika';
 export { default as PixVerse, type CompoundedIcon as PixVerseProps } from './PixVerse';
+export { default as Player2, type CompoundedIcon as Player2Props } from './Player2';
 export { default as Poe, type CompoundedIcon as PoeProps } from './Poe';
 export { default as Pollinations, type CompoundedIcon as PollinationsProps } from './Pollinations';
 export { default as PPIO, type CompoundedIcon as PPIOProps } from './PPIO';
