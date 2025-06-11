@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Provider
+group: Application
 title: Player2
 atomId: Player2
 description: https://player2.game

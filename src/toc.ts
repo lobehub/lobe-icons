@@ -2912,11 +2912,11 @@ const toc: IconToc[] = [
     title: 'PixVerse',
   },
   {
-    color: '#A8A6FFFF',
+    color: '#A8A6FF',
     desc: 'https://player2.game',
     docsUrl: 'player2',
     fullTitle: 'Player2',
-    group: 'provider',
+    group: 'application',
     id: 'Player2',
     param: {
       hasAvatar: true,
