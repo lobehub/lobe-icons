@@ -185,6 +185,7 @@ export { default as Tiangong, type CompoundedIcon as TiangongProps } from './Tia
 export { default as TII, type CompoundedIcon as TIIProps } from './TII';
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
 export { default as TopazLabs, type CompoundedIcon as TopazLabsProps } from './TopazLabs';
+export { default as Trae, type CompoundedIcon as TraeProps } from './Trae';
 export { default as Tripo, type CompoundedIcon as TripoProps } from './Tripo';
 export { default as Udio, type CompoundedIcon as UdioProps } from './Udio';
 export { default as Unstructured, type CompoundedIcon as UnstructuredProps } from './Unstructured';
