@@ -22,8 +22,10 @@ export { default as BAAI, type CompoundedIcon as BAAIProps } from './BAAI';
 export { default as Baichuan, type CompoundedIcon as BaichuanProps } from './Baichuan';
 export { default as Baidu, type CompoundedIcon as BaiduProps } from './Baidu';
 export { default as BaiduCloud, type CompoundedIcon as BaiduCloudProps } from './BaiduCloud';
+export { default as Baseten, type CompoundedIcon as BasetenProps } from './Baseten';
 export { default as Bedrock, type CompoundedIcon as BedrockProps } from './Bedrock';
 export { default as Bing, type CompoundedIcon as BingProps } from './Bing';
+export { default as BurnCloud, type CompoundedIcon as BurnCloudProps } from './BurnCloud';
 export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './ByteDance';
 export { default as CentML, type CompoundedIcon as CentMLProps } from './CentML';
 export { default as Cerebras, type CompoundedIcon as CerebrasProps } from './Cerebras';
@@ -136,6 +138,7 @@ export { default as Nebius, type CompoundedIcon as NebiusProps } from './Nebius'
 export { default as NotebookLM, type CompoundedIcon as NotebookLMProps } from './NotebookLM';
 export { default as Notion, type CompoundedIcon as NotionProps } from './Notion';
 export { default as Nova, type CompoundedIcon as NovaProps } from './Nova';
+export { default as NovelAI, type CompoundedIcon as NovelAIProps } from './NovelAI';
 export { default as Novita, type CompoundedIcon as NovitaProps } from './Novita';
 export { default as NPLCloud, type CompoundedIcon as NPLCloudProps } from './NPLCloud';
 export { default as Nvidia, type CompoundedIcon as NvidiaProps } from './Nvidia';
@@ -150,6 +153,7 @@ export { default as Perplexity, type CompoundedIcon as PerplexityProps } from '.
 export { default as Phidata, type CompoundedIcon as PhidataProps } from './Phidata';
 export { default as Pika, type CompoundedIcon as PikaProps } from './Pika';
 export { default as PixVerse, type CompoundedIcon as PixVerseProps } from './PixVerse';
+export { default as Player2, type CompoundedIcon as Player2Props } from './Player2';
 export { default as Poe, type CompoundedIcon as PoeProps } from './Poe';
 export { default as Pollinations, type CompoundedIcon as PollinationsProps } from './Pollinations';
 export { default as PPIO, type CompoundedIcon as PPIOProps } from './PPIO';
@@ -183,6 +187,7 @@ export { default as Tiangong, type CompoundedIcon as TiangongProps } from './Tia
 export { default as TII, type CompoundedIcon as TIIProps } from './TII';
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
 export { default as TopazLabs, type CompoundedIcon as TopazLabsProps } from './TopazLabs';
+export { default as Trae, type CompoundedIcon as TraeProps } from './Trae';
 export { default as Tripo, type CompoundedIcon as TripoProps } from './Tripo';
 export { default as Udio, type CompoundedIcon as UdioProps } from './Udio';
 export { default as Unstructured, type CompoundedIcon as UnstructuredProps } from './Unstructured';

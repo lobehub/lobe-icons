@@ -36,6 +36,7 @@ export enum ModelProvider {
   OpenRouter = 'openrouter',
   PPIO = 'ppio',
   Perplexity = 'perplexity',
+  Player2 = 'Player2',
   Qiniu = 'qiniu',
   Qwen = 'qwen',
   SambaNova = 'sambanova',
