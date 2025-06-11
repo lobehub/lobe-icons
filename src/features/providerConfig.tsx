@@ -44,6 +44,7 @@ import OpenAI from '@/OpenAI';
 import OpenRouter from '@/OpenRouter';
 import PPIO from '@/PPIO';
 import Perplexity from '@/Perplexity';
+import Player2 from '@/Player2';
 import Qiniu from '@/Qiniu';
 import Qwen from '@/Qwen';
 import SambaNova from '@/SambaNova';
@@ -183,6 +184,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: SiliconCloud, combineMultiple: 0.75, keywords: [ModelProvider.SiliconCloud] },
   { Icon: Upstage, combineMultiple: 0.9, keywords: [ModelProvider.Upstage] },
   { Icon: Ai21, combineMultiple: 0.9, keywords: [ModelProvider.Ai21] },
+  { Icon: Player2, combineMultiple: 0.9, keywords: [ModelProvider.Player2] },
   { Icon: Github, combineMultiple: 0.95, keywords: [ModelProvider.Github] },
   { Icon: Doubao, keywords: [ModelProvider.Doubao] },
   { Icon: Hunyuan, keywords: [ModelProvider.Hunyuan] },
