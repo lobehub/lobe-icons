@@ -22,6 +22,7 @@ export { default as BAAI, type CompoundedIcon as BAAIProps } from './BAAI';
 export { default as Baichuan, type CompoundedIcon as BaichuanProps } from './Baichuan';
 export { default as Baidu, type CompoundedIcon as BaiduProps } from './Baidu';
 export { default as BaiduCloud, type CompoundedIcon as BaiduCloudProps } from './BaiduCloud';
+export { default as Baseten, type CompoundedIcon as BasetenProps } from './Baseten';
 export { default as Bedrock, type CompoundedIcon as BedrockProps } from './Bedrock';
 export { default as Bing, type CompoundedIcon as BingProps } from './Bing';
 export { default as BurnCloud, type CompoundedIcon as BurnCloudProps } from './BurnCloud';
