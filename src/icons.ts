@@ -24,6 +24,7 @@ export { default as Baidu, type CompoundedIcon as BaiduProps } from './Baidu';
 export { default as BaiduCloud, type CompoundedIcon as BaiduCloudProps } from './BaiduCloud';
 export { default as Bedrock, type CompoundedIcon as BedrockProps } from './Bedrock';
 export { default as Bing, type CompoundedIcon as BingProps } from './Bing';
+export { default as BurnCloud, type CompoundedIcon as BurnCloudProps } from './BurnCloud';
 export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './ByteDance';
 export { default as CentML, type CompoundedIcon as CentMLProps } from './CentML';
 export { default as Cerebras, type CompoundedIcon as CerebrasProps } from './Cerebras';
