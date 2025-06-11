@@ -138,6 +138,7 @@ export { default as Nebius, type CompoundedIcon as NebiusProps } from './Nebius'
 export { default as NotebookLM, type CompoundedIcon as NotebookLMProps } from './NotebookLM';
 export { default as Notion, type CompoundedIcon as NotionProps } from './Notion';
 export { default as Nova, type CompoundedIcon as NovaProps } from './Nova';
+export { default as NovelAI, type CompoundedIcon as NovelAIProps } from './NovelAI';
 export { default as Novita, type CompoundedIcon as NovitaProps } from './Novita';
 export { default as NPLCloud, type CompoundedIcon as NPLCloudProps } from './NPLCloud';
 export { default as Nvidia, type CompoundedIcon as NvidiaProps } from './Nvidia';
