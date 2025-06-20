@@ -241,14 +241,13 @@ export const providerMappings: ProviderMapping[] = [
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine
-        left={<Vercel.Combine size={size * 1.1} />}
-        right={<V0 size={size * 0.9} />}
+        left={<Vercel.Combine size={size * 0.9} />}
+        right={<V0 size={size} />}
         size={size}
         {...props}
       />
     )),
     Icon: Vercel,
-    combineMultiple: 1.1,
     keywords: [ModelProvider.V0],
   },
 ];
