@@ -239,10 +239,10 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Fal, keywords: [ModelProvider.Fal] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
   {
-    Combine: memo(({ size = 24, type = 'color', ...props }) => (
+    Combine: memo(({ size = 24, ...props }) => (
       <Combine
-        left={<Vercel.Combine size={size * 1.1} type={type} />}
-        right={<V0.Combine size={size * 0.9} type={type} />}
+        left={<Vercel.Combine size={size * 1.1} />}
+        right={<V0 size={size * 0.9} />}
         size={size}
         {...props}
       />
