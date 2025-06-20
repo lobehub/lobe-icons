@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 2.5.0](https://github.com/lobehub/lobe-icons/compare/v2.4.0...v2.5.0)
+
+<sup>Released on **2025-06-20**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Support v0 (Vercel) provider & model icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([49adad2](https://github.com/lobehub/lobe-icons/commit/49adad2))
+
+#### Styles
+
+- **misc**: Support v0 (Vercel) provider & model icons, closes [#124](https://github.com/lobehub/lobe-icons/issues/124) ([019f7b6](https://github.com/lobehub/lobe-icons/commit/019f7b6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.4.0](https://github.com/lobehub/lobe-icons/compare/v2.3.0...v2.4.0)
 
 <sup>Released on **2025-06-11**</sup>
