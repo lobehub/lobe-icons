@@ -56,6 +56,8 @@ import Stepfun from '@/Stepfun';
 import TencentCloud from '@/TencentCloud';
 import Together from '@/Together';
 import Upstage from '@/Upstage';
+import V0 from '@/V0';
+import Vercel from '@/Vercel';
 import VertexAI from '@/VertexAI';
 import Vllm from '@/Vllm';
 import Volcengine from '@/Volcengine';
@@ -236,4 +238,16 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Xinference, combineMultiple: 0.85, keywords: [ModelProvider.Xinference] },
   { Icon: Fal, keywords: [ModelProvider.Fal] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
+  {
+    Combine: memo(({ size = 24, ...props }) => (
+      <Combine
+        left={<Vercel.Combine size={size * 0.9} />}
+        right={<V0 size={size} />}
+        size={size}
+        {...props}
+      />
+    )),
+    Icon: Vercel,
+    keywords: [ModelProvider.V0],
+  },
 ];
