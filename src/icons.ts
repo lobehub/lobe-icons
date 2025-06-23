@@ -137,6 +137,7 @@ export { default as N8n, type CompoundedIcon as N8nProps } from './N8n';
 export { default as Nebius, type CompoundedIcon as NebiusProps } from './Nebius';
 export { default as NotebookLM, type CompoundedIcon as NotebookLMProps } from './NotebookLM';
 export { default as Notion, type CompoundedIcon as NotionProps } from './Notion';
+export { default as NousResearch, type CompoundedIcon as NousResearchProps } from './NousResearch';
 export { default as Nova, type CompoundedIcon as NovaProps } from './Nova';
 export { default as NovelAI, type CompoundedIcon as NovelAIProps } from './NovelAI';
 export { default as Novita, type CompoundedIcon as NovitaProps } from './Novita';
