@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 2.6.0](https://github.com/lobehub/lobe-icons/compare/v2.5.1...v2.6.0)
+
+<sup>Released on **2025-06-23**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add NousResearch.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([a6bc41c](https://github.com/lobehub/lobe-icons/commit/a6bc41c))
+- **misc**: Add NousResearch ([0d8b3f5](https://github.com/lobehub/lobe-icons/commit/0d8b3f5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.5.1](https://github.com/lobehub/lobe-icons/compare/v2.5.0...v2.5.1)
 
 <sup>Released on **2025-06-23**</sup>
