@@ -23,19 +23,6 @@ import { Yandex } from '@lobehub/icons';
 export default () => <Yandex.Text size={48} />;
 ```
 
-## Combine
-
-```tsx
-import { Yandex } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
-
-export default () => (
-  <Flexbox gap={16} align={'flex-start'}>
-    <Yandex.Combine size={64} />
-  </Flexbox>
-);
-```
-
 ## Avatars
 
 ```tsx

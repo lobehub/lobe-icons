@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Application
-title: Google (Colab)
+title: Colab (Google)
 atomId: Colab
 description: https://colab.research.google.com/
 ---

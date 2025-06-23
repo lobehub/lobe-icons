@@ -810,7 +810,7 @@ const toc: IconToc[] = [
     color: '#F9AB00',
     desc: 'https://colab.research.google.com/',
     docsUrl: 'colab',
-    fullTitle: 'Google (Colab)',
+    fullTitle: 'Colab (Google)',
     group: 'application',
     id: 'Colab',
     param: {
@@ -826,8 +826,7 @@ const toc: IconToc[] = [
     title: 'Colab',
   },
   {
-    color: '#000',
-    colorGradient: 'linear-gradient(135deg, #0CD7FE, #03ACFF, #0272E1)',
+    color: '#F0FF41',
     desc: 'https://comfy.org',
     docsUrl: 'comfy-ui',
     fullTitle: 'ComfyUI',
@@ -1094,8 +1093,7 @@ const toc: IconToc[] = [
     title: 'DeepSeek',
   },
   {
-    color: '#fff',
-    colorGradient: 'conic-gradient(from 180deg at 50% 50%, #0222C3, #8FB1F4, #FFFFFF)',
+    color: '#03F',
     desc: 'https://dify.ai',
     docsUrl: 'dify',
     fullTitle: 'Dify',
@@ -1219,7 +1217,7 @@ const toc: IconToc[] = [
       hasAvatar: true,
       hasBrand: false,
       hasBrandColor: false,
-      hasColor: false,
+      hasColor: true,
       hasCombine: true,
       hasText: true,
       hasTextCn: false,
@@ -3200,6 +3198,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#3431C3',
+    colorGradient: 'linear-gradient(to left, #1D1A5C, #3431C3, #7361F7)',
     desc: 'https://github.com/RWKV',
     docsUrl: 'rwkv',
     fullTitle: 'RWKV',
@@ -3391,6 +3390,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#005AFF',
+    colorGradient: 'linear-gradient(-45deg, #0160FF, #01A9FF)',
     desc: 'https://stepfun.com',
     docsUrl: 'stepfun',
     fullTitle: 'Stepfun (阶跃星辰)',
@@ -3956,7 +3956,7 @@ const toc: IconToc[] = [
       hasBrand: false,
       hasBrandColor: false,
       hasColor: false,
-      hasCombine: true,
+      hasCombine: false,
       hasText: true,
       hasTextCn: false,
       hasTextColor: false,

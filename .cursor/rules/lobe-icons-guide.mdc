@@ -1,0 +1,205 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Lobe Icons Repository Guide
+
+This guide provides comprehensive information about the lobe-icons repository structure and how to add new icons.
+
+## Project Overview
+
+The lobe-icons repository contains over 150 AI/ML brand icons organized in a consistent structure. Each icon brand has its own directory under `src/` with standardized components and exports.
+
+## Directory Structure
+
+### Root Structure
+- `src/` - Contains all icon brand directories
+- `packages/` - Static format packages (PNG, SVG, WebP)
+- `docs/` - Documentation and guides
+- `scripts/` - Build and automation scripts
+
+### Icon Brand Structure
+Each icon brand follows this pattern:
+```
+src/IconName/
+├── index.ts          # Main exports
+├── style.ts          # Brand constants and styling
+├── index.md          # Documentation
+└── components/
+    ├── Mono.tsx      # Monochrome icon
+    ├── Color.tsx     # Colored icon (if applicable)
+    ├── Text.tsx      # Text component
+    ├── Avatar.tsx    # Avatar component
+    └── Combine.tsx   # Combined icon+text
+```
+
+## Adding a New Icon
+
+### 1. Create Directory Structure
+Create a new directory under `src/` with your icon brand name:
+```
+src/YourIconName/
+```
+
+### 2. Essential Files to Create
+
+#### Style Configuration ([style.ts](mdc:src/AdobeFirefly/style.ts))
+```typescript
+export const TITLE = 'YourIconName';
+export const TEXT_MULTIPLE = 0.6;        // Used in Combine component
+export const SPACE_MULTIPLE = 0.1;       // Used in Combine component
+export const COLOR_PRIMARY = '#yourBrandColor'; // Used in Avatar
+
+// Avatar constants (recommended)
+export const AVATAR_BACKGROUND = COLOR_PRIMARY;
+export const AVATAR_COLOR = '#fff';
+export const AVATAR_ICON_MULTIPLE = 0.6;
+```
+
+#### Monochrome Icon ([Mono.tsx](mdc:src/AdobeFirefly/components/Mono.tsx))
+```typescript
+'use client';
+
+import { memo } from 'react';
+import type { IconType } from '@/types';
+import { TITLE } from '../style';
+
+const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
+  return (
+    <svg
+      fill="currentColor"
+      fillRule="evenodd"
+      height={size}
+      style={{ flex: 'none', lineHeight: 1, ...style }}
+      viewBox="0 0 24 24"
+      width={size}
+      xmlns="http://www.w3.org/2000/svg"
+      {...rest}
+    >
+      <title>{TITLE}</title>
+      <path d="YOUR_SVG_PATH_DATA" />
+    </svg>
+  );
+});
+
+export default Icon;
+```
+
+#### Avatar Component ([Avatar.tsx](mdc:src/AdobeFirefly/components/Avatar.tsx))
+```typescript
+'use client';
+
+import { memo } from 'react';
+import IconAvatar, { type IconAvatarProps } from '@/features/IconAvatar';
+import { AVATAR_BACKGROUND, AVATAR_COLOR, AVATAR_ICON_MULTIPLE, TITLE } from '../style';
+import Mono from './Mono';
+
+export type AvatarProps = Omit<IconAvatarProps, 'Icon'>;
+
+const Avatar = memo<AvatarProps>(({ background, ...rest }) => {
+  return (
+    <IconAvatar
+      Icon={Mono}
+      aria-label={TITLE}
+      background={background || AVATAR_BACKGROUND}
+      color={AVATAR_COLOR}
+      iconMultiple={AVATAR_ICON_MULTIPLE}
+      {...rest}
+    />
+  );
+});
+
+export default Avatar;
+```
+
+#### Main Index File ([index.ts](mdc:src/AdobeFirefly/index.ts))
+```typescript
+import Avatar from './components/Avatar';
+import Combine from './components/Combine';
+import Mono from './components/Mono';
+import Text from './components/Text';
+import { COLOR_PRIMARY, TITLE } from './style';
+
+export type CompoundedIcon = typeof Mono & {
+  Avatar: typeof Avatar;
+  Combine: typeof Combine;
+  Text: typeof Text;
+  colorPrimary: string;
+  title: string;
+};
+
+const Icons = Mono as CompoundedIcon;
+Icons.Text = Text;
+Icons.Combine = Combine;
+Icons.Avatar = Avatar;
+Icons.colorPrimary = COLOR_PRIMARY;
+Icons.title = TITLE;
+
+export default Icons;
+```
+
+### 3. SVG Preparation Guidelines
+
+1. **Source**: Find the official SVG logo of the brand
+2. **Cleanup**: Remove unnecessary elements and attributes
+3. **Scale**: Ensure it fits within 24x24 viewBox
+4. **Extract**: Get the path data for the icon
+5. **Tool**: Use https://icons.lobehub.com/editor for formatted SVG output
+
+### 4. Icon Types
+
+#### Monochrome Icons
+- Use `currentColor` for fill
+- Inherit color from parent element
+- Best for UI elements that need theme consistency
+
+#### Colored Icons
+- Include brand-specific colors
+- Maintain colors regardless of parent styling
+- Best for brand representation
+- Create both `Mono.tsx` and `Color.tsx` components
+
+### 5. Documentation ([index.md](mdc:src/AdobeFirefly/index.md))
+Create documentation with examples for all component variants:
+- Basic icons (Mono/Color)
+- Text component
+- Combine component
+- Avatar component
+- Color preview
+
+### 6. Export Integration
+Update [src/icons.ts](mdc:src/icons.ts) to include your new icon:
+```typescript
+export { default as YourIconName, type CompoundedIcon as YourIconNameProps } from './YourIconName';
+```
+
+## Development Workflow
+
+### Build Commands
+```bash
+npm run build    # Build all icons
+npm run dev      # Start demo site
+```
+
+### Quality Checks
+1. Test icon in light and dark modes
+2. Verify appearance at different sizes
+3. Check all component variants work correctly
+4. Ensure SVG path is optimized
+
+## Important Notes
+
+- The [src/toc.ts](mdc:src/toc.ts) file is generated automatically
+- Static format images (PNG, SVG, WebP) are generated automatically
+- Group types: Model | Provider | Application
+- All icons should be 24x24 viewBox for consistency
+- Use the online editor at https://icons.lobehub.com/editor for best results
+
+## Best Practices
+
+1. **Consistency**: Follow existing patterns and naming conventions
+2. **Optimization**: Clean and optimize SVG paths
+3. **Documentation**: Provide clear examples for all variants
+4. **Testing**: Verify icons work across different contexts
+5. **Accessibility**: Include proper aria-labels and titles

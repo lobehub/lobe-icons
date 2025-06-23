@@ -17,7 +17,7 @@ jobs:
       - name: Install bun
         uses: oven-sh/setup-bun@v2
         with:
-            bun-version: 1.0.31
+          bun-version: 1.0.31
 
       - name: Install deps
         run: bun i

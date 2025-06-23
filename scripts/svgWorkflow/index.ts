@@ -22,7 +22,7 @@ const themeColors = {
 };
 
 class SvgWorkflow {
-  ignoreList = ['cursor.svg', 'dify.svg', 'dify-color.svg'];
+  ignoreList = ['cursor.svg'];
 
   exportSvg(Component: ComponentType, outputFileName: string): void {
     const svgString = renderToStaticMarkup(createElement(Component));

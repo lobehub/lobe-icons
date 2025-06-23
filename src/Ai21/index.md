@@ -63,7 +63,7 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Ai21.Avatar size={64} background={Ai21.colorPrimary} />
+    <Ai21.Avatar size={64} background={Ai21.colorGradient} />
     <Ai21.Avatar size={64} />
     <Ai21.Avatar size={64} shape={'square'} />
   </Flexbox>

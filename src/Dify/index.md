@@ -31,7 +31,6 @@ import { Flexbox } from 'react-layout-kit';
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
     <Dify.Text size={48} />
-    <Dify.TextColor size={48} />
   </Flexbox>
 );
 ```
@@ -75,7 +74,6 @@ import ColorPreview from '../components/ColorPreview';
 export default () => (
   <Flexbox gap={16} horizontal>
     <ColorPreview color={Dify.colorPrimary} />
-    <ColorPreview color={Dify.colorGradient} />
   </Flexbox>
 );
 ```
