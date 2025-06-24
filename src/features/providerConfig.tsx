@@ -13,6 +13,7 @@ import AzureAI from '@/AzureAI';
 import Baichuan from '@/Baichuan';
 import BaiduCloud from '@/BaiduCloud';
 import Bedrock from '@/Bedrock';
+import BurnCloud from '@/BurnCloud';
 import Claude from '@/Claude';
 import Cloudflare from '@/Cloudflare';
 import Cohere from '@/Cohere';
@@ -178,6 +179,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Spark, combineMultiple: 0.92, keywords: [ModelProvider.Spark] },
   { Icon: Fireworks, combineMultiple: 1.14, keywords: [ModelProvider.FireworksAI] },
   { Icon: Baichuan, combineMultiple: 0.83, keywords: [ModelProvider.Baichuan] },
+  { Icon: BurnCloud, combineMultiple: 1.5, keywords: [ModelProvider.BurnCloud] },
   { Icon: AiMass, combineMultiple: 1.16, keywords: [ModelProvider.Taichu] },
   { Icon: Ai360, combineMultiple: 0.83, keywords: [ModelProvider.Ai360] },
   { Icon: SiliconCloud, combineMultiple: 0.75, keywords: [ModelProvider.SiliconCloud] },

@@ -11,6 +11,7 @@ import AssemblyAI from '@/AssemblyAI';
 import Aws from '@/Aws';
 import Aya from '@/Aya';
 import Baichuan from '@/Baichuan';
+import BurnCloud from '@/BurnCloud';
 import ByteDance from '@/ByteDance';
 import ChatGLM from '@/ChatGLM';
 import Claude from '@/Claude';
@@ -147,6 +148,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Hunyuan, keywords: ['hunyuan'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
   { Icon: ByteDance, keywords: ['skylark'] },
+  { Icon: BurnCloud, keywords: ['burncloud'] },
   {
     Icon: Stability,
     keywords: [
