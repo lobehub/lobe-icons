@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 2.7.0](https://github.com/lobehub/lobe-icons/compare/v2.6.0...v2.7.0)
+
+<sup>Released on **2025-06-24**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Add BurnCloud model config.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([03fa842](https://github.com/lobehub/lobe-icons/commit/03fa842))
+
+#### Styles
+
+- **misc**: Add BurnCloud model config, closes [#125](https://github.com/lobehub/lobe-icons/issues/125) ([491d3fd](https://github.com/lobehub/lobe-icons/commit/491d3fd))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.6.0](https://github.com/lobehub/lobe-icons/compare/v2.5.1...v2.6.0)
 
 <sup>Released on **2025-06-23**</sup>
