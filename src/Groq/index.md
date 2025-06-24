@@ -32,7 +32,6 @@ import { Flexbox } from 'react-layout-kit';
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
     <Groq.Combine size={64} />
-    <Groq.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```

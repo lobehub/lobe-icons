@@ -50,7 +50,7 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Stepfun.Avatar size={64} background={Stepfun.colorPrimary} />
+    <Stepfun.Avatar size={64} background={Stepfun.colorGradient} />
     <Stepfun.Avatar size={64} />
     <Stepfun.Avatar size={64} shape={'square'} />
   </Flexbox>
@@ -68,6 +68,7 @@ import ColorPreview from '../components/ColorPreview';
 export default () => (
   <Flexbox gap={16} horizontal>
     <ColorPreview color={Stepfun.colorPrimary} />
+    <ColorPreview color={Stepfun.colorGradient} />
   </Flexbox>
 );
 ```

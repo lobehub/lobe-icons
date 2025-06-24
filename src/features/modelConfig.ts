@@ -56,6 +56,7 @@ import Stepfun from '@/Stepfun';
 import Suno from '@/Suno';
 import Udio from '@/Udio';
 import Upstage from '@/Upstage';
+import V0 from '@/V0';
 import VertexAI from '@/VertexAI';
 import Voyage from '@/Voyage';
 import Wenxin from '@/Wenxin';
@@ -195,6 +196,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Inflection, keywords: ['inflection-'] },
   { Icon: AionLabs, keywords: ['aion-'] },
   { Icon: AiHubMix, keywords: ['aihubmix'] },
+  { Icon: V0, keywords: ['^v0-'] },
   { Icon: VertexAI, keywords: ['^veo-', '/veo-'] },
   { Icon: Google, keywords: ['google'] },
 ];

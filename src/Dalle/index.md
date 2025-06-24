@@ -69,6 +69,7 @@ import ColorPreview from '../components/ColorPreview';
 export default () => (
   <Flexbox gap={16} horizontal>
     <ColorPreview color={Dalle.colorPrimary} />
+    <ColorPreview color={Dalle.colorGradient} />
   </Flexbox>
 );
 ```

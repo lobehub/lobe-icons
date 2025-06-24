@@ -50,7 +50,6 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <OpenChat.Avatar size={64} background={OpenChat.colorPrimary} />
     <OpenChat.Avatar size={64} />
     <OpenChat.Avatar size={64} shape={'square'} />
   </Flexbox>

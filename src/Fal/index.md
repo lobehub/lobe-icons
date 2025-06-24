@@ -12,7 +12,12 @@ description: https://fal.ai
 import { Fal } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
-export default () => <Fal size={64} />;
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Fal size={64} />
+    <Fal.Color size={64} />
+  </Flexbox>
+);
 ```
 
 ## Text

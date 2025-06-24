@@ -50,7 +50,7 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <LLaVA.Avatar size={64} background={LLaVA.colorPrimary} />
+    <LLaVA.Avatar size={64} background={LLaVA.colorGradient} />
     <LLaVA.Avatar size={64} />
     <LLaVA.Avatar size={64} shape={'square'} />
   </Flexbox>

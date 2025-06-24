@@ -2,6 +2,116 @@
 
 # Changelog
 
+## [Version 2.6.0](https://github.com/lobehub/lobe-icons/compare/v2.5.1...v2.6.0)
+
+<sup>Released on **2025-06-23**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add NousResearch.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([a6bc41c](https://github.com/lobehub/lobe-icons/commit/a6bc41c))
+- **misc**: Add NousResearch ([0d8b3f5](https://github.com/lobehub/lobe-icons/commit/0d8b3f5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.5.1](https://github.com/lobehub/lobe-icons/compare/v2.5.0...v2.5.1)
+
+<sup>Released on **2025-06-23**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Dify and ComfyUI new Brand Logo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Dify and ComfyUI new Brand Logo ([a8e6d46](https://github.com/lobehub/lobe-icons/commit/a8e6d46))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 2.5.0](https://github.com/lobehub/lobe-icons/compare/v2.4.0...v2.5.0)
+
+<sup>Released on **2025-06-20**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Support v0 (Vercel) provider & model icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([49adad2](https://github.com/lobehub/lobe-icons/commit/49adad2))
+
+#### Styles
+
+- **misc**: Support v0 (Vercel) provider & model icons, closes [#124](https://github.com/lobehub/lobe-icons/issues/124) ([019f7b6](https://github.com/lobehub/lobe-icons/commit/019f7b6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 2.4.0](https://github.com/lobehub/lobe-icons/compare/v2.3.0...v2.4.0)
+
+<sup>Released on **2025-06-11**</sup>
+
+#### ✨ Features
+
+- **misc**: Add BurnCloud, Player2, Trae, Baseten, NovelAI.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add BurnCloud, Player2, Trae, Baseten, NovelAI, closes [#122](https://github.com/lobehub/lobe-icons/issues/122) [#120](https://github.com/lobehub/lobe-icons/issues/120) [#121](https://github.com/lobehub/lobe-icons/issues/121) ([eb00bda](https://github.com/lobehub/lobe-icons/commit/eb00bda))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.3.0](https://github.com/lobehub/lobe-icons/compare/v2.2.1...v2.3.0)
 
 <sup>Released on **2025-06-03**</sup>

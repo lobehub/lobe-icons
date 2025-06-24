@@ -50,7 +50,7 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <CodeGeeX.Avatar size={64} background={CodeGeeX.colorPrimary} />
+    <CodeGeeX.Avatar size={64} background={CodeGeeX.colorGradient} />
     <CodeGeeX.Avatar size={64} />
     <CodeGeeX.Avatar size={64} shape={'square'} />
   </Flexbox>

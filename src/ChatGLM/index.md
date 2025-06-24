@@ -50,7 +50,7 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ChatGLM.Avatar size={64} background={ChatGLM.colorPrimary} />
+    <ChatGLM.Avatar size={64} background={ChatGLM.colorGradient} />
     <ChatGLM.Avatar size={64} />
     <ChatGLM.Avatar size={64} shape={'square'} />
   </Flexbox>

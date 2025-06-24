@@ -50,7 +50,7 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Rwkv.Avatar size={64} background={Rwkv.colorPrimary} />
+    <Rwkv.Avatar size={64} background={Rwkv.colorGradient} />
     <Rwkv.Avatar size={64} />
     <Rwkv.Avatar size={64} shape={'square'} />
   </Flexbox>
@@ -68,6 +68,7 @@ import ColorPreview from '../components/ColorPreview';
 export default () => (
   <Flexbox gap={16} horizontal>
     <ColorPreview color={Rwkv.colorPrimary} />
+    <ColorPreview color={Rwkv.colorGradient} />
   </Flexbox>
 );
 ```
