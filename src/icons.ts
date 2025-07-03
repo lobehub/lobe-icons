@@ -1,6 +1,7 @@
 export { default as Adobe, type CompoundedIcon as AdobeProps } from './Adobe';
 export { default as AdobeFirefly, type CompoundedIcon as AdobeFireflyProps } from './AdobeFirefly';
 export { default as Ai21, type CompoundedIcon as Ai21Props } from './Ai21';
+export { default as Ai302, type CompoundedIcon as Ai302Props } from './Ai302';
 export { default as Ai360, type CompoundedIcon as Ai360Props } from './Ai360';
 export { default as AiHubMix, type CompoundedIcon as AiHubMixProps } from './AiHubMix';
 export { default as AiMass, type CompoundedIcon as AiMassProps } from './AiMass';
