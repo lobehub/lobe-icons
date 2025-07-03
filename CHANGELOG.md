@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 2.8.0](https://github.com/lobehub/lobe-icons/compare/v2.7.0...v2.8.0)
+
+<sup>Released on **2025-07-01**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Windsurf.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Windsurf ([96d1304](https://github.com/lobehub/lobe-icons/commit/96d1304))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.7.0](https://github.com/lobehub/lobe-icons/compare/v2.6.0...v2.7.0)
 
 <sup>Released on **2025-06-24**</sup>
