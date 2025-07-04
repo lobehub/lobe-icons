@@ -2,6 +2,7 @@ import { DivProps } from '@lobehub/ui';
 import { FC, memo } from 'react';
 
 import Ai21 from '@/Ai21';
+import Ai302 from '@/Ai302';
 import Ai360 from '@/Ai360';
 import AiHubMix from '@/AiHubMix';
 import AiMass from '@/AiMass';
@@ -138,6 +139,7 @@ export const providerMappings: ProviderMapping[] = [
       />
     )),
     Icon: Azure,
+    combineMultiple: 0.9,
     keywords: [ModelProvider.Azure],
   },
   { Icon: Moonshot, combineMultiple: 0.9, keywords: [ModelProvider.Moonshot] },
@@ -146,7 +148,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Ollama, combineMultiple: 1.16, keywords: [ModelProvider.Ollama] },
   { Icon: Perplexity, keywords: [ModelProvider.Perplexity] },
   { Icon: Minimax, combineMultiple: 1.3, keywords: [ModelProvider.Minimax] },
-  { Icon: Mistral, combineMultiple: 1.08, keywords: [ModelProvider.Mistral] },
+  { Icon: Mistral, keywords: [ModelProvider.Mistral] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -162,7 +164,7 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: Groq, keywords: [ModelProvider.Groq] },
   { Icon: OpenRouter, combineMultiple: 0.8, keywords: [ModelProvider.OpenRouter] },
-  { Icon: ZeroOne, combineMultiple: 0.9, keywords: [ModelProvider.ZeroOne] },
+  { Icon: ZeroOne, combineMultiple: 1, keywords: [ModelProvider.ZeroOne] },
   { Icon: Together, keywords: [ModelProvider.TogetherAI] },
   { Icon: Qiniu, combineMultiple: 1.1, keywords: [ModelProvider.Qiniu] },
   {
@@ -182,7 +184,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Spark, combineMultiple: 0.92, keywords: [ModelProvider.Spark] },
   { Icon: Fireworks, combineMultiple: 1.14, keywords: [ModelProvider.FireworksAI] },
   { Icon: Baichuan, combineMultiple: 0.83, keywords: [ModelProvider.Baichuan] },
-  { Icon: BurnCloud, combineMultiple: 1.5, keywords: [ModelProvider.BurnCloud] },
+  { Icon: BurnCloud, combineMultiple: 1.2, keywords: [ModelProvider.BurnCloud] },
   { Icon: AiMass, combineMultiple: 1.16, keywords: [ModelProvider.Taichu] },
   { Icon: Ai360, combineMultiple: 0.83, keywords: [ModelProvider.Ai360] },
   { Icon: SiliconCloud, combineMultiple: 0.75, keywords: [ModelProvider.SiliconCloud] },
@@ -238,7 +240,8 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Search1API, combineMultiple: 0.9, keywords: [ModelProvider.Search1API] },
   { Icon: Infinigence, combineMultiple: 0.8, keywords: [ModelProvider.InfiniAI] },
   { Icon: Xinference, combineMultiple: 0.85, keywords: [ModelProvider.Xinference] },
-  { Icon: Fal, keywords: [ModelProvider.Fal] },
+  { Icon: Fal, combineMultiple: 0.8, keywords: [ModelProvider.Fal] },
+  { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
   {
     Combine: memo(({ size = 24, ...props }) => (
