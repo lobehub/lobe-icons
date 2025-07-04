@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 1.51.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-png@1.50.0...@lobehub/icons-static-png@1.51.0)
+
+<sup>Released on **2025-07-04**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Support 302.AI provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([a783fdd](https://github.com/lobehub/lobe-icons/commit/a783fdd))
+- **misc**: Support 302.AI provider, closes [#130](https://github.com/lobehub/lobe-icons/issues/130) ([9b1f89e](https://github.com/lobehub/lobe-icons/commit/9b1f89e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.50.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-png@1.49.0...@lobehub/icons-static-png@1.50.0)
 
 <sup>Released on **2025-07-01**</sup>
