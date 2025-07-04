@@ -87,7 +87,7 @@ const toc: IconToc[] = [
     id: 'Ai302',
     param: {
       hasAvatar: true,
-      hasBrand: true,
+      hasBrand: false,
       hasBrandColor: false,
       hasColor: true,
       hasCombine: true,

@@ -42,19 +42,6 @@ export default () => (
 );
 ```
 
-## Brands
-
-```tsx
-import { Ai302 } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
-
-export default () => (
-  <Flexbox gap={16} align={'flex-start'}>
-    <Ai302.Brand size={64} />
-  </Flexbox>
-);
-```
-
 ## Avatars
 
 ```tsx
@@ -80,8 +67,6 @@ import ColorPreview from '../components/ColorPreview';
 export default () => (
   <Flexbox gap={16} horizontal>
     <ColorPreview color={Ai302.colorPrimary} />
-    <ColorPreview color={Ai302.colorSecondary} />
-    <ColorPreview color={Ai302.colorTertiary} />
   </Flexbox>
 );
 ```
