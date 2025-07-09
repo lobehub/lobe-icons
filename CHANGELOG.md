@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 2.11.0](https://github.com/lobehub/lobe-icons/compare/v2.10.0...v2.11.0)
+
+<sup>Released on **2025-07-09**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Fix some style issues.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([a4fcf1c](https://github.com/lobehub/lobe-icons/commit/a4fcf1c))
+
+#### Styles
+
+- **misc**: Fix some style issues ([57ba599](https://github.com/lobehub/lobe-icons/commit/57ba599))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.10.0](https://github.com/lobehub/lobe-icons/compare/v2.9.0...v2.10.0)
 
 <sup>Released on **2025-07-07**</sup>
