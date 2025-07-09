@@ -3139,7 +3139,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#615ced',
-    colorGradient: 'linear-gradient(to right, #00055F,  #6F69F7)',
+    colorGradient: 'linear-gradient(to right, #6336E7,  #6F69F7)',
     desc: 'https://huggingface.co/Qwen',
     docsUrl: 'qwen',
     fullTitle: 'Qwen (千问)',

@@ -21,7 +21,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       {...rest}
     >
       <title>{TITLE}</title>
-      <g clipPath={a.fill} data-figma-skip-parse="true">
+      <g clipPath={a.fill}>
         <g transform="matrix(-0.009271 -0.017448 0.0215011 -0.0134883 13.0472 18.2292)">
           <rect
             fill={b.fill}
@@ -64,7 +64,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
           />
         </g>
       </g>
-      <g clipPath={c.fill} data-figma-skip-parse="true">
+      <g clipPath={c.fill}>
         <g transform="matrix(-0.00282575 -0.00489434 0.00971874 -0.00561112 16.5909 23.2227)">
           <rect
             fill={d.fill}
