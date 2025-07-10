@@ -3368,7 +3368,7 @@ const toc: IconToc[] = [
     title: 'SenseNova',
   },
   {
-    color: '#7C3AED',
+    color: '#6E29F6',
     desc: 'https://siliconflow.cn/zh-cn/',
     docsUrl: 'silicon-cloud',
     fullTitle: 'SiliconCloud (SiliconFlow)',
