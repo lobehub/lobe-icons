@@ -1,5 +1,5 @@
 export const TITLE = 'SiliconCloud';
-export const COMBINE_TEXT_MULTIPLE = 0.51;
+export const COMBINE_TEXT_MULTIPLE = 0.7;
 export const COMBINE_SPACE_MULTIPLE = 0.2;
 export const COLOR_PRIMARY = '#6E29F6';
 

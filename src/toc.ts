@@ -3369,7 +3369,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#6E29F6',
-    desc: 'https://siliconflow.cn/zh-cn/',
+    desc: 'https://www.siliconflow.com',
     docsUrl: 'silicon-cloud',
     fullTitle: 'SiliconCloud (SiliconFlow)',
     group: 'provider',
