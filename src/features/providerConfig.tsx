@@ -187,7 +187,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: BurnCloud, combineMultiple: 1.2, keywords: [ModelProvider.BurnCloud] },
   { Icon: AiMass, combineMultiple: 1.16, keywords: [ModelProvider.Taichu] },
   { Icon: Ai360, combineMultiple: 0.83, keywords: [ModelProvider.Ai360] },
-  { Icon: SiliconCloud, combineMultiple: 0.75, keywords: [ModelProvider.SiliconCloud] },
+  { Icon: SiliconCloud, combineMultiple: 1, keywords: [ModelProvider.SiliconCloud] },
   { Icon: Upstage, combineMultiple: 0.9, keywords: [ModelProvider.Upstage] },
   { Icon: Ai21, combineMultiple: 0.9, keywords: [ModelProvider.Ai21] },
   { Icon: Player2, combineMultiple: 0.9, keywords: [ModelProvider.Player2] },
