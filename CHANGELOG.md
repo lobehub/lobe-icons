@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 2.14.0](https://github.com/lobehub/lobe-icons/compare/v2.13.0...v2.14.0)
+
+<sup>Released on **2025-07-14**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix SiliconCloud.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([513867a](https://github.com/lobehub/lobe-icons/commit/513867a))
+
+#### What's fixed
+
+- **misc**: Fix SiliconCloud ([61bac7e](https://github.com/lobehub/lobe-icons/commit/61bac7e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.13.0](https://github.com/lobehub/lobe-icons/compare/v2.12.0...v2.13.0)
 
 <sup>Released on **2025-07-14**</sup>
