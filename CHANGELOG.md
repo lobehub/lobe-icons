@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 2.12.0](https://github.com/lobehub/lobe-icons/compare/v2.11.0...v2.12.0)
+
+<sup>Released on **2025-07-14**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Update Gemini new logo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([de0c5f5](https://github.com/lobehub/lobe-icons/commit/de0c5f5))
+
+#### Styles
+
+- **misc**: Update Gemini new logo ([3bd4341](https://github.com/lobehub/lobe-icons/commit/3bd4341))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.11.0](https://github.com/lobehub/lobe-icons/compare/v2.10.0...v2.11.0)
 
 <sup>Released on **2025-07-09**</sup>
