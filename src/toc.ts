@@ -1435,8 +1435,7 @@ const toc: IconToc[] = [
     title: 'Friendli',
   },
   {
-    color: '#1C69FF',
-    colorGradient: 'linear-gradient(45deg, #1C69FF 40%,  #F0DCD6 100%)',
+    color: '#fff',
     desc: 'https://deepmind.google/technologies/gemini',
     docsUrl: 'gemini',
     fullTitle: 'Gemini (Google)',
@@ -1444,8 +1443,8 @@ const toc: IconToc[] = [
     id: 'Gemini',
     param: {
       hasAvatar: true,
-      hasBrand: true,
-      hasBrandColor: true,
+      hasBrand: false,
+      hasBrandColor: false,
       hasColor: true,
       hasCombine: true,
       hasText: true,
