@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/lobehub-lobe-icons-badge.png)](https://mseep.ai/app/lobehub-lobe-icons)
+
 <a name="readme-top"></a>
 
 <div align="center">
