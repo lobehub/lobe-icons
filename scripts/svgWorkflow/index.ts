@@ -125,8 +125,8 @@ class SvgWorkflow {
           const svgPath = resolve(outputDir, file);
           const webpLightPath = resolve(outputWebpDir, 'light', file.replace('.svg', '.webp'));
           const webpDarkPath = resolve(outputWebpDir, 'dark', file.replace('.svg', '.webp'));
-          await this.convertSvgToPng(svgPath, webpLightPath, 1024, 'light');
-          await this.convertSvgToPng(svgPath, webpDarkPath, 1024, 'dark');
+          await this.convertSvgToWebp(svgPath, webpLightPath, 1024, 'light');
+          await this.convertSvgToWebp(svgPath, webpDarkPath, 1024, 'dark');
         }
       },
       { concurrency: 5 },
