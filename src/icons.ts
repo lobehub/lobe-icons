@@ -1,5 +1,6 @@
 export { default as Adobe, type CompoundedIcon as AdobeProps } from './Adobe';
 export { default as AdobeFirefly, type CompoundedIcon as AdobeFireflyProps } from './AdobeFirefly';
+export { default as Agui, type CompoundedIcon as AguiProps } from './Agui';
 export { default as Ai21, type CompoundedIcon as Ai21Props } from './Ai21';
 export { default as Ai302, type CompoundedIcon as Ai302Props } from './Ai302';
 export { default as Ai360, type CompoundedIcon as Ai360Props } from './Ai360';
@@ -44,6 +45,7 @@ export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
 export { default as ComfyUI, type CompoundedIcon as ComfyUIProps } from './ComfyUI';
 export { default as CommandA, type CompoundedIcon as CommandAProps } from './CommandA';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
+export { default as CopilotKit, type CompoundedIcon as CopilotKitProps } from './CopilotKit';
 export { default as Coqui, type CompoundedIcon as CoquiProps } from './Coqui';
 export { default as Coze, type CompoundedIcon as CozeProps } from './Coze';
 export { default as CrewAI, type CompoundedIcon as CrewAIrops } from './CrewAI';
@@ -61,6 +63,7 @@ export { default as DocSearch, type CompoundedIcon as DocSearchProps } from './D
 export { default as Doubao, type CompoundedIcon as DoubaoProps } from './Doubao';
 export { default as DreamMachine, type CompoundedIcon as DreamMachineProps } from './DreamMachine';
 export { default as ElevenLabs, type CompoundedIcon as ElevenLabsProps } from './ElevenLabs';
+export { default as ElevenX, type CompoundedIcon as ElevenXProps } from './ElevenX';
 export { default as Exa, type CompoundedIcon as ExaProps } from './Exa';
 export { default as Fal, type CompoundedIcon as FalProps } from './Fal';
 export { default as FastGPT, type CompoundedIcon as FastGPTProps } from './FastGPT';
@@ -80,6 +83,7 @@ export {
   default as GithubCopilot,
   type CompoundedIcon as GithubCopilotProps,
 } from './GithubCopilot';
+export { default as Glama, type CompoundedIcon as GlamaProps } from './Glama';
 export { default as Glif, type CompoundedIcon as GlifProps } from './Glif';
 export { default as Google, type CompoundedIcon as GoogleProps } from './Google';
 export { default as Goose, type CompoundedIcon as GooseProps } from './Goose';
@@ -124,7 +128,9 @@ export { default as Luma, type CompoundedIcon as LumaProps } from './Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './Magic';
 export { default as Make, type CompoundedIcon as MakeProps } from './Make';
 export { default as Manus, type CompoundedIcon as ManusProps } from './Manus';
+export { default as Mastra, type CompoundedIcon as MastraProps } from './Mastra';
 export { default as MCP, type CompoundedIcon as MCPProps } from './MCP';
+export { default as McpSo, type CompoundedIcon as McpSoProps } from './McpSo';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
 export { default as MetaAI, type CompoundedIcon as MetaAIProps } from './MetaAI';
 export { default as MetaGPT, type CompoundedIcon as MetaGPTProps } from './MetaGPT';
@@ -177,6 +183,7 @@ export { default as Search1API, type CompoundedIcon as Search1APIProps } from '.
 export { default as SearchApi, type CompoundedIcon as SearchApiProps } from './SearchApi';
 export { default as SenseNova, type CompoundedIcon as SenseNovaProps } from './SenseNova';
 export { default as SiliconCloud, type CompoundedIcon as SiliconCloudProps } from './SiliconCloud';
+export { default as Smithery, type CompoundedIcon as SmitheryProps } from './Smithery';
 export { default as Snowflake, type CompoundedIcon as SnowflakeProps } from './Snowflake';
 export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './Stability';
@@ -185,6 +192,7 @@ export { default as Stepfun, type CompoundedIcon as StepfunProps } from './Stepf
 export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';
 export { default as Sync, type CompoundedIcon as SyncProps } from './Sync';
 export { default as Targon, type CompoundedIcon as TargonProps } from './Targon';
+export { default as Tavily, type CompoundedIcon as TavilyProps } from './Tavily';
 export { default as Tencent, type CompoundedIcon as TencentProps } from './Tencent';
 export { default as TencentCloud, type CompoundedIcon as TencentCloudProps } from './TencentCloud';
 export { default as Tiangong, type CompoundedIcon as TiangongProps } from './Tiangong';
