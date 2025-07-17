@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.56.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-webp@1.56.0...@lobehub/icons-static-webp@1.56.1)
+
+<sup>Released on **2025-07-17**</sup>
+
+#### 💄 Styles
+
+- **misc**: Fix webp.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Fix webp ([e9ad8b2](https://github.com/lobehub/lobe-icons/commit/e9ad8b2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.56.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-webp@1.55.0...@lobehub/icons-static-webp@1.56.0)
 
 <sup>Released on **2025-07-17**</sup>
