@@ -1,0 +1,53 @@
+{
+  "name": "@lobehub/icons-react-native",
+  "version": "1.0.0",
+  "description": "Popular AI / LLM Model Brand Icons for React Native and Expo",
+  "keywords": [
+    "lobehub",
+    "llm icons",
+    "llm brand logo",
+    "react-native",
+    "expo",
+    "react-native-svg",
+    "mobile icons"
+  ],
+  "homepage": "https://github.com/lobehub/lobe-icons",
+  "bugs": {
+    "url": "https://github.com/lobehub/lobe-icons/issues/new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lobehub/lobe-icons.git"
+  },
+  "license": "MIT",
+  "author": "LobeHub <i@lobehub.com>",
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "react-native": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "tsup",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-native": "^0.72.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.76.9",
+    "react-native-svg": ">=15.8.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
