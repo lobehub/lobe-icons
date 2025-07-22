@@ -126,7 +126,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Gemma, keywords: ['gemma'] },
   { Icon: Moonshot, keywords: ['kimi', 'moonshot'] },
   { Icon: Qiniu, keywords: ['qiniu'] },
-  { Icon: Qwen, keywords: ['qwen', 'qwq', 'qvq'] },
+  { Icon: Qwen, keywords: ['qwen', 'qwq', 'qvq', 'wanx'] },
   { Icon: Minimax, keywords: ['minimax', 'abab'] },
   {
     Icon: Mistral,
