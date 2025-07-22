@@ -1,5 +1,5 @@
 {
-  "name": "@lobehub/icons-react-native",
+  "name": "@lobehub/icons-rn",
   "version": "1.0.0",
   "description": "Popular AI / LLM Model Brand Icons for React Native and Expo",
   "keywords": [
@@ -31,8 +31,15 @@
   ],
   "scripts": {
     "prebuild": "npm run clean",
-    "build": "tsup",
+    "build": "NODE_OPTIONS=\"--max-old-space-size=16384 --max-semi-space-size=1024\" tsup",
+    "build:dts-only": "NODE_OPTIONS=\"--max-old-space-size=26384 --max-semi-space-size=1024\" tsup --dts-only",
+    "build:no-dts": "NODE_OPTIONS=\"--max-old-space-size=16384 --max-semi-space-size=1024\" tsup --no-dts",
     "clean": "rm -rf dist",
+    "lint": "eslint \"{src,tests}/**/*.{js,jsx,ts,tsx}\" --fix",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "test:run": "vitest run",
+    "test:watch": "vitest --watch",
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {

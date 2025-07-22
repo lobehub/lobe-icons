@@ -37,11 +37,11 @@ Contributions, corrections & requests can be made on GitHub.
 ## 🚀 Installation
 
 ```bash
-npm install @lobehub/icons-react-native
+npm install @lobehub/icons-rn
 # or
-yarn add @lobehub/icons-react-native
+yarn add @lobehub/icons-rn
 # or
-pnpm add @lobehub/icons-react-native
+pnpm add @lobehub/icons-rn
 ```
 
 ### Peer Dependencies
@@ -58,10 +58,12 @@ pnpm add react-native-svg
 
 ## 📖 Usage
 
+> 💡 **API Compatibility**: The React Native package API is almost identical to the web version. You can refer to the [web documentation](https://icons.lobehub.com) for comprehensive usage examples and advanced patterns.
+
 ### Basic Usage
 
 ```tsx
-import { Adobe } from '@lobehub/icons-react-native';
+import { Adobe } from '@lobehub/icons-rn';
 
 export default function App() {
   return (
@@ -75,7 +77,7 @@ export default function App() {
 ### With Styling
 
 ```tsx
-import { Adobe } from '@lobehub/icons-react-native';
+import { Adobe } from '@lobehub/icons-rn';
 
 export default function App() {
   return (
@@ -89,7 +91,7 @@ export default function App() {
 ### Color Version
 
 ```tsx
-import { Adobe } from '@lobehub/icons-react-native';
+import { Adobe } from '@lobehub/icons-rn';
 
 export default function App() {
   return (
@@ -103,7 +105,7 @@ export default function App() {
 ### Text Version
 
 ```tsx
-import { Adobe } from '@lobehub/icons-react-native';
+import { Adobe } from '@lobehub/icons-rn';
 
 export default function App() {
   return (
@@ -117,7 +119,7 @@ export default function App() {
 ### Avatar Version
 
 ```tsx
-import { Adobe } from '@lobehub/icons-react-native';
+import { Adobe } from '@lobehub/icons-rn';
 
 export default function App() {
   return (
@@ -131,7 +133,7 @@ export default function App() {
 ### Combine Version (Icon + Text)
 
 ```tsx
-import { Adobe } from '@lobehub/icons-react-native';
+import { Adobe } from '@lobehub/icons-rn';
 
 export default function App() {
   return (
@@ -184,7 +186,7 @@ export default function App() {
 This package includes full TypeScript support:
 
 ```tsx
-import { Adobe, type AdobeProps } from '@lobehub/icons-react-native';
+import { Adobe, type AdobeProps } from '@lobehub/icons-rn';
 
 // All props are properly typed
 const MyComponent: React.FC = () => {
@@ -194,19 +196,66 @@ const MyComponent: React.FC = () => {
 
 ## 📦 Available Icons
 
-Currently available icons:
+This package includes **225+ AI/LLM brand icons** across three main categories:
 
-- **Adobe** - Adobe Creative Cloud
+### 🤖 Model Icons
 
-More icons will be added as they become available. Check the [main package](https://www.npmjs.com/package/@lobehub/icons) for the complete list.
+Popular AI models including:
+
+- **Claude** (Anthropic), **GPT** (OpenAI), **Gemini** (Google)
+- **Qwen** (Alibaba), **DeepSeek**, **ChatGLM** (Zhipu)
+- **Llama** (Meta), **Mistral**, **RWKV**, and many more
+
+### 🏢 Provider Icons
+
+AI service providers such as:
+
+- **OpenAI**, **Anthropic**, **Google**, **Microsoft**
+- **AWS Bedrock**, **Azure AI**, **Hugging Face**
+- **Groq**, **Together AI**, **Fireworks**, and others
+
+### 🛠️ Application Icons
+
+AI-powered applications including:
+
+- **Adobe Firefly**, **Midjourney**, **Cursor**
+- **GitHub Copilot**, **Notion**, **Figma**
+- **ComfyUI**, **Gradio**, **LangChain**, and more
+
+### 🌐 Complete Icon Gallery
+
+View all available icons with interactive examples at [icons.lobehub.com](https://icons.lobehub.com).
+
+Each icon supports multiple variants:
+
+- **Monochrome** - Inherits color from parent
+- **Color** - Brand-specific colors
+- **Avatar** - Circular background style
+- **Text** - Brand name text
+- **Combine** - Icon + text combination
+
+## 🔗 Web Compatibility
+
+This React Native package maintains **API compatibility** with the web version. For comprehensive documentation, advanced usage patterns, and live examples, visit:
+
+- 📚 **Documentation**: [icons.lobehub.com](https://icons.lobehub.com)
+- 🎮 **Interactive Examples**: All usage examples from the web docs work with React Native
+- 🔧 **Advanced Patterns**: Component composition, theming, and customization guides
+- 🎨 **Design Guidelines**: Icon sizing, spacing, and accessibility best practices
+
+The main differences are:
+
+- Uses `react-native-svg` instead of regular SVG
+- Requires `ViewStyle` instead of `CSSProperties` for styling
+- Uses React Native's theming instead of CSS variables
 
 ## 🆚 Comparison with Other Packages
 
-| Package                       | Target | Bundle Size | Features              |
-| ----------------------------- | ------ | ----------- | --------------------- |
-| `@lobehub/icons`              | Web    | Larger      | Full React components |
-| `@lobehub/icons-static-svg`   | Static | Small       | SVG files only        |
-| `@lobehub/icons-react-native` | Mobile | Optimized   | RN components         |
+| Package                     | Target | Bundle Size | Features              |
+| --------------------------- | ------ | ----------- | --------------------- |
+| `@lobehub/icons`            | Web    | Larger      | Full React components |
+| `@lobehub/icons-static-svg` | Static | Small       | SVG files only        |
+| `@lobehub/icons-rn`         | Mobile | Optimized   | RN components         |
 
 ## 🤝 Contributing
 
@@ -241,10 +290,10 @@ This project is [MIT](./LICENSE) licensed.
 [github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/lobe-icons?labelColor=black&style=flat-square
 [github-stars-link]: https://github.com/lobehub/lobe-icons/network/stargazers
 [github-stars-shield]: https://img.shields.io/github/stars/lobehub/lobe-icons?color=ffcb47&labelColor=black&style=flat-square
-[npm-downloads-link]: https://www.npmjs.com/package/@lobehub/icons-react-native
-[npm-downloads-shield]: https://img.shields.io/npm/dt/@lobehub/icons-react-native?labelColor=black&style=flat-square
-[npm-release-link]: https://www.npmjs.com/package/@lobehub/icons-react-native
-[npm-release-shield]: https://img.shields.io/npm/v/@lobehub/icons-react-native?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
+[npm-downloads-link]: https://www.npmjs.com/package/@lobehub/icons-rn
+[npm-downloads-shield]: https://img.shields.io/npm/dt/@lobehub/icons-rn?labelColor=black&style=flat-square
+[npm-release-link]: https://www.npmjs.com/package/@lobehub/icons-rn
+[npm-release-shield]: https://img.shields.io/npm/v/@lobehub/icons-rn?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
 [profile-link]: https://github.com/lobehub
 [vercel-link]: https://icons.lobehub.com
 [vercel-shield]: https://img.shields.io/website?down_message=offline&label=vercel&labelColor=black&logo=vercel&style=flat-square&up_message=online&url=https%3A%2F%2Fui.lobehub.com

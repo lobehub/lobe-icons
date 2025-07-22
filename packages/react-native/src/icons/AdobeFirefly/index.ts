@@ -14,14 +14,11 @@ export type CompoundedIcon = typeof Mono & {
   title: string;
 };
 
-export type { CombineProps } from './components/Combine';
-
 const Icons = Mono as CompoundedIcon;
-Icons.Avatar = Avatar;
-Icons.Combine = Combine;
 Icons.Color = Color;
 Icons.Text = Text;
+Icons.Combine = Combine;
+Icons.Avatar = Avatar;
 Icons.colorPrimary = COLOR_PRIMARY;
 Icons.title = TITLE;
-
 export default Icons;
