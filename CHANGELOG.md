@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 2.17.0](https://github.com/lobehub/lobe-icons/compare/v2.16.0...v2.17.0)
+
+<sup>Released on **2025-07-22**</sup>
+
+#### ✨ Features
+
+- **misc**: Support 'wanx' model icon.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add missing CogView model config.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support 'wanx' model icon ([4db15a8](https://github.com/lobehub/lobe-icons/commit/4db15a8))
+
+#### What's fixed
+
+- **misc**: Add missing CogView model config ([964fd07](https://github.com/lobehub/lobe-icons/commit/964fd07))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.16.0](https://github.com/lobehub/lobe-icons/compare/v2.15.0...v2.16.0)
 
 <sup>Released on **2025-07-17**</sup>
