@@ -16,6 +16,7 @@ import ByteDance from '@/ByteDance';
 import ChatGLM from '@/ChatGLM';
 import Claude from '@/Claude';
 import CodeGeeX from '@/CodeGeeX';
+import CogView from '@/CogView';
 import Cohere from '@/Cohere';
 import Dalle from '@/Dalle';
 import Dbrx from '@/Dbrx';
@@ -199,4 +200,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: V0, keywords: ['^v0-'] },
   { Icon: VertexAI, keywords: ['^veo-', '/veo-'] },
   { Icon: Google, keywords: ['google'] },
+  { Icon: CogView, keywords: ['cogview'] },
 ];
