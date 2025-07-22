@@ -7,15 +7,16 @@ import Mono from './Mono';
 
 export type AvatarProps = Omit<RNIconAvatarProps, 'Icon'>;
 
-const Avatar = memo<AvatarProps>(({ background, ...rest }) => (
-  <RNIconAvatar
-    Icon={Mono}
-    aria-label={TITLE}
-    background={background || AVATAR_BACKGROUND}
-    color={AVATAR_COLOR}
-    iconMultiple={AVATAR_ICON_MULTIPLE}
-    {...rest}
-  />
-));
-
+const Avatar = memo<AvatarProps>(({ background, ...rest }) => {
+  return (
+    <RNIconAvatar
+      Icon={Mono}
+      aria-label={TITLE}
+      background={background || AVATAR_BACKGROUND}
+      color={AVATAR_COLOR}
+      iconMultiple={AVATAR_ICON_MULTIPLE}
+      {...rest}
+    />
+  );
+});
 export default Avatar;
