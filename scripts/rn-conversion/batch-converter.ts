@@ -41,15 +41,22 @@ function createIconDirectory(iconPath: string): void {
   }
 }
 
-// 复制style.ts文件
+// 转换并复制style.ts文件
 function copyStyleFile(webPath: string, rnPath: string): boolean {
   const webStylePath = join(webPath, 'style.ts');
   const rnStylePath = join(rnPath, 'style.ts');
 
   if (existsSync(webStylePath)) {
-    const content = readFileSync(webStylePath, 'utf8');
-    writeFileSync(rnStylePath, content);
-    return true;
+    const webContent = readFileSync(webStylePath, 'utf8');
+    const result = converter.convertStyleFile(webContent);
+
+    if (result.success && result.content) {
+      writeFileSync(rnStylePath, result.content);
+      return true;
+    } else {
+      console.error(`❌ style.ts 转换失败: ${result.error}`);
+      return false;
+    }
   }
   return false;
 }
