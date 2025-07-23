@@ -19,8 +19,8 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
       <Defs>
         <LinearGradient gradientUnits="userSpaceOnUse" id={id} x1="15" x2="-.5" y1="1" y2="24">
           <Stop stopColor="#E8632A" stopOpacity=".996" />
-          <Stop offset=".586" stopColor="#B465E6" stopOpacity=".996" />
-          <Stop offset="1" stopColor="#979FD9" stopOpacity=".996" />
+          <Stop offset="58.6%" stopColor="#B465E6" stopOpacity=".996" />
+          <Stop offset="100%" stopColor="#979FD9" stopOpacity=".996" />
         </LinearGradient>
       </Defs>
     </Svg>

@@ -26,27 +26,27 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
       <Defs>
         <LinearGradient gradientUnits="userSpaceOnUse" id={a.id} x1="1.5" x2="12" y1="19.5" y2="0">
           <Stop stopColor="#F0F" />
-          <Stop offset=".17" stopColor="#E90CF9" />
-          <Stop offset=".54" stopColor="#C023ED" />
-          <Stop offset=".73" stopColor="#B02DE9" />
-          <Stop offset="1" stopColor="#B02DE9" />
+          <Stop offset="17%" stopColor="#E90CF9" />
+          <Stop offset="54%" stopColor="#C023ED" />
+          <Stop offset="73%" stopColor="#B02DE9" />
+          <Stop offset="100%" stopColor="#B02DE9" />
         </LinearGradient>
         <LinearGradient gradientUnits="userSpaceOnUse" id={b.id} x1="0" x2="24" y1="24" y2="0">
           <Stop stopColor="#B02DE9" />
-          <Stop offset=".02" stopColor="#B02DE9" />
-          <Stop offset=".8" stopColor="#6D00CC" />
-          <Stop offset="1" stopColor="#6D00CC" />
+          <Stop offset="2%" stopColor="#B02DE9" />
+          <Stop offset="80%" stopColor="#6D00CC" />
+          <Stop offset="100%" stopColor="#6D00CC" />
         </LinearGradient>
         <LinearGradient gradientUnits="userSpaceOnUse" id={c.id} x1="0" x2="24" y1="24" y2="0">
           <Stop stopColor="#F0F" />
-          <Stop offset=".02" stopColor="#F0F" />
-          <Stop offset=".09" stopColor="#E90CF9" />
-          <Stop offset=".23" stopColor="#C023ED" />
-          <Stop offset=".3" stopColor="#B02DE9" />
-          <Stop offset=".42" stopColor="#A42BE3" />
-          <Stop offset=".63" stopColor="#8626D5" />
-          <Stop offset=".85" stopColor="#6021C3" />
-          <Stop offset="1" stopColor="#6021C3" />
+          <Stop offset="2%" stopColor="#F0F" />
+          <Stop offset="9%" stopColor="#E90CF9" />
+          <Stop offset="23%" stopColor="#C023ED" />
+          <Stop offset="30%" stopColor="#B02DE9" />
+          <Stop offset="42%" stopColor="#A42BE3" />
+          <Stop offset="63%" stopColor="#8626D5" />
+          <Stop offset="85%" stopColor="#6021C3" />
+          <Stop offset="100%" stopColor="#6021C3" />
         </LinearGradient>
       </Defs>
     </Svg>

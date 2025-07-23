@@ -32,7 +32,7 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           y2="12.019"
         >
           <Stop stopColor="#3239DC" />
-          <Stop offset="1" stopColor="#5A38E2" />
+          <Stop offset="100%" stopColor="#5A38E2" />
         </LinearGradient>
         <LinearGradient
           gradientUnits="userSpaceOnUse"
@@ -43,7 +43,7 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           y2="11.533"
         >
           <Stop stopColor="#3239DC" />
-          <Stop offset="1" stopColor="#5A38E2" />
+          <Stop offset="100%" stopColor="#5A38E2" />
         </LinearGradient>
       </Defs>
     </Svg>

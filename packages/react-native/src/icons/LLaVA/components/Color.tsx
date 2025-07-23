@@ -80,12 +80,12 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           id={a.id}
           r="94.548%"
         >
-          <Stop offset="17.43%" stopColor="#E79F68" />
-          <Stop offset="27.76%" stopColor="#E6A272" />
-          <Stop offset="45.28%" stopColor="#E3AB8D" />
-          <Stop offset="53.12%" stopColor="#E2AF9B" />
-          <Stop offset="78.33%" stopColor="#E1D1CC" />
-          <Stop offset="88.28%" stopColor="#E0E0E0" />
+          <Stop offset="17.4%" stopColor="#E79F68" />
+          <Stop offset="27.8%" stopColor="#E6A272" />
+          <Stop offset="45.3%" stopColor="#E3AB8D" />
+          <Stop offset="53.1%" stopColor="#E2AF9B" />
+          <Stop offset="78.3%" stopColor="#E1D1CC" />
+          <Stop offset="88.3%" stopColor="#E0E0E0" />
         </RadialGradient>
         <RadialGradient
           cx="46.574%"
@@ -96,13 +96,13 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           id={b.id}
           r="104.429%"
         >
-          <Stop offset="38.96%" stopColor="#CB2D30" />
-          <Stop offset="49.16%" stopColor="#D23730" />
-          <Stop offset="66.46%" stopColor="#E45231" />
-          <Stop offset="71.53%" stopColor="#EA5B31" />
-          <Stop offset="79.21%" stopColor="#EA6032" />
+          <Stop offset="39%" stopColor="#CB2D30" />
+          <Stop offset="49.2%" stopColor="#D23730" />
+          <Stop offset="66.5%" stopColor="#E45231" />
+          <Stop offset="71.5%" stopColor="#EA5B31" />
+          <Stop offset="79.2%" stopColor="#EA6032" />
           <Stop offset="88.7%" stopColor="#EC6F36" />
-          <Stop offset="96.72%" stopColor="#ED823A" />
+          <Stop offset="96.7%" stopColor="#ED823A" />
         </RadialGradient>
         <RadialGradient
           cx="-27.509%"
@@ -113,9 +113,9 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           id={c.id}
           r="247.627%"
         >
-          <Stop offset="4.48%" stopColor="#CB2D30" />
-          <Stop offset="34.39%" stopColor="#D23730" />
-          <Stop offset="85.12%" stopColor="#E45231" />
+          <Stop offset="4.5%" stopColor="#CB2D30" />
+          <Stop offset="34.4%" stopColor="#D23730" />
+          <Stop offset="85.1%" stopColor="#E45231" />
           <Stop offset="100%" stopColor="#EA5B31" />
         </RadialGradient>
         <RadialGradient
@@ -127,8 +127,8 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           id={d.id}
           r="145.983%"
         >
-          <Stop offset="29.39%" stopColor="#CB2D30" />
-          <Stop offset="51.49%" stopColor="#D23730" />
+          <Stop offset="29.4%" stopColor="#CB2D30" />
+          <Stop offset="51.5%" stopColor="#D23730" />
           <Stop offset="89%" stopColor="#E45231" />
           <Stop offset="100%" stopColor="#EA5B31" />
         </RadialGradient>
@@ -141,9 +141,9 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           id={e.id}
           r="130.022%"
         >
-          <Stop offset="4.48%" stopColor="#CB2D30" />
-          <Stop offset="34.39%" stopColor="#D23730" />
-          <Stop offset="85.12%" stopColor="#E45231" />
+          <Stop offset="4.5%" stopColor="#CB2D30" />
+          <Stop offset="34.4%" stopColor="#D23730" />
+          <Stop offset="85.1%" stopColor="#E45231" />
           <Stop offset="100%" stopColor="#EA5B31" />
         </RadialGradient>
         <RadialGradient
@@ -155,9 +155,9 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           id={f.id}
           r="149.345%"
         >
-          <Stop offset="42.32%" stopColor="#CB2D30" />
-          <Stop offset="60.38%" stopColor="#D23730" />
-          <Stop offset="91.02%" stopColor="#E45231" />
+          <Stop offset="42.3%" stopColor="#CB2D30" />
+          <Stop offset="60.4%" stopColor="#D23730" />
+          <Stop offset="91%" stopColor="#E45231" />
           <Stop offset="100%" stopColor="#EA5B31" />
         </RadialGradient>
         <RadialGradient
@@ -169,9 +169,9 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           id={g.id}
           r="139.942%"
         >
-          <Stop offset="34.06%" stopColor="#CB2D30" />
+          <Stop offset="34.1%" stopColor="#CB2D30" />
           <Stop offset="54.7%" stopColor="#D23730" />
-          <Stop offset="89.73%" stopColor="#E45231" />
+          <Stop offset="89.7%" stopColor="#E45231" />
           <Stop offset="100%" stopColor="#EA5B31" />
         </RadialGradient>
         <RadialGradient
@@ -183,9 +183,9 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           id={h.id}
           r="328.308%"
         >
-          <Stop offset="48.33%" stopColor="#CB2D30" />
-          <Stop offset="64.51%" stopColor="#D23730" />
-          <Stop offset="91.95%" stopColor="#E45231" />
+          <Stop offset="48.3%" stopColor="#CB2D30" />
+          <Stop offset="64.5%" stopColor="#D23730" />
+          <Stop offset="92%" stopColor="#E45231" />
           <Stop offset="100%" stopColor="#EA5B31" />
         </RadialGradient>
         <RadialGradient
@@ -197,9 +197,9 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           id={i.id}
           r="78.647%"
         >
-          <Stop offset="4.48%" stopColor="#CB2D30" />
-          <Stop offset="34.39%" stopColor="#D23730" />
-          <Stop offset="85.12%" stopColor="#E45231" />
+          <Stop offset="4.5%" stopColor="#CB2D30" />
+          <Stop offset="34.4%" stopColor="#D23730" />
+          <Stop offset="85.1%" stopColor="#E45231" />
           <Stop offset="100%" stopColor="#EA5B31" />
         </RadialGradient>
         <RadialGradient
@@ -211,9 +211,9 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           id={j.id}
           r="80.209%"
         >
-          <Stop offset="4.48%" stopColor="#CB2D30" />
-          <Stop offset="34.39%" stopColor="#D23730" />
-          <Stop offset="85.12%" stopColor="#E45231" />
+          <Stop offset="4.5%" stopColor="#CB2D30" />
+          <Stop offset="34.4%" stopColor="#D23730" />
+          <Stop offset="85.1%" stopColor="#E45231" />
           <Stop offset="100%" stopColor="#EA5B31" />
         </RadialGradient>
         <RadialGradient
@@ -225,9 +225,9 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           id={k.id}
           r="121.766%"
         >
-          <Stop offset="39.43%" stopColor="#CB2D30" />
-          <Stop offset="58.39%" stopColor="#D23730" />
-          <Stop offset="90.57%" stopColor="#E45231" />
+          <Stop offset="39.4%" stopColor="#CB2D30" />
+          <Stop offset="58.4%" stopColor="#D23730" />
+          <Stop offset="90.6%" stopColor="#E45231" />
           <Stop offset="100%" stopColor="#EA5B31" />
         </RadialGradient>
         <RadialGradient
@@ -239,9 +239,9 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           id={l.id}
           r="126.759%"
         >
-          <Stop offset="42.05%" stopColor="#CB2D30" />
-          <Stop offset="60.19%" stopColor="#D23730" />
-          <Stop offset="90.97%" stopColor="#E45231" />
+          <Stop offset="42.1%" stopColor="#CB2D30" />
+          <Stop offset="60.2%" stopColor="#D23730" />
+          <Stop offset="91%" stopColor="#E45231" />
           <Stop offset="100%" stopColor="#EA5B31" />
         </RadialGradient>
       </Defs>

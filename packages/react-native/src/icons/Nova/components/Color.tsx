@@ -42,10 +42,10 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           y2="21.5"
         >
           <Stop stopColor="#43E3E4" />
-          <Stop offset=".25" stopColor="#4A9FFF" />
-          <Stop offset=".5" stopColor="#AA4BFB" />
-          <Stop offset=".75" stopColor="#FC5978" />
-          <Stop offset="1" stopColor="#FF6D32" />
+          <Stop offset="25%" stopColor="#4A9FFF" />
+          <Stop offset="50%" stopColor="#AA4BFB" />
+          <Stop offset="75%" stopColor="#FC5978" />
+          <Stop offset="100%" stopColor="#FF6D32" />
         </LinearGradient>
         <LinearGradient
           gradientUnits="userSpaceOnUse"
@@ -56,10 +56,10 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           y2="21.5"
         >
           <Stop stopColor="#43E3E4" />
-          <Stop offset=".25" stopColor="#4A9FFF" />
-          <Stop offset=".5" stopColor="#AA4BFB" />
-          <Stop offset=".75" stopColor="#FC5978" />
-          <Stop offset="1" stopColor="#FF6D32" />
+          <Stop offset="25%" stopColor="#4A9FFF" />
+          <Stop offset="50%" stopColor="#AA4BFB" />
+          <Stop offset="75%" stopColor="#FC5978" />
+          <Stop offset="100%" stopColor="#FF6D32" />
         </LinearGradient>
         <LinearGradient
           gradientUnits="userSpaceOnUse"
@@ -70,10 +70,10 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           y2="21.5"
         >
           <Stop stopColor="#43E3E4" />
-          <Stop offset=".25" stopColor="#4A9FFF" />
-          <Stop offset=".5" stopColor="#AA4BFB" />
-          <Stop offset=".75" stopColor="#FC5978" />
-          <Stop offset="1" stopColor="#FF6D32" />
+          <Stop offset="25%" stopColor="#4A9FFF" />
+          <Stop offset="50%" stopColor="#AA4BFB" />
+          <Stop offset="75%" stopColor="#FC5978" />
+          <Stop offset="100%" stopColor="#FF6D32" />
         </LinearGradient>
         <LinearGradient
           gradientUnits="userSpaceOnUse"
@@ -84,10 +84,10 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           y2="21.5"
         >
           <Stop stopColor="#43E3E4" />
-          <Stop offset=".25" stopColor="#4A9FFF" />
-          <Stop offset=".5" stopColor="#AA4BFB" />
-          <Stop offset=".75" stopColor="#FC5978" />
-          <Stop offset="1" stopColor="#FF6D32" />
+          <Stop offset="25%" stopColor="#4A9FFF" />
+          <Stop offset="50%" stopColor="#AA4BFB" />
+          <Stop offset="75%" stopColor="#FC5978" />
+          <Stop offset="100%" stopColor="#FF6D32" />
         </LinearGradient>
       </Defs>
     </Svg>

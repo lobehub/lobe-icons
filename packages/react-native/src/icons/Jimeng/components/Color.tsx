@@ -84,15 +84,15 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
         </ClipPath>
         <LinearGradient gradientUnits="userSpaceOnUse" id={b.id} x1="0" x2="500" y1="0" y2="500">
           <Stop stopColor="#27B2F0" />
-          <Stop offset="0.203234" stopColor="#26DFFB" />
-          <Stop offset="0.406468" stopColor="#30F5FE" />
-          <Stop offset="0.652506" stopColor="#F0FEFC" />
-          <Stop offset="0.863327" stopColor="#FBC610" />
-          <Stop offset="1" stopColor="#FD9C22" />
+          <Stop offset="20.3%" stopColor="#26DFFB" />
+          <Stop offset="40.6%" stopColor="#30F5FE" />
+          <Stop offset="65.3%" stopColor="#F0FEFC" />
+          <Stop offset="86.3%" stopColor="#FBC610" />
+          <Stop offset="100%" stopColor="#FD9C22" />
         </LinearGradient>
         <LinearGradient gradientUnits="userSpaceOnUse" id={d.id} x1="0" x2="500" y1="0" y2="500">
           <Stop stopColor="#1C6FFF" />
-          <Stop offset="1" stopColor="#24B5EF" />
+          <Stop offset="100%" stopColor="#24B5EF" />
         </LinearGradient>
       </Defs>
     </Svg>
