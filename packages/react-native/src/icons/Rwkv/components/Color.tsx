@@ -13,7 +13,7 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
       <Defs>
         <LinearGradient id={id} x1="100%" x2="0%" y1="53.893%" y2="53.893%">
           <Stop offset="0%" stopColor="#1D1A5C" />
-          <Stop offset="49.586%" stopColor="#3431C3" />
+          <Stop offset="49.6%" stopColor="#3431C3" />
           <Stop offset="100%" stopColor="#7361F7" />
         </LinearGradient>
       </Defs>

@@ -23,11 +23,11 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           y1=".884"
           y2="27.022"
         >
-          <Stop offset=".09" stopColor="#FFAB0C" />
-          <Stop offset=".31" stopColor="#FF5538" />
-          <Stop offset=".46" stopColor="#E9405D" />
-          <Stop offset=".75" stopColor="#D266DA" />
-          <Stop offset=".89" stopColor="#D584EF" />
+          <Stop offset="9%" stopColor="#FFAB0C" />
+          <Stop offset="31%" stopColor="#FF5538" />
+          <Stop offset="46%" stopColor="#E9405D" />
+          <Stop offset="75%" stopColor="#D266DA" />
+          <Stop offset="89%" stopColor="#D584EF" />
         </LinearGradient>
       </Defs>
     </Svg>

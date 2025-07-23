@@ -36,17 +36,17 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           y2=".616"
         >
           <Stop stopColor="#712575" />
-          <Stop offset=".09" stopColor="#9A2884" />
-          <Stop offset=".18" stopColor="#BF2C92" />
-          <Stop offset=".27" stopColor="#DA2E9C" />
-          <Stop offset=".34" stopColor="#EB30A2" />
-          <Stop offset=".4" stopColor="#F131A5" />
-          <Stop offset=".5" stopColor="#EC30A3" />
-          <Stop offset=".61" stopColor="#DF2F9E" />
-          <Stop offset=".72" stopColor="#C92D96" />
-          <Stop offset=".83" stopColor="#AA2A8A" />
-          <Stop offset=".95" stopColor="#83267C" />
-          <Stop offset="1" stopColor="#712575" />
+          <Stop offset="9%" stopColor="#9A2884" />
+          <Stop offset="18%" stopColor="#BF2C92" />
+          <Stop offset="27%" stopColor="#DA2E9C" />
+          <Stop offset="34%" stopColor="#EB30A2" />
+          <Stop offset="40%" stopColor="#F131A5" />
+          <Stop offset="50%" stopColor="#EC30A3" />
+          <Stop offset="61%" stopColor="#DF2F9E" />
+          <Stop offset="72%" stopColor="#C92D96" />
+          <Stop offset="83%" stopColor="#AA2A8A" />
+          <Stop offset="95%" stopColor="#83267C" />
+          <Stop offset="100%" stopColor="#712575" />
         </LinearGradient>
         <LinearGradient
           gradientUnits="userSpaceOnUse"
@@ -57,14 +57,14 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           y2="23.222"
         >
           <Stop stopColor="#DA7ED0" />
-          <Stop offset=".08" stopColor="#B17BD5" />
-          <Stop offset=".19" stopColor="#8778DB" />
-          <Stop offset=".3" stopColor="#6276E1" />
-          <Stop offset=".41" stopColor="#4574E5" />
-          <Stop offset=".54" stopColor="#2E72E8" />
-          <Stop offset=".67" stopColor="#1D71EB" />
-          <Stop offset=".81" stopColor="#1471EC" />
-          <Stop offset="1" stopColor="#1171ED" />
+          <Stop offset="8%" stopColor="#B17BD5" />
+          <Stop offset="19%" stopColor="#8778DB" />
+          <Stop offset="30%" stopColor="#6276E1" />
+          <Stop offset="41%" stopColor="#4574E5" />
+          <Stop offset="54%" stopColor="#2E72E8" />
+          <Stop offset="67%" stopColor="#1D71EB" />
+          <Stop offset="81%" stopColor="#1471EC" />
+          <Stop offset="100%" stopColor="#1171ED" />
         </LinearGradient>
         <LinearGradient
           gradientUnits="userSpaceOnUse"
@@ -75,15 +75,15 @@ const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
           y2="25.183"
         >
           <Stop stopColor="#DA7ED0" />
-          <Stop offset=".05" stopColor="#B77BD4" />
-          <Stop offset=".11" stopColor="#9079DA" />
-          <Stop offset=".18" stopColor="#6E77DF" />
-          <Stop offset=".25" stopColor="#5175E3" />
-          <Stop offset=".33" stopColor="#3973E7" />
-          <Stop offset=".42" stopColor="#2772E9" />
-          <Stop offset=".54" stopColor="#1A71EB" />
-          <Stop offset=".68" stopColor="#1371EC" />
-          <Stop offset="1" stopColor="#1171ED" />
+          <Stop offset="5%" stopColor="#B77BD4" />
+          <Stop offset="11%" stopColor="#9079DA" />
+          <Stop offset="18%" stopColor="#6E77DF" />
+          <Stop offset="25%" stopColor="#5175E3" />
+          <Stop offset="33%" stopColor="#3973E7" />
+          <Stop offset="42%" stopColor="#2772E9" />
+          <Stop offset="54%" stopColor="#1A71EB" />
+          <Stop offset="68%" stopColor="#1371EC" />
+          <Stop offset="100%" stopColor="#1171ED" />
         </LinearGradient>
       </Defs>
     </Svg>
