@@ -100,6 +100,28 @@ export class FileConverter {
     }
   }
 
+  /**
+   * 转换style文件
+   */
+  convertStyleFile(webFileContent: string): ConversionResult {
+    try {
+      let content = webFileContent;
+
+      // 转换AVATAR_BACKGROUND从COLOR_GRADIENT到COLOR_PRIMARY
+      content = content.replaceAll(
+        'export const AVATAR_BACKGROUND = COLOR_GRADIENT;',
+        'export const AVATAR_BACKGROUND = COLOR_PRIMARY;',
+      );
+
+      return { content, success: true };
+    } catch (error) {
+      return {
+        error: error instanceof Error ? error.message : 'Unknown error',
+        success: false,
+      };
+    }
+  }
+
   // ========== 基础转换方法 ==========
 
   private removeUseClient(content: string): string {
@@ -288,6 +310,9 @@ export class FileConverter {
     );
     result = result.replaceAll(/fontSize: size \* [\d.]+,/g, '');
 
+    // 转换offset值为百分比字符串格式
+    result = this.convertOffsetValues(result);
+
     return result;
   }
 
@@ -345,6 +370,25 @@ export class FileConverter {
 
     const match = attrs.match(patterns[attrName as keyof typeof patterns]);
     if (match) targetArray.push(match[0]);
+  }
+
+  private convertOffsetValues(content: string): string {
+    let result = content;
+
+    // 转换小数格式的offset值：offset=".123" → offset="12.3%"
+    result = result.replaceAll(/offset="(\.\d+)"/g, (match, decimal) => {
+      // 将小数转换为百分比
+      const percentage = (parseFloat(decimal) * 100).toString();
+      // 移除不必要的小数点后的0
+      const cleanPercentage = percentage.replace(/\.?0+$/, '');
+      return `offset="${cleanPercentage}%"`;
+    });
+
+    // 转换整数格式的offset值
+    result = result.replaceAll('offset="0"', 'offset="0%"');
+    result = result.replaceAll('offset="1"', 'offset="100%"');
+
+    return result;
   }
 
   // ========== 特殊处理方法 ==========
