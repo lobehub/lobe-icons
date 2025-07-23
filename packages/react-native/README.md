@@ -56,6 +56,20 @@ yarn add react-native-svg
 pnpm add react-native-svg
 ```
 
+#### Optional: Gradient Support
+
+For gradient background support in Avatar components, install `react-native-linear-gradient`:
+
+```bash
+npm install react-native-linear-gradient
+# or
+yarn add react-native-linear-gradient
+# or
+pnpm add react-native-linear-gradient
+```
+
+> 💡 **Note**: If `react-native-linear-gradient` is not installed, gradient backgrounds will automatically fallback to solid colors.
+
 ## 📖 Usage
 
 > 💡 **API Compatibility**: The React Native package API is almost identical to the web version. You can refer to the [web documentation](https://icons.lobehub.com) for comprehensive usage examples and advanced patterns.
@@ -130,6 +144,30 @@ export default function App() {
 }
 ```
 
+### Avatar with Gradient Background
+
+```tsx
+import { Adobe } from '@lobehub/icons-rn';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      {/* CSS gradient format - requires react-native-linear-gradient */}
+      <Adobe.Avatar 
+        size={48} 
+        background="linear-gradient(45deg, #9AD8F8, #3D8FFF, #6350FB)" 
+      />
+      
+      {/* Automatic fallback to solid color if gradient library not available */}
+      <Adobe.Avatar 
+        size={48} 
+        background="linear-gradient(to right, #FF6B35, #F7931E)" 
+      />
+    </View>
+  );
+}
+```
+
 ### Combine Version (Icon + Text)
 
 ```tsx
@@ -156,12 +194,12 @@ export default function App() {
 
 ### Avatar Props
 
-| Prop           | Type     | Default     | Description           |
-| -------------- | -------- | ----------- | --------------------- |
-| `size`         | `number` | `24`        | Avatar size in pixels |
-| `background`   | `string` | Brand color | Background color      |
-| `color`        | `string` | `#FFFFFF`   | Icon color            |
-| `iconMultiple` | `number` | `0.6`       | Icon size multiplier  |
+| Prop           | Type     | Default     | Description                                                        |
+| -------------- | -------- | ----------- | ------------------------------------------------------------------ |
+| `size`         | `number` | `24`        | Avatar size in pixels                                              |
+| `background`   | `string` | Brand color | Background color or CSS gradient (e.g., `linear-gradient(...)`)   |
+| `color`        | `string` | `#FFFFFF`   | Icon color                                                         |
+| `iconMultiple` | `number` | `0.6`       | Icon size multiplier                                               |
 
 ### Text Props
 
@@ -192,6 +230,40 @@ import { Adobe, type AdobeProps } from '@lobehub/icons-rn';
 const MyComponent: React.FC = () => {
   return <Adobe size={32} />;
 };
+```
+
+## 🎨 Gradient Background Support
+
+Avatar components support CSS `linear-gradient` format for rich visual effects:
+
+### Supported Gradient Formats
+
+```tsx
+// Direction keywords
+<Adobe.Avatar background="linear-gradient(to right, #FF6B35, #F7931E)" />
+<Adobe.Avatar background="linear-gradient(to bottom, #667eea, #764ba2)" />
+
+// Degree angles  
+<Adobe.Avatar background="linear-gradient(45deg, #9AD8F8, #3D8FFF, #6350FB)" />
+<Adobe.Avatar background="linear-gradient(135deg, #667eea, #764ba2)" />
+
+// Multiple colors with positions
+<Adobe.Avatar background="linear-gradient(90deg, #FF6B35 0%, #F7931E 50%, #C02425 100%)" />
+```
+
+### Automatic Fallback
+
+If `react-native-linear-gradient` is not installed or gradient parsing fails:
+
+- **Extracts first color** from gradient as solid background
+- **Graceful degradation** - no crashes or broken UI
+- **Development-friendly** - works without additional setup
+
+Example fallback behavior:
+```tsx
+// With library: Shows beautiful gradient
+// Without library: Shows solid #9AD8F8 background  
+<Adobe.Avatar background="linear-gradient(45deg, #9AD8F8, #3D8FFF, #6350FB)" />
 ```
 
 ## 📦 Available Icons

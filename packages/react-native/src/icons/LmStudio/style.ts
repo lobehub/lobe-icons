@@ -5,6 +5,6 @@ export const COLOR_PRIMARY = '#4338CA';
 export const COLOR_GRADIENT = 'linear-gradient(135deg, #6C78EF, #4F14BE)';
 
 // Avatar constants
-export const AVATAR_BACKGROUND = COLOR_PRIMARY;
+export const AVATAR_BACKGROUND = COLOR_GRADIENT;
 export const AVATAR_COLOR = '#fff';
 export const AVATAR_ICON_MULTIPLE = 0.7;
