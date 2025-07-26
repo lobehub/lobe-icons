@@ -84,7 +84,7 @@
     "antd-style": "^3.7.1",
     "lucide-react": "^0.469.0",
     "polished": "^4.3.1",
-    "react-layout-kit": "^1.9.1"
+    "react-layout-kit": "^2.0.0"
   },
   "devDependencies": {
     "@babel/runtime": "^7.27.0",
