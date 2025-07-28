@@ -55,11 +55,13 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-native": ">=0.76.9",
-    "react-native-linear-gradient": ">=2.8.0",
-    "react-native-svg": ">=15.8.0"
+    "react-native-linear-gradient": ">=2.8.0"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "react-native-svg": "^15.12.0"
   }
 }

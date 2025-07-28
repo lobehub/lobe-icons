@@ -43,19 +43,6 @@ yarn add @lobehub/icons-rn
 # or
 pnpm add @lobehub/icons-rn
 ```
-
-### Peer Dependencies
-
-This package requires the following peer dependencies:
-
-```bash
-npm install react-native-svg
-# or
-yarn add react-native-svg
-# or
-pnpm add react-native-svg
-```
-
 #### Optional: Gradient Support
 
 For gradient background support in Avatar components, install `react-native-linear-gradient`:
