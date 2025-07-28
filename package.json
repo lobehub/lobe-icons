@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/icons",
-  "version": "2.18.0",
+  "version": "2.18.1",
   "description": "Popular AI / LLM Model Brand SVG Logo and Icon Collection",
   "keywords": [
     "lobehub",
@@ -25,6 +25,9 @@
   "types": "es/index.d.ts",
   "files": [
     "es"
+  ],
+  "workspaces": [
+    "packages/*"
   ],
   "scripts": {
     "auto-converter-web-icons-to-rn": "tsx scripts/rn-conversion/auto-converter.ts --lint",
@@ -132,9 +135,6 @@
     "typescript": "^5.8.3",
     "vitest": "^3.1.1"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "peerDependencies": {
     "antd": "^5.23.0",
     "react": "^19.0.0",

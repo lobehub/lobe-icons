@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 2.18.1](https://github.com/lobehub/lobe-icons/compare/v2.18.0...v2.18.1)
+
+<sup>Released on **2025-07-28**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Build script, Ci build error.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Build script, closes [#145](https://github.com/lobehub/lobe-icons/issues/145) ([fc8f06c](https://github.com/lobehub/lobe-icons/commit/fc8f06c))
+- **misc**: Ci build error, closes [#146](https://github.com/lobehub/lobe-icons/issues/146) ([0c1c04d](https://github.com/lobehub/lobe-icons/commit/0c1c04d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.18.0](https://github.com/lobehub/lobe-icons/compare/v2.17.1...v2.18.0)
 
 <sup>Released on **2025-07-28**</sup>
