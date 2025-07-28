@@ -37,6 +37,7 @@ Contributions, corrections & requests can be made on GitHub.
 
 #### TOC
 
+- [📦 Packages](#-packages)
 - [✨ Features](#-features)
 - [🤯 CDN Usage](#-cdn-usage)
   - [`A` CDN with SVG](#a-cdn-with-svg)
@@ -56,6 +57,22 @@ Contributions, corrections & requests can be made on GitHub.
 ####
 
 </details>
+
+## 📦 Packages
+
+| Logo                                                                                                                           | Package                          | Version                                                                                                                     | Downloads                                                                  | Links                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| <img src="https://github.com/user-attachments/assets/411f5124-9460-43dc-9d91-3d3c3da05b30" alt="React logo" width="48">        | **`@lobehub/icons`**             | [![npm](https://img.shields.io/npm/v/@lobehub/icons)](https://www.npmjs.com/package/@lobehub/icons-static-svg)              | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons)             | [Source](https://github.com/lobehub/lobe-icons/tree/master/src)                   |
+| <img src="https://github.com/user-attachments/assets/d06378b5-46eb-4154-836d-b792d04ee3dd" alt="React Native logo" width="48"> | **`@lobehub/icons-rn`**          | [![npm](https://img.shields.io/npm/v/@lobehub/icons-rn)](https://www.npmjs.com/package/@lobehub/icons-rn)                   | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-rn)          | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/react-native) |
+| <img src="https://github.com/user-attachments/assets/6a0ce456-ab14-437c-93ec-2c05fecbb454" alt="SVG logo" width="48">          | **`@lobehub/icons-static-svg`**  | [![npm](https://img.shields.io/npm/v/@lobehub/icons-static-svg)](https://www.npmjs.com/package/@lobehub/icons-static-svg)   | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-static-svg)  | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/static-svg)   |
+| <img src="https://github.com/user-attachments/assets/f2ee638a-b02c-447d-bcb2-4455688b1438" alt="PNG logo" width="48">          | **`@lobehub/icons-static-png`**  | [![npm](https://img.shields.io/npm/v/@lobehub/icons-static-png)](https://www.npmjs.com/package/@lobehub/icons-static-png)   | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-static-png)  | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/static-png)   |
+| <img src="https://github.com/user-attachments/assets/bd610e9d-290e-4a60-a945-e9c5f84be962" alt="WebP logo" width="48">         | **`@lobehub/icons-static-webp`** | [![npm](https://img.shields.io/npm/v/@lobehub/icons-static-webp)](https://www.npmjs.com/package/@lobehub/icons-static-webp) | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-static-webp) | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/static-webp)  |
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
 
 ## ✨ Features
 

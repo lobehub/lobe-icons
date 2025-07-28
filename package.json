@@ -27,6 +27,7 @@
     "es"
   ],
   "scripts": {
+    "auto-converter-web-icons-to-rn": "tsx scripts/rn-conversion/auto-converter.ts --lint",
     "build": "npm run build:toc && father build",
     "build:static": "tsx scripts/svgWorkflow/index.ts",
     "build:toc": "tsx scripts/tocWorkflow/index.ts",
