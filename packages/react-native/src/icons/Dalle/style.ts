@@ -6,6 +6,6 @@ export const COLOR_GRADIENT =
   'conic-gradient(from 180deg, #FFFF67, #43FFFF, #50DA4C, #FF6E3D, #3C46FF)';
 
 // Avatar constants
-export const AVATAR_BACKGROUND = COLOR_GRADIENT;
+export const AVATAR_BACKGROUND = COLOR_PRIMARY;
 export const AVATAR_COLOR = '#fff';
 export const AVATAR_ICON_MULTIPLE = 0.6;
