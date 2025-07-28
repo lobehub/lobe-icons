@@ -29,7 +29,7 @@
   "scripts": {
     "auto-converter-web-icons-to-rn": "tsx scripts/rn-conversion/auto-converter.ts --lint",
     "build": "npm run build:toc && father build && npm run build:rn",
-    "build:rn": "cd packages/react-native && npm run build",
+    "build:rn": "bun run --cwd packages/react-native build",
     "build:static": "tsx scripts/svgWorkflow/index.ts",
     "build:toc": "tsx scripts/tocWorkflow/index.ts",
     "build:watch": "father dev",
@@ -132,6 +132,9 @@
     "typescript": "^5.8.3",
     "vitest": "^3.1.1"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "peerDependencies": {
     "antd": "^5.23.0",
     "react": "^19.0.0",
