@@ -35,10 +35,16 @@ async function updateExports() {
     )
     .join('\n');
 
-  const content = `// React Native Icons Package
-// Export all available RN icon components
+  const content = `
+// Export features
+export { rnModelMappings as modelMappings } from './features/modelConfig';
+export { default as ModelIcon } from './features/ModelIcon';
+export { default as ModelTag } from './features/ModelTag';
+export { default as ProviderCombine } from './features/ProviderCombine';
+export { rnProviderMappings as providerMappings } from './features/providerConfig';
+export { RNModelProvider as ModelProvider } from './features/providerEnum';
+export { default as ProviderIcon } from './features/ProviderIcon';
 
-// Export icon components
 ${exports}
 
 // Export types
