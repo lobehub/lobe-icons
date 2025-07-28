@@ -68,6 +68,12 @@ Contributions, corrections & requests can be made on GitHub.
 | <img src="https://github.com/user-attachments/assets/f2ee638a-b02c-447d-bcb2-4455688b1438" alt="PNG logo" width="48">          | **`@lobehub/icons-static-png`**  | [![npm](https://img.shields.io/npm/v/@lobehub/icons-static-png)](https://www.npmjs.com/package/@lobehub/icons-static-png)   | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-static-png)  | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/static-png)   |
 | <img src="https://github.com/user-attachments/assets/bd610e9d-290e-4a60-a945-e9c5f84be962" alt="WebP logo" width="48">         | **`@lobehub/icons-static-webp`** | [![npm](https://img.shields.io/npm/v/@lobehub/icons-static-webp)](https://www.npmjs.com/package/@lobehub/icons-static-webp) | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-static-webp) | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/static-webp)  |
 
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
 ## ✨ Features
 
 - 🚀 **Lightweight & Scalable**: Icons are designed to be lightweight, utilizing highly optimized scalable vector graphics (SVG) for the best performance and quality.
