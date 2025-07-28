@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 2.18.3](https://github.com/lobehub/lobe-icons/compare/v2.18.2...v2.18.3)
+
+<sup>Released on **2025-07-28**</sup>
+
+#### 💄 Styles
+
+- **rn**: Update react-native deps & docs.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **rn**: Update react-native deps & docs ([553aad5](https://github.com/lobehub/lobe-icons/commit/553aad5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.18.2](https://github.com/lobehub/lobe-icons/compare/v2.18.1...v2.18.2)
 
 <sup>Released on **2025-07-28**</sup>
