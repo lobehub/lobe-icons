@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 2.18.7](https://github.com/lobehub/lobe-icons/compare/v2.18.6...v2.18.7)
+
+<sup>Released on **2025-07-29**</sup>
+
+#### 🐛 Bug Fixes
+
+- **RN**: Model Tag component.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **RN**: Model Tag component ([8c88ecf](https://github.com/lobehub/lobe-icons/commit/8c88ecf))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.18.6](https://github.com/lobehub/lobe-icons/compare/v2.18.5...v2.18.6)
 
 <sup>Released on **2025-07-29**</sup>
