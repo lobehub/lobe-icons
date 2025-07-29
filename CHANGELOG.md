@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 2.18.5](https://github.com/lobehub/lobe-icons/compare/v2.18.4...v2.18.5)
+
+<sup>Released on **2025-07-29**</sup>
+
+#### 💄 Styles
+
+- **misc**: Support some T2I model icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Support some T2I model icons, closes [#147](https://github.com/lobehub/lobe-icons/issues/147) ([4956a2b](https://github.com/lobehub/lobe-icons/commit/4956a2b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.18.4](https://github.com/lobehub/lobe-icons/compare/v2.18.3...v2.18.4)
 
 <sup>Released on **2025-07-29**</sup>
