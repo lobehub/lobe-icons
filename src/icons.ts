@@ -111,6 +111,7 @@ export { default as Kera, type CompoundedIcon as KeraProps } from './Kera';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './Kimi';
 export { default as Kling, type CompoundedIcon as KlingProps } from './Kling';
 export { default as Kluster, type CompoundedIcon as KlusterProps } from './Kluster';
+export { default as Kolors, type CompoundedIcon as KolorsProps } from './Kolors';
 export { default as Lambda, type CompoundedIcon as LambdaProps } from './Lambda';
 export { default as LangChain, type CompoundedIcon as LangChainProps } from './LangChain';
 export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './Langfuse';
