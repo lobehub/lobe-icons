@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.0.5](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.0.4...@lobehub/icons-rn@1.0.5)
+
+<sup>Released on **2025-07-29**</sup>
+
+#### 🐛 Bug Fixes
+
+- **RN**: Model Tag component.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **RN**: Model Tag component ([8c88ecf](https://github.com/lobehub/lobe-icons/commit/8c88ecf))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.4](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.0.3...@lobehub/icons-rn@1.0.4)
 
 <sup>Released on **2025-07-29**</sup>
