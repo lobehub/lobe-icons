@@ -175,7 +175,7 @@ const toc: IconToc[] = [
     title: 'AiMass',
   },
   {
-    color: '#0057CC',
+    color: '#000',
     desc: 'https://aistudio.google.com',
     docsUrl: 'ai-studio',
     fullTitle: 'AI Studio (Google)',
@@ -185,7 +185,7 @@ const toc: IconToc[] = [
       hasAvatar: true,
       hasBrand: false,
       hasBrandColor: false,
-      hasColor: true,
+      hasColor: false,
       hasCombine: true,
       hasText: true,
       hasTextCn: false,

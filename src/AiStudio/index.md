@@ -15,7 +15,6 @@ import { Flexbox } from 'react-layout-kit';
 export default () => (
   <Flexbox gap={16} horizontal>
     <AiStudio size={64} />
-    <AiStudio.Color size={64} />
   </Flexbox>
 );
 ```
@@ -37,7 +36,6 @@ import { Flexbox } from 'react-layout-kit';
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
     <AiStudio.Combine size={64} />
-    <AiStudio.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```

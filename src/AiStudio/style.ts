@@ -1,7 +1,7 @@
 export const TITLE = 'Google AI Studio';
 export const COMBINE_TEXT_MULTIPLE = 0.75;
 export const COMBINE_SPACE_MULTIPLE = 0.2;
-export const COLOR_PRIMARY = '#0057CC';
+export const COLOR_PRIMARY = '#000';
 
 // Avatar constants
 export const AVATAR_BACKGROUND = COLOR_PRIMARY;
