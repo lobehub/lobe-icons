@@ -62,6 +62,7 @@ import V0 from '../icons/V0';
 import VertexAI from '../icons/VertexAI';
 import Voyage from '../icons/Voyage';
 import Wenxin from '../icons/Wenxin';
+import Yi from '../icons/Yi';
 import type { RNIconProps } from './types';
 
 type RNModelIconType = FC<RNIconProps & any> & {
@@ -124,14 +125,14 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: Gemma, keywords: ['gemma'] },
   { Icon: Moonshot, keywords: ['kimi', 'moonshot'] },
   { Icon: Qiniu, keywords: ['qiniu'] },
-  { Icon: Qwen, keywords: ['qwen', 'qwq', 'qvq', 'wanx'] },
-  { Icon: Minimax, keywords: ['minimax', 'abab'] },
+  { Icon: Qwen, keywords: ['qwen', 'qwq', 'qvq', 'wanx', 'wan\\d/'] },
+  { Icon: Minimax, keywords: ['minimax', 'abab', '^image-'] },
   {
     Icon: Mistral,
     keywords: ['mistral', 'mixtral', 'codestral', 'mathstral', '/mn-', 'pixtral', 'ministral'],
   },
   { Icon: Perplexity, keywords: ['pplx', 'sonar'] },
-  { Icon: DeepSeek, keywords: ['deepseek'] },
+  { Icon: Yi, keywords: ['^yi-', '/yi-', '-yi-'] },
   { Icon: OpenRouter, keywords: ['^openrouter'] },
   { Icon: OpenChat, keywords: ['^openchat'] },
   { Icon: Aya, keywords: ['aya'] },
@@ -142,7 +143,7 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: Ai360, keywords: ['360gpt', '360zhinao'] },
   { Icon: Baichuan, keywords: ['baichuan'] },
   { Icon: Rwkv, keywords: ['rwkv', '/eagle-'] },
-  { Icon: Wenxin, keywords: ['ernie'] },
+  { Icon: Wenxin, keywords: ['ernie', 'irag'] },
   { Icon: Jina, keywords: ['^jina', '/jina'] },
   { Icon: Doubao, keywords: ['^ep-', 'doubao-'] },
   { Icon: Hunyuan, keywords: ['hunyuan'] },
@@ -188,6 +189,7 @@ export const rnModelMappings: RNModelMapping[] = [
     ],
   },
   { Icon: Udio, keywords: ['udio'] },
+  { Icon: DeepSeek, keywords: ['deepseek'] },
   { Icon: Voyage, keywords: ['voyage'] },
   { Icon: AssemblyAI, keywords: ['assemblyai'] },
   { Icon: Liquid, keywords: ['liquid', 'lfm'] },
