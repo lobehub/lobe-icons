@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 2.19.0](https://github.com/lobehub/lobe-icons/compare/v2.18.7...v2.19.0)
+
+<sup>Released on **2025-07-29**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Kolors.
+
+#### 💄 Styles
+
+- **misc**: Update New Google AI Studio icon (resolved.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Kolors ([41b7d1c](https://github.com/lobehub/lobe-icons/commit/41b7d1c))
+
+#### Styles
+
+- **misc**: Update New Google AI Studio icon (resolved, closes [#143](https://github.com/lobehub/lobe-icons/issues/143) ([24fb935](https://github.com/lobehub/lobe-icons/commit/24fb935))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.18.7](https://github.com/lobehub/lobe-icons/compare/v2.18.6...v2.18.7)
 
 <sup>Released on **2025-07-29**</sup>
