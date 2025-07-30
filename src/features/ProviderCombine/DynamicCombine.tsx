@@ -1,6 +1,6 @@
 import { DivProps } from '@lobehub/ui';
 import { Divider } from 'antd';
-import { Suspense, memo, useEffect, useState } from 'react';
+import { memo, useEffect, useState } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
 interface DynamicCombineProps extends DivProps {
@@ -76,13 +76,9 @@ const DynamicCombine = memo<DynamicCombineProps>(
 
     return (
       <Flexbox align={'center'} flex={'none'} gap={size / 3} horizontal {...rest}>
-        <Suspense fallback={<LoadingPlaceholder size={leftSize || size * 1.2} />}>
-          {renderLeftIcon()}
-        </Suspense>
+        {renderLeftIcon()}
         <Divider style={{ marginBlock: 0, marginInline: size / 6 }} type={'vertical'} />
-        <Suspense fallback={<LoadingPlaceholder size={rightSize || size} />}>
-          {renderRightIcon()}
-        </Suspense>
+        {renderRightIcon()}
       </Flexbox>
     );
   },

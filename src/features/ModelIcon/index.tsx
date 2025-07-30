@@ -1,9 +1,11 @@
 'use client';
 
-import { CSSProperties, Suspense, memo, useEffect, useMemo, useState } from 'react';
+import { CSSProperties, Suspense, memo } from 'react';
 
-import { modelMappings } from '../modelConfig';
-import DefaultAvatar from './DefaultAvatar';
+import DefaultAvatar from '../DefaultAvatar';
+import LoadingPlaceholder from '../LoadingPlaceholder';
+import { useIconLoader } from '../useIconLoader';
+import { useModelMapping } from '../useMappingCache';
 import DefaultIcon from './DefaultIcon';
 
 export interface ModelIconProps {
@@ -15,56 +17,10 @@ export interface ModelIconProps {
   type?: 'avatar' | 'mono' | 'color' | 'combine' | 'combine-color';
 }
 
-const LoadingPlaceholder = memo<{ shape?: 'circle' | 'square'; size: number }>(
-  ({ size, shape }) => (
-    <div
-      style={{
-        backgroundColor: 'rgba(0,0,0,0.1)',
-        borderRadius: shape === 'circle' ? '50%' : '2px',
-        height: size,
-        width: size,
-      }}
-    />
-  ),
-);
-
 const ModelIcon = memo<ModelIconProps>(
   ({ model: originModel, size = 12, type = 'avatar', shape, ...rest }) => {
-    const [IconComponent, setIconComponent] = useState<any>(null);
-    const [loading, setLoading] = useState(false);
-
-    const mappingItem = useMemo(() => {
-      if (!originModel) return null;
-      const model = originModel.toLowerCase();
-      for (const item of modelMappings) {
-        if (item.keywords.some((keyword) => new RegExp(keyword, 'i').test(model))) {
-          return item;
-        }
-      }
-      return null;
-    }, [originModel]);
-
-    useEffect(() => {
-      if (!mappingItem) {
-        setIconComponent(null);
-        setLoading(false);
-        return;
-      }
-
-      setLoading(true);
-      mappingItem
-        .iconImport()
-        .then((module) => {
-          setIconComponent(module.default);
-        })
-        .catch((error) => {
-          console.error('Failed to load icon:', error);
-          setIconComponent(null);
-        })
-        .finally(() => {
-          setLoading(false);
-        });
-    }, [mappingItem]);
+    const mappingItem = useModelMapping(originModel);
+    const { IconComponent, loading } = useIconLoader(mappingItem);
 
     const props = {
       size,
@@ -73,14 +29,14 @@ const ModelIcon = memo<ModelIconProps>(
     };
 
     if (loading) {
-      return <LoadingPlaceholder shape={shape} size={size} />;
+      return <LoadingPlaceholder shape={shape} size={size} type={type} />;
     }
 
     switch (type) {
       case 'avatar': {
         if (!IconComponent) return <DefaultAvatar shape={shape} {...props} />;
         return (
-          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} />}>
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
             <IconComponent.Avatar shape={shape} {...props} />
           </Suspense>
         );
@@ -88,7 +44,7 @@ const ModelIcon = memo<ModelIconProps>(
       case 'mono': {
         if (!IconComponent) return <DefaultIcon {...props} />;
         return (
-          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} />}>
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
             <IconComponent {...props} />
           </Suspense>
         );
@@ -96,7 +52,7 @@ const ModelIcon = memo<ModelIconProps>(
       case 'color': {
         if (!IconComponent) return <DefaultIcon {...props} />;
         return (
-          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} />}>
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
             {IconComponent?.Color ? (
               <IconComponent.Color {...props} />
             ) : (
@@ -108,7 +64,7 @@ const ModelIcon = memo<ModelIconProps>(
       case 'combine': {
         if (!IconComponent) return <DefaultIcon {...props} />;
         return (
-          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} />}>
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
             {IconComponent?.Combine ? (
               <IconComponent.Combine type={'mono'} {...props} />
             ) : IconComponent?.Brand ? (
@@ -124,7 +80,7 @@ const ModelIcon = memo<ModelIconProps>(
       case 'combine-color': {
         if (!IconComponent) return <DefaultIcon {...props} />;
         return (
-          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} />}>
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
             {IconComponent?.Combine ? (
               <IconComponent.Combine type={'color'} {...props} />
             ) : IconComponent?.BrandColor ? (

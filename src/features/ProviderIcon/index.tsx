@@ -1,10 +1,12 @@
 'use client';
 
-import { CSSProperties, Suspense, memo, useEffect, useMemo, useState } from 'react';
+import { CSSProperties, Suspense, memo } from 'react';
 
-import { providerMappings } from '../providerConfig';
+import DefaultAvatar from '../DefaultAvatar';
+import LoadingPlaceholder from '../LoadingPlaceholder';
 import { ModelProvider, ModelProviderKey } from '../providerEnum';
-import DefaultAvatar from './DefaultAvatar';
+import { useIconLoader } from '../useIconLoader';
+import { useProviderMapping } from '../useMappingCache';
 import DefaultIcon from './DefaultIcon';
 
 export interface ProviderIconProps {
@@ -17,57 +19,10 @@ export interface ProviderIconProps {
   type?: 'avatar' | 'mono' | 'color' | 'combine' | 'combine-color';
 }
 
-const LoadingPlaceholder = memo<{ shape?: 'circle' | 'square'; size: number }>(
-  ({ size, shape }) => (
-    <div
-      style={{
-        backgroundColor: 'rgba(0,0,0,0.1)',
-        borderRadius: shape === 'circle' ? '50%' : '2px',
-        height: size,
-        width: size,
-      }}
-    />
-  ),
-);
-
 const ProviderIcon = memo<ProviderIconProps>(
   ({ provider: originProvider, size = 12, type = 'avatar', forceMono, shape, ...rest }) => {
-    const [IconComponent, setIconComponent] = useState<any>(null);
-    const [loading, setLoading] = useState(false);
-
-    const mappingItem = useMemo(() => {
-      if (!originProvider) return null;
-      const provider = originProvider.toLowerCase();
-
-      for (const item of providerMappings) {
-        if (item.keywords.some((keyword) => keyword.toLowerCase() === provider)) {
-          return item;
-        }
-      }
-      return null;
-    }, [originProvider]);
-
-    useEffect(() => {
-      if (!mappingItem) {
-        setIconComponent(null);
-        setLoading(false);
-        return;
-      }
-
-      setLoading(true);
-      mappingItem
-        .iconImport()
-        .then((module) => {
-          setIconComponent(module.default);
-        })
-        .catch((error) => {
-          console.error('Failed to load icon:', error);
-          setIconComponent(null);
-        })
-        .finally(() => {
-          setLoading(false);
-        });
-    }, [mappingItem]);
+    const mappingItem = useProviderMapping(originProvider);
+    const { IconComponent, loading } = useIconLoader(mappingItem);
 
     const props = {
       size,
@@ -76,14 +31,14 @@ const ProviderIcon = memo<ProviderIconProps>(
     };
 
     if (loading) {
-      return <LoadingPlaceholder shape={shape} size={size} />;
+      return <LoadingPlaceholder shape={shape} size={size} type={type} />;
     }
 
     switch (type) {
       case 'avatar': {
         if (!IconComponent) return <DefaultAvatar shape={shape} {...props} />;
         return (
-          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} />}>
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
             <IconComponent.Avatar shape={shape} {...props} />
           </Suspense>
         );
@@ -92,13 +47,13 @@ const ProviderIcon = memo<ProviderIconProps>(
         if (!IconComponent) return <DefaultIcon {...props} />;
         if (!forceMono && originProvider === ModelProvider.LobeHub) {
           return (
-            <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} />}>
+            <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
               <IconComponent.Color {...props} />
             </Suspense>
           );
         }
         return (
-          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} />}>
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
             <IconComponent {...props} />
           </Suspense>
         );
@@ -106,7 +61,7 @@ const ProviderIcon = memo<ProviderIconProps>(
       case 'color': {
         if (!IconComponent) return <DefaultIcon {...props} />;
         return (
-          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} />}>
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
             {IconComponent?.Color ? (
               <IconComponent.Color {...props} />
             ) : (
@@ -118,7 +73,7 @@ const ProviderIcon = memo<ProviderIconProps>(
       case 'combine': {
         if (!IconComponent) return <DefaultIcon {...props} />;
         return (
-          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} />}>
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
             {IconComponent?.Combine ? (
               <IconComponent.Combine type={'mono'} {...props} />
             ) : IconComponent?.Brand ? (
@@ -134,7 +89,7 @@ const ProviderIcon = memo<ProviderIconProps>(
       case 'combine-color': {
         if (!IconComponent) return <DefaultIcon {...props} />;
         return (
-          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} />}>
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
             {IconComponent?.Combine ? (
               <IconComponent.Combine type={'color'} {...props} />
             ) : IconComponent?.BrandColor ? (

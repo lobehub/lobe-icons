@@ -1,11 +1,13 @@
 'use client';
 
-import { Suspense, memo, useEffect, useMemo, useState } from 'react';
+import { Suspense, memo } from 'react';
 import { Flexbox, FlexboxProps } from 'react-layout-kit';
 
+import LoadingPlaceholder from '../LoadingPlaceholder';
 import DefaultIcon from '../ProviderIcon/DefaultIcon';
-import { providerMappings } from '../providerConfig';
 import { ModelProviderKey } from '../providerEnum';
+import { useIconLoader } from '../useIconLoader';
+import { useProviderMapping } from '../useMappingCache';
 
 export interface ProviderCombineProps
   extends Omit<FlexboxProps, 'children' | 'horizontal' | 'height' | 'width' | 'align' | 'justify'> {
@@ -14,62 +16,13 @@ export interface ProviderCombineProps
   type?: 'mono' | 'color';
 }
 
-const LoadingPlaceholder = memo<{ size: number }>(({ size }) => (
-  <div
-    style={{
-      backgroundColor: 'rgba(0,0,0,0.1)',
-      borderRadius: '2px',
-      height: size,
-      width: size * 1.5,
-    }}
-  />
-));
-
 const ProviderCombine = memo<ProviderCombineProps>(
   ({ provider: originProvider, size = 12, type = 'color', ...rest }) => {
-    const [IconComponent, setIconComponent] = useState<any>(null);
-    const [loading, setLoading] = useState(false);
+    const mappingItem = useProviderMapping(originProvider);
 
-    const mappingItem = useMemo(() => {
-      if (!originProvider) return null;
-      const provider = originProvider.toLowerCase();
-
-      for (const item of providerMappings) {
-        if (item.keywords.some((keyword) => keyword.toLowerCase() === provider)) {
-          return item;
-        }
-      }
-      return null;
-    }, [originProvider]);
-
-    useEffect(() => {
-      if (!mappingItem) {
-        setIconComponent(null);
-        setLoading(false);
-        return;
-      }
-
-      // If custom Combine component exists, don't load icon
-      if (mappingItem.Combine) {
-        setIconComponent(null);
-        setLoading(false);
-        return;
-      }
-
-      setLoading(true);
-      mappingItem
-        .iconImport()
-        .then((module) => {
-          setIconComponent(module.default);
-        })
-        .catch((error) => {
-          console.error('Failed to load icon:', error);
-          setIconComponent(null);
-        })
-        .finally(() => {
-          setLoading(false);
-        });
-    }, [mappingItem]);
+    // 只有在没有自定义Combine组件时才加载图标
+    const shouldLoadIcon = mappingItem && !mappingItem.Combine;
+    const { IconComponent, loading } = useIconLoader(shouldLoadIcon ? mappingItem : null);
 
     const iconProps = {
       size: size * (mappingItem?.combineMultiple || 1),
@@ -94,18 +47,7 @@ const ProviderCombine = memo<ProviderCombineProps>(
     }
 
     if (loading) {
-      return (
-        <Flexbox
-          align={'center'}
-          flex={'none'}
-          height={size * 1.5}
-          horizontal
-          width={'fit-content'}
-          {...rest}
-        >
-          <LoadingPlaceholder size={size} />
-        </Flexbox>
-      );
+      return <LoadingPlaceholder size={size} type={'combine'} />;
     }
 
     const renderIcon = () => {
@@ -129,7 +71,9 @@ const ProviderCombine = memo<ProviderCombineProps>(
         width={'fit-content'}
         {...rest}
       >
-        <Suspense fallback={<LoadingPlaceholder size={size} />}>{renderIcon()}</Suspense>
+        <Suspense fallback={<LoadingPlaceholder size={size} type={'combine'} />}>
+          {renderIcon()}
+        </Suspense>
       </Flexbox>
     );
   },
