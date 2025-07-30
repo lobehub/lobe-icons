@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react';
 
-import { measureAsyncPerformance, recordCacheHit, recordCacheMiss } from './performanceUtils';
-
 interface IconLoaderState {
   IconComponent: any;
   error: Error | null;
@@ -37,14 +35,8 @@ export const useIconLoader = (mappingItem: MappingItem | null): IconLoaderState 
     let importPromise = iconCache.get(iconImport);
 
     if (!importPromise) {
-      importPromise = measureAsyncPerformance(
-        `Icon Import: ${iconImport.name || 'Unknown'}`,
-        iconImport,
-      );
+      importPromise = iconImport();
       iconCache.set(iconImport, importPromise);
-      recordCacheMiss();
-    } else {
-      recordCacheHit();
     }
 
     importPromise

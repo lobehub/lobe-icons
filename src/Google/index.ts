@@ -20,7 +20,6 @@ const Icons = Mono as CompoundedIcon;
 Icons.Color = Color;
 Icons.Brand = BrandMono;
 Icons.BrandColor = BrandColor;
-Icons.Brand = BrandMono;
 Icons.Combine = Combine;
 Icons.Avatar = Avatar;
 Icons.colorPrimary = COLOR_PRIMARY;

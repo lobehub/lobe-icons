@@ -1,7 +1,6 @@
 import { useMemo } from 'react';
 
 import { modelMappings } from './modelConfig';
-import { measurePerformance } from './performanceUtils';
 import { providerMappings } from './providerConfig';
 
 // 创建提供商映射缓存
@@ -59,10 +58,7 @@ export const useProviderMapping = (provider?: string) => {
     }
 
     const lowerProvider = provider.toLowerCase();
-    return measurePerformance(
-      'Provider Mapping Lookup',
-      () => providerCache!.get(lowerProvider) || null,
-    );
+    return providerCache.get(lowerProvider) || null;
   }, [provider]);
 };
 
@@ -75,22 +71,20 @@ export const useModelMapping = (model?: string) => {
       modelCache = createModelMappingCache();
     }
 
-    return measurePerformance('Model Mapping Lookup', () => {
-      const lowerModel = model.toLowerCase();
+    const lowerModel = model.toLowerCase();
 
-      // 首先尝试精确匹配
-      const exactMatch = modelCache!.keywordMap.get(lowerModel);
-      if (exactMatch) return exactMatch;
+    // 首先尝试精确匹配
+    const exactMatch = modelCache.keywordMap.get(lowerModel);
+    if (exactMatch) return exactMatch;
 
-      // 然后尝试正则表达式匹配
-      for (const [regex, item] of modelCache!.regexMap) {
-        if (regex.test(lowerModel)) {
-          return item;
-        }
+    // 然后尝试正则表达式匹配
+    for (const [regex, item] of modelCache.regexMap) {
+      if (regex.test(lowerModel)) {
+        return item;
       }
+    }
 
-      return null;
-    });
+    return null;
   }, [model]);
 };
 
