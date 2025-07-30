@@ -3828,7 +3828,7 @@ const toc: IconToc[] = [
     title: 'TopazLabs',
   },
   {
-    color: '#FF4A36',
+    color: '#32F08C',
     desc: 'https://trae.ai',
     docsUrl: 'trae',
     fullTitle: 'TRAE',
