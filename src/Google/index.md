@@ -34,6 +34,20 @@ export default () => (
 );
 ```
 
+## Combine
+
+```tsx
+import { Google } from '@lobehub/icons';
+import { Flexbox } from 'react-layout-kit';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Google.Combine size={64} />
+    <Google.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
 ## Avatars
 
 ```tsx
