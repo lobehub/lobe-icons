@@ -11,6 +11,7 @@ import AssemblyAI from '@/AssemblyAI';
 import Aws from '@/Aws';
 import Aya from '@/Aya';
 import Baichuan from '@/Baichuan';
+import BaiduCloud from '@/BaiduCloud';
 import BurnCloud from '@/BurnCloud';
 import ByteDance from '@/ByteDance';
 import ChatGLM from '@/ChatGLM';
@@ -107,6 +108,7 @@ export const modelMappings: ModelMapping[] = [
       'omni-moderation',
       'text-moderation',
       'text-adb',
+      'text-ada',
       'computer-use',
     ],
     props: { type: 'platform' },
@@ -204,7 +206,8 @@ export const modelMappings: ModelMapping[] = [
   { Icon: AiHubMix, keywords: ['aihubmix'] },
   { Icon: V0, keywords: ['^v0-'] },
   { Icon: VertexAI, keywords: ['^veo-', '/veo-'] },
-  { Icon: Google, keywords: ['google'] },
+  { Icon: Google, keywords: ['google', 'learnlm'] },
   { Icon: CogView, keywords: ['cogview'] },
   { Icon: Kolors, keywords: ['kolors'] },
+  { Icon: BaiduCloud, keywords: ['baidu', 'qianfan'] },
 ];
