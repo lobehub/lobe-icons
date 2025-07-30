@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 2.21.0](https://github.com/lobehub/lobe-icons/compare/v2.20.0...v2.21.0)
+
+<sup>Released on **2025-07-30**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Z.ai (resolved.
+
+#### 💄 Styles
+
+- **misc**: Update TRAE new logo (resolved.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Z.ai (resolved, closes [#151](https://github.com/lobehub/lobe-icons/issues/151) ([b3394ab](https://github.com/lobehub/lobe-icons/commit/b3394ab))
+
+#### Styles
+
+- **misc**: Update TRAE new logo (resolved, closes [#150](https://github.com/lobehub/lobe-icons/issues/150) ([61af928](https://github.com/lobehub/lobe-icons/commit/61af928))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.20.0](https://github.com/lobehub/lobe-icons/compare/v2.19.0...v2.20.0)
 
 <sup>Released on **2025-07-30**</sup>
