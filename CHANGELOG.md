@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 2.20.0](https://github.com/lobehub/lobe-icons/compare/v2.19.0...v2.20.0)
+
+<sup>Released on **2025-07-30**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Add Kolors model icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([91c05dd](https://github.com/lobehub/lobe-icons/commit/91c05dd))
+
+#### Styles
+
+- **misc**: Add Kolors model icons, closes [#149](https://github.com/lobehub/lobe-icons/issues/149) ([2a973b0](https://github.com/lobehub/lobe-icons/commit/2a973b0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.19.0](https://github.com/lobehub/lobe-icons/compare/v2.18.7...v2.19.0)
 
 <sup>Released on **2025-07-29**</sup>
