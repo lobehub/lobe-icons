@@ -46,7 +46,6 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
   return (
     <svg
       height={size}
-
       style={{ flex: 'none', lineHeight: 1, ...style }}
       viewBox="${viewbox}"
       width={size}

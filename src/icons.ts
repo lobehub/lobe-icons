@@ -223,6 +223,7 @@ export { default as Xuanyuan, type CompoundedIcon as XuanyuanProps } from './Xua
 export { default as Yandex, type CompoundedIcon as YandexProps } from './Yandex';
 export { default as Yi, type CompoundedIcon as YiProps } from './Yi';
 export { default as Yuanbao, type CompoundedIcon as YuanbaoProps } from './Yuanbao';
+export { default as ZAI, type CompoundedIcon as ZAIProps } from './ZAI';
 export { default as Zapier, type CompoundedIcon as ZapierProps } from './Zapier';
 export { default as Zeabur, type CompoundedIcon as ZeaburProps } from './Zeabur';
 export { default as ZeroOne, type CompoundedIcon as ZeroOneProps } from './ZeroOne';
