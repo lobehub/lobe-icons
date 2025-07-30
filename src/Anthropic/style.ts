@@ -1,6 +1,6 @@
 export const TITLE = 'Anthropic';
-export const COMBINE_TEXT_MULTIPLE = 0.75;
-export const COMBINE_SPACE_MULTIPLE = 0.1;
+export const COMBINE_TEXT_MULTIPLE = 1;
+export const COMBINE_SPACE_MULTIPLE = 0;
 export const COLOR_PRIMARY = '#F1F0E8';
 
 // Avatar constants

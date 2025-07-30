@@ -1,9 +1,11 @@
 'use client';
 
-import { CSSProperties, memo, useMemo } from 'react';
+import { CSSProperties, Suspense, memo } from 'react';
 
-import { modelMappings } from '../modelConfig';
-import DefaultAvatar from './DefaultAvatar';
+import DefaultAvatar from '../DefaultAvatar';
+import LoadingPlaceholder from '../LoadingPlaceholder';
+import { useIconLoader } from '../useIconLoader';
+import { useModelMapping } from '../useMappingCache';
 import DefaultIcon from './DefaultIcon';
 
 export interface ModelIconProps {
@@ -17,57 +19,78 @@ export interface ModelIconProps {
 
 const ModelIcon = memo<ModelIconProps>(
   ({ model: originModel, size = 12, type = 'avatar', shape, ...rest }) => {
-    const Render = useMemo(() => {
-      if (!originModel) return;
-      const model = originModel.toLowerCase();
-      for (const item of modelMappings) {
-        if (item.keywords.some((keyword) => new RegExp(keyword, 'i').test(model))) {
-          return item;
-        }
-      }
-    }, [originModel]);
+    const mappingItem = useModelMapping(originModel);
+    const { IconComponent, loading } = useIconLoader(mappingItem);
 
     const props = {
       size,
-      ...Render?.props,
+      ...mappingItem?.props,
       ...rest,
     };
 
+    if (loading) {
+      return <LoadingPlaceholder shape={shape} size={size} type={type} />;
+    }
+
     switch (type) {
       case 'avatar': {
-        if (!Render?.Icon) return <DefaultAvatar shape={shape} {...props} />;
-        return <Render.Icon.Avatar shape={shape} {...props} />;
+        if (!IconComponent) return <DefaultAvatar shape={shape} {...props} />;
+        return (
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
+            <IconComponent.Avatar shape={shape} {...props} />
+          </Suspense>
+        );
       }
       case 'mono': {
-        if (!Render?.Icon) return <DefaultIcon {...props} />;
-        return <Render.Icon {...props} />;
+        if (!IconComponent) return <DefaultIcon {...props} />;
+        return (
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
+            <IconComponent {...props} />
+          </Suspense>
+        );
       }
       case 'color': {
-        if (!Render?.Icon) return <DefaultIcon {...props} />;
-        return Render.Icon?.Color ? <Render.Icon.Color {...props} /> : <Render.Icon {...props} />;
+        if (!IconComponent) return <DefaultIcon {...props} />;
+        return (
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
+            {IconComponent?.Color ? (
+              <IconComponent.Color {...props} />
+            ) : (
+              <IconComponent {...props} />
+            )}
+          </Suspense>
+        );
       }
       case 'combine': {
-        if (!Render?.Icon) return <DefaultIcon {...props} />;
-        return Render.Icon?.Combine ? (
-          <Render.Icon.Combine type={'mono'} {...props} />
-        ) : Render.Icon?.Brand ? (
-          <Render.Icon.Brand {...props} />
-        ) : Render.Icon?.Text ? (
-          <Render.Icon.Text {...props} />
-        ) : (
-          <Render.Icon {...props} />
+        if (!IconComponent) return <DefaultIcon {...props} />;
+        return (
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
+            {IconComponent?.Combine ? (
+              <IconComponent.Combine type={'mono'} {...props} />
+            ) : IconComponent?.Brand ? (
+              <IconComponent.Brand {...props} />
+            ) : IconComponent?.Text ? (
+              <IconComponent.Text {...props} />
+            ) : (
+              <IconComponent {...props} />
+            )}
+          </Suspense>
         );
       }
       case 'combine-color': {
-        if (!Render?.Icon) return <DefaultIcon {...props} />;
-        return Render.Icon?.Combine ? (
-          <Render.Icon.Combine type={'color'} {...props} />
-        ) : Render.Icon?.BrandColor ? (
-          <Render.Icon.BrandColor {...props} />
-        ) : Render.Icon?.Text ? (
-          <Render.Icon.Text {...props} />
-        ) : (
-          <Render.Icon {...props} />
+        if (!IconComponent) return <DefaultIcon {...props} />;
+        return (
+          <Suspense fallback={<LoadingPlaceholder shape={shape} size={size} type={type} />}>
+            {IconComponent?.Combine ? (
+              <IconComponent.Combine type={'color'} {...props} />
+            ) : IconComponent?.BrandColor ? (
+              <IconComponent.BrandColor {...props} />
+            ) : IconComponent?.Text ? (
+              <IconComponent.Text {...props} />
+            ) : (
+              <IconComponent {...props} />
+            )}
+          </Suspense>
         );
       }
       default: {

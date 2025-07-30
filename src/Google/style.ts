@@ -1,4 +1,6 @@
 export const TITLE = 'Google';
+export const COMBINE_TEXT_MULTIPLE = 1;
+export const COMBINE_SPACE_MULTIPLE = 0;
 export const COLOR_PRIMARY = '#fff';
 
 // Avatar constants

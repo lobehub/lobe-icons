@@ -23,6 +23,19 @@ import { Anthropic } from '@lobehub/icons';
 export default () => <Anthropic.Text size={48} />;
 ```
 
+## Combine
+
+```tsx
+import { Anthropic } from '@lobehub/icons';
+import { Flexbox } from 'react-layout-kit';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Anthropic.Combine size={64} />
+  </Flexbox>
+);
+```
+
 ## Avatars
 
 ```tsx

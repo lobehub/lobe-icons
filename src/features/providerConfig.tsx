@@ -1,79 +1,11 @@
 import { DivProps } from '@lobehub/ui';
 import { FC, memo } from 'react';
 
-import Ai21 from '@/Ai21';
-import Ai302 from '@/Ai302';
-import Ai360 from '@/Ai360';
-import AiHubMix from '@/AiHubMix';
-import AiMass from '@/AiMass';
-import AlibabaCloud from '@/AlibabaCloud';
-import Anthropic from '@/Anthropic';
-import Aws from '@/Aws';
-import Azure from '@/Azure';
-import AzureAI from '@/AzureAI';
-import Baichuan from '@/Baichuan';
-import BaiduCloud from '@/BaiduCloud';
-import Bedrock from '@/Bedrock';
-import BurnCloud from '@/BurnCloud';
-import Claude from '@/Claude';
-import Cloudflare from '@/Cloudflare';
-import Cohere from '@/Cohere';
-import DeepSeek from '@/DeepSeek';
-import Doubao from '@/Doubao';
-import Fal from '@/Fal';
-import Fireworks from '@/Fireworks';
-import Gemini from '@/Gemini';
-import GiteeAI from '@/GiteeAI';
-import Github from '@/Github';
-import Google from '@/Google';
-import Groq from '@/Groq';
-import Higress from '@/Higress';
-import HuggingFace from '@/HuggingFace';
-import Hunyuan from '@/Hunyuan';
-import Infinigence from '@/Infinigence';
-import InternLM from '@/InternLM';
-import Jina from '@/Jina';
-import LmStudio from '@/LmStudio';
-import LobeHub from '@/LobeHub';
-import Minimax from '@/Minimax';
-import Mistral from '@/Mistral';
-import ModelScope from '@/ModelScope';
-import Moonshot from '@/Moonshot';
-import Novita from '@/Novita';
-import Nvidia from '@/Nvidia';
-import Ollama from '@/Ollama';
-import OpenAI from '@/OpenAI';
-import OpenRouter from '@/OpenRouter';
-import PPIO from '@/PPIO';
-import Perplexity from '@/Perplexity';
-import Player2 from '@/Player2';
-import Qiniu from '@/Qiniu';
-import Qwen from '@/Qwen';
-import SambaNova from '@/SambaNova';
-import Search1API from '@/Search1API';
-import SenseNova from '@/SenseNova';
-import SiliconCloud from '@/SiliconCloud';
-import Spark from '@/Spark';
-import Stepfun from '@/Stepfun';
-import TencentCloud from '@/TencentCloud';
-import Together from '@/Together';
-import Upstage from '@/Upstage';
-import V0 from '@/V0';
-import Vercel from '@/Vercel';
-import VertexAI from '@/VertexAI';
-import Vllm from '@/Vllm';
-import Volcengine from '@/Volcengine';
-import Wenxin from '@/Wenxin';
-import WorkersAI from '@/WorkersAI';
-import XAI from '@/XAI';
-import Xinference from '@/Xinference';
-import ZeroOne from '@/ZeroOne';
-import Zhipu from '@/Zhipu';
 import type { IconType } from '@/types';
 
 import type { IconAvatarProps } from './IconAvatar';
 import type { IconCombineProps } from './IconCombine';
-import Combine from './ProviderCombine/Combine';
+import DynamicCombine from './ProviderCombine/DynamicCombine';
 import { ModelProvider } from './providerEnum';
 
 type ProviderIconType = FC<IconType & any> & {
@@ -87,172 +19,266 @@ type ProviderIconType = FC<IconType & any> & {
 
 export interface ProviderMapping {
   Combine?: FC<DivProps & { size: number; type: 'color' | 'mono' }>;
-  Icon: ProviderIconType;
   combineMultiple?: number;
+  iconImport: () => Promise<{ default: ProviderIconType }>;
   keywords: string[];
   props?: any;
 }
 
 export const providerMappings: ProviderMapping[] = [
-  { Icon: LobeHub, keywords: [ModelProvider.LobeHub] },
-  { Icon: Zhipu, combineMultiple: 1.25, keywords: [ModelProvider.ZhiPu] },
+  { iconImport: () => import('@/LobeHub'), keywords: [ModelProvider.LobeHub] },
+  { combineMultiple: 1.25, iconImport: () => import('@/Zhipu'), keywords: [ModelProvider.ZhiPu] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
-      <Combine
-        left={type === 'color' ? <Aws.Color size={size * 1.2} /> : <Aws size={size * 1.2} />}
-        right={<Bedrock.Combine size={size} type={type} />}
+      <DynamicCombine
+        leftImport={() => import('@/Aws')}
+        leftSize={size * 1.2}
+        rightImport={() => import('@/Bedrock')}
         size={size}
+        type={type}
         {...props}
       />
     )),
-    Icon: Bedrock,
     combineMultiple: 1.1,
+    iconImport: () => import('@/Bedrock'),
     keywords: [ModelProvider.Bedrock],
   },
-  { Icon: DeepSeek, combineMultiple: 1.16, keywords: [ModelProvider.DeepSeek] },
+  {
+    combineMultiple: 1.16,
+    iconImport: () => import('@/DeepSeek'),
+    keywords: [ModelProvider.DeepSeek],
+  },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
-      <Combine
-        left={
-          type === 'color' ? (
-            <Google.BrandColor size={size * 0.95} />
-          ) : (
-            <Google.Brand size={size * 0.95} />
-          )
-        }
-        right={<Gemini.Combine size={size} type={type} />}
+      <DynamicCombine
+        leftImport={() => import('@/Google')}
+        leftSize={size * 0.95}
+        rightImport={() => import('@/Gemini')}
         size={size}
+        type={type}
         {...props}
       />
     )),
-    Icon: Google,
     combineMultiple: 0.92,
+    iconImport: () => import('@/Google'),
     keywords: [ModelProvider.Google],
   },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
-      <Combine
-        left={<Azure.Combine size={size * 0.92} type={type} />}
-        right={<OpenAI.Combine size={size} />}
+      <DynamicCombine
+        leftImport={() => import('@/Azure')}
+        leftSize={size * 0.92}
+        rightImport={() => import('@/OpenAI')}
         size={size}
+        type={type}
         {...props}
       />
     )),
-    Icon: Azure,
     combineMultiple: 0.9,
+    iconImport: () => import('@/Azure'),
     keywords: [ModelProvider.Azure],
   },
-  { Icon: Moonshot, combineMultiple: 0.9, keywords: [ModelProvider.Moonshot] },
-  { Icon: Novita, keywords: [ModelProvider.Novita] },
-  { Icon: OpenAI, keywords: [ModelProvider.OpenAI] },
-  { Icon: Ollama, combineMultiple: 1.16, keywords: [ModelProvider.Ollama] },
-  { Icon: Perplexity, keywords: [ModelProvider.Perplexity] },
-  { Icon: Minimax, combineMultiple: 1.3, keywords: [ModelProvider.Minimax] },
-  { Icon: Mistral, keywords: [ModelProvider.Mistral] },
+  {
+    combineMultiple: 0.9,
+    iconImport: () => import('@/Moonshot'),
+    keywords: [ModelProvider.Moonshot],
+  },
+  { iconImport: () => import('@/Novita'), keywords: [ModelProvider.Novita] },
+  { iconImport: () => import('@/OpenAI'), keywords: [ModelProvider.OpenAI] },
+  { combineMultiple: 1.16, iconImport: () => import('@/Ollama'), keywords: [ModelProvider.Ollama] },
+  { iconImport: () => import('@/Perplexity'), keywords: [ModelProvider.Perplexity] },
+  {
+    combineMultiple: 1.3,
+    iconImport: () => import('@/Minimax'),
+    keywords: [ModelProvider.Minimax],
+  },
+  { iconImport: () => import('@/Mistral'), keywords: [ModelProvider.Mistral] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
-      <Combine
-        left={<Anthropic.Text size={size * 0.75} />}
-        right={<Claude.Combine size={size} type={type} />}
+      <DynamicCombine
+        leftImport={() => import('@/Anthropic')}
+        leftSize={size * 0.75}
+        rightImport={() => import('@/Claude')}
         size={size}
+        type={type}
         {...props}
       />
     )),
-    Icon: Anthropic,
     combineMultiple: 0.83,
+    iconImport: () => import('@/Anthropic'),
     keywords: [ModelProvider.Anthropic],
   },
-  { Icon: Groq, keywords: [ModelProvider.Groq] },
-  { Icon: OpenRouter, combineMultiple: 0.8, keywords: [ModelProvider.OpenRouter] },
-  { Icon: ZeroOne, combineMultiple: 1, keywords: [ModelProvider.ZeroOne] },
-  { Icon: Together, keywords: [ModelProvider.TogetherAI] },
-  { Icon: Qiniu, combineMultiple: 1.1, keywords: [ModelProvider.Qiniu] },
+  { iconImport: () => import('@/Groq'), keywords: [ModelProvider.Groq] },
+  {
+    combineMultiple: 0.8,
+    iconImport: () => import('@/OpenRouter'),
+    keywords: [ModelProvider.OpenRouter],
+  },
+  { combineMultiple: 1, iconImport: () => import('@/ZeroOne'), keywords: [ModelProvider.ZeroOne] },
+  { iconImport: () => import('@/Together'), keywords: [ModelProvider.TogetherAI] },
+  { combineMultiple: 1.1, iconImport: () => import('@/Qiniu'), keywords: [ModelProvider.Qiniu] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
-      <Combine
-        left={<AlibabaCloud.Combine size={size} type={type} />}
-        right={<Qwen.Combine size={size * 0.9} type={type} />}
+      <DynamicCombine
+        leftImport={() => import('@/AlibabaCloud')}
+        rightImport={() => import('@/Qwen')}
+        rightSize={size * 0.9}
         size={size}
+        type={type}
         {...props}
       />
     )),
-    Icon: AlibabaCloud,
     combineMultiple: 1.1,
+    iconImport: () => import('@/AlibabaCloud'),
     keywords: [ModelProvider.Qwen],
   },
-  { Icon: Stepfun, combineMultiple: 0.83, keywords: [ModelProvider.Stepfun] },
-  { Icon: Spark, combineMultiple: 0.92, keywords: [ModelProvider.Spark] },
-  { Icon: Fireworks, combineMultiple: 1.14, keywords: [ModelProvider.FireworksAI] },
-  { Icon: Baichuan, combineMultiple: 0.83, keywords: [ModelProvider.Baichuan] },
-  { Icon: BurnCloud, combineMultiple: 1.2, keywords: [ModelProvider.BurnCloud] },
-  { Icon: AiMass, combineMultiple: 1.16, keywords: [ModelProvider.Taichu] },
-  { Icon: Ai360, combineMultiple: 0.83, keywords: [ModelProvider.Ai360] },
-  { Icon: SiliconCloud, combineMultiple: 1, keywords: [ModelProvider.SiliconCloud] },
-  { Icon: Upstage, combineMultiple: 0.9, keywords: [ModelProvider.Upstage] },
-  { Icon: Ai21, combineMultiple: 0.9, keywords: [ModelProvider.Ai21] },
-  { Icon: Player2, combineMultiple: 0.9, keywords: [ModelProvider.Player2] },
-  { Icon: Github, combineMultiple: 0.95, keywords: [ModelProvider.Github] },
-  { Icon: Doubao, keywords: [ModelProvider.Doubao] },
-  { Icon: Hunyuan, keywords: [ModelProvider.Hunyuan] },
-  { Icon: Nvidia, keywords: [ModelProvider.Nvidia] },
-  { Icon: TencentCloud, keywords: [ModelProvider.TencentCloud] },
+  {
+    combineMultiple: 0.83,
+    iconImport: () => import('@/Stepfun'),
+    keywords: [ModelProvider.Stepfun],
+  },
+  { combineMultiple: 0.92, iconImport: () => import('@/Spark'), keywords: [ModelProvider.Spark] },
+  {
+    combineMultiple: 1.14,
+    iconImport: () => import('@/Fireworks'),
+    keywords: [ModelProvider.FireworksAI],
+  },
+  {
+    combineMultiple: 0.83,
+    iconImport: () => import('@/Baichuan'),
+    keywords: [ModelProvider.Baichuan],
+  },
+  {
+    combineMultiple: 1.2,
+    iconImport: () => import('@/BurnCloud'),
+    keywords: [ModelProvider.BurnCloud],
+  },
+  { combineMultiple: 1.16, iconImport: () => import('@/AiMass'), keywords: [ModelProvider.Taichu] },
+  { combineMultiple: 0.83, iconImport: () => import('@/Ai360'), keywords: [ModelProvider.Ai360] },
+  {
+    combineMultiple: 1,
+    iconImport: () => import('@/SiliconCloud'),
+    keywords: [ModelProvider.SiliconCloud],
+  },
+  {
+    combineMultiple: 0.9,
+    iconImport: () => import('@/Upstage'),
+    keywords: [ModelProvider.Upstage],
+  },
+  { combineMultiple: 0.9, iconImport: () => import('@/Ai21'), keywords: [ModelProvider.Ai21] },
+  {
+    combineMultiple: 0.9,
+    iconImport: () => import('@/Player2'),
+    keywords: [ModelProvider.Player2],
+  },
+  { combineMultiple: 0.95, iconImport: () => import('@/Github'), keywords: [ModelProvider.Github] },
+  { iconImport: () => import('@/Doubao'), keywords: [ModelProvider.Doubao] },
+  { iconImport: () => import('@/Hunyuan'), keywords: [ModelProvider.Hunyuan] },
+  { iconImport: () => import('@/Nvidia'), keywords: [ModelProvider.Nvidia] },
+  { iconImport: () => import('@/TencentCloud'), keywords: [ModelProvider.TencentCloud] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
-      <Combine
-        left={<BaiduCloud.Combine size={size * 0.9} type={type} />}
-        right={<Wenxin.Combine extra={'千帆'} size={size} type={type} {...props} />}
+      <DynamicCombine
+        leftImport={() => import('@/BaiduCloud')}
+        leftSize={size * 0.9}
+        rightImport={() => import('@/Wenxin')}
         size={size}
+        type={type}
         {...props}
       />
     )),
-    Icon: Wenxin,
+    iconImport: () => import('@/Wenxin'),
     keywords: [ModelProvider.Wenxin],
   },
-  { Icon: SenseNova, combineMultiple: 0.95, keywords: [ModelProvider.SenseNova] },
-  { Icon: HuggingFace, combineMultiple: 1.16, keywords: [ModelProvider.HuggingFace] },
-  { Icon: LmStudio, keywords: [ModelProvider.LmStudio] },
-  { Icon: XAI, combineMultiple: 0.85, keywords: [ModelProvider.XAI] },
+  {
+    combineMultiple: 0.95,
+    iconImport: () => import('@/SenseNova'),
+    keywords: [ModelProvider.SenseNova],
+  },
+  {
+    combineMultiple: 1.16,
+    iconImport: () => import('@/HuggingFace'),
+    keywords: [ModelProvider.HuggingFace],
+  },
+  { iconImport: () => import('@/LmStudio'), keywords: [ModelProvider.LmStudio] },
+  { combineMultiple: 0.85, iconImport: () => import('@/XAI'), keywords: [ModelProvider.XAI] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
-      <Combine
-        left={<Cloudflare.Combine size={size * 1.1} type={type} />}
-        right={<WorkersAI.Combine size={size * 0.9} type={type} />}
+      <DynamicCombine
+        leftImport={() => import('@/Cloudflare')}
+        leftSize={size * 1.1}
+        rightImport={() => import('@/WorkersAI')}
+        rightSize={size * 0.9}
         size={size}
+        type={type}
         {...props}
       />
     )),
-    Icon: Cloudflare,
     combineMultiple: 1.1,
+    iconImport: () => import('@/Cloudflare'),
     keywords: [ModelProvider.Cloudflare],
   },
-  { Icon: InternLM, combineMultiple: 0.95, keywords: [ModelProvider.InternLM] },
-  { Icon: Higress, keywords: [ModelProvider.Higress] },
-  { Icon: Vllm, combineMultiple: 0.85, keywords: [ModelProvider.VLLM] },
-  { Icon: GiteeAI, combineMultiple: 0.95, keywords: [ModelProvider.GiteeAI] },
-  { Icon: ModelScope, combineMultiple: 1.2, keywords: [ModelProvider.ModelScope] },
-  { Icon: VertexAI, keywords: [ModelProvider.VertexAI] },
-  { Icon: PPIO, combineMultiple: 0.85, keywords: [ModelProvider.PPIO] },
-  { Icon: Jina, keywords: [ModelProvider.Jina] },
-  { Icon: AzureAI, keywords: [ModelProvider.AzureAI] },
-  { Icon: Volcengine, keywords: [ModelProvider.Volcengine] },
-  { Icon: SambaNova, combineMultiple: 0.8, keywords: [ModelProvider.SambaNova] },
-  { Icon: Cohere, keywords: [ModelProvider.Cohere] },
-  { Icon: Search1API, combineMultiple: 0.9, keywords: [ModelProvider.Search1API] },
-  { Icon: Infinigence, combineMultiple: 0.8, keywords: [ModelProvider.InfiniAI] },
-  { Icon: Xinference, combineMultiple: 0.85, keywords: [ModelProvider.Xinference] },
-  { Icon: Fal, combineMultiple: 0.8, keywords: [ModelProvider.Fal] },
-  { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
-  { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
+  {
+    combineMultiple: 0.95,
+    iconImport: () => import('@/InternLM'),
+    keywords: [ModelProvider.InternLM],
+  },
+  { iconImport: () => import('@/Higress'), keywords: [ModelProvider.Higress] },
+  { combineMultiple: 0.85, iconImport: () => import('@/Vllm'), keywords: [ModelProvider.VLLM] },
+  {
+    combineMultiple: 0.95,
+    iconImport: () => import('@/GiteeAI'),
+    keywords: [ModelProvider.GiteeAI],
+  },
+  {
+    combineMultiple: 1.2,
+    iconImport: () => import('@/ModelScope'),
+    keywords: [ModelProvider.ModelScope],
+  },
+  { iconImport: () => import('@/VertexAI'), keywords: [ModelProvider.VertexAI] },
+  { combineMultiple: 0.85, iconImport: () => import('@/PPIO'), keywords: [ModelProvider.PPIO] },
+  { iconImport: () => import('@/Jina'), keywords: [ModelProvider.Jina] },
+  { iconImport: () => import('@/AzureAI'), keywords: [ModelProvider.AzureAI] },
+  { iconImport: () => import('@/Volcengine'), keywords: [ModelProvider.Volcengine] },
+  {
+    combineMultiple: 0.8,
+    iconImport: () => import('@/SambaNova'),
+    keywords: [ModelProvider.SambaNova],
+  },
+  { iconImport: () => import('@/Cohere'), keywords: [ModelProvider.Cohere] },
+  {
+    combineMultiple: 0.9,
+    iconImport: () => import('@/Search1API'),
+    keywords: [ModelProvider.Search1API],
+  },
+  {
+    combineMultiple: 0.8,
+    iconImport: () => import('@/Infinigence'),
+    keywords: [ModelProvider.InfiniAI],
+  },
+  {
+    combineMultiple: 0.85,
+    iconImport: () => import('@/Xinference'),
+    keywords: [ModelProvider.Xinference],
+  },
+  { combineMultiple: 0.8, iconImport: () => import('@/Fal'), keywords: [ModelProvider.Fal] },
+  { combineMultiple: 0.9, iconImport: () => import('@/Ai302'), keywords: [ModelProvider.Ai302] },
+  {
+    combineMultiple: 0.9,
+    iconImport: () => import('@/AiHubMix'),
+    keywords: [ModelProvider.AiHubMix],
+  },
   {
     Combine: memo(({ size = 24, ...props }) => (
-      <Combine
-        left={<Vercel.Combine size={size * 0.9} />}
-        right={<V0 size={size} />}
+      <DynamicCombine
+        leftImport={() => import('@/Vercel')}
+        leftSize={size * 0.9}
+        rightImport={() => import('@/V0')}
         size={size}
         {...props}
       />
     )),
-    Icon: Vercel,
+    iconImport: () => import('@/Vercel'),
     keywords: [ModelProvider.V0],
   },
 ];
