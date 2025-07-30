@@ -35,6 +35,7 @@ import Ideogram from '@/Ideogram';
 import Inflection from '@/Inflection';
 import InternLM from '@/InternLM';
 import Jina from '@/Jina';
+import Kolors from '@/Kolors';
 import LLaVA from '@/LLaVA';
 import Liquid from '@/Liquid';
 import Meta from '@/Meta';
@@ -201,4 +202,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: VertexAI, keywords: ['^veo-', '/veo-'] },
   { Icon: Google, keywords: ['google'] },
   { Icon: CogView, keywords: ['cogview'] },
+  { Icon: Kolors, keywords: ['kolors'] },
 ];
