@@ -85,6 +85,7 @@ export {
 } from './GithubCopilot';
 export { default as Glama, type CompoundedIcon as GlamaProps } from './Glama';
 export { default as Glif, type CompoundedIcon as GlifProps } from './Glif';
+export { default as GLMV, type CompoundedIcon as GLMVProps } from './GLMV';
 export { default as Google, type CompoundedIcon as GoogleProps } from './Google';
 export { default as Goose, type CompoundedIcon as GooseProps } from './Goose';
 export { default as Gradio, type CompoundedIcon as GradioProps } from './Gradio';

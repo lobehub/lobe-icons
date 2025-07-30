@@ -26,6 +26,7 @@ import Doubao from '@/Doubao';
 import Fireworks from '@/Fireworks';
 import FishAudio from '@/FishAudio';
 import Flux from '@/Flux';
+import GLMV from '@/GLMV';
 import Gemini from '@/Gemini';
 import Gemma from '@/Gemma';
 import Google from '@/Google';
@@ -113,6 +114,7 @@ export const modelMappings: ModelMapping[] = [
     Icon: OpenAI,
     keywords: ['^gpt-', '/gpt-', 'openai'],
   },
+  { Icon: GLMV, keywords: ['^glm-4', '/glm-4'] },
   { Icon: ChatGLM, keywords: ['^glm-', '/glm-', 'chatglm'] },
   { Icon: CodeGeeX, keywords: ['^codegeex', '/codegeex'] },
   { Icon: Claude, keywords: ['claude'] },
