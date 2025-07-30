@@ -64,6 +64,7 @@ import VertexAI from '@/VertexAI';
 import Voyage from '@/Voyage';
 import Wenxin from '@/Wenxin';
 import Yi from '@/Yi';
+import ZAI from '@/ZAI';
 import type { IconAvatarProps } from '@/features/IconAvatar';
 import type { IconCombineProps } from '@/features/IconCombine';
 import type { IconType } from '@/types';
@@ -114,7 +115,8 @@ export const modelMappings: ModelMapping[] = [
     Icon: OpenAI,
     keywords: ['^gpt-', '/gpt-', 'openai'],
   },
-  { Icon: GLMV, keywords: ['^glm-4', '/glm-4'] },
+  { Icon: GLMV, keywords: ['^glm-(.*)v', '/glm-(.*)v'] },
+  { Icon: ZAI, keywords: ['^glm-4', '/glm-4'] },
   { Icon: ChatGLM, keywords: ['^glm-', '/glm-', 'chatglm'] },
   { Icon: CodeGeeX, keywords: ['^codegeex', '/codegeex'] },
   { Icon: Claude, keywords: ['claude'] },
