@@ -23,7 +23,7 @@ const convertPngToSvg = async () => {
     console.info(`Reading PNG file from: ${pngPath}`);
 
     // 读取PNG文件
-    const fileBuffer = await fs.readFile(pngPath);
+    const fileBuffer:any = await fs.readFile(pngPath);
 
     // 创建FormData对象
     const formData = new FormData();
