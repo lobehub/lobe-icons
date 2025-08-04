@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 2.23.1](https://github.com/lobehub/lobe-icons/compare/v2.23.0...v2.23.1)
+
+<sup>Released on **2025-08-04**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Mistral AI model logo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Mistral AI model logo, closes [#155](https://github.com/lobehub/lobe-icons/issues/155) ([28dc91f](https://github.com/lobehub/lobe-icons/commit/28dc91f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.23.0](https://github.com/lobehub/lobe-icons/compare/v2.22.0...v2.23.0)
 
 <sup>Released on **2025-07-30**</sup>
