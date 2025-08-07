@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.1.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.0.5...@lobehub/icons-rn@1.1.0)
+
+<sup>Released on **2025-08-07**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Bilibili Index and Bilibili (resolved.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Bilibili Index and Bilibili (resolved, closes [#156](https://github.com/lobehub/lobe-icons/issues/156) ([e5560db](https://github.com/lobehub/lobe-icons/commit/e5560db))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.0.5](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.0.4...@lobehub/icons-rn@1.0.5)
 
 <sup>Released on **2025-07-29**</sup>
