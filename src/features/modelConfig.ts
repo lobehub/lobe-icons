@@ -90,6 +90,8 @@ export interface ModelMapping {
 export const modelMappings: ModelMapping[] = [
   { Icon: OpenAI, keywords: ['gpt-3'], props: { type: 'gpt3' } },
   { Icon: OpenAI, keywords: ['gpt-4'], props: { type: 'gpt4' } },
+  { Icon: OpenAI, keywords: ['gpt-5'], props: { type: 'gpt5' } },
+  { Icon: OpenAI, keywords: ['gpt-oss'], props: { type: 'oss' } },
   {
     Icon: OpenAI,
     keywords: ['o1-', '^o1', '/o1', 'o3-', '^o3', '/o3', 'o4-', '^o4', '/o4'],
@@ -137,7 +139,18 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Minimax, keywords: ['minimax', 'abab', '^image-'] },
   {
     Icon: Mistral,
-    keywords: ['mistral', 'mixtral', 'codestral', 'mathstral', '/mn-', 'pixtral', 'ministral', 'magistral', 'devstral', 'voxtral'],
+    keywords: [
+      'mistral',
+      'mixtral',
+      'codestral',
+      'mathstral',
+      '/mn-',
+      'pixtral',
+      'ministral',
+      'magistral',
+      'devstral',
+      'voxtral',
+    ],
   },
   { Icon: Perplexity, keywords: ['pplx', 'sonar'] },
   { Icon: Yi, keywords: ['^yi-', '/yi-', '-yi-'] },
