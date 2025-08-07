@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 2.25.0](https://github.com/lobehub/lobe-icons/compare/v2.24.0...v2.25.0)
+
+<sup>Released on **2025-08-07**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Add gpt-5 gpt-oss.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([f954de0](https://github.com/lobehub/lobe-icons/commit/f954de0))
+
+#### Styles
+
+- **misc**: Add gpt-5 gpt-oss ([8424d49](https://github.com/lobehub/lobe-icons/commit/8424d49))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.24.0](https://github.com/lobehub/lobe-icons/compare/v2.23.1...v2.24.0)
 
 <sup>Released on **2025-08-07**</sup>
