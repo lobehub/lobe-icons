@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 2.26.0](https://github.com/lobehub/lobe-icons/compare/v2.25.0...v2.26.0)
+
+<sup>Released on **2025-08-09**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Dolphin, Add IBM Granite, Skywork, Add LG AI, Menlo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Dolphin ([b2c5c5f](https://github.com/lobehub/lobe-icons/commit/b2c5c5f))
+- **misc**: Add IBM Granite, Skywork ([8da1280](https://github.com/lobehub/lobe-icons/commit/8da1280))
+- **misc**: Add LG AI, Menlo ([005b0c4](https://github.com/lobehub/lobe-icons/commit/005b0c4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.25.0](https://github.com/lobehub/lobe-icons/compare/v2.24.0...v2.25.0)
 
 <sup>Released on **2025-08-07**</sup>
