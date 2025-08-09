@@ -23,6 +23,7 @@ import Dalle from '@/Dalle';
 import Dbrx from '@/Dbrx';
 import DeepMind from '@/DeepMind';
 import DeepSeek from '@/DeepSeek';
+import Dolphin from '@/Dolphin';
 import Doubao from '@/Doubao';
 import Fireworks from '@/Fireworks';
 import FishAudio from '@/FishAudio';
@@ -50,6 +51,7 @@ import OpenChat from '@/OpenChat';
 import OpenRouter from '@/OpenRouter';
 import PaLM from '@/PaLM';
 import Perplexity from '@/Perplexity';
+import Phind from '@/Phind';
 import Qiniu from '@/Qiniu';
 import Qwen from '@/Qwen';
 import Rwkv from '@/Rwkv';
@@ -223,4 +225,6 @@ export const modelMappings: ModelMapping[] = [
   { Icon: CogView, keywords: ['cogview'] },
   { Icon: Kolors, keywords: ['kolors'] },
   { Icon: BaiduCloud, keywords: ['baidu', 'qianfan'] },
+  { Icon: Phind, keywords: ['phind'] },
+  { Icon: Dolphin, keywords: ['dolphin'] },
 ];

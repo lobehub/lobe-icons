@@ -65,6 +65,7 @@ export { default as DeepSeek, type CompoundedIcon as DeepSeekProps } from './Dee
 export { default as Dify, type CompoundedIcon as DifyProps } from './Dify';
 export { default as Doc2X, type CompoundedIcon as Doc2XProps } from './Doc2X';
 export { default as DocSearch, type CompoundedIcon as DocSearchProps } from './DocSearch';
+export { default as Dolphin, type CompoundedIcon as DolphinProps } from './Dolphin';
 export { default as Doubao, type CompoundedIcon as DoubaoProps } from './Doubao';
 export { default as DreamMachine, type CompoundedIcon as DreamMachineProps } from './DreamMachine';
 export { default as ElevenLabs, type CompoundedIcon as ElevenLabsProps } from './ElevenLabs';
