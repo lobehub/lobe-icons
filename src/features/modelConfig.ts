@@ -42,13 +42,17 @@ import Inflection from '@/Inflection';
 import InternLM from '@/InternLM';
 import Jina from '@/Jina';
 import Kolors from '@/Kolors';
+import LG from '@/LG';
 import LLaVA from '@/LLaVA';
 import Liquid from '@/Liquid';
+import Menlo from '@/Menlo';
 import Meta from '@/Meta';
 import Microsoft from '@/Microsoft';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import Moonshot from '@/Moonshot';
+import NousResearch from '@/NousResearch';
+import Nvidia from '@/Nvidia';
 import OpenAI from '@/OpenAI';
 import OpenChat from '@/OpenChat';
 import OpenRouter from '@/OpenRouter';
@@ -64,6 +68,7 @@ import Spark from '@/Spark';
 import Stability from '@/Stability';
 import Stepfun from '@/Stepfun';
 import Suno from '@/Suno';
+import TII from '@/TII';
 import Udio from '@/Udio';
 import Upstage from '@/Upstage';
 import V0 from '@/V0';
@@ -134,6 +139,8 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Aws, keywords: ['titan'] },
   { Icon: Fireworks, keywords: ['accounts/fireworks/models/fire'] },
   { Icon: InternLM, keywords: ['internlm', 'internvl'] },
+  { Icon: NousResearch, keywords: ['deephermes', 'hermes', 'genstruct', 'minos'] },
+  { Icon: Nvidia, keywords: ['nemotron', 'openreasoning'] },
   { Icon: Meta, keywords: ['llama', '/l3'] },
   { Icon: LLaVA, keywords: ['llava'] },
   { Icon: Gemini, keywords: ['gemini'] },
@@ -235,4 +242,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Skywork, keywords: ['skywork'] },
   { Icon: BilibiliIndex, keywords: ['bilibili-index'] },
   { Icon: Bilibili, keywords: ['bilibili'] },
+  { Icon: LG, keywords: ['kmmlu', 'exaone', 'lgai'] },
+  { Icon: TII, keywords: ['falcon'] },
+  { Icon: Menlo, keywords: ['menlo', 'lucy', 'jan-nano'] },
 ];

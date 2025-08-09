@@ -1,21 +1,20 @@
 ---
 nav: Components
 group: Provider
-title: Nvidia (Nemotron)
-atomId: Nvidia
-description: https://nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/
+title: MENLO (Lucy/Jan-nano)
+atomId: Menlo
+description: https://www.menlo.ai
 ---
 
 ## Icons
 
 ```tsx
-import { Nvidia } from '@lobehub/icons';
+import { Menlo } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Nvidia size={64} />
-    <Nvidia.Color size={64} />
+    <Menlo size={64} />
   </Flexbox>
 );
 ```
@@ -23,21 +22,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Nvidia } from '@lobehub/icons';
+import { Menlo } from '@lobehub/icons';
 
-export default () => <Nvidia.Text size={48} />;
+export default () => <Menlo.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Nvidia } from '@lobehub/icons';
+import { Menlo } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <Nvidia.Combine size={64} />
-    <Nvidia.Combine size={64} type={'color'} />
+    <Menlo.Combine size={64} />
+    <Menlo.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -45,13 +44,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Nvidia } from '@lobehub/icons';
+import { Menlo } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Nvidia.Avatar size={64} />
-    <Nvidia.Avatar size={64} shape={'square'} />
+    <Menlo.Avatar size={64} />
+    <Menlo.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -59,14 +58,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Nvidia } from '@lobehub/icons';
+import { Menlo } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Nvidia.colorPrimary} />
+    <ColorPreview color={Menlo.colorPrimary} />
   </Flexbox>
 );
 ```

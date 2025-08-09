@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Provider
-title: NousResearch
+title: NousResearch (Hermes)
 atomId: NousResearch
 description: https://nousresearch.com
 ---

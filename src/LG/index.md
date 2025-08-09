@@ -1,21 +1,21 @@
 ---
 nav: Components
 group: Provider
-title: Nvidia (Nemotron)
-atomId: Nvidia
-description: https://nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/
+title: LG AI (KMMLU/EXAONE)
+atomId: LG
+description: https://www.lgresearch.ai
 ---
 
 ## Icons
 
 ```tsx
-import { Nvidia } from '@lobehub/icons';
+import { LG } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Nvidia size={64} />
-    <Nvidia.Color size={64} />
+    <LG size={64} />
+    <LG.Color size={64} />
   </Flexbox>
 );
 ```
@@ -23,21 +23,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Nvidia } from '@lobehub/icons';
+import { LG } from '@lobehub/icons';
 
-export default () => <Nvidia.Text size={48} />;
+export default () => <LG.Text size={64} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Nvidia } from '@lobehub/icons';
+import { LG } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <Nvidia.Combine size={64} />
-    <Nvidia.Combine size={64} type={'color'} />
+    <LG.Combine size={64} />
+    <LG.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -45,13 +45,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Nvidia } from '@lobehub/icons';
+import { LG } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Nvidia.Avatar size={64} />
-    <Nvidia.Avatar size={64} shape={'square'} />
+    <LG.Avatar size={64} />
+    <LG.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -59,14 +59,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Nvidia } from '@lobehub/icons';
+import { LG } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Nvidia.colorPrimary} />
+    <ColorPreview color={LG.colorPrimary} />
   </Flexbox>
 );
 ```

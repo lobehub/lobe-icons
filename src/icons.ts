@@ -126,6 +126,7 @@ export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './Lan
 export { default as LangGraph, type CompoundedIcon as LangGraphProps } from './LangGraph';
 export { default as LangSmith, type CompoundedIcon as LangSmithProps } from './LangSmith';
 export { default as LeptonAI, type CompoundedIcon as LeptonAIProps } from './LeptonAI';
+export { default as LG, type CompoundedIcon as LGProps } from './LG';
 export { default as Lightricks, type CompoundedIcon as LightricksProps } from './Lightricks';
 export { default as Liquid, type CompoundedIcon as LiquidProps } from './Liquid';
 export { default as LiveKit, type CompoundedIcon as LiveKitProps } from './LiveKit';
@@ -141,6 +142,7 @@ export { default as Manus, type CompoundedIcon as ManusProps } from './Manus';
 export { default as Mastra, type CompoundedIcon as MastraProps } from './Mastra';
 export { default as MCP, type CompoundedIcon as MCPProps } from './MCP';
 export { default as McpSo, type CompoundedIcon as McpSoProps } from './McpSo';
+export { default as Menlo, type CompoundedIcon as MenloProps } from './Menlo';
 export { default as Meta, type CompoundedIcon as MetaProps } from './Meta';
 export { default as MetaAI, type CompoundedIcon as MetaAIProps } from './MetaAI';
 export { default as MetaGPT, type CompoundedIcon as MetaGPTProps } from './MetaGPT';
