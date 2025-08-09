@@ -105,6 +105,7 @@ export { default as Higress, type CompoundedIcon as HigressProps } from './Higre
 export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from './HuggingFace';
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
 export { default as Hyperbolic, type CompoundedIcon as HyperbolicProps } from './Hyperbolic';
+export { default as IBM, type CompoundedIcon as IBMProps } from './IBM';
 export { default as Ideogram, type CompoundedIcon as IdeogramProps } from './Ideogram';
 export { default as IFlyTekCloud, type CompoundedIcon as IFlyTekCloudProps } from './IFlyTekCloud';
 export { default as Inference, type CompoundedIcon as InferenceProps } from './Inference';
@@ -193,6 +194,7 @@ export { default as Search1API, type CompoundedIcon as Search1APIProps } from '.
 export { default as SearchApi, type CompoundedIcon as SearchApiProps } from './SearchApi';
 export { default as SenseNova, type CompoundedIcon as SenseNovaProps } from './SenseNova';
 export { default as SiliconCloud, type CompoundedIcon as SiliconCloudProps } from './SiliconCloud';
+export { default as Skywork, type CompoundedIcon as SkyworkProps } from './Skywork';
 export { default as Smithery, type CompoundedIcon as SmitheryProps } from './Smithery';
 export { default as Snowflake, type CompoundedIcon as SnowflakeProps } from './Snowflake';
 export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';

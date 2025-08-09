@@ -12,6 +12,8 @@ import Aws from '@/Aws';
 import Aya from '@/Aya';
 import Baichuan from '@/Baichuan';
 import BaiduCloud from '@/BaiduCloud';
+import Bilibili from '@/Bilibili';
+import BilibiliIndex from '@/BilibiliIndex';
 import BurnCloud from '@/BurnCloud';
 import ByteDance from '@/ByteDance';
 import ChatGLM from '@/ChatGLM';
@@ -34,6 +36,7 @@ import Gemma from '@/Gemma';
 import Google from '@/Google';
 import Grok from '@/Grok';
 import Hunyuan from '@/Hunyuan';
+import IBM from '@/IBM';
 import Ideogram from '@/Ideogram';
 import Inflection from '@/Inflection';
 import InternLM from '@/InternLM';
@@ -56,6 +59,7 @@ import Qiniu from '@/Qiniu';
 import Qwen from '@/Qwen';
 import Rwkv from '@/Rwkv';
 import SenseNova from '@/SenseNova';
+import Skywork from '@/Skywork';
 import Spark from '@/Spark';
 import Stability from '@/Stability';
 import Stepfun from '@/Stepfun';
@@ -227,4 +231,8 @@ export const modelMappings: ModelMapping[] = [
   { Icon: BaiduCloud, keywords: ['baidu', 'qianfan'] },
   { Icon: Phind, keywords: ['phind'] },
   { Icon: Dolphin, keywords: ['dolphin'] },
+  { Icon: IBM, keywords: ['ibm', 'granite'] },
+  { Icon: Skywork, keywords: ['skywork'] },
+  { Icon: BilibiliIndex, keywords: ['bilibili-index'] },
+  { Icon: Bilibili, keywords: ['bilibili'] },
 ];
