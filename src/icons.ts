@@ -131,6 +131,7 @@ export { default as LlamaIndex, type CompoundedIcon as LlamaIndexProps } from '.
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmStudio';
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeHub';
+export { default as Lovable, type CompoundedIcon as LovableProps } from './Lovable';
 export { default as Luma, type CompoundedIcon as LumaProps } from './Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './Magic';
 export { default as Make, type CompoundedIcon as MakeProps } from './Make';
@@ -168,6 +169,7 @@ export { default as PaLM, type CompoundedIcon as PaLMProps } from './PaLM';
 export { default as Parasail, type CompoundedIcon as ParasailProps } from './Parasail';
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './Perplexity';
 export { default as Phidata, type CompoundedIcon as PhidataProps } from './Phidata';
+export { default as Phind, type CompoundedIcon as PhindProps } from './Phind';
 export { default as Pika, type CompoundedIcon as PikaProps } from './Pika';
 export { default as PixVerse, type CompoundedIcon as PixVerseProps } from './PixVerse';
 export { default as Player2, type CompoundedIcon as Player2Props } from './Player2';
@@ -228,6 +230,7 @@ export { default as Xinference, type CompoundedIcon as XinferenceProps } from '.
 export { default as Xuanyuan, type CompoundedIcon as XuanyuanProps } from './Xuanyuan';
 export { default as Yandex, type CompoundedIcon as YandexProps } from './Yandex';
 export { default as Yi, type CompoundedIcon as YiProps } from './Yi';
+export { default as YouMind, type CompoundedIcon as YouMindProps } from './YouMind';
 export { default as Yuanbao, type CompoundedIcon as YuanbaoProps } from './Yuanbao';
 export { default as ZAI, type CompoundedIcon as ZAIProps } from './ZAI';
 export { default as Zapier, type CompoundedIcon as ZapierProps } from './Zapier';
