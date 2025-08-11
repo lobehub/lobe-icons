@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Provider
-title: Bfl
+title: Bfl (black forest labs)
 atomId: Bfl
 description: https://blackforestlabs.ai
 ---
