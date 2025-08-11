@@ -26,6 +26,7 @@ export { default as Baidu, type CompoundedIcon as BaiduProps } from './Baidu';
 export { default as BaiduCloud, type CompoundedIcon as BaiduCloudProps } from './BaiduCloud';
 export { default as Baseten, type CompoundedIcon as BasetenProps } from './Baseten';
 export { default as Bedrock, type CompoundedIcon as BedrockProps } from './Bedrock';
+export { default as Bfl, type CompoundedIcon as BflProps } from './Bfl';
 export { default as Bilibili, type CompoundedIcon as BilibiliProps } from './Bilibili';
 export {
   default as BilibiliIndex,
