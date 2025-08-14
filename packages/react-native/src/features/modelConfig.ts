@@ -11,6 +11,9 @@ import AssemblyAI from '../icons/AssemblyAI';
 import Aws from '../icons/Aws';
 import Aya from '../icons/Aya';
 import Baichuan from '../icons/Baichuan';
+import BaiduCloud from '../icons/BaiduCloud';
+import Bilibili from '../icons/Bilibili';
+import BilibiliIndex from '../icons/BilibiliIndex';
 import BurnCloud from '../icons/BurnCloud';
 import ByteDance from '../icons/ByteDance';
 import ChatGLM from '../icons/ChatGLM';
@@ -22,40 +25,51 @@ import Dalle from '../icons/Dalle';
 import Dbrx from '../icons/Dbrx';
 import DeepMind from '../icons/DeepMind';
 import DeepSeek from '../icons/DeepSeek';
+import Dolphin from '../icons/Dolphin';
 import Doubao from '../icons/Doubao';
 import Fireworks from '../icons/Fireworks';
 import FishAudio from '../icons/FishAudio';
 import Flux from '../icons/Flux';
+import GLMV from '../icons/GLMV';
 import Gemini from '../icons/Gemini';
 import Gemma from '../icons/Gemma';
 import Google from '../icons/Google';
 import Grok from '../icons/Grok';
 import Hunyuan from '../icons/Hunyuan';
+import IBM from '../icons/IBM';
 import Ideogram from '../icons/Ideogram';
 import Inflection from '../icons/Inflection';
 import InternLM from '../icons/InternLM';
 import Jina from '../icons/Jina';
+import Kolors from '../icons/Kolors';
+import LG from '../icons/LG';
 import LLaVA from '../icons/LLaVA';
 import Liquid from '../icons/Liquid';
+import Menlo from '../icons/Menlo';
 import Meta from '../icons/Meta';
 import Microsoft from '../icons/Microsoft';
 import Minimax from '../icons/Minimax';
 import Mistral from '../icons/Mistral';
 import Moonshot from '../icons/Moonshot';
+import NousResearch from '../icons/NousResearch';
+import Nvidia from '../icons/Nvidia';
 // Import React Native icon components
 import OpenAI from '../icons/OpenAI';
 import OpenChat from '../icons/OpenChat';
 import OpenRouter from '../icons/OpenRouter';
 import PaLM from '../icons/PaLM';
 import Perplexity from '../icons/Perplexity';
+import Phind from '../icons/Phind';
 import Qiniu from '../icons/Qiniu';
 import Qwen from '../icons/Qwen';
 import Rwkv from '../icons/Rwkv';
 import SenseNova from '../icons/SenseNova';
+import Skywork from '../icons/Skywork';
 import Spark from '../icons/Spark';
 import Stability from '../icons/Stability';
 import Stepfun from '../icons/Stepfun';
 import Suno from '../icons/Suno';
+import TII from '../icons/TII';
 import Udio from '../icons/Udio';
 import Upstage from '../icons/Upstage';
 import V0 from '../icons/V0';
@@ -63,6 +77,7 @@ import VertexAI from '../icons/VertexAI';
 import Voyage from '../icons/Voyage';
 import Wenxin from '../icons/Wenxin';
 import Yi from '../icons/Yi';
+import ZAI from '../icons/ZAI';
 import type { RNIconProps } from './types';
 
 type RNModelIconType = FC<RNIconProps & any> & {
@@ -85,6 +100,8 @@ export interface RNModelMapping {
 export const rnModelMappings: RNModelMapping[] = [
   { Icon: OpenAI, keywords: ['gpt-3'], props: { type: 'gpt3' } },
   { Icon: OpenAI, keywords: ['gpt-4'], props: { type: 'gpt4' } },
+  { Icon: OpenAI, keywords: ['gpt-5'], props: { type: 'gpt5' } },
+  { Icon: OpenAI, keywords: ['gpt-oss'], props: { type: 'oss' } },
   {
     Icon: OpenAI,
     keywords: ['o1-', '^o1', '/o1', 'o3-', '^o3', '/o3', 'o4-', '^o4', '/o4'],
@@ -103,6 +120,7 @@ export const rnModelMappings: RNModelMapping[] = [
       'omni-moderation',
       'text-moderation',
       'text-adb',
+      'text-ada',
       'computer-use',
     ],
     props: { type: 'platform' },
@@ -111,6 +129,8 @@ export const rnModelMappings: RNModelMapping[] = [
     Icon: OpenAI,
     keywords: ['^gpt-', '/gpt-', 'openai'],
   },
+  { Icon: GLMV, keywords: ['^glm-(.*)v', '/glm-(.*)v'] },
+  { Icon: ZAI, keywords: ['^glm-4', '/glm-4'] },
   { Icon: ChatGLM, keywords: ['^glm-', '/glm-', 'chatglm'] },
   { Icon: CodeGeeX, keywords: ['^codegeex', '/codegeex'] },
   { Icon: Claude, keywords: ['claude'] },
@@ -118,6 +138,8 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: Aws, keywords: ['titan'] },
   { Icon: Fireworks, keywords: ['accounts/fireworks/models/fire'] },
   { Icon: InternLM, keywords: ['internlm', 'internvl'] },
+  { Icon: NousResearch, keywords: ['deephermes', 'hermes', 'genstruct', 'minos'] },
+  { Icon: Nvidia, keywords: ['nemotron', 'openreasoning'] },
   { Icon: Meta, keywords: ['llama', '/l3'] },
   { Icon: LLaVA, keywords: ['llava'] },
   { Icon: Gemini, keywords: ['gemini'] },
@@ -129,7 +151,18 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: Minimax, keywords: ['minimax', 'abab', '^image-'] },
   {
     Icon: Mistral,
-    keywords: ['mistral', 'mixtral', 'codestral', 'mathstral', '/mn-', 'pixtral', 'ministral'],
+    keywords: [
+      'mistral',
+      'mixtral',
+      'codestral',
+      'mathstral',
+      '/mn-',
+      'pixtral',
+      'ministral',
+      'magistral',
+      'devstral',
+      'voxtral',
+    ],
   },
   { Icon: Perplexity, keywords: ['pplx', 'sonar'] },
   { Icon: Yi, keywords: ['^yi-', '/yi-', '-yi-'] },
@@ -198,6 +231,17 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: AiHubMix, keywords: ['aihubmix'] },
   { Icon: V0, keywords: ['^v0-'] },
   { Icon: VertexAI, keywords: ['^veo-', '/veo-'] },
-  { Icon: Google, keywords: ['google'] },
+  { Icon: Google, keywords: ['google', 'learnlm'] },
   { Icon: CogView, keywords: ['cogview'] },
+  { Icon: Kolors, keywords: ['kolors'] },
+  { Icon: BaiduCloud, keywords: ['baidu', 'qianfan'] },
+  { Icon: Phind, keywords: ['phind'] },
+  { Icon: Dolphin, keywords: ['dolphin'] },
+  { Icon: IBM, keywords: ['ibm', 'granite'] },
+  { Icon: Skywork, keywords: ['skywork'] },
+  { Icon: BilibiliIndex, keywords: ['bilibili-index'] },
+  { Icon: Bilibili, keywords: ['bilibili'] },
+  { Icon: LG, keywords: ['kmmlu', 'exaone', 'lgai'] },
+  { Icon: TII, keywords: ['falcon'] },
+  { Icon: Menlo, keywords: ['menlo', 'lucy', 'jan-nano'] },
 ];
