@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.2.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.1.0...@lobehub/icons-rn@1.2.0)
+
+<sup>Released on **2025-08-14**</sup>
+
+#### ✨ Features
+
+- **rn**: Update new icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **rn**: Update new icons, closes [#162](https://github.com/lobehub/lobe-icons/issues/162) ([23275b5](https://github.com/lobehub/lobe-icons/commit/23275b5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.1.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.0.5...@lobehub/icons-rn@1.1.0)
 
 <sup>Released on **2025-08-07**</sup>
