@@ -14,6 +14,7 @@ import AzureAI from '@/AzureAI';
 import Baichuan from '@/Baichuan';
 import BaiduCloud from '@/BaiduCloud';
 import Bedrock from '@/Bedrock';
+import Bfl from '@/Bfl';
 import BurnCloud from '@/BurnCloud';
 import Claude from '@/Claude';
 import Cloudflare from '@/Cloudflare';
@@ -255,4 +256,5 @@ export const providerMappings: ProviderMapping[] = [
     Icon: Vercel,
     keywords: [ModelProvider.V0],
   },
+  { Icon: Bfl, keywords: [ModelProvider.Bfl] },
 ];
