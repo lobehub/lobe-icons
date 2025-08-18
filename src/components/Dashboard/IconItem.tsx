@@ -1,11 +1,11 @@
 'use client';
 
-import { ActionIcon, CopyButton } from '@lobehub/ui';
+import { ActionIcon, Block, CopyButton, Text } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { Link } from 'dumi';
 import { DownloadIcon, SearchIcon } from 'lucide-react';
 import { readableColor } from 'polished';
-import { ReactNode, memo, useRef } from 'react';
+import { ReactNode, memo, useCallback, useRef } from 'react';
 import { Center, Flexbox } from 'react-layout-kit';
 
 import { customKebabCase } from '@/components/Dashboard/utils';
@@ -27,13 +27,7 @@ const useStyles = createStyles(({ cx, css, token }) => {
   return {
     card: css`
       position: relative;
-
       overflow: hidden;
-
-      border: 1px solid ${token.colorBorderSecondary};
-      border-radius: ${token.borderRadiusLG}px;
-
-      background: ${token.colorBgContainer};
     `,
     color: css`
       border-inline-end: 1px solid ${token.colorBorderSecondary};
@@ -82,23 +76,23 @@ const IconItem = memo<IconItemProps>(({ children, title, color, id }) => {
   const { styles } = useStyles();
   const ref = useRef<HTMLDivElement>(null);
 
-  const handleDownload = () => {
+  const handleDownload = useCallback((iconId: string) => {
     const svgString = String(ref?.current?.querySelector('svg')?.outerHTML);
     const blob = new Blob([svgString], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     const downloadLink = document.createElement('a');
     downloadLink.href = url;
-    downloadLink.download = `${id.toLowerCase()}.svg`;
+    downloadLink.download = `${iconId.toLowerCase()}.svg`;
     document.body.append(downloadLink);
     downloadLink.click();
     downloadLink.remove();
     URL.revokeObjectURL(url);
-  };
+  }, []);
 
   return (
-    <Flexbox className={styles.card}>
+    <Block className={styles.card} variant={'outlined'}>
       <Link style={{ color: 'inherit' }} to={`/components/${customKebabCase(id)}`}>
-        <Center height={96} style={{ position: 'relative' }} width={'100%'}>
+        <Center height={96} ref={ref} style={{ position: 'relative' }} width={'100%'}>
           {children}
         </Center>
       </Link>
@@ -111,8 +105,10 @@ const IconItem = memo<IconItemProps>(({ children, title, color, id }) => {
         paddingInline={12}
         width={'100%'}
       >
-        <h2 className={styles.title}>{title}</h2>
-        <CopyButton className={styles.copy} content={title} size={'small'} />
+        <Text as={'h2'} className={styles.title} ellipsis>
+          {title}
+        </Text>
+        <CopyButton content={title} size={'small'} />
       </Flexbox>
       <Flexbox align={'center'} className={styles.row} horizontal>
         <Center
@@ -142,12 +138,12 @@ const IconItem = memo<IconItemProps>(({ children, title, color, id }) => {
               <ActionIcon icon={SearchIcon} size={'small'} />
             </a>
           </Center>
-          <Center flex={1} height={32} onClick={handleDownload}>
+          <Center flex={1} height={32} onClick={() => handleDownload(id)}>
             <ActionIcon icon={DownloadIcon} size={'small'} />
           </Center>
         </Flexbox>
       </Flexbox>
-    </Flexbox>
+    </Block>
   );
 });
 

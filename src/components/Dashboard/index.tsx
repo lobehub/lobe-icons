@@ -2,7 +2,7 @@
 
 import * as Icons from '@lobehub/icons';
 import { Grid, SearchBar } from '@lobehub/ui';
-import { Segmented } from 'antd';
+import { Empty, Segmented } from 'antd';
 import { useTheme } from 'antd-style';
 import { memo, useMemo, useState } from 'react';
 import { Flexbox } from 'react-layout-kit';
@@ -40,6 +40,7 @@ const Dashboard = memo(() => {
     <Flexbox gap={16} style={{ maxWidth: 960 }} width={'100%'}>
       <Flexbox align={'center'} gap={12} horizontal>
         <SearchBar
+          allowClear
           defaultValue={keyword}
           onSearch={(v) => setKeyword(v)}
           placeholder={'Search by brand or model keywords...'}
@@ -64,16 +65,20 @@ const Dashboard = memo(() => {
           }}
         />
       </Flexbox>
-      <Grid maxItemWidth={160} rows={5}>
-        {iconsGroup.map(([key, Icon]: [string, any]) => {
-          const IconRender = isMono ? Icon : Icon.Color || Icon;
-          return (
-            <IconItem color={Icon.colorPrimary} id={key} key={key} title={Icon.title}>
-              <IconRender size={56} />
-            </IconItem>
-          );
-        })}
-      </Grid>
+      {iconsGroup.length > 0 ? (
+        <Grid maxItemWidth={160} rows={5}>
+          {iconsGroup.map(([key, Icon]: [string, any]) => {
+            const IconRender = isMono ? Icon : Icon.Color || Icon;
+            return (
+              <IconItem color={Icon.colorPrimary} id={key} key={key} title={Icon.title}>
+                <IconRender size={56} />
+              </IconItem>
+            );
+          })}
+        </Grid>
+      ) : (
+        <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />
+      )}
     </Flexbox>
   );
 });
