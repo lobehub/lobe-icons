@@ -18,6 +18,7 @@ import Bfl from '@/Bfl';
 import BurnCloud from '@/BurnCloud';
 import Claude from '@/Claude';
 import Cloudflare from '@/Cloudflare';
+import ComfyUI from '@/ComfyUI';
 import Cohere from '@/Cohere';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
@@ -238,6 +239,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Volcengine, keywords: [ModelProvider.Volcengine] },
   { Icon: SambaNova, combineMultiple: 0.8, keywords: [ModelProvider.SambaNova] },
   { Icon: Cohere, keywords: [ModelProvider.Cohere] },
+  { Icon: ComfyUI, keywords: [ModelProvider.ComfyUI] },
   { Icon: Search1API, combineMultiple: 0.9, keywords: [ModelProvider.Search1API] },
   { Icon: Infinigence, combineMultiple: 0.8, keywords: [ModelProvider.InfiniAI] },
   { Icon: Xinference, combineMultiple: 0.85, keywords: [ModelProvider.Xinference] },

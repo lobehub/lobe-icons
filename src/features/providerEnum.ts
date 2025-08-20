@@ -11,6 +11,7 @@ export enum ModelProvider {
   Bfl = 'bfl',
   BurnCloud = 'burncloud',
   Cloudflare = 'cloudflare',
+  ComfyUI = 'comfyui',
   Cohere = 'cohere',
   DeepSeek = 'deepseek',
   Doubao = 'Doubao',
