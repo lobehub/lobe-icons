@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 2.29.0](https://github.com/lobehub/lobe-icons/compare/v2.28.0...v2.29.0)
+
+<sup>Released on **2025-08-20**</sup>
+
+#### ✨ Features
+
+- **misc**: Add ComfyUI provider icon mapping support.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add ComfyUI provider icon mapping support, closes [#165](https://github.com/lobehub/lobe-icons/issues/165) ([083184a](https://github.com/lobehub/lobe-icons/commit/083184a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.28.0](https://github.com/lobehub/lobe-icons/compare/v2.27.1...v2.28.0)
 
 <sup>Released on **2025-08-18**</sup>
