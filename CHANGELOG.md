@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 2.29.1](https://github.com/lobehub/lobe-icons/compare/v2.29.0...v2.29.1)
+
+<sup>Released on **2025-08-21**</sup>
+
+#### 💄 Styles
+
+- **rn**: Add Bfl icon & change provider config.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **rn**: Add Bfl icon & change provider config, closes [#167](https://github.com/lobehub/lobe-icons/issues/167) ([2a64240](https://github.com/lobehub/lobe-icons/commit/2a64240))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.29.0](https://github.com/lobehub/lobe-icons/compare/v2.28.0...v2.29.0)
 
 <sup>Released on **2025-08-20**</sup>
