@@ -8,6 +8,7 @@ export enum RNModelProvider {
   AzureAI = 'azureai',
   Baichuan = 'baichuan',
   Bedrock = 'bedrock',
+  Bfl = 'bfl',
   BurnCloud = 'burncloud',
   Cloudflare = 'cloudflare',
   Cohere = 'cohere',
