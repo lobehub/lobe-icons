@@ -14,6 +14,7 @@ import AzureAI from '../icons/AzureAI';
 import Baichuan from '../icons/Baichuan';
 import BaiduCloud from '../icons/BaiduCloud';
 import Bedrock from '../icons/Bedrock';
+import Bfl from '../icons/Bfl';
 import BurnCloud from '../icons/BurnCloud';
 import Claude from '../icons/Claude';
 import Cloudflare from '../icons/Cloudflare';
@@ -96,8 +97,14 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={type === 'color' ? <Aws.Color size={size * 1.2} /> : <Aws size={size * 1.2} />}
-        right={<Bedrock.Combine size={size} type={type} />}
+        left={
+          type === 'color' ? (
+            <Aws.Color size={size * 1.2} {...props} />
+          ) : (
+            <Aws size={size * 1.2} {...props} />
+          )
+        }
+        right={<Bedrock.Combine size={size} type={type} {...props} />}
         size={size}
         {...props}
       />
@@ -112,12 +119,12 @@ export const rnProviderMappings: RNProviderMapping[] = [
       <Combine
         left={
           type === 'color' ? (
-            <Google.BrandColor size={size * 0.95} />
+            <Google.BrandColor size={size * 0.95} {...props} />
           ) : (
-            <Google.Brand size={size * 0.95} />
+            <Google.Brand size={size * 0.95} {...props} />
           )
         }
-        right={<Gemini.Combine size={size} type={type} />}
+        right={<Gemini.Combine size={size} type={type} {...props} />}
         size={size}
         {...props}
       />
@@ -129,8 +136,8 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={<Azure.Combine size={size * 0.92} type={type} />}
-        right={<OpenAI.Combine size={size} />}
+        left={<Azure.Combine size={size * 0.92} type={type} {...props} />}
+        right={<OpenAI.Combine size={size} {...props} />}
         size={size}
         {...props}
       />
@@ -149,8 +156,8 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={<Anthropic.Text size={size * 0.75} />}
-        right={<Claude.Combine size={size} type={type} />}
+        left={<Anthropic.Text size={size * 0.75} {...props} />}
+        right={<Claude.Combine size={size} type={type} {...props} />}
         size={size}
         {...props}
       />
@@ -167,8 +174,8 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={<AlibabaCloud.Combine size={size} type={type} />}
-        right={<Qwen.Combine size={size * 0.9} type={type} />}
+        left={<AlibabaCloud.Combine size={size} type={type} {...props} />}
+        right={<Qwen.Combine size={size * 0.9} type={type} {...props} />}
         size={size}
         {...props}
       />
@@ -196,7 +203,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={<BaiduCloud.Combine size={size * 0.9} type={type} />}
+        left={<BaiduCloud.Combine size={size * 0.9} type={type} {...props} />}
         right={<Wenxin.Combine extra={'千帆'} size={size} type={type} {...props} />}
         size={size}
         {...props}
@@ -212,8 +219,8 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={<Cloudflare.Combine size={size * 1.1} type={type} />}
-        right={<WorkersAI.Combine size={size * 0.9} type={type} />}
+        left={<Cloudflare.Combine size={size * 1.1} type={type} {...props} />}
+        right={<WorkersAI.Combine size={size * 0.9} type={type} {...props} />}
         size={size}
         {...props}
       />
@@ -243,8 +250,8 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine
-        left={<Vercel.Combine size={size * 0.9} />}
-        right={<V0 size={size} />}
+        left={<Vercel.Combine size={size * 0.9} {...props} />}
+        right={<V0 size={size} {...props} />}
         size={size}
         {...props}
       />
@@ -252,4 +259,5 @@ export const rnProviderMappings: RNProviderMapping[] = [
     Icon: Vercel,
     keywords: [RNModelProvider.V0],
   },
+  { Icon: Bfl, keywords: [RNModelProvider.Bfl] },
 ];
