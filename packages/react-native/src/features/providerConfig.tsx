@@ -261,5 +261,11 @@ export const rnProviderMappings: RNProviderMapping[] = [
     keywords: [RNModelProvider.V0],
   },
   { Icon: Bfl, keywords: [RNModelProvider.Bfl] },
-  { Icon: Nebius, combineMultiple: 0.9, keywords: [RNModelProvider.Nebius] },
+  {
+    Combine: memo(({ size = 20, type = 'color', ...props }) => (
+      <Nebius.Text size={size} {...props} />
+    )),
+    Icon: Nebius,
+    keywords: [RNModelProvider.Nebius],
+  },
 ];
