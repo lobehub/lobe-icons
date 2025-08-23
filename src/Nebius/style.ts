@@ -1,4 +1,6 @@
 export const TITLE = 'Nebius';
+export const COMBINE_TEXT_MULTIPLE = 0.75;
+export const COMBINE_SPACE_MULTIPLE = 0.4;
 export const COLOR_PRIMARY = '#DAFF33';
 
 // Avatar constants

@@ -2957,7 +2957,7 @@ const toc: IconToc[] = [
       hasBrand: false,
       hasBrandColor: false,
       hasColor: false,
-      hasCombine: false,
+      hasCombine: true,
       hasText: true,
       hasTextCn: false,
       hasTextColor: false,
