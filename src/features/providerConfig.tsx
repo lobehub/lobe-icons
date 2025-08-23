@@ -260,5 +260,5 @@ export const providerMappings: ProviderMapping[] = [
     keywords: [ModelProvider.V0],
   },
   { Icon: Bfl, keywords: [ModelProvider.Bfl] },
-  { Icon: Nebius, combineMultiple: 0.9, keywords: [ModelProvider.Nebius] },
+  { Icon: Nebius, combineMultiple: 0.8, keywords: [ModelProvider.Nebius] },
 ];
