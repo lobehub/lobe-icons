@@ -261,5 +261,5 @@ export const rnProviderMappings: RNProviderMapping[] = [
     keywords: [RNModelProvider.V0],
   },
   { Icon: Bfl, keywords: [RNModelProvider.Bfl] },
-  { Icon: Nebius, combineMultiple: 0.8, keywords: [ModelProvider.Nebius] },
+  { Icon: Nebius, combineMultiple: 0.8, keywords: [RNModelProvider.Nebius] },
 ];
