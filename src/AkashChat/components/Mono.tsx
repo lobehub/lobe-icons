@@ -13,7 +13,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       fillRule="evenodd"
       height={size}
       style={{ flex: 'none', lineHeight: 1, ...style }}
-      viewBox="0 0 24 24"
+      viewBox="0 -1 24 24"
       width={size}
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
