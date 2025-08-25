@@ -40,6 +40,7 @@ import Minimax from '../icons/Minimax';
 import Mistral from '../icons/Mistral';
 import ModelScope from '../icons/ModelScope';
 import Moonshot from '../icons/Moonshot';
+import Nebius from '../icons/Nebius';
 import Novita from '../icons/Novita';
 import Nvidia from '../icons/Nvidia';
 import Ollama from '../icons/Ollama';
@@ -260,4 +261,5 @@ export const rnProviderMappings: RNProviderMapping[] = [
     keywords: [RNModelProvider.V0],
   },
   { Icon: Bfl, keywords: [RNModelProvider.Bfl] },
+  { Icon: Nebius, combineMultiple: 0.8, keywords: [RNModelProvider.Nebius] },
 ];

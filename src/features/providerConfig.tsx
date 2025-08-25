@@ -18,8 +18,8 @@ import Bfl from '@/Bfl';
 import BurnCloud from '@/BurnCloud';
 import Claude from '@/Claude';
 import Cloudflare from '@/Cloudflare';
-import ComfyUI from '@/ComfyUI';
 import Cohere from '@/Cohere';
+import ComfyUI from '@/ComfyUI';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
 import Fal from '@/Fal';
@@ -41,6 +41,7 @@ import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import ModelScope from '@/ModelScope';
 import Moonshot from '@/Moonshot';
+import Nebius from '@/Nebius';
 import Novita from '@/Novita';
 import Nvidia from '@/Nvidia';
 import Ollama from '@/Ollama';
@@ -259,4 +260,5 @@ export const providerMappings: ProviderMapping[] = [
     keywords: [ModelProvider.V0],
   },
   { Icon: Bfl, keywords: [ModelProvider.Bfl] },
+  { Icon: Nebius, combineMultiple: 0.8, keywords: [ModelProvider.Nebius] },
 ];
