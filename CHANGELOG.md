@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 2.29.2](https://github.com/lobehub/lobe-icons/compare/v2.29.1...v2.29.2)
+
+<sup>Released on **2025-08-25**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Nebius logo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Nebius logo, closes [#168](https://github.com/lobehub/lobe-icons/issues/168) ([c2570dd](https://github.com/lobehub/lobe-icons/commit/c2570dd))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.29.1](https://github.com/lobehub/lobe-icons/compare/v2.29.0...v2.29.1)
 
 <sup>Released on **2025-08-21**</sup>
