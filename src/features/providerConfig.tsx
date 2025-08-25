@@ -6,6 +6,7 @@ import Ai302 from '@/Ai302';
 import Ai360 from '@/Ai360';
 import AiHubMix from '@/AiHubMix';
 import AiMass from '@/AiMass';
+import AkashChat from '@/AkashChat';
 import AlibabaCloud from '@/AlibabaCloud';
 import Anthropic from '@/Anthropic';
 import Aws from '@/Aws';
@@ -261,4 +262,5 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: Bfl, keywords: [ModelProvider.Bfl] },
   { Icon: Nebius, combineMultiple: 0.8, keywords: [ModelProvider.Nebius] },
+  { Icon: AkashChat, combineMultiple: 0.8, keywords: [ModelProvider.AkashChat] },
 ];

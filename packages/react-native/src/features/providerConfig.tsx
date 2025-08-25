@@ -6,6 +6,7 @@ import Ai302 from '../icons/Ai302';
 import Ai360 from '../icons/Ai360';
 import AiHubMix from '../icons/AiHubMix';
 import AiMass from '../icons/AiMass';
+import AkashChat from '../icons/AkashChat';
 import AlibabaCloud from '../icons/AlibabaCloud';
 import Anthropic from '../icons/Anthropic';
 import Aws from '../icons/Aws';
@@ -262,4 +263,5 @@ export const rnProviderMappings: RNProviderMapping[] = [
   },
   { Icon: Bfl, keywords: [RNModelProvider.Bfl] },
   { Icon: Nebius, combineMultiple: 0.8, keywords: [RNModelProvider.Nebius] },
+  { Icon: AkashChat, combineMultiple: 0.8, keywords: [RNModelProvider.AkashChat] },
 ];
