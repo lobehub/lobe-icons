@@ -25,6 +25,7 @@ export { default as BAAI, type CompoundedIcon as BAAIProps } from './BAAI';
 export { default as Baichuan, type CompoundedIcon as BaichuanProps } from './Baichuan';
 export { default as Baidu, type CompoundedIcon as BaiduProps } from './Baidu';
 export { default as BaiduCloud, type CompoundedIcon as BaiduCloudProps } from './BaiduCloud';
+export { default as Bailian, type CompoundedIcon as BailianProps } from './Bailian';
 export { default as Baseten, type CompoundedIcon as BasetenProps } from './Baseten';
 export { default as Bedrock, type CompoundedIcon as BedrockProps } from './Bedrock';
 export { default as Bfl, type CompoundedIcon as BflProps } from './Bfl';
@@ -217,7 +218,7 @@ export { default as Together, type CompoundedIcon as TogetherProps } from './Tog
 export { default as TopazLabs, type CompoundedIcon as TopazLabsProps } from './TopazLabs';
 export { default as Trae, type CompoundedIcon as TraeProps } from './Trae';
 export { default as Tripo, type CompoundedIcon as TripoProps } from './Tripo';
-export { default as TuriXAI, type CompoundedIcon as TuriXAICompoundedIcon } from './TuriXAI';
+export { default as TuriX, type CompoundedIcon as TuriXCompoundedIcon } from './TuriX';
 export { default as Udio, type CompoundedIcon as UdioProps } from './Udio';
 export { default as Unstructured, type CompoundedIcon as UnstructuredProps } from './Unstructured';
 export { default as Upstage, type CompoundedIcon as UpstageProps } from './Upstage';

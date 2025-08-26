@@ -1,41 +1,35 @@
-'use client';
+import React, { memo } from 'react';
+import { Defs, LinearGradient, Path, Stop, Svg } from 'react-native-svg';
 
-import { memo } from 'react';
-
-import type { IconType } from '@/types';
+import type { RNIconProps } from '@/features';
+import { useFillId } from '@/hooks/useFillId';
 
 import { TITLE } from '../style';
 
-const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
+const Icon = memo<RNIconProps>(({ size = 24, style, ...rest }) => {
+  const { id, fill } = useFillId(TITLE);
   return (
-    <svg
-      height={size}
-      style={{ flex: 'none', lineHeight: 1, ...style }}
-      viewBox="0 -1 24 24"
-      width={size}
-      xmlns="http://www.w3.org/2000/svg"
-      {...rest}
-    >
-      <title>{TITLE}</title>
-      <defs>
-        <linearGradient
-          gradientTransform="scale(.13953)"
+    <Svg height={size} style={style} viewBox="0 0 24 24" width={size} {...rest}>
+      <Path d="M15.902 14.836l3.93 6.914h-7.934L7.93 14.836h7.972z" fill={fill} />
+      <Path d="M19.828 21.754l3.96-6.918L15.86 1H7.93l11.898 20.754z" fill="#FF414C" />
+      <Path d="M3.965 7.914h7.93L3.969 21.75 0 14.836l3.965-6.922z" fill="#FF414C" />
+      <Defs>
+        <LinearGradient
           gradientUnits="userSpaceOnUse"
-          id="a"
-          x1="99.457"
-          x2="132.718"
-          y1="136.148"
-          y2="98.898"
+          id={id}
+          x1="13.877"
+          x2="18.518"
+          y1="19.997"
+          y2="14.799"
         >
-          <stop offset="0" stopColor="#ff414c" />
-          <stop offset="1" stopColor="#ff414c" stopOpacity="0" />
-        </linearGradient>
-      </defs>
-      <path d="M15.902 13.836l3.93 6.914h-7.934L7.93 13.836zm0 0" fill="url(#a)" />
-      <path d="M19.828 20.754l3.961-6.918L15.86 0H7.93zm0 0" fill="#ff414c" />
-      <path d="M3.965 6.914h7.93L3.969 20.75 0 13.836zm0 0" fill="#ff414c" />
-    </svg>
+          <Stop stopColor="#FF414C" />
+          <Stop offset="100%" stopColor="#FF414C" stopOpacity="0" />
+        </LinearGradient>
+      </Defs>
+    </Svg>
   );
 });
+
+Icon.displayName = 'AkashChatColor';
 
 export default Icon;

@@ -38,7 +38,6 @@ export default () => (
   <Flexbox gap={16} align={'flex-start'}>
     <Baichuan.Combine size={64} />
     <Baichuan.Combine size={64} type={'color'} />
-    <Baichuan.Combine size={64} type={'color'} color={Baichuan.colorPrimary} />
   </Flexbox>
 );
 ```

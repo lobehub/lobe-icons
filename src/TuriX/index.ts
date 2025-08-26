@@ -1,18 +1,13 @@
-import AvatarA from './components/AvatarA';
-import AvatarB from './components/AvatarB';
-import CombineA from './components/CombineA';
-import CombineB from './components/CombineB';
+import Avatar from './components/Avatar';
+import Combine from './components/Combine';
 import Mono from './components/Mono';
 import Text from './components/Text';
 import { COLOR_GRADIENT, COLOR_PRIMARY, TITLE } from './style';
 
 export type CompoundedIcon = typeof Mono & {
-  AvatarA: typeof AvatarA;
-  AvatarB: typeof AvatarB;
-  CombineA: typeof CombineA;
-  CombineB: typeof CombineB;
+  Avatar: typeof Avatar;
+  Combine: typeof Combine;
   Text: typeof Text;
-  color: string;
   colorGradient: string;
   colorPrimary: string;
   title: string;
@@ -20,12 +15,10 @@ export type CompoundedIcon = typeof Mono & {
 
 const Icons = Mono as CompoundedIcon;
 Icons.Text = Text;
-Icons.CombineA = CombineA;
-Icons.CombineB = CombineB;
-Icons.AvatarA = AvatarA;
-Icons.AvatarB = AvatarB;
+Icons.Combine = Combine;
+Icons.Avatar = Avatar;
 Icons.colorPrimary = COLOR_PRIMARY;
 Icons.colorGradient = COLOR_GRADIENT;
 Icons.title = TITLE;
-Icons.color = '#000000';
+
 export default Icons;
