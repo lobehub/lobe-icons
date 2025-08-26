@@ -19,6 +19,7 @@ export { default as AiHubMix, type CompoundedIcon as AiHubMixProps } from './ico
 export { default as AiMass, type CompoundedIcon as AiMassProps } from './icons/AiMass';
 export { default as AionLabs, type CompoundedIcon as AionLabsProps } from './icons/AionLabs';
 export { default as AiStudio, type CompoundedIcon as AiStudioProps } from './icons/AiStudio';
+export { default as AkashChat, type CompoundedIcon as AkashChatProps } from './icons/AkashChat';
 export { default as AlephAlpha, type CompoundedIcon as AlephAlphaProps } from './icons/AlephAlpha';
 export { default as Alibaba, type CompoundedIcon as AlibabaProps } from './icons/Alibaba';
 export {
@@ -38,6 +39,7 @@ export { default as BAAI, type CompoundedIcon as BAAIProps } from './icons/BAAI'
 export { default as Baichuan, type CompoundedIcon as BaichuanProps } from './icons/Baichuan';
 export { default as Baidu, type CompoundedIcon as BaiduProps } from './icons/Baidu';
 export { default as BaiduCloud, type CompoundedIcon as BaiduCloudProps } from './icons/BaiduCloud';
+export { default as Bailian, type CompoundedIcon as BailianProps } from './icons/Bailian';
 export { default as Baseten, type CompoundedIcon as BasetenProps } from './icons/Baseten';
 export { default as Bedrock, type CompoundedIcon as BedrockProps } from './icons/Bedrock';
 export { default as Bfl, type CompoundedIcon as BflProps } from './icons/Bfl';
@@ -257,6 +259,7 @@ export { default as Together, type CompoundedIcon as TogetherProps } from './ico
 export { default as TopazLabs, type CompoundedIcon as TopazLabsProps } from './icons/TopazLabs';
 export { default as Trae, type CompoundedIcon as TraeProps } from './icons/Trae';
 export { default as Tripo, type CompoundedIcon as TripoProps } from './icons/Tripo';
+export { default as TuriX, type CompoundedIcon as TuriXProps } from './icons/TuriX';
 export { default as Udio, type CompoundedIcon as UdioProps } from './icons/Udio';
 export {
   default as Unstructured,
