@@ -8,6 +8,7 @@ export { default as AiHubMix, type CompoundedIcon as AiHubMixProps } from './AiH
 export { default as AiMass, type CompoundedIcon as AiMassProps } from './AiMass';
 export { default as AionLabs, type CompoundedIcon as AionLabsProps } from './AionLabs';
 export { default as AiStudio, type CompoundedIcon as AiStudioProps } from './AiStudio';
+export { default as AkashChat, type CompoundedIcon as AkashChatProps } from './AkashChat';
 export { default as AlephAlpha, type CompoundedIcon as AlephAlphaProps } from './AlephAlpha';
 export { default as Alibaba, type CompoundedIcon as AlibabaProps } from './Alibaba';
 export { default as AlibabaCloud, type CompoundedIcon as AlibabaCloudProps } from './AlibabaCloud';
