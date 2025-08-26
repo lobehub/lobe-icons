@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.3.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.2.2...@lobehub/icons-rn@1.3.0)
+
+<sup>Released on **2025-08-26**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Bailian, TuriX, AkashChat (resolved.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Bailian, TuriX, AkashChat (resolved, closes [#171](https://github.com/lobehub/lobe-icons/issues/171) [#170](https://github.com/lobehub/lobe-icons/issues/170) [#172](https://github.com/lobehub/lobe-icons/issues/172) [#171](https://github.com/lobehub/lobe-icons/issues/171) ([6faf69b](https://github.com/lobehub/lobe-icons/commit/6faf69b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.2.2](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.2.1...@lobehub/icons-rn@1.2.2)
 
 <sup>Released on **2025-08-25**</sup>
