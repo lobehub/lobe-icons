@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 2.31.0](https://github.com/lobehub/lobe-icons/compare/v2.30.0...v2.31.0)
+
+<sup>Released on **2025-09-02**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **cometapi**: Add CometAPI icon components (resolved.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([617448c](https://github.com/lobehub/lobe-icons/commit/617448c))
+- **cometapi**: Add CometAPI icon components (resolved, closes [#92](https://github.com/lobehub/lobe-icons/issues/92) [#175](https://github.com/lobehub/lobe-icons/issues/175) [#174](https://github.com/lobehub/lobe-icons/issues/174) [#1EBDC2](https://github.com/lobehub/lobe-icons/issues/1EBDC2) ([3a2e00f](https://github.com/lobehub/lobe-icons/commit/3a2e00f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.30.0](https://github.com/lobehub/lobe-icons/compare/v2.29.2...v2.30.0)
 
 <sup>Released on **2025-08-26**</sup>
