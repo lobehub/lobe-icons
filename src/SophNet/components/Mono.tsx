@@ -19,9 +19,10 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       {...rest}
     >
       <title>{TITLE}</title>
-      <path d="M12 2L3 7v10l9 5 9-5V7l-9-5z" fill="currentColor" />
-      <path d="M12 8l-4 2v4l4 2 4-2v-4l-4-2z" fill="none" stroke="currentColor" strokeWidth="1" />
-      <circle cx="12" cy="12" r="2" fill="currentColor" />
+      <path d="M2 3.124A3.125 3.125 0 015.126 0h15.101a3.125 3.125 0 010 6.249H5.125A3.125 3.125 0 012 3.124z" />
+      <path d="M3.293 1.035a3.125 3.125 0 014.411.257l8.51 9.562a3.125 3.125 0 01-4.669 4.155L3.036 5.447a3.125 3.125 0 01.257-4.412z" />
+      <path d="M2 13.018a3.125 3.125 0 013.125-3.124h8.853a3.124 3.124 0 110 6.248H5.125A3.125 3.125 0 012 13.018z" />
+      <path d="M8.249 20.829A3.125 3.125 0 112 20.922a3.125 3.125 0 016.249-.093z" />
     </svg>
   );
 });

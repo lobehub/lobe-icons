@@ -45,7 +45,11 @@
     "test:watch": "vitest --watch",
     "type-check": "tsc --noEmit"
   },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
   "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
     "@types/react": "^19.0.0",
     "@types/react-native": "^0.72.0",
     "clean-package": "^2.2.0",

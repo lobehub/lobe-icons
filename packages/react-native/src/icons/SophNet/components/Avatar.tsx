@@ -1,25 +1,22 @@
-'use client';
+import React, { memo } from 'react';
 
-import { memo } from 'react';
-
-import IconAvatar, { type IconAvatarProps } from '@/features/IconAvatar';
+import { RNIconAvatar, type RNIconAvatarProps } from '@/features';
 
 import { AVATAR_BACKGROUND, AVATAR_COLOR, AVATAR_ICON_MULTIPLE, TITLE } from '../style';
 import Color from './Color';
 
-export type AvatarProps = Omit<IconAvatarProps, 'Icon'>;
+export type AvatarProps = Omit<RNIconAvatarProps, 'Icon'>;
 
-const Avatar = memo<AvatarProps>(({ ...rest }) => {
+const Avatar = memo<AvatarProps>(({ background, ...rest }) => {
   return (
-    <IconAvatar
+    <RNIconAvatar
       Icon={Color}
       aria-label={TITLE}
-      background={AVATAR_BACKGROUND}
+      background={background || AVATAR_BACKGROUND}
       color={AVATAR_COLOR}
       iconMultiple={AVATAR_ICON_MULTIPLE}
       {...rest}
     />
   );
 });
-
 export default Avatar;

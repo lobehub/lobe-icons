@@ -64,6 +64,7 @@ export { default as CogVideo, type CompoundedIcon as CogVideoProps } from './ico
 export { default as CogView, type CompoundedIcon as CogViewProps } from './icons/CogView';
 export { default as Cohere, type CompoundedIcon as CohereProps } from './icons/Cohere';
 export { default as Colab, type CompoundedIcon as ColabProps } from './icons/Colab';
+export { default as CometAPI, type CompoundedIcon as CometAPIProps } from './icons/CometAPI';
 export { default as ComfyUI, type CompoundedIcon as ComfyUIProps } from './icons/ComfyUI';
 export { default as CommandA, type CompoundedIcon as CommandAProps } from './icons/CommandA';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './icons/Copilot';
@@ -188,6 +189,7 @@ export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './ico
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './icons/MyShell';
 export { default as N8n, type CompoundedIcon as N8nProps } from './icons/N8n';
 export { default as Nebius, type CompoundedIcon as NebiusProps } from './icons/Nebius';
+export { default as NewAPI, type CompoundedIcon as NewAPIProps } from './icons/NewAPI';
 export { default as NotebookLM, type CompoundedIcon as NotebookLMProps } from './icons/NotebookLM';
 export { default as Notion, type CompoundedIcon as NotionProps } from './icons/Notion';
 export {
@@ -240,6 +242,7 @@ export {
 export { default as Skywork, type CompoundedIcon as SkyworkProps } from './icons/Skywork';
 export { default as Smithery, type CompoundedIcon as SmitheryProps } from './icons/Smithery';
 export { default as Snowflake, type CompoundedIcon as SnowflakeProps } from './icons/Snowflake';
+export { default as SophNet, type CompoundedIcon as SophNetProps } from './icons/SophNet';
 export { default as Spark, type CompoundedIcon as SparkProps } from './icons/Spark';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './icons/Stability';
 export { default as StateCloud, type CompoundedIcon as StateCloudProps } from './icons/StateCloud';

@@ -44,7 +44,7 @@ import Mistral from '@/Mistral';
 import ModelScope from '@/ModelScope';
 import Moonshot from '@/Moonshot';
 import Nebius from '@/Nebius';
-import NewApi from '@/NewApi';
+import NewAPI from '@/NewAPI';
 import Novita from '@/Novita';
 import Nvidia from '@/Nvidia';
 import Ollama from '@/Ollama';
@@ -59,6 +59,7 @@ import SambaNova from '@/SambaNova';
 import Search1API from '@/Search1API';
 import SenseNova from '@/SenseNova';
 import SiliconCloud from '@/SiliconCloud';
+import SophNet from '@/SophNet';
 import Spark from '@/Spark';
 import Stepfun from '@/Stepfun';
 import TencentCloud from '@/TencentCloud';
@@ -264,7 +265,8 @@ export const providerMappings: ProviderMapping[] = [
     keywords: [ModelProvider.V0],
   },
   { Icon: Bfl, keywords: [ModelProvider.Bfl] },
-  { Icon: Nebius, combineMultiple: 0.8, keywords: [ModelProvider.Nebius] },
-  { Icon: NewApi, keywords: [ModelProvider.NewApi] },
+  { Icon: Nebius, combineMultiple: 0.75, keywords: [ModelProvider.Nebius] },
+  { Icon: NewAPI, combineMultiple: 0.85, keywords: [ModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [ModelProvider.AkashChat] },
+  { Icon: SophNet, combineMultiple: 0.85, keywords: [ModelProvider.SophNet] },
 ];
