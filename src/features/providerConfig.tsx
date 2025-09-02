@@ -20,6 +20,7 @@ import BurnCloud from '@/BurnCloud';
 import Claude from '@/Claude';
 import Cloudflare from '@/Cloudflare';
 import Cohere from '@/Cohere';
+import CometAPI from '@/CometAPI';
 import ComfyUI from '@/ComfyUI';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
@@ -43,6 +44,7 @@ import Mistral from '@/Mistral';
 import ModelScope from '@/ModelScope';
 import Moonshot from '@/Moonshot';
 import Nebius from '@/Nebius';
+import NewAPI from '@/NewAPI';
 import Novita from '@/Novita';
 import Nvidia from '@/Nvidia';
 import Ollama from '@/Ollama';
@@ -57,6 +59,7 @@ import SambaNova from '@/SambaNova';
 import Search1API from '@/Search1API';
 import SenseNova from '@/SenseNova';
 import SiliconCloud from '@/SiliconCloud';
+import SophNet from '@/SophNet';
 import Spark from '@/Spark';
 import Stepfun from '@/Stepfun';
 import TencentCloud from '@/TencentCloud';
@@ -248,6 +251,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Fal, combineMultiple: 0.8, keywords: [ModelProvider.Fal] },
   { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
+  { Icon: CometAPI, keywords: [ModelProvider.CometAPI] },
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine
@@ -261,6 +265,8 @@ export const providerMappings: ProviderMapping[] = [
     keywords: [ModelProvider.V0],
   },
   { Icon: Bfl, keywords: [ModelProvider.Bfl] },
-  { Icon: Nebius, combineMultiple: 0.8, keywords: [ModelProvider.Nebius] },
+  { Icon: Nebius, combineMultiple: 0.75, keywords: [ModelProvider.Nebius] },
+  { Icon: NewAPI, combineMultiple: 0.85, keywords: [ModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [ModelProvider.AkashChat] },
+  { Icon: SophNet, combineMultiple: 0.85, keywords: [ModelProvider.SophNet] },
 ];

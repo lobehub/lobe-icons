@@ -50,6 +50,7 @@ export { default as CogVideo, type CompoundedIcon as CogVideoProps } from './Cog
 export { default as CogView, type CompoundedIcon as CogViewProps } from './CogView';
 export { default as Cohere, type CompoundedIcon as CohereProps } from './Cohere';
 export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
+export { default as CometAPI, type CompoundedIcon as CometAPIProps } from './CometAPI';
 export { default as ComfyUI, type CompoundedIcon as ComfyUIProps } from './ComfyUI';
 export { default as CommandA, type CompoundedIcon as CommandAProps } from './CommandA';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
@@ -159,6 +160,7 @@ export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moo
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './MyShell';
 export { default as N8n, type CompoundedIcon as N8nProps } from './N8n';
 export { default as Nebius, type CompoundedIcon as NebiusProps } from './Nebius';
+export { default as NewAPI, type CompoundedIcon as NewAPIProps } from './NewAPI';
 export { default as NotebookLM, type CompoundedIcon as NotebookLMProps } from './NotebookLM';
 export { default as Notion, type CompoundedIcon as NotionProps } from './Notion';
 export { default as NousResearch, type CompoundedIcon as NousResearchProps } from './NousResearch';
@@ -202,6 +204,7 @@ export { default as SiliconCloud, type CompoundedIcon as SiliconCloudProps } fro
 export { default as Skywork, type CompoundedIcon as SkyworkProps } from './Skywork';
 export { default as Smithery, type CompoundedIcon as SmitheryProps } from './Smithery';
 export { default as Snowflake, type CompoundedIcon as SnowflakeProps } from './Snowflake';
+export { default as SophNet, type CompoundedIcon as SophNetLabsProps } from './SophNet';
 export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './Stability';
 export { default as StateCloud, type CompoundedIcon as StateCloudProps } from './StateCloud';
