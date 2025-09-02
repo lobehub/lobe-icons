@@ -50,6 +50,7 @@ export { default as CogVideo, type CompoundedIcon as CogVideoProps } from './Cog
 export { default as CogView, type CompoundedIcon as CogViewProps } from './CogView';
 export { default as Cohere, type CompoundedIcon as CohereProps } from './Cohere';
 export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
+export { default as CometAPI, type CompoundedIcon as CometAPIProps } from './CometAPI';
 export { default as ComfyUI, type CompoundedIcon as ComfyUIProps } from './ComfyUI';
 export { default as CommandA, type CompoundedIcon as CommandAProps } from './CommandA';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';

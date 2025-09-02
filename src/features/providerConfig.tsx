@@ -20,6 +20,7 @@ import BurnCloud from '@/BurnCloud';
 import Claude from '@/Claude';
 import Cloudflare from '@/Cloudflare';
 import Cohere from '@/Cohere';
+import CometAPI from '@/CometAPI';
 import ComfyUI from '@/ComfyUI';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
@@ -248,6 +249,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Fal, combineMultiple: 0.8, keywords: [ModelProvider.Fal] },
   { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
+  { Icon: CometAPI, keywords: [ModelProvider.CometAPI] },
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine
