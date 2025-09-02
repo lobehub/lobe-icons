@@ -249,3 +249,4 @@ export { default as Zapier, type CompoundedIcon as ZapierProps } from './Zapier'
 export { default as Zeabur, type CompoundedIcon as ZeaburProps } from './Zeabur';
 export { default as ZeroOne, type CompoundedIcon as ZeroOneProps } from './ZeroOne';
 export { default as Zhipu, type CompoundedIcon as ZhipuProps } from './Zhipu';
+export { default as SubModel, type CompoundedIcon as SubModelProps } from './SubModel';
