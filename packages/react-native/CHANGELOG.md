@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.4.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.3.0...@lobehub/icons-rn@1.4.0)
+
+<sup>Released on **2025-09-02**</sup>
+
+#### ✨ Features
+
+- **cometapi**: Add CometAPI icon components (resolved.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **cometapi**: Add CometAPI icon components (resolved, closes [#92](https://github.com/lobehub/lobe-icons/issues/92) [#175](https://github.com/lobehub/lobe-icons/issues/175) [#174](https://github.com/lobehub/lobe-icons/issues/174) [#1EBDC2](https://github.com/lobehub/lobe-icons/issues/1EBDC2) ([3a2e00f](https://github.com/lobehub/lobe-icons/commit/3a2e00f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.3.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.2.2...@lobehub/icons-rn@1.3.0)
 
 <sup>Released on **2025-08-26**</sup>
