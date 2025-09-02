@@ -160,6 +160,7 @@ export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moo
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './MyShell';
 export { default as N8n, type CompoundedIcon as N8nProps } from './N8n';
 export { default as Nebius, type CompoundedIcon as NebiusProps } from './Nebius';
+export { default as NewApi, type CompoundedIcon as NewApiProps } from './NewApi';
 export { default as NotebookLM, type CompoundedIcon as NotebookLMProps } from './NotebookLM';
 export { default as Notion, type CompoundedIcon as NotionProps } from './Notion';
 export { default as NousResearch, type CompoundedIcon as NousResearchProps } from './NousResearch';

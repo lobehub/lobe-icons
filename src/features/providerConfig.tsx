@@ -44,6 +44,7 @@ import Mistral from '@/Mistral';
 import ModelScope from '@/ModelScope';
 import Moonshot from '@/Moonshot';
 import Nebius from '@/Nebius';
+import NewApi from '@/NewApi';
 import Novita from '@/Novita';
 import Nvidia from '@/Nvidia';
 import Ollama from '@/Ollama';
@@ -264,5 +265,6 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: Bfl, keywords: [ModelProvider.Bfl] },
   { Icon: Nebius, combineMultiple: 0.8, keywords: [ModelProvider.Nebius] },
+  { Icon: NewApi, keywords: [ModelProvider.NewApi] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [ModelProvider.AkashChat] },
 ];
