@@ -209,6 +209,7 @@ export { default as Spark, type CompoundedIcon as SparkProps } from './Spark';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './Stability';
 export { default as StateCloud, type CompoundedIcon as StateCloudProps } from './StateCloud';
 export { default as Stepfun, type CompoundedIcon as StepfunProps } from './Stepfun';
+export { default as SubModel, type CompoundedIcon as SubModelProps } from './SubModel';
 export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';
 export { default as Sync, type CompoundedIcon as SyncProps } from './Sync';
 export { default as Targon, type CompoundedIcon as TargonProps } from './Targon';
@@ -249,4 +250,3 @@ export { default as Zapier, type CompoundedIcon as ZapierProps } from './Zapier'
 export { default as Zeabur, type CompoundedIcon as ZeaburProps } from './Zeabur';
 export { default as ZeroOne, type CompoundedIcon as ZeroOneProps } from './ZeroOne';
 export { default as Zhipu, type CompoundedIcon as ZhipuProps } from './Zhipu';
-export { default as SubModel, type CompoundedIcon as SubModelProps } from './SubModel';
