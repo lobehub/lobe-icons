@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.4.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.4.0...@lobehub/icons-rn@1.4.1)
+
+<sup>Released on **2025-09-08**</sup>
+
+#### 💄 Styles
+
+- **rn**: Update model icon & provider icon interface.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **rn**: Update model icon & provider icon interface, closes [#179](https://github.com/lobehub/lobe-icons/issues/179) ([603de7d](https://github.com/lobehub/lobe-icons/commit/603de7d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.4.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.3.0...@lobehub/icons-rn@1.4.0)
 
 <sup>Released on **2025-09-02**</sup>
