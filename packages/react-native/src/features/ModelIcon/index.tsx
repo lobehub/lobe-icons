@@ -1,11 +1,13 @@
 import React, { memo, useMemo } from 'react';
 import { type ViewStyle } from 'react-native';
 
+import { RNIconProps } from '@/types';
+
 import { rnModelMappings } from '../modelConfig';
 import DefaultAvatar from './DefaultAvatar';
 import DefaultIcon from './DefaultIcon';
 
-export interface RNModelIconProps {
+export interface RNModelIconProps extends RNIconProps {
   model?: string;
   shape?: 'circle' | 'square';
   size?: number;
