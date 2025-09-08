@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 2.32.0](https://github.com/lobehub/lobe-icons/compare/v2.31.0...v2.32.0)
+
+<sup>Released on **2025-09-08**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **rn**: Update model icon & provider icon interface.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([6a40fd1](https://github.com/lobehub/lobe-icons/commit/6a40fd1))
+
+#### Styles
+
+- **rn**: Update model icon & provider icon interface, closes [#179](https://github.com/lobehub/lobe-icons/issues/179) ([603de7d](https://github.com/lobehub/lobe-icons/commit/603de7d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.31.0](https://github.com/lobehub/lobe-icons/compare/v2.30.0...v2.31.0)
 
 <sup>Released on **2025-09-02**</sup>
