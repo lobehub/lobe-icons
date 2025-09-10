@@ -46,6 +46,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "expo-linear-gradient": "^14.1.5",
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
@@ -58,9 +59,9 @@
     "typescript": "^5.0.0"
   },
   "peerDependencies": {
+    "expo-linear-gradient": ">=14.1.5",
     "react": ">=16.8.0",
     "react-native": ">=0.76.9",
-    "react-native-linear-gradient": ">=2.8.0",
     "react-native-svg": ">=15.8.0"
   },
   "publishConfig": {
