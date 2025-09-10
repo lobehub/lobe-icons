@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon, Block, CopyButton, Text } from '@lobehub/ui';
+import { ActionIcon, Block, CopyButton } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { Link } from 'dumi';
 import { DownloadIcon, SearchIcon } from 'lucide-react';
@@ -105,9 +105,12 @@ const IconItem = memo<IconItemProps>(({ children, title, color, id }) => {
         paddingInline={12}
         width={'100%'}
       >
-        <Text as={'h2'} className={styles.title} ellipsis>
+        <h2
+          className={styles.title}
+          style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}
+        >
           {title}
-        </Text>
+        </h2>
         <CopyButton content={title} size={'small'} />
       </Flexbox>
       <Flexbox align={'center'} className={styles.row} horizontal>
