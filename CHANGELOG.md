@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 2.32.2](https://github.com/lobehub/lobe-icons/compare/v2.32.1...v2.32.2)
+
+<sup>Released on **2025-09-11**</sup>
+
+#### 🐛 Bug Fixes
+
+- **rn**: Update to use expo-linear-gradient and improve gradient parsing.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **rn**: Update to use expo-linear-gradient and improve gradient parsing, closes [#182](https://github.com/lobehub/lobe-icons/issues/182) ([1f41fdf](https://github.com/lobehub/lobe-icons/commit/1f41fdf))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.32.1](https://github.com/lobehub/lobe-icons/compare/v2.32.0...v2.32.1)
 
 <sup>Released on **2025-09-10**</sup>
