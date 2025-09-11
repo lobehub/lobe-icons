@@ -58,17 +58,17 @@ pnpm add react-native-svg
 
 #### Optional: Gradient Support
 
-For gradient background support in Avatar components, install `react-native-linear-gradient`:
+For gradient background support in Avatar components, install `expo-linear-gradient`:
 
 ```bash
-npm install react-native-linear-gradient
+npm install expo-linear-gradient
 # or
-yarn add react-native-linear-gradient
+yarn add expo-linear-gradient
 # or
-pnpm add react-native-linear-gradient
+pnpm add expo-linear-gradient
 ```
 
-> 💡 **Note**: If `react-native-linear-gradient` is not installed, gradient backgrounds will automatically fallback to solid colors.
+> 💡 **Note**: If `expo-linear-gradient` is not installed, gradient backgrounds will automatically fallback to solid colors.
 
 ## 📖 Usage
 
@@ -152,17 +152,11 @@ import { Adobe } from '@lobehub/icons-rn';
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* CSS gradient format - requires react-native-linear-gradient */}
-      <Adobe.Avatar 
-        size={48} 
-        background="linear-gradient(45deg, #9AD8F8, #3D8FFF, #6350FB)" 
-      />
-      
+      {/* CSS gradient format - requires expo-linear-gradient */}
+      <Adobe.Avatar size={48} background="linear-gradient(45deg, #9AD8F8, #3D8FFF, #6350FB)" />
+
       {/* Automatic fallback to solid color if gradient library not available */}
-      <Adobe.Avatar 
-        size={48} 
-        background="linear-gradient(to right, #FF6B35, #F7931E)" 
-      />
+      <Adobe.Avatar size={48} background="linear-gradient(to right, #FF6B35, #F7931E)" />
     </View>
   );
 }
@@ -194,12 +188,12 @@ export default function App() {
 
 ### Avatar Props
 
-| Prop           | Type     | Default     | Description                                                        |
-| -------------- | -------- | ----------- | ------------------------------------------------------------------ |
-| `size`         | `number` | `24`        | Avatar size in pixels                                              |
-| `background`   | `string` | Brand color | Background color or CSS gradient (e.g., `linear-gradient(...)`)   |
-| `color`        | `string` | `#FFFFFF`   | Icon color                                                         |
-| `iconMultiple` | `number` | `0.6`       | Icon size multiplier                                               |
+| Prop           | Type     | Default     | Description                                                     |
+| -------------- | -------- | ----------- | --------------------------------------------------------------- |
+| `size`         | `number` | `24`        | Avatar size in pixels                                           |
+| `background`   | `string` | Brand color | Background color or CSS gradient (e.g., `linear-gradient(...)`) |
+| `color`        | `string` | `#FFFFFF`   | Icon color                                                      |
+| `iconMultiple` | `number` | `0.6`       | Icon size multiplier                                            |
 
 ### Text Props
 
@@ -243,27 +237,12 @@ Avatar components support CSS `linear-gradient` format for rich visual effects:
 <Adobe.Avatar background="linear-gradient(to right, #FF6B35, #F7931E)" />
 <Adobe.Avatar background="linear-gradient(to bottom, #667eea, #764ba2)" />
 
-// Degree angles  
+// Degree angles
 <Adobe.Avatar background="linear-gradient(45deg, #9AD8F8, #3D8FFF, #6350FB)" />
 <Adobe.Avatar background="linear-gradient(135deg, #667eea, #764ba2)" />
 
 // Multiple colors with positions
 <Adobe.Avatar background="linear-gradient(90deg, #FF6B35 0%, #F7931E 50%, #C02425 100%)" />
-```
-
-### Automatic Fallback
-
-If `react-native-linear-gradient` is not installed or gradient parsing fails:
-
-- **Extracts first color** from gradient as solid background
-- **Graceful degradation** - no crashes or broken UI
-- **Development-friendly** - works without additional setup
-
-Example fallback behavior:
-```tsx
-// With library: Shows beautiful gradient
-// Without library: Shows solid #9AD8F8 background  
-<Adobe.Avatar background="linear-gradient(45deg, #9AD8F8, #3D8FFF, #6350FB)" />
 ```
 
 ## 📦 Available Icons

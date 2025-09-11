@@ -1,3 +1,4 @@
+import { LinearGradient } from 'expo-linear-gradient';
 import React, { memo, useMemo } from 'react';
 import { View, type ViewStyle } from 'react-native';
 
@@ -12,7 +13,9 @@ interface GradientInfo {
 }
 
 // Convert degrees to start/end coordinates
-const degreesToCoordinates = (degrees: number): { end: { x: number; y: number }; start: { x: number; y: number } } => {
+const degreesToCoordinates = (
+  degrees: number,
+): { end: { x: number; y: number }; start: { x: number; y: number } } => {
   // Normalize degrees to 0-360
   const normalizedDegrees = ((degrees % 360) + 360) % 360;
   const radians = (normalizedDegrees * Math.PI) / 180;
@@ -28,9 +31,14 @@ const degreesToCoordinates = (degrees: number): { end: { x: number; y: number };
   return { end, start };
 };
 
-// Convert CSS direction to react-native-linear-gradient coordinates
-const parseGradientDirection = (direction: string): { end: { x: number; y: number }; start: { x: number; y: number } } => {
-  const directionMap: Record<string, { end: { x: number; y: number }; start: { x: number; y: number } }> = {
+// Convert CSS direction to expo-linear-gradient coordinates
+const parseGradientDirection = (
+  direction: string,
+): { end: { x: number; y: number }; start: { x: number; y: number } } => {
+  const directionMap: Record<
+    string,
+    { end: { x: number; y: number }; start: { x: number; y: number } }
+  > = {
     'to bottom': { end: { x: 0, y: 1 }, start: { x: 0, y: 0 } },
     'to bottom left': { end: { x: 0, y: 1 }, start: { x: 1, y: 0 } },
     'to bottom right': { end: { x: 1, y: 1 }, start: { x: 0, y: 0 } },
@@ -63,11 +71,11 @@ const parseLinearGradient = (gradientString: string): GradientInfo | null => {
     const match = gradientString.match(/linear-gradient\(([^)]+)\)/);
     if (!match) return null;
 
-    const parts = match[1].split(',').map(s => s.trim());
+    const parts = match[1].split(',').map((s) => s.trim());
     if (parts.length < 2) return null;
 
     let direction = parts[0];
-    let colors: string[] = [];
+    let colors: string[];
     let locations: number[] | undefined;
 
     // Check if first part is a color (no direction specified)
@@ -75,21 +83,25 @@ const parseLinearGradient = (gradientString: string): GradientInfo | null => {
     const colorParts = isColor ? parts : parts.slice(1);
 
     // Parse colors and optional locations
-    const colorData = colorParts.map(part => {
-      const colorMatch = part.match(/(#[\dA-Fa-f]{6}|#[\dA-Fa-f]{3}|rgb\([^)]+\)|rgba\([^)]+\)|hsl\([^)]+\)|hsla\([^)]+\))/);
-      const percentMatch = part.match(/(\d+(?:\.\d+)?)%/);
+    const colorData = colorParts
+      .map((part) => {
+        const colorMatch = part.match(
+          /(#[\dA-Fa-f]{6}|#[\dA-Fa-f]{3}|rgb\([^)]+\)|rgba\([^)]+\)|hsl\([^)]+\)|hsla\([^)]+\))/,
+        );
+        const percentMatch = part.match(/(\d+(?:\.\d+)?)%/);
 
-      if (colorMatch) {
-        return {
-          color: colorMatch[1],
-          location: percentMatch ? parseFloat(percentMatch[1]) / 100 : undefined
-        };
-      }
-      return null;
-    }).filter(Boolean);
+        if (colorMatch) {
+          return {
+            color: colorMatch[1],
+            location: percentMatch ? parseFloat(percentMatch[1]) / 100 : undefined,
+          };
+        }
+        return null;
+      })
+      .filter(Boolean);
 
-    colors = colorData.map(item => item!.color);
-    const hasLocations = colorData.some(item => item!.location !== undefined);
+    colors = colorData.map((item) => item!.color);
+    const hasLocations = colorData.some((item) => item!.location !== undefined);
 
     if (hasLocations) {
       locations = colorData.map((item, index) => {
@@ -98,9 +110,9 @@ const parseLinearGradient = (gradientString: string): GradientInfo | null => {
     }
 
     // Parse direction
-    const coordinates = isColor ?
-      { end: { x: 0, y: 1 }, start: { x: 0, y: 0 } } : // default to bottom
-      parseGradientDirection(direction);
+    const coordinates = isColor
+      ? { end: { x: 0, y: 1 }, start: { x: 0, y: 0 } } // default to bottom
+      : parseGradientDirection(direction);
 
     return {
       colors,
@@ -167,21 +179,17 @@ const RNIconAvatar = memo<RNIconAvatarProps>(
 
     const combinedStyle = [containerStyle, style];
 
-    // Try to import LinearGradient dynamically
-    let LinearGradient: any = null;
-    try {
-      LinearGradient = require('react-native-linear-gradient').default;
-    } catch {
-      // LinearGradient not available, will fall back to solid color
-    }
-
     // Render with gradient if available and parsed successfully
-    if (gradientInfo && LinearGradient) {
+    if (gradientInfo && LinearGradient && gradientInfo.colors.length >= 2) {
       return (
         <LinearGradient
-          colors={gradientInfo.colors}
+          colors={gradientInfo.colors as [string, string, ...string[]]}
           end={gradientInfo.end}
-          locations={gradientInfo.locations}
+          locations={
+            gradientInfo.locations && gradientInfo.locations.length >= 2
+              ? (gradientInfo.locations as [number, number, ...number[]])
+              : undefined
+          }
           start={gradientInfo.start}
           style={combinedStyle}
           {...rest}
