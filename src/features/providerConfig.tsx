@@ -264,6 +264,7 @@ export const providerMappings: ProviderMapping[] = [
     Icon: Vercel,
     keywords: [ModelProvider.V0],
   },
+  { Icon: Vercel, combineMultiple: 0.9, keywords: [ModelProvider.Vercel] },
   { Icon: Bfl, keywords: [ModelProvider.Bfl] },
   { Icon: Nebius, combineMultiple: 0.75, keywords: [ModelProvider.Nebius] },
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [ModelProvider.NewAPI] },

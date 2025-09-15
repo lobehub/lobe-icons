@@ -247,6 +247,7 @@ export { default as Spark, type CompoundedIcon as SparkProps } from './icons/Spa
 export { default as Stability, type CompoundedIcon as StabilityProps } from './icons/Stability';
 export { default as StateCloud, type CompoundedIcon as StateCloudProps } from './icons/StateCloud';
 export { default as Stepfun, type CompoundedIcon as StepfunProps } from './icons/Stepfun';
+export { default as SubModel, type CompoundedIcon as SubModelProps } from './icons/SubModel';
 export { default as Suno, type CompoundedIcon as SunoProps } from './icons/Suno';
 export { default as Sync, type CompoundedIcon as SyncProps } from './icons/Sync';
 export { default as Targon, type CompoundedIcon as TargonProps } from './icons/Targon';
