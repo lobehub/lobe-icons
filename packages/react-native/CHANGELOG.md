@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.5.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.4.2...@lobehub/icons-rn@1.5.0)
+
+<sup>Released on **2025-09-15**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Vercel AI Gateway and SubMode.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Vercel AI Gateway and SubMode, closes [#183](https://github.com/lobehub/lobe-icons/issues/183) [#177](https://github.com/lobehub/lobe-icons/issues/177) ([876c243](https://github.com/lobehub/lobe-icons/commit/876c243))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.4.2](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.4.1...@lobehub/icons-rn@1.4.2)
 
 <sup>Released on **2025-09-11**</sup>
