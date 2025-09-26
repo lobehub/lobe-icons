@@ -4,6 +4,8 @@ import { memo } from 'react';
 
 import type { IconType } from '@/types';
 
+import { TITLE } from '../style';
+
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
   return (
     <svg
@@ -14,6 +16,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
+      <title>{TITLE}</title>
       <path
         d="m233.37 266.66 231.16 133.46a16.45 16.45 0 0 1-6.03 6.03L242.44 530.89a18.142 18.142 0 0 1-18.14 0L8.24 406.15a16.45 16.45 0 0 1-6.03-6.03l231.16-133.46Z"
         style={{
