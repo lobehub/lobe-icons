@@ -2582,7 +2582,7 @@ const toc: IconToc[] = [
     title: 'LobeHub',
   },
   {
-    color: '#000',
+    color: '#fff',
     desc: 'https://longcat.chat/',
     docsUrl: 'long-cat',
     fullTitle: 'LongCat',

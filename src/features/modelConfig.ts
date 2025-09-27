@@ -45,6 +45,7 @@ import Kolors from '@/Kolors';
 import LG from '@/LG';
 import LLaVA from '@/LLaVA';
 import Liquid from '@/Liquid';
+import LongCat from '@/LongCat';
 import Menlo from '@/Menlo';
 import Meta from '@/Meta';
 import Microsoft from '@/Microsoft';
@@ -245,4 +246,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: LG, keywords: ['kmmlu', 'exaone', 'lgai'] },
   { Icon: TII, keywords: ['falcon'] },
   { Icon: Menlo, keywords: ['menlo', 'lucy', 'jan-nano'] },
+  { Icon: LongCat, keywords: ['longcat'] },
 ];
