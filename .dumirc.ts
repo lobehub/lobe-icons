@@ -40,7 +40,7 @@ const themeConfig: SiteThemeConfig = {
     docUrl: `{github}/tree/master/src/{atomId}/index.md`,
     match: ['/components', '/features'],
     pkg: name,
-    sourceUrl: `{github}/tree/master/src/{atomId}/index.tsx`,
+    sourceUrl: `{github}/tree/master/src/{atomId}/index.ts`,
   },
   description,
   giscus: {
