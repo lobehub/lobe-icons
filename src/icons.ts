@@ -138,6 +138,7 @@ export { default as LlamaIndex, type CompoundedIcon as LlamaIndexProps } from '.
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmStudio';
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeHub';
+export { default as LongCat, type CompoundedIcon as LongCatProps } from './LongCat';
 export { default as Lovable, type CompoundedIcon as LovableProps } from './Lovable';
 export { default as Luma, type CompoundedIcon as LumaProps } from './Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './Magic';

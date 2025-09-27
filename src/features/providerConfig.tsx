@@ -39,6 +39,7 @@ import InternLM from '@/InternLM';
 import Jina from '@/Jina';
 import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
+import LongCat from '@/LongCat';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import ModelScope from '@/ModelScope';
@@ -270,4 +271,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [ModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [ModelProvider.AkashChat] },
   { Icon: SophNet, combineMultiple: 0.85, keywords: [ModelProvider.SophNet] },
+  { Icon: LongCat, combineMultiple: 1.05, keywords: [ModelProvider.LongCat] },
 ];
