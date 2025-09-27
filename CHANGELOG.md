@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 2.34.0](https://github.com/lobehub/lobe-icons/compare/v2.33.0...v2.34.0)
+
+<sup>Released on **2025-09-27**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Update Ollama Cloud logo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([9c7df94](https://github.com/lobehub/lobe-icons/commit/9c7df94))
+
+#### Styles
+
+- **misc**: Update Ollama Cloud logo, closes [#187](https://github.com/lobehub/lobe-icons/issues/187) ([88154ad](https://github.com/lobehub/lobe-icons/commit/88154ad))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.33.0](https://github.com/lobehub/lobe-icons/compare/v2.32.2...v2.33.0)
 
 <sup>Released on **2025-09-15**</sup>

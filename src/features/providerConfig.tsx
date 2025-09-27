@@ -271,5 +271,23 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [ModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [ModelProvider.AkashChat] },
   { Icon: SophNet, combineMultiple: 0.85, keywords: [ModelProvider.SophNet] },
+  {
+    Combine: memo(({ size = 24, ...props }) => (
+      <Combine
+        left={
+          <Ollama.Combine
+            extra={'Cloud'}
+            extraStyle={{ fontSize: '16.8px', margin: '2px 0 0 5px' }}
+            size={size * 1.16}
+          />
+        }
+        right={<Ollama.Combine size={0} />}
+        size={size}
+        {...props}
+      />
+    )),
+    Icon: Ollama,
+    keywords: [ModelProvider.OllamaCloud],
+  },
   { Icon: LongCat, combineMultiple: 1.05, keywords: [ModelProvider.LongCat] },
 ];
