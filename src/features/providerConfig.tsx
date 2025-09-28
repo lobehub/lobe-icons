@@ -39,6 +39,7 @@ import InternLM from '@/InternLM';
 import Jina from '@/Jina';
 import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
+import LongCat from '@/LongCat';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import ModelScope from '@/ModelScope';
@@ -101,7 +102,7 @@ export interface ProviderMapping {
 }
 
 export const providerMappings: ProviderMapping[] = [
-  { Icon: LobeHub, keywords: [ModelProvider.LobeHub] },
+  { Icon: LobeHub, combineMultiple: 1.1, keywords: [ModelProvider.LobeHub] },
   { Icon: Zhipu, combineMultiple: 1.25, keywords: [ModelProvider.ZhiPu] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
@@ -276,7 +277,7 @@ export const providerMappings: ProviderMapping[] = [
         left={
           <Ollama.Combine
             extra={'Cloud'}
-            extraStyle={{ fontSize: '16.8px', margin: '2px 0 0 5px' }}
+            extraStyle={{ fontSize: '1.3em', fontWeight: 500, marginLeft: '0.2em' }}
             size={size * 1.16}
           />
         }
@@ -288,4 +289,5 @@ export const providerMappings: ProviderMapping[] = [
     Icon: Ollama,
     keywords: [ModelProvider.OllamaCloud],
   },
+  { Icon: LongCat, combineMultiple: 1, keywords: [ModelProvider.LongCat] },
 ];
