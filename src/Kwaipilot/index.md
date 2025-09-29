@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Model
-title: Kwaipilot (快手可图)
+title: Kwaipilot
 atomId: Kwaipilot
 description: https://kwaipilot.ai/
 ---
