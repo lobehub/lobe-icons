@@ -42,6 +42,7 @@ import Inflection from '@/Inflection';
 import InternLM from '@/InternLM';
 import Jina from '@/Jina';
 import Kolors from '@/Kolors';
+import { Kwaipilot } from '@/icons';
 import LG from '@/LG';
 import LLaVA from '@/LLaVA';
 import Liquid from '@/Liquid';
@@ -247,4 +248,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: TII, keywords: ['falcon'] },
   { Icon: Menlo, keywords: ['menlo', 'lucy', 'jan-nano'] },
   { Icon: LongCat, keywords: ['longcat'] },
+  { Icon: Kwaipilot, keywords: ['kat-'] },
 ];
