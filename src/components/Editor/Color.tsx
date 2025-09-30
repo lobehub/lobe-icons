@@ -24,10 +24,17 @@ interface PreviewProps {
   svg: string;
   title: string;
   viewbox: string;
+  textMode?: boolean;
 }
 
-const Preview = memo<PreviewProps>(({ svg, title, viewbox }) => {
+const Preview = memo<PreviewProps>(({ svg, title, viewbox, textMode }) => {
   const { styles } = useStyles();
+  const sizeAttributes = textMode
+    ? `height={size}
+      style={{ flex: 'none', lineHeight: 1, ...style }}`
+    : `height={size}
+      style={{ flex: 'none', lineHeight: 1, ...style }}
+      width={size}`;
 
   return (
     <Flexbox flex={'none'} gap={16} style={{ position: 'relative', width: '100%' }}>
@@ -45,10 +52,8 @@ import { TITLE } from '../style';
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
   return (
     <svg
-      height={size}
-      style={{ flex: 'none', lineHeight: 1, ...style }}
+      ${sizeAttributes}
       viewBox="${viewbox}"
-      width={size}
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >

@@ -153,6 +153,7 @@ export { default as Kimi, type CompoundedIcon as KimiProps } from './icons/Kimi'
 export { default as Kling, type CompoundedIcon as KlingProps } from './icons/Kling';
 export { default as Kluster, type CompoundedIcon as KlusterProps } from './icons/Kluster';
 export { default as Kolors, type CompoundedIcon as KolorsProps } from './icons/Kolors';
+export { default as Kwaipilot, type CompoundedIcon as KwaipilotProps } from './icons/Kwaipilot';
 export { default as Lambda, type CompoundedIcon as LambdaProps } from './icons/Lambda';
 export { default as LangChain, type CompoundedIcon as LangChainProps } from './icons/LangChain';
 export { default as Langfuse, type CompoundedIcon as LangfuseProps } from './icons/Langfuse';
@@ -167,6 +168,7 @@ export { default as LlamaIndex, type CompoundedIcon as LlamaIndexProps } from '.
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './icons/LLaVA';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './icons/LmStudio';
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './icons/LobeHub';
+export { default as LongCat, type CompoundedIcon as LongCatProps } from './icons/LongCat';
 export { default as Lovable, type CompoundedIcon as LovableProps } from './icons/Lovable';
 export { default as Luma, type CompoundedIcon as LumaProps } from './icons/Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './icons/Magic';

@@ -87,7 +87,7 @@ export default () => {
           <Mono svg={monoSvg} title={'Mono'} viewbox={viewbox} />
         )}
 
-        <Color svg={colorSvg} title={'Color'} viewbox={viewbox} />
+        <Color svg={colorSvg} textMode={text} title={'Color'} viewbox={viewbox} />
       </Flexbox>
     </StoryBook>
   );
