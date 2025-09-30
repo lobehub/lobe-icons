@@ -3,7 +3,7 @@ nav: Components
 group: Model
 title: Kwaipilot
 atomId: Kwaipilot
-description: https://kwaipilot.ai/
+description: https://kwaipilot.ai
 ---
 
 ## Icons

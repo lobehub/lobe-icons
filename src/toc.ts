@@ -2315,7 +2315,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#000',
-    desc: 'https://kwaipilot.ai/',
+    desc: 'https://kwaipilot.ai',
     docsUrl: 'kwaipilot',
     fullTitle: 'Kwaipilot',
     group: 'model',
