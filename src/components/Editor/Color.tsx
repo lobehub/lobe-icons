@@ -22,9 +22,9 @@ const useStyles = createStyles(({ css }) => {
 
 interface PreviewProps {
   svg: string;
+  textMode?: boolean;
   title: string;
   viewbox: string;
-  textMode?: boolean;
 }
 
 const Preview = memo<PreviewProps>(({ svg, title, viewbox, textMode }) => {

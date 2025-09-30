@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 2.36.0](https://github.com/lobehub/lobe-icons/compare/v2.35.0...v2.36.0)
+
+<sup>Released on **2025-09-30**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([30fed2d](https://github.com/lobehub/lobe-icons/commit/30fed2d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.35.0](https://github.com/lobehub/lobe-icons/compare/v2.34.0...v2.35.0)
 
 <sup>Released on **2025-09-28**</sup>
