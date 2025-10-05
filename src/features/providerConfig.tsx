@@ -17,6 +17,7 @@ import BaiduCloud from '@/BaiduCloud';
 import Bedrock from '@/Bedrock';
 import Bfl from '@/Bfl';
 import BurnCloud from '@/BurnCloud';
+import Cerebras from '@/Cerebras';
 import Claude from '@/Claude';
 import Cloudflare from '@/Cloudflare';
 import Cohere from '@/Cohere';
@@ -290,4 +291,5 @@ export const providerMappings: ProviderMapping[] = [
     keywords: [ModelProvider.OllamaCloud],
   },
   { Icon: LongCat, combineMultiple: 1, keywords: [ModelProvider.LongCat] },
+  { Icon: Cerebras, combineMultiple: 1, keywords: [ModelProvider.Cerebras] },
 ];
