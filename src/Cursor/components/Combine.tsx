@@ -14,7 +14,7 @@ const Combine = memo<CombineProps>(({ ...rest }) => {
   return (
     <IconCombine
       Icon={Mono}
-      Text={Text as any}
+      Text={Text}
       aria-label={TITLE}
       spaceMultiple={COMBINE_SPACE_MULTIPLE}
       textMultiple={COMBINE_TEXT_MULTIPLE}

@@ -12,7 +12,12 @@ description: https://cursor.com
 import { Cursor } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
-export default () => <Cursor size={64} />;
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Cursor size={128} />
+    <Cursor.Color size={128} />
+  </Flexbox>
+);
 ```
 
 ## Text
@@ -20,7 +25,7 @@ export default () => <Cursor size={64} />;
 ```tsx
 import { Cursor } from '@lobehub/icons';
 
-export default () => <Cursor.Text size={48} />;
+export default () => <Cursor.Text size={128} />;
 ```
 
 ## Combine
@@ -31,7 +36,7 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <Cursor.Combine size={64} />
+    <Cursor.Combine size={128} />
   </Flexbox>
 );
 ```
@@ -44,8 +49,7 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Cursor.Avatar size={64} />
-    <Cursor.Avatar size={64} shape={'square'} />
+    <Cursor.Avatar size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -61,6 +65,11 @@ import ColorPreview from '../components/ColorPreview';
 export default () => (
   <Flexbox gap={16} horizontal>
     <ColorPreview color={Cursor.colorPrimary} />
+    <ColorPreview color={Cursor.colorBottom} />
+    <ColorPreview color={Cursor.colorLeft} />
+    <ColorPreview color={Cursor.colorRight} />
+    <ColorPreview color={Cursor.colorTopLight} />
+    <ColorPreview color={Cursor.colorTopWhite} />
   </Flexbox>
 );
 ```
