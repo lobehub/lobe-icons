@@ -22,7 +22,7 @@ const themeColors = {
 };
 
 class SvgWorkflow {
-  ignoreList = ['cursor.svg'];
+  ignoreList: string[] = [];
 
   exportSvg(Component: ComponentType, outputFileName: string): void {
     const svgString = renderToStaticMarkup(createElement(Component));
@@ -120,7 +120,7 @@ class SvgWorkflow {
   async runWebp() {
     await pMap(
       readdirSync(outputDir),
-      async (file) => {
+      async (file: string) => {
         if (file.endsWith('.svg') && !this.ignoreList.includes(file)) {
           const svgPath = resolve(outputDir, file);
           const webpLightPath = resolve(outputWebpDir, 'light', file.replace('.svg', '.webp'));

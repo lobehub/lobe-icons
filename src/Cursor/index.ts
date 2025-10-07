@@ -3,15 +3,7 @@ import Color from './components/Color';
 import Combine from './components/Combine';
 import Mono from './components/Mono';
 import Text from './components/Text';
-import {
-  COLOR_BOTTOM,
-  COLOR_LEFT,
-  COLOR_PRIMARY,
-  COLOR_RIGHT,
-  COLOR_TOP_LIGHT,
-  COLOR_TOP_WHITE,
-  TITLE,
-} from './style';
+import { COLOR_PRIMARY, TITLE } from './style';
 
 export type CompoundedIcon = typeof Mono & {
   Avatar: typeof Avatar;
@@ -33,10 +25,5 @@ Icons.Color = Color;
 Icons.Combine = Combine;
 Icons.Avatar = Avatar;
 Icons.colorPrimary = COLOR_PRIMARY;
-Icons.colorBottom = COLOR_BOTTOM;
-Icons.colorLeft = COLOR_LEFT;
-Icons.colorRight = COLOR_RIGHT;
-Icons.colorTopLight = COLOR_TOP_LIGHT;
-Icons.colorTopWhite = COLOR_TOP_WHITE;
 Icons.title = TITLE;
 export default Icons;

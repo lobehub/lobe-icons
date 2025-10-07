@@ -65,11 +65,6 @@ import ColorPreview from '../components/ColorPreview';
 export default () => (
   <Flexbox gap={16} horizontal>
     <ColorPreview color={Cursor.colorPrimary} />
-    <ColorPreview color={Cursor.colorBottom} />
-    <ColorPreview color={Cursor.colorLeft} />
-    <ColorPreview color={Cursor.colorRight} />
-    <ColorPreview color={Cursor.colorTopLight} />
-    <ColorPreview color={Cursor.colorTopWhite} />
   </Flexbox>
 );
 ```
