@@ -2,6 +2,41 @@
 
 # Changelog
 
+## [Version 2.38.0](https://github.com/lobehub/lobe-icons/compare/v2.37.0...v2.38.0)
+
+<sup>Released on **2025-10-07**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Add cerebras provider, Fix cursor style, Update static.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([5f490b9](https://github.com/lobehub/lobe-icons/commit/5f490b9))
+
+#### Styles
+
+- **misc**: Add cerebras provider, closes [#195](https://github.com/lobehub/lobe-icons/issues/195) ([704b3fc](https://github.com/lobehub/lobe-icons/commit/704b3fc))
+- **misc**: Fix cursor style ([2dcc4e2](https://github.com/lobehub/lobe-icons/commit/2dcc4e2))
+- **misc**: Update static ([340fc73](https://github.com/lobehub/lobe-icons/commit/340fc73))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.37.0](https://github.com/lobehub/lobe-icons/compare/v2.36.0...v2.37.0)
 
 <sup>Released on **2025-10-06**</sup>
