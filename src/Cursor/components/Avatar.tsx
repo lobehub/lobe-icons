@@ -5,14 +5,14 @@ import { memo } from 'react';
 import IconAvatar, { type IconAvatarProps } from '@/features/IconAvatar';
 
 import { AVATAR_BACKGROUND, AVATAR_COLOR, AVATAR_ICON_MULTIPLE, TITLE } from '../style';
-import Color from './Color';
+import Mono from './Mono';
 
 export type AvatarProps = Omit<IconAvatarProps, 'Icon'>;
 
 const Avatar = memo<AvatarProps>(({ ...rest }) => {
   return (
     <IconAvatar
-      Icon={Color}
+      Icon={Mono}
       aria-label={TITLE}
       background={AVATAR_BACKGROUND}
       color={AVATAR_COLOR}

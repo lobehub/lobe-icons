@@ -15,7 +15,6 @@ import { Flexbox } from 'react-layout-kit';
 export default () => (
   <Flexbox gap={16} horizontal>
     <Cursor size={128} />
-    <Cursor.Color size={128} />
   </Flexbox>
 );
 ```
@@ -25,7 +24,7 @@ export default () => (
 ```tsx
 import { Cursor } from '@lobehub/icons';
 
-export default () => <Cursor.Text size={128} />;
+export default () => <Cursor.Text size={48} />;
 ```
 
 ## Combine
@@ -36,7 +35,7 @@ import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <Cursor.Combine size={128} />
+    <Cursor.Combine size={64} />
   </Flexbox>
 );
 ```
