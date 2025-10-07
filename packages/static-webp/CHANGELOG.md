@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.70.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-webp@1.69.0...@lobehub/icons-static-webp@1.70.0)
+
+<sup>Released on **2025-10-07**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Fix cursor style, Update static.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([bbd5da6](https://github.com/lobehub/lobe-icons/commit/bbd5da6))
+
+#### Styles
+
+- **misc**: Fix cursor style ([2dcc4e2](https://github.com/lobehub/lobe-icons/commit/2dcc4e2))
+- **misc**: Update static ([340fc73](https://github.com/lobehub/lobe-icons/commit/340fc73))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.69.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-webp@1.68.0...@lobehub/icons-static-webp@1.69.0)
 
 <sup>Released on **2025-10-06**</sup>
