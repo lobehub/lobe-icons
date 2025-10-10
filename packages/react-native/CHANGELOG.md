@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.6.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.5.0...@lobehub/icons-rn@1.6.0)
+
+<sup>Released on **2025-10-10**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Straico logo and update Vercel Text Brand (resolve.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Straico logo and update Vercel Text Brand (resolve, closes [#197](https://github.com/lobehub/lobe-icons/issues/197) [#198](https://github.com/lobehub/lobe-icons/issues/198) ([96799ff](https://github.com/lobehub/lobe-icons/commit/96799ff))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.5.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.4.2...@lobehub/icons-rn@1.5.0)
 
 <sup>Released on **2025-09-15**</sup>
