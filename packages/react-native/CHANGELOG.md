@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.7.2](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.7.1...@lobehub/icons-rn@1.7.2)
+
+<sup>Released on **2025-10-10**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update rn.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update rn ([5210bde](https://github.com/lobehub/lobe-icons/commit/5210bde))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.7.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.7.0...@lobehub/icons-rn@1.7.1)
 
 <sup>Released on **2025-10-10**</sup>
