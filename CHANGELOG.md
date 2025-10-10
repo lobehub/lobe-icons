@@ -2,6 +2,41 @@
 
 # Changelog
 
+## [Version 2.42.0](https://github.com/lobehub/lobe-icons/compare/v2.41.0...v2.42.0)
+
+<sup>Released on **2025-10-10**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add HuaweiCloud and GoogleCloud.
+
+#### 💄 Styles
+
+- **misc**: Update rn.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([1a654d8](https://github.com/lobehub/lobe-icons/commit/1a654d8))
+- **misc**: Add HuaweiCloud and GoogleCloud ([a90b4e2](https://github.com/lobehub/lobe-icons/commit/a90b4e2))
+
+#### Styles
+
+- **misc**: Update rn ([5210bde](https://github.com/lobehub/lobe-icons/commit/5210bde))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.41.0](https://github.com/lobehub/lobe-icons/compare/v2.40.0...v2.41.0)
 
 <sup>Released on **2025-10-10**</sup>
