@@ -2,6 +2,41 @@
 
 # Changelog
 
+## [Version 2.41.0](https://github.com/lobehub/lobe-icons/compare/v2.40.0...v2.41.0)
+
+<sup>Released on **2025-10-10**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add CapCut and DeepL.
+
+#### 💄 Styles
+
+- **misc**: Update rn.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([135e460](https://github.com/lobehub/lobe-icons/commit/135e460))
+- **misc**: Add CapCut and DeepL ([6a0e059](https://github.com/lobehub/lobe-icons/commit/6a0e059))
+
+#### Styles
+
+- **misc**: Update rn ([a2b23ce](https://github.com/lobehub/lobe-icons/commit/a2b23ce))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.40.0](https://github.com/lobehub/lobe-icons/compare/v2.39.0...v2.40.0)
 
 <sup>Released on **2025-10-10**</sup>
