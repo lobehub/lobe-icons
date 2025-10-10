@@ -245,6 +245,7 @@ export { default as Skywork, type CompoundedIcon as SkyworkProps } from './icons
 export { default as Smithery, type CompoundedIcon as SmitheryProps } from './icons/Smithery';
 export { default as Snowflake, type CompoundedIcon as SnowflakeProps } from './icons/Snowflake';
 export { default as SophNet, type CompoundedIcon as SophNetProps } from './icons/SophNet';
+export { default as Sora, type CompoundedIcon as SoraProps } from './icons/Sora';
 export { default as Spark, type CompoundedIcon as SparkProps } from './icons/Spark';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './icons/Stability';
 export { default as StateCloud, type CompoundedIcon as StateCloudProps } from './icons/StateCloud';

@@ -42,7 +42,6 @@ import Inflection from '@/Inflection';
 import InternLM from '@/InternLM';
 import Jina from '@/Jina';
 import Kolors from '@/Kolors';
-import { Kwaipilot } from '@/icons';
 import LG from '@/LG';
 import LLaVA from '@/LLaVA';
 import Liquid from '@/Liquid';
@@ -66,6 +65,7 @@ import Qwen from '@/Qwen';
 import Rwkv from '@/Rwkv';
 import SenseNova from '@/SenseNova';
 import Skywork from '@/Skywork';
+import Sora from '@/Sora';
 import Spark from '@/Spark';
 import Stability from '@/Stability';
 import Stepfun from '@/Stepfun';
@@ -81,6 +81,7 @@ import Yi from '@/Yi';
 import ZAI from '@/ZAI';
 import type { IconAvatarProps } from '@/features/IconAvatar';
 import type { IconCombineProps } from '@/features/IconCombine';
+import { Kwaipilot } from '@/icons';
 import type { IconType } from '@/types';
 
 type ModelIconType = FC<IconType & any> & {
@@ -104,6 +105,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: OpenAI, keywords: ['gpt-3'], props: { type: 'gpt3' } },
   { Icon: OpenAI, keywords: ['gpt-4'], props: { type: 'gpt4' } },
   { Icon: OpenAI, keywords: ['gpt-5'], props: { type: 'gpt5' } },
+  { Icon: Sora, keywords: ['sora'] },
   { Icon: OpenAI, keywords: ['gpt-oss'], props: { type: 'oss' } },
   {
     Icon: OpenAI,
