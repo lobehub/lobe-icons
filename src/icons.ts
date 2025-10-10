@@ -37,6 +37,7 @@ export {
 export { default as Bing, type CompoundedIcon as BingProps } from './Bing';
 export { default as BurnCloud, type CompoundedIcon as BurnCloudProps } from './BurnCloud';
 export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './ByteDance';
+export { default as CapCut, type CompoundedIcon as CapCutProps } from './CapCut';
 export { default as CentML, type CompoundedIcon as CentMLProps } from './CentML';
 export { default as Cerebras, type CompoundedIcon as CerebrasProps } from './Cerebras';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';
@@ -64,6 +65,7 @@ export { default as Dalle, type CompoundedIcon as DalleProps } from './Dalle';
 export { default as Dbrx, type CompoundedIcon as DbrxProps } from './Dbrx';
 export { default as DeepAI, type CompoundedIcon as DeepAIProps } from './DeepAI';
 export { default as DeepInfra, type CompoundedIcon as DeepInfraProps } from './DeepInfra';
+export { default as DeepL, type CompoundedIcon as DeepLProps } from './DeepL';
 export { default as DeepMind, type CompoundedIcon as DeepMindProps } from './DeepMind';
 export { default as DeepSeek, type CompoundedIcon as DeepSeekProps } from './DeepSeek';
 export { default as Dify, type CompoundedIcon as DifyProps } from './Dify';
