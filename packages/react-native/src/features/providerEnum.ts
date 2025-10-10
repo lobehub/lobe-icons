@@ -50,7 +50,6 @@ export enum RNModelProvider {
   SiliconCloud = 'siliconcloud',
   Spark = 'spark',
   Stepfun = 'stepfun',
-  Straico = 'straico',
   Taichu = 'taichu',
   TencentCloud = 'tencentcloud',
   TogetherAI = 'togetherai',
