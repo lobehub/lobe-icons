@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: GoogleCloud
 atomId: GoogleCloud
-description: https://GoogleCloud.com
+description: https://cloud.google.com
 ---
 
 ## Icons

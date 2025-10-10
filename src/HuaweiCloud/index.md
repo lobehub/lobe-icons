@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: HuaweiCloud (华为云)
 atomId: HuaweiCloud
-description: https://HuaweiCloud.com
+description: https://huaweicloud.com
 ---
 
 ## Icons

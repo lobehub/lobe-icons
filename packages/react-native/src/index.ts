@@ -119,6 +119,10 @@ export { default as Glama, type CompoundedIcon as GlamaProps } from './icons/Gla
 export { default as Glif, type CompoundedIcon as GlifProps } from './icons/Glif';
 export { default as GLMV, type CompoundedIcon as GLMVProps } from './icons/GLMV';
 export { default as Google, type CompoundedIcon as GoogleProps } from './icons/Google';
+export {
+  default as GoogleCloud,
+  type CompoundedIcon as GoogleCloudProps,
+} from './icons/GoogleCloud';
 export { default as Goose, type CompoundedIcon as GooseProps } from './icons/Goose';
 export { default as Gradio, type CompoundedIcon as GradioProps } from './icons/Gradio';
 export { default as Greptile, type CompoundedIcon as GreptileProps } from './icons/Greptile';
@@ -128,6 +132,11 @@ export { default as Hailuo, type CompoundedIcon as HailuoProps } from './icons/H
 export { default as Haiper, type CompoundedIcon as HaiperProps } from './icons/Haiper';
 export { default as Hedra, type CompoundedIcon as HedraProps } from './icons/Hedra';
 export { default as Higress, type CompoundedIcon as HigressProps } from './icons/Higress';
+export { default as Huawei, type CompoundedIcon as HuaweiProps } from './icons/Huawei';
+export {
+  default as HuaweiCloud,
+  type CompoundedIcon as HuaweiCloudProps,
+} from './icons/HuaweiCloud';
 export {
   default as HuggingFace,
   type CompoundedIcon as HuggingFaceProps,

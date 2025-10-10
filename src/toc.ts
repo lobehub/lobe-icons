@@ -1836,7 +1836,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#fff',
-    desc: 'https://GoogleCloud.com',
+    desc: 'https://cloud.google.com',
     docsUrl: 'google-cloud',
     fullTitle: 'GoogleCloud',
     group: 'provider',
@@ -2047,7 +2047,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#C7000B',
-    desc: 'https://HuaweiCloud.com',
+    desc: 'https://huaweicloud.com',
     docsUrl: 'huawei-cloud',
     fullTitle: 'HuaweiCloud (华为云)',
     group: 'provider',
