@@ -64,6 +64,7 @@ import SiliconCloud from '@/SiliconCloud';
 import SophNet from '@/SophNet';
 import Spark from '@/Spark';
 import Stepfun from '@/Stepfun';
+import Straico from '@/Straico';
 import TencentCloud from '@/TencentCloud';
 import Together from '@/Together';
 import Upstage from '@/Upstage';
@@ -292,4 +293,5 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: LongCat, combineMultiple: 1, keywords: [ModelProvider.LongCat] },
   { Icon: Cerebras, combineMultiple: 1, keywords: [ModelProvider.Cerebras] },
+  { Icon: Straico, combineMultiple: 1, keywords: [ModelProvider.Straico] },
 ];
