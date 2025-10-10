@@ -1,6 +1,6 @@
 export const TITLE = 'Vercel';
-export const COMBINE_TEXT_MULTIPLE = 0.75;
-export const COMBINE_SPACE_MULTIPLE = 0.1;
+export const COMBINE_TEXT_MULTIPLE = 0.8;
+export const COMBINE_SPACE_MULTIPLE = 0.05;
 export const COLOR_PRIMARY = '#000';
 
 // Avatar constants

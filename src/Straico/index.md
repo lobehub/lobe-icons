@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: Straico
 atomId: Straico
-description: https://straico.com/
+description: https://straico.com
 ---
 
 ## Icons

@@ -3980,7 +3980,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#464bba',
-    desc: 'https://straico.com/',
+    desc: 'https://straico.com',
     docsUrl: 'straico',
     fullTitle: 'Straico',
     group: 'provider',
