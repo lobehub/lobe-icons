@@ -51,6 +51,7 @@ export {
 export { default as Bing, type CompoundedIcon as BingProps } from './icons/Bing';
 export { default as BurnCloud, type CompoundedIcon as BurnCloudProps } from './icons/BurnCloud';
 export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './icons/ByteDance';
+export { default as CapCut, type CompoundedIcon as CapCutProps } from './icons/CapCut';
 export { default as CentML, type CompoundedIcon as CentMLProps } from './icons/CentML';
 export { default as Cerebras, type CompoundedIcon as CerebrasProps } from './icons/Cerebras';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './icons/ChatGLM';
@@ -78,6 +79,7 @@ export { default as Dalle, type CompoundedIcon as DalleProps } from './icons/Dal
 export { default as Dbrx, type CompoundedIcon as DbrxProps } from './icons/Dbrx';
 export { default as DeepAI, type CompoundedIcon as DeepAIProps } from './icons/DeepAI';
 export { default as DeepInfra, type CompoundedIcon as DeepInfraProps } from './icons/DeepInfra';
+export { default as DeepL, type CompoundedIcon as DeepLProps } from './icons/DeepL';
 export { default as DeepMind, type CompoundedIcon as DeepMindProps } from './icons/DeepMind';
 export { default as DeepSeek, type CompoundedIcon as DeepSeekProps } from './icons/DeepSeek';
 export { default as Dify, type CompoundedIcon as DifyProps } from './icons/Dify';
