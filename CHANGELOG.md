@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 2.39.0](https://github.com/lobehub/lobe-icons/compare/v2.38.0...v2.39.0)
+
+<sup>Released on **2025-10-10**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add Straico logo and update Vercel Text Brand (resolve.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([bbd5da6](https://github.com/lobehub/lobe-icons/commit/bbd5da6))
+- **misc**: Add Straico logo and update Vercel Text Brand (resolve, closes [#197](https://github.com/lobehub/lobe-icons/issues/197) [#198](https://github.com/lobehub/lobe-icons/issues/198) ([96799ff](https://github.com/lobehub/lobe-icons/commit/96799ff))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.38.0](https://github.com/lobehub/lobe-icons/compare/v2.37.0...v2.38.0)
 
 <sup>Released on **2025-10-07**</sup>
