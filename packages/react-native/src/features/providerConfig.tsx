@@ -20,6 +20,8 @@ import BurnCloud from '../icons/BurnCloud';
 import Claude from '../icons/Claude';
 import Cloudflare from '../icons/Cloudflare';
 import Cohere from '../icons/Cohere';
+import CometAPI from '../icons/CometAPI';
+import ComfyUI from '../icons/ComfyUI';
 import DeepSeek from '../icons/DeepSeek';
 import Doubao from '../icons/Doubao';
 import Fal from '../icons/Fal';
@@ -42,6 +44,7 @@ import Mistral from '../icons/Mistral';
 import ModelScope from '../icons/ModelScope';
 import Moonshot from '../icons/Moonshot';
 import Nebius from '../icons/Nebius';
+import NewAPI from '../icons/NewAPI';
 import Novita from '../icons/Novita';
 import Nvidia from '../icons/Nvidia';
 import Ollama from '../icons/Ollama';
@@ -56,6 +59,7 @@ import SambaNova from '../icons/SambaNova';
 import Search1API from '../icons/Search1API';
 import SenseNova from '../icons/SenseNova';
 import SiliconCloud from '../icons/SiliconCloud';
+import SophNet from '../icons/SophNet';
 import Spark from '../icons/Spark';
 import Stepfun from '../icons/Stepfun';
 import TencentCloud from '../icons/TencentCloud';
@@ -99,14 +103,8 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={
-          type === 'color' ? (
-            <Aws.Color size={size * 1.2} {...props} />
-          ) : (
-            <Aws size={size * 1.2} {...props} />
-          )
-        }
-        right={<Bedrock.Combine size={size} type={type} {...props} />}
+        left={type === 'color' ? <Aws.Color size={size * 1.2} /> : <Aws size={size * 1.2} />}
+        right={<Bedrock.Combine size={size} type={type} />}
         size={size}
         {...props}
       />
@@ -121,12 +119,12 @@ export const rnProviderMappings: RNProviderMapping[] = [
       <Combine
         left={
           type === 'color' ? (
-            <Google.BrandColor size={size * 0.95} {...props} />
+            <Google.BrandColor size={size * 0.95} />
           ) : (
-            <Google.Brand size={size * 0.95} {...props} />
+            <Google.Brand size={size * 0.95} />
           )
         }
-        right={<Gemini.Combine size={size} type={type} {...props} />}
+        right={<Gemini.Combine size={size} type={type} />}
         size={size}
         {...props}
       />
@@ -138,8 +136,8 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={<Azure.Combine size={size * 0.92} type={type} {...props} />}
-        right={<OpenAI.Combine size={size} {...props} />}
+        left={<Azure.Combine size={size * 0.92} type={type} />}
+        right={<OpenAI.Combine size={size} />}
         size={size}
         {...props}
       />
@@ -158,8 +156,8 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={<Anthropic.Text size={size * 0.75} {...props} />}
-        right={<Claude.Combine size={size} type={type} {...props} />}
+        left={<Anthropic.Text size={size * 0.75} />}
+        right={<Claude.Combine size={size} type={type} />}
         size={size}
         {...props}
       />
@@ -176,8 +174,8 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={<AlibabaCloud.Combine size={size} type={type} {...props} />}
-        right={<Qwen.Combine size={size * 0.9} type={type} {...props} />}
+        left={<AlibabaCloud.Combine size={size} type={type} />}
+        right={<Qwen.Combine size={size * 0.9} type={type} />}
         size={size}
         {...props}
       />
@@ -205,7 +203,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={<BaiduCloud.Combine size={size * 0.9} type={type} {...props} />}
+        left={<BaiduCloud.Combine size={size * 0.9} type={type} />}
         right={<Wenxin.Combine extra={'千帆'} size={size} type={type} {...props} />}
         size={size}
         {...props}
@@ -221,8 +219,8 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
-        left={<Cloudflare.Combine size={size * 1.1} type={type} {...props} />}
-        right={<WorkersAI.Combine size={size * 0.9} type={type} {...props} />}
+        left={<Cloudflare.Combine size={size * 1.1} type={type} />}
+        right={<WorkersAI.Combine size={size * 0.9} type={type} />}
         size={size}
         {...props}
       />
@@ -243,17 +241,19 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Volcengine, keywords: [RNModelProvider.Volcengine] },
   { Icon: SambaNova, combineMultiple: 0.8, keywords: [RNModelProvider.SambaNova] },
   { Icon: Cohere, keywords: [RNModelProvider.Cohere] },
+  { Icon: ComfyUI, keywords: [RNModelProvider.ComfyUI] },
   { Icon: Search1API, combineMultiple: 0.9, keywords: [RNModelProvider.Search1API] },
   { Icon: Infinigence, combineMultiple: 0.8, keywords: [RNModelProvider.InfiniAI] },
   { Icon: Xinference, combineMultiple: 0.85, keywords: [RNModelProvider.Xinference] },
   { Icon: Fal, combineMultiple: 0.8, keywords: [RNModelProvider.Fal] },
   { Icon: Ai302, combineMultiple: 0.9, keywords: [RNModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [RNModelProvider.AiHubMix] },
+  { Icon: CometAPI, keywords: [RNModelProvider.CometAPI] },
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine
-        left={<Vercel.Combine size={size * 0.9} {...props} />}
-        right={<V0 size={size} {...props} />}
+        left={<Vercel.Combine size={size * 0.9} />}
+        right={<V0 size={size} />}
         size={size}
         {...props}
       />
@@ -262,6 +262,8 @@ export const rnProviderMappings: RNProviderMapping[] = [
     keywords: [RNModelProvider.V0],
   },
   { Icon: Bfl, keywords: [RNModelProvider.Bfl] },
-  { Icon: Nebius, combineMultiple: 0.8, keywords: [RNModelProvider.Nebius] },
+  { Icon: Nebius, combineMultiple: 0.75, keywords: [RNModelProvider.Nebius] },
+  { Icon: NewAPI, combineMultiple: 0.85, keywords: [RNModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [RNModelProvider.AkashChat] },
+  { Icon: SophNet, combineMultiple: 0.85, keywords: [RNModelProvider.SophNet] },
 ];

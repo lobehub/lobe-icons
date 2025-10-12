@@ -78,14 +78,14 @@ import Voyage from '../icons/Voyage';
 import Wenxin from '../icons/Wenxin';
 import Yi from '../icons/Yi';
 import ZAI from '../icons/ZAI';
-import type { RNIconProps } from './types';
+import type { RNIconAvatarProps, RNIconCombineProps, RNIconProps } from './types';
 
 type RNModelIconType = FC<RNIconProps & any> & {
-  Avatar: FC<any>;
+  Avatar: FC<Omit<RNIconAvatarProps, 'Icon'> & any>;
   Brand?: FC<RNIconProps & any>;
   BrandColor?: FC<RNIconProps & any>;
   Color?: FC<RNIconProps & any>;
-  Combine?: FC<any>;
+  Combine?: FC<Omit<RNIconCombineProps, 'Icon' | 'Text'> & any>;
   Text?: FC<RNIconProps & any>;
 };
 
@@ -143,11 +143,11 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: Meta, keywords: ['llama', '/l3'] },
   { Icon: LLaVA, keywords: ['llava'] },
   { Icon: Gemini, keywords: ['gemini'] },
-  { Icon: DeepMind, keywords: ['^imagen-', '/imagen-', '^imagen\\d/'] },
+  { Icon: DeepMind, keywords: ['^imagen-', '/imagen-', '^imagen\\d/', '/imagen\\d'] },
   { Icon: Gemma, keywords: ['gemma'] },
   { Icon: Moonshot, keywords: ['kimi', 'moonshot'] },
   { Icon: Qiniu, keywords: ['qiniu'] },
-  { Icon: Qwen, keywords: ['qwen', 'qwq', 'qvq', 'wanx', 'wan\\d/'] },
+  { Icon: Qwen, keywords: ['qwen', 'qwq', 'qvq', 'wanx', 'wan\\d/', 'wan\\d\\.\\d-'] },
   { Icon: Minimax, keywords: ['minimax', 'abab', '^image-'] },
   {
     Icon: Mistral,
@@ -178,7 +178,7 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: Rwkv, keywords: ['rwkv', '/eagle-'] },
   { Icon: Wenxin, keywords: ['ernie', 'irag'] },
   { Icon: Jina, keywords: ['^jina', '/jina'] },
-  { Icon: Doubao, keywords: ['^ep-', 'doubao-'] },
+  { Icon: Doubao, keywords: ['^ep-', 'doubao-', 'seedream', 'seededit'] },
   { Icon: Hunyuan, keywords: ['hunyuan'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
   { Icon: ByteDance, keywords: ['skylark'] },
@@ -231,7 +231,7 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: AiHubMix, keywords: ['aihubmix'] },
   { Icon: V0, keywords: ['^v0-'] },
   { Icon: VertexAI, keywords: ['^veo-', '/veo-'] },
-  { Icon: Google, keywords: ['google', 'learnlm'] },
+  { Icon: Google, keywords: ['google', 'learnlm', 'nano-banana'] },
   { Icon: CogView, keywords: ['cogview'] },
   { Icon: Kolors, keywords: ['kolors'] },
   { Icon: BaiduCloud, keywords: ['baidu', 'qianfan'] },
