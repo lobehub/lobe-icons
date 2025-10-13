@@ -4,6 +4,8 @@ import { existsSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import FeatureConfigSyncer from './feature-config-syncer';
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -196,6 +198,23 @@ class AutoConverter {
     }
   }
 
+  // 同步特性配置文件
+  private async syncFeatureConfigs(options: ConversionOptions): Promise<boolean> {
+    if (options.dryRun) {
+      console.log('\n🔄 预演模式：不会实际同步配置文件');
+      return true;
+    }
+
+    try {
+      const syncer = new FeatureConfigSyncer();
+      const success = await syncer.syncAll();
+      return success;
+    } catch (error) {
+      console.error('❌ 配置文件同步失败:', error);
+      return false;
+    }
+  }
+
   // 运行构建测试
   private async runBuildTest(options: ConversionOptions): Promise<boolean> {
     if (!options.buildTest) {
@@ -303,6 +322,10 @@ class AutoConverter {
 
     if (success) {
       success = await this.updateExports(options);
+    }
+
+    if (success) {
+      success = await this.syncFeatureConfigs(options);
     }
 
     if (success && options.lintCheck) {

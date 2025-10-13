@@ -1,6 +1,5 @@
 import { FC, memo } from 'react';
 
-// Import React Native icon components
 import Ai21 from '../icons/Ai21';
 import Ai302 from '../icons/Ai302';
 import Ai360 from '../icons/Ai360';
@@ -17,6 +16,7 @@ import BaiduCloud from '../icons/BaiduCloud';
 import Bedrock from '../icons/Bedrock';
 import Bfl from '../icons/Bfl';
 import BurnCloud from '../icons/BurnCloud';
+import Cerebras from '../icons/Cerebras';
 import Claude from '../icons/Claude';
 import Cloudflare from '../icons/Cloudflare';
 import Cohere from '../icons/Cohere';
@@ -39,6 +39,7 @@ import InternLM from '../icons/InternLM';
 import Jina from '../icons/Jina';
 import LmStudio from '../icons/LmStudio';
 import LobeHub from '../icons/LobeHub';
+import LongCat from '../icons/LongCat';
 import Minimax from '../icons/Minimax';
 import Mistral from '../icons/Mistral';
 import ModelScope from '../icons/ModelScope';
@@ -62,6 +63,7 @@ import SiliconCloud from '../icons/SiliconCloud';
 import SophNet from '../icons/SophNet';
 import Spark from '../icons/Spark';
 import Stepfun from '../icons/Stepfun';
+import Straico from '../icons/Straico';
 import TencentCloud from '../icons/TencentCloud';
 import Together from '../icons/Together';
 import Upstage from '../icons/Upstage';
@@ -98,7 +100,7 @@ export interface RNProviderMapping {
 }
 
 export const rnProviderMappings: RNProviderMapping[] = [
-  { Icon: LobeHub, keywords: [RNModelProvider.LobeHub] },
+  { Icon: LobeHub, combineMultiple: 1.1, keywords: [RNModelProvider.LobeHub] },
   { Icon: Zhipu, combineMultiple: 1.25, keywords: [RNModelProvider.ZhiPu] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
@@ -261,9 +263,31 @@ export const rnProviderMappings: RNProviderMapping[] = [
     Icon: Vercel,
     keywords: [RNModelProvider.V0],
   },
+  { Icon: Vercel, combineMultiple: 0.9, keywords: [RNModelProvider.Vercel] },
   { Icon: Bfl, keywords: [RNModelProvider.Bfl] },
   { Icon: Nebius, combineMultiple: 0.75, keywords: [RNModelProvider.Nebius] },
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [RNModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [RNModelProvider.AkashChat] },
   { Icon: SophNet, combineMultiple: 0.85, keywords: [RNModelProvider.SophNet] },
+  {
+    Combine: memo(({ size = 24, ...props }) => (
+      <Combine
+        left={
+          <Ollama.Combine
+            extra={'Cloud'}
+            extraStyle={{ fontSize: 21, fontWeight: 500, marginLeft: 3 }}
+            size={size * 1.16}
+          />
+        }
+        right={<Ollama.Combine size={0} />}
+        size={size}
+        {...props}
+      />
+    )),
+    Icon: Ollama,
+    keywords: [RNModelProvider.OllamaCloud],
+  },
+  { Icon: LongCat, combineMultiple: 1, keywords: [RNModelProvider.LongCat] },
+  { Icon: Cerebras, combineMultiple: 1, keywords: [RNModelProvider.Cerebras] },
+  { Icon: Straico, combineMultiple: 1, keywords: [RNModelProvider.Straico] },
 ];

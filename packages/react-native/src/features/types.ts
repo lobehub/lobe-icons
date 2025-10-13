@@ -1,5 +1,5 @@
 import type { ComponentType } from 'react';
-import type { ViewStyle } from 'react-native';
+import type { TextStyle, ViewStyle } from 'react-native';
 
 export interface RNIconProps {
   color?: string;
@@ -28,7 +28,7 @@ export interface RNIconCombineProps extends RNIconProps {
   Text?: ComponentType<RNIconProps>;
   color?: string;
   extra?: string;
-  extraStyle?: ViewStyle;
+  extraStyle?: ViewStyle & TextStyle;
   iconProps?: Partial<RNIconAvatarProps>;
   inverse?: boolean;
   showLogo?: boolean;

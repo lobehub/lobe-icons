@@ -42,9 +42,11 @@ import Inflection from '../icons/Inflection';
 import InternLM from '../icons/InternLM';
 import Jina from '../icons/Jina';
 import Kolors from '../icons/Kolors';
+import Kwaipilot from '../icons/Kwaipilot';
 import LG from '../icons/LG';
 import LLaVA from '../icons/LLaVA';
 import Liquid from '../icons/Liquid';
+import LongCat from '../icons/LongCat';
 import Menlo from '../icons/Menlo';
 import Meta from '../icons/Meta';
 import Microsoft from '../icons/Microsoft';
@@ -53,7 +55,6 @@ import Mistral from '../icons/Mistral';
 import Moonshot from '../icons/Moonshot';
 import NousResearch from '../icons/NousResearch';
 import Nvidia from '../icons/Nvidia';
-// Import React Native icon components
 import OpenAI from '../icons/OpenAI';
 import OpenChat from '../icons/OpenChat';
 import OpenRouter from '../icons/OpenRouter';
@@ -65,6 +66,7 @@ import Qwen from '../icons/Qwen';
 import Rwkv from '../icons/Rwkv';
 import SenseNova from '../icons/SenseNova';
 import Skywork from '../icons/Skywork';
+import Sora from '../icons/Sora';
 import Spark from '../icons/Spark';
 import Stability from '../icons/Stability';
 import Stepfun from '../icons/Stepfun';
@@ -101,6 +103,7 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: OpenAI, keywords: ['gpt-3'], props: { type: 'gpt3' } },
   { Icon: OpenAI, keywords: ['gpt-4'], props: { type: 'gpt4' } },
   { Icon: OpenAI, keywords: ['gpt-5'], props: { type: 'gpt5' } },
+  { Icon: Sora, keywords: ['sora'] },
   { Icon: OpenAI, keywords: ['gpt-oss'], props: { type: 'oss' } },
   {
     Icon: OpenAI,
@@ -147,7 +150,7 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: Gemma, keywords: ['gemma'] },
   { Icon: Moonshot, keywords: ['kimi', 'moonshot'] },
   { Icon: Qiniu, keywords: ['qiniu'] },
-  { Icon: Qwen, keywords: ['qwen', 'qwq', 'qvq', 'wanx', 'wan\\d/', 'wan\\d\\.\\d-'] },
+  { Icon: Qwen, keywords: ['qwen', 'qwq', 'qvq', 'wanx', 'wan\\d/', 'wan\\d\\.\\d-', 'tongyi'] },
   { Icon: Minimax, keywords: ['minimax', 'abab', '^image-'] },
   {
     Icon: Mistral,
@@ -181,7 +184,7 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: Doubao, keywords: ['^ep-', 'doubao-', 'seedream', 'seededit'] },
   { Icon: Hunyuan, keywords: ['hunyuan'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
-  { Icon: ByteDance, keywords: ['skylark'] },
+  { Icon: ByteDance, keywords: ['skylark', 'seed-', 'bytedance'] },
   { Icon: BurnCloud, keywords: ['burncloud'] },
   {
     Icon: Stability,
@@ -199,7 +202,7 @@ export const rnModelMappings: RNModelMapping[] = [
   },
   { Icon: Flux, keywords: ['flux'] },
   { Icon: Suno, keywords: ['suno'] },
-  { Icon: Microsoft, keywords: ['wizardlm', '/phi-', '^phi-', '-phi-'] },
+  { Icon: Microsoft, keywords: ['wizardlm', '/phi-', '^phi-', '-phi-', 'mai-', 'microsoft'] },
   { Icon: Adobe, keywords: ['firefly'] },
   { Icon: Ai21, keywords: ['jamba', '^j2-', 'ai21'] },
   { Icon: Upstage, keywords: ['^solar-', '/solar'] },
@@ -244,4 +247,6 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: LG, keywords: ['kmmlu', 'exaone', 'lgai'] },
   { Icon: TII, keywords: ['falcon'] },
   { Icon: Menlo, keywords: ['menlo', 'lucy', 'jan-nano'] },
+  { Icon: LongCat, keywords: ['longcat'] },
+  { Icon: Kwaipilot, keywords: ['kat-'] },
 ];
