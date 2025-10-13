@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 2.43.1](https://github.com/lobehub/lobe-icons/compare/v2.43.0...v2.43.1)
+
+<sup>Released on **2025-10-13**</sup>
+
+#### 💄 Styles
+
+- **rn**: Update rn.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **rn**: Update rn ([1302f0b](https://github.com/lobehub/lobe-icons/commit/1302f0b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.43.0](https://github.com/lobehub/lobe-icons/compare/v2.42.0...v2.43.0)
 
 <sup>Released on **2025-10-12**</sup>
