@@ -1,37 +1,37 @@
 ---
 nav: Components
 group: Application
-title: Kera
-atomId: Kera
-description: https://kera.ai
+title: Krea
+atomId: Krea
+description: https://krea.ai
 ---
 
 ## Icons
 
 ```tsx
-import { Kera } from '@lobehub/icons';
+import { Krea } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
-export default () => <Kera size={64} />;
+export default () => <Krea size={64} />;
 ```
 
 ## Text
 
 ```tsx
-import { Kera } from '@lobehub/icons';
+import { Krea } from '@lobehub/icons';
 
-export default () => <Kera.Text size={48} />;
+export default () => <Krea.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Kera } from '@lobehub/icons';
+import { Krea } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <Kera.Combine size={64} />
+    <Krea.Combine size={64} />
   </Flexbox>
 );
 ```
@@ -39,13 +39,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Kera } from '@lobehub/icons';
+import { Krea } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Kera.Avatar size={64} />
-    <Kera.Avatar size={64} shape={'square'} />
+    <Krea.Avatar size={64} />
+    <Krea.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -53,14 +53,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Kera } from '@lobehub/icons';
+import { Krea } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Kera.colorPrimary} />
+    <ColorPreview color={Krea.colorPrimary} />
   </Flexbox>
 );
 ```
