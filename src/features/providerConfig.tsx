@@ -77,6 +77,7 @@ import Wenxin from '@/Wenxin';
 import WorkersAI from '@/WorkersAI';
 import XAI from '@/XAI';
 import Xinference from '@/Xinference';
+import ZenMux from '@/ZenMux';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
 import type { IconType } from '@/types';
@@ -294,4 +295,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: LongCat, combineMultiple: 1, keywords: [ModelProvider.LongCat] },
   { Icon: Cerebras, combineMultiple: 1, keywords: [ModelProvider.Cerebras] },
   { Icon: Straico, combineMultiple: 1, keywords: [ModelProvider.Straico] },
+  { Icon: ZenMux, combineMultiple: 1, keywords: [ModelProvider.ZenMux], props: { inverse: true } },
 ];
