@@ -257,5 +257,6 @@ export { default as Yuanbao, type CompoundedIcon as YuanbaoProps } from './Yuanb
 export { default as ZAI, type CompoundedIcon as ZAIProps } from './ZAI';
 export { default as Zapier, type CompoundedIcon as ZapierProps } from './Zapier';
 export { default as Zeabur, type CompoundedIcon as ZeaburProps } from './Zeabur';
+export { default as ZenMux, type CompoundedIcon as ZenMuxProps } from './ZenMux';
 export { default as ZeroOne, type CompoundedIcon as ZeroOneProps } from './ZeroOne';
 export { default as Zhipu, type CompoundedIcon as ZhipuProps } from './Zhipu';

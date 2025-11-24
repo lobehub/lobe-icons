@@ -76,6 +76,7 @@ import Wenxin from '../icons/Wenxin';
 import WorkersAI from '../icons/WorkersAI';
 import XAI from '../icons/XAI';
 import Xinference from '../icons/Xinference';
+import ZenMux from '../icons/ZenMux';
 import ZeroOne from '../icons/ZeroOne';
 import Zhipu from '../icons/Zhipu';
 import Combine from './ProviderCombine/Combine';
@@ -275,7 +276,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
         left={
           <Ollama.Combine
             extra={'Cloud'}
-            extraStyle={{ fontSize: 21, fontWeight: 500, marginLeft: 3 }}
+            extraStyle={{ fontSize: '1.3em', fontWeight: 500, marginLeft: '0.2em' }}
             size={size * 1.16}
           />
         }
@@ -290,4 +291,10 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: LongCat, combineMultiple: 1, keywords: [RNModelProvider.LongCat] },
   { Icon: Cerebras, combineMultiple: 1, keywords: [RNModelProvider.Cerebras] },
   { Icon: Straico, combineMultiple: 1, keywords: [RNModelProvider.Straico] },
+  {
+    Icon: ZenMux,
+    combineMultiple: 1,
+    keywords: [RNModelProvider.ZenMux],
+    props: { inverse: true },
+  },
 ];

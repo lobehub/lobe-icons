@@ -159,11 +159,11 @@ export { default as Inflection, type CompoundedIcon as InflectionProps } from '.
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './icons/InternLM';
 export { default as Jimeng, type CompoundedIcon as JimengProps } from './icons/Jimeng';
 export { default as Jina, type CompoundedIcon as JinaProps } from './icons/Jina';
-export { default as Krea, type CompoundedIcon as KreaProps } from './icons/Krea';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './icons/Kimi';
 export { default as Kling, type CompoundedIcon as KlingProps } from './icons/Kling';
 export { default as Kluster, type CompoundedIcon as KlusterProps } from './icons/Kluster';
 export { default as Kolors, type CompoundedIcon as KolorsProps } from './icons/Kolors';
+export { default as Krea, type CompoundedIcon as KreaProps } from './icons/Krea';
 export { default as Kwaipilot, type CompoundedIcon as KwaipilotProps } from './icons/Kwaipilot';
 export { default as Lambda, type CompoundedIcon as LambdaProps } from './icons/Lambda';
 export { default as LangChain, type CompoundedIcon as LangChainProps } from './icons/LangChain';
@@ -310,6 +310,7 @@ export { default as Yuanbao, type CompoundedIcon as YuanbaoProps } from './icons
 export { default as ZAI, type CompoundedIcon as ZAIProps } from './icons/ZAI';
 export { default as Zapier, type CompoundedIcon as ZapierProps } from './icons/Zapier';
 export { default as Zeabur, type CompoundedIcon as ZeaburProps } from './icons/Zeabur';
+export { default as ZenMux, type CompoundedIcon as ZenMuxProps } from './icons/ZenMux';
 export { default as ZeroOne, type CompoundedIcon as ZeroOneProps } from './icons/ZeroOne';
 export { default as Zhipu, type CompoundedIcon as ZhipuProps } from './icons/Zhipu';
 
