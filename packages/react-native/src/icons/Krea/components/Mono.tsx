@@ -26,6 +26,6 @@ const Icon = memo<RNIconProps>(({ size = 24, style, color = '#000000', ...rest }
   );
 });
 
-Icon.displayName = 'KeraMono';
+Icon.displayName = 'KreaMono';
 
 export default Icon;

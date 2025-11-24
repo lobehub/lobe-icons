@@ -2,7 +2,6 @@ import React, { memo } from 'react';
 import { Path, Svg } from 'react-native-svg';
 
 import type { RNIconProps } from '@/features';
-import Icon from '@/icons/Kera/components/Text';
 
 const Text = memo<RNIconProps>(({ size = 24, style, color = '#000000', ...rest }) => {
   return (
@@ -31,6 +30,6 @@ const Text = memo<RNIconProps>(({ size = 24, style, color = '#000000', ...rest }
   );
 });
 
-Icon.displayName = 'JinaText';
+Text.displayName = 'JinaText';
 
 export default Text;

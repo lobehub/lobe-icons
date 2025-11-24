@@ -2313,11 +2313,11 @@ const toc: IconToc[] = [
   },
   {
     color: '#000',
-    desc: 'https://kera.ai',
-    docsUrl: 'kera',
-    fullTitle: 'Kera',
+    desc: 'https://krea.ai',
+    docsUrl: 'krea',
+    fullTitle: 'Krea',
     group: 'application',
-    id: 'Kera',
+    id: 'Krea',
     param: {
       hasAvatar: true,
       hasBrand: false,
@@ -2328,7 +2328,7 @@ const toc: IconToc[] = [
       hasTextCn: false,
       hasTextColor: false,
     },
-    title: 'Kera',
+    title: 'Krea',
   },
   {
     color: '#000',
