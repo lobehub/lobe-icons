@@ -159,7 +159,7 @@ export { default as Inflection, type CompoundedIcon as InflectionProps } from '.
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './icons/InternLM';
 export { default as Jimeng, type CompoundedIcon as JimengProps } from './icons/Jimeng';
 export { default as Jina, type CompoundedIcon as JinaProps } from './icons/Jina';
-export { default as Kera, type CompoundedIcon as KeraProps } from './icons/Kera';
+export { default as Krea, type CompoundedIcon as KreaProps } from './icons/Krea';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './icons/Kimi';
 export { default as Kling, type CompoundedIcon as KlingProps } from './icons/Kling';
 export { default as Kluster, type CompoundedIcon as KlusterProps } from './icons/Kluster';

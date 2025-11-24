@@ -22,6 +22,6 @@ const Icon = memo<RNIconProps>(({ size = 24, style, color = '#000000', ...rest }
   );
 });
 
-Icon.displayName = 'KeraText';
+Icon.displayName = 'KreaText';
 
 export default Icon;
