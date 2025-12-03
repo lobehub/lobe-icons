@@ -6,7 +6,7 @@ import { Center, type CenterProps } from 'react-layout-kit';
 
 import { IconType } from '@/types';
 
-import { getAvatarShadow, roundToEven } from './util';
+import { getAvatarShadow } from './util';
 
 export interface IconAvatarProps extends Omit<CenterProps, 'children'> {
   Icon?: IconType;
@@ -51,8 +51,11 @@ const IconAvatar = memo<IconAvatarProps>(
           <Icon
             className={iconClassName}
             color={color}
-            size={roundToEven(size * iconMultiple)}
-            style={iconStyle}
+            size={size}
+            style={{
+              transform: `scale(${iconMultiple})`,
+              ...iconStyle,
+            }}
           />
         )}
       </Center>
