@@ -15,6 +15,7 @@ export { default as AlibabaCloud, type CompoundedIcon as AlibabaCloudProps } fro
 export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './AntGroup';
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './Anthropic';
 export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './Anyscale';
+export { default as Apple, type CompoundedIcon as AppleProps } from './Apple';
 export { default as AssemblyAI, type CompoundedIcon as AssemblyAIProps } from './AssemblyAI';
 export { default as Automatic, type CompoundedIcon as AutomaticProps } from './Automatic';
 export { default as Aws, type CompoundedIcon as AwsProps } from './Aws';
@@ -124,11 +125,11 @@ export { default as Inflection, type CompoundedIcon as InflectionProps } from '.
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './InternLM';
 export { default as Jimeng, type CompoundedIcon as JimengProps } from './Jimeng';
 export { default as Jina, type CompoundedIcon as JinaProps } from './Jina';
-export { default as Krea, type CompoundedIcon as KreaProps } from './Krea';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './Kimi';
 export { default as Kling, type CompoundedIcon as KlingProps } from './Kling';
 export { default as Kluster, type CompoundedIcon as KlusterProps } from './Kluster';
 export { default as Kolors, type CompoundedIcon as KolorsProps } from './Kolors';
+export { default as Krea, type CompoundedIcon as KreaProps } from './Krea';
 export { default as Kwaipilot, type CompoundedIcon as KwaipilotProps } from './Kwaipilot';
 export { default as Lambda, type CompoundedIcon as LambdaProps } from './Lambda';
 export { default as LangChain, type CompoundedIcon as LangChainProps } from './LangChain';
