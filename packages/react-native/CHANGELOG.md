@@ -2,6 +2,40 @@
 
 # Changelog
 
+## [Version 1.8.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.7.4...@lobehub/icons-rn@1.8.0)
+
+<sup>Released on **2025-12-04**</sup>
+
+#### ✨ Features
+
+- **misc**: Add ZenMux.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix rn, Fix rn build.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add ZenMux, closes [#212](https://github.com/lobehub/lobe-icons/issues/212) [#210](https://github.com/lobehub/lobe-icons/issues/210) ([3403de5](https://github.com/lobehub/lobe-icons/commit/3403de5))
+
+#### What's fixed
+
+- **misc**: Fix rn ([a34155e](https://github.com/lobehub/lobe-icons/commit/a34155e))
+- **misc**: Fix rn build ([674d1dd](https://github.com/lobehub/lobe-icons/commit/674d1dd))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.7.4](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.7.3...@lobehub/icons-rn@1.7.4)
 
 <sup>Released on **2025-10-13**</sup>
