@@ -1,5 +1,6 @@
 import { FC, memo } from 'react';
 
+import { ModelProvider } from '../../../../src';
 import Ai21 from '../icons/Ai21';
 import Ai302 from '../icons/Ai302';
 import Ai360 from '../icons/Ai360';
@@ -80,7 +81,6 @@ import ZenMux from '../icons/ZenMux';
 import ZeroOne from '../icons/ZeroOne';
 import Zhipu from '../icons/Zhipu';
 import Combine from './ProviderCombine/Combine';
-import { RNModelProvider } from './providerEnum';
 import type { RNIconAvatarProps, RNIconCombineProps, RNIconProps } from './types';
 
 type RNProviderIconType = FC<RNIconProps & any> & {
@@ -101,8 +101,8 @@ export interface RNProviderMapping {
 }
 
 export const rnProviderMappings: RNProviderMapping[] = [
-  { Icon: LobeHub, combineMultiple: 1.1, keywords: [RNModelProvider.LobeHub] },
-  { Icon: Zhipu, combineMultiple: 1.25, keywords: [RNModelProvider.ZhiPu] },
+  { Icon: LobeHub, combineMultiple: 1.1, keywords: [ModelProvider.LobeHub] },
+  { Icon: Zhipu, combineMultiple: 1.25, keywords: [ModelProvider.ZhiPu] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -114,9 +114,9 @@ export const rnProviderMappings: RNProviderMapping[] = [
     )),
     Icon: Bedrock,
     combineMultiple: 1.1,
-    keywords: [RNModelProvider.Bedrock],
+    keywords: [ModelProvider.Bedrock],
   },
-  { Icon: DeepSeek, combineMultiple: 1.16, keywords: [RNModelProvider.DeepSeek] },
+  { Icon: DeepSeek, combineMultiple: 1.16, keywords: [ModelProvider.DeepSeek] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -134,7 +134,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
     )),
     Icon: Google,
     combineMultiple: 0.92,
-    keywords: [RNModelProvider.Google],
+    keywords: [ModelProvider.Google],
   },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
@@ -147,15 +147,15 @@ export const rnProviderMappings: RNProviderMapping[] = [
     )),
     Icon: Azure,
     combineMultiple: 0.9,
-    keywords: [RNModelProvider.Azure],
+    keywords: [ModelProvider.Azure],
   },
-  { Icon: Moonshot, combineMultiple: 0.9, keywords: [RNModelProvider.Moonshot] },
-  { Icon: Novita, keywords: [RNModelProvider.Novita] },
-  { Icon: OpenAI, keywords: [RNModelProvider.OpenAI] },
-  { Icon: Ollama, combineMultiple: 1.16, keywords: [RNModelProvider.Ollama] },
-  { Icon: Perplexity, keywords: [RNModelProvider.Perplexity] },
-  { Icon: Minimax, combineMultiple: 1.3, keywords: [RNModelProvider.Minimax] },
-  { Icon: Mistral, keywords: [RNModelProvider.Mistral] },
+  { Icon: Moonshot, combineMultiple: 0.9, keywords: [ModelProvider.Moonshot] },
+  { Icon: Novita, keywords: [ModelProvider.Novita] },
+  { Icon: OpenAI, keywords: [ModelProvider.OpenAI] },
+  { Icon: Ollama, combineMultiple: 1.16, keywords: [ModelProvider.Ollama] },
+  { Icon: Perplexity, keywords: [ModelProvider.Perplexity] },
+  { Icon: Minimax, combineMultiple: 1.3, keywords: [ModelProvider.Minimax] },
+  { Icon: Mistral, keywords: [ModelProvider.Mistral] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -167,13 +167,13 @@ export const rnProviderMappings: RNProviderMapping[] = [
     )),
     Icon: Anthropic,
     combineMultiple: 0.83,
-    keywords: [RNModelProvider.Anthropic],
+    keywords: [ModelProvider.Anthropic],
   },
-  { Icon: Groq, keywords: [RNModelProvider.Groq] },
-  { Icon: OpenRouter, combineMultiple: 0.8, keywords: [RNModelProvider.OpenRouter] },
-  { Icon: ZeroOne, combineMultiple: 1, keywords: [RNModelProvider.ZeroOne] },
-  { Icon: Together, keywords: [RNModelProvider.TogetherAI] },
-  { Icon: Qiniu, combineMultiple: 1.1, keywords: [RNModelProvider.Qiniu] },
+  { Icon: Groq, keywords: [ModelProvider.Groq] },
+  { Icon: OpenRouter, combineMultiple: 0.8, keywords: [ModelProvider.OpenRouter] },
+  { Icon: ZeroOne, combineMultiple: 1, keywords: [ModelProvider.ZeroOne] },
+  { Icon: Together, keywords: [ModelProvider.TogetherAI] },
+  { Icon: Qiniu, combineMultiple: 1.1, keywords: [ModelProvider.Qiniu] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -185,24 +185,24 @@ export const rnProviderMappings: RNProviderMapping[] = [
     )),
     Icon: AlibabaCloud,
     combineMultiple: 1.1,
-    keywords: [RNModelProvider.Qwen],
+    keywords: [ModelProvider.Qwen],
   },
-  { Icon: Stepfun, combineMultiple: 0.83, keywords: [RNModelProvider.Stepfun] },
-  { Icon: Spark, combineMultiple: 0.92, keywords: [RNModelProvider.Spark] },
-  { Icon: Fireworks, combineMultiple: 1.14, keywords: [RNModelProvider.FireworksAI] },
-  { Icon: Baichuan, combineMultiple: 0.83, keywords: [RNModelProvider.Baichuan] },
-  { Icon: BurnCloud, combineMultiple: 1.2, keywords: [RNModelProvider.BurnCloud] },
-  { Icon: AiMass, combineMultiple: 1.16, keywords: [RNModelProvider.Taichu] },
-  { Icon: Ai360, combineMultiple: 0.83, keywords: [RNModelProvider.Ai360] },
-  { Icon: SiliconCloud, combineMultiple: 1, keywords: [RNModelProvider.SiliconCloud] },
-  { Icon: Upstage, combineMultiple: 0.9, keywords: [RNModelProvider.Upstage] },
-  { Icon: Ai21, combineMultiple: 0.9, keywords: [RNModelProvider.Ai21] },
-  { Icon: Player2, combineMultiple: 0.9, keywords: [RNModelProvider.Player2] },
-  { Icon: Github, combineMultiple: 0.95, keywords: [RNModelProvider.Github] },
-  { Icon: Doubao, keywords: [RNModelProvider.Doubao] },
-  { Icon: Hunyuan, keywords: [RNModelProvider.Hunyuan] },
-  { Icon: Nvidia, keywords: [RNModelProvider.Nvidia] },
-  { Icon: TencentCloud, keywords: [RNModelProvider.TencentCloud] },
+  { Icon: Stepfun, combineMultiple: 0.83, keywords: [ModelProvider.Stepfun] },
+  { Icon: Spark, combineMultiple: 0.92, keywords: [ModelProvider.Spark] },
+  { Icon: Fireworks, combineMultiple: 1.14, keywords: [ModelProvider.FireworksAI] },
+  { Icon: Baichuan, combineMultiple: 0.83, keywords: [ModelProvider.Baichuan] },
+  { Icon: BurnCloud, combineMultiple: 1.2, keywords: [ModelProvider.BurnCloud] },
+  { Icon: AiMass, combineMultiple: 1.16, keywords: [ModelProvider.Taichu] },
+  { Icon: Ai360, combineMultiple: 0.83, keywords: [ModelProvider.Ai360] },
+  { Icon: SiliconCloud, combineMultiple: 1, keywords: [ModelProvider.SiliconCloud] },
+  { Icon: Upstage, combineMultiple: 0.9, keywords: [ModelProvider.Upstage] },
+  { Icon: Ai21, combineMultiple: 0.9, keywords: [ModelProvider.Ai21] },
+  { Icon: Player2, combineMultiple: 0.9, keywords: [ModelProvider.Player2] },
+  { Icon: Github, combineMultiple: 0.95, keywords: [ModelProvider.Github] },
+  { Icon: Doubao, keywords: [ModelProvider.Doubao] },
+  { Icon: Hunyuan, keywords: [ModelProvider.Hunyuan] },
+  { Icon: Nvidia, keywords: [ModelProvider.Nvidia] },
+  { Icon: TencentCloud, keywords: [ModelProvider.TencentCloud] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -213,12 +213,12 @@ export const rnProviderMappings: RNProviderMapping[] = [
       />
     )),
     Icon: Wenxin,
-    keywords: [RNModelProvider.Wenxin],
+    keywords: [ModelProvider.Wenxin],
   },
-  { Icon: SenseNova, combineMultiple: 0.95, keywords: [RNModelProvider.SenseNova] },
-  { Icon: HuggingFace, combineMultiple: 1.16, keywords: [RNModelProvider.HuggingFace] },
-  { Icon: LmStudio, keywords: [RNModelProvider.LmStudio] },
-  { Icon: XAI, combineMultiple: 0.85, keywords: [RNModelProvider.XAI] },
+  { Icon: SenseNova, combineMultiple: 0.95, keywords: [ModelProvider.SenseNova] },
+  { Icon: HuggingFace, combineMultiple: 1.16, keywords: [ModelProvider.HuggingFace] },
+  { Icon: LmStudio, keywords: [ModelProvider.LmStudio] },
+  { Icon: XAI, combineMultiple: 0.85, keywords: [ModelProvider.XAI] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -230,71 +230,60 @@ export const rnProviderMappings: RNProviderMapping[] = [
     )),
     Icon: Cloudflare,
     combineMultiple: 1.1,
-    keywords: [RNModelProvider.Cloudflare],
+    keywords: [ModelProvider.Cloudflare],
   },
-  { Icon: InternLM, combineMultiple: 0.95, keywords: [RNModelProvider.InternLM] },
-  { Icon: Higress, keywords: [RNModelProvider.Higress] },
-  { Icon: Vllm, combineMultiple: 0.85, keywords: [RNModelProvider.VLLM] },
-  { Icon: GiteeAI, combineMultiple: 0.95, keywords: [RNModelProvider.GiteeAI] },
-  { Icon: ModelScope, combineMultiple: 1.2, keywords: [RNModelProvider.ModelScope] },
-  { Icon: VertexAI, keywords: [RNModelProvider.VertexAI] },
-  { Icon: PPIO, combineMultiple: 0.85, keywords: [RNModelProvider.PPIO] },
-  { Icon: Jina, keywords: [RNModelProvider.Jina] },
-  { Icon: AzureAI, keywords: [RNModelProvider.AzureAI] },
-  { Icon: Volcengine, keywords: [RNModelProvider.Volcengine] },
-  { Icon: SambaNova, combineMultiple: 0.8, keywords: [RNModelProvider.SambaNova] },
-  { Icon: Cohere, keywords: [RNModelProvider.Cohere] },
-  { Icon: ComfyUI, keywords: [RNModelProvider.ComfyUI] },
-  { Icon: Search1API, combineMultiple: 0.9, keywords: [RNModelProvider.Search1API] },
-  { Icon: Infinigence, combineMultiple: 0.8, keywords: [RNModelProvider.InfiniAI] },
-  { Icon: Xinference, combineMultiple: 0.85, keywords: [RNModelProvider.Xinference] },
-  { Icon: Fal, combineMultiple: 0.8, keywords: [RNModelProvider.Fal] },
-  { Icon: Ai302, combineMultiple: 0.9, keywords: [RNModelProvider.Ai302] },
-  { Icon: AiHubMix, combineMultiple: 0.9, keywords: [RNModelProvider.AiHubMix] },
-  { Icon: CometAPI, keywords: [RNModelProvider.CometAPI] },
+  { Icon: InternLM, combineMultiple: 0.95, keywords: [ModelProvider.InternLM] },
+  { Icon: Higress, keywords: [ModelProvider.Higress] },
+  { Icon: Vllm, combineMultiple: 0.85, keywords: [ModelProvider.VLLM] },
+  { Icon: GiteeAI, combineMultiple: 0.95, keywords: [ModelProvider.GiteeAI] },
+  { Icon: ModelScope, combineMultiple: 1.2, keywords: [ModelProvider.ModelScope] },
+  { Icon: VertexAI, keywords: [ModelProvider.VertexAI] },
+  { Icon: PPIO, combineMultiple: 0.85, keywords: [ModelProvider.PPIO] },
+  { Icon: Jina, keywords: [ModelProvider.Jina] },
+  { Icon: AzureAI, keywords: [ModelProvider.AzureAI] },
+  { Icon: Volcengine, keywords: [ModelProvider.Volcengine] },
+  { Icon: SambaNova, combineMultiple: 0.8, keywords: [ModelProvider.SambaNova] },
+  { Icon: Cohere, keywords: [ModelProvider.Cohere] },
+  { Icon: ComfyUI, keywords: [ModelProvider.ComfyUI] },
+  { Icon: Search1API, combineMultiple: 0.9, keywords: [ModelProvider.Search1API] },
+  { Icon: Infinigence, combineMultiple: 0.8, keywords: [ModelProvider.InfiniAI] },
+  { Icon: Xinference, combineMultiple: 0.85, keywords: [ModelProvider.Xinference] },
+  { Icon: Fal, combineMultiple: 0.8, keywords: [ModelProvider.Fal] },
+  { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
+  { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
+  { Icon: CometAPI, keywords: [ModelProvider.CometAPI] },
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine
-        left={<Vercel.Combine size={size * 0.9} />}
-        right={<V0 size={size} />}
+        left={<Vercel.Combine size={size * 0.85} />}
+        right={<V0 size={size * 1.1} />}
         size={size}
         {...props}
       />
     )),
     Icon: Vercel,
-    keywords: [RNModelProvider.V0],
+    keywords: [ModelProvider.V0],
   },
-  { Icon: Vercel, combineMultiple: 0.9, keywords: [RNModelProvider.Vercel] },
-  { Icon: Bfl, keywords: [RNModelProvider.Bfl] },
-  { Icon: Nebius, combineMultiple: 0.75, keywords: [RNModelProvider.Nebius] },
-  { Icon: NewAPI, combineMultiple: 0.85, keywords: [RNModelProvider.NewAPI] },
-  { Icon: AkashChat, combineMultiple: 0.8, keywords: [RNModelProvider.AkashChat] },
-  { Icon: SophNet, combineMultiple: 0.85, keywords: [RNModelProvider.SophNet] },
+  { Icon: Vercel, combineMultiple: 0.85, keywords: [ModelProvider.Vercel] },
+  { Icon: Bfl, keywords: [ModelProvider.Bfl] },
+  { Icon: Nebius, combineMultiple: 0.75, keywords: [ModelProvider.Nebius] },
+  { Icon: NewAPI, combineMultiple: 0.85, keywords: [ModelProvider.NewAPI] },
+  { Icon: AkashChat, combineMultiple: 0.8, keywords: [ModelProvider.AkashChat] },
+  { Icon: SophNet, combineMultiple: 0.85, keywords: [ModelProvider.SophNet] },
   {
     Combine: memo(({ size = 24, ...props }) => (
-      <Combine
-        left={
-          <Ollama.Combine
-            extra={'Cloud'}
-            extraStyle={{ fontSize: '1.3em', fontWeight: 500, marginLeft: '0.2em' }}
-            size={size * 1.16}
-          />
-        }
-        right={<Ollama.Combine size={0} />}
-        size={size}
+      <Ollama.Combine
+        extra={'Cloud'}
+        extraStyle={{ fontSize: size * 0.78, fontWeight: 500, marginLeft: size * 0.2 }}
+        size={size * 1.16}
         {...props}
       />
     )),
     Icon: Ollama,
-    keywords: [RNModelProvider.OllamaCloud],
+    keywords: [ModelProvider.OllamaCloud],
   },
-  { Icon: LongCat, combineMultiple: 1, keywords: [RNModelProvider.LongCat] },
-  { Icon: Cerebras, combineMultiple: 1, keywords: [RNModelProvider.Cerebras] },
-  { Icon: Straico, combineMultiple: 1, keywords: [RNModelProvider.Straico] },
-  {
-    Icon: ZenMux,
-    combineMultiple: 1,
-    keywords: [RNModelProvider.ZenMux],
-    props: { inverse: true },
-  },
+  { Icon: LongCat, combineMultiple: 1, keywords: [ModelProvider.LongCat] },
+  { Icon: Cerebras, combineMultiple: 1, keywords: [ModelProvider.Cerebras] },
+  { Icon: Straico, combineMultiple: 0.85, keywords: [ModelProvider.Straico] },
+  { Icon: ZenMux, combineMultiple: 1, keywords: [ModelProvider.ZenMux], props: { inverse: true } },
 ];

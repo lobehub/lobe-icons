@@ -29,6 +29,7 @@ export {
 export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './icons/AntGroup';
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './icons/Anthropic';
 export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './icons/Anyscale';
+export { default as Apple, type CompoundedIcon as AppleProps } from './icons/Apple';
 export { default as AssemblyAI, type CompoundedIcon as AssemblyAIProps } from './icons/AssemblyAI';
 export { default as Automatic, type CompoundedIcon as AutomaticProps } from './icons/Automatic';
 export { default as Aws, type CompoundedIcon as AwsProps } from './icons/Aws';

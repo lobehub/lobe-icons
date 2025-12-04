@@ -259,8 +259,8 @@ export const providerMappings: ProviderMapping[] = [
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine
-        left={<Vercel.Combine size={size * 0.9} />}
-        right={<V0 size={size} />}
+        left={<Vercel.Combine size={size * 0.85} />}
+        right={<V0 size={size * 1.1} />}
         size={size}
         {...props}
       />
@@ -268,7 +268,7 @@ export const providerMappings: ProviderMapping[] = [
     Icon: Vercel,
     keywords: [ModelProvider.V0],
   },
-  { Icon: Vercel, combineMultiple: 0.9, keywords: [ModelProvider.Vercel] },
+  { Icon: Vercel, combineMultiple: 0.85, keywords: [ModelProvider.Vercel] },
   { Icon: Bfl, keywords: [ModelProvider.Bfl] },
   { Icon: Nebius, combineMultiple: 0.75, keywords: [ModelProvider.Nebius] },
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [ModelProvider.NewAPI] },
@@ -276,16 +276,10 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: SophNet, combineMultiple: 0.85, keywords: [ModelProvider.SophNet] },
   {
     Combine: memo(({ size = 24, ...props }) => (
-      <Combine
-        left={
-          <Ollama.Combine
-            extra={'Cloud'}
-            extraStyle={{ fontSize: '1.3em', fontWeight: 500, marginLeft: '0.2em' }}
-            size={size * 1.16}
-          />
-        }
-        right={<Ollama.Combine size={0} />}
-        size={size}
+      <Ollama.Combine
+        extra={'Cloud'}
+        extraStyle={{ fontSize: size * 0.78, fontWeight: 500, marginLeft: size * 0.2 }}
+        size={size * 1.16}
         {...props}
       />
     )),
@@ -294,6 +288,6 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: LongCat, combineMultiple: 1, keywords: [ModelProvider.LongCat] },
   { Icon: Cerebras, combineMultiple: 1, keywords: [ModelProvider.Cerebras] },
-  { Icon: Straico, combineMultiple: 1, keywords: [ModelProvider.Straico] },
+  { Icon: Straico, combineMultiple: 0.85, keywords: [ModelProvider.Straico] },
   { Icon: ZenMux, combineMultiple: 1, keywords: [ModelProvider.ZenMux], props: { inverse: true } },
 ];
