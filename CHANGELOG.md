@@ -2,6 +2,42 @@
 
 # Changelog
 
+## [Version 2.44.0](https://github.com/lobehub/lobe-icons/compare/v2.43.1...v2.44.0)
+
+<sup>Released on **2025-12-04**</sup>
+
+#### ✨ Features
+
+- **misc**: Add apple, add ZenMux.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix avatar icon scale, Fix rn, Fix rn build.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add apple ([b1cd2f2](https://github.com/lobehub/lobe-icons/commit/b1cd2f2))
+- **misc**: Add ZenMux, closes [#212](https://github.com/lobehub/lobe-icons/issues/212) [#210](https://github.com/lobehub/lobe-icons/issues/210) ([3403de5](https://github.com/lobehub/lobe-icons/commit/3403de5))
+
+#### What's fixed
+
+- **misc**: Fix avatar icon scale ([3adaf60](https://github.com/lobehub/lobe-icons/commit/3adaf60))
+- **misc**: Fix rn ([a34155e](https://github.com/lobehub/lobe-icons/commit/a34155e))
+- **misc**: Fix rn build ([674d1dd](https://github.com/lobehub/lobe-icons/commit/674d1dd))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.43.1](https://github.com/lobehub/lobe-icons/compare/v2.43.0...v2.43.1)
 
 <sup>Released on **2025-10-13**</sup>
