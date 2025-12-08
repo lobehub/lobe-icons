@@ -32,6 +32,21 @@ export default () => {
       <Center>
         <h2 style={{ fontSize: 20 }}>To install Lobe Icons, run the following command:</h2>
         <Snippet language={'bash'}>{'$ bun add @lobehub/icons'}</Snippet>
+        <div style={{ marginTop: 16 }}>
+          <a
+            href="https://www.producthunt.com/products/lobe-icons?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-lobe&#0045;icons"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="Lobe&#0032;Icons - A&#0032;Collection&#0032;of&#0032;AI&#0032;Company&#0032;&#0032;&#0047;&#0032;LLM&#0032;Model&#0032;Logo | Product Hunt"
+              height="54"
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1047110&theme=light&t=1765199661410"
+              style={{ height: 54, width: 250 }}
+              width="250"
+            />
+          </a>
+        </div>
       </Center>
       <Dashboard />
       <Features items={items} />
