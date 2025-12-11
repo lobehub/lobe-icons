@@ -57,6 +57,7 @@ import Perplexity from '@/Perplexity';
 import Player2 from '@/Player2';
 import Qiniu from '@/Qiniu';
 import Qwen from '@/Qwen';
+import Replicate from '@/Replicate';
 import SambaNova from '@/SambaNova';
 import Search1API from '@/Search1API';
 import SenseNova from '@/SenseNova';
@@ -270,6 +271,7 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: Vercel, combineMultiple: 0.85, keywords: [ModelProvider.Vercel] },
   { Icon: Bfl, keywords: [ModelProvider.Bfl] },
+  { Icon: Replicate, combineMultiple: 0.9, keywords: [ModelProvider.Replicate] },
   { Icon: Nebius, combineMultiple: 0.75, keywords: [ModelProvider.Nebius] },
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [ModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [ModelProvider.AkashChat] },
