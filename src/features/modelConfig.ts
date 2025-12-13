@@ -81,7 +81,7 @@ import Yi from '@/Yi';
 import ZAI from '@/ZAI';
 import type { IconAvatarProps } from '@/features/IconAvatar';
 import type { IconCombineProps } from '@/features/IconCombine';
-import { Kwaipilot } from '@/icons';
+import { Kwaipilot, Nova } from '@/icons';
 import type { IconType } from '@/types';
 
 type ModelIconType = FC<IconType & any> & {
@@ -251,4 +251,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Menlo, keywords: ['menlo', 'lucy', 'jan-nano'] },
   { Icon: LongCat, keywords: ['longcat'] },
   { Icon: Kwaipilot, keywords: ['kat-'] },
+  { Icon: Nova, keywords: ['^nova-', '/nova-'] },
 ];
