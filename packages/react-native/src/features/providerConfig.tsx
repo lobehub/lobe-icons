@@ -56,6 +56,7 @@ import Perplexity from '../icons/Perplexity';
 import Player2 from '../icons/Player2';
 import Qiniu from '../icons/Qiniu';
 import Qwen from '../icons/Qwen';
+import Replicate from '../icons/Replicate';
 import SambaNova from '../icons/SambaNova';
 import Search1API from '../icons/Search1API';
 import SenseNova from '../icons/SenseNova';
@@ -266,6 +267,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   },
   { Icon: Vercel, combineMultiple: 0.85, keywords: [RNModelProvider.Vercel] },
   { Icon: Bfl, keywords: [RNModelProvider.Bfl] },
+  { Icon: Replicate, combineMultiple: 0.9, keywords: [RNModelProvider.Replicate] },
   { Icon: Nebius, combineMultiple: 0.75, keywords: [RNModelProvider.Nebius] },
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [RNModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [RNModelProvider.AkashChat] },

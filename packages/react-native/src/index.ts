@@ -12,6 +12,7 @@ export {
   type CompoundedIcon as AdobeFireflyProps,
 } from './icons/AdobeFirefly';
 export { default as Agui, type CompoundedIcon as AguiProps } from './icons/Agui';
+export { default as Ai2, type CompoundedIcon as Ai2Props } from './icons/Ai2';
 export { default as Ai21, type CompoundedIcon as Ai21Props } from './icons/Ai21';
 export { default as Ai302, type CompoundedIcon as Ai302Props } from './icons/Ai302';
 export { default as Ai360, type CompoundedIcon as Ai360Props } from './icons/Ai360';
@@ -30,6 +31,7 @@ export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './ico
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './icons/Anthropic';
 export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './icons/Anyscale';
 export { default as Apple, type CompoundedIcon as AppleProps } from './icons/Apple';
+export { default as Arcee, type CompoundedIcon as ArceeProps } from './icons/Arcee';
 export { default as AssemblyAI, type CompoundedIcon as AssemblyAIProps } from './icons/AssemblyAI';
 export { default as Automatic, type CompoundedIcon as AutomaticProps } from './icons/Automatic';
 export { default as Aws, type CompoundedIcon as AwsProps } from './icons/Aws';
@@ -79,6 +81,7 @@ export { default as Cursor, type CompoundedIcon as CursorProps } from './icons/C
 export { default as Dalle, type CompoundedIcon as DalleProps } from './icons/Dalle';
 export { default as Dbrx, type CompoundedIcon as DbrxProps } from './icons/Dbrx';
 export { default as DeepAI, type CompoundedIcon as DeepAIProps } from './icons/DeepAI';
+export { default as DeepCogito, type CompoundedIcon as DeepCogitoProps } from './icons/DeepCogito';
 export { default as DeepInfra, type CompoundedIcon as DeepInfraProps } from './icons/DeepInfra';
 export { default as DeepL, type CompoundedIcon as DeepLProps } from './icons/DeepL';
 export { default as DeepMind, type CompoundedIcon as DeepMindProps } from './icons/DeepMind';
@@ -94,6 +97,10 @@ export {
 } from './icons/DreamMachine';
 export { default as ElevenLabs, type CompoundedIcon as ElevenLabsProps } from './icons/ElevenLabs';
 export { default as ElevenX, type CompoundedIcon as ElevenXProps } from './icons/ElevenX';
+export {
+  default as EssentialAI,
+  type CompoundedIcon as EssentialAIProps,
+} from './icons/EssentialAI';
 export { default as Exa, type CompoundedIcon as ExaProps } from './icons/Exa';
 export { default as Fal, type CompoundedIcon as FalProps } from './icons/Fal';
 export { default as FastGPT, type CompoundedIcon as FastGPTProps } from './icons/FastGPT';
@@ -150,6 +157,7 @@ export {
   default as IFlyTekCloud,
   type CompoundedIcon as IFlyTekCloudProps,
 } from './icons/IFlyTekCloud';
+export { default as Inception, type CompoundedIcon as InceptionProps } from './icons/Inception';
 export { default as Inference, type CompoundedIcon as InferenceProps } from './icons/Inference';
 export { default as Infermatic, type CompoundedIcon as InfermaticProps } from './icons/Infermatic';
 export {
@@ -200,6 +208,7 @@ export { default as Mistral, type CompoundedIcon as MistralProps } from './icons
 export { default as ModelScope, type CompoundedIcon as ModelScopeProps } from './icons/ModelScope';
 export { default as Monica, type CompoundedIcon as MonicaProps } from './icons/Monica';
 export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './icons/Moonshot';
+export { default as Morph, type CompoundedIcon as MorphProps } from './icons/Morph';
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './icons/MyShell';
 export { default as N8n, type CompoundedIcon as N8nProps } from './icons/N8n';
 export { default as Nebius, type CompoundedIcon as NebiusProps } from './icons/Nebius';
@@ -240,6 +249,7 @@ export { default as Qiniu, type CompoundedIcon as QiniuProps } from './icons/Qin
 export { default as Qwen, type CompoundedIcon as QwenProps } from './icons/Qwen';
 export { default as Railway, type CompoundedIcon as RailwayProps } from './icons/Railway';
 export { default as Recraft, type CompoundedIcon as RecraftProps } from './icons/Recraft';
+export { default as Relace, type CompoundedIcon as RelaceProps } from './icons/Relace';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './icons/Replicate';
 export { default as Replit, type CompoundedIcon as ReplitProps } from './icons/Replit';
 export { default as RSSHub, type CompoundedIcon as RSSHubProps } from './icons/RSSHub';

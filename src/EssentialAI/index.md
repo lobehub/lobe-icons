@@ -2,8 +2,8 @@
 nav: Components
 group: Model
 title: Essential AI
-atomId: Essential AI
-description: https://www.essential.ai
+atomId: EssentialAI
+description: https://essential.ai
 ---
 
 ## Icons

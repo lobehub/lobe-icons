@@ -3,7 +3,7 @@ nav: Components
 group: Model
 title: Morph
 atomId: Morph
-description: https://www.morphllm.com/
+description: https://morphllm.com
 ---
 
 ## Icons

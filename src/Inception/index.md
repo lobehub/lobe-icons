@@ -3,7 +3,7 @@ nav: Components
 group: Model
 title: Inception Labs
 atomId: Inception
-description: https://relace.ai
+description: https://inceptionlabs.ai
 ---
 
 ## Icons

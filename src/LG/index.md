@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: LG AI (KMMLU/EXAONE)
 atomId: LG
-description: https://www.lgresearch.ai
+description: https://lgresearch.ai
 ---
 
 ## Icons

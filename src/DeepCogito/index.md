@@ -2,8 +2,8 @@
 nav: Components
 group: Model
 title: Deep Cogito
-atomId: Deep Cogito
-description: https://www.deepcogito.com/
+atomId: DeepCogito
+description: https://deepcogito.com
 ---
 
 ## Icons

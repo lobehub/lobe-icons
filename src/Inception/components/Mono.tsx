@@ -9,18 +9,17 @@ import { TITLE } from '../style';
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
   return (
     <svg
-      fill="none"
+      fill="currentColor"
+      fillRule="evenodd"
       height={size}
       style={{ flex: 'none', lineHeight: 1, ...style }}
-      viewBox="0 0 28 28"
+      viewBox="0 0 24 24"
       width={size}
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
       <title>{TITLE}</title>
-      <g fill="currentColor">
-        <path d="M17.055.372H8.527L-.002 8.9v8.528h8.529V8.9h8.528zM10.2 27.628h8.527l8.529-8.528v-8.528h-8.529V19.1H10.2z" />
-      </g>
+      <path d="M14.767 1H7.884L1 7.883v6.884h6.884V7.883h6.883V1zM9.234 23h6.882L23 16.116V9.233h-6.884v6.883H9.234V23z" />
     </svg>
   );
 });

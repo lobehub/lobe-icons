@@ -385,7 +385,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#008C8C',
-    desc: 'https://www.arcee.ai/',
+    desc: 'https://arcee.ai/',
     docsUrl: 'arcee',
     fullTitle: 'Arcee',
     group: 'model',
@@ -1284,7 +1284,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#4e81ee',
-    desc: 'https://www.deepcogito.com/',
+    desc: 'https://deepcogito.com',
     docsUrl: 'deep-cogito',
     fullTitle: 'Deep Cogito',
     group: 'model',
@@ -1532,7 +1532,7 @@ const toc: IconToc[] = [
   {
     color: '#111322',
     colorGradient: 'linear-gradient(135deg, #5E38A5, #31018C 63%)',
-    desc: 'https://www.essential.ai',
+    desc: 'https://essential.ai',
     docsUrl: 'essential-ai',
     fullTitle: 'Essential AI',
     group: 'model',
@@ -2276,7 +2276,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#fff',
-    desc: 'https://relace.ai',
+    desc: 'https://inceptionlabs.ai',
     docsUrl: 'inception',
     fullTitle: 'Inception Labs',
     group: 'model',
@@ -2544,7 +2544,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#C00C3F',
-    desc: 'https://www.lgresearch.ai',
+    desc: 'https://lgresearch.ai',
     docsUrl: 'lg',
     fullTitle: 'LG AI (KMMLU/EXAONE)',
     group: 'provider',
@@ -2983,7 +2983,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#FF5C00',
-    desc: 'https://www.menlo.ai',
+    desc: 'https://menlo.ai',
     docsUrl: 'menlo',
     fullTitle: 'MENLO (Lucy/Jan-nano)',
     group: 'provider',
@@ -3195,7 +3195,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#000',
-    desc: 'https://www.morphllm.com/',
+    desc: 'https://morphllm.com',
     docsUrl: 'morph',
     fullTitle: 'Morph',
     group: 'model',
@@ -3882,7 +3882,7 @@ const toc: IconToc[] = [
     title: 'Recraft',
   },
   {
-    color: '#fff',
+    color: '#000',
     desc: 'https://relace.ai',
     docsUrl: 'relace',
     fullTitle: 'Relace',
@@ -3913,7 +3913,7 @@ const toc: IconToc[] = [
       hasBrandColor: false,
       hasColor: false,
       hasCombine: false,
-      hasText: false,
+      hasText: true,
       hasTextCn: false,
       hasTextColor: false,
     },
@@ -4055,7 +4055,7 @@ const toc: IconToc[] = [
   },
   {
     color: '#6E29F6',
-    desc: 'https://www.siliconflow.com',
+    desc: 'https://siliconflow.com',
     docsUrl: 'silicon-cloud',
     fullTitle: 'SiliconCloud (SiliconFlow)',
     group: 'provider',

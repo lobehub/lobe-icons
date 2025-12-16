@@ -3,7 +3,7 @@ nav: Components
 group: Model
 title: Arcee
 atomId: Arcee
-description: https://www.arcee.ai/
+description: https://arcee.ai/
 ---
 
 ## Icons

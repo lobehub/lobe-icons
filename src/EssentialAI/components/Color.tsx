@@ -2,37 +2,38 @@
 
 import { memo } from 'react';
 
+import { useFillId } from '@/hooks/useFillId';
 import type { IconType } from '@/types';
 
 import { TITLE } from '../style';
 
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
+  const { fill, id } = useFillId(TITLE);
   return (
     <svg
-      fill="none"
       height={size}
       style={{ flex: 'none', lineHeight: 1, ...style }}
-      viewBox="0 0 26 23"
+      viewBox="0 0 24 24"
       width={size}
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
       <title>{TITLE}</title>
       <path
-        d="M3.764 9.41a9.41 9.41 0 1 0 18.82 0h3.765A13.175 13.175 0 0 1 0 9.41zm15.056 0a5.646 5.646 0 1 1-11.292 0zM13.174 0a9.41 9.41 0 0 1 9.41 9.41H18.82a5.646 5.646 0 1 0-11.292 0H3.764A9.41 9.41 0 0 1 13.174 0"
-        fill="url(#a)"
+        d="M3.429 10.75c0 2.32.903 4.546 2.51 6.187A8.484 8.484 0 0012 19.5a8.484 8.484 0 006.06-2.563 8.843 8.843 0 002.511-6.187H24c0 3.249-1.264 6.365-3.515 8.662A11.877 11.877 0 0112 23c-3.183 0-6.235-1.29-8.485-3.588A12.38 12.38 0 010 10.75h3.429zm13.714 0a5.306 5.306 0 01-1.507 3.712A5.09 5.09 0 0112 16a5.09 5.09 0 01-3.637-1.538 5.306 5.306 0 01-1.506-3.712h10.286zM12 2c2.273 0 4.453.922 6.06 2.563a8.843 8.843 0 012.511 6.187h-3.428a5.306 5.306 0 00-1.507-3.712A5.09 5.09 0 0012 5.5a5.09 5.09 0 00-3.637 1.538 5.306 5.306 0 00-1.506 3.712H3.43c0-2.32.903-4.546 2.51-6.187A8.484 8.484 0 0112 2z"
+        fill={fill}
       />
       <defs>
         <radialGradient
           cx="0"
           cy="0"
-          gradientTransform="rotate(50.66 8.108 -.572)scale(37.58 68.1138)"
+          gradientTransform="matrix(21.6991 27.0254 -47.9838 40.1491 2.3 -4.025)"
           gradientUnits="userSpaceOnUse"
-          id="a"
+          id={id}
           r="1"
         >
-          <stop stopColor="#6a46ac" />
-          <stop offset=".63" stopColor="#31008c" />
+          <stop stopColor="#6A46AC" />
+          <stop offset=".63" stopColor="#31008C" />
         </radialGradient>
       </defs>
     </svg>
