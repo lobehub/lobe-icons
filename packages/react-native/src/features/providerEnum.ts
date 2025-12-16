@@ -50,6 +50,7 @@ export enum RNModelProvider {
   Player2 = 'Player2',
   Qiniu = 'qiniu',
   Qwen = 'qwen',
+  Replicate = 'replicate',
   SambaNova = 'sambanova',
   Search1API = 'search1api',
   SenseNova = 'sensenova',

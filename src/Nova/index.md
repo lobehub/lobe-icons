@@ -3,7 +3,7 @@ nav: Components
 group: Model
 title: Nova (AWS)
 atomId: Nova
-description: https://aws.amazon.com/cn/ai/generative-ai/nova
+description: https://nova.amazon.com/
 ---
 
 ## Icons

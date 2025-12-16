@@ -16,6 +16,7 @@ export default () => (
   <Flexbox gap={16} horizontal>
     <LobeHub size={64} />
     <LobeHub.Color size={64} />
+    <LobeHub.Morden size={64} />
   </Flexbox>
 );
 ```

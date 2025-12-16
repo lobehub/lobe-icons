@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: MENLO (Lucy/Jan-nano)
 atomId: Menlo
-description: https://www.menlo.ai
+description: https://menlo.ai
 ---
 
 ## Icons

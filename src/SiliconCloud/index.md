@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: SiliconCloud (SiliconFlow)
 atomId: SiliconCloud
-description: https://www.siliconflow.com
+description: https://siliconflow.com
 ---
 
 ## Icons

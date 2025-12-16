@@ -79,9 +79,17 @@ import Voyage from '@/Voyage';
 import Wenxin from '@/Wenxin';
 import Yi from '@/Yi';
 import ZAI from '@/ZAI';
+import Nova from '@/Nova';
+import Kwaipilot from '@/Kwaipilot';
+import Ai2 from '@/Ai2';
+import Arcee from '@/Arcee';
+import DeepCogito from '@/DeepCogito';
+import EssentialAI from '@/EssentialAI';
+import Inception from '@/Inception';
+import Morph from '@/Morph';
+import Relace from '@/Relace';
 import type { IconAvatarProps } from '@/features/IconAvatar';
 import type { IconCombineProps } from '@/features/IconCombine';
-import { Kwaipilot } from '@/icons';
 import type { IconType } from '@/types';
 
 type ModelIconType = FC<IconType & any> & {
@@ -143,16 +151,25 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Aws, keywords: ['titan'] },
   { Icon: Fireworks, keywords: ['accounts/fireworks/models/fire'] },
   { Icon: InternLM, keywords: ['internlm', 'internvl'] },
-  { Icon: NousResearch, keywords: ['deephermes', 'hermes', 'genstruct', 'minos'] },
+  {
+    Icon: NousResearch,
+    keywords: ['deephermes', 'hermes', 'genstruct', 'minos'],
+  },
   { Icon: Nvidia, keywords: ['nemotron', 'openreasoning'] },
   { Icon: Meta, keywords: ['llama', '/l3'] },
   { Icon: LLaVA, keywords: ['llava'] },
   { Icon: Gemini, keywords: ['gemini'] },
-  { Icon: DeepMind, keywords: ['^imagen-', '/imagen-', '^imagen\\d/', '/imagen\\d'] },
+  {
+    Icon: DeepMind,
+    keywords: ['^imagen-', '/imagen-', '^imagen\\d/', '/imagen\\d'],
+  },
   { Icon: Gemma, keywords: ['gemma'] },
   { Icon: Moonshot, keywords: ['kimi', 'moonshot'] },
   { Icon: Qiniu, keywords: ['qiniu'] },
-  { Icon: Qwen, keywords: ['qwen', 'qwq', 'qvq', 'wanx', 'wan\\d/', 'wan\\d\\.\\d-', 'tongyi'] },
+  {
+    Icon: Qwen,
+    keywords: ['qwen', 'qwq', 'qvq', 'wanx', 'wan\\d/', 'wan\\d\\.\\d-', 'tongyi'],
+  },
   { Icon: Minimax, keywords: ['minimax', 'abab', '^image-'] },
   {
     Icon: Mistral,
@@ -172,6 +189,27 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Perplexity, keywords: ['pplx', 'sonar'] },
   { Icon: Yi, keywords: ['^yi-', '/yi-', '-yi-'] },
   { Icon: OpenRouter, keywords: ['^openrouter'] },
+  { Icon: Relace, keywords: ['^relace-', '/relace-'] },
+  {
+    Icon: Arcee,
+    keywords: [
+      '^trinity-',
+      '/trinity-',
+      'afm-4.5b',
+      'caller-large',
+      'spotlight',
+      'maestro-reasoning',
+      'virtuoso-medium-v2',
+      'virtuoso-large',
+      'coder-large',
+      'arcee-blitz',
+    ],
+  },
+  { Icon: EssentialAI, keywords: ['^rnj-', '/rnj-'] },
+  { Icon: DeepCogito, keywords: ['^deepcogito-', '/deepcogito-'] },
+  { Icon: Morph, keywords: ['^morph-', '/morph-'] },
+  { Icon: Ai2, keywords: ['^olmo-', '/olmo-'] },
+  { Icon: Inception, keywords: ['^mercury-', '/mercury-'] },
   { Icon: OpenChat, keywords: ['^openchat'] },
   { Icon: Aya, keywords: ['aya'] },
   { Icon: Cohere, keywords: ['command'] },
@@ -204,7 +242,10 @@ export const modelMappings: ModelMapping[] = [
   },
   { Icon: Flux, keywords: ['flux'] },
   { Icon: Suno, keywords: ['suno'] },
-  { Icon: Microsoft, keywords: ['wizardlm', '/phi-', '^phi-', '-phi-', 'mai-', 'microsoft'] },
+  {
+    Icon: Microsoft,
+    keywords: ['wizardlm', '/phi-', '^phi-', '-phi-', 'mai-', 'microsoft'],
+  },
   { Icon: Adobe, keywords: ['firefly'] },
   { Icon: Ai21, keywords: ['jamba', '^j2-', 'ai21'] },
   { Icon: Upstage, keywords: ['^solar-', '/solar'] },
@@ -251,4 +292,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Menlo, keywords: ['menlo', 'lucy', 'jan-nano'] },
   { Icon: LongCat, keywords: ['longcat'] },
   { Icon: Kwaipilot, keywords: ['kat-'] },
+  { Icon: Nova, keywords: ['^nova-', '/nova-'] },
 ];
