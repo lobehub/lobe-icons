@@ -38,6 +38,7 @@ import { Flexbox } from 'react-layout-kit';
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
     <KwaiKAT.Combine size={64} />
+    <KwaiKAT.Combine type={'color'} size={64} />
   </Flexbox>
 );
 ```
