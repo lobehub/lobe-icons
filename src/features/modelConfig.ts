@@ -79,9 +79,17 @@ import Voyage from '@/Voyage';
 import Wenxin from '@/Wenxin';
 import Yi from '@/Yi';
 import ZAI from '@/ZAI';
+import Nova from '@/Nova';
+import Kwaipilot from '@/Kwaipilot';
+import Ai2 from '@/Ai2';
+import Arcee from '@/Arcee';
+import DeepCogito from '@/DeepCogito';
+import EssentialAI from '@/EssentialAI';
+import Inception from '@/Inception';
+import Morph from '@/Morph';
+import Relace from '@/Relace';
 import type { IconAvatarProps } from '@/features/IconAvatar';
 import type { IconCombineProps } from '@/features/IconCombine';
-import { Ai2, Arcee, DeepCogito, EssentialAI, Inception, Kwaipilot, Morph, Relace } from '@/icons';
 import type { IconType } from '@/types';
 
 type ModelIconType = FC<IconType & any> & {
@@ -284,4 +292,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Menlo, keywords: ['menlo', 'lucy', 'jan-nano'] },
   { Icon: LongCat, keywords: ['longcat'] },
   { Icon: Kwaipilot, keywords: ['kat-'] },
+  { Icon: Nova, keywords: ['^nova-', '/nova-'] },
 ];
