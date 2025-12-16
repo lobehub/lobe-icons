@@ -2,6 +2,52 @@
 
 # Changelog
 
+## [Version 2.46.0](https://github.com/lobehub/lobe-icons/compare/v2.45.0...v2.46.0)
+
+<sup>Released on **2025-12-16**</sup>
+
+#### ✨ Features
+
+- **misc**: Add and update logos for various model providers, add and update logos for various model providers, Add SearchApi, associate 'nova-' to Nova icons.
+
+#### 🐛 Bug Fixes
+
+- **searchapi**: Namespace SVG IDs and normalize viewBox to prevent DOM collisions.
+- **misc**: Fix some icon style.
+
+#### 💄 Styles
+
+- **searchapi**: Update icon to new design.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add and update logos for various model providers ([8c6e1bf](https://github.com/lobehub/lobe-icons/commit/8c6e1bf))
+- **misc**: Add and update logos for various model providers ([f880c74](https://github.com/lobehub/lobe-icons/commit/f880c74))
+- **misc**: Add SearchApi ([81296fc](https://github.com/lobehub/lobe-icons/commit/81296fc))
+- **misc**: Associate 'nova-' to Nova icons ([8d01b2c](https://github.com/lobehub/lobe-icons/commit/8d01b2c))
+
+#### What's fixed
+
+- **searchapi**: Namespace SVG IDs and normalize viewBox to prevent DOM collisions ([f1305ab](https://github.com/lobehub/lobe-icons/commit/f1305ab))
+- **misc**: Fix some icon style ([aeb5c63](https://github.com/lobehub/lobe-icons/commit/aeb5c63))
+
+#### Styles
+
+- **searchapi**: Update icon to new design ([675e418](https://github.com/lobehub/lobe-icons/commit/675e418))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.45.0](https://github.com/lobehub/lobe-icons/compare/v2.44.0...v2.45.0)
 
 <sup>Released on **2025-12-09**</sup>
