@@ -1,21 +1,21 @@
 ---
 nav: Components
 group: Model
-title: Nova (AWS)
-atomId: Nova
-description: https://nova.amazon.com/
+title: Deep Cogito
+atomId: Deep Cogito
+description: https://www.deepcogito.com/
 ---
 
 ## Icons
 
 ```tsx
-import { Nova } from '@lobehub/icons';
+import { DeepCogito } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Nova size={64} />
-    <Nova.Color size={64} />
+    <DeepCogito size={64} />
+    <DeepCogito.Color size={64} />
   </Flexbox>
 );
 ```
@@ -23,21 +23,21 @@ export default () => (
 ## Text
 
 ```tsx
-import { Nova } from '@lobehub/icons';
+import { DeepCogito } from '@lobehub/icons';
 
-export default () => <Nova.Text size={48} />;
+export default () => <DeepCogito.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Nova } from '@lobehub/icons';
+import { DeepCogito } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <Nova.Combine size={64} />
-    <Nova.Combine size={64} type={'color'} />
+    <DeepCogito.Combine size={64} />
+    <DeepCogito.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -45,14 +45,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Nova } from '@lobehub/icons';
+import { DeepCogito } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Nova.Avatar size={64} background={Nova.colorPrimary} />
-    <Nova.Avatar size={64} />
-    <Nova.Avatar size={64} shape={'square'} />
+    <DeepCogito.Avatar size={64} />
+    <DeepCogito.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -60,15 +59,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Nova } from '@lobehub/icons';
+import { DeepCogito } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Nova.colorPrimary} />
-    <ColorPreview color={Nova.colorGradient} />
+    <ColorPreview color={DeepCogito.colorPrimary} />
   </Flexbox>
 );
 ```
