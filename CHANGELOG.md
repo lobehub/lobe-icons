@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 2.47.0](https://github.com/lobehub/lobe-icons/compare/v2.46.0...v2.47.0)
+
+<sup>Released on **2025-12-16**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add KwaiKat, CyberCut, CodeFlicker, StreamLake.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([61bb68b](https://github.com/lobehub/lobe-icons/commit/61bb68b))
+- **misc**: Add KwaiKat, CyberCut, CodeFlicker, StreamLake ([ec58d84](https://github.com/lobehub/lobe-icons/commit/ec58d84))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.46.0](https://github.com/lobehub/lobe-icons/compare/v2.45.0...v2.46.0)
 
 <sup>Released on **2025-12-16**</sup>
