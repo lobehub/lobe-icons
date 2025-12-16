@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.9.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.8.1...@lobehub/icons-rn@1.9.0)
+
+<sup>Released on **2025-12-16**</sup>
+
+#### ✨ Features
+
+- **misc**: Update RN.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Update RN ([7a1d2ec](https://github.com/lobehub/lobe-icons/commit/7a1d2ec))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.8.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@1.8.0...@lobehub/icons-rn@1.8.1)
 
 <sup>Released on **2025-12-16**</sup>
