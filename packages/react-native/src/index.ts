@@ -63,6 +63,10 @@ export { default as Claude, type CompoundedIcon as ClaudeProps } from './icons/C
 export { default as Cline, type CompoundedIcon as ClineProps } from './icons/Cline';
 export { default as Clipdrop, type CompoundedIcon as ClipdropProps } from './icons/Clipdrop';
 export { default as Cloudflare, type CompoundedIcon as CloudflareProps } from './icons/Cloudflare';
+export {
+  default as CodeFlicker,
+  type CompoundedIcon as CodeFlickerProps,
+} from './icons/CodeFlicker';
 export { default as CodeGeeX, type CompoundedIcon as CodeGeeXProps } from './icons/CodeGeeX';
 export { default as CogVideo, type CompoundedIcon as CogVideoProps } from './icons/CogVideo';
 export { default as CogView, type CompoundedIcon as CogViewProps } from './icons/CogView';
@@ -78,6 +82,7 @@ export { default as Coze, type CompoundedIcon as CozeProps } from './icons/Coze'
 export { default as CrewAI, type CompoundedIcon as CrewAIProps } from './icons/CrewAI';
 export { default as Crusoe, type CompoundedIcon as CrusoeProps } from './icons/Crusoe';
 export { default as Cursor, type CompoundedIcon as CursorProps } from './icons/Cursor';
+export { default as CyberCut, type CompoundedIcon as CyberCutProps } from './icons/CyberCut';
 export { default as Dalle, type CompoundedIcon as DalleProps } from './icons/Dalle';
 export { default as Dbrx, type CompoundedIcon as DbrxProps } from './icons/Dbrx';
 export { default as DeepAI, type CompoundedIcon as DeepAIProps } from './icons/DeepAI';
@@ -173,6 +178,7 @@ export { default as Kling, type CompoundedIcon as KlingProps } from './icons/Kli
 export { default as Kluster, type CompoundedIcon as KlusterProps } from './icons/Kluster';
 export { default as Kolors, type CompoundedIcon as KolorsProps } from './icons/Kolors';
 export { default as Krea, type CompoundedIcon as KreaProps } from './icons/Krea';
+export { default as KwaiKAT, type CompoundedIcon as KwaiKATProps } from './icons/KwaiKAT';
 export { default as Kwaipilot, type CompoundedIcon as KwaipilotProps } from './icons/Kwaipilot';
 export { default as Lambda, type CompoundedIcon as LambdaProps } from './icons/Lambda';
 export { default as LangChain, type CompoundedIcon as LangChainProps } from './icons/LangChain';
@@ -273,6 +279,7 @@ export { default as Stability, type CompoundedIcon as StabilityProps } from './i
 export { default as StateCloud, type CompoundedIcon as StateCloudProps } from './icons/StateCloud';
 export { default as Stepfun, type CompoundedIcon as StepfunProps } from './icons/Stepfun';
 export { default as Straico, type CompoundedIcon as StraicoProps } from './icons/Straico';
+export { default as StreamLake, type CompoundedIcon as StreamLakeProps } from './icons/StreamLake';
 export { default as SubModel, type CompoundedIcon as SubModelProps } from './icons/SubModel';
 export { default as Suno, type CompoundedIcon as SunoProps } from './icons/Suno';
 export { default as Sync, type CompoundedIcon as SyncProps } from './icons/Sync';
