@@ -1,5 +1,6 @@
 import { Snippet } from '@lobehub/ui';
 import { Features, FeaturesProps } from '@lobehub/ui/awesome';
+import { Link } from 'dumi';
 import { Expand, GitPullRequest, Trees } from 'lucide-react';
 import { Center, Flexbox } from 'react-layout-kit';
 
@@ -32,12 +33,8 @@ export default () => {
       <Center>
         <h2 style={{ fontSize: 20 }}>To install Lobe Icons, run the following command:</h2>
         <Snippet language={'bash'}>{'$ bun add @lobehub/icons'}</Snippet>
-        <div style={{ marginTop: 16 }}>
-          <a
-            href="https://www.producthunt.com/products/lobe-icons?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-lobe&#0045;icons"
-            rel="noreferrer"
-            target="_blank"
-          >
+        <div style={{ marginTop: 16, zIndex: 100 }}>
+          <Link to="https://www.producthunt.com/products/lobe-icons?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-lobe&#0045;icons">
             <img
               alt="Lobe&#0032;Icons - A&#0032;Collection&#0032;of&#0032;AI&#0032;Company&#0032;&#0032;&#0047;&#0032;LLM&#0032;Model&#0032;Logo | Product Hunt"
               height="54"
@@ -45,7 +42,7 @@ export default () => {
               style={{ height: 54, width: 250 }}
               width="250"
             />
-          </a>
+          </Link>
         </div>
       </Center>
       <Dashboard />
