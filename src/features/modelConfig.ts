@@ -1,12 +1,14 @@
 import { FC } from 'react';
 
 import Adobe from '@/Adobe';
+import Ai2 from '@/Ai2';
 import Ai21 from '@/Ai21';
 import Ai360 from '@/Ai360';
 import AiHubMix from '@/AiHubMix';
 import AiMass from '@/AiMass';
 import AionLabs from '@/AionLabs';
 import Anthropic from '@/Anthropic';
+import Arcee from '@/Arcee';
 import AssemblyAI from '@/AssemblyAI';
 import Aws from '@/Aws';
 import Aya from '@/Aya';
@@ -23,10 +25,12 @@ import CogView from '@/CogView';
 import Cohere from '@/Cohere';
 import Dalle from '@/Dalle';
 import Dbrx from '@/Dbrx';
+import DeepCogito from '@/DeepCogito';
 import DeepMind from '@/DeepMind';
 import DeepSeek from '@/DeepSeek';
 import Dolphin from '@/Dolphin';
 import Doubao from '@/Doubao';
+import EssentialAI from '@/EssentialAI';
 import Fireworks from '@/Fireworks';
 import FishAudio from '@/FishAudio';
 import Flux from '@/Flux';
@@ -38,10 +42,12 @@ import Grok from '@/Grok';
 import Hunyuan from '@/Hunyuan';
 import IBM from '@/IBM';
 import Ideogram from '@/Ideogram';
+import Inception from '@/Inception';
 import Inflection from '@/Inflection';
 import InternLM from '@/InternLM';
 import Jina from '@/Jina';
 import Kolors from '@/Kolors';
+import Kwaipilot from '@/Kwaipilot';
 import LG from '@/LG';
 import LLaVA from '@/LLaVA';
 import Liquid from '@/Liquid';
@@ -52,7 +58,9 @@ import Microsoft from '@/Microsoft';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import Moonshot from '@/Moonshot';
+import Morph from '@/Morph';
 import NousResearch from '@/NousResearch';
+import Nova from '@/Nova';
 import Nvidia from '@/Nvidia';
 import OpenAI from '@/OpenAI';
 import OpenChat from '@/OpenChat';
@@ -62,6 +70,7 @@ import Perplexity from '@/Perplexity';
 import Phind from '@/Phind';
 import Qiniu from '@/Qiniu';
 import Qwen from '@/Qwen';
+import Relace from '@/Relace';
 import Rwkv from '@/Rwkv';
 import SenseNova from '@/SenseNova';
 import Skywork from '@/Skywork';
@@ -77,17 +86,9 @@ import V0 from '@/V0';
 import VertexAI from '@/VertexAI';
 import Voyage from '@/Voyage';
 import Wenxin from '@/Wenxin';
+import XiaomiMiMo from '@/XiaomiMiMo';
 import Yi from '@/Yi';
 import ZAI from '@/ZAI';
-import Nova from '@/Nova';
-import Kwaipilot from '@/Kwaipilot';
-import Ai2 from '@/Ai2';
-import Arcee from '@/Arcee';
-import DeepCogito from '@/DeepCogito';
-import EssentialAI from '@/EssentialAI';
-import Inception from '@/Inception';
-import Morph from '@/Morph';
-import Relace from '@/Relace';
 import type { IconAvatarProps } from '@/features/IconAvatar';
 import type { IconCombineProps } from '@/features/IconCombine';
 import type { IconType } from '@/types';
@@ -155,7 +156,7 @@ export const modelMappings: ModelMapping[] = [
     Icon: NousResearch,
     keywords: ['deephermes', 'hermes', 'genstruct', 'minos'],
   },
-  { Icon: Nvidia, keywords: ['nemotron', 'openreasoning'] },
+  { Icon: Nvidia, keywords: ['nemotron', 'openreasoning', 'nemoretriever', 'neva-', 'nv-'] },
   { Icon: Meta, keywords: ['llama', '/l3'] },
   { Icon: LLaVA, keywords: ['llava'] },
   { Icon: Gemini, keywords: ['gemini'] },
@@ -293,4 +294,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: LongCat, keywords: ['longcat'] },
   { Icon: Kwaipilot, keywords: ['kat-'] },
   { Icon: Nova, keywords: ['^nova-', '/nova-'] },
+  { Icon: XiaomiMiMo, keywords: ['^mimo-', '/mimo-'] },
 ];
