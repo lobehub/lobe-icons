@@ -156,7 +156,7 @@ export const modelMappings: ModelMapping[] = [
     Icon: NousResearch,
     keywords: ['deephermes', 'hermes', 'genstruct', 'minos'],
   },
-  { Icon: Nvidia, keywords: ['nemotron', 'openreasoning'] },
+  { Icon: Nvidia, keywords: ['nemotron', 'openreasoning', 'nemoretriever', 'neva-', 'nv-'] },
   { Icon: Meta, keywords: ['llama', '/l3'] },
   { Icon: LLaVA, keywords: ['llava'] },
   { Icon: Gemini, keywords: ['gemini'] },
