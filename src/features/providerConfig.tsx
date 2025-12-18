@@ -77,6 +77,7 @@ import Volcengine from '@/Volcengine';
 import Wenxin from '@/Wenxin';
 import WorkersAI from '@/WorkersAI';
 import XAI from '@/XAI';
+import XiaomiMiMo from '@/XiaomiMiMo';
 import Xinference from '@/Xinference';
 import ZenMux from '@/ZenMux';
 import ZeroOne from '@/ZeroOne';
@@ -292,4 +293,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Cerebras, combineMultiple: 1, keywords: [ModelProvider.Cerebras] },
   { Icon: Straico, combineMultiple: 0.85, keywords: [ModelProvider.Straico] },
   { Icon: ZenMux, combineMultiple: 1, keywords: [ModelProvider.ZenMux], props: { inverse: true } },
+  { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [ModelProvider.XiaomiMiMo] },
 ];
