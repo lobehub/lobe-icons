@@ -4917,7 +4917,7 @@ const toc: IconToc[] = [
     title: 'Grok',
   },
   {
-    color: '#1F2329',
+    color: '#000',
     desc: 'https://platform.xiaomimimo.com',
     docsUrl: 'xiaomi-mi-mo',
     fullTitle: 'Xiaomi MiMo',

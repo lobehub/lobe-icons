@@ -21,12 +21,7 @@ export default () => <XiaomiMiMo size={64} />;
 import { XiaomiMiMo } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
-export default () => (
-  <Flexbox gap={16} horizontal>
-    <XiaomiMiMo.Text size={32} />
-    <XiaomiMiMo.Text size={32} style={{ color: '#1F2329' }} />
-  </Flexbox>
-);
+export default () => <XiaomiMiMo.Text size={32} />;
 ```
 
 ## Avatars
