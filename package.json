@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/icons",
-  "version": "2.48.0",
+  "version": "3.0.0",
   "description": "Popular AI / LLM Model Brand SVG Logo and Icon Collection",
   "keywords": [
     "lobehub",
@@ -85,7 +85,7 @@
     ]
   },
   "dependencies": {
-    "@lobehub/ui": "^2.24.1",
+    "@lobehub/ui": "^3.1.0",
     "antd-style": "^3.7.1",
     "lucide-react": "^0.469.0",
     "polished": "^4.3.1",
@@ -106,19 +106,19 @@
     "clean-package": "^2.2.0",
     "commitlint": "^19.8.1",
     "consola": "^3.4.2",
-    "cross-env": "^7.0.3",
-    "dotenv": "^16.6.1",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.3",
     "dpdm": "^3.14.0",
     "dumi": "^2.4.21",
-    "dumi-theme-lobehub": "^2.0.9",
+    "dumi-theme-lobehub": "^3.0.1",
     "eslint": "^8.57.1",
-    "father": "^4.6.9",
+    "father": "^4.6.11",
     "glob": "^11.1.0",
     "gray-matter": "^4.0.3",
     "husky": "^9.1.7",
-    "jsdom": "^25.0.1",
-    "lint-staged": "^15.5.2",
-    "lodash-es": "^4.17.21",
+    "jsdom": "^27.3.0",
+    "lint-staged": "^16.2.7",
+    "lodash-es": "^4.17.22",
     "markdown-table": "^3.0.4",
     "multi-semantic-release": "^3.1.0",
     "p-map": "^7.0.4",
@@ -136,7 +136,7 @@
     "vitest": "^3.2.4"
   },
   "peerDependencies": {
-    "antd": "^5.23.0",
+    "antd": "^6.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

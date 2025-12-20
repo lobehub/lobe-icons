@@ -80,7 +80,6 @@ export default defineConfig({
   jsMinifier: 'swc',
   locales: [{ id: 'en-US', name: 'English' }],
   mako: isWin || isProduction ? false : {},
-  mfsu: isWin ? undefined : {},
   npmClient: 'pnpm',
   publicPath: '/',
   resolve: isProduction
@@ -91,7 +90,6 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://icons.lobehub.com',
   },
-  ssr: isProduction ? {} : false,
   styles: [
     `html, body { background: transparent;  }
 
