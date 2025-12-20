@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 3.0.0](https://github.com/lobehub/lobe-icons/compare/v2.48.0...v3.0.0)
+
+<sup>Released on **2025-12-20**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Bump v3 \[force major].
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([3062dc9](https://github.com/lobehub/lobe-icons/commit/3062dc9))
+- **misc**: Bump v3 \[force major] ([08c7150](https://github.com/lobehub/lobe-icons/commit/08c7150))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.48.0](https://github.com/lobehub/lobe-icons/compare/v2.47.0...v2.48.0)
 
 <sup>Released on **2025-12-16**</sup>
