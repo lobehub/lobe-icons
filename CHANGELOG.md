@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 3.0.1](https://github.com/lobehub/lobe-icons/compare/v3.0.0...v3.0.1)
+
+<sup>Released on **2025-12-22**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Correct modelConfig for deepcogito and mercury from f880c74.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Correct modelConfig for deepcogito and mercury from f880c74, closes [#231](https://github.com/lobehub/lobe-icons/issues/231) ([8109ced](https://github.com/lobehub/lobe-icons/commit/8109ced))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 3.0.0](https://github.com/lobehub/lobe-icons/compare/v2.48.0...v3.0.0)
 
 <sup>Released on **2025-12-20**</sup>
