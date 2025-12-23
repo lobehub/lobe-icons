@@ -1,12 +1,11 @@
 'use client';
 
-import { ActionIcon, Block, CopyButton, Text } from '@lobehub/ui';
+import { ActionIcon, Block, Center, CopyButton, Flexbox, Text } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { Link } from 'dumi';
 import { DownloadIcon, SearchIcon } from 'lucide-react';
 import { readableColor } from 'polished';
 import { ReactNode, memo, useCallback, useRef } from 'react';
-import { Center, Flexbox } from 'react-layout-kit';
 
 import { customKebabCase } from '@/components/Dashboard/utils';
 

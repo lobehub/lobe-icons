@@ -10,7 +10,7 @@ description: https://aws.amazon.com/bedrock
 
 ```tsx
 import { Bedrock } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -32,7 +32,7 @@ export default () => <Bedrock.Text size={48} />;
 
 ```tsx
 import { Bedrock } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
@@ -46,7 +46,7 @@ export default () => (
 
 ```tsx
 import { Bedrock } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -61,7 +61,7 @@ export default () => (
 
 ```tsx
 import { Bedrock } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 import ColorPreview from '../components/ColorPreview';
 

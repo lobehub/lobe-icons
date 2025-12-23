@@ -1,7 +1,7 @@
+import { Flexbox } from '@lobehub/ui';
 import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
 import { createStyles } from 'antd-style';
 import { useEffect, useRef, useState } from 'react';
-import { Flexbox } from 'react-layout-kit';
 
 import { useSvgo } from '@/components/Editor/useSvgo';
 

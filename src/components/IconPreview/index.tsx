@@ -1,6 +1,6 @@
+import { Flexbox, FlexboxProps } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { ReactNode, Ref, memo, useRef } from 'react';
-import { Flexbox, FlexboxProps } from 'react-layout-kit';
 
 import DownloadButton from '@/components/DownloadButton';
 

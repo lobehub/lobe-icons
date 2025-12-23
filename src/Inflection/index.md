@@ -10,7 +10,7 @@ description: https://inflection.ai
 
 ```tsx
 import { Inflection } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => <Inflection size={64} />;
 ```
@@ -27,7 +27,7 @@ export default () => <Inflection.Text size={48} />;
 
 ```tsx
 import { Inflection } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
@@ -40,7 +40,7 @@ export default () => (
 
 ```tsx
 import { Inflection } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -54,7 +54,7 @@ export default () => (
 
 ```tsx
 import { Inflection } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 import ColorPreview from '../components/ColorPreview';
 

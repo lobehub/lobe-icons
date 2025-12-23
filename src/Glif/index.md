@@ -10,7 +10,7 @@ description: https://glif.app
 
 ```tsx
 import { Glif } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => <Glif size={64} />;
 ```
@@ -27,7 +27,7 @@ export default () => <Glif.Text size={48} />;
 
 ```tsx
 import { Glif } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -41,7 +41,7 @@ export default () => (
 
 ```tsx
 import { Glif } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 import ColorPreview from '../components/ColorPreview';
 

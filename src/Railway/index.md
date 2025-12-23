@@ -10,7 +10,7 @@ description: https://railway.com
 
 ```tsx
 import { Railway } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => <Railway size={64} />;
 ```
@@ -27,7 +27,7 @@ export default () => <Railway.Text size={48} />;
 
 ```tsx
 import { Railway } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
@@ -40,7 +40,7 @@ export default () => (
 
 ```tsx
 import { Railway } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -55,7 +55,7 @@ export default () => (
 
 ```tsx
 import { Railway } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 import ColorPreview from '../components/ColorPreview';
 

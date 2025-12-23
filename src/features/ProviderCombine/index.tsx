@@ -1,14 +1,16 @@
 'use client';
 
+import { Flexbox, FlexboxProps } from '@lobehub/ui';
 import { memo, useMemo } from 'react';
-import { Flexbox, FlexboxProps } from 'react-layout-kit';
 
 import DefaultIcon from '../ProviderIcon/DefaultIcon';
 import { providerMappings } from '../providerConfig';
 import { ModelProviderKey } from '../providerEnum';
 
-export interface ProviderCombineProps
-  extends Omit<FlexboxProps, 'children' | 'horizontal' | 'height' | 'width' | 'align' | 'justify'> {
+export interface ProviderCombineProps extends Omit<
+  FlexboxProps,
+  'children' | 'horizontal' | 'height' | 'width' | 'align' | 'justify'
+> {
   provider?: ModelProviderKey | string;
   size?: number;
   type?: 'mono' | 'color';

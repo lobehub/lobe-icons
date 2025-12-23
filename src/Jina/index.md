@@ -10,7 +10,7 @@ description: https://jina.ai
 
 ```tsx
 import { Jina } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -31,7 +31,7 @@ export default () => <Jina.Text size={48} />;
 
 ```tsx
 import { Jina } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -45,7 +45,7 @@ export default () => (
 
 ```tsx
 import { Jina } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 import ColorPreview from '../components/ColorPreview';
 

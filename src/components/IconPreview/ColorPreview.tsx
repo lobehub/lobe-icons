@@ -1,9 +1,8 @@
 'use client';
 
-import { CopyButton } from '@lobehub/ui';
+import { CopyButton, Flexbox } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
-import { Flexbox } from 'react-layout-kit';
 
 const useStyles = createStyles(({ css, token, cx }) => {
   return {
@@ -23,13 +22,13 @@ const useStyles = createStyles(({ css, token, cx }) => {
 
       width: 98px;
       height: 98px;
+      border: 1px solid ${token.colorBorder};
+      border-radius: ${token.borderRadius}px;
 
       font-family: ${token.fontFamilyCode};
       line-height: 1;
 
       background: ${token.colorBgContainer};
-      border: 1px solid ${token.colorBorder};
-      border-radius: ${token.borderRadius}px;
 
       &:hover {
         .copy-button {

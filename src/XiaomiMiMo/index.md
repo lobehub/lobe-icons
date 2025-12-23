@@ -10,7 +10,7 @@ description: https://platform.xiaomimimo.com
 
 ```tsx
 import { XiaomiMiMo } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => <XiaomiMiMo size={64} />;
 ```
@@ -19,7 +19,7 @@ export default () => <XiaomiMiMo size={64} />;
 
 ```tsx
 import { XiaomiMiMo } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => <XiaomiMiMo.Text size={32} />;
 ```
@@ -28,7 +28,7 @@ export default () => <XiaomiMiMo.Text size={32} />;
 
 ```tsx
 import { XiaomiMiMo } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -42,7 +42,7 @@ export default () => (
 
 ```tsx
 import { XiaomiMiMo } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 import ColorPreview from '../components/ColorPreview';
 

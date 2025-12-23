@@ -1,7 +1,6 @@
-import { DivProps } from '@lobehub/ui';
+import { DivProps, Flexbox } from '@lobehub/ui';
 import { Divider } from 'antd';
 import { ReactNode, memo } from 'react';
-import { Flexbox } from 'react-layout-kit';
 
 const Combine = memo<DivProps & { left: ReactNode; right: ReactNode; size: number }>(
   ({ left, right, size = 24, ...rest }) => {

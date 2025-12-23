@@ -10,7 +10,7 @@ description: https://firefly.adobe.com
 
 ```tsx
 import { AdobeFirefly } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -32,7 +32,7 @@ export default () => <AdobeFirefly.Text size={48} />;
 
 ```tsx
 import { AdobeFirefly } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => <AdobeFirefly.Combine size={64} />;
 ```
@@ -41,7 +41,7 @@ export default () => <AdobeFirefly.Combine size={64} />;
 
 ```tsx
 import { AdobeFirefly } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -55,7 +55,7 @@ export default () => (
 
 ```tsx
 import { AdobeFirefly } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 import ColorPreview from '../components/ColorPreview';
 

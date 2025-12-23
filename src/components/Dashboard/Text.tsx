@@ -1,10 +1,10 @@
 'use client';
 
 import * as Icons from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
 import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
-import { Flexbox } from 'react-layout-kit';
 
 import IconPreview from '@/components/IconPreview';
 

@@ -10,7 +10,7 @@ description: https://v0.dev
 
 ```tsx
 import { V0 } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => <V0 size={64} />;
 ```
@@ -19,7 +19,7 @@ export default () => <V0 size={64} />;
 
 ```tsx
 import { V0 } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -33,7 +33,7 @@ export default () => (
 
 ```tsx
 import { V0 } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 import ColorPreview from '../components/ColorPreview';
 

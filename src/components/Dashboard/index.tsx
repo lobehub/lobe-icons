@@ -1,11 +1,10 @@
 'use client';
 
 import * as Icons from '@lobehub/icons';
-import { Grid, SearchBar } from '@lobehub/ui';
+import { Flexbox, Grid, SearchBar } from '@lobehub/ui';
 import { Empty, Segmented } from 'antd';
 import { useTheme } from 'antd-style';
 import { memo, useMemo, useState } from 'react';
-import { Flexbox } from 'react-layout-kit';
 
 import IconItem from './IconItem';
 

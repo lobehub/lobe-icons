@@ -12,7 +12,7 @@ description: https://myshell.ai
 
 ```tsx
 import { MyShell } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -34,7 +34,7 @@ export default () => <MyShell.Text size={48} />;
 
 ```tsx
 import { MyShell } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
@@ -48,7 +48,7 @@ export default () => (
 
 ```tsx
 import { MyShell } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -62,7 +62,7 @@ export default () => (
 
 ```tsx
 import { MyShell } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 import ColorPreview from '../components/ColorPreview';
 

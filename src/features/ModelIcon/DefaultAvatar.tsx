@@ -1,6 +1,6 @@
+import { Center } from '@lobehub/ui';
 import { useTheme } from 'antd-style';
 import { memo } from 'react';
-import { Center } from 'react-layout-kit';
 
 import { IconAvatarProps } from '@/features/IconAvatar';
 

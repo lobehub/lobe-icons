@@ -10,7 +10,7 @@ description: https://deepmind.google/technologies/gemini
 
 ```tsx
 import { Gemini } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -32,7 +32,7 @@ export default () => <Gemini.Text size={48} />;
 
 ```tsx
 import { Gemini } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
@@ -46,7 +46,7 @@ export default () => (
 
 ```tsx
 import { Gemini } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
@@ -60,7 +60,7 @@ export default () => (
 
 ```tsx
 import { Gemini } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 import ColorPreview from '../components/ColorPreview';
 

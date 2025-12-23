@@ -1,9 +1,8 @@
 'use client';
 
-import { CopyButton, Tooltip } from '@lobehub/ui';
+import { CopyButton, Flexbox, Tooltip } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
-import { Flexbox } from 'react-layout-kit';
 
 const useStyles = createStyles(({ css, token, cx }) => {
   return {
@@ -21,10 +20,10 @@ const useStyles = createStyles(({ css, token, cx }) => {
 
       width: 98px;
       height: 98px;
-
-      background: ${token.colorBgContainer};
       border: 1px solid ${token.colorBorder};
       border-radius: ${token.borderRadius}px;
+
+      background: ${token.colorBgContainer};
 
       &:hover {
         .copy-button {

@@ -85,16 +85,15 @@
     ]
   },
   "dependencies": {
-    "@lobehub/ui": "^3.1.0",
     "antd-style": "^3.7.1",
     "lucide-react": "^0.469.0",
-    "polished": "^4.3.1",
-    "react-layout-kit": "^2.0.1"
+    "polished": "^4.3.1"
   },
   "devDependencies": {
     "@babel/runtime": "^7.28.4",
     "@commitlint/cli": "^19.8.1",
     "@lobehub/lint": "^1.26.3",
+    "@lobehub/ui": "^3.4.5",
     "@testing-library/react": "^16.3.1",
     "@types/lodash-es": "^4.17.12",
     "@types/pangu": "^4.0.2",
@@ -136,6 +135,7 @@
     "vitest": "^3.2.4"
   },
   "peerDependencies": {
+    "@lobehub/ui": "^3.4.5",
     "antd": "^6.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
