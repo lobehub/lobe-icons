@@ -1,0 +1,68 @@
+name: Manual Release CI
+on:
+  push:
+    branches:
+      - master
+      - alpha
+      - beta
+      - rc
+  workflow_dispatch:
+    inputs:
+      force_release:
+        description: 'Force release (bypass conventional commits)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+      release_type:
+        description: 'Release type (when force release is true)'
+        required: false
+        default: 'patch'
+        type: choice
+        options:
+          - 'patch'
+          - 'minor'
+          - 'major'
+
+permissions:
+  id-token: write # Required for OIDC
+  contents: write # Required for semantic-release to push tags and commits
+  issues: write # Required for semantic-release to create issues
+  pull-requests: write # Required for semantic-release to comment on PRs
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install deps
+        run: bun i
+
+      - name: CI
+        run: bun run ci
+
+      - name: Test
+        run: bun run test
+
+      - name: Build
+        run: bun run build
+
+      - name: Force Release Commit
+        if: github.event.inputs.force_release == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "🔧 chore(release): force ${{ github.event.inputs.release_type }} release"
+
+      - name: Release
+        run: bun run release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

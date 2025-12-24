@@ -109,7 +109,7 @@
     "dotenv": "^17.2.3",
     "dpdm": "^3.14.0",
     "dumi": "^2.4.21",
-    "dumi-theme-lobehub": "^3.0.1",
+    "dumi-theme-lobehub": "^4.0.0",
     "eslint": "^8.57.1",
     "father": "^4.6.11",
     "glob": "^11.1.0",
@@ -135,7 +135,7 @@
     "vitest": "^3.2.4"
   },
   "peerDependencies": {
-    "@lobehub/ui": "^3.4.5",
+    "@lobehub/ui": "^3.4.5 || ^4.0.0",
     "antd": "^6.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
