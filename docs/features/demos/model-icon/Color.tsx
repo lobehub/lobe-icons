@@ -1,5 +1,5 @@
 import { ModelIcon, modelMappings } from '@lobehub/icons';
-import { Flexbox } from 'react-layout-kit';
+import { Flexbox } from '@lobehub/ui';
 
 export default () => {
   return (

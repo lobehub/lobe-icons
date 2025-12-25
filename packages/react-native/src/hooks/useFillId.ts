@@ -1,4 +1,4 @@
-import { kebabCase } from 'lodash-es';
+import { kebabCase } from 'es-toolkit';
 import { useMemo } from 'react';
 
 export const useFillId = (namespace: string) => {

@@ -34,7 +34,7 @@
     "build": "npm run build:toc && father build && npm run build:rn",
     "build:rn": "bun run --cwd packages/react-native build",
     "build:static": "tsx scripts/svgWorkflow/index.ts",
-    "build:toc": "tsx scripts/tocWorkflow/index.ts",
+    "build:toc": "bun scripts/tocWorkflow/index.ts",
     "build:watch": "father dev",
     "ci": "npm run lint && npm run type-check",
     "clean": "rm -r es lib dist coverage .dumi/tmp .eslintcache node_modules/.cache",
@@ -85,7 +85,7 @@
     ]
   },
   "dependencies": {
-    "antd-style": "^3.7.1",
+    "antd-style": "^4.0.0",
     "lucide-react": "^0.469.0",
     "polished": "^4.3.1"
   },
@@ -93,9 +93,8 @@
     "@babel/runtime": "^7.28.4",
     "@commitlint/cli": "^19.8.1",
     "@lobehub/lint": "^1.26.3",
-    "@lobehub/ui": "^3.4.5",
+    "@lobehub/ui": "^4.1.2",
     "@testing-library/react": "^16.3.1",
-    "@types/lodash-es": "^4.17.12",
     "@types/pangu": "^4.0.2",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
@@ -110,6 +109,7 @@
     "dpdm": "^3.14.0",
     "dumi": "^2.4.21",
     "dumi-theme-lobehub": "^4.0.0",
+    "es-toolkit": "^1.43.0",
     "eslint": "^8.57.1",
     "father": "^4.6.11",
     "glob": "^11.1.0",
@@ -117,7 +117,6 @@
     "husky": "^9.1.7",
     "jsdom": "^27.3.0",
     "lint-staged": "^16.2.7",
-    "lodash-es": "^4.17.22",
     "markdown-table": "^3.0.4",
     "multi-semantic-release": "^3.1.0",
     "p-map": "^7.0.4",
@@ -135,7 +134,7 @@
     "vitest": "^3.2.4"
   },
   "peerDependencies": {
-    "@lobehub/ui": "^3.4.5 || ^4.0.0",
+    "@lobehub/ui": "^4.0.0",
     "antd": "^6.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

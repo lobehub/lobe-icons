@@ -1,7 +1,6 @@
-import { Snippet } from '@lobehub/ui';
+import { Snippet , Center, Flexbox } from '@lobehub/ui';
 import { Features, FeaturesProps } from '@lobehub/ui/awesome';
 import { Expand, GitPullRequest, Trees } from 'lucide-react';
-import { Center, Flexbox } from 'react-layout-kit';
 
 import Dashboard from '@/components/Dashboard';
 

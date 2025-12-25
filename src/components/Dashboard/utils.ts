@@ -1,4 +1,4 @@
-import { kebabCase } from 'lodash-es';
+import { kebabCase } from 'es-toolkit';
 
 export const customKebabCase = (string: string) => {
   const parts = string.match(/[A-Z]{2,}(?=[A-Z][a-z]+\d*|\b)|[A-Z]?[a-z]+\d*|[A-Z]|\d+/g);
