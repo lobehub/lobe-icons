@@ -1,6 +1,6 @@
 import { Flexbox } from '@lobehub/ui';
 import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
-import { createStyles } from 'antd-style';
+import { createStaticStyles } from 'antd-style';
 import { useEffect, useRef, useState } from 'react';
 
 import { useSvgo } from '@/components/Editor/useSvgo';
@@ -12,11 +12,11 @@ import Text from './Text';
 import { svgIcon } from './data';
 import { defaultPlugins } from './svgo';
 
-const useStyles = createStyles(({ css, token }) => {
+const styles = createStaticStyles(({ css, cssVar }) => {
   return {
     container: css`
-      border: 1px solid ${token.colorBorder};
-      border-radius: ${token.borderRadius}px;
+      border: 1px solid ${cssVar.colorBorder};
+      border-radius: ${cssVar.borderRadius};
     `,
   };
 });
@@ -26,7 +26,6 @@ export default () => {
   const [viewbox, setViewbox] = useState<string>('0 0 24 24');
   const [colorSvg, setColorSvg] = useState<string>('');
   const [monoSvg, setMonoSvg] = useState<string>('');
-  const { styles } = useStyles();
   const levaStore = useCreateStore();
   const { svg, text } = useControls(
     {

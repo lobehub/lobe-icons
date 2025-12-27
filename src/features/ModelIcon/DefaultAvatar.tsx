@@ -1,5 +1,5 @@
 import { Center } from '@lobehub/ui';
-import { useTheme } from 'antd-style';
+import { cssVar } from 'antd-style';
 import { memo } from 'react';
 
 import { IconAvatarProps } from '@/features/IconAvatar';
@@ -17,12 +17,11 @@ const DefaultAvatar = memo<Omit<IconAvatarProps, 'Icon'>>(
     iconStyle,
     iconClassName,
   }) => {
-    const theme = useTheme();
     return (
       <Center
         flex={'none'}
         style={{
-          background: background || theme.colorFillSecondary,
+          background: background || cssVar.colorFillSecondary,
           borderRadius: shape === 'circle' ? '50%' : Math.floor(size * 0.1),
           color,
           height: size,

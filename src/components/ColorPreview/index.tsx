@@ -1,10 +1,10 @@
 'use client';
 
 import { CopyButton, Flexbox, Tooltip } from '@lobehub/ui';
-import { createStyles } from 'antd-style';
+import { createStaticStyles, cx } from 'antd-style';
 import { memo } from 'react';
 
-const useStyles = createStyles(({ css, token, cx }) => {
+const styles = createStaticStyles(({ css, cssVar }) => {
   return {
     btn: cx(
       'copy-button',
@@ -20,10 +20,10 @@ const useStyles = createStyles(({ css, token, cx }) => {
 
       width: 98px;
       height: 98px;
-      border: 1px solid ${token.colorBorder};
-      border-radius: ${token.borderRadius}px;
+      border: 1px solid ${cssVar.colorBorder};
+      border-radius: ${cssVar.borderRadius};
 
-      background: ${token.colorBgContainer};
+      background: ${cssVar.colorBgContainer};
 
       &:hover {
         .copy-button {
@@ -39,8 +39,6 @@ export interface IconPreviewProps {
 }
 
 const IconPreview = memo<IconPreviewProps>(({ color }) => {
-  const { styles } = useStyles();
-
   return (
     <Tooltip title={color}>
       <Flexbox

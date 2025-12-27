@@ -1,10 +1,10 @@
 'use client';
 
 import { Flexbox, Highlighter } from '@lobehub/ui';
-import { createStyles } from 'antd-style';
+import { createStaticStyles } from 'antd-style';
 import { memo } from 'react';
 
-const useStyles = createStyles(({ css }) => {
+const styles = createStaticStyles(({ css }) => {
   return {
     code: css`
       pre {
@@ -27,7 +27,6 @@ interface PreviewProps {
 }
 
 const Preview = memo<PreviewProps>(({ svg, title, viewbox, textMode }) => {
-  const { styles } = useStyles();
   const sizeAttributes = textMode
     ? `height={size}
       style={{ flex: 'none', lineHeight: 1, ...style }}`

@@ -1,10 +1,10 @@
 'use client';
 
 import { Flexbox, Highlighter } from '@lobehub/ui';
-import { createStyles } from 'antd-style';
+import { createStaticStyles } from 'antd-style';
 import { memo } from 'react';
 
-const useStyles = createStyles(({ css }) => {
+const styles = createStaticStyles(({ css }) => {
   return {
     code: css`
       pre {
@@ -26,8 +26,6 @@ interface PreviewProps {
 }
 
 const Preview = memo<PreviewProps>(({ svg, title, viewbox }) => {
-  const { styles } = useStyles();
-
   return (
     <Flexbox flex={'none'} gap={16} style={{ position: 'relative', width: '100%' }}>
       <Flexbox align={'center'} gap={8} horizontal>

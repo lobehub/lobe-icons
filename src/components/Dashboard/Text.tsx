@@ -3,24 +3,23 @@
 import * as Icons from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
 import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
-import { createStyles } from 'antd-style';
+import { createStaticStyles } from 'antd-style';
 import { memo } from 'react';
 
 import IconPreview from '@/components/IconPreview';
 
 const data = Object.values(Icons).filter((icon: any) => icon?.colorPrimary);
 
-const useStyles = createStyles(({ css, token }) => ({
+const styles = createStaticStyles(({ css, cssVar }) => ({
   item: css`
     height: 96px;
     padding: 16px;
     border: none;
-    background: ${token.colorBgContainer};
+    background: ${cssVar.colorBgContainer};
   `,
 }));
 
 const Dashboard = memo<{ className: string }>(({ className }) => {
-  const { styles } = useStyles();
   const store = useCreateStore();
 
   const { size, color } = useControls(

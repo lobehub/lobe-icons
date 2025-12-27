@@ -3,7 +3,7 @@
 import * as Icons from '@lobehub/icons';
 import { Flexbox, Grid, SearchBar } from '@lobehub/ui';
 import { Empty, Segmented } from 'antd';
-import { useTheme } from 'antd-style';
+import { cssVar } from 'antd-style';
 import { memo, useMemo, useState } from 'react';
 
 import IconItem from './IconItem';
@@ -14,7 +14,6 @@ enum ColorType {
 }
 
 const Dashboard = memo(() => {
-  const theme = useTheme();
   const [type, setType] = useState<ColorType>(ColorType.Color);
   const [keyword, setKeyword] = useState<string>();
 
@@ -60,7 +59,7 @@ const Dashboard = memo(() => {
             },
           ]}
           style={{
-            border: `1px solid ${theme.colorBorder}`,
+            border: `1px solid ${cssVar.colorBorder}`,
           }}
         />
       </Flexbox>

@@ -1,7 +1,7 @@
 'use client';
 
 import { ActionIcon, Block, Center, CopyButton, Flexbox, Text } from '@lobehub/ui';
-import { createStyles } from 'antd-style';
+import { createStaticStyles, cx } from 'antd-style';
 import { Link } from 'dumi';
 import { DownloadIcon, SearchIcon } from 'lucide-react';
 import { readableColor } from 'polished';
@@ -9,7 +9,7 @@ import { ReactNode, memo, useCallback, useRef } from 'react';
 
 import { customKebabCase } from '@/components/Dashboard/utils';
 
-const useStyles = createStyles(({ cx, css, token }) => {
+const styles = createStaticStyles(({ css, cssVar }) => {
   const colorText = cx(
     'color-text',
     css`
@@ -29,8 +29,8 @@ const useStyles = createStyles(({ cx, css, token }) => {
       overflow: hidden;
     `,
     color: css`
-      border-inline-end: 1px solid ${token.colorBorderSecondary};
-      font-family: ${token.fontFamilyCode};
+      border-inline-end: 1px solid ${cssVar.colorBorderSecondary};
+      font-family: ${cssVar.fontFamilyCode};
 
       &:hover {
         .color-text {
@@ -45,7 +45,7 @@ const useStyles = createStyles(({ cx, css, token }) => {
     colorText,
     copy,
     row: css`
-      border-block-start: 1px solid ${token.colorFillSecondary};
+      border-block-start: 1px solid ${cssVar.colorFillSecondary};
     `,
     title: css`
       margin: 0;
@@ -72,7 +72,6 @@ interface IconItemProps {
 }
 
 const IconItem = memo<IconItemProps>(({ children, title, color, id }) => {
-  const { styles } = useStyles();
   const ref = useRef<HTMLDivElement>(null);
 
   const handleDownload = useCallback((iconId: string) => {

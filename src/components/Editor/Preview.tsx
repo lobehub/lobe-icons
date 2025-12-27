@@ -1,10 +1,10 @@
 import { Flexbox, Highlighter, Tag } from '@lobehub/ui';
-import { createStyles } from 'antd-style';
+import { createStaticStyles } from 'antd-style';
 import { Ref, memo } from 'react';
 
 import IconPreview from '@/components/IconPreview';
 
-const useStyles = createStyles(({ css }) => {
+const styles = createStaticStyles(({ css }) => {
   return {
     code: css`
       flex: 1;
@@ -30,8 +30,6 @@ interface PreviewProps {
 }
 
 const Preview = memo<PreviewProps>(({ svg, title, precent, ref }) => {
-  const { styles } = useStyles();
-
   return (
     <Flexbox flex={'none'} gap={16} style={{ position: 'relative', width: '100%' }}>
       <Flexbox align={'center'} gap={8} horizontal>

@@ -1,10 +1,10 @@
 import { Flexbox, FlexboxProps } from '@lobehub/ui';
-import { createStyles } from 'antd-style';
+import { createStaticStyles, cx } from 'antd-style';
 import { ReactNode, Ref, memo, useRef } from 'react';
 
 import DownloadButton from '@/components/DownloadButton';
 
-const useStyles = createStyles(({ css, token, cx }) => {
+const styles = createStaticStyles(({ css, cssVar }) => {
   return {
     btn: cx(
       'copy-button',
@@ -21,12 +21,12 @@ const useStyles = createStyles(({ css, token, cx }) => {
       flex: none;
 
       padding: 12px;
-      border: 1px solid ${token.colorBorder};
-      border-radius: ${token.borderRadius}px;
+      border: 1px solid ${cssVar.colorBorder};
+      border-radius: ${cssVar.borderRadius};
 
       line-height: 1;
 
-      background: ${token.colorBgContainer};
+      background: ${cssVar.colorBgContainer};
 
       &:hover {
         .copy-button {
@@ -56,7 +56,6 @@ export interface IconPreviewProps extends FlexboxProps {
 }
 
 const IconPreview = memo<IconPreviewProps>(({ className, children, ...rest }) => {
-  const { cx, styles } = useStyles();
   const ref = useRef<HTMLDivElement>(null);
   const isString = typeof children === 'string';
 
