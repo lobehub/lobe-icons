@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 4.0.2](https://github.com/lobehub/lobe-icons/compare/v4.0.1...v4.0.2)
+
+<sup>Released on **2025-12-27**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix build.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix build ([d7cea8d](https://github.com/lobehub/lobe-icons/commit/d7cea8d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 4.0.1](https://github.com/lobehub/lobe-icons/compare/v4.0.0...v4.0.1)
 
 <sup>Released on **2025-12-27**</sup>
