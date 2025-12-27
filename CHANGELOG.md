@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 4.0.1](https://github.com/lobehub/lobe-icons/compare/v4.0.0...v4.0.1)
+
+<sup>Released on **2025-12-27**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor static syle.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor static syle ([d68ac63](https://github.com/lobehub/lobe-icons/commit/d68ac63))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 4.0.0](https://github.com/lobehub/lobe-icons/compare/v3.0.2...v4.0.0)
 
 <sup>Released on **2025-12-25**</sup>
