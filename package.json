@@ -93,7 +93,7 @@
     "@babel/runtime": "^7.28.4",
     "@commitlint/cli": "^19.8.1",
     "@lobehub/lint": "^1.26.3",
-    "@lobehub/ui": "^4.3.3",
+    "@lobehub/ui": "^4.4.5",
     "@testing-library/react": "^16.3.1",
     "@types/pangu": "^4.0.2",
     "@types/react": "^19.2.7",
