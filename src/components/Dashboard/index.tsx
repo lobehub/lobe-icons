@@ -1,7 +1,7 @@
 'use client';
 
 import * as Icons from '@lobehub/icons';
-import { Flexbox, Grid, SearchBar } from '@lobehub/ui';
+import { Flexbox, Grid, SearchBar, TooltipGroup } from '@lobehub/ui';
 import { Empty, Segmented } from 'antd';
 import { cssVar } from 'antd-style';
 import { memo, useMemo, useState } from 'react';
@@ -63,20 +63,22 @@ const Dashboard = memo(() => {
           }}
         />
       </Flexbox>
-      {iconsGroup.length > 0 ? (
-        <Grid maxItemWidth={160} rows={5}>
-          {iconsGroup.map(([key, Icon]: [string, any]) => {
-            const IconRender = isMono ? Icon : Icon.Color || Icon;
-            return (
-              <IconItem color={Icon.colorPrimary} id={key} key={key} title={Icon.title}>
-                <IconRender size={56} />
-              </IconItem>
-            );
-          })}
-        </Grid>
-      ) : (
-        <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />
-      )}
+      <TooltipGroup>
+        {iconsGroup.length > 0 ? (
+          <Grid maxItemWidth={160} rows={5}>
+            {iconsGroup.map(([key, Icon]: [string, any]) => {
+              const IconRender = isMono ? Icon : Icon.Color || Icon;
+              return (
+                <IconItem color={Icon.colorPrimary} id={key} key={key} title={Icon.title}>
+                  <IconRender size={56} />
+                </IconItem>
+              );
+            })}
+          </Grid>
+        ) : (
+          <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />
+        )}
+      </TooltipGroup>
     </Flexbox>
   );
 });
