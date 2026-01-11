@@ -1,18 +1,33 @@
 export interface LobeIconCdnConfig {
-  cdn?: 'aliyun' | 'unpkg';
+  cdn?: 'github' | 'aliyun' | 'unpkg';
   format?: 'svg' | 'png' | 'webp';
   isDarkMode?: boolean;
   type?: 'mono' | 'color' | 'text' | 'text-cn' | 'text-color' | 'brand' | 'brand-color';
 }
 
+const GITHUB_ICON_CDN = (type: LobeIconCdnConfig['format']) =>
+  `https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-${type}`;
 const ALIYUN_ICON_CDN = (type: LobeIconCdnConfig['format']) =>
   `https://registry.npmmirror.com/@lobehub/icons-static-${type}/latest/files`;
 const UNPKG_ICON_CDN = (type: LobeIconCdnConfig['format']) =>
   `https://unpkg.com/@lobehub/icons-static-${type}@latest`;
 
 export const getLobeIconCDN = (id: string, config?: LobeIconCdnConfig): string => {
-  const { format = 'png', isDarkMode = false, type = 'color', cdn = 'aliyun' } = config || {};
-  const baseUrl = cdn === 'unpkg' ? UNPKG_ICON_CDN(format) : ALIYUN_ICON_CDN(format);
+  const { format = 'png', isDarkMode = false, type = 'color', cdn = 'github' } = config || {};
+  let baseUrl = '';
+  switch (cdn) {
+    case 'github': {
+      baseUrl = GITHUB_ICON_CDN(format);
+      break;
+    }
+    case 'unpkg': {
+      baseUrl = UNPKG_ICON_CDN(format);
+      break;
+    }
+    case 'aliyun': {
+      baseUrl = ALIYUN_ICON_CDN(format);
+    }
+  }
 
   const addon = type === 'mono' ? '' : `-${type}`;
 
