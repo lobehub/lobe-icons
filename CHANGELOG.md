@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 4.0.3](https://github.com/lobehub/lobe-icons/compare/v4.0.2...v4.0.3)
+
+<sup>Released on **2026-01-11**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: GetLobeIconCDN.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: GetLobeIconCDN ([abef2a2](https://github.com/lobehub/lobe-icons/commit/abef2a2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 4.0.2](https://github.com/lobehub/lobe-icons/compare/v4.0.1...v4.0.2)
 
 <sup>Released on **2025-12-27**</sup>
