@@ -516,6 +516,11 @@ $ bun start
 
 Contributions of all types are more than welcome, if you are interested in contributing code, feel free to check out our GitHub [Issues][github-issues-link] to get stuck in to show us what you’re made of.
 
+
+### ✨ Authors
+
+- **LiJian** - Contributor
+
 [![][pr-welcome-shield]][pr-welcome-link]
 
 [![][contributors-contrib]][contributors-link]
