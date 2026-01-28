@@ -19,6 +19,7 @@ export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './Any
 export { default as Apple, type CompoundedIcon as AppleProps } from './Apple';
 export { default as Arcee, type CompoundedIcon as ArceeProps } from './Arcee';
 export { default as AssemblyAI, type CompoundedIcon as AssemblyAIProps } from './AssemblyAI';
+export { default as AtlasCloud, type CompoundedIcon as AtlasCloudProps } from './AtlasCloud';
 export { default as Automatic, type CompoundedIcon as AutomaticProps } from './Automatic';
 export { default as Aws, type CompoundedIcon as AwsProps } from './Aws';
 export { default as Aya, type CompoundedIcon as AyaProps } from './Aya';

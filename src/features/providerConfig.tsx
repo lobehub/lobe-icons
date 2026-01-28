@@ -15,6 +15,7 @@ import AntGroup from '@/AntGroup';
 import Anthropic from '@/Anthropic';
 import Anyscale from '@/Anyscale';
 import Apple from '@/Apple';
+import AtlasCloud from '@/AtlasCloud';
 import Aws from '@/Aws';
 import Azure from '@/Azure';
 import AzureAI from '@/AzureAI';
@@ -384,6 +385,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Nebius, combineMultiple: 0.75, keywords: [ModelProvider.Nebius] },
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [ModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [ModelProvider.AkashChat] },
+  { Icon: AtlasCloud, combineMultiple: 0.8, keywords: [ModelProvider.AtlasCloud] },
   { Icon: SophNet, combineMultiple: 0.85, keywords: [ModelProvider.SophNet] },
   {
     Combine: memo(({ size = 24, ...props }) => (
