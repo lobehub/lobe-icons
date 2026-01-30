@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 4.1.0](https://github.com/lobehub/lobe-icons/compare/v4.0.3...v4.1.0)
+
+<sup>Released on **2026-01-30**</sup>
+
+#### ✨ Features
+
+- **misc**: Add new model providers and update provider mappings in providerConfig and providerEnum.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add new model providers and update provider mappings in providerConfig and providerEnum ([0d424fe](https://github.com/lobehub/lobe-icons/commit/0d424fe))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 4.0.3](https://github.com/lobehub/lobe-icons/compare/v4.0.2...v4.0.3)
 
 <sup>Released on **2026-01-11**</sup>
