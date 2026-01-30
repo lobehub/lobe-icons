@@ -6,53 +6,92 @@ import Ai302 from '@/Ai302';
 import Ai360 from '@/Ai360';
 import AiHubMix from '@/AiHubMix';
 import AiMass from '@/AiMass';
+import AiStudio from '@/AiStudio';
 import AkashChat from '@/AkashChat';
+import AlephAlpha from '@/AlephAlpha';
+import Alibaba from '@/Alibaba';
 import AlibabaCloud from '@/AlibabaCloud';
+import AntGroup from '@/AntGroup';
 import Anthropic from '@/Anthropic';
+import Anyscale from '@/Anyscale';
+import Apple from '@/Apple';
 import Aws from '@/Aws';
 import Azure from '@/Azure';
 import AzureAI from '@/AzureAI';
 import Baichuan from '@/Baichuan';
+import Baidu from '@/Baidu';
 import BaiduCloud from '@/BaiduCloud';
+import Bailian from '@/Bailian';
+import Baseten from '@/Baseten';
 import Bedrock from '@/Bedrock';
 import Bfl from '@/Bfl';
+import Bilibili from '@/Bilibili';
 import BurnCloud from '@/BurnCloud';
+import ByteDance from '@/ByteDance';
+import CentML from '@/CentML';
 import Cerebras from '@/Cerebras';
+import Civitai from '@/Civitai';
 import Claude from '@/Claude';
 import Cloudflare from '@/Cloudflare';
 import Cohere from '@/Cohere';
 import CometAPI from '@/CometAPI';
 import ComfyUI from '@/ComfyUI';
+import Copilot from '@/Copilot';
+import Crusoe from '@/Crusoe';
+import DeepInfra from '@/DeepInfra';
+import DeepMind from '@/DeepMind';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
+import Exa from '@/Exa';
 import Fal from '@/Fal';
+import Featherless from '@/Featherless';
 import Fireworks from '@/Fireworks';
+import Friendli from '@/Friendli';
 import Gemini from '@/Gemini';
 import GiteeAI from '@/GiteeAI';
 import Github from '@/Github';
+import GithubCopilot from '@/GithubCopilot';
 import Google from '@/Google';
+import GoogleCloud from '@/GoogleCloud';
 import Groq from '@/Groq';
 import Higress from '@/Higress';
+import Huawei from '@/Huawei';
+import HuaweiCloud from '@/HuaweiCloud';
 import HuggingFace from '@/HuggingFace';
 import Hunyuan from '@/Hunyuan';
+import Hyperbolic from '@/Hyperbolic';
+import IBM from '@/IBM';
+import IFlyTekCloud from '@/IFlyTekCloud';
+import Inference from '@/Inference';
+import Infermatic from '@/Infermatic';
 import Infinigence from '@/Infinigence';
 import InternLM from '@/InternLM';
 import Jina from '@/Jina';
+import Kluster from '@/Kluster';
+import LG from '@/LG';
+import Lambda from '@/Lambda';
+import LeptonAI from '@/LeptonAI';
 import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
 import LongCat from '@/LongCat';
+import Menlo from '@/Menlo';
+import Meta from '@/Meta';
+import Microsoft from '@/Microsoft';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import ModelScope from '@/ModelScope';
 import Moonshot from '@/Moonshot';
+import NPLCloud from '@/NPLCloud';
 import Nebius from '@/Nebius';
 import NewAPI from '@/NewAPI';
+import NousResearch from '@/NousResearch';
 import Novita from '@/Novita';
 import Nvidia from '@/Nvidia';
 import Ollama from '@/Ollama';
 import OpenAI from '@/OpenAI';
 import OpenRouter from '@/OpenRouter';
 import PPIO from '@/PPIO';
+import Parasail from '@/Parasail';
 import Perplexity from '@/Perplexity';
 import Player2 from '@/Player2';
 import Qiniu from '@/Qiniu';
@@ -60,12 +99,21 @@ import Qwen from '@/Qwen';
 import Replicate from '@/Replicate';
 import SambaNova from '@/SambaNova';
 import Search1API from '@/Search1API';
+import SearchApi from '@/SearchApi';
 import SenseNova from '@/SenseNova';
 import SiliconCloud from '@/SiliconCloud';
+import Snowflake from '@/Snowflake';
 import SophNet from '@/SophNet';
 import Spark from '@/Spark';
+import Stability from '@/Stability';
+import StateCloud from '@/StateCloud';
 import Stepfun from '@/Stepfun';
 import Straico from '@/Straico';
+import StreamLake from '@/StreamLake';
+import SubModel from '@/SubModel';
+import TII from '@/TII';
+import Targon from '@/Targon';
+import Tencent from '@/Tencent';
 import TencentCloud from '@/TencentCloud';
 import Together from '@/Together';
 import Upstage from '@/Upstage';
@@ -79,6 +127,7 @@ import WorkersAI from '@/WorkersAI';
 import XAI from '@/XAI';
 import XiaomiMiMo from '@/XiaomiMiMo';
 import Xinference from '@/Xinference';
+import Yandex from '@/Yandex';
 import ZenMux from '@/ZenMux';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
@@ -107,6 +156,55 @@ export interface ProviderMapping {
 }
 
 export const providerMappings: ProviderMapping[] = [
+  { Icon: Alibaba, keywords: [ModelProvider.Alibaba] },
+  { Icon: AlephAlpha, keywords: [ModelProvider.AlephAlpha] },
+  { Icon: AntGroup, keywords: [ModelProvider.AntGroup] },
+  { Icon: Anyscale, keywords: [ModelProvider.Anyscale] },
+  { Icon: Apple, keywords: [ModelProvider.Apple] },
+  { Icon: Baidu, keywords: [ModelProvider.Baidu] },
+  { Icon: Bailian, keywords: [ModelProvider.Bailian] },
+  { Icon: Baseten, keywords: [ModelProvider.Baseten] },
+  { Icon: Bilibili, keywords: [ModelProvider.Bilibili] },
+  { Icon: ByteDance, keywords: [ModelProvider.ByteDance] },
+  { Icon: CentML, keywords: [ModelProvider.CentML] },
+  { Icon: Civitai, keywords: [ModelProvider.Civitai] },
+  { Icon: Crusoe, keywords: [ModelProvider.Crusoe] },
+  { Icon: DeepInfra, keywords: [ModelProvider.DeepInfra] },
+  { Icon: DeepMind, keywords: [ModelProvider.DeepMind] },
+  { Icon: Exa, keywords: [ModelProvider.Exa] },
+  { Icon: Featherless, keywords: [ModelProvider.Featherless] },
+  { Icon: Friendli, keywords: [ModelProvider.Friendli] },
+  { Icon: GoogleCloud, keywords: [ModelProvider.GoogleCloud] },
+  { Icon: Huawei, keywords: [ModelProvider.Huawei] },
+  { Icon: HuaweiCloud, keywords: [ModelProvider.HuaweiCloud] },
+  { Icon: Hyperbolic, keywords: [ModelProvider.Hyperbolic] },
+  { Icon: IBM, keywords: [ModelProvider.IBM] },
+  { Icon: IFlyTekCloud, keywords: [ModelProvider.IFlyTekCloud] },
+  { Icon: Inference, keywords: [ModelProvider.Inference] },
+  { Icon: Infermatic, keywords: [ModelProvider.Infermatic] },
+  { Icon: Kluster, keywords: [ModelProvider.Kluster] },
+  { Icon: Lambda, keywords: [ModelProvider.Lambda] },
+  { Icon: LeptonAI, keywords: [ModelProvider.LeptonAI] },
+  { Icon: LG, keywords: [ModelProvider.LG] },
+  { Icon: Menlo, keywords: [ModelProvider.Menlo] },
+  { Icon: Meta, keywords: [ModelProvider.Meta] },
+  { Icon: Microsoft, keywords: [ModelProvider.Microsoft] },
+  { Icon: NPLCloud, keywords: [ModelProvider.NPLCloud] },
+  { Icon: NousResearch, keywords: [ModelProvider.NousResearch] },
+  { Icon: Parasail, keywords: [ModelProvider.Parasail] },
+  { Icon: SearchApi, keywords: [ModelProvider.SearchApi] },
+  { Icon: Snowflake, keywords: [ModelProvider.Snowflake] },
+  { Icon: Stability, keywords: [ModelProvider.Stability] },
+  { Icon: StateCloud, keywords: [ModelProvider.StateCloud] },
+  { Icon: StreamLake, keywords: [ModelProvider.StreamLake] },
+  { Icon: SubModel, keywords: [ModelProvider.SubModel] },
+  { Icon: Targon, keywords: [ModelProvider.Targon] },
+  { Icon: Tencent, keywords: [ModelProvider.Tencent] },
+  { Icon: TII, keywords: [ModelProvider.TII] },
+  { Icon: Yandex, keywords: [ModelProvider.Yandex] },
+
+  { Icon: AiMass, keywords: [ModelProvider.AiMass] },
+  { Icon: AiStudio, keywords: [ModelProvider.AiStudio] },
   { Icon: LobeHub, combineMultiple: 1.1, keywords: [ModelProvider.LobeHub] },
   { Icon: Zhipu, combineMultiple: 1.25, keywords: [ModelProvider.ZhiPu] },
   {
@@ -205,6 +303,12 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Ai21, combineMultiple: 0.9, keywords: [ModelProvider.Ai21] },
   { Icon: Player2, combineMultiple: 0.9, keywords: [ModelProvider.Player2] },
   { Icon: Github, combineMultiple: 0.95, keywords: [ModelProvider.Github] },
+  {
+    Icon: GithubCopilot,
+    combineMultiple: 0.95,
+    keywords: [ModelProvider.GithubCopilot, 'github-copilot'],
+  },
+  { Icon: Copilot, combineMultiple: 0.95, keywords: [ModelProvider.Copilot] },
   { Icon: Doubao, keywords: [ModelProvider.Doubao] },
   { Icon: Hunyuan, keywords: [ModelProvider.Hunyuan] },
   { Icon: Nvidia, keywords: [ModelProvider.Nvidia] },
@@ -270,7 +374,11 @@ export const providerMappings: ProviderMapping[] = [
     Icon: Vercel,
     keywords: [ModelProvider.V0],
   },
-  { Icon: Vercel, combineMultiple: 0.85, keywords: [ModelProvider.Vercel] },
+  {
+    Icon: Vercel,
+    combineMultiple: 0.85,
+    keywords: [ModelProvider.Vercel, ModelProvider.VercelAIGateway],
+  },
   { Icon: Bfl, keywords: [ModelProvider.Bfl] },
   { Icon: Replicate, combineMultiple: 0.9, keywords: [ModelProvider.Replicate] },
   { Icon: Nebius, combineMultiple: 0.75, keywords: [ModelProvider.Nebius] },
