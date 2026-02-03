@@ -3597,7 +3597,7 @@ const toc: IconToc[] = [
     color: '#ff4d4d',
     desc: 'https://openclaw.dev',
     docsUrl: 'open-claw',
-    fullTitle: 'OpenClaw (Moltbot/Clawbot)',
+    fullTitle: 'OpenClaw (MoltBot/ClawdBot)',
     group: 'application',
     id: 'OpenClaw',
     param: {

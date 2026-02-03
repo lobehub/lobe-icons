@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Application
-title: OpenClaw (Moltbot/Clawbot)
+title: OpenClaw (MoltBot/ClawdBot)
 atomId: OpenClaw
 description: https://openclaw.dev
 ---
