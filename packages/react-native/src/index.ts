@@ -33,6 +33,7 @@ export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './ico
 export { default as Apple, type CompoundedIcon as AppleProps } from './icons/Apple';
 export { default as Arcee, type CompoundedIcon as ArceeProps } from './icons/Arcee';
 export { default as AssemblyAI, type CompoundedIcon as AssemblyAIProps } from './icons/AssemblyAI';
+export { default as AtlasCloud, type CompoundedIcon as AtlasCloudProps } from './icons/AtlasCloud';
 export { default as Automatic, type CompoundedIcon as AutomaticProps } from './icons/Automatic';
 export { default as Aws, type CompoundedIcon as AwsProps } from './icons/Aws';
 export { default as Aya, type CompoundedIcon as AyaProps } from './icons/Aya';
@@ -196,6 +197,7 @@ export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './ico
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './icons/LobeHub';
 export { default as LongCat, type CompoundedIcon as LongCatProps } from './icons/LongCat';
 export { default as Lovable, type CompoundedIcon as LovableProps } from './icons/Lovable';
+export { default as Lovart, type CompoundedIcon as LovartProps } from './icons/Lovart';
 export { default as Luma, type CompoundedIcon as LumaProps } from './icons/Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './icons/Magic';
 export { default as Make, type CompoundedIcon as MakeProps } from './icons/Make';
@@ -233,6 +235,7 @@ export { default as Nvidia, type CompoundedIcon as NvidiaProps } from './icons/N
 export { default as Ollama, type CompoundedIcon as OllamaProps } from './icons/Ollama';
 export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './icons/OpenAI';
 export { default as OpenChat, type CompoundedIcon as OpenChatProps } from './icons/OpenChat';
+export { default as OpenClaw, type CompoundedIcon as OpenClawProps } from './icons/OpenClaw';
 export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './icons/OpenRouter';
 export { default as OpenWebUI, type CompoundedIcon as OpenWebUIProps } from './icons/OpenWebUI';
 export { default as PaLM, type CompoundedIcon as PaLMProps } from './icons/PaLM';
@@ -319,6 +322,7 @@ export { default as Wenxin, type CompoundedIcon as WenxinProps } from './icons/W
 export { default as Windsurf, type CompoundedIcon as WindsurfProps } from './icons/Windsurf';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './icons/WorkersAI';
 export { default as XAI, type CompoundedIcon as XAIProps } from './icons/XAI';
+export { default as XiaomiMiMo, type CompoundedIcon as XiaomiMiMoProps } from './icons/XiaomiMiMo';
 export { default as Xinference, type CompoundedIcon as XinferenceProps } from './icons/Xinference';
 export { default as Xuanyuan, type CompoundedIcon as XuanyuanProps } from './icons/Xuanyuan';
 export { default as Yandex, type CompoundedIcon as YandexProps } from './icons/Yandex';

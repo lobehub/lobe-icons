@@ -32,9 +32,9 @@
   "scripts": {
     "auto-converter-web-icons-to-rn": "tsx scripts/rn-conversion/auto-converter.ts --lint",
     "build": "npm run build:toc && father build && npm run build:rn",
-    "build:rn": "bun run --cwd packages/react-native build",
+    "build:rn": "tsx run --cwd packages/react-native build",
     "build:static": "tsx scripts/svgWorkflow/index.ts",
-    "build:toc": "bun scripts/tocWorkflow/index.ts",
+    "build:toc": "tsx scripts/tocWorkflow/index.ts",
     "build:watch": "father dev",
     "ci": "npm run lint && npm run type-check",
     "clean": "rm -r es lib dist coverage .dumi/tmp .eslintcache node_modules/.cache",

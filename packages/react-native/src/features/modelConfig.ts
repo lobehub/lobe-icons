@@ -86,6 +86,7 @@ import V0 from '../icons/V0';
 import VertexAI from '../icons/VertexAI';
 import Voyage from '../icons/Voyage';
 import Wenxin from '../icons/Wenxin';
+import XiaomiMiMo from '../icons/XiaomiMiMo';
 import Yi from '../icons/Yi';
 import ZAI from '../icons/ZAI';
 import type { RNIconAvatarProps, RNIconCombineProps, RNIconProps } from './types';
@@ -153,7 +154,10 @@ export const rnModelMappings: RNModelMapping[] = [
     Icon: NousResearch,
     keywords: ['deephermes', 'hermes', 'genstruct', 'minos'],
   },
-  { Icon: Nvidia, keywords: ['nemotron', 'openreasoning'] },
+  {
+    Icon: Nvidia,
+    keywords: ['nemotron', 'openreasoning', 'nemoretriever', 'neva-', 'nv-'],
+  },
   { Icon: Meta, keywords: ['llama', '/l3'] },
   { Icon: LLaVA, keywords: ['llava'] },
   { Icon: Gemini, keywords: ['gemini'] },
@@ -204,10 +208,13 @@ export const rnModelMappings: RNModelMapping[] = [
     ],
   },
   { Icon: EssentialAI, keywords: ['^rnj-', '/rnj-'] },
-  { Icon: DeepCogito, keywords: ['^deepcogito-', '/deepcogito-'] },
+  {
+    Icon: DeepCogito,
+    keywords: ['^deepcogito-', '/deepcogito-', '^cogito-', '/cogito-'],
+  },
   { Icon: Morph, keywords: ['^morph-', '/morph-'] },
   { Icon: Ai2, keywords: ['^olmo-', '/olmo-'] },
-  { Icon: Inception, keywords: ['^mercury-', '/mercury-'] },
+  { Icon: Inception, keywords: ['^mercury', '/mercury'] },
   { Icon: OpenChat, keywords: ['^openchat'] },
   { Icon: Aya, keywords: ['aya'] },
   { Icon: Cohere, keywords: ['command'] },
@@ -291,4 +298,5 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: LongCat, keywords: ['longcat'] },
   { Icon: Kwaipilot, keywords: ['kat-'] },
   { Icon: Nova, keywords: ['^nova-', '/nova-'] },
+  { Icon: XiaomiMiMo, keywords: ['^mimo-', '/mimo-'] },
 ];

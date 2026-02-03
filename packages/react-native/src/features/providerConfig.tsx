@@ -5,53 +5,93 @@ import Ai302 from '../icons/Ai302';
 import Ai360 from '../icons/Ai360';
 import AiHubMix from '../icons/AiHubMix';
 import AiMass from '../icons/AiMass';
+import AiStudio from '../icons/AiStudio';
 import AkashChat from '../icons/AkashChat';
+import AlephAlpha from '../icons/AlephAlpha';
+import Alibaba from '../icons/Alibaba';
 import AlibabaCloud from '../icons/AlibabaCloud';
+import AntGroup from '../icons/AntGroup';
 import Anthropic from '../icons/Anthropic';
+import Anyscale from '../icons/Anyscale';
+import Apple from '../icons/Apple';
+import AtlasCloud from '../icons/AtlasCloud';
 import Aws from '../icons/Aws';
 import Azure from '../icons/Azure';
 import AzureAI from '../icons/AzureAI';
 import Baichuan from '../icons/Baichuan';
+import Baidu from '../icons/Baidu';
 import BaiduCloud from '../icons/BaiduCloud';
+import Bailian from '../icons/Bailian';
+import Baseten from '../icons/Baseten';
 import Bedrock from '../icons/Bedrock';
 import Bfl from '../icons/Bfl';
+import Bilibili from '../icons/Bilibili';
 import BurnCloud from '../icons/BurnCloud';
+import ByteDance from '../icons/ByteDance';
+import CentML from '../icons/CentML';
 import Cerebras from '../icons/Cerebras';
+import Civitai from '../icons/Civitai';
 import Claude from '../icons/Claude';
 import Cloudflare from '../icons/Cloudflare';
 import Cohere from '../icons/Cohere';
 import CometAPI from '../icons/CometAPI';
 import ComfyUI from '../icons/ComfyUI';
+import Copilot from '../icons/Copilot';
+import Crusoe from '../icons/Crusoe';
+import DeepInfra from '../icons/DeepInfra';
+import DeepMind from '../icons/DeepMind';
 import DeepSeek from '../icons/DeepSeek';
 import Doubao from '../icons/Doubao';
+import Exa from '../icons/Exa';
 import Fal from '../icons/Fal';
+import Featherless from '../icons/Featherless';
 import Fireworks from '../icons/Fireworks';
+import Friendli from '../icons/Friendli';
 import Gemini from '../icons/Gemini';
 import GiteeAI from '../icons/GiteeAI';
 import Github from '../icons/Github';
+import GithubCopilot from '../icons/GithubCopilot';
 import Google from '../icons/Google';
+import GoogleCloud from '../icons/GoogleCloud';
 import Groq from '../icons/Groq';
 import Higress from '../icons/Higress';
+import Huawei from '../icons/Huawei';
+import HuaweiCloud from '../icons/HuaweiCloud';
 import HuggingFace from '../icons/HuggingFace';
 import Hunyuan from '../icons/Hunyuan';
+import Hyperbolic from '../icons/Hyperbolic';
+import IBM from '../icons/IBM';
+import IFlyTekCloud from '../icons/IFlyTekCloud';
+import Inference from '../icons/Inference';
+import Infermatic from '../icons/Infermatic';
 import Infinigence from '../icons/Infinigence';
 import InternLM from '../icons/InternLM';
 import Jina from '../icons/Jina';
+import Kluster from '../icons/Kluster';
+import LG from '../icons/LG';
+import Lambda from '../icons/Lambda';
+import LeptonAI from '../icons/LeptonAI';
 import LmStudio from '../icons/LmStudio';
 import LobeHub from '../icons/LobeHub';
 import LongCat from '../icons/LongCat';
+import Menlo from '../icons/Menlo';
+import Meta from '../icons/Meta';
+import Microsoft from '../icons/Microsoft';
 import Minimax from '../icons/Minimax';
 import Mistral from '../icons/Mistral';
 import ModelScope from '../icons/ModelScope';
 import Moonshot from '../icons/Moonshot';
+import NPLCloud from '../icons/NPLCloud';
 import Nebius from '../icons/Nebius';
 import NewAPI from '../icons/NewAPI';
+import NousResearch from '../icons/NousResearch';
 import Novita from '../icons/Novita';
 import Nvidia from '../icons/Nvidia';
 import Ollama from '../icons/Ollama';
 import OpenAI from '../icons/OpenAI';
 import OpenRouter from '../icons/OpenRouter';
 import PPIO from '../icons/PPIO';
+import Parasail from '../icons/Parasail';
 import Perplexity from '../icons/Perplexity';
 import Player2 from '../icons/Player2';
 import Qiniu from '../icons/Qiniu';
@@ -59,12 +99,21 @@ import Qwen from '../icons/Qwen';
 import Replicate from '../icons/Replicate';
 import SambaNova from '../icons/SambaNova';
 import Search1API from '../icons/Search1API';
+import SearchApi from '../icons/SearchApi';
 import SenseNova from '../icons/SenseNova';
 import SiliconCloud from '../icons/SiliconCloud';
+import Snowflake from '../icons/Snowflake';
 import SophNet from '../icons/SophNet';
 import Spark from '../icons/Spark';
+import Stability from '../icons/Stability';
+import StateCloud from '../icons/StateCloud';
 import Stepfun from '../icons/Stepfun';
 import Straico from '../icons/Straico';
+import StreamLake from '../icons/StreamLake';
+import SubModel from '../icons/SubModel';
+import TII from '../icons/TII';
+import Targon from '../icons/Targon';
+import Tencent from '../icons/Tencent';
 import TencentCloud from '../icons/TencentCloud';
 import Together from '../icons/Together';
 import Upstage from '../icons/Upstage';
@@ -76,7 +125,9 @@ import Volcengine from '../icons/Volcengine';
 import Wenxin from '../icons/Wenxin';
 import WorkersAI from '../icons/WorkersAI';
 import XAI from '../icons/XAI';
+import XiaomiMiMo from '../icons/XiaomiMiMo';
 import Xinference from '../icons/Xinference';
+import Yandex from '../icons/Yandex';
 import ZenMux from '../icons/ZenMux';
 import ZeroOne from '../icons/ZeroOne';
 import Zhipu from '../icons/Zhipu';
@@ -102,6 +153,55 @@ export interface RNProviderMapping {
 }
 
 export const rnProviderMappings: RNProviderMapping[] = [
+  { Icon: Alibaba, keywords: [RNModelProvider.Alibaba] },
+  { Icon: AlephAlpha, keywords: [RNModelProvider.AlephAlpha] },
+  { Icon: AntGroup, keywords: [RNModelProvider.AntGroup] },
+  { Icon: Anyscale, keywords: [RNModelProvider.Anyscale] },
+  { Icon: Apple, keywords: [RNModelProvider.Apple] },
+  { Icon: Baidu, keywords: [RNModelProvider.Baidu] },
+  { Icon: Bailian, keywords: [RNModelProvider.Bailian] },
+  { Icon: Baseten, keywords: [RNModelProvider.Baseten] },
+  { Icon: Bilibili, keywords: [RNModelProvider.Bilibili] },
+  { Icon: ByteDance, keywords: [RNModelProvider.ByteDance] },
+  { Icon: CentML, keywords: [RNModelProvider.CentML] },
+  { Icon: Civitai, keywords: [RNModelProvider.Civitai] },
+  { Icon: Crusoe, keywords: [RNModelProvider.Crusoe] },
+  { Icon: DeepInfra, keywords: [RNModelProvider.DeepInfra] },
+  { Icon: DeepMind, keywords: [RNModelProvider.DeepMind] },
+  { Icon: Exa, keywords: [RNModelProvider.Exa] },
+  { Icon: Featherless, keywords: [RNModelProvider.Featherless] },
+  { Icon: Friendli, keywords: [RNModelProvider.Friendli] },
+  { Icon: GoogleCloud, keywords: [RNModelProvider.GoogleCloud] },
+  { Icon: Huawei, keywords: [RNModelProvider.Huawei] },
+  { Icon: HuaweiCloud, keywords: [RNModelProvider.HuaweiCloud] },
+  { Icon: Hyperbolic, keywords: [RNModelProvider.Hyperbolic] },
+  { Icon: IBM, keywords: [RNModelProvider.IBM] },
+  { Icon: IFlyTekCloud, keywords: [RNModelProvider.IFlyTekCloud] },
+  { Icon: Inference, keywords: [RNModelProvider.Inference] },
+  { Icon: Infermatic, keywords: [RNModelProvider.Infermatic] },
+  { Icon: Kluster, keywords: [RNModelProvider.Kluster] },
+  { Icon: Lambda, keywords: [RNModelProvider.Lambda] },
+  { Icon: LeptonAI, keywords: [RNModelProvider.LeptonAI] },
+  { Icon: LG, keywords: [RNModelProvider.LG] },
+  { Icon: Menlo, keywords: [RNModelProvider.Menlo] },
+  { Icon: Meta, keywords: [RNModelProvider.Meta] },
+  { Icon: Microsoft, keywords: [RNModelProvider.Microsoft] },
+  { Icon: NPLCloud, keywords: [RNModelProvider.NPLCloud] },
+  { Icon: NousResearch, keywords: [RNModelProvider.NousResearch] },
+  { Icon: Parasail, keywords: [RNModelProvider.Parasail] },
+  { Icon: SearchApi, keywords: [RNModelProvider.SearchApi] },
+  { Icon: Snowflake, keywords: [RNModelProvider.Snowflake] },
+  { Icon: Stability, keywords: [RNModelProvider.Stability] },
+  { Icon: StateCloud, keywords: [RNModelProvider.StateCloud] },
+  { Icon: StreamLake, keywords: [RNModelProvider.StreamLake] },
+  { Icon: SubModel, keywords: [RNModelProvider.SubModel] },
+  { Icon: Targon, keywords: [RNModelProvider.Targon] },
+  { Icon: Tencent, keywords: [RNModelProvider.Tencent] },
+  { Icon: TII, keywords: [RNModelProvider.TII] },
+  { Icon: Yandex, keywords: [RNModelProvider.Yandex] },
+
+  { Icon: AiMass, keywords: [RNModelProvider.AiMass] },
+  { Icon: AiStudio, keywords: [RNModelProvider.AiStudio] },
   { Icon: LobeHub, combineMultiple: 1.1, keywords: [RNModelProvider.LobeHub] },
   { Icon: Zhipu, combineMultiple: 1.25, keywords: [RNModelProvider.ZhiPu] },
   {
@@ -200,6 +300,12 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Ai21, combineMultiple: 0.9, keywords: [RNModelProvider.Ai21] },
   { Icon: Player2, combineMultiple: 0.9, keywords: [RNModelProvider.Player2] },
   { Icon: Github, combineMultiple: 0.95, keywords: [RNModelProvider.Github] },
+  {
+    Icon: GithubCopilot,
+    combineMultiple: 0.95,
+    keywords: [RNModelProvider.GithubCopilot, 'github-copilot'],
+  },
+  { Icon: Copilot, combineMultiple: 0.95, keywords: [RNModelProvider.Copilot] },
   { Icon: Doubao, keywords: [RNModelProvider.Doubao] },
   { Icon: Hunyuan, keywords: [RNModelProvider.Hunyuan] },
   { Icon: Nvidia, keywords: [RNModelProvider.Nvidia] },
@@ -265,12 +371,17 @@ export const rnProviderMappings: RNProviderMapping[] = [
     Icon: Vercel,
     keywords: [RNModelProvider.V0],
   },
-  { Icon: Vercel, combineMultiple: 0.85, keywords: [RNModelProvider.Vercel] },
+  {
+    Icon: Vercel,
+    combineMultiple: 0.85,
+    keywords: [RNModelProvider.Vercel, RNModelProvider.VercelAIGateway],
+  },
   { Icon: Bfl, keywords: [RNModelProvider.Bfl] },
   { Icon: Replicate, combineMultiple: 0.9, keywords: [RNModelProvider.Replicate] },
   { Icon: Nebius, combineMultiple: 0.75, keywords: [RNModelProvider.Nebius] },
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [RNModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [RNModelProvider.AkashChat] },
+  { Icon: AtlasCloud, combineMultiple: 0.8, keywords: [RNModelProvider.AtlasCloud] },
   { Icon: SophNet, combineMultiple: 0.85, keywords: [RNModelProvider.SophNet] },
   {
     Combine: memo(({ size = 24, ...props }) => (
@@ -293,4 +404,5 @@ export const rnProviderMappings: RNProviderMapping[] = [
     keywords: [RNModelProvider.ZenMux],
     props: { inverse: true },
   },
+  { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [RNModelProvider.XiaomiMiMo] },
 ];
