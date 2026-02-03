@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 4.2.0](https://github.com/lobehub/lobe-icons/compare/v4.1.0...v4.2.0)
+
+<sup>Released on **2026-02-03**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Update kimi.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([a88f09a](https://github.com/lobehub/lobe-icons/commit/a88f09a))
+
+#### Styles
+
+- **misc**: Update kimi ([5b8dc0b](https://github.com/lobehub/lobe-icons/commit/5b8dc0b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 4.1.0](https://github.com/lobehub/lobe-icons/compare/v4.0.3...v4.1.0)
 
 <sup>Released on **2026-01-30**</sup>
