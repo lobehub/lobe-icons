@@ -13,6 +13,7 @@ export enum ModelProvider {
   Anthropic = 'anthropic',
   Anyscale = 'anyscale',
   Apple = 'apple',
+  AtlasCloud = 'atlascloud',
   Aws = 'aws',
   Azure = 'azure',
   AzureAI = 'azureai',

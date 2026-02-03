@@ -19,6 +19,7 @@ export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './Any
 export { default as Apple, type CompoundedIcon as AppleProps } from './Apple';
 export { default as Arcee, type CompoundedIcon as ArceeProps } from './Arcee';
 export { default as AssemblyAI, type CompoundedIcon as AssemblyAIProps } from './AssemblyAI';
+export { default as AtlasCloud, type CompoundedIcon as AtlasCloudProps } from './AtlasCloud';
 export { default as Automatic, type CompoundedIcon as AutomaticProps } from './Automatic';
 export { default as Aws, type CompoundedIcon as AwsProps } from './Aws';
 export { default as Aya, type CompoundedIcon as AyaProps } from './Aya';
@@ -155,6 +156,7 @@ export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmS
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeHub';
 export { default as LongCat, type CompoundedIcon as LongCatProps } from './LongCat';
 export { default as Lovable, type CompoundedIcon as LovableProps } from './Lovable';
+export { default as Lovart, type CompoundedIcon as LovartProps } from './Lovart';
 export { default as Luma, type CompoundedIcon as LumaProps } from './Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './Magic';
 export { default as Make, type CompoundedIcon as MakeProps } from './Make';
@@ -189,6 +191,7 @@ export { default as Nvidia, type CompoundedIcon as NvidiaProps } from './Nvidia'
 export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama';
 export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './OpenAI';
 export { default as OpenChat, type CompoundedIcon as OpenChatProps } from './OpenChat';
+export { default as OpenClaw, type CompoundedIcon as OpenClawProps } from './OpenClaw';
 export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './OpenRouter';
 export { default as OpenWebUI, type CompoundedIcon as OpenWebUIProps } from './OpenWebUI';
 export { default as PaLM, type CompoundedIcon as PaLMProps } from './PaLM';
