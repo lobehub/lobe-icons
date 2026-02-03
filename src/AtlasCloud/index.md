@@ -3,7 +3,7 @@ nav: Components
 group: Provider
 title: AtlasCloud
 atomId: AtlasCloud
-description: https://www.atlascloud.ai/
+description: https://atlascloud.ai
 ---
 
 ## Icons

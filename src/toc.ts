@@ -422,8 +422,8 @@ const toc: IconToc[] = [
     title: 'AssemblyAI',
   },
   {
-    color: '#000',
-    desc: 'https://www.atlascloud.ai/',
+    color: '#7036F0',
+    desc: 'https://atlascloud.ai',
     docsUrl: 'atlas-cloud',
     fullTitle: 'AtlasCloud',
     group: 'provider',
