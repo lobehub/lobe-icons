@@ -23,7 +23,7 @@ const themeColors = {
 };
 
 class SvgWorkflow {
-  ignoreList: string[] = ['dalle'];
+  ignoreList: string[] = [];
   browserInstance: Browser | null = null;
   browserPromise: Promise<Browser> | null = null;
 
