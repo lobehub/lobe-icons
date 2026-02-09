@@ -31,7 +31,7 @@
   ],
   "scripts": {
     "auto-converter-web-icons-to-rn": "bun scripts/rn-conversion/auto-converter.ts --lint",
-    "build": "npm run build:toc && father build && npm run build:rn",
+    "build": "npm run build:toc && father build",
     "build:rn": "bun run --cwd packages/react-native build",
     "build:static": "npx puppeteer browsers install chrome && bun scripts/svgWorkflow/index.tsx",
     "build:toc": "bun scripts/tocWorkflow/index.ts",
@@ -54,6 +54,7 @@
     "prettier": "prettier -c --write --no-error-on-unmatched-pattern \"**/**\"",
     "pull": "git pull",
     "release": "semantic-release",
+    "release:rn": "multi-semantic-release",
     "release:static": "multi-semantic-release",
     "setup": "dumi setup",
     "start": "npm run dev",
