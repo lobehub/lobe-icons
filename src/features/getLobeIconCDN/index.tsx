@@ -1,6 +1,6 @@
 export interface LobeIconCdnConfig {
   cdn?: 'github' | 'aliyun' | 'unpkg';
-  format?: 'svg' | 'png' | 'webp';
+  format?: 'svg' | 'png' | 'webp' | 'avatar';
   isDarkMode?: boolean;
   type?: 'mono' | 'color' | 'text' | 'text-cn' | 'text-color' | 'brand' | 'brand-color';
 }
@@ -29,17 +29,21 @@ export const getLobeIconCDN = (id: string, config?: LobeIconCdnConfig): string =
     }
   }
 
-  const addon = type === 'mono' ? '' : `-${type}`;
+  if (format === 'avatar') {
+    return `${baseUrl}/avatars/${id.toLowerCase()}.webp`;
+  } else {
+    const addon = type === 'mono' ? '' : `-${type}`;
 
-  switch (format) {
-    case 'svg': {
-      return `${baseUrl}/icons/${id.toLowerCase() + addon}.svg`;
-    }
-    case 'webp': {
-      return `${baseUrl}/${isDarkMode ? 'dark' : 'light'}/${id.toLowerCase() + addon}.webp`;
-    }
-    default: {
-      return `${baseUrl}/${isDarkMode ? 'dark' : 'light'}/${id.toLowerCase() + addon}.png`;
+    switch (format) {
+      case 'svg': {
+        return `${baseUrl}/icons/${id.toLowerCase() + addon}.svg`;
+      }
+      case 'webp': {
+        return `${baseUrl}/${isDarkMode ? 'dark' : 'light'}/${id.toLowerCase() + addon}.webp`;
+      }
+      default: {
+        return `${baseUrl}/${isDarkMode ? 'dark' : 'light'}/${id.toLowerCase() + addon}.png`;
+      }
     }
   }
 };
