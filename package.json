@@ -54,8 +54,7 @@
     "prettier": "prettier -c --write --no-error-on-unmatched-pattern \"**/**\"",
     "pull": "git pull",
     "release": "semantic-release",
-    "release:rn": "multi-semantic-release",
-    "release:static": "multi-semantic-release",
+    "release:static": "multi-semantic-release --sequential-prepare",
     "setup": "dumi setup",
     "start": "npm run dev",
     "sync:cnpm": "cnpm sync @lobehub/icons-static-svg @lobehub/icons-static-png @lobehub/icons-static-webp",
@@ -95,6 +94,7 @@
     "@commitlint/cli": "^19.8.1",
     "@lobehub/lint": "^1.26.3",
     "@lobehub/ui": "^4.35.0",
+    "@qiwi/multi-semantic-release": "^7.1.2",
     "@testing-library/react": "^16.3.2",
     "@types/pangu": "^4.0.2",
     "@types/react": "^19.2.13",
@@ -120,7 +120,6 @@
     "jsdom": "^27.4.0",
     "lint-staged": "^16.2.7",
     "markdown-table": "^3.0.4",
-    "multi-semantic-release": "^3.1.0",
     "p-map": "^7.0.4",
     "postcss-styled-syntax": "^0.7.1",
     "prettier": "^3.8.1",
@@ -143,6 +142,10 @@
     "antd": "^6.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
+  },
+  "packageManager": "pnpm@10.20.0+sha512.cf9998222162dd85864d0a8102e7892e7ba4ceadebbf5a31f9c2fce48dfce317a9c53b9f6464d1ef9042cba2e02ae02a9f7c143a2b438cd93c91840f0192b9dd",
+  "engines": {
+    "node": ">=22.0.0"
   },
   "publishConfig": {
     "access": "public",
