@@ -2,6 +2,43 @@
 
 # Changelog
 
+## [Version 4.3.0](https://github.com/lobehub/lobe-icons/compare/v4.2.0...v4.3.0)
+
+<sup>Released on **2026-02-09**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add static avatar, Update rn.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix dalle, Fix typo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([6235fb3](https://github.com/lobehub/lobe-icons/commit/6235fb3))
+- **misc**: Add static avatar ([f349c58](https://github.com/lobehub/lobe-icons/commit/f349c58))
+- **misc**: Update rn ([16572b4](https://github.com/lobehub/lobe-icons/commit/16572b4))
+
+#### What's fixed
+
+- **misc**: Fix dalle ([2a7537a](https://github.com/lobehub/lobe-icons/commit/2a7537a))
+- **misc**: Fix typo ([0f1fd59](https://github.com/lobehub/lobe-icons/commit/0f1fd59))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 4.2.0](https://github.com/lobehub/lobe-icons/compare/v4.1.0...v4.2.0)
 
 <sup>Released on **2026-02-03**</sup>
