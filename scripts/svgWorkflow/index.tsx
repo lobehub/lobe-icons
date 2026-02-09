@@ -1,9 +1,11 @@
 import { consola } from 'consola';
+import parse from 'html-react-parser';
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import pMap from 'p-map';
 import { ComponentType, createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
+import satori from 'satori';
 import sharp from 'sharp';
 
 import * as Icons from '../../src/icons';
@@ -24,6 +26,56 @@ const themeColors = {
 class SvgWorkflow {
   ignoreList: string[] = [];
 
+  async loadGoogleFont(font: string) {
+    const url = `https://fonts.googleapis.com/css2?family=${font}`;
+    const response = await fetch(url);
+    const css = await response.text();
+    const resource = css.match(/src: url\((.+)\) format\('(opentype|truetype)'\)/);
+
+    if (resource) {
+      const fontResponse = await fetch(resource[1]);
+      if (fontResponse.status === 200) {
+        return await fontResponse.arrayBuffer();
+      }
+    }
+
+    throw new Error('failed to load font data');
+  }
+
+  async exportSvgAvatar(Component: ComponentType, outputFileName: string): Promise<void> {
+    const node = createElement(Component, {
+      // @ts-ignore
+      size: 1024,
+      style: {
+        alignItems: 'center',
+        display: 'flex',
+        justifyContent: 'center',
+      },
+    });
+    const htmlString = renderToStaticMarkup(node).replaceAll(/<title[^>]*>[\S\s]*<\/title>/g, '');
+    const svgString = await satori(parse(htmlString), {
+      fonts: [
+        {
+          data: await this.loadGoogleFont('Inter:wght@700'),
+          name: 'Inter',
+          style: 'normal',
+          weight: 700,
+        },
+      ],
+      height: 1024,
+      width: 1024,
+    });
+    const svgContent = svgString.match(/<svg[^>]*>[\S\s]*<\/svg>/i)?.[0];
+
+    if (!svgContent) {
+      throw new Error('No SVG content found in the rendered component');
+    }
+
+    const filename = resolve(outputDir, outputFileName + '.svg');
+    writeFileSync(filename, svgContent, 'utf8');
+    consola.success(`Exported SVG to ${filename}`);
+  }
+
   exportSvg(Component: ComponentType, outputFileName: string): void {
     const svgString = renderToStaticMarkup(createElement(Component));
     const svgContent = svgString.match(/<svg[^>]*>[\S\s]*<\/svg>/i)?.[0];
@@ -41,13 +93,14 @@ class SvgWorkflow {
     svgPath: string,
     outputPath: string,
     height: number,
-    themeMode: ThemeMode,
+    themeMode?: ThemeMode,
   ): Promise<void> {
     try {
       let svgContent = readFileSync(svgPath, 'utf8');
-      const color = themeColors[themeMode];
-      svgContent = svgContent.replaceAll('currentColor', color);
-
+      if (themeMode) {
+        const color = themeColors[themeMode];
+        svgContent = svgContent.replaceAll('currentColor', color);
+      }
       await sharp(Buffer.from(svgContent)).resize({ height }).png().toFile(outputPath);
       consola.success(`PNG file has been saved to ${outputPath}`);
     } catch (error) {
@@ -59,13 +112,14 @@ class SvgWorkflow {
     svgPath: string,
     outputPath: string,
     height: number,
-    themeMode: ThemeMode,
+    themeMode?: ThemeMode,
   ): Promise<void> {
     try {
       let svgContent = readFileSync(svgPath, 'utf8');
-      const color = themeColors[themeMode];
-      svgContent = svgContent.replaceAll('currentColor', color);
-
+      if (themeMode) {
+        const color = themeColors[themeMode];
+        svgContent = svgContent.replaceAll('currentColor', color);
+      }
       await sharp(Buffer.from(svgContent)).resize({ height }).webp().toFile(outputPath);
       consola.success(`WebP file has been saved to ${outputPath}`);
     } catch (error) {
@@ -95,8 +149,11 @@ class SvgWorkflow {
         if (Icon?.BrandColor) {
           this.exportSvg(Icon.BrandColor, `${key.toLowerCase()}-brand-color`);
         }
-      } catch {
-        consola.error(`Failed to export ${key.toLowerCase()}`);
+        if (Icon?.Avatar) {
+          await this.exportSvgAvatar(Icon.Avatar, `${key.toLowerCase()}-avatar`);
+        }
+      } catch (error) {
+        consola.error(`Failed to export ${key.toLowerCase()}:`, error);
       }
     });
   }
@@ -107,10 +164,19 @@ class SvgWorkflow {
       async (file) => {
         if (file.endsWith('.svg') && !this.ignoreList.includes(file)) {
           const svgPath = resolve(outputDir, file);
-          const pngLightPath = resolve(outputPngDir, 'light', file.replace('.svg', '.png'));
-          const pngDarkPath = resolve(outputPngDir, 'dark', file.replace('.svg', '.png'));
-          await this.convertSvgToPng(svgPath, pngLightPath, 1024, 'light');
-          await this.convertSvgToPng(svgPath, pngDarkPath, 1024, 'dark');
+          if (file.endsWith('-avatar.svg')) {
+            const pngAvatarPath = resolve(
+              outputPngDir,
+              'avatar',
+              file.replace('-avatar.svg', '.png'),
+            );
+            await this.convertSvgToPng(svgPath, pngAvatarPath, 1024);
+          } else {
+            const pngLightPath = resolve(outputPngDir, 'light', file.replace('.svg', '.png'));
+            const pngDarkPath = resolve(outputPngDir, 'dark', file.replace('.svg', '.png'));
+            await this.convertSvgToPng(svgPath, pngLightPath, 1024, 'light');
+            await this.convertSvgToPng(svgPath, pngDarkPath, 1024, 'dark');
+          }
         }
       },
       { concurrency: 5 },
@@ -120,13 +186,22 @@ class SvgWorkflow {
   async runWebp() {
     await pMap(
       readdirSync(outputDir),
-      async (file: string) => {
+      async (file) => {
         if (file.endsWith('.svg') && !this.ignoreList.includes(file)) {
           const svgPath = resolve(outputDir, file);
-          const webpLightPath = resolve(outputWebpDir, 'light', file.replace('.svg', '.webp'));
-          const webpDarkPath = resolve(outputWebpDir, 'dark', file.replace('.svg', '.webp'));
-          await this.convertSvgToWebp(svgPath, webpLightPath, 1024, 'light');
-          await this.convertSvgToWebp(svgPath, webpDarkPath, 1024, 'dark');
+          if (file.endsWith('-avatar.svg')) {
+            const webpAvatarPath = resolve(
+              outputWebpDir,
+              'avatar',
+              file.replace('-avatar.svg', '.webp'),
+            );
+            await this.convertSvgToWebp(svgPath, webpAvatarPath, 1024);
+          } else {
+            const webpLightPath = resolve(outputWebpDir, 'light', file.replace('.svg', '.webp'));
+            const webpDarkPath = resolve(outputWebpDir, 'dark', file.replace('.svg', '.webp'));
+            await this.convertSvgToWebp(svgPath, webpLightPath, 1024, 'light');
+            await this.convertSvgToWebp(svgPath, webpDarkPath, 1024, 'dark');
+          }
         }
       },
       { concurrency: 5 },
