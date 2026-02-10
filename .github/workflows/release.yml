@@ -59,13 +59,8 @@ jobs:
       - name: Build RN
         run: bun run build:rn
 
-      - name: Install bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: 1.0.31
-
       - name: Release Static
-        run: bun run release:static
+        run: npm run release:static
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
