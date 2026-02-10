@@ -2,6 +2,41 @@
 
 # Changelog
 
+## [Version 1.79.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.78.0...@lobehub/icons-static-svg@1.79.0)
+
+<sup>Released on **2026-02-10**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add static avatar.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix dalle.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([6235fb3](https://github.com/lobehub/lobe-icons/commit/6235fb3))
+- **misc**: Add static avatar ([f349c58](https://github.com/lobehub/lobe-icons/commit/f349c58))
+
+#### What's fixed
+
+- **misc**: Fix dalle ([2a7537a](https://github.com/lobehub/lobe-icons/commit/2a7537a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.78.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.77.0...@lobehub/icons-static-svg@1.78.0)
 
 <sup>Released on **2026-02-03**</sup>
