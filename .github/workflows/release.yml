@@ -14,17 +14,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
         with:
-          node-version: '22'
+          version: 7
 
       - name: Install bun
         uses: oven-sh/setup-bun@v2
 
       - name: Install deps
-        run: |
-          npm i -g npm@9.9.3
-          bun i
+        run: bun i
 
       # - name: CI
       #   run: bun run ci
