@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/icons-rn",
-  "version": "2.1.0",
+  "version": "2.0.0",
   "description": "Popular AI / LLM Model Brand Icons for React Native and Expo",
   "keywords": [
     "lobehub",
@@ -46,20 +46,20 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "es-toolkit": "^1.43.0",
-    "expo-linear-gradient": "^14.1.5"
+    "es-toolkit": "^1.43.0"
   },
   "devDependencies": {
     "@types/react": "^19.0.0",
     "@types/react-native": "^0.72.0",
     "clean-package": "^2.2.0",
+    "expo-linear-gradient": "^14.1.5"
     "react-native-svg": "^15.12.0",
     "tsup": "^8.5.0",
     "typescript": "^5.0.0"
   },
   "peerDependencies": {
     "expo-linear-gradient": ">=14.1.5",
-    "react": ">=16.8.0",
+    "react": "^19.0.0",
     "react-native": ">=0.76.9",
     "react-native-svg": ">=15.8.0"
   },
