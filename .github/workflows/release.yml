@@ -22,9 +22,7 @@ jobs:
         uses: oven-sh/setup-bun@v2
 
       - name: Install deps
-        run: | 
-          npm install -g npm@11.9.0
-          bun i
+        run: bun i
 
       # - name: CI
       #   run: bun run ci
@@ -63,7 +61,8 @@ jobs:
       - name: Release Static
         run: |
           rm -rf packages/*/node_modules
-          bun run release:static
+          npm i
+          npm run release:static
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
