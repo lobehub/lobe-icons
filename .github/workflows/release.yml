@@ -14,11 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
       - name: Install bun
         uses: oven-sh/setup-bun@v2
         with:
@@ -64,7 +59,7 @@ jobs:
         run: bun run build:rn
 
       - name: Release Static
-        run: npm run release:static
+        run: pnpm run release:static
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
