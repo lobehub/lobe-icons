@@ -2,7 +2,6 @@
   "name": "@lobehub/icons-rn",
   "version": "2.0.0",
   "description": "Popular AI / LLM Model Brand Icons for React Native and Expo",
-  "private": true,
   "keywords": [
     "lobehub",
     "llm icons",
