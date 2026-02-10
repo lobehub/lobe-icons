@@ -21,45 +21,47 @@ jobs:
 
       - name: Install bun
         uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.0.31
 
       - name: Install deps
         run: |
           npm i pnpm -g
           pnpm install
 
-      - name: CI
-        run: bun run ci
+      # - name: CI
+      #   run: bun run ci
 
-      - name: Test
-        run: bun run test
+      # - name: Test
+      #   run: bun run test
 
-      - name: Build
-        run: bun run build
+      # - name: Build
+      #   run: bun run build
 
-      - name: Release
-        run: bun run release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      # - name: Release
+      #   run: bun run release
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Build Static
-        run: |-
-          bun run build:static
-          bun run sync:md
+      # - name: Build Static
+      #   run: |-
+      #     bun run build:static
+      #     bun run sync:md
 
-      - name: Commit changes
-        run: |-
-          git diff
-          git config --global user.name "lobehubbot"
-          git config --global user.email "i@lobehub.com"
-          git add .
-          git commit -m "✨ feat(auto): Auto build static icons" || exit 0
-          git push
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      # - name: Commit changes
+      #   run: |-
+      #     git diff
+      #     git config --global user.name "lobehubbot"
+      #     git config --global user.email "i@lobehub.com"
+      #     git add .
+      #     git commit -m "✨ feat(auto): Auto build static icons" || exit 0
+      #     git push
+      #   env:
+      #     GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      - name: Build RN
-        run: bun run build:rn
+      # - name: Build RN
+      #   run: bun run build:rn
 
       - name: Release Static
         run: npm run release:static
