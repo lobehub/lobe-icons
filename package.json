@@ -143,9 +143,6 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
-  "overrides": {
-    "@semantic-release/npm": "^13.1.4"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
