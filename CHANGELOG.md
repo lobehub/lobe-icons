@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 4.4.2](https://github.com/lobehub/lobe-icons/compare/v4.4.1...v4.4.2)
+
+<sup>Released on **2026-02-10**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add setup-node to release workflow to fix npm version crash.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Add setup-node to release workflow to fix npm version crash, closes [#251](https://github.com/lobehub/lobe-icons/issues/251) ([996fe79](https://github.com/lobehub/lobe-icons/commit/996fe79))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 4.4.1](https://github.com/lobehub/lobe-icons/compare/v4.4.0...v4.4.1)
 
 <sup>Released on **2026-02-09**</sup>
