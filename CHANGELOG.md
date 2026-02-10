@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 4.4.3](https://github.com/lobehub/lobe-icons/compare/v4.4.2...v4.4.3)
+
+<sup>Released on **2026-02-10**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix error in release static workflow.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix error in release static workflow, closes [#252](https://github.com/lobehub/lobe-icons/issues/252) ([3cac62b](https://github.com/lobehub/lobe-icons/commit/3cac62b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 4.4.2](https://github.com/lobehub/lobe-icons/compare/v4.4.1...v4.4.2)
 
 <sup>Released on **2026-02-10**</sup>
