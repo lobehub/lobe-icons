@@ -14,11 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 7
-
       - name: Install bun
         uses: oven-sh/setup-bun@v2
 
@@ -58,6 +53,14 @@ jobs:
 
       - name: Build RN
         run: bun run build:rn
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Setup npm 7
+        run: npm i -g npm@7 --registry=https://registry.npmjs.org
 
       - name: Release Static
         run: bun run release:static
