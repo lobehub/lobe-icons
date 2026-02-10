@@ -18,7 +18,9 @@ jobs:
         uses: oven-sh/setup-bun@v2
 
       - name: Install deps
-        run: bun i
+        run: | 
+          npm install -g npm@10.2.4
+          bun i
 
       # - name: CI
       #   run: bun run ci
