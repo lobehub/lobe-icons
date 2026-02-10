@@ -23,7 +23,9 @@ jobs:
         uses: oven-sh/setup-bun@v2
 
       - name: Install deps
-        run: bun i
+        run: |
+          npm i pnpm -g
+          pnpm install
 
       - name: CI
         run: bun run ci
@@ -60,14 +62,7 @@ jobs:
         run: bun run build:rn
 
       - name: Release Static
-        run: |
-          # Remove workspaces field from root package.json to prevent npm's arborist
-          # from trying to load the workspace tree (which crashes with bun-managed node_modules).
-          # multi-semantic-release discovers packages via pnpm-workspace.yaml as fallback.
-          cp package.json package.json.bak
-          node -e "const fs=require('fs'),p=JSON.parse(fs.readFileSync('package.json','utf8'));delete p.workspaces;fs.writeFileSync('package.json',JSON.stringify(p,null,2)+'\n')"
-          trap 'mv package.json.bak package.json' EXIT
-          npm run release:static
+        run: npm run release:static
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
