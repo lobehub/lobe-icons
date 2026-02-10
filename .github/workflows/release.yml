@@ -16,14 +16,14 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Install bun
         uses: oven-sh/setup-bun@v2
 
       - name: Install deps
         run: | 
-          npm install -g npm@10.2.4
+          npm install -g npm@11.9.0
           bun i
 
       # - name: CI
