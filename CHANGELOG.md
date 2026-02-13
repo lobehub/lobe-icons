@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 4.5.0](https://github.com/lobehub/lobe-icons/compare/v4.4.3...v4.5.0)
+
+<sup>Released on **2026-02-13**</sup>
+
+#### ✨ Features
+
+- **misc**: Add seedance keyword to Doubao model mapping.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add seedance keyword to Doubao model mapping, closes [#255](https://github.com/lobehub/lobe-icons/issues/255) ([07cd39c](https://github.com/lobehub/lobe-icons/commit/07cd39c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 4.4.3](https://github.com/lobehub/lobe-icons/compare/v4.4.2...v4.4.3)
 
 <sup>Released on **2026-02-10**</sup>
