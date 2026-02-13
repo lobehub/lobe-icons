@@ -228,7 +228,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Rwkv, keywords: ['rwkv', '/eagle-'] },
   { Icon: Wenxin, keywords: ['ernie', 'irag'] },
   { Icon: Jina, keywords: ['^jina', '/jina'] },
-  { Icon: Doubao, keywords: ['^ep-', 'doubao-', 'seedream', 'seededit'] },
+  { Icon: Doubao, keywords: ['^ep-', 'doubao-', 'seedream', 'seededit', 'seedance-'] },
   { Icon: Hunyuan, keywords: ['hunyuan'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
   { Icon: ByteDance, keywords: ['skylark', 'seed-', 'bytedance'] },
