@@ -144,7 +144,7 @@ export const modelMappings: ModelMapping[] = [
     keywords: ['^gpt-', '/gpt-', 'openai'],
   },
   { Icon: GLMV, keywords: ['^glm-(.*)v', '/glm-(.*)v'] },
-  { Icon: ZAI, keywords: ['^glm-4', '/glm-4'] },
+  { Icon: ZAI, keywords: ['^glm-5', '/glm-5', '/glm5', '^glm-4', '/glm-4', '/glm4'] },
   { Icon: ChatGLM, keywords: ['^glm-', '/glm-', 'chatglm'] },
   { Icon: CodeGeeX, keywords: ['^codegeex', '/codegeex'] },
   { Icon: Claude, keywords: ['claude'] },
