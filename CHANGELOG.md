@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 4.6.0](https://github.com/lobehub/lobe-icons/compare/v4.5.0...v4.6.0)
+
+<sup>Released on **2026-02-14**</sup>
+
+#### ✨ Features
+
+- **misc**: Add glm-5 keywords to ZAI model mapping.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add glm-5 keywords to ZAI model mapping, closes [#256](https://github.com/lobehub/lobe-icons/issues/256) ([386a14e](https://github.com/lobehub/lobe-icons/commit/386a14e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 4.5.0](https://github.com/lobehub/lobe-icons/compare/v4.4.3...v4.5.0)
 
 <sup>Released on **2026-02-14**</sup>
