@@ -131,6 +131,7 @@ export enum ModelProvider {
   XAI = 'xai',
   XiaomiMiMo = 'xiaomimimo',
   Xinference = 'xinference',
+  Xpay = 'xpay',
   Yandex = 'yandex',
   ZenMux = 'zenmux',
   ZeroOne = 'zeroone',
