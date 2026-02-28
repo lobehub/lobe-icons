@@ -5230,7 +5230,7 @@ const toc: IconToc[] = [
     param: {
       hasAvatar: true,
       hasBrand: false,
-      hasBrandColor: false,
+      hasBrandColor: true,
       hasColor: true,
       hasCombine: true,
       hasText: true,
