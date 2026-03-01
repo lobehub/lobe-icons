@@ -1,3 +1,4 @@
+export { default as Ace, type CompoundedIcon as AceProps } from './Ace';
 export { default as Adobe, type CompoundedIcon as AdobeProps } from './Adobe';
 export { default as AdobeFirefly, type CompoundedIcon as AdobeFireflyProps } from './AdobeFirefly';
 export { default as Agui, type CompoundedIcon as AguiProps } from './Agui';

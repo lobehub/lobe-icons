@@ -1,5 +1,6 @@
 import { FC } from 'react';
 
+import Ace from '@/Ace';
 import Adobe from '@/Adobe';
 import Ai2 from '@/Ai2';
 import Ai21 from '@/Ai21';
@@ -12,6 +13,7 @@ import Arcee from '@/Arcee';
 import AssemblyAI from '@/AssemblyAI';
 import Aws from '@/Aws';
 import Aya from '@/Aya';
+import BAAI from '@/BAAI';
 import Baichuan from '@/Baichuan';
 import BaiduCloud from '@/BaiduCloud';
 import Bilibili from '@/Bilibili';
@@ -45,7 +47,9 @@ import Ideogram from '@/Ideogram';
 import Inception from '@/Inception';
 import Inflection from '@/Inflection';
 import InternLM from '@/InternLM';
+import Jimeng from '@/Jimeng';
 import Jina from '@/Jina';
+import Kling from '@/Kling';
 import Kolors from '@/Kolors';
 import Kwaipilot from '@/Kwaipilot';
 import LG from '@/LG';
@@ -144,9 +148,12 @@ export const modelMappings: ModelMapping[] = [
     Icon: OpenAI,
     keywords: ['^gpt-', '/gpt-', 'openai'],
   },
-  { Icon: GLMV, keywords: ['^glm-(.*)v', '/glm-(.*)v'] },
-  { Icon: ZAI, keywords: ['^glm-5', '/glm-5', '/glm5', '^glm-4', '/glm-4', '/glm4'] },
-  { Icon: ChatGLM, keywords: ['^glm-', '/glm-', 'chatglm'] },
+  { Icon: GLMV, keywords: ['^glm-(.*)v', '/glm-(.*)v', '-glm-(.*)v'] },
+  {
+    Icon: ZAI,
+    keywords: ['^glm-5', '/glm-5', '/glm5', '-glm-4', '^glm-4', '/glm-4', '/glm4', '-glm-5'],
+  },
+  { Icon: ChatGLM, keywords: ['^glm-', '/glm-', 'chatglm', '-glm-'] },
   { Icon: CodeGeeX, keywords: ['^codegeex', '/codegeex'] },
   { Icon: Claude, keywords: ['claude'] },
   { Icon: Anthropic, keywords: ['anthropic'] },
@@ -183,7 +190,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Qiniu, keywords: ['qiniu'] },
   {
     Icon: Qwen,
-    keywords: ['qwen', 'qwq', 'qvq', 'wanx', 'wan\\d/', 'wan\\d\\.\\d-', 'tongyi'],
+    keywords: ['qwen', 'qwq', 'qvq', 'wanx', 'wan\\d/', 'wan\\d\\.\\d-', 'tongyi', 'gte-rerank'],
   },
   { Icon: Minimax, keywords: ['minimax', 'abab', '^image-'] },
   {
@@ -239,7 +246,9 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Rwkv, keywords: ['rwkv', '/eagle-'] },
   { Icon: Wenxin, keywords: ['ernie', 'irag'] },
   { Icon: Jina, keywords: ['^jina', '/jina'] },
-  { Icon: Doubao, keywords: ['^ep-', 'doubao-', 'seedream', 'seededit', 'seedance-'] },
+  { Icon: Jimeng, keywords: ['^jimeng-', '/jimeng-', 'seedream', 'seededit', 'seedance-'] },
+  { Icon: Doubao, keywords: ['^ep-', 'doubao-'] },
+  { Icon: Kling, keywords: ['^kling', 'kling-', 'klingai'] },
   { Icon: Hunyuan, keywords: ['hunyuan'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
   { Icon: ByteDance, keywords: ['skylark', 'seed-', 'bytedance'] },
@@ -270,7 +279,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: PaLM, keywords: ['palm'] },
   { Icon: SenseNova, keywords: ['SenseChat', 'SenseNova'] },
   { Icon: Grok, keywords: ['^grok-', '/grok-'] },
-  { Icon: Ideogram, keywords: ['ideogram'] },
+  { Icon: Ideogram, keywords: ['ideogram', '^v_1', '^v_2', '^v3$', '^upscale$', '^describe$'] },
   {
     Icon: Spark,
     keywords: [
@@ -294,7 +303,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: AionLabs, keywords: ['aion-'] },
   { Icon: AiHubMix, keywords: ['aihubmix'] },
   { Icon: V0, keywords: ['^v0-'] },
-  { Icon: VertexAI, keywords: ['^veo-', '/veo-'] },
+  { Icon: VertexAI, keywords: ['^veo-', '/veo-', '^veo3'] },
   { Icon: Google, keywords: ['google', 'learnlm', 'nano-banana'] },
   { Icon: CogView, keywords: ['cogview'] },
   { Icon: Kolors, keywords: ['kolors'] },
@@ -303,7 +312,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Dolphin, keywords: ['dolphin'] },
   { Icon: IBM, keywords: ['ibm', 'granite'] },
   { Icon: Skywork, keywords: ['skywork'] },
-  { Icon: BilibiliIndex, keywords: ['bilibili-index'] },
+  { Icon: BilibiliIndex, keywords: ['bilibili-index', 'index-tts'] },
   { Icon: Bilibili, keywords: ['bilibili'] },
   { Icon: LG, keywords: ['kmmlu', 'exaone', 'lgai'] },
   { Icon: TII, keywords: ['falcon'] },
@@ -312,4 +321,6 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Kwaipilot, keywords: ['kat-'] },
   { Icon: Nova, keywords: ['^nova-', '/nova-'] },
   { Icon: XiaomiMiMo, keywords: ['^mimo-', '/mimo-'] },
+  { Icon: BAAI, keywords: ['^baai', '^bge-', '/beg-', 'touchd', 'robobrain'] },
+  { Icon: Ace, keywords: ['ace-step'] },
 ];

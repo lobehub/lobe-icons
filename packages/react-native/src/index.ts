@@ -6,6 +6,7 @@ export { default as ProviderCombine } from './features/ProviderCombine';
 export { rnProviderMappings as providerMappings } from './features/providerConfig';
 export { RNModelProvider as ModelProvider } from './features/providerEnum';
 export { default as ProviderIcon } from './features/ProviderIcon';
+export { default as Ace, type CompoundedIcon as AceProps } from './icons/Ace';
 export { default as Adobe, type CompoundedIcon as AdobeProps } from './icons/Adobe';
 export {
   default as AdobeFirefly,

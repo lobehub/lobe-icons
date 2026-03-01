@@ -21,6 +21,25 @@ export interface IconToc {
 
 const toc: IconToc[] = [
   {
+    color: '#000',
+    desc: 'https://github.com/ace-step/ACE-Step',
+    docsUrl: 'ace',
+    fullTitle: 'ACE',
+    group: 'model',
+    id: 'Ace',
+    param: {
+      hasAvatar: true,
+      hasBrand: false,
+      hasBrandColor: false,
+      hasColor: false,
+      hasCombine: true,
+      hasText: true,
+      hasTextCn: false,
+      hasTextColor: false,
+    },
+    title: 'ace',
+  },
+  {
     color: '#EB1000',
     desc: 'https://adobe.com',
     docsUrl: 'adobe',
