@@ -277,6 +277,7 @@ export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './W
 export { default as XAI, type CompoundedIcon as XAIProps } from './XAI';
 export { default as XiaomiMiMo, type CompoundedIcon as XiaomiMiMoProps } from './XiaomiMiMo';
 export { default as Xinference, type CompoundedIcon as XinferenceProps } from './Xinference';
+export { default as Xpay, type CompoundedIcon as XpayProps } from './Xpay';
 export { default as Xuanyuan, type CompoundedIcon as XuanyuanProps } from './Xuanyuan';
 export { default as Yandex, type CompoundedIcon as YandexProps } from './Yandex';
 export { default as Yi, type CompoundedIcon as YiProps } from './Yi';
