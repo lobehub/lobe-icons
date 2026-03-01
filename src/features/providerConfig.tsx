@@ -72,6 +72,7 @@ import Kluster from '@/Kluster';
 import LG from '@/LG';
 import Lambda from '@/Lambda';
 import LeptonAI from '@/LeptonAI';
+import LlmApi from '@/LlmApi';
 import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
 import LongCat from '@/LongCat';
@@ -186,6 +187,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Kluster, keywords: [ModelProvider.Kluster] },
   { Icon: Lambda, keywords: [ModelProvider.Lambda] },
   { Icon: LeptonAI, keywords: [ModelProvider.LeptonAI] },
+  { Icon: LlmApi, keywords: [ModelProvider.LlmApi] },
   { Icon: LG, keywords: [ModelProvider.LG] },
   { Icon: Menlo, keywords: [ModelProvider.Menlo] },
   { Icon: Meta, keywords: [ModelProvider.Meta] },
