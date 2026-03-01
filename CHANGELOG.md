@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 4.10.0](https://github.com/lobehub/lobe-icons/compare/v4.9.0...v4.10.0)
+
+<sup>Released on **2026-03-01**</sup>
+
+#### ✨ Features
+
+- **misc**: Add ace-step.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add ace-step ([c74a116](https://github.com/lobehub/lobe-icons/commit/c74a116))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 4.9.0](https://github.com/lobehub/lobe-icons/compare/v4.8.0...v4.9.0)
 
 <sup>Released on **2026-02-28**</sup>
