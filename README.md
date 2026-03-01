@@ -39,15 +39,16 @@ Contributions, corrections & requests can be made on GitHub.
 
 #### TOC
 
-- [📦 Packages](#-packages)
+- [📦 Installation](#-installation)
+  - [I'm an Agent](#im-an-agent)
+  - [I'm an Human](#im-an-human)
+  - [Packages](#packages)
 - [✨ Features](#-features)
 - [🤯 CDN Usage](#-cdn-usage)
   - [`A` CDN with SVG](#a-cdn-with-svg)
   - [`B` CDN with PNG](#b-cdn-with-png)
   - [`C` CDN with WEBP](#c-cdn-with-webp)
   - [Static Packages](#static-packages)
-- [📦 Installation](#-installation)
-  - [Compile with NextJS](#compile-with-nextjs)
 - [⌨️ Local Development](#️-local-development)
 - [🤝 Contributing](#-contributing)
 - [🩷 Sponsor](#-sponsor)
@@ -60,15 +61,34 @@ Contributions, corrections & requests can be made on GitHub.
 
 </details>
 
-## 📦 Packages
+## 📦 Installation
 
-| Logo                                                                                                                           | Package                          | Version                                                                                                                     | Downloads                                                                  | Links                                                                             |
-| ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/411f5124-9460-43dc-9d91-3d3c3da05b30" alt="React logo" width="48">        | **`@lobehub/icons`**             | [![npm](https://img.shields.io/npm/v/@lobehub/icons)](https://www.npmjs.com/package/@lobehub/icons-static-svg)              | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons)             | [Source](https://github.com/lobehub/lobe-icons/tree/master/src)                   |
-| <img src="https://github.com/user-attachments/assets/d06378b5-46eb-4154-836d-b792d04ee3dd" alt="React Native logo" width="48"> | **`@lobehub/icons-rn`**          | [![npm](https://img.shields.io/npm/v/@lobehub/icons-rn)](https://www.npmjs.com/package/@lobehub/icons-rn)                   | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-rn)          | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/react-native) |
-| <img src="https://github.com/user-attachments/assets/6a0ce456-ab14-437c-93ec-2c05fecbb454" alt="SVG logo" width="48">          | **`@lobehub/icons-static-svg`**  | [![npm](https://img.shields.io/npm/v/@lobehub/icons-static-svg)](https://www.npmjs.com/package/@lobehub/icons-static-svg)   | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-static-svg)  | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/static-svg)   |
-| <img src="https://github.com/user-attachments/assets/f2ee638a-b02c-447d-bcb2-4455688b1438" alt="PNG logo" width="48">          | **`@lobehub/icons-static-png`**  | [![npm](https://img.shields.io/npm/v/@lobehub/icons-static-png)](https://www.npmjs.com/package/@lobehub/icons-static-png)   | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-static-png)  | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/static-png)   |
-| <img src="https://github.com/user-attachments/assets/bd610e9d-290e-4a60-a945-e9c5f84be962" alt="WebP logo" width="48">         | **`@lobehub/icons-static-webp`** | [![npm](https://img.shields.io/npm/v/@lobehub/icons-static-webp)](https://www.npmjs.com/package/@lobehub/icons-static-webp) | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-static-webp) | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/static-webp)  |
+### I'm an Agent
+
+Send this prompt to your agent to use @lobehub/icons
+
+```bash
+Read https://lobehub.com/icons/skill.md and follow the instructions to use @lobehub/icons
+```
+
+### I'm an Human
+
+Install @lobehub/icons with npm and start using the icon set, [Read docs](https://icons.lobehub.com/)
+
+```bash
+npm i @lobehub/icons
+```
+
+### Packages
+
+| Logo                                                                                                                           | Package                            | Version                                                                                                                         | Downloads                                                                    | Links                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| <img src="https://github.com/user-attachments/assets/411f5124-9460-43dc-9d91-3d3c3da05b30" alt="React logo" width="48">        | **`@lobehub/icons`**               | [![npm](https://img.shields.io/npm/v/@lobehub/icons)](https://www.npmjs.com/package/@lobehub/icons-static-svg)                  | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons)               | [Source](https://github.com/lobehub/lobe-icons/tree/master/src)                    |
+| <img src="https://github.com/user-attachments/assets/d06378b5-46eb-4154-836d-b792d04ee3dd" alt="React Native logo" width="48"> | **`@lobehub/icons-rn`**            | [![npm](https://img.shields.io/npm/v/@lobehub/icons-rn)](https://www.npmjs.com/package/@lobehub/icons-rn)                       | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-rn)            | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/react-native)  |
+| <img src="https://github.com/user-attachments/assets/6a0ce456-ab14-437c-93ec-2c05fecbb454" alt="SVG logo" width="48">          | **`@lobehub/icons-static-svg`**    | [![npm](https://img.shields.io/npm/v/@lobehub/icons-static-svg)](https://www.npmjs.com/package/@lobehub/icons-static-svg)       | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-static-svg)    | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/static-svg)    |
+| <img src="https://github.com/user-attachments/assets/f2ee638a-b02c-447d-bcb2-4455688b1438" alt="PNG logo" width="48">          | **`@lobehub/icons-static-png`**    | [![npm](https://img.shields.io/npm/v/@lobehub/icons-static-png)](https://www.npmjs.com/package/@lobehub/icons-static-png)       | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-static-png)    | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/static-png)    |
+| <img src="https://github.com/user-attachments/assets/bd610e9d-290e-4a60-a945-e9c5f84be962" alt="WebP logo" width="48">         | **`@lobehub/icons-static-webp`**   | [![npm](https://img.shields.io/npm/v/@lobehub/icons-static-webp)](https://www.npmjs.com/package/@lobehub/icons-static-webp)     | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-static-webp)   | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/static-webp)   |
+| <img src="https://github.com/user-attachments/assets/bd610e9d-290e-4a60-a945-e9c5f84be962" alt="WebP logo" width="48">         | **`@lobehub/icons-static-avatar`** | [![npm](https://img.shields.io/npm/v/@lobehub/icons-static-avatar)](https://www.npmjs.com/package/@lobehub/icons-static-avatar) | ![NPM Downloads](https://img.shields.io/npm/dw/@lobehub/icons-static-avatar) | [Source](https://github.com/lobehub/lobe-icons/tree/master/packages/static-avatar) |
 
 <div align="right">
 
@@ -450,44 +470,12 @@ We provide a CDN service (`@lobehub/icons-static-webp`) which allows you to use 
 
 ### Static Packages
 
-| Package                                                                                | FileType | Version                                                                                                                                                                                           |
-| -------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [@lobehub/icons-static-svg](https://www.npmjs.com/package/@lobehub/icons-static-svg)   | `SVG`    | [![](https://img.shields.io/npm/v/@lobehub/icons-static-svg?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-svg)   |
-| [@lobehub/icons-static-png](https://www.npmjs.com/package/@lobehub/icons-static-png)   | `PNG`    | [![](https://img.shields.io/npm/v/@lobehub/icons-static-png?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-png)   |
-| [@lobehub/icons-static-webp](https://www.npmjs.com/package/@lobehub/icons-static-webp) | `WEBP`   | [![](https://img.shields.io/npm/v/@lobehub/icons-static-webp?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-webp) |
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
-## 📦 Installation
-
-> \[!IMPORTANT]\
-> This package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c).
-
-To install Lobe UI, run the following command:
-
-[![][bun-shield]][bun-link]
-
-```bash
-$ bun add @lobehub/icons
-```
-
-### Compile with NextJS
-
-> \[!NOTE]\
-> By work correct with nextjs ssr, add `transpilePackages: ['@lobehub/icons']` to `next.config.js`. For example:
-
-```js
-// next.config.js
-const nextConfig = {
-  // ...other config
-
-  transpilePackages: ['@lobehub/icons'],
-};
-```
+| Package                                                                                    | FileType | Version                                                                                                                                                                                               |
+| ------------------------------------------------------------------------------------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [@lobehub/icons-static-svg](https://www.npmjs.com/package/@lobehub/icons-static-svg)       | `SVG`    | [![](https://img.shields.io/npm/v/@lobehub/icons-static-svg?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-svg)       |
+| [@lobehub/icons-static-png](https://www.npmjs.com/package/@lobehub/icons-static-png)       | `PNG`    | [![](https://img.shields.io/npm/v/@lobehub/icons-static-png?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-png)       |
+| [@lobehub/icons-static-webp](https://www.npmjs.com/package/@lobehub/icons-static-webp)     | `WEBP`   | [![](https://img.shields.io/npm/v/@lobehub/icons-static-webp?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-webp)     |
+| [@lobehub/icons-static-avatar](https://www.npmjs.com/package/@lobehub/icons-static-avatar) | `WEBP`   | [![](https://img.shields.io/npm/v/@lobehub/icons-static-avatar?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square)](https://www.npmjs.com/package/@lobehub/icons-static-avatar) |
 
 <div align="right">
 
@@ -551,20 +539,20 @@ Every bit counts and your one-time donation sparkles in our galaxy of support! Y
 
 ### More Products
 
-- **[🤯 Lobe Chat](https://github.com/lobehub/lobe-chat)** - An open-source, extensible (Function Calling), high-performance chatbot framework. It supports one-click free deployment of your private ChatGPT/LLM web application.
-- **[🅰️ Lobe Theme](https://github.com/lobehub/sd-webui-lobe-theme)** - The modern theme for stable diffusion webui, exquisite interface design, highly customizable UI, and efficiency boosting features.
-- **[🧸 Lobe Vidol](https://github.com/lobehub/lobe-vidol)** - Experience the magic of virtual idol creation with Lobe Vidol, enjoy the elegance of our Exquisite UI Design, dance along using MMD Dance Support, and engage in Smooth Conversations.
+- **[🤯 LobeHub](https://github.com/lobehub/lobehub)** - The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.
+- **[🅰️ LobeTheme](https://github.com/lobehub/sd-webui-lobe-theme)** - The modern theme for stable diffusion webui, exquisite interface design, highly customizable UI, and efficiency boosting features.
+- **[🧸 LobeVidol](https://github.com/lobehub/lobe-vidol)** - Experience the magic of virtual idol creation with Lobe Vidol, enjoy the elegance of our Exquisite UI Design, dance along using MMD Dance Support, and engage in Smooth Conversations.
 
 ### Design Resources
 
-- **[🍭 Lobe UI](https://ui.lobehub.com)** - An open-source UI component library for building AIGC web apps.
-- **[🥨 Lobe Icons](https://lobehub.com/icons)** - Popular AI / LLM Model Brand SVG Logo and Icon Collection.
-- **[📊 Lobe Charts](https://charts.lobehub.com)** - React modern charts components built on recharts
+- **[🍭 LobeUI](https://ui.lobehub.com)** - An open-source UI component library for building AIGC web apps.
+- **[🥨 LobeIcons](https://lobehub.com/icons)** - Popular AI / LLM Model Brand SVG Logo and Icon Collection.
+- **[📊 LobeCharts](https://charts.lobehub.com)** - React modern charts components built on recharts
 
 ### Development Resources
 
-- **[🎤 Lobe TTS](https://tts.lobehub.com)** - A high-quality & reliable TTS/STT library for Server and Browser
-- **[🌏 Lobe i18n](https://github.com/lobehub/lobe-cli-toolbox/blob/master/packages/lobe-i18n)** - Automation ai tool for the i18n (internationalization) translation process.
+- **[🎤 LobeTTS](https://tts.lobehub.com)** - A high-quality & reliable TTS/STT library for Server and Browser
+- **[🌏 LobeI18n](https://github.com/lobehub/lobe-cli-toolbox/blob/master/packages/lobe-i18n)** - Automation ai tool for the i18n (internationalization) translation process.
 
 [More Resources](https://lobehub.com/resources)
 
@@ -588,8 +576,6 @@ This project is [MIT](./LICENSE) licensed.
 <!-- LINK GROUP -->
 
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-[bun-link]: https://bun.sh
-[bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
 [codespaces-link]: https://codespaces.new/lobehub/lobe-icons
 [codespaces-shield]: https://github.com/codespaces/badge.svg
 [contributors-contrib]: https://contrib.rocks/image?repo=lobehub/icons
@@ -618,7 +604,7 @@ This project is [MIT](./LICENSE) licensed.
 [npm-downloads-shield]: https://img.shields.io/npm/dt/@lobehub/icons?labelColor=black&style=flat-square
 [npm-release-link]: https://www.npmjs.com/package/@lobehub/icons
 [npm-release-shield]: https://img.shields.io/npm/v/@lobehub/icons?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
-[pr-welcome-link]: https://github.com/lobehub/lobe-chat/pulls
+[pr-welcome-link]: https://github.com/lobehub/lobe-icons/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/🤯_pr_welcome-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-link]: https://github.com/lobehub
 [vercel-link]: https://icons.lobehub.com
