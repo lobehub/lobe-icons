@@ -5,20 +5,41 @@
     "downlevelIteration": true,
     "esModuleInterop": true,
     "jsx": "react-jsx",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
     "target": "es6",
-    "types": ["vitest/globals"],
+    "types": [
+      "vitest/globals"
+    ],
     "paths": {
-      "@@/*": [".dumi/tmp/*"],
-      "@/*": ["src/*"],
-      "@lobehub/icons": ["src"],
-      "@lobehub/icons/*": ["src/*"]
+      "@@/*": [
+        ".dumi/tmp/*"
+      ],
+      "@/*": [
+        "src/*"
+      ],
+      "@lobehub/icons": [
+        "src"
+      ],
+      "@lobehub/icons/*": [
+        "src/*"
+      ]
     }
   },
-  "include": ["src", "docs", "tests", ".dumirc.ts", ".fatherrc.ts", "scripts"]
+  "include": [
+    "src",
+    "docs",
+    "tests",
+    ".dumirc.ts",
+    ".fatherrc.ts",
+    "scripts"
+  ]
 }
