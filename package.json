@@ -138,7 +138,7 @@
     "vitest": "^3.2.4"
   },
   "peerDependencies": {
-    "@lobehub/ui": "^4.3.3",
+    "@lobehub/ui": "^5.0.0",
     "antd": "^6.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
