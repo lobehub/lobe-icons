@@ -460,6 +460,25 @@ const toc: IconToc[] = [
     "title": "Arcee"
   },
   {
+    "color": "#E8A317",
+    "desc": "https://askverdict.ai",
+    "docsUrl": "ask-verdict",
+    "fullTitle": "AskVerdict AI",
+    "group": "model",
+    "id": "AskVerdict",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "AskVerdict"
+  },
+  {
     "color": "#2545D3",
     "desc": "https://assemblyai.com",
     "docsUrl": "assembly-ai",
