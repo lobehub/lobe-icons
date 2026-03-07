@@ -1,4 +1,4 @@
-export const TITLE = 'Antigravity';
+export const TITLE = 'Claude Code';
 export const COMBINE_TEXT_MULTIPLE = 0.75;
 export const COMBINE_SPACE_MULTIPLE = 0.3;
 export const COLOR_PRIMARY = '#D97757';
