@@ -1,7 +1,7 @@
 export const TITLE = 'together.ai';
 export const COMBINE_TEXT_MULTIPLE = 0.85;
 export const COMBINE_SPACE_MULTIPLE = 0.2;
-export const COLOR_PRIMARY = '#0f6fff';
+export const COLOR_PRIMARY = '#fc4c02';
 
 // Avatar constants
 export const AVATAR_BACKGROUND = COLOR_PRIMARY;
