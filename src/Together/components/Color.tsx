@@ -9,6 +9,7 @@ import { TITLE } from '../style';
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
   return (
     <svg
+      fill="currentColor"
       fillRule="evenodd"
       height={size}
       style={{ flex: 'none', lineHeight: 1, ...style }}
@@ -18,6 +19,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       {...rest}
     >
       <title>{TITLE}</title>
+      {/* Source: 484.98x452.5 -> 24x24. scale = 24/484.98, translateY = (24 - 452.5*scale) / 2 */}
       <g transform="translate(0, 0.8) scale(0.04949)">
         <path
           d="M468.72,60.67C435.25,2.69,361.11-17.18,303.12,16.3c-37.3,21.54-58.82,59.62-60.52,99.69l121.15.16v10.39h-121.15c.78,18.94,6.02,37.81,16.15,55.36,33.48,57.98,107.62,77.85,165.6,44.37,57.98-33.48,77.85-107.62,44.37-165.6Z"
