@@ -36,6 +36,7 @@ export {
   type CompoundedIcon as AntigravityProps,
 } from './icons/Antigravity';
 export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './icons/Anyscale';
+export { default as Apertis, type CompoundedIcon as ApertisProps } from './icons/Apertis';
 export { default as Apple, type CompoundedIcon as AppleProps } from './icons/Apple';
 export { default as Arcee, type CompoundedIcon as ArceeProps } from './icons/Arcee';
 export { default as AssemblyAI, type CompoundedIcon as AssemblyAIProps } from './icons/AssemblyAI';
