@@ -272,6 +272,7 @@ export { default as PPIO, type CompoundedIcon as PPIOProps } from './icons/PPIO'
 export { default as PydanticAI, type CompoundedIcon as PydanticAIProps } from './icons/PydanticAI';
 export { default as Qingyan, type CompoundedIcon as QingyanProps } from './icons/Qingyan';
 export { default as Qiniu, type CompoundedIcon as QiniuProps } from './icons/Qiniu';
+export { default as Qoder, type CompoundedIcon as QoderProps } from './icons/Qoder';
 export { default as Qwen, type CompoundedIcon as QwenProps } from './icons/Qwen';
 export { default as Railway, type CompoundedIcon as RailwayProps } from './icons/Railway';
 export { default as Recraft, type CompoundedIcon as RecraftProps } from './icons/Recraft';
