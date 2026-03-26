@@ -71,6 +71,7 @@ import Kluster from '../icons/Kluster';
 import LG from '../icons/LG';
 import Lambda from '../icons/Lambda';
 import LeptonAI from '../icons/LeptonAI';
+import LlmApi from '../icons/LlmApi';
 import LmStudio from '../icons/LmStudio';
 import LobeHub from '../icons/LobeHub';
 import LongCat from '../icons/LongCat';
@@ -127,6 +128,7 @@ import WorkersAI from '../icons/WorkersAI';
 import XAI from '../icons/XAI';
 import XiaomiMiMo from '../icons/XiaomiMiMo';
 import Xinference from '../icons/Xinference';
+import Xpay from '../icons/Xpay';
 import Yandex from '../icons/Yandex';
 import ZenMux from '../icons/ZenMux';
 import ZeroOne from '../icons/ZeroOne';
@@ -182,6 +184,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Kluster, keywords: [RNModelProvider.Kluster] },
   { Icon: Lambda, keywords: [RNModelProvider.Lambda] },
   { Icon: LeptonAI, keywords: [RNModelProvider.LeptonAI] },
+  { Icon: LlmApi, keywords: [RNModelProvider.LlmApi] },
   { Icon: LG, keywords: [RNModelProvider.LG] },
   { Icon: Menlo, keywords: [RNModelProvider.Menlo] },
   { Icon: Meta, keywords: [RNModelProvider.Meta] },
@@ -203,7 +206,11 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: AiMass, keywords: [RNModelProvider.AiMass] },
   { Icon: AiStudio, keywords: [RNModelProvider.AiStudio] },
   { Icon: LobeHub, combineMultiple: 1.1, keywords: [RNModelProvider.LobeHub] },
-  { Icon: Zhipu, combineMultiple: 1.25, keywords: [RNModelProvider.ZhiPu, RNModelProvider.GLMCodingPlan] },
+  {
+    Icon: Zhipu,
+    combineMultiple: 1.25,
+    keywords: [RNModelProvider.ZhiPu, RNModelProvider.GLMCodingPlan],
+  },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -250,12 +257,20 @@ export const rnProviderMappings: RNProviderMapping[] = [
     combineMultiple: 0.9,
     keywords: [RNModelProvider.Azure],
   },
-  { Icon: Moonshot, combineMultiple: 0.9, keywords: [RNModelProvider.Moonshot, RNModelProvider.KimiCodingPlan] },
+  {
+    Icon: Moonshot,
+    combineMultiple: 0.9,
+    keywords: [RNModelProvider.Moonshot, RNModelProvider.KimiCodingPlan],
+  },
   { Icon: Novita, keywords: [RNModelProvider.Novita] },
   { Icon: OpenAI, keywords: [RNModelProvider.OpenAI] },
   { Icon: Ollama, combineMultiple: 1.16, keywords: [RNModelProvider.Ollama] },
   { Icon: Perplexity, keywords: [RNModelProvider.Perplexity] },
-  { Icon: Minimax, combineMultiple: 1.3, keywords: [RNModelProvider.Minimax, RNModelProvider.MiniMaxCodingPlan] },
+  {
+    Icon: Minimax,
+    combineMultiple: 1.3,
+    keywords: [RNModelProvider.Minimax, RNModelProvider.MiniMaxCodingPlan],
+  },
   { Icon: Mistral, keywords: [RNModelProvider.Mistral] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
@@ -348,13 +363,17 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: PPIO, combineMultiple: 0.85, keywords: [RNModelProvider.PPIO] },
   { Icon: Jina, keywords: [RNModelProvider.Jina] },
   { Icon: AzureAI, keywords: [RNModelProvider.AzureAI] },
-  { Icon: Volcengine, keywords: [RNModelProvider.Volcengine, RNModelProvider.VolcengineCodingPlan] },
+  {
+    Icon: Volcengine,
+    keywords: [RNModelProvider.Volcengine, RNModelProvider.VolcengineCodingPlan],
+  },
   { Icon: SambaNova, combineMultiple: 0.8, keywords: [RNModelProvider.SambaNova] },
   { Icon: Cohere, keywords: [RNModelProvider.Cohere] },
   { Icon: ComfyUI, keywords: [RNModelProvider.ComfyUI] },
   { Icon: Search1API, combineMultiple: 0.9, keywords: [RNModelProvider.Search1API] },
   { Icon: Infinigence, combineMultiple: 0.8, keywords: [RNModelProvider.InfiniAI] },
   { Icon: Xinference, combineMultiple: 0.85, keywords: [RNModelProvider.Xinference] },
+  { Icon: Xpay, combineMultiple: 0.8, keywords: [RNModelProvider.Xpay] },
   { Icon: Fal, combineMultiple: 0.8, keywords: [RNModelProvider.Fal] },
   { Icon: Ai302, combineMultiple: 0.9, keywords: [RNModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [RNModelProvider.AiHubMix] },

@@ -12,6 +12,7 @@ export {
   default as AdobeFirefly,
   type CompoundedIcon as AdobeFireflyProps,
 } from './icons/AdobeFirefly';
+export { default as AgentVoice, type CompoundedIcon as AgentVoiceProps } from './icons/AgentVoice';
 export { default as Agui, type CompoundedIcon as AguiProps } from './icons/Agui';
 export { default as Ai2, type CompoundedIcon as Ai2Props } from './icons/Ai2';
 export { default as Ai21, type CompoundedIcon as Ai21Props } from './icons/Ai21';
@@ -39,6 +40,7 @@ export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './ico
 export { default as Apertis, type CompoundedIcon as ApertisProps } from './icons/Apertis';
 export { default as Apple, type CompoundedIcon as AppleProps } from './icons/Apple';
 export { default as Arcee, type CompoundedIcon as ArceeProps } from './icons/Arcee';
+export { default as AskVerdict, type CompoundedIcon as AskVerdictProps } from './icons/AskVerdict';
 export { default as AssemblyAI, type CompoundedIcon as AssemblyAIProps } from './icons/AssemblyAI';
 export { default as AtlasCloud, type CompoundedIcon as AtlasCloudProps } from './icons/AtlasCloud';
 export { default as Automatic, type CompoundedIcon as AutomaticProps } from './icons/Automatic';
@@ -345,6 +347,7 @@ export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './i
 export { default as XAI, type CompoundedIcon as XAIProps } from './icons/XAI';
 export { default as XiaomiMiMo, type CompoundedIcon as XiaomiMiMoProps } from './icons/XiaomiMiMo';
 export { default as Xinference, type CompoundedIcon as XinferenceProps } from './icons/Xinference';
+export { default as Xpay, type CompoundedIcon as XpayProps } from './icons/Xpay';
 export { default as Xuanyuan, type CompoundedIcon as XuanyuanProps } from './icons/Xuanyuan';
 export { default as Yandex, type CompoundedIcon as YandexProps } from './icons/Yandex';
 export { default as Yi, type CompoundedIcon as YiProps } from './icons/Yi';
