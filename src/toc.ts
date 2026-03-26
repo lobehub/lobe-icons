@@ -78,6 +78,25 @@ const toc: IconToc[] = [
     "title": "AdobeFirefly"
   },
   {
+    "color": "#0f6fff",
+    "desc": "https://agentvoice.com",
+    "docsUrl": "agent-voice",
+    "fullTitle": "AgentVoice",
+    "group": "provider",
+    "id": "AgentVoice",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "AgentVoice"
+  },
+  {
     "color": "#fff",
     "desc": "https://ag-ui.com",
     "docsUrl": "agui",
