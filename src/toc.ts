@@ -4127,6 +4127,25 @@ const toc: IconToc[] = [
     "title": "Qiniu"
   },
   {
+    "color": "#2ADB5C",
+    "desc": "https://qoder.com",
+    "docsUrl": "qoder",
+    "fullTitle": "Qoder",
+    "group": "application",
+    "id": "Qoder",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": false,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Qoder"
+  },
+  {
     "color": "#615ced",
     "colorGradient": "linear-gradient(to right, #6336E7,  #6F69F7)",
     "desc": "https://huggingface.co/Qwen",
