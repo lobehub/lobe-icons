@@ -159,7 +159,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Anyscale, keywords: [RNModelProvider.Anyscale] },
   { Icon: Apple, keywords: [RNModelProvider.Apple] },
   { Icon: Baidu, keywords: [RNModelProvider.Baidu] },
-  { Icon: Bailian, keywords: [RNModelProvider.Bailian] },
+  { Icon: Bailian, keywords: [RNModelProvider.Bailian, RNModelProvider.BailianCodingPlan] },
   { Icon: Baseten, keywords: [RNModelProvider.Baseten] },
   { Icon: Bilibili, keywords: [RNModelProvider.Bilibili] },
   { Icon: ByteDance, keywords: [RNModelProvider.ByteDance] },
@@ -203,7 +203,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: AiMass, keywords: [RNModelProvider.AiMass] },
   { Icon: AiStudio, keywords: [RNModelProvider.AiStudio] },
   { Icon: LobeHub, combineMultiple: 1.1, keywords: [RNModelProvider.LobeHub] },
-  { Icon: Zhipu, combineMultiple: 1.25, keywords: [RNModelProvider.ZhiPu] },
+  { Icon: Zhipu, combineMultiple: 1.25, keywords: [RNModelProvider.ZhiPu, RNModelProvider.GLMCodingPlan] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -250,12 +250,12 @@ export const rnProviderMappings: RNProviderMapping[] = [
     combineMultiple: 0.9,
     keywords: [RNModelProvider.Azure],
   },
-  { Icon: Moonshot, combineMultiple: 0.9, keywords: [RNModelProvider.Moonshot] },
+  { Icon: Moonshot, combineMultiple: 0.9, keywords: [RNModelProvider.Moonshot, RNModelProvider.KimiCodingPlan] },
   { Icon: Novita, keywords: [RNModelProvider.Novita] },
   { Icon: OpenAI, keywords: [RNModelProvider.OpenAI] },
   { Icon: Ollama, combineMultiple: 1.16, keywords: [RNModelProvider.Ollama] },
   { Icon: Perplexity, keywords: [RNModelProvider.Perplexity] },
-  { Icon: Minimax, combineMultiple: 1.3, keywords: [RNModelProvider.Minimax] },
+  { Icon: Minimax, combineMultiple: 1.3, keywords: [RNModelProvider.Minimax, RNModelProvider.MiniMaxCodingPlan] },
   { Icon: Mistral, keywords: [RNModelProvider.Mistral] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
@@ -348,7 +348,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: PPIO, combineMultiple: 0.85, keywords: [RNModelProvider.PPIO] },
   { Icon: Jina, keywords: [RNModelProvider.Jina] },
   { Icon: AzureAI, keywords: [RNModelProvider.AzureAI] },
-  { Icon: Volcengine, keywords: [RNModelProvider.Volcengine] },
+  { Icon: Volcengine, keywords: [RNModelProvider.Volcengine, RNModelProvider.VolcengineCodingPlan] },
   { Icon: SambaNova, combineMultiple: 0.8, keywords: [RNModelProvider.SambaNova] },
   { Icon: Cohere, keywords: [RNModelProvider.Cohere] },
   { Icon: ComfyUI, keywords: [RNModelProvider.ComfyUI] },
