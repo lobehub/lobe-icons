@@ -72,6 +72,7 @@ import Kluster from '@/Kluster';
 import LG from '@/LG';
 import Lambda from '@/Lambda';
 import LeptonAI from '@/LeptonAI';
+import LlmApi from '@/LlmApi';
 import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
 import LongCat from '@/LongCat';
@@ -128,6 +129,7 @@ import WorkersAI from '@/WorkersAI';
 import XAI from '@/XAI';
 import XiaomiMiMo from '@/XiaomiMiMo';
 import Xinference from '@/Xinference';
+import Xpay from '@/Xpay';
 import Yandex from '@/Yandex';
 import ZenMux from '@/ZenMux';
 import ZeroOne from '@/ZeroOne';
@@ -186,6 +188,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Kluster, keywords: [ModelProvider.Kluster] },
   { Icon: Lambda, keywords: [ModelProvider.Lambda] },
   { Icon: LeptonAI, keywords: [ModelProvider.LeptonAI] },
+  { Icon: LlmApi, keywords: [ModelProvider.LlmApi] },
   { Icon: LG, keywords: [ModelProvider.LG] },
   { Icon: Menlo, keywords: [ModelProvider.Menlo] },
   { Icon: Meta, keywords: [ModelProvider.Meta] },
@@ -359,6 +362,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Search1API, combineMultiple: 0.9, keywords: [ModelProvider.Search1API] },
   { Icon: Infinigence, combineMultiple: 0.8, keywords: [ModelProvider.InfiniAI] },
   { Icon: Xinference, combineMultiple: 0.85, keywords: [ModelProvider.Xinference] },
+  { Icon: Xpay, combineMultiple: 0.8, keywords: [ModelProvider.Xpay] },
   { Icon: Fal, combineMultiple: 0.8, keywords: [ModelProvider.Fal] },
   { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },

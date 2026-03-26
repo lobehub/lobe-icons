@@ -3038,6 +3038,25 @@ const toc: IconToc[] = [
     "title": "LlamaIndex"
   },
   {
+    "color": "#3F35FF",
+    "desc": "https://llmapi.ai",
+    "docsUrl": "llm-api",
+    "fullTitle": "LLM API",
+    "group": "provider",
+    "id": "LlmApi",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "LLM API"
+  },
+  {
     "color": "#4338CA",
     "colorGradient": "linear-gradient(135deg, #6C78EF, #4F14BE)",
     "desc": "https://lmstudio.ai",
@@ -5295,6 +5314,25 @@ const toc: IconToc[] = [
       "hasTextColor": false
     },
     "title": "Xinference"
+  },
+  {
+    "color": "#0F1C4D",
+    "desc": "https://xpay.sh",
+    "docsUrl": "xpay",
+    "fullTitle": "xpay",
+    "group": "provider",
+    "id": "Xpay",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": true,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "xpay"
   },
   {
     "color": "#fff",

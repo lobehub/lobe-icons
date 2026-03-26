@@ -163,6 +163,7 @@ export { default as Liquid, type CompoundedIcon as LiquidProps } from './Liquid'
 export { default as LiveKit, type CompoundedIcon as LiveKitProps } from './LiveKit';
 export { default as LlamaIndex, type CompoundedIcon as LlamaIndexProps } from './LlamaIndex';
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
+export { default as LlmApi, type CompoundedIcon as LlmApiProps } from './LlmApi';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmStudio';
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeHub';
 export { default as LongCat, type CompoundedIcon as LongCatProps } from './LongCat';
@@ -281,6 +282,7 @@ export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './W
 export { default as XAI, type CompoundedIcon as XAIProps } from './XAI';
 export { default as XiaomiMiMo, type CompoundedIcon as XiaomiMiMoProps } from './XiaomiMiMo';
 export { default as Xinference, type CompoundedIcon as XinferenceProps } from './Xinference';
+export { default as Xpay, type CompoundedIcon as XpayProps } from './Xpay';
 export { default as Xuanyuan, type CompoundedIcon as XuanyuanProps } from './Xuanyuan';
 export { default as Yandex, type CompoundedIcon as YandexProps } from './Yandex';
 export { default as Yi, type CompoundedIcon as YiProps } from './Yi';
