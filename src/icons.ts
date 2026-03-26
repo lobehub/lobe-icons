@@ -22,6 +22,7 @@ export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './Any
 export { default as Apertis, type CompoundedIcon as ApertisProps } from './Apertis';
 export { default as Apple, type CompoundedIcon as AppleProps } from './Apple';
 export { default as Arcee, type CompoundedIcon as ArceeProps } from './Arcee';
+export { default as AskVerdict, type CompoundedIcon as AskVerdictProps } from './AskVerdict';
 export { default as AssemblyAI, type CompoundedIcon as AssemblyAIProps } from './AssemblyAI';
 export { default as AtlasCloud, type CompoundedIcon as AtlasCloudProps } from './AtlasCloud';
 export { default as Automatic, type CompoundedIcon as AutomaticProps } from './Automatic';
