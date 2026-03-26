@@ -42,20 +42,6 @@ export default () => (
 );
 ```
 
-## Brands
-
-```tsx
-import { Together } from '@lobehub/icons';
-import { Flexbox } from '@lobehub/ui';
-
-export default () => (
-  <Flexbox gap={16} align={'flex-start'}>
-    <Together.Brand size={64} />
-    <Together.BrandColor size={64} />
-  </Flexbox>
-);
-```
-
 ## Avatars
 
 ```tsx

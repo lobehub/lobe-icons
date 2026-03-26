@@ -6,11 +6,9 @@ import { useFillId } from '@/hooks/useFillId';
 import type { IconType } from '@/types';
 
 import { TITLE } from '../style';
-import { PATHS } from './paths';
 
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
-  const { id } = useFillId(TITLE);
-  const gradientId = `${id}-gold`;
+  const { fill, id } = useFillId(TITLE);
 
   return (
     <svg
@@ -22,18 +20,30 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       {...rest}
     >
       <title>{TITLE}</title>
+      <path d="M12 3.42L4.5 7.97 12 12.47Z" fill={fill} fillOpacity="0.7" />
+      <path d="M12 3.42L19.5 7.97 12 12.47Z" fill={fill} />
+      <path
+        d="M12 6.56L14.48 8.95 13.08 8.95 12 7.73 10.83 8.95 9.42 8.95Z"
+        fill="#0a0800"
+        fillOpacity="0.52"
+      />
+      <path
+        d="M4.5 13.88L12 16.83 19.5 13.88 19.5 15.61 12 18.56 4.5 15.61Z"
+        fill={fill}
+        fillOpacity="0.82"
+      />
+      <path
+        d="M5.3 16.83L12 19.55 18.7 16.83 18.7 18.38 12 20.77 5.3 18.38Z"
+        fill={fill}
+        fillOpacity="0.62"
+      />
       <defs>
-        <linearGradient id={gradientId} x1="50%" x2="50%" y1="0%" y2="100%">
+        <linearGradient id={id} x1="50%" x2="50%" y1="0%" y2="100%">
           <stop offset="0%" stopColor="#FAD460" />
           <stop offset="45%" stopColor="#E8A317" />
           <stop offset="100%" stopColor="#B8751A" />
         </linearGradient>
       </defs>
-      <path d={PATHS.triangleLeft} fill={`url(#${gradientId})`} fillOpacity="0.7" />
-      <path d={PATHS.triangleRight} fill={`url(#${gradientId})`} />
-      <path d={PATHS.notch} fill="#0a0800" fillOpacity="0.52" />
-      <path d={PATHS.bandUpper} fill={`url(#${gradientId})`} fillOpacity="0.82" />
-      <path d={PATHS.bandLower} fill={`url(#${gradientId})`} fillOpacity="0.62" />
     </svg>
   );
 });

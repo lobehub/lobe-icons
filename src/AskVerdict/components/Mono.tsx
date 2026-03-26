@@ -5,7 +5,6 @@ import { memo } from 'react';
 import type { IconType } from '@/types';
 
 import { TITLE } from '../style';
-import { PATHS } from './paths';
 
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
   return (
@@ -20,11 +19,11 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       {...rest}
     >
       <title>{TITLE}</title>
-      <path d={PATHS.triangleLeft} fillOpacity="0.7" />
-      <path d={PATHS.triangleRight} />
-      <path d={PATHS.notch} fillOpacity="0.52" />
-      <path d={PATHS.bandUpper} fillOpacity="0.82" />
-      <path d={PATHS.bandLower} fillOpacity="0.62" />
+      <path d="M12 3.42L4.5 7.97 12 12.47Z" fillOpacity="0.7" />
+      <path d="M12 3.42L19.5 7.97 12 12.47Z" />
+      <path d="M12 6.56L14.48 8.95 13.08 8.95 12 7.73 10.83 8.95 9.42 8.95Z" fillOpacity="0.52" />
+      <path d="M4.5 13.88L12 16.83 19.5 13.88 19.5 15.61 12 18.56 4.5 15.61Z" fillOpacity="0.82" />
+      <path d="M5.3 16.83L12 19.55 18.7 16.83 18.7 18.38 12 20.77 5.3 18.38Z" fillOpacity="0.62" />
     </svg>
   );
 });

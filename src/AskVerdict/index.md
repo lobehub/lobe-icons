@@ -1,6 +1,6 @@
 ---
 nav: Components
-group: Model
+group: Application
 title: AskVerdict
 atomId: AskVerdict
 description: https://askverdict.ai
@@ -35,7 +35,7 @@ import { AskVerdict } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
 
 export default () => (
-  <Flexbox gap={32} horizontal>
+  <Flexbox gap={32}>
     <AskVerdict.Combine size={64} />
     <AskVerdict.Combine size={64} type="color" />
   </Flexbox>

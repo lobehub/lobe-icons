@@ -12,15 +12,12 @@ description: https://agentvoice.com
 import { AgentVoice } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
 
-export default () => <AgentVoice size={64} />;
-```
-
-## Color
-
-```tsx
-import { AgentVoice } from '@lobehub/icons';
-
-export default () => <AgentVoice.Color size={64} />;
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <AgentVoice size={64} />
+    <AgentVoice.Color size={64} />
+  </Flexbox>
+);
 ```
 
 ## Text
@@ -35,8 +32,14 @@ export default () => <AgentVoice.Text size={48} />;
 
 ```tsx
 import { AgentVoice } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
 
-export default () => <AgentVoice.Combine size={64} />;
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <AgentVoice.Combine size={64} />
+    <AgentVoice.Combine size={64} type={'color'} />
+  </Flexbox>
+);
 ```
 
 ## Avatars

@@ -12,6 +12,7 @@ import Text from './Text';
 export interface CombineProps extends Omit<IconCombineProps, 'Icon' | 'Text'> {
   type?: 'color' | 'mono';
 }
+
 const Combine = memo<CombineProps>(({ type = 'mono', ...rest }) => {
   const Icon = type === 'color' ? Color : Mono;
 

@@ -28,6 +28,20 @@ import { Qoder } from '@lobehub/icons';
 export default () => <Qoder.Text size={48} />;
 ```
 
+## Combine
+
+```tsx
+import { Qoder } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Qoder.Combine size={64} />
+    <Qoder.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
 ## Avatars
 
 ```tsx

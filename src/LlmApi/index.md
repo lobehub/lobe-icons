@@ -15,6 +15,7 @@ import { Flexbox } from '@lobehub/ui';
 export default () => (
   <Flexbox gap={16} horizontal>
     <LlmApi size={64} />
+    <LlmApi.Color size={64} />
   </Flexbox>
 );
 ```
@@ -49,7 +50,6 @@ import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <LlmApi.Avatar size={64} background={LlmApi.colorPrimary} />
     <LlmApi.Avatar size={64} />
     <LlmApi.Avatar size={64} shape={'square'} />
   </Flexbox>
