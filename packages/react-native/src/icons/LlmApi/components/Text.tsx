@@ -1,0 +1,28 @@
+import React, { memo } from 'react';
+import { Path, Svg } from 'react-native-svg';
+
+import type { RNIconProps } from '@/features';
+
+const Icon = memo<RNIconProps>(({ size = 24, style, color = '#000000', ...rest }) => {
+  return (
+    <Svg
+      color={color}
+      fillRule="evenodd"
+      height={size}
+      style={style}
+      viewBox="0 0 98 24"
+      width={size * 4.08} // 保持宽高比
+      {...rest}
+    >
+      <Path
+        clipRule="evenodd"
+        d="M93 22V2h3v20h-3zM77 22V2h7.07c1.377 0 2.584.229 3.62.686 1.038.438 1.848 1.095 2.433 1.971.584.876.877 1.953.877 3.229s-.302 2.362-.905 3.257c-.585.876-1.395 1.543-2.432 2-1.037.438-2.235.657-3.593.657h-3.846V22H77zm3.224-10.971h3.762c1.376 0 2.338-.277 2.885-.829.566-.571.848-1.343.848-2.314 0-.953-.282-1.715-.848-2.286-.547-.571-1.509-.857-2.885-.857h-3.762v6.286zM57 22l7.222-20h3.555L75 22h-3.385l-1.637-4.743h-7.984L60.329 22H57zm5.925-7.343h6.15L65.972 5.8l-3.047 8.857zM30 22V2h3.867l6.176 13.229L46.103 2H50v20h-3.29V7.8l-5.426 11.543h-2.568L33.29 7.8V22H30zM16 22V2h3.226v17.286H28V22H16zM2 22V2h3.226v17.286H14V22H2z"
+        fill={color}
+      />
+    </Svg>
+  );
+});
+
+Icon.displayName = 'LlmApiText';
+
+export default Icon;

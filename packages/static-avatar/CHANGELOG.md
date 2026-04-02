@@ -2,6 +2,56 @@
 
 # Changelog
 
+## [Version 1.5.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-avatar@1.4.0...@lobehub/icons-static-avatar@1.5.0)
+
+<sup>Released on **2026-03-27**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([2a1a484](https://github.com/lobehub/lobe-icons/commit/2a1a484))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 1.4.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-avatar@1.3.0...@lobehub/icons-static-avatar@1.4.0)
+
+<sup>Released on **2026-03-26**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([58eb19c](https://github.com/lobehub/lobe-icons/commit/58eb19c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.3.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-avatar@1.2.0...@lobehub/icons-static-avatar@1.3.0)
 
 <sup>Released on **2026-03-01**</sup>

@@ -72,6 +72,7 @@ import Kluster from '@/Kluster';
 import LG from '@/LG';
 import Lambda from '@/Lambda';
 import LeptonAI from '@/LeptonAI';
+import LlmApi from '@/LlmApi';
 import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
 import LongCat from '@/LongCat';
@@ -128,6 +129,7 @@ import WorkersAI from '@/WorkersAI';
 import XAI from '@/XAI';
 import XiaomiMiMo from '@/XiaomiMiMo';
 import Xinference from '@/Xinference';
+import Xpay from '@/Xpay';
 import Yandex from '@/Yandex';
 import ZenMux from '@/ZenMux';
 import ZeroOne from '@/ZeroOne';
@@ -163,7 +165,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Anyscale, keywords: [ModelProvider.Anyscale] },
   { Icon: Apple, keywords: [ModelProvider.Apple] },
   { Icon: Baidu, keywords: [ModelProvider.Baidu] },
-  { Icon: Bailian, keywords: [ModelProvider.Bailian] },
+  { Icon: Bailian, keywords: [ModelProvider.Bailian, ModelProvider.BailianCodingPlan] },
   { Icon: Baseten, keywords: [ModelProvider.Baseten] },
   { Icon: Bilibili, keywords: [ModelProvider.Bilibili] },
   { Icon: ByteDance, keywords: [ModelProvider.ByteDance] },
@@ -186,6 +188,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Kluster, keywords: [ModelProvider.Kluster] },
   { Icon: Lambda, keywords: [ModelProvider.Lambda] },
   { Icon: LeptonAI, keywords: [ModelProvider.LeptonAI] },
+  { Icon: LlmApi, keywords: [ModelProvider.LlmApi] },
   { Icon: LG, keywords: [ModelProvider.LG] },
   { Icon: Menlo, keywords: [ModelProvider.Menlo] },
   { Icon: Meta, keywords: [ModelProvider.Meta] },
@@ -207,7 +210,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: AiMass, keywords: [ModelProvider.AiMass] },
   { Icon: AiStudio, keywords: [ModelProvider.AiStudio] },
   { Icon: LobeHub, combineMultiple: 1.1, keywords: [ModelProvider.LobeHub] },
-  { Icon: Zhipu, combineMultiple: 1.25, keywords: [ModelProvider.ZhiPu] },
+  { Icon: Zhipu, combineMultiple: 1.25, keywords: [ModelProvider.ZhiPu, ModelProvider.GLMCodingPlan] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -254,12 +257,12 @@ export const providerMappings: ProviderMapping[] = [
     combineMultiple: 0.9,
     keywords: [ModelProvider.Azure],
   },
-  { Icon: Moonshot, combineMultiple: 0.9, keywords: [ModelProvider.Moonshot] },
+  { Icon: Moonshot, combineMultiple: 0.9, keywords: [ModelProvider.Moonshot, ModelProvider.KimiCodingPlan] },
   { Icon: Novita, keywords: [ModelProvider.Novita] },
   { Icon: OpenAI, keywords: [ModelProvider.OpenAI] },
   { Icon: Ollama, combineMultiple: 1.16, keywords: [ModelProvider.Ollama] },
   { Icon: Perplexity, keywords: [ModelProvider.Perplexity] },
-  { Icon: Minimax, combineMultiple: 1.3, keywords: [ModelProvider.Minimax] },
+  { Icon: Minimax, combineMultiple: 1.3, keywords: [ModelProvider.Minimax, ModelProvider.MiniMaxCodingPlan] },
   { Icon: Mistral, keywords: [ModelProvider.Mistral] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
@@ -352,13 +355,14 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: PPIO, combineMultiple: 0.85, keywords: [ModelProvider.PPIO] },
   { Icon: Jina, keywords: [ModelProvider.Jina] },
   { Icon: AzureAI, keywords: [ModelProvider.AzureAI] },
-  { Icon: Volcengine, keywords: [ModelProvider.Volcengine] },
+  { Icon: Volcengine, keywords: [ModelProvider.Volcengine, ModelProvider.VolcengineCodingPlan] },
   { Icon: SambaNova, combineMultiple: 0.8, keywords: [ModelProvider.SambaNova] },
   { Icon: Cohere, keywords: [ModelProvider.Cohere] },
   { Icon: ComfyUI, keywords: [ModelProvider.ComfyUI] },
   { Icon: Search1API, combineMultiple: 0.9, keywords: [ModelProvider.Search1API] },
   { Icon: Infinigence, combineMultiple: 0.8, keywords: [ModelProvider.InfiniAI] },
   { Icon: Xinference, combineMultiple: 0.85, keywords: [ModelProvider.Xinference] },
+  { Icon: Xpay, combineMultiple: 0.8, keywords: [ModelProvider.Xpay] },
   { Icon: Fal, combineMultiple: 0.8, keywords: [ModelProvider.Fal] },
   { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },

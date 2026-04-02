@@ -1,0 +1,50 @@
+'use client';
+
+import { memo } from 'react';
+
+import { useFillId } from '@/hooks/useFillId';
+import type { IconType } from '@/types';
+
+import { TITLE } from '../style';
+
+const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
+  const { fill, id } = useFillId(TITLE);
+  return (
+    <svg
+      height={size}
+      style={{ flex: 'none', lineHeight: 1, ...style }}
+      viewBox="0 0 24 24"
+      width={size}
+      xmlns="http://www.w3.org/2000/svg"
+      {...rest}
+    >
+      <title>{TITLE}</title>
+      <path
+        d="M0 4.391A4.391 4.391 0 014.391 0h15.217A4.391 4.391 0 0124 4.391v15.217A4.391 4.391 0 0119.608 24H4.391A4.391 4.391 0 010 19.608V4.391z"
+        fill={fill}
+      />
+      <path
+        clipRule="evenodd"
+        d="M19.74 1.444a2.816 2.816 0 012.816 2.816v15.48a2.816 2.816 0 01-2.816 2.816H4.26a2.816 2.816 0 01-2.816-2.816V4.26A2.816 2.816 0 014.26 1.444h15.48zM7.236 8.564l7.752 3.728-7.752 3.727v2.802l9.557-4.596v-3.866L7.236 5.763v2.801z"
+        fill="#1E1E2E"
+        fillRule="evenodd"
+      />
+      <defs>
+        <linearGradient
+          gradientUnits="userSpaceOnUse"
+          id={id}
+          x1="24"
+          x2="0"
+          y1="6.587"
+          y2="16.494"
+        >
+          <stop stopColor="#EE4D5D" />
+          <stop offset=".328" stopColor="#B381DD" />
+          <stop offset=".476" stopColor="#207CFE" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+});
+
+export default Icon;

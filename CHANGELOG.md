@@ -2,6 +2,60 @@
 
 # Changelog
 
+## [Version 5.2.0](https://github.com/lobehub/lobe-icons/compare/v5.1.0...v5.2.0)
+
+<sup>Released on **2026-03-27**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add GeminiCLI, Reve, PrunaAI, BriaAI, Obsidian.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([4087db9](https://github.com/lobehub/lobe-icons/commit/4087db9))
+- **misc**: Add GeminiCLI, Reve, PrunaAI, BriaAI, Obsidian ([3fd24bd](https://github.com/lobehub/lobe-icons/commit/3fd24bd))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 5.1.0](https://github.com/lobehub/lobe-icons/compare/v5.0.1...v5.1.0)
+
+<sup>Released on **2026-03-27**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Bump new \[force patch].
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([58eb19c](https://github.com/lobehub/lobe-icons/commit/58eb19c))
+- **misc**: Bump new \[force patch] ([0d0707b](https://github.com/lobehub/lobe-icons/commit/0d0707b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 5.0.1](https://github.com/lobehub/lobe-icons/compare/v5.0.0...v5.0.1)
 
 <sup>Released on **2026-03-02**</sup>

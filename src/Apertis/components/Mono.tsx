@@ -1,0 +1,32 @@
+'use client';
+
+import { memo } from 'react';
+
+import type { IconType } from '@/types';
+
+import { TITLE } from '../style';
+
+const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
+  return (
+    <svg
+      fill="currentColor"
+      fillRule="evenodd"
+      height={size}
+      style={{ flex: 'none', lineHeight: 1, ...style }}
+      viewBox="0 0 24 24"
+      width={size}
+      xmlns="http://www.w3.org/2000/svg"
+      {...rest}
+    >
+      <title>{TITLE}</title>
+      <g opacity=".45">
+        <path d="M3.474 24l3.943-8.21H9.34L3.474 24z" />
+        <path d="M24 24h-4.895l-3.882-8.362 1.356-3.164H9.01L15 0l9 24z" />
+      </g>
+      <path d="M15.743 12.474H7.737l-1.263 3.315L0 24 10.737 0l5.006 12.474z" />
+      <path d="M16.146 13.48L20.369 24h-5.21l-3.473-8.21h3.473l.989-2.31z" />
+    </svg>
+  );
+});
+
+export default Icon;
