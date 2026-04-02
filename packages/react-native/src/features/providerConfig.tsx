@@ -288,7 +288,11 @@ export const rnProviderMappings: RNProviderMapping[] = [
     combineMultiple: 1.1,
     keywords: [RNModelProvider.Qwen],
   },
-  { Icon: Stepfun, combineMultiple: 0.83, keywords: [RNModelProvider.Stepfun] },
+  {
+    Icon: Stepfun,
+    combineMultiple: 0.83,
+    keywords: [RNModelProvider.Stepfun, RNModelProvider.StepFunCodingPlan],
+  },
   { Icon: Spark, combineMultiple: 0.92, keywords: [RNModelProvider.Spark] },
   { Icon: Fireworks, combineMultiple: 1.14, keywords: [RNModelProvider.FireworksAI] },
   { Icon: Baichuan, combineMultiple: 0.83, keywords: [RNModelProvider.Baichuan] },
