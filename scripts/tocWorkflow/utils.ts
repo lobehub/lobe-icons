@@ -1,8 +1,4 @@
-const kebabCase = (s: string) =>
-  s
-    .replace(/([a-z0-9])([A-Z])/g, '$1-$2')
-    .replace(/([A-Z])([A-Z][a-z])/g, '$1-$2')
-    .toLowerCase();
+import { kebabCase } from 'es-toolkit';
 
 export const customKebabCase = (string: string) => {
   const parts = string.match(/[A-Z]{2,}(?=[A-Z][a-z]+\d*|\b)|[A-Z]?[a-z]+\d*|[A-Z]|\d+/g);
