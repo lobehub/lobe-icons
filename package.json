@@ -86,6 +86,7 @@
   },
   "dependencies": {
     "antd-style": "^4.1.0",
+    "es-toolkit": "^1.45.1",
     "lucide-react": "^0.469.0",
     "polished": "^4.3.1"
   },
@@ -110,7 +111,6 @@
     "dpdm": "^3.15.1",
     "dumi": "^2.4.23",
     "dumi-theme-lobehub": "^4.1.0",
-    "es-toolkit": "^1.45.1",
     "eslint": "^8.57.1",
     "father": "^4.6.17",
     "glob": "^11.1.0",
