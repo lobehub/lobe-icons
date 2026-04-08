@@ -21,8 +21,8 @@ export const useFillId = (namespace: string) => {
 export const useFillIds = (namespace: string, length: number) => {
   const uniqueId = useId();
   return useMemo(() => {
-    return Array.from({ length }, () => {
-      const id = `lobe-icons-${kebabCase(namespace)}-${uniqueId}`;
+    return Array.from({ length }, (_, i) => {
+      const id = `lobe-icons-${kebabCase(namespace)}-${i}-${uniqueId}`;
       return {
         fill: `url(#${id})`,
         id,
