@@ -91,6 +91,7 @@ import Novita from '@/Novita';
 import Nvidia from '@/Nvidia';
 import Ollama from '@/Ollama';
 import OpenAI from '@/OpenAI';
+import OpenCode from '@/OpenCode';
 import OpenRouter from '@/OpenRouter';
 import PPIO from '@/PPIO';
 import Parasail from '@/Parasail';
@@ -260,6 +261,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Moonshot, combineMultiple: 0.9, keywords: [ModelProvider.Moonshot, ModelProvider.KimiCodingPlan] },
   { Icon: Novita, keywords: [ModelProvider.Novita] },
   { Icon: OpenAI, keywords: [ModelProvider.OpenAI] },
+  { Icon: OpenCode, keywords: [ModelProvider.OpenCode, ModelProvider.OpenCodeGo, ModelProvider.OpenCodeZen] },
   { Icon: Ollama, combineMultiple: 1.16, keywords: [ModelProvider.Ollama] },
   { Icon: Perplexity, keywords: [ModelProvider.Perplexity] },
   { Icon: Minimax, combineMultiple: 1.3, keywords: [ModelProvider.Minimax, ModelProvider.MiniMaxCodingPlan] },
@@ -295,7 +297,7 @@ export const providerMappings: ProviderMapping[] = [
     combineMultiple: 1.1,
     keywords: [ModelProvider.Qwen],
   },
-  { Icon: Stepfun, combineMultiple: 0.83, keywords: [ModelProvider.Stepfun] },
+  { Icon: Stepfun, combineMultiple: 0.83, keywords: [ModelProvider.Stepfun, ModelProvider.StepfunCodingPlan] },
   { Icon: Spark, combineMultiple: 0.92, keywords: [ModelProvider.Spark] },
   { Icon: Fireworks, combineMultiple: 1.14, keywords: [ModelProvider.FireworksAI] },
   { Icon: Baichuan, combineMultiple: 0.83, keywords: [ModelProvider.Baichuan] },
