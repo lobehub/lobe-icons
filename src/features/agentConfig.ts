@@ -111,7 +111,7 @@ export const agentMappings: AgentMapping[] = [
   { Icon: Windsurf, keywords: ['windsurf'] },
   { Icon: Cline, keywords: ['cline'] },
   { Icon: OpenCode, keywords: ['open-code', 'opencode', 'openwork'] },
-  { Icon: OpenCode, keywords: ['open-code-go', 'opencodego'] },
+  { Icon: OpenCode, keywords: ['open-code-go', 'opencodego', 'opencodecodingplan'] },
   { Icon: OpenCode, keywords: ['open-code-zen', 'opencodezen'] },
   { Icon: OpenHands, keywords: ['open-hands', 'openhands'] },
   { Icon: RooCode, keywords: ['roo-code', 'roocode'] },
