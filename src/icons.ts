@@ -127,6 +127,7 @@ export { default as Groq, type CompoundedIcon as GroqProps } from './Groq';
 export { default as Hailuo, type CompoundedIcon as HailuoProps } from './Hailuo';
 export { default as Haiper, type CompoundedIcon as HaiperProps } from './Haiper';
 export { default as Hedra, type CompoundedIcon as HedraProps } from './Hedra';
+export { default as HermesAgent, type CompoundedIcon as HermesAgentProps } from './HermesAgent';
 export { default as Higress, type CompoundedIcon as HigressProps } from './Higress';
 export { default as Huawei, type CompoundedIcon as HuaweiProps } from './Huawei';
 export { default as HuaweiCloud, type CompoundedIcon as HuaweiCloudProps } from './HuaweiCloud';
@@ -276,8 +277,8 @@ export { default as Unstructured, type CompoundedIcon as UnstructuredProps } fro
 export { default as Upstage, type CompoundedIcon as UpstageProps } from './Upstage';
 export { default as V0, type CompoundedIcon as V0Props } from './V0';
 export { default as VectorizerAI, type CompoundedIcon as VectorizerAIProps } from './VectorizerAI';
-export { default as Vercel, type CompoundedIcon as VercelProps } from './Vercel';
 export { default as Venice, type CompoundedIcon as VeniceProps } from './Venice';
+export { default as Vercel, type CompoundedIcon as VercelProps } from './Vercel';
 export { default as VertexAI, type CompoundedIcon as VertexAIProps } from './VertexAI';
 export { default as Vidu, type CompoundedIcon as ViduProps } from './Vidu';
 export { default as Viggle, type CompoundedIcon as ViggleProps } from './Viggle';

@@ -15,6 +15,7 @@ import { Flexbox } from '@lobehub/ui';
 export default () => (
   <Flexbox gap={16} horizontal>
     <Menlo size={64} />
+    <Menlo.Color size={64} />
   </Flexbox>
 );
 ```

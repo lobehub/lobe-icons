@@ -3,7 +3,7 @@ import { markdownTable } from 'markdown-table';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-import toc, { IconToc } from '../../src/toc';
+import { type IconToc, toc } from '@/index';
 
 const ROOT_PATH = resolve(__dirname, '../..');
 

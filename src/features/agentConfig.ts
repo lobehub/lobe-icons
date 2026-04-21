@@ -17,6 +17,7 @@ import Gemini from '@/Gemini';
 import GeminiCLI from '@/GeminiCLI';
 import GithubCopilot from '@/GithubCopilot';
 import Goose from '@/Goose';
+import HermesAgent from '@/HermesAgent';
 import Junie from '@/Junie';
 import KiloCode from '@/KiloCode';
 import Kimi from '@/Kimi';
@@ -87,6 +88,7 @@ export const agentMappings: AgentMapping[] = [
       'claw',
     ],
   },
+  { Icon: HermesAgent, keywords: ['hermes'] },
   { Icon: Manus, keywords: ['manus'] },
   { Icon: CherryStudio, keywords: ['cherry-studio', 'cherrystudio'] },
   { Icon: Cursor, keywords: ['cursor'] },

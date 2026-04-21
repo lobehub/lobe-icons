@@ -90,6 +90,7 @@ import Novita from '../icons/Novita';
 import Nvidia from '../icons/Nvidia';
 import Ollama from '../icons/Ollama';
 import OpenAI from '../icons/OpenAI';
+import OpenCode from '../icons/OpenCode';
 import OpenRouter from '../icons/OpenRouter';
 import PPIO from '../icons/PPIO';
 import Parasail from '../icons/Parasail';
@@ -264,6 +265,15 @@ export const rnProviderMappings: RNProviderMapping[] = [
   },
   { Icon: Novita, keywords: [RNModelProvider.Novita] },
   { Icon: OpenAI, keywords: [RNModelProvider.OpenAI] },
+  {
+    Icon: OpenCode,
+    keywords: [
+      RNModelProvider.OpenCode,
+      RNModelProvider.OpenCodeCodingPlan,
+      RNModelProvider.OpenCodeGo,
+      RNModelProvider.OpenCodeZen,
+    ],
+  },
   { Icon: Ollama, combineMultiple: 1.16, keywords: [RNModelProvider.Ollama] },
   { Icon: Perplexity, keywords: [RNModelProvider.Perplexity] },
   {
@@ -306,7 +316,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Icon: Stepfun,
     combineMultiple: 0.83,
-    keywords: [RNModelProvider.Stepfun, RNModelProvider.StepFunCodingPlan],
+    keywords: [RNModelProvider.Stepfun, RNModelProvider.StepfunCodingPlan],
   },
   { Icon: Spark, combineMultiple: 0.92, keywords: [RNModelProvider.Spark] },
   { Icon: Fireworks, combineMultiple: 1.14, keywords: [RNModelProvider.FireworksAI] },

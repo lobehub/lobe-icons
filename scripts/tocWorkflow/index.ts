@@ -33,32 +33,8 @@ const run = () => {
     };
   });
 
-  const content = `export interface IconToc {
-  color: string;
-  colorGradient?: string;
-  desc: string;
-  docsUrl: string;
-  fullTitle: string;
-  group: 'model' | 'provider' | 'application';
-  id: string;
-    param: {
-    hasAvatar: boolean;
-    hasBrand: boolean;
-    hasBrandColor: boolean;
-    hasColor: boolean;
-    hasCombine: boolean;
-    hasText: boolean;
-    hasTextCn: boolean;
-    hasTextColor: boolean;
-  };
-  title: string;
-}
-
-const toc: IconToc[] = ${JSON.stringify(list, null, 2)}
-
-export default toc;`;
-
-  writeFileSync(resolve(rootDir, 'src/toc.ts'), content);
+  // writeFileSync(resolve(rootDir, 'src/toc.json'), JSON.stringify(list, null, 2));
+  writeFileSync(resolve(rootDir, 'src/toc.json'), JSON.stringify(list));
 };
 
 run();
