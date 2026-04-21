@@ -277,6 +277,7 @@ export { default as Upstage, type CompoundedIcon as UpstageProps } from './Upsta
 export { default as V0, type CompoundedIcon as V0Props } from './V0';
 export { default as VectorizerAI, type CompoundedIcon as VectorizerAIProps } from './VectorizerAI';
 export { default as Vercel, type CompoundedIcon as VercelProps } from './Vercel';
+export { default as Venice, type CompoundedIcon as VeniceProps } from './Venice';
 export { default as VertexAI, type CompoundedIcon as VertexAIProps } from './VertexAI';
 export { default as Vidu, type CompoundedIcon as ViduProps } from './Vidu';
 export { default as Viggle, type CompoundedIcon as ViggleProps } from './Viggle';
