@@ -3,7 +3,7 @@ import { markdownTable } from 'markdown-table';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-import { type IconToc, toc } from '@/index';
+import { type IconToc, getLobeIconCDN, toc } from '@/index';
 
 const ROOT_PATH = resolve(__dirname, '../..');
 
@@ -19,8 +19,8 @@ const genMd = (data: IconToc): string =>
   [
     `<a href="${BASE_URL}${data.id.toLowerCase()}">`,
     `<picture>`,
-    `<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/${data.param.hasColor ? data.id.toLowerCase() + '-color' : data.id.toLowerCase()}.png" />`,
-    `<img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/${data.param.hasColor ? data.id.toLowerCase() + '-color' : data.id.toLowerCase()}.png" />`,
+    `<source media="(prefers-color-scheme: dark)" srcset=${getLobeIconCDN(data.id.toLowerCase(), { cdn: 'github', format: 'png', isDarkMode: true, type: data.param.hasColor ? 'color' : 'mono' })} />`,
+    `<img height="56px" width="56px" src=${getLobeIconCDN(data.id.toLowerCase(), { cdn: 'github', format: 'png', isDarkMode: false, type: data.param.hasColor ? 'color' : 'mono' })} />`,
     `</picture>`,
     '<br/>',
     data.fullTitle,
