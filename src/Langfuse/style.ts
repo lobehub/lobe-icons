@@ -1,7 +1,7 @@
 export const TITLE = 'Langfuse';
 export const COMBINE_TEXT_MULTIPLE = 0.85;
 export const COMBINE_SPACE_MULTIPLE = 0.3;
-export const COLOR_PRIMARY = '#000';
+export const COLOR_PRIMARY = '#1B1917';
 
 // Avatar constants
 export const AVATAR_BACKGROUND = COLOR_PRIMARY;
