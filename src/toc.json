@@ -1109,8 +1109,8 @@
   },
   {
     "color": "#6c4dff",
-    "colorGradient": "linear-gradient(180deg, #6c4dff, #583ed3)",
-    "desc": "https://www.codebuddy.ai",
+    "colorGradient": "radial-gradient(66.67% 66.67% at 87.5% 102.08%, #2EA99D 0%, #6C4DFF 100%)",
+    "desc": "https://codebuddy.ai",
     "docsUrl": "code-buddy",
     "fullTitle": "CodeBuddy",
     "group": "application",

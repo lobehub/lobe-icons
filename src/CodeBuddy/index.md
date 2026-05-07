@@ -3,7 +3,7 @@ nav: Components
 group: Application
 title: CodeBuddy
 atomId: CodeBuddy
-description: https://www.codebuddy.ai
+description: https://codebuddy.ai
 ---
 
 ## Icons
@@ -52,6 +52,7 @@ export default () => (
   <Flexbox gap={16} horizontal>
     <CodeBuddy.Avatar size={64} />
     <CodeBuddy.Avatar size={64} shape={'square'} />
+    <CodeBuddy.Avatar size={64} shape={'square'} background={CodeBuddy.colorPrimary} />
   </Flexbox>
 );
 ```
