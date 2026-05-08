@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 import { RNIconCombine, type RNIconCombineProps } from '@/features';
 
-import { COMBINE_SPACE_MULTIPLE, COMBINE_TEXT_MULTIPLE, TITLE } from '../style';
+import { COLOR_PRIMARY, COMBINE_SPACE_MULTIPLE, COMBINE_TEXT_MULTIPLE, TITLE } from '../style';
 import Text from './Text';
 
 export interface CombineProps extends Omit<RNIconCombineProps, 'Icon' | 'Text'> {
@@ -14,7 +14,7 @@ const Combine = memo<CombineProps>(({ type = 'mono', ...rest }) => {
     <RNIconCombine
       Text={Text}
       aria-label={TITLE}
-      color={type === 'color' ? '#00ffb3' : undefined}
+      color={type === 'color' ? COLOR_PRIMARY : undefined}
       spaceMultiple={COMBINE_SPACE_MULTIPLE}
       textMultiple={COMBINE_TEXT_MULTIPLE}
       {...rest}

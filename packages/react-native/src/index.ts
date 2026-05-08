@@ -79,6 +79,7 @@ export { default as ClaudeCode, type CompoundedIcon as ClaudeCodeProps } from '.
 export { default as Cline, type CompoundedIcon as ClineProps } from './icons/Cline';
 export { default as Clipdrop, type CompoundedIcon as ClipdropProps } from './icons/Clipdrop';
 export { default as Cloudflare, type CompoundedIcon as CloudflareProps } from './icons/Cloudflare';
+export { default as CodeBuddy, type CompoundedIcon as CodeBuddyProps } from './icons/CodeBuddy';
 export {
   default as CodeFlicker,
   type CompoundedIcon as CodeFlickerProps,

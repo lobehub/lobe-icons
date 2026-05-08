@@ -42,6 +42,7 @@ const IconAvatar = memo<IconAvatarProps>(
           boxShadow: getAvatarShadow(isDarkMode, background),
           color,
           height: size,
+          overflow: 'hidden',
           width: size,
           ...style,
         }}

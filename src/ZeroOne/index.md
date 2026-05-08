@@ -15,6 +15,7 @@ import { Flexbox } from '@lobehub/ui';
 export default () => (
   <Flexbox gap={16} horizontal>
     <ZeroOne size={64} />
+    <ZeroOne.Color size={64} />
   </Flexbox>
 );
 ```

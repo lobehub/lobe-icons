@@ -1108,6 +1108,26 @@
     "title": "Cloudflare"
   },
   {
+    "color": "#6c4dff",
+    "colorGradient": "radial-gradient(66.67% 66.67% at 87.5% 102.08%, #2EA99D 0%, #6C4DFF 100%)",
+    "desc": "https://codebuddy.ai",
+    "docsUrl": "code-buddy",
+    "fullTitle": "CodeBuddy",
+    "group": "application",
+    "id": "CodeBuddy",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "CodeBuddy"
+  },
+  {
     "color": "#32EDDA",
     "desc": "https://codeflicker.ai",
     "docsUrl": "code-flicker",

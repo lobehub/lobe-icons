@@ -6,6 +6,7 @@ import CherryStudio from '@/CherryStudio';
 import Claude from '@/Claude';
 import ClaudeCode from '@/ClaudeCode';
 import Cline from '@/Cline';
+import CodeBuddy from '@/CodeBuddy';
 import CodeFlicker from '@/CodeFlicker';
 import Codex from '@/Codex';
 import Copilot from '@/Copilot';
@@ -112,9 +113,19 @@ export const agentMappings: AgentMapping[] = [
   { Icon: Replit, keywords: ['replit'] },
   { Icon: Windsurf, keywords: ['windsurf'] },
   { Icon: Cline, keywords: ['cline'] },
-  { Icon: OpenCode, keywords: ['open-code', 'opencode', 'openwork'] },
-  { Icon: OpenCode, keywords: ['open-code-go', 'opencodego', 'opencodecodingplan'] },
-  { Icon: OpenCode, keywords: ['open-code-zen', 'opencodezen'] },
+  {
+    Icon: OpenCode,
+    keywords: [
+      'open-code',
+      'opencode',
+      'openwork',
+      'open-code-go',
+      'opencodego',
+      'opencodecodingplan',
+      'open-code-zen',
+      'opencodezen',
+    ],
+  },
   { Icon: OpenHands, keywords: ['open-hands', 'openhands'] },
   { Icon: RooCode, keywords: ['roo-code', 'roocode'] },
   { Icon: Goose, keywords: ['goose'] },
@@ -133,4 +144,5 @@ export const agentMappings: AgentMapping[] = [
   { Icon: MetaAI, keywords: ['meta-ai', 'metaai'] },
   { Icon: N8n, keywords: ['n8n'] },
   { Icon: Notion, keywords: ['notion'] },
+  { Icon: CodeBuddy, keywords: ['code-buddy', 'codebuddy'] },
 ];

@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 2.7.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.7.0...@lobehub/icons-rn@2.7.1)
+
+<sup>Released on **2026-05-07**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix zero-one.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix zero-one ([66fc9e3](https://github.com/lobehub/lobe-icons/commit/66fc9e3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.7.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.6.1...@lobehub/icons-rn@2.7.0)
 
 <sup>Released on **2026-04-21**</sup>
