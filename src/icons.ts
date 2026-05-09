@@ -289,6 +289,7 @@ export { default as Voyage, type CompoundedIcon as VoyageProps } from './Voyage'
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as Windsurf, type CompoundedIcon as WindsurfProps } from './Windsurf';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
+export { default as WorldRouter, type CompoundedIcon as WorldRouterProps } from './WorldRouter';
 export { default as XAI, type CompoundedIcon as XAIProps } from './XAI';
 export { default as XiaomiMiMo, type CompoundedIcon as XiaomiMiMoProps } from './XiaomiMiMo';
 export { default as Xinference, type CompoundedIcon as XinferenceProps } from './Xinference';
