@@ -2064,6 +2064,25 @@
     "title": "Gemma"
   },
   {
+    "color": "#848484",
+    "desc": "https://ghast.trapezohe.ai",
+    "docsUrl": "ghast",
+    "fullTitle": "Ghast",
+    "group": "application",
+    "id": "Ghast",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Ghast"
+  },
+  {
     "color": "#000",
     "desc": "https://ai-assets.gitee.com/",
     "docsUrl": "gitee-ai",
