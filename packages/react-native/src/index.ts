@@ -201,6 +201,7 @@ export { default as KiloCode, type CompoundedIcon as KiloCodeProps } from './ico
 export { default as Kimi, type CompoundedIcon as KimiProps } from './icons/Kimi';
 export { default as Kling, type CompoundedIcon as KlingProps } from './icons/Kling';
 export { default as Kluster, type CompoundedIcon as KlusterProps } from './icons/Kluster';
+export { default as Kollab, type CompoundedIcon as KollabProps } from './icons/Kollab';
 export { default as Kolors, type CompoundedIcon as KolorsProps } from './icons/Kolors';
 export { default as Krea, type CompoundedIcon as KreaProps } from './icons/Krea';
 export { default as KwaiKAT, type CompoundedIcon as KwaiKATProps } from './icons/KwaiKAT';
