@@ -29,7 +29,7 @@
       "hasAvatar": true,
       "hasBrand": false,
       "hasBrandColor": false,
-      "hasColor": true,
+      "hasColor": false,
       "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
@@ -2806,6 +2806,25 @@
       "hasTextColor": false
     },
     "title": "Kluster"
+  },
+  {
+    "color": "#E67062",
+    "desc": "https://kollab.im",
+    "docsUrl": "kollab",
+    "fullTitle": "Kollab",
+    "group": "application",
+    "id": "Kollab",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Kollab"
   },
   {
     "color": "#83FF63",
