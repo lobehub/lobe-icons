@@ -5487,6 +5487,25 @@
     "title": "WorkersAI"
   },
   {
+    "color": "#000",
+    "desc": "https://worldrouter.ai",
+    "docsUrl": "world-router",
+    "fullTitle": "WorldRouter",
+    "group": "provider",
+    "id": "WorldRouter",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "WorldRouter"
+  },
+  {
     "color": "#fff",
     "desc": "https://x.ai",
     "docsUrl": "xai",
