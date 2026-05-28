@@ -86,6 +86,7 @@ export { default as DeepInfra, type CompoundedIcon as DeepInfraProps } from './D
 export { default as DeepL, type CompoundedIcon as DeepLProps } from './DeepL';
 export { default as DeepMind, type CompoundedIcon as DeepMindProps } from './DeepMind';
 export { default as DeepSeek, type CompoundedIcon as DeepSeekProps } from './DeepSeek';
+export { default as Devin, type CompoundedIcon as DevinProps } from './Devin';
 export { default as Dify, type CompoundedIcon as DifyProps } from './Dify';
 export { default as Doc2X, type CompoundedIcon as Doc2XProps } from './Doc2X';
 export { default as DocSearch, type CompoundedIcon as DocSearchProps } from './DocSearch';

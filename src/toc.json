@@ -1625,6 +1625,25 @@
     "title": "DeepSeek"
   },
   {
+    "color": "#fff",
+    "desc": "https://devin.ai",
+    "docsUrl": "devin",
+    "fullTitle": "Devin",
+    "group": "application",
+    "id": "Devin",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Devin"
+  },
+  {
     "color": "#03F",
     "desc": "https://dify.ai",
     "docsUrl": "dify",
