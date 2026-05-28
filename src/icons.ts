@@ -149,6 +149,7 @@ export { default as Jina, type CompoundedIcon as JinaProps } from './Jina';
 export { default as Junie, type CompoundedIcon as JunieProps } from './Junie';
 export { default as KiloCode, type CompoundedIcon as KiloCodeProps } from './KiloCode';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './Kimi';
+export { default as Kiro, type CompoundedIcon as KiroProps } from './Kiro';
 export { default as Kling, type CompoundedIcon as KlingProps } from './Kling';
 export { default as Kluster, type CompoundedIcon as KlusterProps } from './Kluster';
 export { default as Kolors, type CompoundedIcon as KolorsProps } from './Kolors';
