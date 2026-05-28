@@ -1,6 +1,6 @@
-export const TITLE = 'PixVerse';
-export const COMBINE_TEXT_MULTIPLE = 0.85;
-export const COMBINE_SPACE_MULTIPLE = 0.3;
+export const TITLE = 'WorldRouter';
+export const COMBINE_TEXT_MULTIPLE = 0.55;
+export const COMBINE_SPACE_MULTIPLE = 0.25;
 export const COLOR_PRIMARY = '#000';
 
 // Avatar constants
