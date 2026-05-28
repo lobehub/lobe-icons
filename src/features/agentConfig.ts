@@ -12,6 +12,7 @@ import Codex from '@/Codex';
 import Copilot from '@/Copilot';
 import Coze from '@/Coze';
 import Cursor from '@/Cursor';
+import Devin from '@/Devin';
 import Dify from '@/Dify';
 import Flowith from '@/Flowith';
 import Gemini from '@/Gemini';
@@ -145,4 +146,5 @@ export const agentMappings: AgentMapping[] = [
   { Icon: N8n, keywords: ['n8n'] },
   { Icon: Notion, keywords: ['notion'] },
   { Icon: CodeBuddy, keywords: ['code-buddy', 'codebuddy'] },
+  { Icon: Devin, keywords: ['devin', 'cognition'] },
 ];
