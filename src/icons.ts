@@ -10,6 +10,7 @@ export { default as Ai360, type CompoundedIcon as Ai360Props } from './Ai360';
 export { default as AiHubMix, type CompoundedIcon as AiHubMixProps } from './AiHubMix';
 export { default as AiMass, type CompoundedIcon as AiMassProps } from './AiMass';
 export { default as AionLabs, type CompoundedIcon as AionLabsProps } from './AionLabs';
+export { default as AirJelly, type CompoundedIcon as AirJellyProps } from './AirJelly';
 export { default as AiStudio, type CompoundedIcon as AiStudioProps } from './AiStudio';
 export { default as AkashChat, type CompoundedIcon as AkashChatProps } from './AkashChat';
 export { default as AlephAlpha, type CompoundedIcon as AlephAlphaProps } from './AlephAlpha';
@@ -95,7 +96,6 @@ export { default as Doubao, type CompoundedIcon as DoubaoProps } from './Doubao'
 export { default as DreamMachine, type CompoundedIcon as DreamMachineProps } from './DreamMachine';
 export { default as ElevenLabs, type CompoundedIcon as ElevenLabsProps } from './ElevenLabs';
 export { default as ElevenX, type CompoundedIcon as ElevenXProps } from './ElevenX';
-export { default as EvoLinkAI, type CompoundedIcon as EvoLinkAIProps } from './EvoLinkAI';
 export { default as EssentialAI, type CompoundedIcon as EssentialAIProps } from './EssentialAI';
 export { default as Exa, type CompoundedIcon as ExaProps } from './Exa';
 export { default as Fal, type CompoundedIcon as FalProps } from './Fal';
@@ -196,6 +196,7 @@ export { default as ModelScope, type CompoundedIcon as ModelScopeProps } from '.
 export { default as Monica, type CompoundedIcon as MonicaProps } from './Monica';
 export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moonshot';
 export { default as Morph, type CompoundedIcon as MorphProps } from './Morph';
+export { default as Moxt, type CompoundedIcon as MoxtProps } from './Moxt';
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './MyShell';
 export { default as N8n, type CompoundedIcon as N8nProps } from './N8n';
 export { default as NanoBanana, type CompoundedIcon as NanoBananaProps } from './NanoBanana';
@@ -216,6 +217,7 @@ export { default as OpenChat, type CompoundedIcon as OpenChatProps } from './Ope
 export { default as OpenClaw, type CompoundedIcon as OpenClawProps } from './OpenClaw';
 export { default as OpenCode, type CompoundedIcon as OpenCodeProps } from './OpenCode';
 export { default as OpenHands, type CompoundedIcon as OpenHandsProps } from './OpenHands';
+export { default as OpenHuman, type CompoundedIcon as OpenHumanProps } from './OpenHuman';
 export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './OpenRouter';
 export { default as OpenWebUI, type CompoundedIcon as OpenWebUIProps } from './OpenWebUI';
 export { default as PaLM, type CompoundedIcon as PaLMProps } from './PaLM';
@@ -250,7 +252,9 @@ export { default as Search1API, type CompoundedIcon as Search1APIProps } from '.
 export { default as SearchApi, type CompoundedIcon as SearchApiProps } from './SearchApi';
 export { default as SenseNova, type CompoundedIcon as SenseNovaProps } from './SenseNova';
 export { default as SiliconCloud, type CompoundedIcon as SiliconCloudProps } from './SiliconCloud';
+export { default as SillyTavern, type CompoundedIcon as SillyTavernProps } from './SillyTavern';
 export { default as Skywork, type CompoundedIcon as SkyworkProps } from './Skywork';
+export { default as Slock, type CompoundedIcon as SlockProps } from './Slock';
 export { default as Smithery, type CompoundedIcon as SmitheryProps } from './Smithery';
 export { default as Snowflake, type CompoundedIcon as SnowflakeProps } from './Snowflake';
 export { default as SophNet, type CompoundedIcon as SophNetLabsProps } from './SophNet';

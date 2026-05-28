@@ -8,7 +8,7 @@ import type { IconType } from '@/types';
 import { TITLE } from '../style';
 
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
-  const [a, b, c] = useFillIds(TITLE, 3);
+  const [a, b, c, d, e, f, g] = useFillIds(TITLE, 7);
   return (
     <svg
       height={size}
@@ -19,48 +19,87 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       {...rest}
     >
       <title>{TITLE}</title>
-      <g clipPath={a.fill} filter={b.fill}>
-        <path
-          clipRule="evenodd"
-          d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm0 3.627a8.373 8.373 0 100 16.746 8.373 8.373 0 000-16.746z"
-          fill={c.fill}
-          fillRule="evenodd"
-        />
-      </g>
+
+      <path
+        d="M10.547.232c.776-.086 1.543.244 2.152.712.784.598 1.375 1.434 1.757 2.347.19.444.3.92.345 1.402.01.384.024.781-.108 1.148-.126.406-.362.795-.728 1.017-.352.236-.786.3-1.199.288-.84-.073-1.613-.52-2.212-1.106-.15-.1-.236-.263-.368-.38-.801-.97-1.394-2.203-1.324-3.496.048-.698.38-1.44 1.03-1.75.206-.1.428-.164.655-.182z"
+        fill={a.fill}
+      />
+      <path
+        d="M18.595 3.077c.52-.045 1.032.186 1.4.551.402.434.625 1.006.736 1.584.096.605.09 1.233-.048 1.83a5.97 5.97 0 01-.907 2.19c-.198.25-.382.519-.633.719-.493.45-1.181.725-1.848.598-.42-.08-.819-.306-1.085-.646-.514-.591-.687-1.403-.714-2.17a6.11 6.11 0 011.03-3.285c.237-.314.49-.62.797-.867.375-.27.805-.486 1.272-.504z"
+        fill={b.fill}
+      />
+      <path
+        d="M5.038 4.172c.618-.045 1.238.067 1.832.235.871.28 1.741.78 2.182 1.624.177.383.256.826.152 1.242-.097.442-.375.816-.71 1.105-.724.59-1.664.84-2.577.887a5.356 5.356 0 01-2.881-.675c-.39-.248-.765-.539-1.025-.93a1.9 1.9 0 01-.327-1.283c.067-.507.357-.968.741-1.289.723-.62 1.684-.873 2.613-.916z"
+        fill={c.fill}
+      />
+      <path
+        d="M4.87 10.369c.69-.06 1.465.223 1.811.866.213.349.278.763.29 1.166.006.528-.136 1.046-.34 1.529-.34.793-.893 1.478-1.538 2.036-.64.538-1.42.951-2.26 1.015a2.031 2.031 0 01-1.467-.398c-.353-.281-.578-.707-.662-1.15-.156-.8.077-1.62.445-2.327.196-.377.444-.724.72-1.044.767-.886 1.814-1.608 3.001-1.693z"
+        fill={d.fill}
+      />
+      <path
+        d="M20.391 11.05c.881-.087 1.872.116 2.477.822.473.58.534 1.425.239 2.102-.118.317-.32.59-.527.852-.877.962-2.11 1.553-3.379 1.744-.818.123-1.723.036-2.406-.477-.2-.161-.386-.346-.514-.573-.277-.436-.321-.994-.216-1.492.224-.904.92-1.594 1.676-2.073a5.874 5.874 0 012.65-.905z"
+        fill={e.fill}
+      />
+      <path
+        d="M7.553 15.523c.381-.052.775.004 1.118.184.344.154.613.427.866.702.866 1.097 1.267 2.549 1.146 3.944a4.476 4.476 0 01-.497 1.61c-.273.469-.663.91-1.187 1.08-.35.103-.731.118-1.077-.005a2.53 2.53 0 01-.959-.612c-.798-.859-1.236-2.02-1.343-3.185-.055-.646-.006-1.31.21-1.923.146-.471.384-.92.738-1.265.261-.277.62-.452.985-.53z"
+        fill={f.fill}
+      />
+      <path
+        d="M13.637 16.5a4.237 4.237 0 011.82.219c.795.286 1.542.724 2.148 1.323.535.504.963 1.162 1.099 1.899.055.379.038.785-.122 1.138-.19.465-.599.807-1.051.996-.883.364-1.887.253-2.76-.082a5.568 5.568 0 01-2.343-1.685c-.347-.445-.616-.968-.697-1.534-.042-.382-.036-.788.13-1.142.194-.418.55-.76.978-.925.25-.119.525-.174.798-.207z"
+        fill={g.fill}
+      />
+
       <defs>
-        <linearGradient gradientUnits="userSpaceOnUse" id={c.id} x1="24" x2="0" y1="0" y2="24">
-          <stop offset=".13" stopColor="#FF97E3" />
-          <stop offset=".18" stopColor="#D14FE1" />
-          <stop offset=".338" stopColor="#0050E2" />
-          <stop offset=".666" stopColor="#0050E2" />
-          <stop offset=".809" stopColor="#00DDF4" />
-          <stop offset=".858" stopColor="#23F8CC" />
+        <linearGradient gradientUnits="userSpaceOnUse" id={a.id} x1="9.789" x2="13" y1="0" y2="7.5">
+          <stop stopColor="#C65EFF" />
+          <stop offset=".5" stopColor="#EA4FFF" />
+          <stop offset="1" stopColor="#9553FF" />
         </linearGradient>
-        <clipPath id={a.id}>
-          <path d="M0 0h24v24H0z" fill="#fff" />
-        </clipPath>
-        <filter
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-          height="24"
-          id={b.id}
-          width="24"
-          x="0"
-          y="0"
+        <linearGradient gradientUnits="userSpaceOnUse" id={b.id} x1="19" x2="17" y1="3" y2="10.5">
+          <stop stopColor="#CF72FF" />
+          <stop offset=".5" stopColor="#E541FF" />
+          <stop offset="1" stopColor="#944DFF" />
+        </linearGradient>
+        <linearGradient gradientUnits="userSpaceOnUse" id={c.id} x1="9" x2="2.5" y1="6.5" y2="8">
+          <stop stopColor="#A555FF" />
+          <stop offset=".5" stopColor="#DE67FF" />
+          <stop offset="1" stopColor="#E581FF" />
+        </linearGradient>
+        <linearGradient gradientUnits="userSpaceOnUse" id={d.id} x1="1" x2="6" y1="12" y2="16">
+          <stop stopColor="#6C48FF" />
+          <stop offset=".309" stopColor="#AA5AFF" />
+          <stop offset="1" stopColor="#5145FF" />
+        </linearGradient>
+        <linearGradient
+          gradientUnits="userSpaceOnUse"
+          id={e.id}
+          x1="19"
+          x2="21"
+          y1="11.5"
+          y2="16.5"
         >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
-          <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-          <feColorMatrix
-            in="SourceAlpha"
-            result="hardAlpha"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-          />
-          <feOffset />
-          <feGaussianBlur stdDeviation=".75" />
-          <feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic" />
-          <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0" />
-          <feBlend in2="shape" result="effect1_innerShadow_674_237" />
-        </filter>
+          <stop stopColor="#CA3EFF" />
+          <stop offset=".5" stopColor="#AB5CFF" />
+          <stop offset="1" stopColor="#5042FF" />
+        </linearGradient>
+        <linearGradient gradientUnits="userSpaceOnUse" id={f.id} x1="6" x2="11" y1="20.5" y2="19">
+          <stop stopColor="#5041FF" />
+          <stop offset=".26" stopColor="#734FFF" />
+          <stop offset=".75" stopColor="#6A4CFF" />
+          <stop offset="1" stopColor="#483FFF" />
+        </linearGradient>
+        <linearGradient
+          gradientUnits="userSpaceOnUse"
+          id={g.id}
+          x1="12"
+          x2="18.5"
+          y1="17.5"
+          y2="21.5"
+        >
+          <stop stopColor="#7B51FF" />
+          <stop offset=".475" stopColor="#6049FF" />
+          <stop offset="1" stopColor="#8466FF" />
+        </linearGradient>
       </defs>
     </svg>
   );
