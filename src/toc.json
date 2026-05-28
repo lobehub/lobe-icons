@@ -4316,6 +4316,25 @@
     "title": "Pollinations"
   },
   {
+    "color": "#4137FF",
+    "desc": "https://poolside.ai",
+    "docsUrl": "poolside",
+    "fullTitle": "Poolside",
+    "group": "model",
+    "id": "Poolside",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": true
+    },
+    "title": "Poolside"
+  },
+  {
     "color": "#2874ff",
     "desc": "https://ppinfra.com",
     "docsUrl": "ppio",
