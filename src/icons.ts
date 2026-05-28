@@ -102,6 +102,7 @@ export { default as Fal, type CompoundedIcon as FalProps } from './Fal';
 export { default as FastGPT, type CompoundedIcon as FastGPTProps } from './FastGPT';
 export { default as Featherless, type CompoundedIcon as FeatherlessProps } from './Featherless';
 export { default as Figma, type CompoundedIcon as FigmaProps } from './Figma';
+export { default as Firecrawl, type CompoundedIcon as FirecrawlProps } from './Firecrawl';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
 export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './FishAudio';
 export { default as Flora, type CompoundedIcon as FloraProps } from './Flora';
