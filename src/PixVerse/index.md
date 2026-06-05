@@ -52,7 +52,6 @@ import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <PixVerse.Avatar size={64} background={PixVerse.colorPrimary} />
     <PixVerse.Avatar size={64} />
     <PixVerse.Avatar size={64} shape={'square'} />
   </Flexbox>
@@ -70,7 +69,6 @@ import ColorPreview from '../components/ColorPreview';
 export default () => (
   <Flexbox gap={16} horizontal>
     <ColorPreview color={PixVerse.colorPrimary} />
-    <ColorPreview color={PixVerse.colorGradient} />
   </Flexbox>
 );
 ```

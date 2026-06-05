@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 2.8.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.7.1...@lobehub/icons-rn@2.8.0)
+
+<sup>Released on **2026-05-28**</sup>
+
+#### ✨ Features
+
+- **misc**: Merge pr icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Merge pr icon, closes [#321](https://github.com/lobehub/lobe-icons/issues/321) [#304](https://github.com/lobehub/lobe-icons/issues/304) [#306](https://github.com/lobehub/lobe-icons/issues/306) [#308](https://github.com/lobehub/lobe-icons/issues/308) [#305](https://github.com/lobehub/lobe-icons/issues/305) [#317](https://github.com/lobehub/lobe-icons/issues/317) ([ca21604](https://github.com/lobehub/lobe-icons/commit/ca21604))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.7.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.7.0...@lobehub/icons-rn@2.7.1)
 
 <sup>Released on **2026-05-07**</sup>

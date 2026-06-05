@@ -1,0 +1,27 @@
+import React, { memo } from 'react';
+import { Path, Svg } from 'react-native-svg';
+
+import type { RNIconProps } from '@/features';
+
+const Icon = memo<RNIconProps>(({ size = 24, style, color = '#000000', ...rest }) => {
+  return (
+    <Svg
+      color={color}
+      fillRule="evenodd"
+      height={size}
+      style={style}
+      viewBox="0 0 24 24"
+      width={size}
+      {...rest}
+    >
+      <Path
+        d="M8.46 8.03c3.754-2.568 6.512-2.523 9.28.081 3.337 3.419 3.256 11.234 1.22 14.409-.887 1.459-2.36 1.946-4.313.976-.917-.455-1.39-.784-2.198-1.465-.621-.436-1.052-.585-2.197-.407l-1.791.407c-1.547.244-3.103-.544-3.745-1.058-1.218-.977-1.544-1.791-1.71-3.093-.162-4.314 2.771-8.012 5.455-9.85zM12.05 0a2.652 2.652 0 110 5.305 2.652 2.652 0 010-5.305z"
+        fill={color}
+      />
+    </Svg>
+  );
+});
+
+Icon.displayName = 'OpenHumanMono';
+
+export default Icon;
