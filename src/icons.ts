@@ -96,6 +96,7 @@ export { default as Doubao, type CompoundedIcon as DoubaoProps } from './Doubao'
 export { default as DreamMachine, type CompoundedIcon as DreamMachineProps } from './DreamMachine';
 export { default as ElevenLabs, type CompoundedIcon as ElevenLabsProps } from './ElevenLabs';
 export { default as ElevenX, type CompoundedIcon as ElevenXProps } from './ElevenX';
+export { default as EmpirioLabs, type CompoundedIcon as EmpirioLabsProps } from './EmpirioLabs';
 export { default as EssentialAI, type CompoundedIcon as EssentialAIProps } from './EssentialAI';
 export { default as Exa, type CompoundedIcon as ExaProps } from './Exa';
 export { default as Fal, type CompoundedIcon as FalProps } from './Fal';
