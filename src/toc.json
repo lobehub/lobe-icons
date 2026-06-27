@@ -5562,6 +5562,25 @@
     "title": "Windsurf"
   },
   {
+    "color": "#2E2E2E",
+    "desc": "https://brandct.com",
+    "docsUrl": "win-win",
+    "fullTitle": "WinWin",
+    "group": "provider",
+    "id": "WinWin",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "WinWin"
+  },
+  {
     "color": "#F38020",
     "desc": "https://developers.cloudflare.com/workers-ai",
     "docsUrl": "workers-ai",

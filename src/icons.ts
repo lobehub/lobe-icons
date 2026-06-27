@@ -295,6 +295,7 @@ export { default as Volcengine, type CompoundedIcon as VolcengineProps } from '.
 export { default as Voyage, type CompoundedIcon as VoyageProps } from './Voyage';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as Windsurf, type CompoundedIcon as WindsurfProps } from './Windsurf';
+export { default as WinWin, type CompoundedIcon as WinWinProps } from './WinWin';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
 export { default as WorldRouter, type CompoundedIcon as WorldRouterProps } from './WorldRouter';
 export { default as XAI, type CompoundedIcon as XAIProps } from './XAI';
