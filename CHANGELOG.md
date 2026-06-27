@@ -2,6 +2,58 @@
 
 # Changelog
 
+## [Version 5.10.0](https://github.com/lobehub/lobe-icons/compare/v5.9.0...v5.10.0)
+
+<sup>Released on **2026-05-28**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([c23e42b](https://github.com/lobehub/lobe-icons/commit/c23e42b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 5.9.0](https://github.com/lobehub/lobe-icons/compare/v5.8.0...v5.9.0)
+
+<sup>Released on **2026-05-28**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Merge pr icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([57d6c5e](https://github.com/lobehub/lobe-icons/commit/57d6c5e))
+- **misc**: Merge pr icon, closes [#321](https://github.com/lobehub/lobe-icons/issues/321) [#304](https://github.com/lobehub/lobe-icons/issues/304) [#306](https://github.com/lobehub/lobe-icons/issues/306) [#308](https://github.com/lobehub/lobe-icons/issues/308) [#305](https://github.com/lobehub/lobe-icons/issues/305) [#317](https://github.com/lobehub/lobe-icons/issues/317) ([ca21604](https://github.com/lobehub/lobe-icons/commit/ca21604))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.8.0](https://github.com/lobehub/lobe-icons/compare/v5.7.0...v5.8.0)
 
 <sup>Released on **2026-05-07**</sup>

@@ -230,6 +230,25 @@
     "title": "AionLabs"
   },
   {
+    "color": "#00C8FF",
+    "desc": "https://airjelly.ai",
+    "docsUrl": "air-jelly",
+    "fullTitle": "AirJelly",
+    "group": "application",
+    "id": "AirJelly",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "AirJelly"
+  },
+  {
     "color": "#000",
     "desc": "https://aistudio.google.com",
     "docsUrl": "ai-studio",
@@ -1644,6 +1663,25 @@
     "title": "DeepSeek"
   },
   {
+    "color": "#fff",
+    "desc": "https://devin.ai",
+    "docsUrl": "devin",
+    "fullTitle": "Devin",
+    "group": "application",
+    "id": "Devin",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Devin"
+  },
+  {
     "color": "#03F",
     "desc": "https://dify.ai",
     "docsUrl": "dify",
@@ -2788,6 +2826,25 @@
     "title": "Kimi"
   },
   {
+    "color": "#9046ff",
+    "desc": "https://kiro.dev",
+    "docsUrl": "kiro",
+    "fullTitle": "Kiro",
+    "group": "application",
+    "id": "Kiro",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Kiro"
+  },
+  {
     "color": "#000",
     "colorGradient": "linear-gradient(45deg, #FFF959, #0DF35E, #0BF2F9, #04A6F0)",
     "desc": "https://klingai.com",
@@ -3631,6 +3688,25 @@
     "title": "Morph"
   },
   {
+    "color": "#29C16A",
+    "desc": "https://moxt.ai",
+    "docsUrl": "moxt",
+    "fullTitle": "Moxt",
+    "group": "application",
+    "id": "Moxt",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Moxt"
+  },
+  {
     "color": "#fff",
     "desc": "https://myshell.ai",
     "docsUrl": "my-shell",
@@ -4012,6 +4088,25 @@
     "title": "OpenHands"
   },
   {
+    "color": "#000",
+    "desc": "https://tinyhumans.ai/openhuman",
+    "docsUrl": "open-human",
+    "fullTitle": "OpenHuman",
+    "group": "application",
+    "id": "OpenHuman",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "OpenHuman"
+  },
+  {
     "color": "#6566F1",
     "desc": "https://openrouter.ai",
     "docsUrl": "open-router",
@@ -4164,8 +4259,7 @@
     "title": "Pika"
   },
   {
-    "color": "#9727ef",
-    "colorGradient": "linear-gradient(45deg, #3961f1, #9727ef, #ff601a)",
+    "color": "#000",
     "desc": "https://app.pixverse.ai",
     "docsUrl": "pix-verse",
     "fullTitle": "PixVerse",
@@ -4662,6 +4756,25 @@
     "title": "SiliconCloud"
   },
   {
+    "color": "#333",
+    "desc": "https://github.com/SillyTavern",
+    "docsUrl": "silly-tavern",
+    "fullTitle": "SillyTavern",
+    "group": "application",
+    "id": "SillyTavern",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "SillyTavern"
+  },
+  {
     "color": "#fff",
     "desc": "https://skywork.ai",
     "docsUrl": "skywork",
@@ -4679,6 +4792,25 @@
       "hasTextColor": false
     },
     "title": "Skywork"
+  },
+  {
+    "color": "#ffd440",
+    "desc": "https://slock.ai",
+    "docsUrl": "slock",
+    "fullTitle": "Slock",
+    "group": "application",
+    "id": "Slock",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Slock"
   },
   {
     "color": "#EA580C",
@@ -5466,6 +5598,25 @@
       "hasTextColor": false
     },
     "title": "WorkersAI"
+  },
+  {
+    "color": "#000",
+    "desc": "https://worldrouter.ai",
+    "docsUrl": "world-router",
+    "fullTitle": "WorldRouter",
+    "group": "provider",
+    "id": "WorldRouter",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "WorldRouter"
   },
   {
     "color": "#fff",
