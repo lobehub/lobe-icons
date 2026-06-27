@@ -242,6 +242,7 @@ export { default as Recraft, type CompoundedIcon as RecraftProps } from './Recra
 export { default as Relace, type CompoundedIcon as RelaceProps } from './Relace';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './Replicate';
 export { default as Replit, type CompoundedIcon as ReplitProps } from './Replit';
+export { default as Respira, type CompoundedIcon as RespiraProps } from './Respira';
 export { default as Reve, type CompoundedIcon as ReveProps } from './Reve';
 export { default as RooCode, type CompoundedIcon as RooCodeProps } from './RooCode';
 export { default as RSSHub, type CompoundedIcon as RSSHubProps } from './RSSHub';
