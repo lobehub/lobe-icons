@@ -4546,6 +4546,25 @@
     "title": "Replit"
   },
   {
+    "color": "#10B981",
+    "desc": "Respira lets AI agents like Claude and ChatGPT edit live WordPress sites across 16 page builders. https://respira.press",
+    "docsUrl": "respira",
+    "fullTitle": "Respira",
+    "group": "provider",
+    "id": "Respira",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": true
+    },
+    "title": "Respira"
+  },
+  {
     "color": "#000",
     "desc": "https://app.reve.com",
     "docsUrl": "reve",
