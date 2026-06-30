@@ -1,7 +1,7 @@
 ---
 nav: Components
 group: Provider
-title: EmpirioLabs
+title: EmpirioLabs AI
 atomId: EmpirioLabs
 description: https://empiriolabs.ai
 ---

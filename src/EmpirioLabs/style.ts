@@ -1,4 +1,4 @@
-export const TITLE = 'EmpirioLabs';
+export const TITLE = 'EmpirioLabs AI';
 export const COMBINE_TEXT_MULTIPLE = 0.7;
 export const COMBINE_SPACE_MULTIPLE = 0.2;
 export const COLOR_PRIMARY = '#0A7CFF';

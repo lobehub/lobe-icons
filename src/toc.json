@@ -1818,7 +1818,7 @@
     "color": "#0A7CFF",
     "desc": "https://empiriolabs.ai",
     "docsUrl": "empirio-labs",
-    "fullTitle": "EmpirioLabs",
+    "fullTitle": "EmpirioLabs AI",
     "group": "provider",
     "id": "EmpirioLabs",
     "param": {
@@ -1831,7 +1831,7 @@
       "hasTextCn": false,
       "hasTextColor": false
     },
-    "title": "EmpirioLabs"
+    "title": "EmpirioLabs AI"
   },
   {
     "color": "#111322",
