@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 2.8.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.8.0...@lobehub/icons-rn@2.8.1)
+
+<sup>Released on **2026-07-01**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Bound NanoBanana regex to avoid matching unrelated Gemini image models, sync NanoBanana regex to React Native model mapping.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Bound NanoBanana regex to avoid matching unrelated Gemini image models, closes [#347](https://github.com/lobehub/lobe-icons/issues/347) ([547c5c8](https://github.com/lobehub/lobe-icons/commit/547c5c8))
+- **misc**: Sync NanoBanana regex to React Native model mapping, closes [#347](https://github.com/lobehub/lobe-icons/issues/347) ([78766a1](https://github.com/lobehub/lobe-icons/commit/78766a1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.8.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.7.1...@lobehub/icons-rn@2.8.0)
 
 <sup>Released on **2026-05-28**</sup>
