@@ -139,6 +139,7 @@ export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyu
 export { default as Hyperbolic, type CompoundedIcon as HyperbolicProps } from './Hyperbolic';
 export { default as IBM, type CompoundedIcon as IBMProps } from './IBM';
 export { default as Ideogram, type CompoundedIcon as IdeogramProps } from './Ideogram';
+export { default as Image2, type CompoundedIcon as Image2Props } from './Image2';
 export { default as IFlyTekCloud, type CompoundedIcon as IFlyTekCloudProps } from './IFlyTekCloud';
 export { default as Inception, type CompoundedIcon as InceptionProps } from './Inception';
 export { default as Inference, type CompoundedIcon as InferenceProps } from './Inference';

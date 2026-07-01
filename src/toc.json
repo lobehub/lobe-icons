@@ -2579,6 +2579,25 @@
     "title": "Ideogram"
   },
   {
+    "color": "#94c21a",
+    "desc": "https://image2.to",
+    "docsUrl": "image2",
+    "fullTitle": "Image 2",
+    "group": "application",
+    "id": "Image2",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": false,
+      "hasText": false,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Image 2"
+  },
+  {
     "color": "#2A80E2",
     "desc": "https://xfyun.cn",
     "docsUrl": "i-fly-tek-cloud",
