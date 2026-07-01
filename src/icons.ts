@@ -130,6 +130,7 @@ export { default as Groq, type CompoundedIcon as GroqProps } from './Groq';
 export { default as Hailuo, type CompoundedIcon as HailuoProps } from './Hailuo';
 export { default as Haiper, type CompoundedIcon as HaiperProps } from './Haiper';
 export { default as Hedra, type CompoundedIcon as HedraProps } from './Hedra';
+export { default as HappyHorse, type CompoundedIcon as HappyHorseProps } from './HappyHorse';
 export { default as HermesAgent, type CompoundedIcon as HermesAgentProps } from './HermesAgent';
 export { default as Higress, type CompoundedIcon as HigressProps } from './Higress';
 export { default as Huawei, type CompoundedIcon as HuaweiProps } from './Huawei';
