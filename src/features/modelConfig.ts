@@ -175,7 +175,7 @@ export const modelMappings: ModelMapping[] = [
     keywords: [
       'gemini-3.1-flash-image-preview',
       'gemini-3-pro-image-preview',
-      'gemini-\\d+(?:\\.\\d+)?-(?:flash|pro)-image-preview$',
+      'gemini-\\d+(?:\\.\\d+)?-(?:flash(?:-lite)?|pro)-image(?:-preview)?',
       'nanobanana',
       'nano-banana',
     ],
