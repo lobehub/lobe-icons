@@ -4183,6 +4183,25 @@
     "title": "Perplexity"
   },
   {
+    "color": "#010915",
+    "desc": "https://personastack.ai",
+    "docsUrl": "persona-stack",
+    "fullTitle": "PersonaStack",
+    "group": "provider",
+    "id": "PersonaStack",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "PersonaStack"
+  },
+  {
     "color": "#FF4017",
     "desc": "https://phidata.com",
     "docsUrl": "phidata",
