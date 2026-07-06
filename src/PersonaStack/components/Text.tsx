@@ -4,44 +4,24 @@ import { memo } from 'react';
 
 import type { IconType } from '@/types';
 
-import { COLOR_BLUE, COLOR_PRIMARY, TITLE } from '../style';
+import { COLOR_PRIMARY, TITLE } from '../style';
 
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
   return (
     <svg
       height={size}
       style={{ flex: 'none', lineHeight: 1, ...style }}
-      viewBox="0 0 680 96"
+      viewBox="0 0 582 96"
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
       <title>{TITLE}</title>
-      <g transform="translate(0 3) scale(0.405)">
-        <rect fill="#fff" height="204" rx="34" width="204" x="4" y="4" />
-        <rect fill={COLOR_PRIMARY} height="194" rx="31" width="194" x="9" y="9" />
-        <g transform="translate(-402.738391 -441.870192) scale(0.52) translate(428 462)">
-          <g transform="matrix(0.794663 0 0 0.794663 335.134659 399.28264)">
-            <g transform="matrix(0.1 0 0 -0.1 11.171875 276.554688)">
-              <path
-                d="M1195 1311C1155 1293 1072 1223.297 853 1012.297L739.003 906.767L740 735C740 692.374 740.413 602.541 740.413 602.541C740.413 602.541 742.716 578.443 755.789 565.464C760.182 561.103 763.825 557.042 776.188 555.703C800.078 555 808.484 567.188 831.375 584.375C837.078 589.672 919 653 1047 778L1291.891 1017.891L1293.891 1105C1295.382 1267.549 1289.952 1330.009 1289.952 1330.009C1289.952 1330.009 1261.519 1328.82 1256.963 1328.324C1254.809 1328.208 1217 1321 1195 1311Z"
-                fill={COLOR_BLUE}
-              />
-            </g>
-            <g transform="matrix(0.1 0 0 -0.1 11.171875 276.554688)">
-              <path
-                d="M1156 2215C1028 2180 914 2097 836 1983C744 1847 745 1857 742 1351L739.93 1044.614L739.034 906.712C739.034 906.712 905.007 1054.739 927.297 1076C927.297 1076 1036.883 1184.886 1044.14 1192.097C1044.381 1192.336 1044.513 1192.663 1044.507 1193.003C1044.282 1205.998 1040 1453 1040 1453C1040 1707 1041 1717 1064 1765C1096 1835 1165 1895 1235 1915C1279 1928 1326 1931 1463 1928C1633 1925 1636 1925 1689 1895C1787 1841 1835 1748 1834 1615C1833 1493 1772 1397 1666 1349C1631 1333 1600 1330 1458 1330L1290 1330L1290 1176C1290 1061.518 1291.429 1018.102 1291.429 1018.102C1291.429 1018.102 1628.761 1015.717 1647.214 1015.558C1672.105 1015.855 1754 1035 1855 1095C1977 1167 2090 1326 2119 1468C2135 1546 2133 1735 2115 1805C2065 2003 1906 2163 1710 2215C1636 2235 1228 2234 1156 2215Z"
-                fill="#fff"
-              />
-            </g>
-          </g>
-        </g>
-      </g>
       <text
         fill={COLOR_PRIMARY}
         fontFamily="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
         fontSize="54"
         fontWeight="700"
-        x="98"
+        x="0"
         y="61"
       >
         Persona
@@ -51,7 +31,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
         fontFamily="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
         fontSize="54"
         fontWeight="700"
-        x="319"
+        x="221"
         y="61"
       >
         Stack
@@ -61,7 +41,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
         fontFamily="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
         fontSize="54"
         fontWeight="700"
-        x="460"
+        x="362"
         y="61"
       >
         .ai
