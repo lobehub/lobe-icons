@@ -2,6 +2,32 @@
 
 # Changelog
 
+## [Version 5.11.0](https://github.com/lobehub/lobe-icons/compare/v5.10.1...v5.11.0)
+
+<sup>Released on **2026-07-11**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Grok icon mapping for supergrok provider, add Grok icon mapping for supergrok provider in react-native package.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Grok icon mapping for supergrok provider ([0a6f356](https://github.com/lobehub/lobe-icons/commit/0a6f356))
+- **misc**: Add Grok icon mapping for supergrok provider in react-native package ([793d97e](https://github.com/lobehub/lobe-icons/commit/793d97e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 5.10.1](https://github.com/lobehub/lobe-icons/compare/v5.10.0...v5.10.1)
 
 <sup>Released on **2026-07-01**</sup>
