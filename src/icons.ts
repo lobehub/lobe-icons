@@ -230,6 +230,7 @@ export { default as PixVerse, type CompoundedIcon as PixVerseProps } from './Pix
 export { default as Player2, type CompoundedIcon as Player2Props } from './Player2';
 export { default as Poe, type CompoundedIcon as PoeProps } from './Poe';
 export { default as Pollinations, type CompoundedIcon as PollinationsProps } from './Pollinations';
+export { default as Polza, type CompoundedIcon as PolzaProps } from './Polza';
 export { default as PPIO, type CompoundedIcon as PPIOProps } from './PPIO';
 export { default as PrunaAI, type CompoundedIcon as PrunaAIProps } from './PrunaAI';
 export { default as PydanticAI, type CompoundedIcon as PydanticAIProps } from './PydanticAI';
