@@ -15,7 +15,6 @@ import { Flexbox } from '@lobehub/ui';
 export default () => (
   <Flexbox gap={16} horizontal>
     <Stepfun size={64} />
-    <Stepfun.Color size={64} />
   </Flexbox>
 );
 ```
@@ -37,7 +36,6 @@ import { Flexbox } from '@lobehub/ui';
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
     <Stepfun.Combine size={64} />
-    <Stepfun.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -50,7 +48,6 @@ import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Stepfun.Avatar size={64} background={Stepfun.colorGradient} />
     <Stepfun.Avatar size={64} />
     <Stepfun.Avatar size={64} shape={'square'} />
   </Flexbox>

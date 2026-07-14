@@ -12,15 +12,25 @@ description: https://openrouter.ai
 import { OpenRouter } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
 
-export default () => <OpenRouter size={64} />;
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <OpenRouter size={64} />
+    <OpenRouter.Color size={64} />
+  </Flexbox>
+);
 ```
 
 ## Text
 
 ```tsx
 import { OpenRouter } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
 
-export default () => <OpenRouter.Text size={48} />;
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <OpenRouter.Text size={48} />
+  </Flexbox>
+);
 ```
 
 ## Combine
@@ -32,6 +42,7 @@ import { Flexbox } from '@lobehub/ui';
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
     <OpenRouter.Combine size={64} />
+    <OpenRouter.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
