@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 2.10.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.9.0...@lobehub/icons-rn@2.10.0)
+
+<sup>Released on **2026-07-14**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Poolside, Firecrawl, AgnesAI, Pi, HappyHorse, Celesto.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Poolside, Firecrawl, AgnesAI, Pi, HappyHorse, Celesto, closes [#360](https://github.com/lobehub/lobe-icons/issues/360) [#323](https://github.com/lobehub/lobe-icons/issues/323) [#322](https://github.com/lobehub/lobe-icons/issues/322) [#349](https://github.com/lobehub/lobe-icons/issues/349) [#348](https://github.com/lobehub/lobe-icons/issues/348) ([6274a43](https://github.com/lobehub/lobe-icons/commit/6274a43))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.9.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.8.1...@lobehub/icons-rn@2.9.0)
 
 <sup>Released on **2026-07-11**</sup>
