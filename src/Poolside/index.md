@@ -29,7 +29,6 @@ import { Flexbox } from '@lobehub/ui';
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
     <Poolside.Text size={48} />
-    <Poolside.TextColor size={48} />
   </Flexbox>
 );
 ```
