@@ -1930,6 +1930,25 @@
     "title": "Figma"
   },
   {
+    "color": "#ff4d00",
+    "desc": "https://firecrawl.dev",
+    "docsUrl": "firecrawl",
+    "fullTitle": "Firecrawl",
+    "group": "application",
+    "id": "Firecrawl",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Firecrawl"
+  },
+  {
     "color": "#5019C5",
     "desc": "https://fireworks.ai",
     "docsUrl": "fireworks",
