@@ -51,6 +51,7 @@ export { default as BriaAI, type CompoundedIcon as BriaAIProps } from './BriaAI'
 export { default as BurnCloud, type CompoundedIcon as BurnCloudProps } from './BurnCloud';
 export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './ByteDance';
 export { default as CapCut, type CompoundedIcon as CapCutProps } from './CapCut';
+export { default as CelestoAI, type CompoundedIcon as CelestoAIProps } from './CelestoAI';
 export { default as CentML, type CompoundedIcon as CentMLProps } from './CentML';
 export { default as Cerebras, type CompoundedIcon as CerebrasProps } from './Cerebras';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';

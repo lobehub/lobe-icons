@@ -955,6 +955,25 @@
     "title": "CapCut"
   },
   {
+    "color": "#000",
+    "desc": "https://celesto.ai",
+    "docsUrl": "celesto-ai",
+    "fullTitle": "CelestoAI",
+    "group": "application",
+    "id": "CelestoAI",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "CelestoAI"
+  },
+  {
     "color": "#004331",
     "desc": "https://centml.ai",
     "docsUrl": "cent-ml",
