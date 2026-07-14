@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 5.13.0](https://github.com/lobehub/lobe-icons/compare/v5.12.0...v5.13.0)
+
+<sup>Released on **2026-07-14**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add Anspire, Bocha, Brave, Browserless, Kagi, SearXNG.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([ef22550](https://github.com/lobehub/lobe-icons/commit/ef22550))
+- **misc**: Add Anspire, Bocha, Brave, Browserless, Kagi, SearXNG ([ba5e7e5](https://github.com/lobehub/lobe-icons/commit/ba5e7e5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.12.0](https://github.com/lobehub/lobe-icons/compare/v5.11.0...v5.12.0)
 
 <sup>Released on **2026-07-14**</sup>
