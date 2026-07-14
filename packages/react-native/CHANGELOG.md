@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 2.11.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.10.0...@lobehub/icons-rn@2.11.0)
+
+<sup>Released on **2026-07-14**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Anspire, Bocha, Brave, Browserless, Kagi, SearXNG.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Anspire, Bocha, Brave, Browserless, Kagi, SearXNG ([ba5e7e5](https://github.com/lobehub/lobe-icons/commit/ba5e7e5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.10.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.9.0...@lobehub/icons-rn@2.10.0)
 
 <sup>Released on **2026-07-14**</sup>
