@@ -382,6 +382,25 @@
     "title": "Amp"
   },
   {
+    "color": "#514BFD",
+    "desc": "https://anspire.ai",
+    "docsUrl": "anspire",
+    "fullTitle": "Anspire",
+    "group": "provider",
+    "id": "Anspire",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": true
+    },
+    "title": "Anspire"
+  },
+  {
     "color": "#1677ff",
     "desc": "https://antgroup.com",
     "docsUrl": "ant-group",
@@ -879,6 +898,44 @@
     "title": "Bing"
   },
   {
+    "color": "#006EFF",
+    "desc": "https://open.bochaai.com",
+    "docsUrl": "bocha",
+    "fullTitle": "Bocha (博查)",
+    "group": "provider",
+    "id": "Bocha",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Bocha"
+  },
+  {
+    "color": "#FF4000",
+    "desc": "https://brave.com",
+    "docsUrl": "brave",
+    "fullTitle": "Brave",
+    "group": "provider",
+    "id": "Brave",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Brave"
+  },
+  {
     "color": "#671ECC",
     "desc": "https://bria.ai",
     "docsUrl": "bria-ai",
@@ -896,6 +953,25 @@
       "hasTextColor": false
     },
     "title": "BRIA AI"
+  },
+  {
+    "color": "#fff",
+    "desc": "https://browserless.js.org",
+    "docsUrl": "browserless",
+    "fullTitle": "Browserless",
+    "group": "provider",
+    "id": "Browserless",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Browserless"
   },
   {
     "color": "#E95513",
@@ -2843,6 +2919,25 @@
       "hasTextColor": false
     },
     "title": "Junie"
+  },
+  {
+    "color": "#FEB219",
+    "desc": "https://kagi.com",
+    "docsUrl": "kagi",
+    "fullTitle": "Kagi",
+    "group": "provider",
+    "id": "Kagi",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Kagi"
   },
   {
     "color": "#F8F676",
@@ -4811,6 +4906,25 @@
       "hasTextColor": false
     },
     "title": "SearchApi"
+  },
+  {
+    "color": "#3050FF",
+    "desc": "https://searxng.org",
+    "docsUrl": "sear-xng",
+    "fullTitle": "SearXNG",
+    "group": "provider",
+    "id": "SearXNG",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "SearXNG"
   },
   {
     "color": "#5B2AD8",

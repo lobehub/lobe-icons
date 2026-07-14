@@ -32,6 +32,7 @@ export {
   type CompoundedIcon as AlibabaCloudProps,
 } from './icons/AlibabaCloud';
 export { default as Amp, type CompoundedIcon as AmpProps } from './icons/Amp';
+export { default as Anspire, type CompoundedIcon as AnspireProps } from './icons/Anspire';
 export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './icons/AntGroup';
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './icons/Anthropic';
 export {
@@ -64,7 +65,13 @@ export {
   type CompoundedIcon as BilibiliIndexProps,
 } from './icons/BilibiliIndex';
 export { default as Bing, type CompoundedIcon as BingProps } from './icons/Bing';
+export { default as Bocha, type CompoundedIcon as BochaProps } from './icons/Bocha';
+export { default as Brave, type CompoundedIcon as BraveProps } from './icons/Brave';
 export { default as BriaAI, type CompoundedIcon as BriaAIProps } from './icons/BriaAI';
+export {
+  default as Browserless,
+  type CompoundedIcon as BrowserlessProps,
+} from './icons/Browserless';
 export { default as BurnCloud, type CompoundedIcon as BurnCloudProps } from './icons/BurnCloud';
 export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './icons/ByteDance';
 export { default as CapCut, type CompoundedIcon as CapCutProps } from './icons/CapCut';
@@ -203,6 +210,7 @@ export { default as InternLM, type CompoundedIcon as InternLMProps } from './ico
 export { default as Jimeng, type CompoundedIcon as JimengProps } from './icons/Jimeng';
 export { default as Jina, type CompoundedIcon as JinaProps } from './icons/Jina';
 export { default as Junie, type CompoundedIcon as JunieProps } from './icons/Junie';
+export { default as Kagi, type CompoundedIcon as KagiProps } from './icons/Kagi';
 export { default as KiloCode, type CompoundedIcon as KiloCodeProps } from './icons/KiloCode';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './icons/Kimi';
 export { default as Kiro, type CompoundedIcon as KiroProps } from './icons/Kiro';
@@ -312,6 +320,7 @@ export { default as Rwkv, type CompoundedIcon as RwkvProps } from './icons/Rwkv'
 export { default as SambaNova, type CompoundedIcon as SambaNovaProps } from './icons/SambaNova';
 export { default as Search1API, type CompoundedIcon as Search1APIProps } from './icons/Search1API';
 export { default as SearchApi, type CompoundedIcon as SearchApiProps } from './icons/SearchApi';
+export { default as SearXNG, type CompoundedIcon as SearXNGProps } from './icons/SearXNG';
 export { default as SenseNova, type CompoundedIcon as SenseNovaProps } from './icons/SenseNova';
 export {
   default as SiliconCloud,
