@@ -13,6 +13,7 @@ export {
   type CompoundedIcon as AdobeFireflyProps,
 } from './icons/AdobeFirefly';
 export { default as AgentVoice, type CompoundedIcon as AgentVoiceProps } from './icons/AgentVoice';
+export { default as AgnesAI, type CompoundedIcon as AgnesAIProps } from './icons/AgnesAI';
 export { default as Agui, type CompoundedIcon as AguiProps } from './icons/Agui';
 export { default as Ai2, type CompoundedIcon as Ai2Props } from './icons/Ai2';
 export { default as Ai21, type CompoundedIcon as Ai21Props } from './icons/Ai21';
@@ -134,6 +135,7 @@ export {
   type CompoundedIcon as FeatherlessProps,
 } from './icons/Featherless';
 export { default as Figma, type CompoundedIcon as FigmaProps } from './icons/Figma';
+export { default as Firecrawl, type CompoundedIcon as FirecrawlProps } from './icons/Firecrawl';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './icons/Fireworks';
 export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './icons/FishAudio';
 export { default as Flora, type CompoundedIcon as FloraProps } from './icons/Flora';
@@ -164,6 +166,7 @@ export { default as Grok, type CompoundedIcon as GrokProps } from './icons/Grok'
 export { default as Groq, type CompoundedIcon as GroqProps } from './icons/Groq';
 export { default as Hailuo, type CompoundedIcon as HailuoProps } from './icons/Hailuo';
 export { default as Haiper, type CompoundedIcon as HaiperProps } from './icons/Haiper';
+export { default as HappyHorse, type CompoundedIcon as HappyHorseProps } from './icons/HappyHorse';
 export { default as Hedra, type CompoundedIcon as HedraProps } from './icons/Hedra';
 export {
   default as HermesAgent,
@@ -278,6 +281,7 @@ export { default as Parasail, type CompoundedIcon as ParasailProps } from './ico
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './icons/Perplexity';
 export { default as Phidata, type CompoundedIcon as PhidataProps } from './icons/Phidata';
 export { default as Phind, type CompoundedIcon as PhindProps } from './icons/Phind';
+export { default as Pi, type CompoundedIcon as PiProps } from './icons/Pi';
 export { default as Pika, type CompoundedIcon as PikaProps } from './icons/Pika';
 export { default as PixVerse, type CompoundedIcon as PixVerseProps } from './icons/PixVerse';
 export { default as Player2, type CompoundedIcon as Player2Props } from './icons/Player2';
@@ -286,6 +290,7 @@ export {
   default as Pollinations,
   type CompoundedIcon as PollinationsProps,
 } from './icons/Pollinations';
+export { default as Poolside, type CompoundedIcon as PoolsideProps } from './icons/Poolside';
 export { default as PPIO, type CompoundedIcon as PPIOProps } from './icons/PPIO';
 export { default as PrunaAI, type CompoundedIcon as PrunaAIProps } from './icons/PrunaAI';
 export { default as PydanticAI, type CompoundedIcon as PydanticAIProps } from './icons/PydanticAI';

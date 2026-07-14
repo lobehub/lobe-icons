@@ -15,13 +15,15 @@ const Icon = memo<RNIconProps>(({ size = 24, style, color = '#000000', ...rest }
       {...rest}
     >
       <Path
-        d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM8.762 19.614H4.376v-4.386h4.386v4.386zm5.423 0H9.798v-4.386h4.387v4.386zm0-5.42H9.798V9.81h4.387v4.386zm0-5.418H9.798V4.39h4.387v4.386zm5.422-.004h-4.386V4.386h4.386v4.386z"
+        clipRule="evenodd"
+        d="M1 1h16.5v11H12v5.5H6.5V23H1V1zm5.5 5.5V12H12V6.5H6.5z"
         fill={color}
       />
+      <Path d="M17.5 12H23v11h-5.5V12z" fill={color} />
     </Svg>
   );
 });
 
-Icon.displayName = 'StepfunMono';
+Icon.displayName = 'PiMono';
 
 export default Icon;

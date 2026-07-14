@@ -7,7 +7,7 @@ import Color from './Color';
 import Mono from './Mono';
 import Text from './Text';
 
-export interface CombineProps extends Omit<RNIconCombineProps, 'Icon' | 'Text'> {
+export interface CombineProps extends Omit<RNIconCombineProps, 'Icon'> {
   type?: 'color' | 'mono';
 }
 const Combine = memo<CombineProps>(({ type = 'mono', ...rest }) => {
