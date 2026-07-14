@@ -2427,11 +2427,11 @@
   },
   {
     "color": "#000",
-    "desc": "https://hedra.com",
-    "docsUrl": "hedra",
-    "fullTitle": "Hedra",
-    "group": "application",
-    "id": "Hedra",
+    "desc": "https://happyhorse.com",
+    "docsUrl": "happy-horse",
+    "fullTitle": "HappyHorse",
+    "group": "model",
+    "id": "HappyHorse",
     "param": {
       "hasAvatar": true,
       "hasBrand": false,
@@ -2446,11 +2446,11 @@
   },
   {
     "color": "#000",
-    "desc": "https://happyhorse.com",
-    "docsUrl": "happy-horse",
-    "fullTitle": "HappyHorse",
-    "group": "model",
-    "id": "HappyHorse",
+    "desc": "https://hedra.com",
+    "docsUrl": "hedra",
+    "fullTitle": "Hedra",
+    "group": "application",
+    "id": "Hedra",
     "param": {
       "hasAvatar": true,
       "hasBrand": false,
@@ -4278,6 +4278,25 @@
     "title": "phind"
   },
   {
+    "color": "#000",
+    "desc": "https://pi.dev",
+    "docsUrl": "pi",
+    "fullTitle": "Pi Agent",
+    "group": "provider",
+    "id": "Pi",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Pi"
+  },
+  {
     "color": "#FDF7EF",
     "desc": "https://pika.art",
     "docsUrl": "pika",
@@ -5024,8 +5043,7 @@
     "title": "StateCloud"
   },
   {
-    "color": "#005AFF",
-    "colorGradient": "linear-gradient(-45deg, #0160FF, #01A9FF)",
+    "color": "#000",
     "desc": "https://stepfun.com",
     "docsUrl": "stepfun",
     "fullTitle": "Stepfun (阶跃星辰)",
@@ -5035,13 +5053,13 @@
       "hasAvatar": true,
       "hasBrand": false,
       "hasBrandColor": false,
-      "hasColor": true,
+      "hasColor": false,
       "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
       "hasTextColor": false
     },
-    "title": "Stepfun"
+    "title": "StepFun"
   },
   {
     "color": "#464bba",

@@ -131,8 +131,8 @@ export { default as Grok, type CompoundedIcon as GrokProps } from './Grok';
 export { default as Groq, type CompoundedIcon as GroqProps } from './Groq';
 export { default as Hailuo, type CompoundedIcon as HailuoProps } from './Hailuo';
 export { default as Haiper, type CompoundedIcon as HaiperProps } from './Haiper';
-export { default as Hedra, type CompoundedIcon as HedraProps } from './Hedra';
 export { default as HappyHorse, type CompoundedIcon as HappyHorseProps } from './HappyHorse';
+export { default as Hedra, type CompoundedIcon as HedraProps } from './Hedra';
 export { default as HermesAgent, type CompoundedIcon as HermesAgentProps } from './HermesAgent';
 export { default as Higress, type CompoundedIcon as HigressProps } from './Higress';
 export { default as Huawei, type CompoundedIcon as HuaweiProps } from './Huawei';
@@ -228,6 +228,7 @@ export { default as Parasail, type CompoundedIcon as ParasailProps } from './Par
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './Perplexity';
 export { default as Phidata, type CompoundedIcon as PhidataProps } from './Phidata';
 export { default as Phind, type CompoundedIcon as PhindProps } from './Phind';
+export { default as Pi, type CompoundedIcon as PiProps } from './Pi';
 export { default as Pika, type CompoundedIcon as PikaProps } from './Pika';
 export { default as PixVerse, type CompoundedIcon as PixVerseProps } from './PixVerse';
 export { default as Player2, type CompoundedIcon as Player2Props } from './Player2';
