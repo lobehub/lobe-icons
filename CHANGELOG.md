@@ -2,6 +2,59 @@
 
 # Changelog
 
+## [Version 5.11.0](https://github.com/lobehub/lobe-icons/compare/v5.10.1...v5.11.0)
+
+<sup>Released on **2026-07-11**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Grok icon mapping for supergrok provider, add Grok icon mapping for supergrok provider in react-native package.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Grok icon mapping for supergrok provider ([0a6f356](https://github.com/lobehub/lobe-icons/commit/0a6f356))
+- **misc**: Add Grok icon mapping for supergrok provider in react-native package ([793d97e](https://github.com/lobehub/lobe-icons/commit/793d97e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 5.10.1](https://github.com/lobehub/lobe-icons/compare/v5.10.0...v5.10.1)
+
+<sup>Released on **2026-07-01**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Bound NanoBanana regex to avoid matching unrelated Gemini image models, match Nano Banana 2 Lite model id to NanoBanana icon, sync NanoBanana regex to React Native model mapping.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Bound NanoBanana regex to avoid matching unrelated Gemini image models, closes [#347](https://github.com/lobehub/lobe-icons/issues/347) ([547c5c8](https://github.com/lobehub/lobe-icons/commit/547c5c8))
+- **misc**: Match Nano Banana 2 Lite model id to NanoBanana icon ([38edfd7](https://github.com/lobehub/lobe-icons/commit/38edfd7))
+- **misc**: Sync NanoBanana regex to React Native model mapping, closes [#347](https://github.com/lobehub/lobe-icons/issues/347) ([78766a1](https://github.com/lobehub/lobe-icons/commit/78766a1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.10.0](https://github.com/lobehub/lobe-icons/compare/v5.9.0...v5.10.0)
 
 <sup>Released on **2026-05-28**</sup>

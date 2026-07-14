@@ -53,6 +53,7 @@ import Github from '../icons/Github';
 import GithubCopilot from '../icons/GithubCopilot';
 import Google from '../icons/Google';
 import GoogleCloud from '../icons/GoogleCloud';
+import Grok from '../icons/Grok';
 import Groq from '../icons/Groq';
 import Higress from '../icons/Higress';
 import Huawei from '../icons/Huawei';
@@ -355,6 +356,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: HuggingFace, combineMultiple: 1.16, keywords: [RNModelProvider.HuggingFace] },
   { Icon: LmStudio, keywords: [RNModelProvider.LmStudio] },
   { Icon: XAI, combineMultiple: 0.85, keywords: [RNModelProvider.XAI] },
+  { Icon: Grok, keywords: [RNModelProvider.SuperGrok] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine

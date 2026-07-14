@@ -103,6 +103,7 @@ export { default as Fal, type CompoundedIcon as FalProps } from './Fal';
 export { default as FastGPT, type CompoundedIcon as FastGPTProps } from './FastGPT';
 export { default as Featherless, type CompoundedIcon as FeatherlessProps } from './Featherless';
 export { default as Figma, type CompoundedIcon as FigmaProps } from './Figma';
+export { default as Firecrawl, type CompoundedIcon as FirecrawlProps } from './Firecrawl';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
 export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './FishAudio';
 export { default as Flora, type CompoundedIcon as FloraProps } from './Flora';
@@ -231,6 +232,7 @@ export { default as PixVerse, type CompoundedIcon as PixVerseProps } from './Pix
 export { default as Player2, type CompoundedIcon as Player2Props } from './Player2';
 export { default as Poe, type CompoundedIcon as PoeProps } from './Poe';
 export { default as Pollinations, type CompoundedIcon as PollinationsProps } from './Pollinations';
+export { default as Poolside, type CompoundedIcon as PoolsideProps } from './Poolside';
 export { default as PPIO, type CompoundedIcon as PPIOProps } from './PPIO';
 export { default as PrunaAI, type CompoundedIcon as PrunaAIProps } from './PrunaAI';
 export { default as PydanticAI, type CompoundedIcon as PydanticAIProps } from './PydanticAI';

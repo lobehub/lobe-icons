@@ -54,6 +54,7 @@ import Github from '@/Github';
 import GithubCopilot from '@/GithubCopilot';
 import Google from '@/Google';
 import GoogleCloud from '@/GoogleCloud';
+import Grok from '@/Grok';
 import Groq from '@/Groq';
 import Higress from '@/Higress';
 import Huawei from '@/Huawei';
@@ -359,6 +360,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: HuggingFace, combineMultiple: 1.16, keywords: [ModelProvider.HuggingFace] },
   { Icon: LmStudio, keywords: [ModelProvider.LmStudio] },
   { Icon: XAI, combineMultiple: 0.85, keywords: [ModelProvider.XAI] },
+  { Icon: Grok, keywords: [ModelProvider.SuperGrok] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
