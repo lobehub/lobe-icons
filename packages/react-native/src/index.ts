@@ -13,6 +13,7 @@ export {
   type CompoundedIcon as AdobeFireflyProps,
 } from './icons/AdobeFirefly';
 export { default as AgentVoice, type CompoundedIcon as AgentVoiceProps } from './icons/AgentVoice';
+export { default as AgnesAI, type CompoundedIcon as AgnesAIProps } from './icons/AgnesAI';
 export { default as Agui, type CompoundedIcon as AguiProps } from './icons/Agui';
 export { default as Ai2, type CompoundedIcon as Ai2Props } from './icons/Ai2';
 export { default as Ai21, type CompoundedIcon as Ai21Props } from './icons/Ai21';
@@ -31,6 +32,7 @@ export {
   type CompoundedIcon as AlibabaCloudProps,
 } from './icons/AlibabaCloud';
 export { default as Amp, type CompoundedIcon as AmpProps } from './icons/Amp';
+export { default as Anspire, type CompoundedIcon as AnspireProps } from './icons/Anspire';
 export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './icons/AntGroup';
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './icons/Anthropic';
 export {
@@ -63,10 +65,17 @@ export {
   type CompoundedIcon as BilibiliIndexProps,
 } from './icons/BilibiliIndex';
 export { default as Bing, type CompoundedIcon as BingProps } from './icons/Bing';
+export { default as Bocha, type CompoundedIcon as BochaProps } from './icons/Bocha';
+export { default as Brave, type CompoundedIcon as BraveProps } from './icons/Brave';
 export { default as BriaAI, type CompoundedIcon as BriaAIProps } from './icons/BriaAI';
+export {
+  default as Browserless,
+  type CompoundedIcon as BrowserlessProps,
+} from './icons/Browserless';
 export { default as BurnCloud, type CompoundedIcon as BurnCloudProps } from './icons/BurnCloud';
 export { default as ByteDance, type CompoundedIcon as ByteDanceProps } from './icons/ByteDance';
 export { default as CapCut, type CompoundedIcon as CapCutProps } from './icons/CapCut';
+export { default as CelestoAI, type CompoundedIcon as CelestoAIProps } from './icons/CelestoAI';
 export { default as CentML, type CompoundedIcon as CentMLProps } from './icons/CentML';
 export { default as Cerebras, type CompoundedIcon as CerebrasProps } from './icons/Cerebras';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './icons/ChatGLM';
@@ -134,6 +143,7 @@ export {
   type CompoundedIcon as FeatherlessProps,
 } from './icons/Featherless';
 export { default as Figma, type CompoundedIcon as FigmaProps } from './icons/Figma';
+export { default as Firecrawl, type CompoundedIcon as FirecrawlProps } from './icons/Firecrawl';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './icons/Fireworks';
 export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './icons/FishAudio';
 export { default as Flora, type CompoundedIcon as FloraProps } from './icons/Flora';
@@ -164,6 +174,7 @@ export { default as Grok, type CompoundedIcon as GrokProps } from './icons/Grok'
 export { default as Groq, type CompoundedIcon as GroqProps } from './icons/Groq';
 export { default as Hailuo, type CompoundedIcon as HailuoProps } from './icons/Hailuo';
 export { default as Haiper, type CompoundedIcon as HaiperProps } from './icons/Haiper';
+export { default as HappyHorse, type CompoundedIcon as HappyHorseProps } from './icons/HappyHorse';
 export { default as Hedra, type CompoundedIcon as HedraProps } from './icons/Hedra';
 export {
   default as HermesAgent,
@@ -199,6 +210,7 @@ export { default as InternLM, type CompoundedIcon as InternLMProps } from './ico
 export { default as Jimeng, type CompoundedIcon as JimengProps } from './icons/Jimeng';
 export { default as Jina, type CompoundedIcon as JinaProps } from './icons/Jina';
 export { default as Junie, type CompoundedIcon as JunieProps } from './icons/Junie';
+export { default as Kagi, type CompoundedIcon as KagiProps } from './icons/Kagi';
 export { default as KiloCode, type CompoundedIcon as KiloCodeProps } from './icons/KiloCode';
 export { default as Kimi, type CompoundedIcon as KimiProps } from './icons/Kimi';
 export { default as Kiro, type CompoundedIcon as KiroProps } from './icons/Kiro';
@@ -278,6 +290,7 @@ export { default as Parasail, type CompoundedIcon as ParasailProps } from './ico
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './icons/Perplexity';
 export { default as Phidata, type CompoundedIcon as PhidataProps } from './icons/Phidata';
 export { default as Phind, type CompoundedIcon as PhindProps } from './icons/Phind';
+export { default as Pi, type CompoundedIcon as PiProps } from './icons/Pi';
 export { default as Pika, type CompoundedIcon as PikaProps } from './icons/Pika';
 export { default as PixVerse, type CompoundedIcon as PixVerseProps } from './icons/PixVerse';
 export { default as Player2, type CompoundedIcon as Player2Props } from './icons/Player2';
@@ -286,6 +299,7 @@ export {
   default as Pollinations,
   type CompoundedIcon as PollinationsProps,
 } from './icons/Pollinations';
+export { default as Poolside, type CompoundedIcon as PoolsideProps } from './icons/Poolside';
 export { default as PPIO, type CompoundedIcon as PPIOProps } from './icons/PPIO';
 export { default as PrunaAI, type CompoundedIcon as PrunaAIProps } from './icons/PrunaAI';
 export { default as PydanticAI, type CompoundedIcon as PydanticAIProps } from './icons/PydanticAI';
@@ -307,6 +321,7 @@ export { default as Rwkv, type CompoundedIcon as RwkvProps } from './icons/Rwkv'
 export { default as SambaNova, type CompoundedIcon as SambaNovaProps } from './icons/SambaNova';
 export { default as Search1API, type CompoundedIcon as Search1APIProps } from './icons/Search1API';
 export { default as SearchApi, type CompoundedIcon as SearchApiProps } from './icons/SearchApi';
+export { default as SearXNG, type CompoundedIcon as SearXNGProps } from './icons/SearXNG';
 export { default as SenseNova, type CompoundedIcon as SenseNovaProps } from './icons/SenseNova';
 export {
   default as SiliconCloud,

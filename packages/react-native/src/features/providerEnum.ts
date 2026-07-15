@@ -123,6 +123,7 @@ export enum RNModelProvider {
   Straico = 'straico',
   StreamLake = 'streamlake',
   SubModel = 'submodel',
+  SuperGrok = 'supergrok',
   TII = 'tii',
   Taichu = 'taichu',
   Targon = 'targon',
