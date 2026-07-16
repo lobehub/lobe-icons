@@ -223,6 +223,10 @@ export class FileConverter {
     result = this.formatSvgTag(result, hasCurrentColor);
     result = this.formatPathTag(result, hasCurrentColor);
 
+    // 子元素上的 stroke="currentColor" 也要转换（不只是根节点）：
+    // react-native-svg 不解析 CSS 的 currentColor，遗留下来会渲染成黑色。
+    result = result.replaceAll('stroke="currentColor"', 'stroke={color}');
+
     return result;
   }
 
@@ -377,7 +381,7 @@ export class FileConverter {
       fillRule: /fillRule="[^"]*"/,
       height: /height={[^}]+}/,
       stroke: /stroke="[^"]*"|stroke={[^}]+}/,
-      strokeWidth: /strokeWidth={[^}]+}/,
+      strokeWidth: /strokeWidth="[^"]*"|strokeWidth={[^}]+}/,
       style: /style={[^}]+}/,
       viewBox: /viewBox="[^"]*"/,
       width: /width={[^}]+}/,
