@@ -5,6 +5,7 @@ import Ai302 from '../icons/Ai302';
 import Ai360 from '../icons/Ai360';
 import AiHubMix from '../icons/AiHubMix';
 import AiMass from '../icons/AiMass';
+import AiOnly from '../icons/AiOnly';
 import AiStudio from '../icons/AiStudio';
 import AkashChat from '../icons/AkashChat';
 import AlephAlpha from '../icons/AlephAlpha';
@@ -393,6 +394,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Fal, combineMultiple: 0.8, keywords: [RNModelProvider.Fal] },
   { Icon: Ai302, combineMultiple: 0.9, keywords: [RNModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [RNModelProvider.AiHubMix] },
+  { Icon: AiOnly, combineMultiple: 0.9, keywords: [RNModelProvider.AiOnly] },
   { Icon: CometAPI, keywords: [RNModelProvider.CometAPI] },
   {
     Combine: memo(({ size = 24, ...props }) => (
