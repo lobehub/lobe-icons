@@ -1,6 +1,7 @@
 import { Center, Flexbox } from '@lobehub/ui';
-import { Features, FeaturesProps } from '@lobehub/ui/awesome';
+import { Features, FeaturesProps, Hero } from '@lobehub/ui/awesome';
 import { Expand, GitPullRequest, Trees } from 'lucide-react';
+import { Link } from 'react-router';
 
 import AgentGuideCard from '@/components/AgentGuideCard';
 import Dashboard from '@/components/Dashboard';
@@ -32,7 +33,25 @@ const items: FeaturesProps['items'] = [
 
 export default () => {
   return (
-    <Flexbox gap={48}>
+    <Flexbox gap={64} paddingBlock={64}>
+      <Hero
+        Link={Link}
+        actions={[
+          {
+            github: true,
+            link: 'https://github.com/lobehub/lobe-icons',
+            openExternal: true,
+            text: 'GitHub',
+          },
+          {
+            link: '/components/lobe-hub',
+            text: 'View all icons',
+            type: 'primary',
+          },
+        ]}
+        description="Popular AI / LLM Model Brand SVG Logo and Icon Collection"
+        title="LobeHub <b>Icons</b>"
+      />
       <Center width="100%">
         <AgentGuideCard
           labels={{
