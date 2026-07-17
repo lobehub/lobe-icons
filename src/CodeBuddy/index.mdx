@@ -1,12 +1,25 @@
 ---
-nav: Components
-group: Application
 title: CodeBuddy
-atomId: CodeBuddy
 description: https://codebuddy.ai
+category: Application
 ---
 
+import { CodeBuddy } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
 ## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <CodeBuddy size={64} />
+      <CodeBuddy.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { CodeBuddy } from '@lobehub/icons';
@@ -22,6 +35,8 @@ export default () => (
 
 ## Text
 
+<DocsPreview>{<CodeBuddy.Text size={48} />}</DocsPreview>
+
 ```tsx
 import { CodeBuddy } from '@lobehub/icons';
 
@@ -29,6 +44,15 @@ export default () => <CodeBuddy.Text size={48} />;
 ```
 
 ## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <CodeBuddy.Combine size={64} />
+      <CodeBuddy.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { CodeBuddy } from '@lobehub/icons';
@@ -44,6 +68,16 @@ export default () => (
 
 ## Avatars
 
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <CodeBuddy.Avatar size={64} />
+      <CodeBuddy.Avatar size={64} shape={'square'} />
+      <CodeBuddy.Avatar size={64} shape={'square'} background={CodeBuddy.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
 ```tsx
 import { CodeBuddy } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
@@ -58,6 +92,15 @@ export default () => (
 ```
 
 ## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={CodeBuddy.colorPrimary} />
+      <ColorPreview color={CodeBuddy.colorGradient} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { CodeBuddy } from '@lobehub/icons';

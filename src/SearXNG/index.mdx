@@ -1,12 +1,25 @@
 ---
-nav: Components
-group: Provider
 title: SearXNG
-atomId: SearXNG
 description: https://searxng.org
+category: Provider
 ---
 
+import { SearXNG } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
 ## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <SearXNG size={64} />
+      <SearXNG.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { SearXNG } from '@lobehub/icons';
@@ -22,6 +35,8 @@ export default () => (
 
 ## Text
 
+<DocsPreview>{<SearXNG.Text size={48} />}</DocsPreview>
+
 ```tsx
 import { SearXNG } from '@lobehub/icons';
 
@@ -29,6 +44,15 @@ export default () => <SearXNG.Text size={48} />;
 ```
 
 ## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <SearXNG.Combine size={64} />
+      <SearXNG.Combine type={'color'} size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { SearXNG } from '@lobehub/icons';
@@ -44,6 +68,15 @@ export default () => (
 
 ## Avatars
 
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <SearXNG.Avatar size={64} />
+      <SearXNG.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
 ```tsx
 import { SearXNG } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
@@ -57,6 +90,14 @@ export default () => (
 ```
 
 ## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={SearXNG.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { SearXNG } from '@lobehub/icons';

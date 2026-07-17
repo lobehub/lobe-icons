@@ -12,7 +12,14 @@ import DocsPreview from '../components/DocsPreview';
 
 ## Icons
 
-<DocsPreview>{<OpenRouter size={64} />}</DocsPreview>
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <OpenRouter size={64} />
+      <OpenRouter.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { OpenRouter } from '@lobehub/icons';
@@ -28,7 +35,13 @@ export default () => (
 
 ## Text
 
-<DocsPreview>{<OpenRouter.Text size={48} />}</DocsPreview>
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <OpenRouter.Text size={48} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { OpenRouter } from '@lobehub/icons';
@@ -47,6 +60,7 @@ export default () => (
   {
     <Flexbox gap={16} align={'flex-start'}>
       <OpenRouter.Combine size={64} />
+      <OpenRouter.Combine size={64} type={'color'} />
     </Flexbox>
   }
 </DocsPreview>

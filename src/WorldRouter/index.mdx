@@ -1,12 +1,18 @@
 ---
-nav: Components
-group: Provider
 title: WorldRouter
-atomId: WorldRouter
 description: https://worldrouter.ai
+category: Provider
 ---
 
+import { WorldRouter } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
 ## Icons
+
+<DocsPreview>{<WorldRouter size={64} />}</DocsPreview>
 
 ```tsx
 import { WorldRouter } from '@lobehub/icons';
@@ -17,6 +23,8 @@ export default () => <WorldRouter size={64} />;
 
 ## Text
 
+<DocsPreview>{<WorldRouter.Text size={48} />}</DocsPreview>
+
 ```tsx
 import { WorldRouter } from '@lobehub/icons';
 
@@ -24,6 +32,14 @@ export default () => <WorldRouter.Text size={48} />;
 ```
 
 ## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <WorldRouter.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { WorldRouter } from '@lobehub/icons';
@@ -38,6 +54,15 @@ export default () => (
 
 ## Avatars
 
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <WorldRouter.Avatar size={64} />
+      <WorldRouter.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
 ```tsx
 import { WorldRouter } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
@@ -51,6 +76,14 @@ export default () => (
 ```
 
 ## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={WorldRouter.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { WorldRouter } from '@lobehub/icons';

@@ -399,6 +399,15 @@
     },
     {
       "category": "Application",
+      "description": "https://agnes-ai.com",
+      "legacyRouteId": "components/AgnesAI/index",
+      "pathname": "/components/agnes-ai",
+      "section": "Components",
+      "source": "src/AgnesAI/index.mdx",
+      "title": "Agnes AI"
+    },
+    {
+      "category": "Application",
       "description": "https://ag-ui.com",
       "legacyRouteId": "components/Agui/index",
       "pathname": "/components/agui",
@@ -479,6 +488,15 @@
       "title": "AionLabs"
     },
     {
+      "category": "Application",
+      "description": "https://airjelly.ai",
+      "legacyRouteId": "components/AirJelly/index",
+      "pathname": "/components/air-jelly",
+      "section": "Components",
+      "source": "src/AirJelly/index.mdx",
+      "title": "AirJelly"
+    },
+    {
       "category": "Provider",
       "description": "https://chatapi.akash.network",
       "legacyRouteId": "components/AkashChat/index",
@@ -522,6 +540,15 @@
       "section": "Components",
       "source": "src/Amp/index.mdx",
       "title": "Amp"
+    },
+    {
+      "category": "Provider",
+      "description": "https://anspire.ai",
+      "legacyRouteId": "components/Anspire/index",
+      "pathname": "/components/anspire",
+      "section": "Components",
+      "source": "src/Anspire/index.mdx",
+      "title": "Anspire"
     },
     {
       "category": "Provider",
@@ -759,12 +786,39 @@
     },
     {
       "category": "Provider",
+      "description": "https://open.bochaai.com",
+      "legacyRouteId": "components/Bocha/index",
+      "pathname": "/components/bocha",
+      "section": "Components",
+      "source": "src/Bocha/index.mdx",
+      "title": "Bocha (博查)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://brave.com",
+      "legacyRouteId": "components/Brave/index",
+      "pathname": "/components/brave",
+      "section": "Components",
+      "source": "src/Brave/index.mdx",
+      "title": "Brave"
+    },
+    {
+      "category": "Provider",
       "description": "https://bria.ai",
       "legacyRouteId": "components/BriaAI/index",
       "pathname": "/components/bria-ai",
       "section": "Components",
       "source": "src/BriaAI/index.mdx",
       "title": "BRIA AI"
+    },
+    {
+      "category": "Provider",
+      "description": "https://browserless.js.org",
+      "legacyRouteId": "components/Browserless/index",
+      "pathname": "/components/browserless",
+      "section": "Components",
+      "source": "src/Browserless/index.mdx",
+      "title": "Browserless"
     },
     {
       "category": "Provider",
@@ -792,6 +846,15 @@
       "section": "Components",
       "source": "src/CapCut/index.mdx",
       "title": "CapCut"
+    },
+    {
+      "category": "Application",
+      "description": "https://celesto.ai",
+      "legacyRouteId": "components/CelestoAI/index",
+      "pathname": "/components/celesto-ai",
+      "section": "Components",
+      "source": "src/CelestoAI/index.mdx",
+      "title": "CelestoAI"
     },
     {
       "category": "Provider",
@@ -882,6 +945,15 @@
       "section": "Components",
       "source": "src/Cloudflare/index.mdx",
       "title": "Cloudflare"
+    },
+    {
+      "category": "Application",
+      "description": "https://codebuddy.ai",
+      "legacyRouteId": "components/CodeBuddy/index",
+      "pathname": "/components/code-buddy",
+      "section": "Components",
+      "source": "src/CodeBuddy/index.mdx",
+      "title": "CodeBuddy"
     },
     {
       "category": "Application",
@@ -1119,6 +1191,15 @@
     },
     {
       "category": "Application",
+      "description": "https://devin.ai",
+      "legacyRouteId": "components/Devin/index",
+      "pathname": "/components/devin",
+      "section": "Components",
+      "source": "src/Devin/index.mdx",
+      "title": "Devin"
+    },
+    {
+      "category": "Application",
       "description": "https://dify.ai",
       "legacyRouteId": "components/Dify/index",
       "pathname": "/components/dify",
@@ -1242,6 +1323,15 @@
       "section": "Components",
       "source": "src/Figma/index.mdx",
       "title": "Figma"
+    },
+    {
+      "category": "Application",
+      "description": "https://firecrawl.dev",
+      "legacyRouteId": "components/Firecrawl/index",
+      "pathname": "/components/firecrawl",
+      "section": "Components",
+      "source": "src/Firecrawl/index.mdx",
+      "title": "Firecrawl"
     },
     {
       "category": "Provider",
@@ -1460,6 +1550,15 @@
       "title": "Haiper"
     },
     {
+      "category": "Model",
+      "description": "https://happyhorse.com",
+      "legacyRouteId": "components/HappyHorse/index",
+      "pathname": "/components/happy-horse",
+      "section": "Components",
+      "source": "src/HappyHorse/index.mdx",
+      "title": "HappyHorse"
+    },
+    {
       "category": "Application",
       "description": "https://hedra.com",
       "legacyRouteId": "components/Hedra/index",
@@ -1640,6 +1739,15 @@
       "title": "Junie"
     },
     {
+      "category": "Provider",
+      "description": "https://kagi.com",
+      "legacyRouteId": "components/Kagi/index",
+      "pathname": "/components/kagi",
+      "section": "Components",
+      "source": "src/Kagi/index.mdx",
+      "title": "Kagi"
+    },
+    {
       "category": "Application",
       "description": "https://kilo.ai",
       "legacyRouteId": "components/KiloCode/index",
@@ -1656,6 +1764,15 @@
       "section": "Components",
       "source": "src/Kimi/index.mdx",
       "title": "Kimi"
+    },
+    {
+      "category": "Application",
+      "description": "https://kiro.dev",
+      "legacyRouteId": "components/Kiro/index",
+      "pathname": "/components/kiro",
+      "section": "Components",
+      "source": "src/Kiro/index.mdx",
+      "title": "Kiro"
     },
     {
       "category": "Application",
@@ -2055,6 +2172,15 @@
     },
     {
       "category": "Application",
+      "description": "https://moxt.ai",
+      "legacyRouteId": "components/Moxt/index",
+      "pathname": "/components/moxt",
+      "section": "Components",
+      "source": "src/Moxt/index.mdx",
+      "title": "Moxt"
+    },
+    {
+      "category": "Application",
       "description": "https://myshell.ai",
       "legacyRouteId": "components/MyShell/index",
       "pathname": "/components/my-shell",
@@ -2234,6 +2360,15 @@
       "title": "OpenHands"
     },
     {
+      "category": "Application",
+      "description": "https://tinyhumans.ai/openhuman",
+      "legacyRouteId": "components/OpenHuman/index",
+      "pathname": "/components/open-human",
+      "section": "Components",
+      "source": "src/OpenHuman/index.mdx",
+      "title": "OpenHuman"
+    },
+    {
       "category": "Provider",
       "description": "https://openrouter.ai",
       "legacyRouteId": "components/OpenRouter/index",
@@ -2306,6 +2441,15 @@
       "title": "Phind"
     },
     {
+      "category": "Provider",
+      "description": "https://pi.dev",
+      "legacyRouteId": "components/Pi/index",
+      "pathname": "/components/pi",
+      "section": "Components",
+      "source": "src/Pi/index.mdx",
+      "title": "Pi Agent"
+    },
+    {
       "category": "Application",
       "description": "https://pika.art",
       "legacyRouteId": "components/Pika/index",
@@ -2349,6 +2493,15 @@
       "section": "Components",
       "source": "src/Pollinations/index.mdx",
       "title": "Pollinations"
+    },
+    {
+      "category": "Model",
+      "description": "https://poolside.ai",
+      "legacyRouteId": "components/Poolside/index",
+      "pathname": "/components/poolside",
+      "section": "Components",
+      "source": "src/Poolside/index.mdx",
+      "title": "Poolside"
     },
     {
       "category": "Model",
@@ -2505,6 +2658,15 @@
     },
     {
       "category": "Provider",
+      "description": "https://searxng.org",
+      "legacyRouteId": "components/SearXNG/index",
+      "pathname": "/components/sear-xng",
+      "section": "Components",
+      "source": "src/SearXNG/index.mdx",
+      "title": "SearXNG"
+    },
+    {
+      "category": "Provider",
       "description": "https://search1api.com",
       "legacyRouteId": "components/Search1API/index",
       "pathname": "/components/search1-api",
@@ -2540,6 +2702,15 @@
       "title": "SiliconCloud (SiliconFlow)"
     },
     {
+      "category": "Application",
+      "description": "https://github.com/SillyTavern",
+      "legacyRouteId": "components/SillyTavern/index",
+      "pathname": "/components/silly-tavern",
+      "section": "Components",
+      "source": "src/SillyTavern/index.mdx",
+      "title": "SillyTavern"
+    },
+    {
       "category": "Model",
       "description": "https://skywork.ai",
       "legacyRouteId": "components/Skywork/index",
@@ -2547,6 +2718,15 @@
       "section": "Components",
       "source": "src/Skywork/index.mdx",
       "title": "Skywork (天工)"
+    },
+    {
+      "category": "Application",
+      "description": "https://slock.ai",
+      "legacyRouteId": "components/Slock/index",
+      "pathname": "/components/slock",
+      "section": "Components",
+      "source": "src/Slock/index.mdx",
+      "title": "Slock"
     },
     {
       "category": "Application",
@@ -2916,6 +3096,15 @@
       "section": "Components",
       "source": "src/WorkersAI/index.mdx",
       "title": "WorkersAI (Cloudflare)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://worldrouter.ai",
+      "legacyRouteId": "components/WorldRouter/index",
+      "pathname": "/components/world-router",
+      "section": "Components",
+      "source": "src/WorldRouter/index.mdx",
+      "title": "WorldRouter"
     },
     {
       "category": "Provider",

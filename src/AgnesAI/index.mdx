@@ -1,12 +1,18 @@
 ---
-nav: Components
-group: Application
 title: Agnes AI
-atomId: AgnesAI
 description: https://agnes-ai.com
+category: Application
 ---
 
+import { AgnesAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
 ## Icons
+
+<DocsPreview>{<AgnesAI size={64} />}</DocsPreview>
 
 ```tsx
 import { AgnesAI } from '@lobehub/icons';
@@ -17,6 +23,8 @@ export default () => <AgnesAI size={64} />;
 
 ## Text
 
+<DocsPreview>{<AgnesAI.Text size={48} />}</DocsPreview>
+
 ```tsx
 import { AgnesAI } from '@lobehub/icons';
 
@@ -24,6 +32,14 @@ export default () => <AgnesAI.Text size={48} />;
 ```
 
 ## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <AgnesAI.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { AgnesAI } from '@lobehub/icons';
@@ -38,6 +54,15 @@ export default () => (
 
 ## Avatars
 
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <AgnesAI.Avatar size={64} />
+      <AgnesAI.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
 ```tsx
 import { AgnesAI } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
@@ -51,6 +76,14 @@ export default () => (
 ```
 
 ## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={AgnesAI.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { AgnesAI } from '@lobehub/icons';
