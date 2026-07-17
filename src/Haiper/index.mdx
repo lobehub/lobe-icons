@@ -1,0 +1,99 @@
+---
+title: Haiper
+description: https://haiper.ai
+category: Application
+---
+
+import { Haiper } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Haiper size={64} />}</DocsPreview>
+
+```tsx
+import { Haiper } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <Haiper size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Haiper.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Haiper } from '@lobehub/icons';
+
+export default () => <Haiper.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Haiper.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Haiper } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Haiper.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Haiper.Avatar size={64} />
+      <Haiper.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Haiper } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Haiper.Avatar size={64} />
+    <Haiper.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Haiper.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Haiper } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Haiper.colorPrimary} />
+  </Flexbox>
+);
+```

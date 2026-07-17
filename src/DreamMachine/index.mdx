@@ -1,0 +1,99 @@
+---
+title: DreamMachine (Luma)
+description: https://lumalabs.ai/dream-machine
+category: Application
+---
+
+import { DreamMachine } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<DreamMachine size={64} />}</DocsPreview>
+
+```tsx
+import { DreamMachine } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <DreamMachine size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<DreamMachine.Text size={48} />}</DocsPreview>
+
+```tsx
+import { DreamMachine } from '@lobehub/icons';
+
+export default () => <DreamMachine.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <DreamMachine.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { DreamMachine } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <DreamMachine.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <DreamMachine.Avatar size={64} />
+      <DreamMachine.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { DreamMachine } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <DreamMachine.Avatar size={64} />
+    <DreamMachine.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={DreamMachine.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { DreamMachine } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={DreamMachine.colorPrimary} />
+  </Flexbox>
+);
+```

@@ -1,0 +1,99 @@
+---
+title: Hedra
+description: https://hedra.com
+category: Application
+---
+
+import { Hedra } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Hedra size={64} />}</DocsPreview>
+
+```tsx
+import { Hedra } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <Hedra size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Hedra.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Hedra } from '@lobehub/icons';
+
+export default () => <Hedra.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Hedra.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Hedra } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Hedra.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Hedra.Avatar size={64} />
+      <Hedra.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Hedra } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Hedra.Avatar size={64} />
+    <Hedra.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Hedra.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Hedra } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Hedra.colorPrimary} />
+  </Flexbox>
+);
+```

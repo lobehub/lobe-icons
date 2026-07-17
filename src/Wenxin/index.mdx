@@ -1,0 +1,119 @@
+---
+title: Wenxin (文心)
+description: https://yiyan.baidu.com
+category: Model
+---
+
+import { Wenxin } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Wenxin size={64} />
+      <Wenxin.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Wenxin } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Wenxin size={64} />
+    <Wenxin.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Wenxin.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Wenxin } from '@lobehub/icons';
+
+export default () => <Wenxin.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Wenxin.Combine size={64} />
+      <Wenxin.Combine size={64} type={'color'} />
+      <Wenxin.Combine size={64} type={'color'} extra={'一言'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Wenxin } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Wenxin.Combine size={64} />
+    <Wenxin.Combine size={64} type={'color'} />
+    <Wenxin.Combine size={64} type={'color'} extra={'一言'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Wenxin.Avatar size={64} background={Wenxin.colorPrimary} />
+      <Wenxin.Avatar size={64} />
+      <Wenxin.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Wenxin } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Wenxin.Avatar size={64} background={Wenxin.colorPrimary} />
+    <Wenxin.Avatar size={64} />
+    <Wenxin.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Wenxin.colorPrimary} />
+      <ColorPreview color={Wenxin.colorGradient} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Wenxin } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Wenxin.colorPrimary} />
+    <ColorPreview color={Wenxin.colorGradient} />
+  </Flexbox>
+);
+```

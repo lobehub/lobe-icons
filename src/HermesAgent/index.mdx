@@ -1,0 +1,99 @@
+---
+title: Hermes Agent
+description: https://hermes-agent.nousresearch.com
+category: Application
+---
+
+import { HermesAgent } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<HermesAgent size={64} />}</DocsPreview>
+
+```tsx
+import { HermesAgent } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <HermesAgent size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<HermesAgent.Text size={48} />}</DocsPreview>
+
+```tsx
+import { HermesAgent } from '@lobehub/icons';
+
+export default () => <HermesAgent.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <HermesAgent.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { HermesAgent } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <HermesAgent.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <HermesAgent.Avatar size={64} />
+      <HermesAgent.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { HermesAgent } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <HermesAgent.Avatar size={64} />
+    <HermesAgent.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={HermesAgent.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { HermesAgent } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={HermesAgent.colorPrimary} />
+  </Flexbox>
+);
+```

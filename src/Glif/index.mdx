@@ -1,0 +1,78 @@
+---
+title: Glif
+description: https://glif.app
+category: Application
+---
+
+import { Glif } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Glif size={64} />}</DocsPreview>
+
+```tsx
+import { Glif } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <Glif size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Glif.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Glif } from '@lobehub/icons';
+
+export default () => <Glif.Text size={48} />;
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Glif.Avatar size={64} />
+      <Glif.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Glif } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Glif.Avatar size={64} />
+    <Glif.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Glif.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Glif } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Glif.colorPrimary} />
+  </Flexbox>
+);
+```

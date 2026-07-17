@@ -1,0 +1,117 @@
+---
+title: Bedrock (AWS)
+description: https://aws.amazon.com/bedrock
+category: Provider
+---
+
+import { Bedrock } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Bedrock size={64} />
+      <Bedrock.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Bedrock } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Bedrock size={64} />
+    <Bedrock.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Bedrock.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Bedrock } from '@lobehub/icons';
+
+export default () => <Bedrock.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Bedrock.Combine size={64} />
+      <Bedrock.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Bedrock } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Bedrock.Combine size={64} />
+    <Bedrock.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Bedrock.Avatar size={64} background={Bedrock.colorPrimary} />
+      <Bedrock.Avatar size={64} />
+      <Bedrock.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Bedrock } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Bedrock.Avatar size={64} background={Bedrock.colorPrimary} />
+    <Bedrock.Avatar size={64} />
+    <Bedrock.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Bedrock.colorPrimary} />
+      <ColorPreview color={Bedrock.colorGradient} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Bedrock } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Bedrock.colorPrimary} />
+    <ColorPreview color={Bedrock.colorGradient} />
+  </Flexbox>
+);
+```

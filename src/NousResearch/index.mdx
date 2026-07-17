@@ -1,0 +1,99 @@
+---
+title: NousResearch (Hermes)
+description: https://nousresearch.com
+category: Provider
+---
+
+import { NousResearch } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<NousResearch size={64} />}</DocsPreview>
+
+```tsx
+import { NousResearch } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <NousResearch size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<NousResearch.Text size={48} />}</DocsPreview>
+
+```tsx
+import { NousResearch } from '@lobehub/icons';
+
+export default () => <NousResearch.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <NousResearch.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { NousResearch } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <NousResearch.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <NousResearch.Avatar size={64} />
+      <NousResearch.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { NousResearch } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <NousResearch.Avatar size={64} />
+    <NousResearch.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={NousResearch.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { NousResearch } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={NousResearch.colorPrimary} />
+  </Flexbox>
+);
+```

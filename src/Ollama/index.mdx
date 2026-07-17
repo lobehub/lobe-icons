@@ -1,0 +1,99 @@
+---
+title: Ollama
+description: https://ollama.ai
+category: Provider
+---
+
+import { Ollama } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Ollama size={64} />}</DocsPreview>
+
+```tsx
+import { Ollama } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <Ollama size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Ollama.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Ollama } from '@lobehub/icons';
+
+export default () => <Ollama.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Ollama.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ollama } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Ollama.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Ollama.Avatar size={64} />
+      <Ollama.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ollama } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Ollama.Avatar size={64} />
+    <Ollama.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Ollama.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ollama } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Ollama.colorPrimary} />
+  </Flexbox>
+);
+```

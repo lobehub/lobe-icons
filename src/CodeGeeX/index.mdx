@@ -1,0 +1,117 @@
+---
+title: CodeGeeX
+description: https://codegeex.cn/
+category: Model
+---
+
+import { CodeGeeX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <CodeGeeX size={64} />
+      <CodeGeeX.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CodeGeeX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <CodeGeeX size={64} />
+    <CodeGeeX.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<CodeGeeX.Text size={48} />}</DocsPreview>
+
+```tsx
+import { CodeGeeX } from '@lobehub/icons';
+
+export default () => <CodeGeeX.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <CodeGeeX.Combine size={64} />
+      <CodeGeeX.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CodeGeeX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <CodeGeeX.Combine size={64} />
+    <CodeGeeX.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <CodeGeeX.Avatar size={64} background={CodeGeeX.colorGradient} />
+      <CodeGeeX.Avatar size={64} />
+      <CodeGeeX.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CodeGeeX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <CodeGeeX.Avatar size={64} background={CodeGeeX.colorGradient} />
+    <CodeGeeX.Avatar size={64} />
+    <CodeGeeX.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={CodeGeeX.colorPrimary} />
+      <ColorPreview color={CodeGeeX.colorGradient} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CodeGeeX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={CodeGeeX.colorPrimary} />
+    <ColorPreview color={CodeGeeX.colorGradient} />
+  </Flexbox>
+);
+```

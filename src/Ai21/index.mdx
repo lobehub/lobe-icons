@@ -1,0 +1,138 @@
+---
+title: Ai21Labs (Jamba)
+description: https://huggingface.co/ai21labs
+category: Model
+---
+
+import { Ai21 } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Ai21 size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ai21 } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Ai21 size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Ai21.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Ai21 } from '@lobehub/icons';
+
+export default () => <Ai21.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Ai21.Combine size={64} />
+      <Ai21.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ai21 } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Ai21.Combine size={64} />
+    <Ai21.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Brands
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Ai21.Brand size={48} />
+      <Ai21.BrandColor size={48} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ai21 } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Ai21.Brand size={48} />
+    <Ai21.BrandColor size={48} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Ai21.Avatar size={64} background={Ai21.colorGradient} />
+      <Ai21.Avatar size={64} />
+      <Ai21.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ai21 } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Ai21.Avatar size={64} background={Ai21.colorGradient} />
+    <Ai21.Avatar size={64} />
+    <Ai21.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Ai21.colorPrimary} />
+      <ColorPreview color={Ai21.colorGradient} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ai21 } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Ai21.colorPrimary} />
+    <ColorPreview color={Ai21.colorGradient} />
+  </Flexbox>
+);
+```

@@ -1,0 +1,113 @@
+---
+title: TencentCloud (腾讯云)
+description: https://cloud.tencent.com
+category: Provider
+---
+
+import { TencentCloud } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <TencentCloud size={64} />
+      <TencentCloud.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { TencentCloud } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <TencentCloud size={64} />
+    <TencentCloud.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<TencentCloud.Text size={48} />}</DocsPreview>
+
+```tsx
+import { TencentCloud } from '@lobehub/icons';
+
+export default () => <TencentCloud.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <TencentCloud.Combine size={64} />
+      <TencentCloud.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { TencentCloud } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <TencentCloud.Combine size={64} />
+    <TencentCloud.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <TencentCloud.Avatar size={64} />
+      <TencentCloud.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { TencentCloud } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <TencentCloud.Avatar size={64} />
+    <TencentCloud.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={TencentCloud.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { TencentCloud } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={TencentCloud.colorPrimary} />
+  </Flexbox>
+);
+```

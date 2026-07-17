@@ -1,0 +1,113 @@
+---
+title: CodeFlicker
+description: https://codeflicker.ai
+category: Application
+---
+
+import { CodeFlicker } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <CodeFlicker size={64} />
+      <CodeFlicker.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CodeFlicker } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <CodeFlicker size={64} />
+    <CodeFlicker.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<CodeFlicker.Text size={48} />}</DocsPreview>
+
+```tsx
+import { CodeFlicker } from '@lobehub/icons';
+
+export default () => <CodeFlicker.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <CodeFlicker.Combine size={64} />
+      <CodeFlicker.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CodeFlicker } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <CodeFlicker.Combine size={64} />
+    <CodeFlicker.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <CodeFlicker.Avatar size={64} />
+      <CodeFlicker.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CodeFlicker } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <CodeFlicker.Avatar size={64} />
+    <CodeFlicker.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={CodeFlicker.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CodeFlicker } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={CodeFlicker.colorPrimary} />
+  </Flexbox>
+);
+```

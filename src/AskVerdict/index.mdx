@@ -1,0 +1,113 @@
+---
+title: AskVerdict
+description: https://askverdict.ai
+category: Application
+---
+
+import { AskVerdict } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <AskVerdict size={64} />
+      <AskVerdict.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { AskVerdict } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <AskVerdict size={64} />
+    <AskVerdict.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<AskVerdict.Text size={48} />}</DocsPreview>
+
+```tsx
+import { AskVerdict } from '@lobehub/icons';
+
+export default () => <AskVerdict.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={32}>
+      <AskVerdict.Combine size={64} />
+      <AskVerdict.Combine size={64} type="color" />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { AskVerdict } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={32}>
+    <AskVerdict.Combine size={64} />
+    <AskVerdict.Combine size={64} type="color" />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <AskVerdict.Avatar size={64} />
+      <AskVerdict.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { AskVerdict } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <AskVerdict.Avatar size={64} />
+    <AskVerdict.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={AskVerdict.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { AskVerdict } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={AskVerdict.colorPrimary} />
+  </Flexbox>
+);
+```
