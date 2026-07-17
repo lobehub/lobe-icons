@@ -1,0 +1,99 @@
+---
+title: RooCode
+description: https://roocode.com
+category: Application
+---
+
+import { RooCode } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<RooCode size={64} />}</DocsPreview>
+
+```tsx
+import { RooCode } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <RooCode size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<RooCode.Text size={48} />}</DocsPreview>
+
+```tsx
+import { RooCode } from '@lobehub/icons';
+
+export default () => <RooCode.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <RooCode.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { RooCode } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <RooCode.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <RooCode.Avatar size={64} />
+      <RooCode.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { RooCode } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <RooCode.Avatar size={64} />
+    <RooCode.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={RooCode.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { RooCode } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={RooCode.colorPrimary} />
+  </Flexbox>
+);
+```

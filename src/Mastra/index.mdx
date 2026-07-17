@@ -1,0 +1,99 @@
+---
+title: Mastra
+description: https://mastra.ai
+category: Application
+---
+
+import { Mastra } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Mastra size={64} />}</DocsPreview>
+
+```tsx
+import { Mastra } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <Mastra size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Mastra.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Mastra } from '@lobehub/icons';
+
+export default () => <Mastra.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Mastra.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Mastra } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Mastra.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Mastra.Avatar size={64} />
+      <Mastra.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Mastra } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Mastra.Avatar size={64} />
+    <Mastra.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Mastra.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Mastra } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Mastra.colorPrimary} />
+  </Flexbox>
+);
+```

@@ -1,0 +1,113 @@
+---
+title: Amp
+description: https://ampcode.com
+category: Application
+---
+
+import { Amp } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Amp size={64} />
+      <Amp.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Amp } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Amp size={64} />
+    <Amp.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Amp.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Amp } from '@lobehub/icons';
+
+export default () => <Amp.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Amp.Combine size={64} />
+      <Amp.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Amp } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Amp.Combine size={64} />
+    <Amp.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Amp.Avatar size={64} />
+      <Amp.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Amp } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Amp.Avatar size={64} />
+    <Amp.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Amp.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Amp } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Amp.colorPrimary} />
+  </Flexbox>
+);
+```

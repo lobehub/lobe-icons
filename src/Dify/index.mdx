@@ -1,0 +1,124 @@
+---
+title: Dify
+description: https://dify.ai
+category: Application
+---
+
+import { Dify } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Dify size={64} />
+      <Dify.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Dify } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Dify size={64} />
+    <Dify.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Dify.Text size={48} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Dify } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Dify.Text size={48} />
+  </Flexbox>
+);
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Dify.Combine size={64} />
+      <Dify.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Dify } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Dify.Combine size={64} />
+    <Dify.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Dify.Avatar size={64} />
+      <Dify.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Dify } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Dify.Avatar size={64} />
+    <Dify.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Dify.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Dify } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Dify.colorPrimary} />
+  </Flexbox>
+);
+```

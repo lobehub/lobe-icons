@@ -2,12 +2,12 @@
 
 import { ActionIcon, Block, Center, CopyButton, Flexbox, Text } from '@lobehub/ui';
 import { createStaticStyles, cx } from 'antd-style';
-import { Link } from 'dumi';
 import { DownloadIcon, SearchIcon } from 'lucide-react';
 import { readableColor } from 'polished';
 import { ReactNode, memo, useCallback, useRef } from 'react';
+import { Link } from 'react-router';
 
-import { customKebabCase } from '@/components/Dashboard/utils';
+import { customKebabCase, docsKebabCase } from '@/components/Dashboard/utils';
 
 const styles = createStaticStyles(({ css, cssVar }) => {
   const colorText = cx(
@@ -89,7 +89,7 @@ const IconItem = memo<IconItemProps>(({ children, title, color, id }) => {
 
   return (
     <Block className={styles.card} variant={'outlined'}>
-      <Link style={{ color: 'inherit' }} to={`/components/${customKebabCase(id)}`}>
+      <Link style={{ color: 'inherit' }} to={`/components/${docsKebabCase(id)}`}>
         <Center height={96} ref={ref} style={{ position: 'relative' }} width={'100%'}>
           {children}
         </Center>

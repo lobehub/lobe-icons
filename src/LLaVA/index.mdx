@@ -1,0 +1,117 @@
+---
+title: LLaVA
+description: https://github.com/haotian-liu/LLaVA
+category: Model
+---
+
+import { LLaVA } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <LLaVA size={64} />
+      <LLaVA.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { LLaVA } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <LLaVA size={64} />
+    <LLaVA.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<LLaVA.Text size={48} />}</DocsPreview>
+
+```tsx
+import { LLaVA } from '@lobehub/icons';
+
+export default () => <LLaVA.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <LLaVA.Combine size={64} />
+      <LLaVA.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { LLaVA } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <LLaVA.Combine size={64} />
+    <LLaVA.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <LLaVA.Avatar size={64} background={LLaVA.colorGradient} />
+      <LLaVA.Avatar size={64} />
+      <LLaVA.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { LLaVA } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <LLaVA.Avatar size={64} background={LLaVA.colorGradient} />
+    <LLaVA.Avatar size={64} />
+    <LLaVA.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={LLaVA.colorPrimary} />
+      <ColorPreview color={LLaVA.colorGradient} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { LLaVA } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={LLaVA.colorPrimary} />
+    <ColorPreview color={LLaVA.colorGradient} />
+  </Flexbox>
+);
+```

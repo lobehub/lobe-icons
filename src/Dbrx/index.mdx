@@ -1,0 +1,136 @@
+---
+title: DBRX (Databricks)
+description: https://databricks.com
+category: Model
+---
+
+import { Dbrx } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Dbrx size={64} />
+      <Dbrx.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Dbrx } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Dbrx size={64} />
+    <Dbrx.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Dbrx.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Dbrx } from '@lobehub/icons';
+
+export default () => <Dbrx.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Dbrx.Combine size={64} />
+      <Dbrx.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Dbrx } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Dbrx.Combine size={64} />
+    <Dbrx.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Brands
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Dbrx.Brand size={64} />
+      <Dbrx.BrandColor size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Dbrx } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Dbrx.Brand size={64} />
+    <Dbrx.BrandColor size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Dbrx.Avatar size={64} />
+      <Dbrx.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Dbrx } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Dbrx.Avatar size={64} />
+    <Dbrx.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Dbrx.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Dbrx } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Dbrx.colorPrimary} />
+  </Flexbox>
+);
+```

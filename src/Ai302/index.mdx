@@ -1,0 +1,113 @@
+---
+title: 302.AI
+description: https://302.ai/
+category: Provider
+---
+
+import { Ai302 } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Ai302 size={64} />
+      <Ai302.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ai302 } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Ai302 size={64} />
+    <Ai302.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Ai302.Text size={64} />}</DocsPreview>
+
+```tsx
+import { Ai302 } from '@lobehub/icons';
+
+export default () => <Ai302.Text size={64} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Ai302.Combine size={64} />
+      <Ai302.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ai302 } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Ai302.Combine size={64} />
+    <Ai302.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Ai302.Avatar size={64} />
+      <Ai302.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ai302 } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Ai302.Avatar size={64} />
+    <Ai302.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Ai302.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ai302 } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Ai302.colorPrimary} />
+  </Flexbox>
+);
+```

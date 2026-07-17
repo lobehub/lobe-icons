@@ -1,0 +1,99 @@
+---
+title: Goose (codename)
+description: https://block.github.io/goose
+category: Application
+---
+
+import { Goose } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Goose size={64} />}</DocsPreview>
+
+```tsx
+import { Goose } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <Goose size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Goose.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Goose } from '@lobehub/icons';
+
+export default () => <Goose.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Goose.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Goose } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Goose.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Goose.Avatar size={64} />
+      <Goose.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Goose } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Goose.Avatar size={64} />
+    <Goose.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Goose.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Goose } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Goose.colorPrimary} />
+  </Flexbox>
+);
+```

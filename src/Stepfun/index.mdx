@@ -1,0 +1,114 @@
+---
+title: Stepfun (阶跃星辰)
+description: https://stepfun.com
+category: Model
+---
+
+import { Stepfun } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Stepfun size={64} />
+      <Stepfun.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Stepfun } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Stepfun size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Stepfun.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Stepfun } from '@lobehub/icons';
+
+export default () => <Stepfun.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Stepfun.Combine size={64} />
+      <Stepfun.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Stepfun } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Stepfun.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Stepfun.Avatar size={64} background={Stepfun.colorGradient} />
+      <Stepfun.Avatar size={64} />
+      <Stepfun.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Stepfun } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Stepfun.Avatar size={64} />
+    <Stepfun.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Stepfun.colorPrimary} />
+      <ColorPreview color={Stepfun.colorGradient} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Stepfun } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Stepfun.colorPrimary} />
+    <ColorPreview color={Stepfun.colorGradient} />
+  </Flexbox>
+);
+```

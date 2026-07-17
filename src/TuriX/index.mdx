@@ -1,0 +1,113 @@
+---
+title: TuriX
+description: https://turix.ai
+category: Application
+---
+
+import { TuriX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <TuriX size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { TuriX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <TuriX size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<TuriX.Text size={48} />}</DocsPreview>
+
+```tsx
+import { TuriX } from '@lobehub/icons';
+
+export default () => <TuriX.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <TuriX.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { TuriX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <TuriX.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <TuriX.Avatar size={64} background={TuriX.colorPrimary} />
+      <TuriX.Avatar size={64} />
+      <TuriX.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { TuriX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <TuriX.Avatar size={64} background={TuriX.colorPrimary} />
+    <TuriX.Avatar size={64} />
+    <TuriX.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={TuriX.colorPrimary} />
+      <ColorPreview color={TuriX.colorGradient} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { TuriX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={TuriX.colorPrimary} />
+    <ColorPreview color={TuriX.colorGradient} />
+  </Flexbox>
+);
+```

@@ -1,0 +1,117 @@
+---
+title: RWKV
+description: https://github.com/RWKV
+category: Model
+---
+
+import { Rwkv } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Rwkv size={64} />
+      <Rwkv.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Rwkv } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Rwkv size={64} />
+    <Rwkv.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Rwkv.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Rwkv } from '@lobehub/icons';
+
+export default () => <Rwkv.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Rwkv.Combine size={64} />
+      <Rwkv.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Rwkv } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Rwkv.Combine size={64} />
+    <Rwkv.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Rwkv.Avatar size={64} background={Rwkv.colorGradient} />
+      <Rwkv.Avatar size={64} />
+      <Rwkv.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Rwkv } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Rwkv.Avatar size={64} background={Rwkv.colorGradient} />
+    <Rwkv.Avatar size={64} />
+    <Rwkv.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Rwkv.colorPrimary} />
+      <ColorPreview color={Rwkv.colorGradient} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Rwkv } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Rwkv.colorPrimary} />
+    <ColorPreview color={Rwkv.colorGradient} />
+  </Flexbox>
+);
+```
