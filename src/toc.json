@@ -1127,6 +1127,25 @@
     "title": "CherryStudio"
   },
   {
+    "color": "#0D0D0D",
+    "desc": "https://chutes.ai",
+    "docsUrl": "chutes",
+    "fullTitle": "Chutes",
+    "group": "provider",
+    "id": "Chutes",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Chutes"
+  },
+  {
     "color": "#fff",
     "desc": "https://civitai.com",
     "docsUrl": "civitai",
@@ -1644,6 +1663,25 @@
     "title": "DBRX"
   },
   {
+    "color": "#2548F6",
+    "desc": "https://decart.ai",
+    "docsUrl": "decart",
+    "fullTitle": "Decart",
+    "group": "provider",
+    "id": "Decart",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Decart"
+  },
+  {
     "color": "#fff",
     "desc": "hhttps://deepai.org",
     "docsUrl": "deep-ai",
@@ -1794,6 +1832,25 @@
       "hasTextColor": true
     },
     "title": "Dify"
+  },
+  {
+    "color": "#0080FF",
+    "desc": "https://digitalocean.com",
+    "docsUrl": "digital-ocean",
+    "fullTitle": "DigitalOcean",
+    "group": "provider",
+    "id": "DigitalOcean",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "DigitalOcean"
   },
   {
     "color": "#fff",
@@ -2349,6 +2406,25 @@
     "title": "GLM-V"
   },
   {
+    "color": "#0A0A0A",
+    "desc": "https://gmicloud.ai",
+    "docsUrl": "gmi-cloud",
+    "fullTitle": "GmiCloud",
+    "group": "provider",
+    "id": "GmiCloud",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "GmiCloud"
+  },
+  {
     "color": "#fff",
     "desc": "https://google.com",
     "docsUrl": "google",
@@ -2769,6 +2845,25 @@
     "title": "Inception"
   },
   {
+    "color": "#666666",
+    "desc": "https://inceptron.io",
+    "docsUrl": "inceptron",
+    "fullTitle": "Inceptron",
+    "group": "provider",
+    "id": "Inceptron",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Inceptron"
+  },
+  {
     "color": "#000",
     "desc": "https://inference.net",
     "docsUrl": "inference",
@@ -2862,6 +2957,25 @@
       "hasTextColor": false
     },
     "title": "InternLM"
+  },
+  {
+    "color": "#3179FF",
+    "desc": "https://io.net",
+    "docsUrl": "io-net",
+    "fullTitle": "IoNet",
+    "group": "provider",
+    "id": "IoNet",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "IoNet"
   },
   {
     "color": "#000",
@@ -3514,6 +3628,25 @@
     "title": "Make"
   },
   {
+    "color": "#5138EE",
+    "desc": "https://mancer.tech",
+    "docsUrl": "mancer",
+    "fullTitle": "Mancer",
+    "group": "provider",
+    "id": "Mancer",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Mancer"
+  },
+  {
     "color": "#fff",
     "desc": "https://manus.im",
     "docsUrl": "manus",
@@ -3954,6 +4087,25 @@
     "title": "New API"
   },
   {
+    "color": "#04D98B",
+    "desc": "https://nextbit256.com",
+    "docsUrl": "nextbit",
+    "fullTitle": "Nextbit",
+    "group": "provider",
+    "id": "Nextbit",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Nextbit"
+  },
+  {
     "color": "#fff",
     "desc": "https://notebooklm.google",
     "docsUrl": "notebook-lm",
@@ -4335,6 +4487,25 @@
     "title": "Parasail"
   },
   {
+    "color": "#F8F4EB",
+    "desc": "https://perceptron.inc",
+    "docsUrl": "perceptron",
+    "fullTitle": "Perceptron",
+    "group": "provider",
+    "id": "Perceptron",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Perceptron"
+  },
+  {
     "color": "#22B8CD",
     "desc": "https://perplexity.ai",
     "docsUrl": "perplexity",
@@ -4352,6 +4523,25 @@
       "hasTextColor": false
     },
     "title": "Perplexity"
+  },
+  {
+    "color": "#CDFA50",
+    "desc": "https://phala.com",
+    "docsUrl": "phala",
+    "fullTitle": "Phala",
+    "group": "provider",
+    "id": "Phala",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Phala"
   },
   {
     "color": "#FF4017",
@@ -4717,6 +4907,25 @@
     "title": "Relace"
   },
   {
+    "color": "#2276FF",
+    "desc": "https://reka.ai",
+    "docsUrl": "reka",
+    "fullTitle": "Reka",
+    "group": "model",
+    "id": "Reka",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Reka"
+  },
+  {
     "color": "#EA2805",
     "desc": "https://replicate.com",
     "docsUrl": "replicate",
@@ -4868,6 +5077,25 @@
       "hasTextColor": false
     },
     "title": "SambaNova"
+  },
+  {
+    "color": "#E10600",
+    "desc": "https://sakana.ai",
+    "docsUrl": "sakana",
+    "fullTitle": "Sakana",
+    "group": "provider",
+    "id": "Sakana",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Sakana"
   },
   {
     "color": "#0066FF",
@@ -5748,6 +5976,44 @@
       "hasTextColor": false
     },
     "title": "Voyage"
+  },
+  {
+    "color": "#1A1A1A",
+    "desc": "https://wafer.ai",
+    "docsUrl": "wafer",
+    "fullTitle": "Wafer",
+    "group": "application",
+    "id": "Wafer",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Wafer"
+  },
+  {
+    "color": "#FFCC33",
+    "desc": "https://wandb.ai",
+    "docsUrl": "wandb",
+    "fullTitle": "Wandb",
+    "group": "application",
+    "id": "Wandb",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Wandb"
   },
   {
     "color": "#167ADF",
