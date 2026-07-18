@@ -163,6 +163,7 @@ export { default as Kimi, type CompoundedIcon as KimiProps } from './Kimi';
 export { default as Kiro, type CompoundedIcon as KiroProps } from './Kiro';
 export { default as Kling, type CompoundedIcon as KlingProps } from './Kling';
 export { default as Kluster, type CompoundedIcon as KlusterProps } from './Kluster';
+export { default as Kollab, type CompoundedIcon as KollabProps } from './Kollab';
 export { default as Kolors, type CompoundedIcon as KolorsProps } from './Kolors';
 export { default as Krea, type CompoundedIcon as KreaProps } from './Krea';
 export { default as KwaiKAT, type CompoundedIcon as KwaiKATProps } from './KwaiKAT';
