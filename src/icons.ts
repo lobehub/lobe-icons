@@ -111,6 +111,7 @@ export { default as Figma, type CompoundedIcon as FigmaProps } from './Figma';
 export { default as Firecrawl, type CompoundedIcon as FirecrawlProps } from './Firecrawl';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
 export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './FishAudio';
+export { default as FiveDive, type CompoundedIcon as FiveDiveProps } from './FiveDive';
 export { default as Flora, type CompoundedIcon as FloraProps } from './Flora';
 export { default as Flowith, type CompoundedIcon as FlowithProps } from './Flowith';
 export { default as Flux, type CompoundedIcon as FluxProps } from './Flux';
