@@ -114,6 +114,7 @@ import StateCloud from '@/StateCloud';
 import Stepfun from '@/Stepfun';
 import Straico from '@/Straico';
 import StreamLake from '@/StreamLake';
+import Sub2API from '@/Sub2API';
 import SubModel from '@/SubModel';
 import TII from '@/TII';
 import Targon from '@/Targon';
@@ -203,6 +204,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Stability, keywords: [ModelProvider.Stability] },
   { Icon: StateCloud, keywords: [ModelProvider.StateCloud] },
   { Icon: StreamLake, keywords: [ModelProvider.StreamLake] },
+  { Icon: Sub2API, keywords: [ModelProvider.Sub2API] },
   { Icon: SubModel, keywords: [ModelProvider.SubModel] },
   { Icon: Targon, keywords: [ModelProvider.Targon] },
   { Icon: Tencent, keywords: [ModelProvider.Tencent] },
