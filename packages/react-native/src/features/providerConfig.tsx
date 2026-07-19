@@ -113,6 +113,7 @@ import StateCloud from '../icons/StateCloud';
 import Stepfun from '../icons/Stepfun';
 import Straico from '../icons/Straico';
 import StreamLake from '../icons/StreamLake';
+import Sub2API from '../icons/Sub2API';
 import SubModel from '../icons/SubModel';
 import TII from '../icons/TII';
 import Targon from '../icons/Targon';
@@ -199,6 +200,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Stability, keywords: [RNModelProvider.Stability] },
   { Icon: StateCloud, keywords: [RNModelProvider.StateCloud] },
   { Icon: StreamLake, keywords: [RNModelProvider.StreamLake] },
+  { Icon: Sub2API, keywords: [RNModelProvider.Sub2API] },
   { Icon: SubModel, keywords: [RNModelProvider.SubModel] },
   { Icon: Targon, keywords: [RNModelProvider.Targon] },
   { Icon: Tencent, keywords: [RNModelProvider.Tencent] },
