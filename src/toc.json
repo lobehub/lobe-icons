@@ -477,6 +477,25 @@
     "title": "Anyscale"
   },
   {
+    "color": "#009BF2",
+    "desc": "https://anyapi.ai",
+    "docsUrl": "any-api",
+    "fullTitle": "AnyApi",
+    "group": "provider",
+    "id": "AnyApi",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "AnyApi"
+  },
+  {
     "color": "#0d9488",
     "desc": "https://apertis.ai",
     "docsUrl": "apertis",
