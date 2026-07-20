@@ -312,6 +312,7 @@ export { default as Recraft, type CompoundedIcon as RecraftProps } from './icons
 export { default as Relace, type CompoundedIcon as RelaceProps } from './icons/Relace';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './icons/Replicate';
 export { default as Replit, type CompoundedIcon as ReplitProps } from './icons/Replit';
+export { default as Respira, type CompoundedIcon as RespiraProps } from './icons/Respira';
 export { default as Reve, type CompoundedIcon as ReveProps } from './icons/Reve';
 export { default as RooCode, type CompoundedIcon as RooCodeProps } from './icons/RooCode';
 export { default as RSSHub, type CompoundedIcon as RSSHubProps } from './icons/RSSHub';
