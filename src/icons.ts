@@ -118,6 +118,7 @@ export { default as Friendli, type CompoundedIcon as FriendliProps } from './Fri
 export { default as Gemini, type CompoundedIcon as GeminiProps } from './Gemini';
 export { default as GeminiCLI, type CompoundedIcon as GeminiCLIProps } from './GeminiCLI';
 export { default as Gemma, type CompoundedIcon as GemmaProps } from './Gemma';
+export { default as Ghast, type CompoundedIcon as GhastProps } from './Ghast';
 export { default as GiteeAI, type CompoundedIcon as GiteeAIProps } from './GiteeAI';
 export { default as Github, type CompoundedIcon as GithubProps } from './Github';
 export {
