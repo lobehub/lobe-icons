@@ -1,0 +1,125 @@
+---
+title: OpenAI (ChatGPT)
+description: https://openai.com
+category: Provider
+---
+
+import { OpenAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<OpenAI size={64} />}</DocsPreview>
+
+```tsx
+import { OpenAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <OpenAI size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<OpenAI.Text size={48} />}</DocsPreview>
+
+```tsx
+import { OpenAI } from '@lobehub/icons';
+
+export default () => <OpenAI.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <OpenAI.Combine size={64} />
+      <OpenAI.Combine size={64} extra={'ChatGPT'} showText={false} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { OpenAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <OpenAI.Combine size={64} />
+    <OpenAI.Combine size={64} extra={'ChatGPT'} showText={false} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <OpenAI.Avatar size={64} />
+      <OpenAI.Avatar size={64} type={'gpt3'} />
+      <OpenAI.Avatar size={64} type={'gpt4'} />
+      <OpenAI.Avatar size={64} type={'gpt5'} />
+      <OpenAI.Avatar size={64} type={'o1'} />
+      <OpenAI.Avatar size={64} type={'oss'} />
+      <OpenAI.Avatar size={64} type={'platform'} />
+      <OpenAI.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { OpenAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <OpenAI.Avatar size={64} />
+    <OpenAI.Avatar size={64} type={'gpt3'} />
+    <OpenAI.Avatar size={64} type={'gpt4'} />
+    <OpenAI.Avatar size={64} type={'gpt5'} />
+    <OpenAI.Avatar size={64} type={'o1'} />
+    <OpenAI.Avatar size={64} type={'oss'} />
+    <OpenAI.Avatar size={64} type={'platform'} />
+    <OpenAI.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={OpenAI.colorPrimary} />
+      <ColorPreview color={OpenAI.colorGpt3} />
+      <ColorPreview color={OpenAI.colorGpt4} />
+      <ColorPreview color={OpenAI.colorGpt5} />
+      <ColorPreview color={OpenAI.colorO1} />
+      <ColorPreview color={OpenAI.colorOss} />
+      <ColorPreview color={OpenAI.colorPlatform} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { OpenAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={OpenAI.colorPrimary} />
+    <ColorPreview color={OpenAI.colorGpt3} />
+    <ColorPreview color={OpenAI.colorGpt4} />
+    <ColorPreview color={OpenAI.colorGpt5} />
+    <ColorPreview color={OpenAI.colorO1} />
+    <ColorPreview color={OpenAI.colorOss} />
+    <ColorPreview color={OpenAI.colorPlatform} />
+  </Flexbox>
+);
+```

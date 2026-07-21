@@ -1,0 +1,99 @@
+---
+title: Liquid
+description: https://liquid.ai
+category: Model
+---
+
+import { Liquid } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Liquid size={64} />}</DocsPreview>
+
+```tsx
+import { Liquid } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <Liquid size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Liquid.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Liquid } from '@lobehub/icons';
+
+export default () => <Liquid.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Liquid.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Liquid } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Liquid.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Liquid.Avatar size={64} />
+      <Liquid.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Liquid } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Liquid.Avatar size={64} />
+    <Liquid.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Liquid.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Liquid } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Liquid.colorPrimary} />
+  </Flexbox>
+);
+```

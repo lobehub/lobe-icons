@@ -36,7 +36,7 @@ const run = async () => {
   const list = await Promise.all(
     iconIds.map(async (key) => {
       const iconDir = resolve(srcDir, key);
-      const md = readFileSync(resolve(iconDir, 'index.md'), 'utf8');
+      const md = readFileSync(resolve(iconDir, 'index.mdx'), 'utf8');
       const stylePath = resolve(iconDir, 'style.ts');
       let styleModule: Record<string, string> = {};
 
@@ -52,7 +52,7 @@ const run = async () => {
         desc: data?.description,
         docsUrl: customKebabCase(key),
         fullTitle: data?.title,
-        group: String(data?.group?.title || data?.group).toLowerCase(),
+        group: String(data?.category || data?.group?.title || data?.group).toLowerCase(),
         id: key,
         param: getIconParams(iconDir),
         title: styleModule.TITLE,

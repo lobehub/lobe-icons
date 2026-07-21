@@ -1,0 +1,117 @@
+---
+title: Minimax
+description: https://api.minimax.chat
+category: Model
+---
+
+import { Minimax } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Minimax size={64} />
+      <Minimax.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Minimax } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Minimax size={64} />
+    <Minimax.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Minimax.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Minimax } from '@lobehub/icons';
+
+export default () => <Minimax.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Minimax.Combine size={64} />
+      <Minimax.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Minimax } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Minimax.Combine size={64} />
+    <Minimax.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Minimax.Avatar size={64} background={Minimax.colorPrimary} />
+      <Minimax.Avatar size={64} />
+      <Minimax.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Minimax } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Minimax.Avatar size={64} background={Minimax.colorPrimary} />
+    <Minimax.Avatar size={64} />
+    <Minimax.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Minimax.colorPrimary} />
+      <ColorPreview color={Minimax.colorGradient} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Minimax } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Minimax.colorPrimary} />
+    <ColorPreview color={Minimax.colorGradient} />
+  </Flexbox>
+);
+```

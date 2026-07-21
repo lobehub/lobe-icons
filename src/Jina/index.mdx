@@ -1,0 +1,88 @@
+---
+title: Jina AI
+description: https://jina.ai
+category: Provider
+---
+
+import { Jina } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Jina size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Jina } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Jina size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Jina.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Jina } from '@lobehub/icons';
+
+export default () => <Jina.Text size={48} />;
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Jina.Avatar size={64} />
+      <Jina.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Jina } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Jina.Avatar size={64} />
+    <Jina.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Jina.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Jina } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Jina.colorPrimary} />
+  </Flexbox>
+);
+```

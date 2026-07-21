@@ -1,0 +1,99 @@
+---
+title: Lambda
+description: https://lambdalabs.com
+category: Provider
+---
+
+import { Lambda } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Lambda size={64} />}</DocsPreview>
+
+```tsx
+import { Lambda } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <Lambda size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Lambda.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Lambda } from '@lobehub/icons';
+
+export default () => <Lambda.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Lambda.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Lambda } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Lambda.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Lambda.Avatar size={64} />
+      <Lambda.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Lambda } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Lambda.Avatar size={64} />
+    <Lambda.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Lambda.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Lambda } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Lambda.colorPrimary} />
+  </Flexbox>
+);
+```

@@ -1,0 +1,78 @@
+---
+title: Nebius
+description: https://nebius.com
+category: Provider
+---
+
+import { Nebius } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Nebius size={64} />}</DocsPreview>
+
+```tsx
+import { Nebius } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <Nebius size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Nebius.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Nebius } from '@lobehub/icons';
+
+export default () => <Nebius.Text size={48} />;
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Nebius.Avatar size={64} />
+      <Nebius.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Nebius } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Nebius.Avatar size={64} />
+    <Nebius.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Nebius.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Nebius } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Nebius.colorPrimary} />
+  </Flexbox>
+);
+```

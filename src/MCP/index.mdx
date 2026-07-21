@@ -1,0 +1,99 @@
+---
+title: MCP (Model Context Protocol)
+description: https://modelcontextprotocol.io
+category: Application
+---
+
+import { MCP } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<MCP size={64} />}</DocsPreview>
+
+```tsx
+import { MCP } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <MCP size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<MCP.Text size={48} />}</DocsPreview>
+
+```tsx
+import { MCP } from '@lobehub/icons';
+
+export default () => <MCP.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <MCP.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { MCP } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <MCP.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <MCP.Avatar size={64} />
+      <MCP.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { MCP } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <MCP.Avatar size={64} />
+    <MCP.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={MCP.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { MCP } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={MCP.colorPrimary} />
+  </Flexbox>
+);
+```

@@ -1,0 +1,101 @@
+---
+title: Firefly (Adobe)
+description: https://firefly.adobe.com
+category: Application
+---
+
+import { AdobeFirefly } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <AdobeFirefly size={64} />
+      <AdobeFirefly.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { AdobeFirefly } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <AdobeFirefly size={64} />
+    <AdobeFirefly.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<AdobeFirefly.Text size={48} />}</DocsPreview>
+
+```tsx
+import { AdobeFirefly } from '@lobehub/icons';
+
+export default () => <AdobeFirefly.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>{<AdobeFirefly.Combine size={64} />}</DocsPreview>
+
+```tsx
+import { AdobeFirefly } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <AdobeFirefly.Combine size={64} />;
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <AdobeFirefly.Avatar size={64} />
+      <AdobeFirefly.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { AdobeFirefly } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <AdobeFirefly.Avatar size={64} />
+    <AdobeFirefly.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={AdobeFirefly.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { AdobeFirefly } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={AdobeFirefly.colorPrimary} />
+  </Flexbox>
+);
+```

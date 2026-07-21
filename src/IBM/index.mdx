@@ -1,0 +1,99 @@
+---
+title: IBM (Granite)
+description: https://huggingface.co/ibm-granite
+category: Provider
+---
+
+import { IBM } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<IBM size={64} />}</DocsPreview>
+
+```tsx
+import { IBM } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <IBM size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<IBM.Text size={48} />}</DocsPreview>
+
+```tsx
+import { IBM } from '@lobehub/icons';
+
+export default () => <IBM.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <IBM.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { IBM } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <IBM.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <IBM.Avatar size={64} />
+      <IBM.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { IBM } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <IBM.Avatar size={64} />
+    <IBM.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={IBM.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { IBM } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={IBM.colorPrimary} />
+  </Flexbox>
+);
+```

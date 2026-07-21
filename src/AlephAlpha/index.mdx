@@ -1,0 +1,99 @@
+---
+title: AlephAlpha
+description: https://aleph-alpha.com
+category: Provider
+---
+
+import { AlephAlpha } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<AlephAlpha size={64} />}</DocsPreview>
+
+```tsx
+import { AlephAlpha } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <AlephAlpha size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<AlephAlpha.Text size={48} />}</DocsPreview>
+
+```tsx
+import { AlephAlpha } from '@lobehub/icons';
+
+export default () => <AlephAlpha.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <AlephAlpha.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { AlephAlpha } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <AlephAlpha.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <AlephAlpha.Avatar size={64} />
+      <AlephAlpha.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { AlephAlpha } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <AlephAlpha.Avatar size={64} />
+    <AlephAlpha.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={AlephAlpha.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { AlephAlpha } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={AlephAlpha.colorPrimary} />
+  </Flexbox>
+);
+```

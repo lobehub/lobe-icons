@@ -1,0 +1,103 @@
+---
+title: GoogleCloud
+description: https://cloud.google.com
+category: Provider
+---
+
+import { GoogleCloud } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <GoogleCloud size={64} />
+      <GoogleCloud.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { GoogleCloud } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <GoogleCloud size={64} />
+    <GoogleCloud.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Brands
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <GoogleCloud.Brand size={64} />
+      <GoogleCloud.BrandColor size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { GoogleCloud } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <GoogleCloud.Brand size={64} />
+    <GoogleCloud.BrandColor size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <GoogleCloud.Avatar size={64} />
+      <GoogleCloud.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { GoogleCloud } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <GoogleCloud.Avatar size={64} />
+    <GoogleCloud.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={GoogleCloud.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { GoogleCloud } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={GoogleCloud.colorPrimary} />
+  </Flexbox>
+);
+```

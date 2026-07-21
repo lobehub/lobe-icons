@@ -1,0 +1,113 @@
+---
+title: Comet API
+description: https://cometapi.com/
+category: Provider
+---
+
+import { CometAPI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <CometAPI size={64} />
+      <CometAPI.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CometAPI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <CometAPI size={64} />
+    <CometAPI.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<CometAPI.Text size={64} />}</DocsPreview>
+
+```tsx
+import { CometAPI } from '@lobehub/icons';
+
+export default () => <CometAPI.Text size={64} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <CometAPI.Combine size={64} />
+      <CometAPI.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CometAPI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <CometAPI.Combine size={64} />
+    <CometAPI.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <CometAPI.Avatar size={64} />
+      <CometAPI.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CometAPI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <CometAPI.Avatar size={64} />
+    <CometAPI.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={CometAPI.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CometAPI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={CometAPI.colorPrimary} />
+  </Flexbox>
+);
+```
