@@ -1,0 +1,99 @@
+---
+title: Bilibili Index (Index Team)
+description: https://huggingface.co/IndexTeam
+category: Model
+---
+
+import { BilibiliIndex } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<BilibiliIndex size={64} />}</DocsPreview>
+
+```tsx
+import { BilibiliIndex } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <BilibiliIndex size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<BilibiliIndex.Text size={48} />}</DocsPreview>
+
+```tsx
+import { BilibiliIndex } from '@lobehub/icons';
+
+export default () => <BilibiliIndex.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <BilibiliIndex.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { BilibiliIndex } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <BilibiliIndex.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <BilibiliIndex.Avatar size={64} />
+      <BilibiliIndex.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { BilibiliIndex } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <BilibiliIndex.Avatar size={64} />
+    <BilibiliIndex.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={BilibiliIndex.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { BilibiliIndex } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={BilibiliIndex.colorPrimary} />
+  </Flexbox>
+);
+```

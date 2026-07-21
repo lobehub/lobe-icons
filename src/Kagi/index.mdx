@@ -1,0 +1,99 @@
+---
+title: Kagi
+description: https://kagi.com
+category: Provider
+---
+
+import { Kagi } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Kagi size={64} />}</DocsPreview>
+
+```tsx
+import { Kagi } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <Kagi size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Kagi.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Kagi } from '@lobehub/icons';
+
+export default () => <Kagi.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Kagi.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Kagi } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Kagi.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Kagi.Avatar size={64} />
+      <Kagi.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Kagi } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Kagi.Avatar size={64} />
+    <Kagi.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Kagi.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Kagi } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Kagi.colorPrimary} />
+  </Flexbox>
+);
+```

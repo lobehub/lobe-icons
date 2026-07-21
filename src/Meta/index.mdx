@@ -1,0 +1,140 @@
+---
+title: Meta
+description: https://llama.meta.com
+category: Provider
+---
+
+import { Meta } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Meta size={64} />
+      <Meta.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Meta } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Meta size={64} />
+    <Meta.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Meta.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Meta } from '@lobehub/icons';
+
+export default () => <Meta.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Meta.Combine size={64} />
+      <Meta.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Meta } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Meta.Combine size={64} />
+    <Meta.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Brands
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Meta.Brand size={64} />
+      <Meta.BrandColor size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Meta } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Meta.Brand size={64} />
+    <Meta.BrandColor size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Meta.Avatar size={64} background={Meta.colorPrimary} />
+      <Meta.Avatar size={64} />
+      <Meta.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Meta } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Meta.Avatar size={64} background={Meta.colorPrimary} />
+    <Meta.Avatar size={64} />
+    <Meta.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Meta.colorPrimary} />
+      <ColorPreview color={Meta.colorGradient} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Meta } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Meta.colorPrimary} />
+    <ColorPreview color={Meta.colorGradient} />
+  </Flexbox>
+);
+```

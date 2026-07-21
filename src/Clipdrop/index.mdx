@@ -1,0 +1,99 @@
+---
+title: Clipdrop
+description: https://clipdrop.co
+category: Application
+---
+
+import { Clipdrop } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Clipdrop size={64} />}</DocsPreview>
+
+```tsx
+import { Clipdrop } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <Clipdrop size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Clipdrop.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Clipdrop } from '@lobehub/icons';
+
+export default () => <Clipdrop.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Clipdrop.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Clipdrop } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Clipdrop.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Clipdrop.Avatar size={64} />
+      <Clipdrop.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Clipdrop } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Clipdrop.Avatar size={64} />
+    <Clipdrop.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Clipdrop.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Clipdrop } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Clipdrop.colorPrimary} />
+  </Flexbox>
+);
+```

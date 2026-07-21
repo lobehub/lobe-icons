@@ -1,0 +1,113 @@
+---
+title: CopilotKit
+description: https://copilotkit.ai
+category: Application
+---
+
+import { CopilotKit } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <CopilotKit size={64} />
+      <CopilotKit.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CopilotKit } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <CopilotKit size={64} />
+    <CopilotKit.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<CopilotKit.Text size={48} />}</DocsPreview>
+
+```tsx
+import { CopilotKit } from '@lobehub/icons';
+
+export default () => <CopilotKit.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <CopilotKit.Combine size={64} />
+      <CopilotKit.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CopilotKit } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <CopilotKit.Combine size={64} />
+    <CopilotKit.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <CopilotKit.Avatar size={64} />
+      <CopilotKit.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CopilotKit } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <CopilotKit.Avatar size={64} />
+    <CopilotKit.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={CopilotKit.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { CopilotKit } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={CopilotKit.colorPrimary} />
+  </Flexbox>
+);
+```

@@ -1,0 +1,99 @@
+---
+title: Ideogram
+description: https://ideogram.ai
+category: Application
+---
+
+import { Ideogram } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Ideogram size={64} />}</DocsPreview>
+
+```tsx
+import { Ideogram } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <Ideogram size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Ideogram.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Ideogram } from '@lobehub/icons';
+
+export default () => <Ideogram.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Ideogram.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ideogram } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Ideogram.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Ideogram.Avatar size={64} />
+      <Ideogram.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ideogram } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Ideogram.Avatar size={64} />
+    <Ideogram.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Ideogram.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Ideogram } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Ideogram.colorPrimary} />
+  </Flexbox>
+);
+```

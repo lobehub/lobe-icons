@@ -1,0 +1,111 @@
+---
+title: LlamaIndex
+description: https://llamaindex.ai
+category: Application
+---
+
+import { LlamaIndex } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <LlamaIndex size={64} />
+      <LlamaIndex.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { LlamaIndex } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <LlamaIndex size={64} />
+    <LlamaIndex.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<LlamaIndex.Text size={48} />}</DocsPreview>
+
+```tsx
+import { LlamaIndex } from '@lobehub/icons';
+
+export default () => <LlamaIndex.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <LlamaIndex.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { LlamaIndex } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <LlamaIndex.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <LlamaIndex.Avatar size={64} />
+      <LlamaIndex.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { LlamaIndex } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <LlamaIndex.Avatar size={64} />
+    <LlamaIndex.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={LlamaIndex.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { LlamaIndex } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={LlamaIndex.colorPrimary} />
+  </Flexbox>
+);
+```

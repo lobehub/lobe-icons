@@ -1,0 +1,99 @@
+---
+title: 11x
+description: https://11x.ai
+category: Application
+---
+
+import { ElevenX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<ElevenX size={64} />}</DocsPreview>
+
+```tsx
+import { ElevenX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <ElevenX size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<ElevenX.Text size={48} />}</DocsPreview>
+
+```tsx
+import { ElevenX } from '@lobehub/icons';
+
+export default () => <ElevenX.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <ElevenX.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { ElevenX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <ElevenX.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ElevenX.Avatar size={64} />
+      <ElevenX.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { ElevenX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ElevenX.Avatar size={64} />
+    <ElevenX.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={ElevenX.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { ElevenX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={ElevenX.colorPrimary} />
+  </Flexbox>
+);
+```

@@ -1,0 +1,126 @@
+---
+title: Tencent
+description: https://tencent.com
+category: Provider
+---
+
+import { Tencent } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Tencent size={64} />
+      <Tencent.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Tencent } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Tencent size={64} />
+    <Tencent.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Tencent.Text size={48} />
+      <Tencent.TextCn size={48} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Tencent } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Tencent.Text size={48} />
+    <Tencent.TextCn size={48} />
+  </Flexbox>
+);
+```
+
+## Brands
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Tencent.Brand size={64} />
+      <Tencent.BrandColor size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Tencent } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Tencent.Brand size={64} />
+    <Tencent.BrandColor size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Tencent.Avatar size={64} />
+      <Tencent.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Tencent } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Tencent.Avatar size={64} />
+    <Tencent.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Tencent.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Tencent } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Tencent.colorPrimary} />
+  </Flexbox>
+);
+```

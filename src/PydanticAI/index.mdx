@@ -1,0 +1,113 @@
+---
+title: PydanticAI
+description: https://ai.pydantic.dev
+category: Application
+---
+
+import { PydanticAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <PydanticAI size={64} />
+      <PydanticAI.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { PydanticAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <PydanticAI size={64} />
+    <PydanticAI.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<PydanticAI.Text size={48} />}</DocsPreview>
+
+```tsx
+import { PydanticAI } from '@lobehub/icons';
+
+export default () => <PydanticAI.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <PydanticAI.Combine size={64} />
+      <PydanticAI.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { PydanticAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <PydanticAI.Combine size={64} />
+    <PydanticAI.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <PydanticAI.Avatar size={64} />
+      <PydanticAI.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { PydanticAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <PydanticAI.Avatar size={64} />
+    <PydanticAI.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={PydanticAI.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { PydanticAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={PydanticAI.colorPrimary} />
+  </Flexbox>
+);
+```

@@ -1,0 +1,124 @@
+---
+title: OpenClaw (MoltBot/ClawdBot)
+description: https://openclaw.dev
+category: Application
+---
+
+import { OpenClaw } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <OpenClaw size={64} />
+      <OpenClaw.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { OpenClaw } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <OpenClaw size={64} />
+    <OpenClaw.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <OpenClaw.Text size={48} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { OpenClaw } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <OpenClaw.Text size={48} />
+  </Flexbox>
+);
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <OpenClaw.Combine size={64} />
+      <OpenClaw.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { OpenClaw } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <OpenClaw.Combine size={64} />
+    <OpenClaw.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <OpenClaw.Avatar size={64} />
+      <OpenClaw.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { OpenClaw } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <OpenClaw.Avatar size={64} />
+    <OpenClaw.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={OpenClaw.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { OpenClaw } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={OpenClaw.colorPrimary} />
+  </Flexbox>
+);
+```

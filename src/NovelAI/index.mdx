@@ -1,0 +1,99 @@
+---
+title: NovelAI
+description: https://novelai.net
+category: Application
+---
+
+import { NovelAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<NovelAI size={64} />}</DocsPreview>
+
+```tsx
+import { NovelAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <NovelAI size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<NovelAI.Text size={48} />}</DocsPreview>
+
+```tsx
+import { NovelAI } from '@lobehub/icons';
+
+export default () => <NovelAI.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <NovelAI.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { NovelAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <NovelAI.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <NovelAI.Avatar size={64} />
+      <NovelAI.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { NovelAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <NovelAI.Avatar size={64} />
+    <NovelAI.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={NovelAI.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { NovelAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={NovelAI.colorPrimary} />
+  </Flexbox>
+);
+```

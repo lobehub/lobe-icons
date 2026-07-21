@@ -1,0 +1,113 @@
+---
+title: 01.AI (零一万物)
+description: https://lingyiwanwu.com/
+category: Provider
+---
+
+import { ZeroOne } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ZeroOne size={64} />
+      <ZeroOne.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { ZeroOne } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ZeroOne size={64} />
+    <ZeroOne.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<ZeroOne.Text size={48} />}</DocsPreview>
+
+```tsx
+import { ZeroOne } from '@lobehub/icons';
+
+export default () => <ZeroOne.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <ZeroOne.Combine size={64} />
+      <ZeroOne.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { ZeroOne } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <ZeroOne.Combine size={64} />
+    <ZeroOne.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ZeroOne.Avatar size={64} />
+      <ZeroOne.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { ZeroOne } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ZeroOne.Avatar size={64} />
+    <ZeroOne.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={ZeroOne.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { ZeroOne } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={ZeroOne.colorPrimary} />
+  </Flexbox>
+);
+```

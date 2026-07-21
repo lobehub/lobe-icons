@@ -1,0 +1,99 @@
+---
+title: BAAI (智源研究院)
+description: https://baai.ac.cn
+category: Model
+---
+
+import { BAAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<BAAI size={64} />}</DocsPreview>
+
+```tsx
+import { BAAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <BAAI size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<BAAI.Text size={48} />}</DocsPreview>
+
+```tsx
+import { BAAI } from '@lobehub/icons';
+
+export default () => <BAAI.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <BAAI.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { BAAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <BAAI.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <BAAI.Avatar size={64} />
+      <BAAI.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { BAAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <BAAI.Avatar size={64} />
+    <BAAI.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={BAAI.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { BAAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={BAAI.colorPrimary} />
+  </Flexbox>
+);
+```

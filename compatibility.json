@@ -1,0 +1,3254 @@
+{
+  "demoReferences": [
+    {
+      "document": "docs/editor/index.mdx",
+      "legacyId": "docs-editor-demo-editor",
+      "legacyRouteId": "docs/editor/index",
+      "options": {
+        "inline": true,
+        "isolated": false,
+        "layout": "default"
+      },
+      "pathname": "/editor",
+      "source": "src/components/Editor/demos/index.tsx"
+    },
+    {
+      "document": "docs/features/agent-icon.mdx",
+      "legacyId": "docs-features-agent-icon-demo-agent-icon",
+      "legacyRouteId": "docs/features/agent-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/agent-icon",
+      "source": "src/features/AgentIcon/demos/index.tsx"
+    },
+    {
+      "document": "docs/features/agent-icon.mdx",
+      "legacyId": "docs-features-agent-icon-demo-mono",
+      "legacyRouteId": "docs/features/agent-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/agent-icon",
+      "source": "src/features/AgentIcon/demos/Mono.tsx"
+    },
+    {
+      "document": "docs/features/agent-icon.mdx",
+      "legacyId": "docs-features-agent-icon-demo-color",
+      "legacyRouteId": "docs/features/agent-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/agent-icon",
+      "source": "src/features/AgentIcon/demos/Color.tsx"
+    },
+    {
+      "document": "docs/features/agent-icon.mdx",
+      "legacyId": "docs-features-agent-icon-demo-combine",
+      "legacyRouteId": "docs/features/agent-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/agent-icon",
+      "source": "src/features/AgentIcon/demos/Combine.tsx"
+    },
+    {
+      "document": "docs/features/agent-icon.mdx",
+      "legacyId": "docs-features-agent-icon-demo-combinecolor",
+      "legacyRouteId": "docs/features/agent-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/agent-icon",
+      "source": "src/features/AgentIcon/demos/CombineColor.tsx"
+    },
+    {
+      "document": "docs/features/icon-avatar.mdx",
+      "legacyId": "docs-features-icon-avatar-demo-iconavatar",
+      "legacyRouteId": "docs/features/icon-avatar",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/icon-avatar",
+      "source": "src/features/IconAvatar/demos/index.tsx"
+    },
+    {
+      "document": "docs/features/icon-combine.mdx",
+      "legacyId": "docs-features-icon-combine-demo-iconcombine",
+      "legacyRouteId": "docs/features/icon-combine",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/icon-combine",
+      "source": "src/features/IconCombine/demos/index.tsx"
+    },
+    {
+      "document": "docs/features/model-icon.mdx",
+      "legacyId": "docs-features-model-icon-demo-model-icon",
+      "legacyRouteId": "docs/features/model-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/model-icon",
+      "source": "src/features/ModelIcon/demos/index.tsx"
+    },
+    {
+      "document": "docs/features/model-icon.mdx",
+      "legacyId": "docs-features-model-icon-demo-mono",
+      "legacyRouteId": "docs/features/model-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/model-icon",
+      "source": "src/features/ModelIcon/demos/Mono.tsx"
+    },
+    {
+      "document": "docs/features/model-icon.mdx",
+      "legacyId": "docs-features-model-icon-demo-color",
+      "legacyRouteId": "docs/features/model-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/model-icon",
+      "source": "src/features/ModelIcon/demos/Color.tsx"
+    },
+    {
+      "document": "docs/features/model-icon.mdx",
+      "legacyId": "docs-features-model-icon-demo-combine",
+      "legacyRouteId": "docs/features/model-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/model-icon",
+      "source": "src/features/ModelIcon/demos/Combine.tsx"
+    },
+    {
+      "document": "docs/features/model-icon.mdx",
+      "legacyId": "docs-features-model-icon-demo-combinecolor",
+      "legacyRouteId": "docs/features/model-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/model-icon",
+      "source": "src/features/ModelIcon/demos/CombineColor.tsx"
+    },
+    {
+      "document": "docs/features/model-tag.mdx",
+      "legacyId": "docs-features-model-tag-demo-model-tag",
+      "legacyRouteId": "docs/features/model-tag",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/model-tag",
+      "source": "src/features/ModelTag/demos/index.tsx"
+    },
+    {
+      "document": "docs/features/provder-icon.mdx",
+      "legacyId": "docs-features-provder-icon-demo-provider-icon",
+      "legacyRouteId": "docs/features/provder-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/provder-icon",
+      "source": "src/features/ProviderIcon/demos/index.tsx"
+    },
+    {
+      "document": "docs/features/provder-icon.mdx",
+      "legacyId": "docs-features-provder-icon-demo-color",
+      "legacyRouteId": "docs/features/provder-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/provder-icon",
+      "source": "src/features/ProviderIcon/demos/Color.tsx"
+    },
+    {
+      "document": "docs/features/provder-icon.mdx",
+      "legacyId": "docs-features-provder-icon-demo-combine",
+      "legacyRouteId": "docs/features/provder-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/provder-icon",
+      "source": "src/features/ProviderIcon/demos/Combine.tsx"
+    },
+    {
+      "document": "docs/features/provder-icon.mdx",
+      "legacyId": "docs-features-provder-icon-demo-combinecolor",
+      "legacyRouteId": "docs/features/provder-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/provder-icon",
+      "source": "src/features/ProviderIcon/demos/CombineColor.tsx"
+    },
+    {
+      "document": "docs/features/provder-icon.mdx",
+      "legacyId": "docs-features-provder-icon-demo-avatar",
+      "legacyRouteId": "docs/features/provder-icon",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/provder-icon",
+      "source": "src/features/ProviderIcon/demos/Avatar.tsx"
+    },
+    {
+      "document": "docs/features/provider-combine.mdx",
+      "legacyId": "docs-features-provider-combine-demo-provider-combine",
+      "legacyRouteId": "docs/features/provider-combine",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/provider-combine",
+      "source": "src/features/ProviderCombine/demos/index.tsx"
+    },
+    {
+      "document": "docs/features/provider-combine.mdx",
+      "legacyId": "docs-features-provider-combine-demo-mono",
+      "legacyRouteId": "docs/features/provider-combine",
+      "options": {
+        "inline": false,
+        "isolated": false,
+        "layout": "center"
+      },
+      "pathname": "/features/provider-combine",
+      "source": "src/features/ProviderCombine/demos/Mono.tsx"
+    },
+    {
+      "document": "docs/index.mdx",
+      "legacyId": "docs-demo-docs",
+      "legacyRouteId": "docs/index",
+      "options": {
+        "inline": true,
+        "isolated": false,
+        "layout": "default"
+      },
+      "pathname": "/",
+      "source": "docs/index.tsx"
+    }
+  ],
+  "documents": [
+    {
+      "description": "New updates and improvements to @lobehub/icons",
+      "legacyRouteId": "docs/changelog",
+      "pathname": "/changelog",
+      "section": "Changelog",
+      "source": "docs/changelog.mdx",
+      "title": "Changelog"
+    },
+    {
+      "description": "Icon Editor for @lobehub/icons",
+      "legacyRouteId": "docs/editor/index",
+      "pathname": "/editor",
+      "section": "Guides",
+      "source": "docs/editor/index.mdx",
+      "title": "Icon Editor"
+    },
+    {
+      "category": "Features",
+      "description": "Guide to using agent icons from @lobehub/icons.",
+      "legacyRouteId": "docs/features/agent-icon",
+      "pathname": "/features/agent-icon",
+      "section": "Guides",
+      "source": "docs/features/agent-icon.mdx",
+      "title": "AgentIcon"
+    },
+    {
+      "category": "Utils",
+      "description": "Guide to resolving Lobe Icons assets through the public CDN utilities.",
+      "legacyRouteId": "docs/features/cdn-utils",
+      "pathname": "/features/cdn-utils",
+      "section": "Guides",
+      "source": "docs/features/cdn-utils.mdx",
+      "title": "getLobeIconCDN"
+    },
+    {
+      "category": "Components",
+      "description": "Guide to composing icon avatars with @lobehub/icons.",
+      "legacyRouteId": "docs/features/icon-avatar",
+      "pathname": "/features/icon-avatar",
+      "section": "Guides",
+      "source": "docs/features/icon-avatar.mdx",
+      "title": "IconAvatar"
+    },
+    {
+      "category": "Components",
+      "description": "Guide to combining brand icons with text and visual treatments.",
+      "legacyRouteId": "docs/features/icon-combine",
+      "pathname": "/features/icon-combine",
+      "section": "Guides",
+      "source": "docs/features/icon-combine.mdx",
+      "title": "IconCombine"
+    },
+    {
+      "category": "Features",
+      "description": "Guide to rendering model icons with @lobehub/icons.",
+      "legacyRouteId": "docs/features/model-icon",
+      "pathname": "/features/model-icon",
+      "section": "Guides",
+      "source": "docs/features/model-icon.mdx",
+      "title": "ModelIcon"
+    },
+    {
+      "category": "Features",
+      "description": "Guide to rendering model tags with @lobehub/icons.",
+      "legacyRouteId": "docs/features/model-tag",
+      "pathname": "/features/model-tag",
+      "section": "Guides",
+      "source": "docs/features/model-tag.mdx",
+      "title": "ModelTag"
+    },
+    {
+      "category": "Features",
+      "description": "Guide to rendering provider icons with @lobehub/icons.",
+      "legacyRouteId": "docs/features/provder-icon",
+      "pathname": "/features/provder-icon",
+      "section": "Guides",
+      "source": "docs/features/provder-icon.mdx",
+      "title": "ProviderIcon"
+    },
+    {
+      "category": "Features",
+      "description": "Guide to composing provider icons with labels and variants.",
+      "legacyRouteId": "docs/features/provider-combine",
+      "pathname": "/features/provider-combine",
+      "section": "Guides",
+      "source": "docs/features/provider-combine.mdx",
+      "title": "ProviderCombine"
+    },
+    {
+      "description": "Popular AI / LLM Model Brand SVG Logo and Icon Collection",
+      "legacyRouteId": "docs/index",
+      "pathname": "/",
+      "section": "Home",
+      "source": "docs/index.mdx"
+    },
+    {
+      "category": "Model",
+      "description": "https://github.com/ace-step/ACE-Step",
+      "legacyRouteId": "components/Ace/index",
+      "pathname": "/components/ace",
+      "section": "Components",
+      "source": "src/Ace/index.mdx",
+      "title": "ACE"
+    },
+    {
+      "category": "Application",
+      "description": "https://adobe.com",
+      "legacyRouteId": "components/Adobe/index",
+      "pathname": "/components/adobe",
+      "section": "Components",
+      "source": "src/Adobe/index.mdx",
+      "title": "Adobe"
+    },
+    {
+      "category": "Application",
+      "description": "https://firefly.adobe.com",
+      "legacyRouteId": "components/AdobeFirefly/index",
+      "pathname": "/components/adobe-firefly",
+      "section": "Components",
+      "source": "src/AdobeFirefly/index.mdx",
+      "title": "Firefly (Adobe)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://agentvoice.com",
+      "legacyRouteId": "components/AgentVoice/index",
+      "pathname": "/components/agent-voice",
+      "section": "Components",
+      "source": "src/AgentVoice/index.mdx",
+      "title": "AgentVoice"
+    },
+    {
+      "category": "Application",
+      "description": "https://agnes-ai.com",
+      "legacyRouteId": "components/AgnesAI/index",
+      "pathname": "/components/agnes-ai",
+      "section": "Components",
+      "source": "src/AgnesAI/index.mdx",
+      "title": "Agnes AI"
+    },
+    {
+      "category": "Application",
+      "description": "https://ag-ui.com",
+      "legacyRouteId": "components/Agui/index",
+      "pathname": "/components/agui",
+      "section": "Components",
+      "source": "src/Agui/index.mdx",
+      "title": "AG-UI"
+    },
+    {
+      "category": "Model",
+      "description": "https://allenai.org/",
+      "legacyRouteId": "components/Ai2/index",
+      "pathname": "/components/ai2",
+      "section": "Components",
+      "source": "src/Ai2/index.mdx",
+      "title": "Ai2"
+    },
+    {
+      "category": "Model",
+      "description": "https://huggingface.co/ai21labs",
+      "legacyRouteId": "components/Ai21/index",
+      "pathname": "/components/ai21",
+      "section": "Components",
+      "source": "src/Ai21/index.mdx",
+      "title": "Ai21Labs (Jamba)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://302.ai/",
+      "legacyRouteId": "components/Ai302/index",
+      "pathname": "/components/ai302",
+      "section": "Components",
+      "source": "src/Ai302/index.mdx",
+      "title": "302.AI"
+    },
+    {
+      "category": "Provider",
+      "description": "https://ai.360.com/",
+      "legacyRouteId": "components/Ai360/index",
+      "pathname": "/components/ai360",
+      "section": "Components",
+      "source": "src/Ai360/index.mdx",
+      "title": "Ai360 (360智脑)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://aihubmix.com",
+      "legacyRouteId": "components/AiHubMix/index",
+      "pathname": "/components/ai-hub-mix",
+      "section": "Components",
+      "source": "src/AiHubMix/index.mdx",
+      "title": "AiHubMix (推理时代)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://ai-maas.wair.ac.cn",
+      "legacyRouteId": "components/AiMass/index",
+      "pathname": "/components/ai-mass",
+      "section": "Components",
+      "source": "src/AiMass/index.mdx",
+      "title": "AiMass (紫东太初)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://aistudio.google.com",
+      "legacyRouteId": "components/AiStudio/index",
+      "pathname": "/components/ai-studio",
+      "section": "Components",
+      "source": "src/AiStudio/index.mdx",
+      "title": "AI Studio (Google)"
+    },
+    {
+      "category": "Model",
+      "description": "https://aionlabs.ai",
+      "legacyRouteId": "components/AionLabs/index",
+      "pathname": "/components/aion-labs",
+      "section": "Components",
+      "source": "src/AionLabs/index.mdx",
+      "title": "AionLabs"
+    },
+    {
+      "category": "Application",
+      "description": "https://airjelly.ai",
+      "legacyRouteId": "components/AirJelly/index",
+      "pathname": "/components/air-jelly",
+      "section": "Components",
+      "source": "src/AirJelly/index.mdx",
+      "title": "AirJelly"
+    },
+    {
+      "category": "Provider",
+      "description": "https://chatapi.akash.network",
+      "legacyRouteId": "components/AkashChat/index",
+      "pathname": "/components/akash-chat",
+      "section": "Components",
+      "source": "src/AkashChat/index.mdx",
+      "title": "AkashChat"
+    },
+    {
+      "category": "Provider",
+      "description": "https://aleph-alpha.com",
+      "legacyRouteId": "components/AlephAlpha/index",
+      "pathname": "/components/aleph-alpha",
+      "section": "Components",
+      "source": "src/AlephAlpha/index.mdx",
+      "title": "AlephAlpha"
+    },
+    {
+      "category": "Provider",
+      "description": "https://alibaba.com",
+      "legacyRouteId": "components/Alibaba/index",
+      "pathname": "/components/alibaba",
+      "section": "Components",
+      "source": "src/Alibaba/index.mdx",
+      "title": "Alibaba"
+    },
+    {
+      "category": "Provider",
+      "description": "https://aliyun.com",
+      "legacyRouteId": "components/AlibabaCloud/index",
+      "pathname": "/components/alibaba-cloud",
+      "section": "Components",
+      "source": "src/AlibabaCloud/index.mdx",
+      "title": "AlibabaCloud (阿里云)"
+    },
+    {
+      "category": "Application",
+      "description": "https://ampcode.com",
+      "legacyRouteId": "components/Amp/index",
+      "pathname": "/components/amp",
+      "section": "Components",
+      "source": "src/Amp/index.mdx",
+      "title": "Amp"
+    },
+    {
+      "category": "Provider",
+      "description": "https://anspire.ai",
+      "legacyRouteId": "components/Anspire/index",
+      "pathname": "/components/anspire",
+      "section": "Components",
+      "source": "src/Anspire/index.mdx",
+      "title": "Anspire"
+    },
+    {
+      "category": "Provider",
+      "description": "https://antgroup.com",
+      "legacyRouteId": "components/AntGroup/index",
+      "pathname": "/components/ant-group",
+      "section": "Components",
+      "source": "src/AntGroup/index.mdx",
+      "title": "AntGroup"
+    },
+    {
+      "category": "Provider",
+      "description": "https://anthropic.com",
+      "legacyRouteId": "components/Anthropic/index",
+      "pathname": "/components/anthropic",
+      "section": "Components",
+      "source": "src/Anthropic/index.mdx",
+      "title": "Anthropic"
+    },
+    {
+      "category": "Application",
+      "description": "https://antigravity.google",
+      "legacyRouteId": "components/Antigravity/index",
+      "pathname": "/components/antigravity",
+      "section": "Components",
+      "source": "src/Antigravity/index.mdx",
+      "title": "Antigravity (Google)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://anyscale.com",
+      "legacyRouteId": "components/Anyscale/index",
+      "pathname": "/components/anyscale",
+      "section": "Components",
+      "source": "src/Anyscale/index.mdx",
+      "title": "Anyscale"
+    },
+    {
+      "category": "Provider",
+      "description": "https://apertis.ai",
+      "legacyRouteId": "components/Apertis/index",
+      "pathname": "/components/apertis",
+      "section": "Components",
+      "source": "src/Apertis/index.mdx",
+      "title": "Apertis"
+    },
+    {
+      "category": "Provider",
+      "description": "https://apple.com",
+      "legacyRouteId": "components/Apple/index",
+      "pathname": "/components/apple",
+      "section": "Components",
+      "source": "src/Apple/index.mdx",
+      "title": "Apple"
+    },
+    {
+      "category": "Model",
+      "description": "https://arcee.ai/",
+      "legacyRouteId": "components/Arcee/index",
+      "pathname": "/components/arcee",
+      "section": "Components",
+      "source": "src/Arcee/index.mdx",
+      "title": "Arcee"
+    },
+    {
+      "category": "Application",
+      "description": "https://askverdict.ai",
+      "legacyRouteId": "components/AskVerdict/index",
+      "pathname": "/components/ask-verdict",
+      "section": "Components",
+      "source": "src/AskVerdict/index.mdx",
+      "title": "AskVerdict"
+    },
+    {
+      "category": "Model",
+      "description": "https://assemblyai.com",
+      "legacyRouteId": "components/AssemblyAI/index",
+      "pathname": "/components/assembly-ai",
+      "section": "Components",
+      "source": "src/AssemblyAI/index.mdx",
+      "title": "AssemblyAI"
+    },
+    {
+      "category": "Provider",
+      "description": "https://atlascloud.ai",
+      "legacyRouteId": "components/AtlasCloud/index",
+      "pathname": "/components/atlas-cloud",
+      "section": "Components",
+      "source": "src/AtlasCloud/index.mdx",
+      "title": "AtlasCloud"
+    },
+    {
+      "category": "Application",
+      "description": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "legacyRouteId": "components/Automatic/index",
+      "pathname": "/components/automatic",
+      "section": "Components",
+      "source": "src/Automatic/index.mdx",
+      "title": "Automatic1111 (SD Webui)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://aws.amazon.com",
+      "legacyRouteId": "components/Aws/index",
+      "pathname": "/components/aws",
+      "section": "Components",
+      "source": "src/Aws/index.mdx",
+      "title": "AWS"
+    },
+    {
+      "category": "Model",
+      "description": "https://cohere.com/research/aya",
+      "legacyRouteId": "components/Aya/index",
+      "pathname": "/components/aya",
+      "section": "Components",
+      "source": "src/Aya/index.mdx",
+      "title": "Aya (Cohere)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://azure.microsoft.com",
+      "legacyRouteId": "components/Azure/index",
+      "pathname": "/components/azure",
+      "section": "Components",
+      "source": "src/Azure/index.mdx",
+      "title": "Microsoft Azure"
+    },
+    {
+      "category": "Provider",
+      "description": "https://ai.azure.com",
+      "legacyRouteId": "components/AzureAI/index",
+      "pathname": "/components/azure-ai",
+      "section": "Components",
+      "source": "src/AzureAI/index.mdx",
+      "title": "AzureAI"
+    },
+    {
+      "category": "Model",
+      "description": "https://baai.ac.cn",
+      "legacyRouteId": "components/BAAI/index",
+      "pathname": "/components/baai",
+      "section": "Components",
+      "source": "src/BAAI/index.mdx",
+      "title": "BAAI (智源研究院)"
+    },
+    {
+      "category": "Model",
+      "description": "https://baichuan-ai.com",
+      "legacyRouteId": "components/Baichuan/index",
+      "pathname": "/components/baichuan",
+      "section": "Components",
+      "source": "src/Baichuan/index.mdx",
+      "title": "Baichuan (百川)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://baidu.com",
+      "legacyRouteId": "components/Baidu/index",
+      "pathname": "/components/baidu",
+      "section": "Components",
+      "source": "src/Baidu/index.mdx",
+      "title": "Baidu"
+    },
+    {
+      "category": "Provider",
+      "description": "https://cloud.baidu.com",
+      "legacyRouteId": "components/BaiduCloud/index",
+      "pathname": "/components/baidu-cloud",
+      "section": "Components",
+      "source": "src/BaiduCloud/index.mdx",
+      "title": "BaiduCloud (百度智能云)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://bailian.console.aliyun.com",
+      "legacyRouteId": "components/Bailian/index",
+      "pathname": "/components/bailian",
+      "section": "Components",
+      "source": "src/Bailian/index.mdx",
+      "title": "Bailian (阿里云百炼)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://baseten.co",
+      "legacyRouteId": "components/Baseten/index",
+      "pathname": "/components/baseten",
+      "section": "Components",
+      "source": "src/Baseten/index.mdx",
+      "title": "Baseten"
+    },
+    {
+      "category": "Provider",
+      "description": "https://aws.amazon.com/bedrock",
+      "legacyRouteId": "components/Bedrock/index",
+      "pathname": "/components/bedrock",
+      "section": "Components",
+      "source": "src/Bedrock/index.mdx",
+      "title": "Bedrock (AWS)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://bfl.ai",
+      "legacyRouteId": "components/Bfl/index",
+      "pathname": "/components/bfl",
+      "section": "Components",
+      "source": "src/Bfl/index.mdx",
+      "title": "Black Forest Labs (bfl)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://github.com/bilibili",
+      "legacyRouteId": "components/Bilibili/index",
+      "pathname": "/components/bilibili",
+      "section": "Components",
+      "source": "src/Bilibili/index.mdx",
+      "title": "Bilibili (哔哩哔哩)"
+    },
+    {
+      "category": "Model",
+      "description": "https://huggingface.co/IndexTeam",
+      "legacyRouteId": "components/BilibiliIndex/index",
+      "pathname": "/components/bilibili-index",
+      "section": "Components",
+      "source": "src/BilibiliIndex/index.mdx",
+      "title": "Bilibili Index (Index Team)"
+    },
+    {
+      "category": "Application",
+      "description": "https://bing.com",
+      "legacyRouteId": "components/Bing/index",
+      "pathname": "/components/bing",
+      "section": "Components",
+      "source": "src/Bing/index.mdx",
+      "title": "Microsoft Bing"
+    },
+    {
+      "category": "Provider",
+      "description": "https://open.bochaai.com",
+      "legacyRouteId": "components/Bocha/index",
+      "pathname": "/components/bocha",
+      "section": "Components",
+      "source": "src/Bocha/index.mdx",
+      "title": "Bocha (博查)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://brave.com",
+      "legacyRouteId": "components/Brave/index",
+      "pathname": "/components/brave",
+      "section": "Components",
+      "source": "src/Brave/index.mdx",
+      "title": "Brave"
+    },
+    {
+      "category": "Provider",
+      "description": "https://bria.ai",
+      "legacyRouteId": "components/BriaAI/index",
+      "pathname": "/components/bria-ai",
+      "section": "Components",
+      "source": "src/BriaAI/index.mdx",
+      "title": "BRIA AI"
+    },
+    {
+      "category": "Provider",
+      "description": "https://browserless.js.org",
+      "legacyRouteId": "components/Browserless/index",
+      "pathname": "/components/browserless",
+      "section": "Components",
+      "source": "src/Browserless/index.mdx",
+      "title": "Browserless"
+    },
+    {
+      "category": "Provider",
+      "description": "https://ai.burncloud.com",
+      "legacyRouteId": "components/BurnCloud/index",
+      "pathname": "/components/burn-cloud",
+      "section": "Components",
+      "source": "src/BurnCloud/index.mdx",
+      "title": "BurnCloud"
+    },
+    {
+      "category": "Provider",
+      "description": "https://bytedance.com",
+      "legacyRouteId": "components/ByteDance/index",
+      "pathname": "/components/byte-dance",
+      "section": "Components",
+      "source": "src/ByteDance/index.mdx",
+      "title": "ByteDance"
+    },
+    {
+      "category": "Application",
+      "description": "https://capcut.com",
+      "legacyRouteId": "components/CapCut/index",
+      "pathname": "/components/cap-cut",
+      "section": "Components",
+      "source": "src/CapCut/index.mdx",
+      "title": "CapCut"
+    },
+    {
+      "category": "Application",
+      "description": "https://celesto.ai",
+      "legacyRouteId": "components/CelestoAI/index",
+      "pathname": "/components/celesto-ai",
+      "section": "Components",
+      "source": "src/CelestoAI/index.mdx",
+      "title": "CelestoAI"
+    },
+    {
+      "category": "Provider",
+      "description": "https://centml.ai",
+      "legacyRouteId": "components/CentML/index",
+      "pathname": "/components/cent-ml",
+      "section": "Components",
+      "source": "src/CentML/index.mdx",
+      "title": "CentML"
+    },
+    {
+      "category": "Provider",
+      "description": "https://cerebras.ai",
+      "legacyRouteId": "components/Cerebras/index",
+      "pathname": "/components/cerebras",
+      "section": "Components",
+      "source": "src/Cerebras/index.mdx",
+      "title": "Cerebras"
+    },
+    {
+      "category": "Model",
+      "description": "https://github.com/THUDM/ChatGLM-6B",
+      "legacyRouteId": "components/ChatGLM/index",
+      "pathname": "/components/chat-glm",
+      "section": "Components",
+      "source": "src/ChatGLM/index.mdx",
+      "title": "ChatGLM (智谱)"
+    },
+    {
+      "category": "Application",
+      "description": "https://cherry-ai.com",
+      "legacyRouteId": "components/CherryStudio/index",
+      "pathname": "/components/cherry-studio",
+      "section": "Components",
+      "source": "src/CherryStudio/index.mdx",
+      "title": "Cherry Studio"
+    },
+    {
+      "category": "Provider",
+      "description": "https://civitai.com",
+      "legacyRouteId": "components/Civitai/index",
+      "pathname": "/components/civitai",
+      "section": "Components",
+      "source": "src/Civitai/index.mdx",
+      "title": "Civitai"
+    },
+    {
+      "category": "Model",
+      "description": "https://claude.ai",
+      "legacyRouteId": "components/Claude/index",
+      "pathname": "/components/claude",
+      "section": "Components",
+      "source": "src/Claude/index.mdx",
+      "title": "Claude"
+    },
+    {
+      "category": "Application",
+      "description": "https://code.claude.com",
+      "legacyRouteId": "components/ClaudeCode/index",
+      "pathname": "/components/claude-code",
+      "section": "Components",
+      "source": "src/ClaudeCode/index.mdx",
+      "title": "Claude Code"
+    },
+    {
+      "category": "Application",
+      "description": "https://cline.bot",
+      "legacyRouteId": "components/Cline/index",
+      "pathname": "/components/cline",
+      "section": "Components",
+      "source": "src/Cline/index.mdx",
+      "title": "Cline"
+    },
+    {
+      "category": "Application",
+      "description": "https://clipdrop.co",
+      "legacyRouteId": "components/Clipdrop/index",
+      "pathname": "/components/clipdrop",
+      "section": "Components",
+      "source": "src/Clipdrop/index.mdx",
+      "title": "Clipdrop"
+    },
+    {
+      "category": "Provider",
+      "description": "https://cloudflare.com",
+      "legacyRouteId": "components/Cloudflare/index",
+      "pathname": "/components/cloudflare",
+      "section": "Components",
+      "source": "src/Cloudflare/index.mdx",
+      "title": "Cloudflare"
+    },
+    {
+      "category": "Application",
+      "description": "https://codebuddy.ai",
+      "legacyRouteId": "components/CodeBuddy/index",
+      "pathname": "/components/code-buddy",
+      "section": "Components",
+      "source": "src/CodeBuddy/index.mdx",
+      "title": "CodeBuddy"
+    },
+    {
+      "category": "Application",
+      "description": "https://codeflicker.ai",
+      "legacyRouteId": "components/CodeFlicker/index",
+      "pathname": "/components/code-flicker",
+      "section": "Components",
+      "source": "src/CodeFlicker/index.mdx",
+      "title": "CodeFlicker"
+    },
+    {
+      "category": "Model",
+      "description": "https://codegeex.cn/",
+      "legacyRouteId": "components/CodeGeeX/index",
+      "pathname": "/components/code-gee-x",
+      "section": "Components",
+      "source": "src/CodeGeeX/index.mdx",
+      "title": "CodeGeeX"
+    },
+    {
+      "category": "Model",
+      "description": "https://openai.com/codex",
+      "legacyRouteId": "components/Codex/index",
+      "pathname": "/components/codex",
+      "section": "Components",
+      "source": "src/Codex/index.mdx",
+      "title": "Codex (OpenAI)"
+    },
+    {
+      "category": "Model",
+      "description": "https://github.com/THUDM/CogVideo",
+      "legacyRouteId": "components/CogVideo/index",
+      "pathname": "/components/cog-video",
+      "section": "Components",
+      "source": "src/CogVideo/index.mdx",
+      "title": "CogVideo"
+    },
+    {
+      "category": "Model",
+      "description": "https://github.com/THUDM/CogView3",
+      "legacyRouteId": "components/CogView/index",
+      "pathname": "/components/cog-view",
+      "section": "Components",
+      "source": "src/CogView/index.mdx",
+      "title": "CogView"
+    },
+    {
+      "category": "Provider",
+      "description": "https://cohere.com",
+      "legacyRouteId": "components/Cohere/index",
+      "pathname": "/components/cohere",
+      "section": "Components",
+      "source": "src/Cohere/index.mdx",
+      "title": "Cohere"
+    },
+    {
+      "category": "Application",
+      "description": "https://colab.research.google.com/",
+      "legacyRouteId": "components/Colab/index",
+      "pathname": "/components/colab",
+      "section": "Components",
+      "source": "src/Colab/index.mdx",
+      "title": "Colab (Google)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://cometapi.com/",
+      "legacyRouteId": "components/CometAPI/index",
+      "pathname": "/components/comet-api",
+      "section": "Components",
+      "source": "src/CometAPI/index.mdx",
+      "title": "Comet API"
+    },
+    {
+      "category": "Application",
+      "description": "https://comfy.org",
+      "legacyRouteId": "components/ComfyUI/index",
+      "pathname": "/components/comfy-ui",
+      "section": "Components",
+      "source": "src/ComfyUI/index.mdx",
+      "title": "ComfyUI"
+    },
+    {
+      "category": "Model",
+      "description": "https://cohere.com/blog/command",
+      "legacyRouteId": "components/CommandA/index",
+      "pathname": "/components/command-a",
+      "section": "Components",
+      "source": "src/CommandA/index.mdx",
+      "title": "CommandA (Cohere)"
+    },
+    {
+      "category": "Application",
+      "description": "https://copilot.microsoft.com",
+      "legacyRouteId": "components/Copilot/index",
+      "pathname": "/components/copilot",
+      "section": "Components",
+      "source": "src/Copilot/index.mdx",
+      "title": "Microsoft Copilot"
+    },
+    {
+      "category": "Application",
+      "description": "https://copilotkit.ai",
+      "legacyRouteId": "components/CopilotKit/index",
+      "pathname": "/components/copilot-kit",
+      "section": "Components",
+      "source": "src/CopilotKit/index.mdx",
+      "title": "CopilotKit"
+    },
+    {
+      "category": "Application",
+      "description": "https://github.com/coqui-ai/TTS",
+      "legacyRouteId": "components/Coqui/index",
+      "pathname": "/components/coqui",
+      "section": "Components",
+      "source": "src/Coqui/index.mdx",
+      "title": "Coqui"
+    },
+    {
+      "category": "Application",
+      "description": "https://coze.com",
+      "legacyRouteId": "components/Coze/index",
+      "pathname": "/components/coze",
+      "section": "Components",
+      "source": "src/Coze/index.mdx",
+      "title": "Coze"
+    },
+    {
+      "category": "Application",
+      "description": "https://crewai.com",
+      "legacyRouteId": "components/CrewAI/index",
+      "pathname": "/components/crew-ai",
+      "section": "Components",
+      "source": "src/CrewAI/index.mdx",
+      "title": "CrewAI"
+    },
+    {
+      "category": "Provider",
+      "description": "https://crusoe.ai",
+      "legacyRouteId": "components/Crusoe/index",
+      "pathname": "/components/crusoe",
+      "section": "Components",
+      "source": "src/Crusoe/index.mdx",
+      "title": "Crusoe"
+    },
+    {
+      "category": "Application",
+      "description": "https://cursor.com",
+      "legacyRouteId": "components/Cursor/index",
+      "pathname": "/components/cursor",
+      "section": "Components",
+      "source": "src/Cursor/index.mdx",
+      "title": "Cursor"
+    },
+    {
+      "category": "Application",
+      "description": "https://cybercut.ai",
+      "legacyRouteId": "components/CyberCut/index",
+      "pathname": "/components/cyber-cut",
+      "section": "Components",
+      "source": "src/CyberCut/index.mdx",
+      "title": "CyberCut"
+    },
+    {
+      "category": "Model",
+      "description": "https://openai.com/dall-e-3",
+      "legacyRouteId": "components/Dalle/index",
+      "pathname": "/components/dalle",
+      "section": "Components",
+      "source": "src/Dalle/index.mdx",
+      "title": "DALL·E (OpenAI)"
+    },
+    {
+      "category": "Model",
+      "description": "https://databricks.com",
+      "legacyRouteId": "components/Dbrx/index",
+      "pathname": "/components/dbrx",
+      "section": "Components",
+      "source": "src/Dbrx/index.mdx",
+      "title": "DBRX (Databricks)"
+    },
+    {
+      "category": "Application",
+      "description": "hhttps://deepai.org",
+      "legacyRouteId": "components/DeepAI/index",
+      "pathname": "/components/deep-ai",
+      "section": "Components",
+      "source": "src/DeepAI/index.mdx",
+      "title": "DeepAI"
+    },
+    {
+      "category": "Model",
+      "description": "https://deepcogito.com",
+      "legacyRouteId": "components/DeepCogito/index",
+      "pathname": "/components/deep-cogito",
+      "section": "Components",
+      "source": "src/DeepCogito/index.mdx",
+      "title": "Deep Cogito"
+    },
+    {
+      "category": "Provider",
+      "description": "https://deepinfra.com",
+      "legacyRouteId": "components/DeepInfra/index",
+      "pathname": "/components/deep-infra",
+      "section": "Components",
+      "source": "src/DeepInfra/index.mdx",
+      "title": "DeepInfra"
+    },
+    {
+      "category": "Application",
+      "description": "https://deepl.com",
+      "legacyRouteId": "components/DeepL/index",
+      "pathname": "/components/deep-l",
+      "section": "Components",
+      "source": "src/DeepL/index.mdx",
+      "title": "DeepL"
+    },
+    {
+      "category": "Provider",
+      "description": "https://deepmind.google",
+      "legacyRouteId": "components/DeepMind/index",
+      "pathname": "/components/deep-mind",
+      "section": "Components",
+      "source": "src/DeepMind/index.mdx",
+      "title": "DeepMind (Google)"
+    },
+    {
+      "category": "Model",
+      "description": "https://deepseek.com",
+      "legacyRouteId": "components/DeepSeek/index",
+      "pathname": "/components/deep-seek",
+      "section": "Components",
+      "source": "src/DeepSeek/index.mdx",
+      "title": "DeepSeek"
+    },
+    {
+      "category": "Application",
+      "description": "https://devin.ai",
+      "legacyRouteId": "components/Devin/index",
+      "pathname": "/components/devin",
+      "section": "Components",
+      "source": "src/Devin/index.mdx",
+      "title": "Devin"
+    },
+    {
+      "category": "Application",
+      "description": "https://dify.ai",
+      "legacyRouteId": "components/Dify/index",
+      "pathname": "/components/dify",
+      "section": "Components",
+      "source": "src/Dify/index.mdx",
+      "title": "Dify"
+    },
+    {
+      "category": "Application",
+      "description": "https://doc2x.noedgeai.com",
+      "legacyRouteId": "components/Doc2X/index",
+      "pathname": "/components/doc2-x",
+      "section": "Components",
+      "source": "src/Doc2X/index.mdx",
+      "title": "Doc2X"
+    },
+    {
+      "category": "Application",
+      "description": "https://docsearch.algolia.com",
+      "legacyRouteId": "components/DocSearch/index",
+      "pathname": "/components/doc-search",
+      "section": "Components",
+      "source": "src/DocSearch/index.mdx",
+      "title": "DocSearch"
+    },
+    {
+      "category": "Model",
+      "description": "https://dphn.ai",
+      "legacyRouteId": "components/Dolphin/index",
+      "pathname": "/components/dolphin",
+      "section": "Components",
+      "source": "src/Dolphin/index.mdx",
+      "title": "Dolphin (dphnAI)"
+    },
+    {
+      "category": "Model",
+      "description": "https://team.doubao.com",
+      "legacyRouteId": "components/Doubao/index",
+      "pathname": "/components/doubao",
+      "section": "Components",
+      "source": "src/Doubao/index.mdx",
+      "title": "Doubao (豆包)"
+    },
+    {
+      "category": "Application",
+      "description": "https://lumalabs.ai/dream-machine",
+      "legacyRouteId": "components/DreamMachine/index",
+      "pathname": "/components/dream-machine",
+      "section": "Components",
+      "source": "src/DreamMachine/index.mdx",
+      "title": "DreamMachine (Luma)"
+    },
+    {
+      "category": "Model",
+      "description": "https://elevenlabs.io",
+      "legacyRouteId": "components/ElevenLabs/index",
+      "pathname": "/components/eleven-labs",
+      "section": "Components",
+      "source": "src/ElevenLabs/index.mdx",
+      "title": "ElevenLabs"
+    },
+    {
+      "category": "Application",
+      "description": "https://11x.ai",
+      "legacyRouteId": "components/ElevenX/index",
+      "pathname": "/components/eleven-x",
+      "section": "Components",
+      "source": "src/ElevenX/index.mdx",
+      "title": "11x"
+    },
+    {
+      "category": "Model",
+      "description": "https://essential.ai",
+      "legacyRouteId": "components/EssentialAI/index",
+      "pathname": "/components/essential-ai",
+      "section": "Components",
+      "source": "src/EssentialAI/index.mdx",
+      "title": "Essential AI"
+    },
+    {
+      "category": "Provider",
+      "description": "https://exa.ai",
+      "legacyRouteId": "components/Exa/index",
+      "pathname": "/components/exa",
+      "section": "Components",
+      "source": "src/Exa/index.mdx",
+      "title": "Exa"
+    },
+    {
+      "category": "Provider",
+      "description": "https://fal.ai",
+      "legacyRouteId": "components/Fal/index",
+      "pathname": "/components/fal",
+      "section": "Components",
+      "source": "src/Fal/index.mdx",
+      "title": "Fal"
+    },
+    {
+      "category": "Application",
+      "description": "https://tryfastgpt.ai",
+      "legacyRouteId": "components/FastGPT/index",
+      "pathname": "/components/fast-gpt",
+      "section": "Components",
+      "source": "src/FastGPT/index.mdx",
+      "title": "FastGPT"
+    },
+    {
+      "category": "Provider",
+      "description": "https://featherless.ai",
+      "legacyRouteId": "components/Featherless/index",
+      "pathname": "/components/featherless",
+      "section": "Components",
+      "source": "src/Featherless/index.mdx",
+      "title": "Featherless.ai"
+    },
+    {
+      "category": "Application",
+      "description": "https://figma.com",
+      "legacyRouteId": "components/Figma/index",
+      "pathname": "/components/figma",
+      "section": "Components",
+      "source": "src/Figma/index.mdx",
+      "title": "Figma"
+    },
+    {
+      "category": "Application",
+      "description": "https://firecrawl.dev",
+      "legacyRouteId": "components/Firecrawl/index",
+      "pathname": "/components/firecrawl",
+      "section": "Components",
+      "source": "src/Firecrawl/index.mdx",
+      "title": "Firecrawl"
+    },
+    {
+      "category": "Provider",
+      "description": "https://fireworks.ai",
+      "legacyRouteId": "components/Fireworks/index",
+      "pathname": "/components/fireworks",
+      "section": "Components",
+      "source": "src/Fireworks/index.mdx",
+      "title": "Fireworks"
+    },
+    {
+      "category": "Model",
+      "description": "https://github.com/fishaudio",
+      "legacyRouteId": "components/FishAudio/index",
+      "pathname": "/components/fish-audio",
+      "section": "Components",
+      "source": "src/FishAudio/index.mdx",
+      "title": "FishAudio (Bert)"
+    },
+    {
+      "category": "Application",
+      "description": "https://florafauna.ai",
+      "legacyRouteId": "components/Flora/index",
+      "pathname": "/components/flora",
+      "section": "Components",
+      "source": "src/Flora/index.mdx",
+      "title": "Flora"
+    },
+    {
+      "category": "Application",
+      "description": "https://flowith.io",
+      "legacyRouteId": "components/Flowith/index",
+      "pathname": "/components/flowith",
+      "section": "Components",
+      "source": "src/Flowith/index.mdx",
+      "title": "Flowith"
+    },
+    {
+      "category": "Model",
+      "description": "https://blackforestlabs.ai",
+      "legacyRouteId": "components/Flux/index",
+      "pathname": "/components/flux",
+      "section": "Components",
+      "source": "src/Flux/index.mdx",
+      "title": "Flux (black forest labs)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://friendli.ai",
+      "legacyRouteId": "components/Friendli/index",
+      "pathname": "/components/friendli",
+      "section": "Components",
+      "source": "src/Friendli/index.mdx",
+      "title": "Friendli"
+    },
+    {
+      "category": "Model",
+      "description": "https://huggingface.co/zai-org/GLM-4.1V-9B-Thinking",
+      "legacyRouteId": "components/GLMV/index",
+      "pathname": "/components/glmv",
+      "section": "Components",
+      "source": "src/GLMV/index.mdx",
+      "title": "GLM-V"
+    },
+    {
+      "category": "Model",
+      "description": "https://deepmind.google/technologies/gemini",
+      "legacyRouteId": "components/Gemini/index",
+      "pathname": "/components/gemini",
+      "section": "Components",
+      "source": "src/Gemini/index.mdx",
+      "title": "Gemini (Google)"
+    },
+    {
+      "category": "Application",
+      "description": "https://geminicli.com",
+      "legacyRouteId": "components/GeminiCLI/index",
+      "pathname": "/components/gemini-cli",
+      "section": "Components",
+      "source": "src/GeminiCLI/index.mdx",
+      "title": "Gemini CLI"
+    },
+    {
+      "category": "Model",
+      "description": "https://ai.google.dev/gemma",
+      "legacyRouteId": "components/Gemma/index",
+      "pathname": "/components/gemma",
+      "section": "Components",
+      "source": "src/Gemma/index.mdx",
+      "title": "Gemma (Google)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://ai-assets.gitee.com/",
+      "legacyRouteId": "components/GiteeAI/index",
+      "pathname": "/components/gitee-ai",
+      "section": "Components",
+      "source": "src/GiteeAI/index.mdx",
+      "title": "GiteeAI"
+    },
+    {
+      "category": "Provider",
+      "description": "https://github.com",
+      "legacyRouteId": "components/Github/index",
+      "pathname": "/components/github",
+      "section": "Components",
+      "source": "src/Github/index.mdx",
+      "title": "Github"
+    },
+    {
+      "category": "Application",
+      "description": "https://github.com/features/copilot",
+      "legacyRouteId": "components/GithubCopilot/index",
+      "pathname": "/components/github-copilot",
+      "section": "Components",
+      "source": "src/GithubCopilot/index.mdx",
+      "title": "Github Copilot"
+    },
+    {
+      "category": "Application",
+      "description": "https://glama.ai",
+      "legacyRouteId": "components/Glama/index",
+      "pathname": "/components/glama",
+      "section": "Components",
+      "source": "src/Glama/index.mdx",
+      "title": "Glama"
+    },
+    {
+      "category": "Application",
+      "description": "https://glif.app",
+      "legacyRouteId": "components/Glif/index",
+      "pathname": "/components/glif",
+      "section": "Components",
+      "source": "src/Glif/index.mdx",
+      "title": "Glif"
+    },
+    {
+      "category": "Provider",
+      "description": "https://google.com",
+      "legacyRouteId": "components/Google/index",
+      "pathname": "/components/google",
+      "section": "Components",
+      "source": "src/Google/index.mdx",
+      "title": "Google"
+    },
+    {
+      "category": "Provider",
+      "description": "https://cloud.google.com",
+      "legacyRouteId": "components/GoogleCloud/index",
+      "pathname": "/components/google-cloud",
+      "section": "Components",
+      "source": "src/GoogleCloud/index.mdx",
+      "title": "GoogleCloud"
+    },
+    {
+      "category": "Application",
+      "description": "https://block.github.io/goose",
+      "legacyRouteId": "components/Goose/index",
+      "pathname": "/components/goose",
+      "section": "Components",
+      "source": "src/Goose/index.mdx",
+      "title": "Goose (codename)"
+    },
+    {
+      "category": "Application",
+      "description": "https://gradio.app",
+      "legacyRouteId": "components/Gradio/index",
+      "pathname": "/components/gradio",
+      "section": "Components",
+      "source": "src/Gradio/index.mdx",
+      "title": "Gradio"
+    },
+    {
+      "category": "Application",
+      "description": "https://greptile.com",
+      "legacyRouteId": "components/Greptile/index",
+      "pathname": "/components/greptile",
+      "section": "Components",
+      "source": "src/Greptile/index.mdx",
+      "title": "Greptile"
+    },
+    {
+      "category": "Model",
+      "description": "https://grok.x.ai",
+      "legacyRouteId": "components/Grok/index",
+      "pathname": "/components/grok",
+      "section": "Components",
+      "source": "src/Grok/index.mdx",
+      "title": "Grok (xAI)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://wow.groq.com",
+      "legacyRouteId": "components/Groq/index",
+      "pathname": "/components/groq",
+      "section": "Components",
+      "source": "src/Groq/index.mdx",
+      "title": "Groq"
+    },
+    {
+      "category": "Application",
+      "description": "https://hailuoai.video",
+      "legacyRouteId": "components/Hailuo/index",
+      "pathname": "/components/hailuo",
+      "section": "Components",
+      "source": "src/Hailuo/index.mdx",
+      "title": "Hailuo (海螺)"
+    },
+    {
+      "category": "Application",
+      "description": "https://haiper.ai",
+      "legacyRouteId": "components/Haiper/index",
+      "pathname": "/components/haiper",
+      "section": "Components",
+      "source": "src/Haiper/index.mdx",
+      "title": "Haiper"
+    },
+    {
+      "category": "Model",
+      "description": "https://happyhorse.com",
+      "legacyRouteId": "components/HappyHorse/index",
+      "pathname": "/components/happy-horse",
+      "section": "Components",
+      "source": "src/HappyHorse/index.mdx",
+      "title": "HappyHorse"
+    },
+    {
+      "category": "Application",
+      "description": "https://hedra.com",
+      "legacyRouteId": "components/Hedra/index",
+      "pathname": "/components/hedra",
+      "section": "Components",
+      "source": "src/Hedra/index.mdx",
+      "title": "Hedra"
+    },
+    {
+      "category": "Application",
+      "description": "https://hermes-agent.nousresearch.com",
+      "legacyRouteId": "components/HermesAgent/index",
+      "pathname": "/components/hermes-agent",
+      "section": "Components",
+      "source": "src/HermesAgent/index.mdx",
+      "title": "Hermes Agent"
+    },
+    {
+      "category": "Provider",
+      "description": "https://higress.cn/",
+      "legacyRouteId": "components/Higress/index",
+      "pathname": "/components/higress",
+      "section": "Components",
+      "source": "src/Higress/index.mdx",
+      "title": "Higress"
+    },
+    {
+      "category": "Provider",
+      "description": "https://huawei.com",
+      "legacyRouteId": "components/Huawei/index",
+      "pathname": "/components/huawei",
+      "section": "Components",
+      "source": "src/Huawei/index.mdx",
+      "title": "Huawei"
+    },
+    {
+      "category": "Provider",
+      "description": "https://huaweicloud.com",
+      "legacyRouteId": "components/HuaweiCloud/index",
+      "pathname": "/components/huawei-cloud",
+      "section": "Components",
+      "source": "src/HuaweiCloud/index.mdx",
+      "title": "HuaweiCloud (华为云)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://huggingface.co",
+      "legacyRouteId": "components/HuggingFace/index",
+      "pathname": "/components/hugging-face",
+      "section": "Components",
+      "source": "src/HuggingFace/index.mdx",
+      "title": "HuggingFace"
+    },
+    {
+      "category": "Model",
+      "description": "https://hunyuan.tencent.com",
+      "legacyRouteId": "components/Hunyuan/index",
+      "pathname": "/components/hunyuan",
+      "section": "Components",
+      "source": "src/Hunyuan/index.mdx",
+      "title": "Hunyuan (腾讯混元)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://hyperbolic.xyz",
+      "legacyRouteId": "components/Hyperbolic/index",
+      "pathname": "/components/hyperbolic",
+      "section": "Components",
+      "source": "src/Hyperbolic/index.mdx",
+      "title": "Hyperbolic"
+    },
+    {
+      "category": "Provider",
+      "description": "https://huggingface.co/ibm-granite",
+      "legacyRouteId": "components/IBM/index",
+      "pathname": "/components/ibm",
+      "section": "Components",
+      "source": "src/IBM/index.mdx",
+      "title": "IBM (Granite)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://xfyun.cn",
+      "legacyRouteId": "components/IFlyTekCloud/index",
+      "pathname": "/components/i-fly-tek-cloud",
+      "section": "Components",
+      "source": "src/IFlyTekCloud/index.mdx",
+      "title": "IFlyTekCloud (讯飞开放平台)"
+    },
+    {
+      "category": "Application",
+      "description": "https://ideogram.ai",
+      "legacyRouteId": "components/Ideogram/index",
+      "pathname": "/components/ideogram",
+      "section": "Components",
+      "source": "src/Ideogram/index.mdx",
+      "title": "Ideogram"
+    },
+    {
+      "category": "Model",
+      "description": "https://inceptionlabs.ai",
+      "legacyRouteId": "components/Inception/index",
+      "pathname": "/components/inception",
+      "section": "Components",
+      "source": "src/Inception/index.mdx",
+      "title": "Inception Labs"
+    },
+    {
+      "category": "Provider",
+      "description": "https://inference.net",
+      "legacyRouteId": "components/Inference/index",
+      "pathname": "/components/inference",
+      "section": "Components",
+      "source": "src/Inference/index.mdx",
+      "title": "Inference"
+    },
+    {
+      "category": "Provider",
+      "description": "https://infermatic.ai",
+      "legacyRouteId": "components/Infermatic/index",
+      "pathname": "/components/infermatic",
+      "section": "Components",
+      "source": "src/Infermatic/index.mdx",
+      "title": "Infermatic"
+    },
+    {
+      "category": "Provider",
+      "description": "https://cloud.infini-ai.com",
+      "legacyRouteId": "components/Infinigence/index",
+      "pathname": "/components/infinigence",
+      "section": "Components",
+      "source": "src/Infinigence/index.mdx",
+      "title": "Infinigence (无问芯穹)"
+    },
+    {
+      "category": "Model",
+      "description": "https://inflection.ai",
+      "legacyRouteId": "components/Inflection/index",
+      "pathname": "/components/inflection",
+      "section": "Components",
+      "source": "src/Inflection/index.mdx",
+      "title": "Inflection"
+    },
+    {
+      "category": "Provider",
+      "description": "https://internlm.intern-ai.org.cn",
+      "legacyRouteId": "components/InternLM/index",
+      "pathname": "/components/intern-lm",
+      "section": "Components",
+      "source": "src/InternLM/index.mdx",
+      "title": "InternLM"
+    },
+    {
+      "category": "Application",
+      "description": "https://jimeng.jianying.com",
+      "legacyRouteId": "components/Jimeng/index",
+      "pathname": "/components/jimeng",
+      "section": "Components",
+      "source": "src/Jimeng/index.mdx",
+      "title": "Jimeng (即梦)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://jina.ai",
+      "legacyRouteId": "components/Jina/index",
+      "pathname": "/components/jina",
+      "section": "Components",
+      "source": "src/Jina/index.mdx",
+      "title": "Jina AI"
+    },
+    {
+      "category": "Application",
+      "description": "https://jetbrains.com/junie",
+      "legacyRouteId": "components/Junie/index",
+      "pathname": "/components/junie",
+      "section": "Components",
+      "source": "src/Junie/index.mdx",
+      "title": "Junie"
+    },
+    {
+      "category": "Provider",
+      "description": "https://kagi.com",
+      "legacyRouteId": "components/Kagi/index",
+      "pathname": "/components/kagi",
+      "section": "Components",
+      "source": "src/Kagi/index.mdx",
+      "title": "Kagi"
+    },
+    {
+      "category": "Application",
+      "description": "https://kilo.ai",
+      "legacyRouteId": "components/KiloCode/index",
+      "pathname": "/components/kilo-code",
+      "section": "Components",
+      "source": "src/KiloCode/index.mdx",
+      "title": "Kilo Code"
+    },
+    {
+      "category": "Application",
+      "description": "https://kimi.moonshot.cn",
+      "legacyRouteId": "components/Kimi/index",
+      "pathname": "/components/kimi",
+      "section": "Components",
+      "source": "src/Kimi/index.mdx",
+      "title": "Kimi"
+    },
+    {
+      "category": "Application",
+      "description": "https://kiro.dev",
+      "legacyRouteId": "components/Kiro/index",
+      "pathname": "/components/kiro",
+      "section": "Components",
+      "source": "src/Kiro/index.mdx",
+      "title": "Kiro"
+    },
+    {
+      "category": "Application",
+      "description": "https://klingai.com",
+      "legacyRouteId": "components/Kling/index",
+      "pathname": "/components/kling",
+      "section": "Components",
+      "source": "src/Kling/index.mdx",
+      "title": "Kling (可灵)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://kluster.ai",
+      "legacyRouteId": "components/Kluster/index",
+      "pathname": "/components/kluster",
+      "section": "Components",
+      "source": "src/Kluster/index.mdx",
+      "title": "Kluster"
+    },
+    {
+      "category": "Model",
+      "description": "https://kolors.kuaishou.com",
+      "legacyRouteId": "components/Kolors/index",
+      "pathname": "/components/kolors",
+      "section": "Components",
+      "source": "src/Kolors/index.mdx",
+      "title": "Kolors (快手可图)"
+    },
+    {
+      "category": "Application",
+      "description": "https://krea.ai",
+      "legacyRouteId": "components/Krea/index",
+      "pathname": "/components/krea",
+      "section": "Components",
+      "source": "src/Krea/index.mdx",
+      "title": "Krea"
+    },
+    {
+      "category": "Model",
+      "description": "https://streamlake.ai/product/kat-coder",
+      "legacyRouteId": "components/KwaiKAT/index",
+      "pathname": "/components/kwai-kat",
+      "section": "Components",
+      "source": "src/KwaiKAT/index.mdx",
+      "title": "KwaiKAT (KAT-Coder)"
+    },
+    {
+      "category": "Model",
+      "description": "https://kwaipilot.ai",
+      "legacyRouteId": "components/Kwaipilot/index",
+      "pathname": "/components/kwaipilot",
+      "section": "Components",
+      "source": "src/Kwaipilot/index.mdx",
+      "title": "Kwaipilot"
+    },
+    {
+      "category": "Provider",
+      "description": "https://lgresearch.ai",
+      "legacyRouteId": "components/LG/index",
+      "pathname": "/components/lg",
+      "section": "Components",
+      "source": "src/LG/index.mdx",
+      "title": "LG AI (KMMLU/EXAONE)"
+    },
+    {
+      "category": "Model",
+      "description": "https://github.com/haotian-liu/LLaVA",
+      "legacyRouteId": "components/LLaVA/index",
+      "pathname": "/components/l-la-va",
+      "section": "Components",
+      "source": "src/LLaVA/index.mdx",
+      "title": "LLaVA"
+    },
+    {
+      "category": "Provider",
+      "description": "https://lambdalabs.com",
+      "legacyRouteId": "components/Lambda/index",
+      "pathname": "/components/lambda",
+      "section": "Components",
+      "source": "src/Lambda/index.mdx",
+      "title": "Lambda"
+    },
+    {
+      "category": "Application",
+      "description": "https://langchain.com",
+      "legacyRouteId": "components/LangChain/index",
+      "pathname": "/components/lang-chain",
+      "section": "Components",
+      "source": "src/LangChain/index.mdx",
+      "title": "LangChain"
+    },
+    {
+      "category": "Application",
+      "description": "https://langchain.com/LangGraph",
+      "legacyRouteId": "components/LangGraph/index",
+      "pathname": "/components/lang-graph",
+      "section": "Components",
+      "source": "src/LangGraph/index.mdx",
+      "title": "LangGraph (LangChain)"
+    },
+    {
+      "category": "Application",
+      "description": "https://langchain.com/langsmith",
+      "legacyRouteId": "components/LangSmith/index",
+      "pathname": "/components/lang-smith",
+      "section": "Components",
+      "source": "src/LangSmith/index.mdx",
+      "title": "LangSmith (LangChain)"
+    },
+    {
+      "category": "Application",
+      "description": "https://langfuse.com",
+      "legacyRouteId": "components/Langfuse/index",
+      "pathname": "/components/langfuse",
+      "section": "Components",
+      "source": "src/Langfuse/index.mdx",
+      "title": "Langfuse"
+    },
+    {
+      "category": "Provider",
+      "description": "https://lepton.ai",
+      "legacyRouteId": "components/LeptonAI/index",
+      "pathname": "/components/lepton-ai",
+      "section": "Components",
+      "source": "src/LeptonAI/index.mdx",
+      "title": "LeptonAI"
+    },
+    {
+      "category": "Application",
+      "description": "https://lightricks.com",
+      "legacyRouteId": "components/Lightricks/index",
+      "pathname": "/components/lightricks",
+      "section": "Components",
+      "source": "src/Lightricks/index.mdx",
+      "title": "Lightricks"
+    },
+    {
+      "category": "Model",
+      "description": "https://liquid.ai",
+      "legacyRouteId": "components/Liquid/index",
+      "pathname": "/components/liquid",
+      "section": "Components",
+      "source": "src/Liquid/index.mdx",
+      "title": "Liquid"
+    },
+    {
+      "category": "Application",
+      "description": "https://livekit.io",
+      "legacyRouteId": "components/LiveKit/index",
+      "pathname": "/components/live-kit",
+      "section": "Components",
+      "source": "src/LiveKit/index.mdx",
+      "title": "LiveKit"
+    },
+    {
+      "category": "Application",
+      "description": "https://llamaindex.ai",
+      "legacyRouteId": "components/LlamaIndex/index",
+      "pathname": "/components/llama-index",
+      "section": "Components",
+      "source": "src/LlamaIndex/index.mdx",
+      "title": "LlamaIndex"
+    },
+    {
+      "category": "Provider",
+      "description": "https://llmapi.ai",
+      "legacyRouteId": "components/LlmApi/index",
+      "pathname": "/components/llm-api",
+      "section": "Components",
+      "source": "src/LlmApi/index.mdx",
+      "title": "LLM API"
+    },
+    {
+      "category": "Provider",
+      "description": "https://lmstudio.ai",
+      "legacyRouteId": "components/LmStudio/index",
+      "pathname": "/components/lm-studio",
+      "section": "Components",
+      "source": "src/LmStudio/index.mdx",
+      "title": "LM Studio"
+    },
+    {
+      "category": "Provider",
+      "description": "https://lobehub.com",
+      "legacyRouteId": "components/LobeHub/index",
+      "pathname": "/components/lobe-hub",
+      "section": "Components",
+      "source": "src/LobeHub/index.mdx",
+      "title": "LobeHub"
+    },
+    {
+      "category": "Model",
+      "description": "https://longcat.chat/",
+      "legacyRouteId": "components/LongCat/index",
+      "pathname": "/components/long-cat",
+      "section": "Components",
+      "source": "src/LongCat/index.mdx",
+      "title": "LongCat"
+    },
+    {
+      "category": "Application",
+      "description": "https://lovable.dev",
+      "legacyRouteId": "components/Lovable/index",
+      "pathname": "/components/lovable",
+      "section": "Components",
+      "source": "src/Lovable/index.mdx",
+      "title": "Lovable"
+    },
+    {
+      "category": "Application",
+      "description": "https://lovart.ai",
+      "legacyRouteId": "components/Lovart/index",
+      "pathname": "/components/lovart",
+      "section": "Components",
+      "source": "src/Lovart/index.mdx",
+      "title": "Lovart"
+    },
+    {
+      "category": "Application",
+      "description": "https://lumalabs.ai",
+      "legacyRouteId": "components/Luma/index",
+      "pathname": "/components/luma",
+      "section": "Components",
+      "source": "src/Luma/index.mdx",
+      "title": "Luma"
+    },
+    {
+      "category": "Application",
+      "description": "https://modelcontextprotocol.io",
+      "legacyRouteId": "components/MCP/index",
+      "pathname": "/components/mcp",
+      "section": "Components",
+      "source": "src/MCP/index.mdx",
+      "title": "MCP (Model Context Protocol)"
+    },
+    {
+      "category": "Model",
+      "description": "https://magic.dev",
+      "legacyRouteId": "components/Magic/index",
+      "pathname": "/components/magic",
+      "section": "Components",
+      "source": "src/Magic/index.mdx",
+      "title": "Magic"
+    },
+    {
+      "category": "Application",
+      "description": "https://make.com",
+      "legacyRouteId": "components/Make/index",
+      "pathname": "/components/make",
+      "section": "Components",
+      "source": "src/Make/index.mdx",
+      "title": "Make"
+    },
+    {
+      "category": "Application",
+      "description": "https://manus.im",
+      "legacyRouteId": "components/Manus/index",
+      "pathname": "/components/manus",
+      "section": "Components",
+      "source": "src/Manus/index.mdx",
+      "title": "Manus"
+    },
+    {
+      "category": "Application",
+      "description": "https://mastra.ai",
+      "legacyRouteId": "components/Mastra/index",
+      "pathname": "/components/mastra",
+      "section": "Components",
+      "source": "src/Mastra/index.mdx",
+      "title": "Mastra"
+    },
+    {
+      "category": "Application",
+      "description": "https://mcp.so",
+      "legacyRouteId": "components/McpSo/index",
+      "pathname": "/components/mcp-so",
+      "section": "Components",
+      "source": "src/McpSo/index.mdx",
+      "title": "MCP.so"
+    },
+    {
+      "category": "Provider",
+      "description": "https://menlo.ai",
+      "legacyRouteId": "components/Menlo/index",
+      "pathname": "/components/menlo",
+      "section": "Components",
+      "source": "src/Menlo/index.mdx",
+      "title": "MENLO (Lucy/Jan-nano)"
+    },
+    {
+      "category": "Model",
+      "description": "https://meshy.ai",
+      "legacyRouteId": "components/Meshy/index",
+      "pathname": "/components/meshy",
+      "section": "Components",
+      "source": "src/Meshy/index.mdx",
+      "title": "Meshy"
+    },
+    {
+      "category": "Provider",
+      "description": "https://llama.meta.com",
+      "legacyRouteId": "components/Meta/index",
+      "pathname": "/components/meta",
+      "section": "Components",
+      "source": "src/Meta/index.mdx",
+      "title": "Meta"
+    },
+    {
+      "category": "Application",
+      "description": "https://meta.ai",
+      "legacyRouteId": "components/MetaAI/index",
+      "pathname": "/components/meta-ai",
+      "section": "Components",
+      "source": "src/MetaAI/index.mdx",
+      "title": "MetaAI"
+    },
+    {
+      "category": "Application",
+      "description": "https://github.com/FoundationAgents/MetaGPT",
+      "legacyRouteId": "components/MetaGPT/index",
+      "pathname": "/components/meta-gpt",
+      "section": "Components",
+      "source": "src/MetaGPT/index.mdx",
+      "title": "MetaGPT"
+    },
+    {
+      "category": "Provider",
+      "description": "https://microsoft.com",
+      "legacyRouteId": "components/Microsoft/index",
+      "pathname": "/components/microsoft",
+      "section": "Components",
+      "source": "src/Microsoft/index.mdx",
+      "title": "Microsoft"
+    },
+    {
+      "category": "Application",
+      "description": "https://midjourney.com",
+      "legacyRouteId": "components/Midjourney/index",
+      "pathname": "/components/midjourney",
+      "section": "Components",
+      "source": "src/Midjourney/index.mdx",
+      "title": "Midjourney"
+    },
+    {
+      "category": "Model",
+      "description": "https://api.minimax.chat",
+      "legacyRouteId": "components/Minimax/index",
+      "pathname": "/components/minimax",
+      "section": "Components",
+      "source": "src/Minimax/index.mdx",
+      "title": "Minimax"
+    },
+    {
+      "category": "Model",
+      "description": "https://mistral.ai",
+      "legacyRouteId": "components/Mistral/index",
+      "pathname": "/components/mistral",
+      "section": "Components",
+      "source": "src/Mistral/index.mdx",
+      "title": "Mistral"
+    },
+    {
+      "category": "Provider",
+      "description": "https://modelscope.cn",
+      "legacyRouteId": "components/ModelScope/index",
+      "pathname": "/components/model-scope",
+      "section": "Components",
+      "source": "src/ModelScope/index.mdx",
+      "title": "ModelScope (魔搭)"
+    },
+    {
+      "category": "Application",
+      "description": "https://monica.im",
+      "legacyRouteId": "components/Monica/index",
+      "pathname": "/components/monica",
+      "section": "Components",
+      "source": "src/Monica/index.mdx",
+      "title": "Monica"
+    },
+    {
+      "category": "Provider",
+      "description": "https://moonshot.cn",
+      "legacyRouteId": "components/Moonshot/index",
+      "pathname": "/components/moonshot",
+      "section": "Components",
+      "source": "src/Moonshot/index.mdx",
+      "title": "Moonshot (月之暗面)"
+    },
+    {
+      "category": "Model",
+      "description": "https://morphllm.com",
+      "legacyRouteId": "components/Morph/index",
+      "pathname": "/components/morph",
+      "section": "Components",
+      "source": "src/Morph/index.mdx",
+      "title": "Morph"
+    },
+    {
+      "category": "Application",
+      "description": "https://moxt.ai",
+      "legacyRouteId": "components/Moxt/index",
+      "pathname": "/components/moxt",
+      "section": "Components",
+      "source": "src/Moxt/index.mdx",
+      "title": "Moxt"
+    },
+    {
+      "category": "Application",
+      "description": "https://myshell.ai",
+      "legacyRouteId": "components/MyShell/index",
+      "pathname": "/components/my-shell",
+      "section": "Components",
+      "source": "src/MyShell/index.mdx",
+      "title": "MyShell"
+    },
+    {
+      "category": "Application",
+      "description": "https://n8n.io",
+      "legacyRouteId": "components/N8n/index",
+      "pathname": "/components/n8n",
+      "section": "Components",
+      "source": "src/N8n/index.mdx",
+      "title": "n8n"
+    },
+    {
+      "category": "Provider",
+      "description": "https://nlpcloud.com",
+      "legacyRouteId": "components/NPLCloud/index",
+      "pathname": "/components/npl-cloud",
+      "section": "Components",
+      "source": "src/NPLCloud/index.mdx",
+      "title": "NPLCloud"
+    },
+    {
+      "category": "Model",
+      "description": "https://gemini.google/overview/image-generation",
+      "legacyRouteId": "components/NanoBanana/index",
+      "pathname": "/components/nano-banana",
+      "section": "Components",
+      "source": "src/NanoBanana/index.mdx",
+      "title": "Nano Banana (Google)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://nebius.com",
+      "legacyRouteId": "components/Nebius/index",
+      "pathname": "/components/nebius",
+      "section": "Components",
+      "source": "src/Nebius/index.mdx",
+      "title": "Nebius"
+    },
+    {
+      "category": "Provider",
+      "description": "https://newapi.ai",
+      "legacyRouteId": "components/NewAPI/index",
+      "pathname": "/components/new-api",
+      "section": "Components",
+      "source": "src/NewAPI/index.mdx",
+      "title": "New API"
+    },
+    {
+      "category": "Application",
+      "description": "https://notebooklm.google",
+      "legacyRouteId": "components/NotebookLM/index",
+      "pathname": "/components/notebook-lm",
+      "section": "Components",
+      "source": "src/NotebookLM/index.mdx",
+      "title": "NotebookLM"
+    },
+    {
+      "category": "Application",
+      "description": "https://notion.com",
+      "legacyRouteId": "components/Notion/index",
+      "pathname": "/components/notion",
+      "section": "Components",
+      "source": "src/Notion/index.mdx",
+      "title": "Notion"
+    },
+    {
+      "category": "Provider",
+      "description": "https://nousresearch.com",
+      "legacyRouteId": "components/NousResearch/index",
+      "pathname": "/components/nous-research",
+      "section": "Components",
+      "source": "src/NousResearch/index.mdx",
+      "title": "NousResearch (Hermes)"
+    },
+    {
+      "category": "Model",
+      "description": "https://nova.amazon.com/",
+      "legacyRouteId": "components/Nova/index",
+      "pathname": "/components/nova",
+      "section": "Components",
+      "source": "src/Nova/index.mdx",
+      "title": "Nova (AWS)"
+    },
+    {
+      "category": "Application",
+      "description": "https://novelai.net",
+      "legacyRouteId": "components/NovelAI/index",
+      "pathname": "/components/novel-ai",
+      "section": "Components",
+      "source": "src/NovelAI/index.mdx",
+      "title": "NovelAI"
+    },
+    {
+      "category": "Provider",
+      "description": "https://novita.ai/",
+      "legacyRouteId": "components/Novita/index",
+      "pathname": "/components/novita",
+      "section": "Components",
+      "source": "src/Novita/index.mdx",
+      "title": "Novita"
+    },
+    {
+      "category": "Provider",
+      "description": "https://nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/",
+      "legacyRouteId": "components/Nvidia/index",
+      "pathname": "/components/nvidia",
+      "section": "Components",
+      "source": "src/Nvidia/index.mdx",
+      "title": "Nvidia (Nemotron)"
+    },
+    {
+      "category": "Application",
+      "description": "https://obsidian.md",
+      "legacyRouteId": "components/Obsidian/index",
+      "pathname": "/components/obsidian",
+      "section": "Components",
+      "source": "src/Obsidian/index.mdx",
+      "title": "Obsidian"
+    },
+    {
+      "category": "Provider",
+      "description": "https://ollama.ai",
+      "legacyRouteId": "components/Ollama/index",
+      "pathname": "/components/ollama",
+      "section": "Components",
+      "source": "src/Ollama/index.mdx",
+      "title": "Ollama"
+    },
+    {
+      "category": "Provider",
+      "description": "https://openai.com",
+      "legacyRouteId": "components/OpenAI/index",
+      "pathname": "/components/open-ai",
+      "section": "Components",
+      "source": "src/OpenAI/index.mdx",
+      "title": "OpenAI (ChatGPT)"
+    },
+    {
+      "category": "Model",
+      "description": "https://huggingface.co/openchat",
+      "legacyRouteId": "components/OpenChat/index",
+      "pathname": "/components/open-chat",
+      "section": "Components",
+      "source": "src/OpenChat/index.mdx",
+      "title": "OpenChat"
+    },
+    {
+      "category": "Application",
+      "description": "https://openclaw.dev",
+      "legacyRouteId": "components/OpenClaw/index",
+      "pathname": "/components/open-claw",
+      "section": "Components",
+      "source": "src/OpenClaw/index.mdx",
+      "title": "OpenClaw (MoltBot/ClawdBot)"
+    },
+    {
+      "category": "Application",
+      "description": "https://opencode.ai",
+      "legacyRouteId": "components/OpenCode/index",
+      "pathname": "/components/open-code",
+      "section": "Components",
+      "source": "src/OpenCode/index.mdx",
+      "title": "opencode"
+    },
+    {
+      "category": "Application",
+      "description": "https://openhands.dev",
+      "legacyRouteId": "components/OpenHands/index",
+      "pathname": "/components/open-hands",
+      "section": "Components",
+      "source": "src/OpenHands/index.mdx",
+      "title": "OpenHands"
+    },
+    {
+      "category": "Application",
+      "description": "https://tinyhumans.ai/openhuman",
+      "legacyRouteId": "components/OpenHuman/index",
+      "pathname": "/components/open-human",
+      "section": "Components",
+      "source": "src/OpenHuman/index.mdx",
+      "title": "OpenHuman"
+    },
+    {
+      "category": "Provider",
+      "description": "https://openrouter.ai",
+      "legacyRouteId": "components/OpenRouter/index",
+      "pathname": "/components/open-router",
+      "section": "Components",
+      "source": "src/OpenRouter/index.mdx",
+      "title": "OpenRouter"
+    },
+    {
+      "category": "Application",
+      "description": "https://openwebui.com",
+      "legacyRouteId": "components/OpenWebUI/index",
+      "pathname": "/components/open-web-ui",
+      "section": "Components",
+      "source": "src/OpenWebUI/index.mdx",
+      "title": "OpenWebUI"
+    },
+    {
+      "category": "Provider",
+      "description": "https://ppinfra.com",
+      "legacyRouteId": "components/PPIO/index",
+      "pathname": "/components/ppio",
+      "section": "Components",
+      "source": "src/PPIO/index.mdx",
+      "title": "PPIO"
+    },
+    {
+      "category": "Model",
+      "description": "https://ai.google/discover/palm2",
+      "legacyRouteId": "components/PaLM/index",
+      "pathname": "/components/pa-lm",
+      "section": "Components",
+      "source": "src/PaLM/index.mdx",
+      "title": "PaLM (Google)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://parasail.io/",
+      "legacyRouteId": "components/Parasail/index",
+      "pathname": "/components/parasail",
+      "section": "Components",
+      "source": "src/Parasail/index.mdx",
+      "title": "Parasail"
+    },
+    {
+      "category": "Provider",
+      "description": "https://perplexity.ai",
+      "legacyRouteId": "components/Perplexity/index",
+      "pathname": "/components/perplexity",
+      "section": "Components",
+      "source": "src/Perplexity/index.mdx",
+      "title": "Perplexity"
+    },
+    {
+      "category": "Application",
+      "description": "https://phidata.com",
+      "legacyRouteId": "components/Phidata/index",
+      "pathname": "/components/phidata",
+      "section": "Components",
+      "source": "src/Phidata/index.mdx",
+      "title": "Phidata"
+    },
+    {
+      "category": "Model",
+      "description": "https://phind.com",
+      "legacyRouteId": "components/Phind/index",
+      "pathname": "/components/phind",
+      "section": "Components",
+      "source": "src/Phind/index.mdx",
+      "title": "Phind"
+    },
+    {
+      "category": "Provider",
+      "description": "https://pi.dev",
+      "legacyRouteId": "components/Pi/index",
+      "pathname": "/components/pi",
+      "section": "Components",
+      "source": "src/Pi/index.mdx",
+      "title": "Pi Agent"
+    },
+    {
+      "category": "Application",
+      "description": "https://pika.art",
+      "legacyRouteId": "components/Pika/index",
+      "pathname": "/components/pika",
+      "section": "Components",
+      "source": "src/Pika/index.mdx",
+      "title": "Pika"
+    },
+    {
+      "category": "Application",
+      "description": "https://app.pixverse.ai",
+      "legacyRouteId": "components/PixVerse/index",
+      "pathname": "/components/pix-verse",
+      "section": "Components",
+      "source": "src/PixVerse/index.mdx",
+      "title": "PixVerse"
+    },
+    {
+      "category": "Application",
+      "description": "https://player2.game",
+      "legacyRouteId": "components/Player2/index",
+      "pathname": "/components/player2",
+      "section": "Components",
+      "source": "src/Player2/index.mdx",
+      "title": "Player2"
+    },
+    {
+      "category": "Application",
+      "description": "https://poe.com",
+      "legacyRouteId": "components/Poe/index",
+      "pathname": "/components/poe",
+      "section": "Components",
+      "source": "src/Poe/index.mdx",
+      "title": "Poe"
+    },
+    {
+      "category": "Application",
+      "description": "https://pollinations.ai",
+      "legacyRouteId": "components/Pollinations/index",
+      "pathname": "/components/pollinations",
+      "section": "Components",
+      "source": "src/Pollinations/index.mdx",
+      "title": "Pollinations"
+    },
+    {
+      "category": "Model",
+      "description": "https://poolside.ai",
+      "legacyRouteId": "components/Poolside/index",
+      "pathname": "/components/poolside",
+      "section": "Components",
+      "source": "src/Poolside/index.mdx",
+      "title": "Poolside"
+    },
+    {
+      "category": "Model",
+      "description": "https://pruna.ai",
+      "legacyRouteId": "components/PrunaAI/index",
+      "pathname": "/components/pruna-ai",
+      "section": "Components",
+      "source": "src/PrunaAI/index.mdx",
+      "title": "Pruna AI"
+    },
+    {
+      "category": "Application",
+      "description": "https://ai.pydantic.dev",
+      "legacyRouteId": "components/PydanticAI/index",
+      "pathname": "/components/pydantic-ai",
+      "section": "Components",
+      "source": "src/PydanticAI/index.mdx",
+      "title": "PydanticAI"
+    },
+    {
+      "category": "Application",
+      "description": "https://chatglm.cn",
+      "legacyRouteId": "components/Qingyan/index",
+      "pathname": "/components/qingyan",
+      "section": "Components",
+      "source": "src/Qingyan/index.mdx",
+      "title": "Qingyan (智谱清言)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://qiniu.com",
+      "legacyRouteId": "components/Qiniu/index",
+      "pathname": "/components/qiniu",
+      "section": "Components",
+      "source": "src/Qiniu/index.mdx",
+      "title": "Qiniu (七牛云)"
+    },
+    {
+      "category": "Application",
+      "description": "https://qoder.com",
+      "legacyRouteId": "components/Qoder/index",
+      "pathname": "/components/qoder",
+      "section": "Components",
+      "source": "src/Qoder/index.mdx",
+      "title": "Qoder"
+    },
+    {
+      "category": "Model",
+      "description": "https://huggingface.co/Qwen",
+      "legacyRouteId": "components/Qwen/index",
+      "pathname": "/components/qwen",
+      "section": "Components",
+      "source": "src/Qwen/index.mdx",
+      "title": "Qwen (千问)"
+    },
+    {
+      "category": "Application",
+      "description": "https://rsshub.app",
+      "legacyRouteId": "components/RSSHub/index",
+      "pathname": "/components/rss-hub",
+      "section": "Components",
+      "source": "src/RSSHub/index.mdx",
+      "title": "RSSHub"
+    },
+    {
+      "category": "Application",
+      "description": "https://railway.com",
+      "legacyRouteId": "components/Railway/index",
+      "pathname": "/components/railway",
+      "section": "Components",
+      "source": "src/Railway/index.mdx",
+      "title": "Railway"
+    },
+    {
+      "category": "Application",
+      "description": "https://recraft.ai",
+      "legacyRouteId": "components/Recraft/index",
+      "pathname": "/components/recraft",
+      "section": "Components",
+      "source": "src/Recraft/index.mdx",
+      "title": "Recraft"
+    },
+    {
+      "category": "Model",
+      "description": "https://relace.ai",
+      "legacyRouteId": "components/Relace/index",
+      "pathname": "/components/relace",
+      "section": "Components",
+      "source": "src/Relace/index.mdx",
+      "title": "Relace"
+    },
+    {
+      "category": "Provider",
+      "description": "https://replicate.com",
+      "legacyRouteId": "components/Replicate/index",
+      "pathname": "/components/replicate",
+      "section": "Components",
+      "source": "src/Replicate/index.mdx",
+      "title": "Replicate"
+    },
+    {
+      "category": "Application",
+      "description": "https://replit.com",
+      "legacyRouteId": "components/Replit/index",
+      "pathname": "/components/replit",
+      "section": "Components",
+      "source": "src/Replit/index.mdx",
+      "title": "Replit"
+    },
+    {
+      "category": "Model",
+      "description": "https://app.reve.com",
+      "legacyRouteId": "components/Reve/index",
+      "pathname": "/components/reve",
+      "section": "Components",
+      "source": "src/Reve/index.mdx",
+      "title": "Reve"
+    },
+    {
+      "category": "Application",
+      "description": "https://roocode.com",
+      "legacyRouteId": "components/RooCode/index",
+      "pathname": "/components/roo-code",
+      "section": "Components",
+      "source": "src/RooCode/index.mdx",
+      "title": "RooCode"
+    },
+    {
+      "category": "Application",
+      "description": "https://runwayml.com",
+      "legacyRouteId": "components/Runway/index",
+      "pathname": "/components/runway",
+      "section": "Components",
+      "source": "src/Runway/index.mdx",
+      "title": "Runway"
+    },
+    {
+      "category": "Model",
+      "description": "https://github.com/RWKV",
+      "legacyRouteId": "components/Rwkv/index",
+      "pathname": "/components/rwkv",
+      "section": "Components",
+      "source": "src/Rwkv/index.mdx",
+      "title": "RWKV"
+    },
+    {
+      "category": "Provider",
+      "description": "https://sambanova.ai",
+      "legacyRouteId": "components/SambaNova/index",
+      "pathname": "/components/samba-nova",
+      "section": "Components",
+      "source": "src/SambaNova/index.mdx",
+      "title": "SambaNova"
+    },
+    {
+      "category": "Provider",
+      "description": "https://searxng.org",
+      "legacyRouteId": "components/SearXNG/index",
+      "pathname": "/components/sear-xng",
+      "section": "Components",
+      "source": "src/SearXNG/index.mdx",
+      "title": "SearXNG"
+    },
+    {
+      "category": "Provider",
+      "description": "https://search1api.com",
+      "legacyRouteId": "components/Search1API/index",
+      "pathname": "/components/search1-api",
+      "section": "Components",
+      "source": "src/Search1API/index.mdx",
+      "title": "Search1API"
+    },
+    {
+      "category": "Provider",
+      "description": "https://searchapi.io",
+      "legacyRouteId": "components/SearchApi/index",
+      "pathname": "/components/search-api",
+      "section": "Components",
+      "source": "src/SearchApi/index.mdx",
+      "title": "SearchApi"
+    },
+    {
+      "category": "Model",
+      "description": "https://platform.sensenova.cn",
+      "legacyRouteId": "components/SenseNova/index",
+      "pathname": "/components/sense-nova",
+      "section": "Components",
+      "source": "src/SenseNova/index.mdx",
+      "title": "SenseNova (商汤)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://siliconflow.com",
+      "legacyRouteId": "components/SiliconCloud/index",
+      "pathname": "/components/silicon-cloud",
+      "section": "Components",
+      "source": "src/SiliconCloud/index.mdx",
+      "title": "SiliconCloud (SiliconFlow)"
+    },
+    {
+      "category": "Application",
+      "description": "https://github.com/SillyTavern",
+      "legacyRouteId": "components/SillyTavern/index",
+      "pathname": "/components/silly-tavern",
+      "section": "Components",
+      "source": "src/SillyTavern/index.mdx",
+      "title": "SillyTavern"
+    },
+    {
+      "category": "Model",
+      "description": "https://skywork.ai",
+      "legacyRouteId": "components/Skywork/index",
+      "pathname": "/components/skywork",
+      "section": "Components",
+      "source": "src/Skywork/index.mdx",
+      "title": "Skywork (天工)"
+    },
+    {
+      "category": "Application",
+      "description": "https://slock.ai",
+      "legacyRouteId": "components/Slock/index",
+      "pathname": "/components/slock",
+      "section": "Components",
+      "source": "src/Slock/index.mdx",
+      "title": "Slock"
+    },
+    {
+      "category": "Application",
+      "description": "https://smithery.ai",
+      "legacyRouteId": "components/Smithery/index",
+      "pathname": "/components/smithery",
+      "section": "Components",
+      "source": "src/Smithery/index.mdx",
+      "title": "Smithery"
+    },
+    {
+      "category": "Provider",
+      "description": "https://snowflake.com",
+      "legacyRouteId": "components/Snowflake/index",
+      "pathname": "/components/snowflake",
+      "section": "Components",
+      "source": "src/Snowflake/index.mdx",
+      "title": "Snowflake"
+    },
+    {
+      "category": "Provider",
+      "description": "https://sophnet.com",
+      "legacyRouteId": "components/SophNet/index",
+      "pathname": "/components/soph-net",
+      "section": "Components",
+      "source": "src/SophNet/index.mdx",
+      "title": "SophNet"
+    },
+    {
+      "category": "Model",
+      "description": "https://platform.openai.com/docs/models/sora-2",
+      "legacyRouteId": "components/Sora/index",
+      "pathname": "/components/sora",
+      "section": "Components",
+      "source": "src/Sora/index.mdx",
+      "title": "Sora (OpenAI)"
+    },
+    {
+      "category": "Model",
+      "description": "https://xinghuo.xfyun.cn",
+      "legacyRouteId": "components/Spark/index",
+      "pathname": "/components/spark",
+      "section": "Components",
+      "source": "src/Spark/index.mdx",
+      "title": "Spark (讯飞星火)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://speedai.com",
+      "legacyRouteId": "components/SpeedAI/index",
+      "pathname": "/components/speed-ai",
+      "section": "Components",
+      "source": "src/SpeedAI/index.mdx",
+      "title": "SpeedAI"
+    },
+    {
+      "category": "Provider",
+      "description": "https://deepmind.google/technologies/gemini",
+      "legacyRouteId": "components/Stability/index",
+      "pathname": "/components/stability",
+      "section": "Components",
+      "source": "src/Stability/index.mdx",
+      "title": "Stability (StableDiffusion)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://ctyun.cn/act/xirang/deepseek",
+      "legacyRouteId": "components/StateCloud/index",
+      "pathname": "/components/state-cloud",
+      "section": "Components",
+      "source": "src/StateCloud/index.mdx",
+      "title": "StateCloud (天翼云)"
+    },
+    {
+      "category": "Model",
+      "description": "https://stepfun.com",
+      "legacyRouteId": "components/Stepfun/index",
+      "pathname": "/components/stepfun",
+      "section": "Components",
+      "source": "src/Stepfun/index.mdx",
+      "title": "Stepfun (阶跃星辰)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://straico.com",
+      "legacyRouteId": "components/Straico/index",
+      "pathname": "/components/straico",
+      "section": "Components",
+      "source": "src/Straico/index.mdx",
+      "title": "Straico"
+    },
+    {
+      "category": "Provider",
+      "description": "https://streamlake.ai",
+      "legacyRouteId": "components/StreamLake/index",
+      "pathname": "/components/stream-lake",
+      "section": "Components",
+      "source": "src/StreamLake/index.mdx",
+      "title": "StreamLake"
+    },
+    {
+      "category": "Provider",
+      "description": "https://submodel.ai",
+      "legacyRouteId": "components/SubModel/index",
+      "pathname": "/components/sub-model",
+      "section": "Components",
+      "source": "src/SubModel/index.mdx",
+      "title": "SubModel"
+    },
+    {
+      "category": "Application",
+      "description": "https://app.suno.ai",
+      "legacyRouteId": "components/Suno/index",
+      "pathname": "/components/suno",
+      "section": "Components",
+      "source": "src/Suno/index.mdx",
+      "title": "Suno"
+    },
+    {
+      "category": "Application",
+      "description": "https://sync.so",
+      "legacyRouteId": "components/Sync/index",
+      "pathname": "/components/sync",
+      "section": "Components",
+      "source": "src/Sync/index.mdx",
+      "title": "Sync"
+    },
+    {
+      "category": "Provider",
+      "description": "https://tii.ae",
+      "legacyRouteId": "components/TII/index",
+      "pathname": "/components/tii",
+      "section": "Components",
+      "source": "src/TII/index.mdx",
+      "title": "Technology Innovation Institute (Falcon)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://targon.com",
+      "legacyRouteId": "components/Targon/index",
+      "pathname": "/components/targon",
+      "section": "Components",
+      "source": "src/Targon/index.mdx",
+      "title": "Targon"
+    },
+    {
+      "category": "Application",
+      "description": "https://tavily.com",
+      "legacyRouteId": "components/Tavily/index",
+      "pathname": "/components/tavily",
+      "section": "Components",
+      "source": "src/Tavily/index.mdx",
+      "title": "Tavily"
+    },
+    {
+      "category": "Provider",
+      "description": "https://tencent.com",
+      "legacyRouteId": "components/Tencent/index",
+      "pathname": "/components/tencent",
+      "section": "Components",
+      "source": "src/Tencent/index.mdx",
+      "title": "Tencent"
+    },
+    {
+      "category": "Provider",
+      "description": "https://cloud.tencent.com",
+      "legacyRouteId": "components/TencentCloud/index",
+      "pathname": "/components/tencent-cloud",
+      "section": "Components",
+      "source": "src/TencentCloud/index.mdx",
+      "title": "TencentCloud (腾讯云)"
+    },
+    {
+      "category": "Application",
+      "description": "https://tiangong.cn",
+      "legacyRouteId": "components/Tiangong/index",
+      "pathname": "/components/tiangong",
+      "section": "Components",
+      "source": "src/Tiangong/index.mdx",
+      "title": "Tiangong (天工)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://together.ai",
+      "legacyRouteId": "components/Together/index",
+      "pathname": "/components/together",
+      "section": "Components",
+      "source": "src/Together/index.mdx",
+      "title": "together.ai"
+    },
+    {
+      "category": "Application",
+      "description": "https://topazlabs.com",
+      "legacyRouteId": "components/TopazLabs/index",
+      "pathname": "/components/topaz-labs",
+      "section": "Components",
+      "source": "src/TopazLabs/index.mdx",
+      "title": "TopazLabs"
+    },
+    {
+      "category": "Application",
+      "description": "https://trae.ai",
+      "legacyRouteId": "components/Trae/index",
+      "pathname": "/components/trae",
+      "section": "Components",
+      "source": "src/Trae/index.mdx",
+      "title": "TRAE"
+    },
+    {
+      "category": "Application",
+      "description": "https://tripo3d.ai",
+      "legacyRouteId": "components/Tripo/index",
+      "pathname": "/components/tripo",
+      "section": "Components",
+      "source": "src/Tripo/index.mdx",
+      "title": "Tripo"
+    },
+    {
+      "category": "Application",
+      "description": "https://turix.ai",
+      "legacyRouteId": "components/TuriX/index",
+      "pathname": "/components/turi-x",
+      "section": "Components",
+      "source": "src/TuriX/index.mdx",
+      "title": "TuriX"
+    },
+    {
+      "category": "Application",
+      "description": "https://udio.com",
+      "legacyRouteId": "components/Udio/index",
+      "pathname": "/components/udio",
+      "section": "Components",
+      "source": "src/Udio/index.mdx",
+      "title": "Udio"
+    },
+    {
+      "category": "Application",
+      "description": "https://unstructured.io",
+      "legacyRouteId": "components/Unstructured/index",
+      "pathname": "/components/unstructured",
+      "section": "Components",
+      "source": "src/Unstructured/index.mdx",
+      "title": "Unstructured"
+    },
+    {
+      "category": "Provider",
+      "description": "https://upstage.ai",
+      "legacyRouteId": "components/Upstage/index",
+      "pathname": "/components/upstage",
+      "section": "Components",
+      "source": "src/Upstage/index.mdx",
+      "title": "Upstage"
+    },
+    {
+      "category": "Application",
+      "description": "https://v0.dev",
+      "legacyRouteId": "components/V0/index",
+      "pathname": "/components/v0",
+      "section": "Components",
+      "source": "src/V0/index.mdx",
+      "title": "V0 (Vercel)"
+    },
+    {
+      "category": "Application",
+      "description": "https://vectorizer.ai",
+      "legacyRouteId": "components/VectorizerAI/index",
+      "pathname": "/components/vectorizer-ai",
+      "section": "Components",
+      "source": "src/VectorizerAI/index.mdx",
+      "title": "Vectorizer.AI"
+    },
+    {
+      "category": "Application",
+      "description": "https://venice.ai",
+      "legacyRouteId": "components/Venice/index",
+      "pathname": "/components/venice",
+      "section": "Components",
+      "source": "src/Venice/index.mdx",
+      "title": "Venice"
+    },
+    {
+      "category": "Provider",
+      "description": "https://sdk.vercel.ai",
+      "legacyRouteId": "components/Vercel/index",
+      "pathname": "/components/vercel",
+      "section": "Components",
+      "source": "src/Vercel/index.mdx",
+      "title": "Vercel"
+    },
+    {
+      "category": "Provider",
+      "description": "https://cloud.google.com/generative-ai-studio",
+      "legacyRouteId": "components/VertexAI/index",
+      "pathname": "/components/vertex-ai",
+      "section": "Components",
+      "source": "src/VertexAI/index.mdx",
+      "title": "VertexAI (Google)"
+    },
+    {
+      "category": "Application",
+      "description": "https://vidu.com",
+      "legacyRouteId": "components/Vidu/index",
+      "pathname": "/components/vidu",
+      "section": "Components",
+      "source": "src/Vidu/index.mdx",
+      "title": "Vidu"
+    },
+    {
+      "category": "Application",
+      "description": "https://viggle.ai",
+      "legacyRouteId": "components/Viggle/index",
+      "pathname": "/components/viggle",
+      "section": "Components",
+      "source": "src/Viggle/index.mdx",
+      "title": "Viggle"
+    },
+    {
+      "category": "Provider",
+      "description": "https://github.com/vllm-project",
+      "legacyRouteId": "components/Vllm/index",
+      "pathname": "/components/vllm",
+      "section": "Components",
+      "source": "src/Vllm/index.mdx",
+      "title": "vLLM"
+    },
+    {
+      "category": "Provider",
+      "description": "https://volcengine.com",
+      "legacyRouteId": "components/Volcengine/index",
+      "pathname": "/components/volcengine",
+      "section": "Components",
+      "source": "src/Volcengine/index.mdx",
+      "title": "Volcengine (火山引擎)"
+    },
+    {
+      "category": "Model",
+      "description": "https://voyageai.com",
+      "legacyRouteId": "components/Voyage/index",
+      "pathname": "/components/voyage",
+      "section": "Components",
+      "source": "src/Voyage/index.mdx",
+      "title": "Voyage"
+    },
+    {
+      "category": "Model",
+      "description": "https://yiyan.baidu.com",
+      "legacyRouteId": "components/Wenxin/index",
+      "pathname": "/components/wenxin",
+      "section": "Components",
+      "source": "src/Wenxin/index.mdx",
+      "title": "Wenxin (文心)"
+    },
+    {
+      "category": "Application",
+      "description": "https://windsurf.com",
+      "legacyRouteId": "components/Windsurf/index",
+      "pathname": "/components/windsurf",
+      "section": "Components",
+      "source": "src/Windsurf/index.mdx",
+      "title": "Windsurf"
+    },
+    {
+      "category": "Provider",
+      "description": "https://developers.cloudflare.com/workers-ai",
+      "legacyRouteId": "components/WorkersAI/index",
+      "pathname": "/components/workers-ai",
+      "section": "Components",
+      "source": "src/WorkersAI/index.mdx",
+      "title": "WorkersAI (Cloudflare)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://worldrouter.ai",
+      "legacyRouteId": "components/WorldRouter/index",
+      "pathname": "/components/world-router",
+      "section": "Components",
+      "source": "src/WorldRouter/index.mdx",
+      "title": "WorldRouter"
+    },
+    {
+      "category": "Provider",
+      "description": "https://x.ai",
+      "legacyRouteId": "components/XAI/index",
+      "pathname": "/components/xai",
+      "section": "Components",
+      "source": "src/XAI/index.mdx",
+      "title": "xAI"
+    },
+    {
+      "category": "Model",
+      "description": "https://platform.xiaomimimo.com",
+      "legacyRouteId": "components/XiaomiMiMo/index",
+      "pathname": "/components/xiaomi-mi-mo",
+      "section": "Components",
+      "source": "src/XiaomiMiMo/index.mdx",
+      "title": "Xiaomi MiMo"
+    },
+    {
+      "category": "Provider",
+      "description": "https://github.com/xorbitsai/inference",
+      "legacyRouteId": "components/Xinference/index",
+      "pathname": "/components/xinference",
+      "section": "Components",
+      "source": "src/Xinference/index.mdx",
+      "title": "Xinference"
+    },
+    {
+      "category": "Provider",
+      "description": "https://xpay.sh",
+      "legacyRouteId": "components/Xpay/index",
+      "pathname": "/components/xpay",
+      "section": "Components",
+      "source": "src/Xpay/index.mdx",
+      "title": "Xpay"
+    },
+    {
+      "category": "Model",
+      "description": "https://github.com/Duxiaoman-DI/XuanYuan",
+      "legacyRouteId": "components/Xuanyuan/index",
+      "pathname": "/components/xuanyuan",
+      "section": "Components",
+      "source": "src/Xuanyuan/index.mdx",
+      "title": "Xuanyuan (度小满轩辕)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://ai.yandex.com",
+      "legacyRouteId": "components/Yandex/index",
+      "pathname": "/components/yandex",
+      "section": "Components",
+      "source": "src/Yandex/index.mdx",
+      "title": "Yandex"
+    },
+    {
+      "category": "Model",
+      "description": "https://github.com/01-ai/Yi",
+      "legacyRouteId": "components/Yi/index",
+      "pathname": "/components/yi",
+      "section": "Components",
+      "source": "src/Yi/index.mdx",
+      "title": "Yi (零一万物)"
+    },
+    {
+      "category": "Application",
+      "description": "https://youmind.ai",
+      "legacyRouteId": "components/YouMind/index",
+      "pathname": "/components/you-mind",
+      "section": "Components",
+      "source": "src/YouMind/index.mdx",
+      "title": "YouMind"
+    },
+    {
+      "category": "Application",
+      "description": "https://yuanbao.tencent.com",
+      "legacyRouteId": "components/Yuanbao/index",
+      "pathname": "/components/yuanbao",
+      "section": "Components",
+      "source": "src/Yuanbao/index.mdx",
+      "title": "Yuanbao (腾讯元宝)"
+    },
+    {
+      "category": "Application",
+      "description": "https://z.ai",
+      "legacyRouteId": "components/ZAI/index",
+      "pathname": "/components/zai",
+      "section": "Components",
+      "source": "src/ZAI/index.mdx",
+      "title": "Z.ai"
+    },
+    {
+      "category": "Application",
+      "description": "https://zapier.com",
+      "legacyRouteId": "components/Zapier/index",
+      "pathname": "/components/zapier",
+      "section": "Components",
+      "source": "src/Zapier/index.mdx",
+      "title": "Zapier"
+    },
+    {
+      "category": "Application",
+      "description": "https://zeabur.com",
+      "legacyRouteId": "components/Zeabur/index",
+      "pathname": "/components/zeabur",
+      "section": "Components",
+      "source": "src/Zeabur/index.mdx",
+      "title": "Zeabur"
+    },
+    {
+      "category": "Provider",
+      "description": "https://zenmux.ai",
+      "legacyRouteId": "components/ZenMux/index",
+      "pathname": "/components/zen-mux",
+      "section": "Components",
+      "source": "src/ZenMux/index.mdx",
+      "title": "ZenMux"
+    },
+    {
+      "category": "Application",
+      "description": "https://zencoder.ai",
+      "legacyRouteId": "components/Zencoder/index",
+      "pathname": "/components/zencoder",
+      "section": "Components",
+      "source": "src/Zencoder/index.mdx",
+      "title": "Zencoder"
+    },
+    {
+      "category": "Provider",
+      "description": "https://lingyiwanwu.com/",
+      "legacyRouteId": "components/ZeroOne/index",
+      "pathname": "/components/zero-one",
+      "section": "Components",
+      "source": "src/ZeroOne/index.mdx",
+      "title": "01.AI (零一万物)"
+    },
+    {
+      "category": "Provider",
+      "description": "https://zhipuai.cn",
+      "legacyRouteId": "components/Zhipu/index",
+      "pathname": "/components/zhipu",
+      "section": "Components",
+      "source": "src/Zhipu/index.mdx",
+      "title": "Zhipu (智谱)"
+    }
+  ]
+}
