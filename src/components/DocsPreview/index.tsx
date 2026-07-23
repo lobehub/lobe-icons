@@ -21,6 +21,8 @@ const styles = createStaticStyles(({ css, cssVar }) => ({
     border: 1px solid ${cssVar.colorBorderSecondary};
     border-radius: ${cssVar.borderRadiusLG};
 
+    color: ${cssVar.colorText};
+
     background: ${cssVar.colorBgContainer};
   `,
 }));
