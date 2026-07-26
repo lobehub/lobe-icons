@@ -169,6 +169,7 @@ export {
 } from './icons/GoogleCloud';
 export { default as Goose, type CompoundedIcon as GooseProps } from './icons/Goose';
 export { default as Gradio, type CompoundedIcon as GradioProps } from './icons/Gradio';
+export { default as GreenPT, type CompoundedIcon as GreenPTProps } from './icons/GreenPT';
 export { default as Greptile, type CompoundedIcon as GreptileProps } from './icons/Greptile';
 export { default as Grok, type CompoundedIcon as GrokProps } from './icons/Grok';
 export { default as Groq, type CompoundedIcon as GroqProps } from './icons/Groq';

@@ -53,6 +53,7 @@ import Github from '../icons/Github';
 import GithubCopilot from '../icons/GithubCopilot';
 import Google from '../icons/Google';
 import GoogleCloud from '../icons/GoogleCloud';
+import GreenPT from '../icons/GreenPT';
 import Grok from '../icons/Grok';
 import Groq from '../icons/Groq';
 import Higress from '../icons/Higress';
@@ -296,6 +297,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
     combineMultiple: 0.83,
     keywords: [RNModelProvider.Anthropic],
   },
+  { Icon: GreenPT, combineMultiple: 0.9, keywords: [RNModelProvider.GreenPT] },
   { Icon: Groq, keywords: [RNModelProvider.Groq] },
   { Icon: OpenRouter, combineMultiple: 0.8, keywords: [RNModelProvider.OpenRouter] },
   { Icon: ZeroOne, combineMultiple: 1, keywords: [RNModelProvider.ZeroOne] },

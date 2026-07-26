@@ -2425,6 +2425,25 @@
     "title": "Gradio"
   },
   {
+    "color": "#9BE755",
+    "desc": "https://greenpt.ai",
+    "docsUrl": "green-pt",
+    "fullTitle": "GreenPT",
+    "group": "provider",
+    "id": "GreenPT",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "GreenPT"
+  },
+  {
     "color": "#44A775",
     "desc": "https://greptile.com",
     "docsUrl": "greptile",
