@@ -56,6 +56,7 @@ export enum RNModelProvider {
   GithubCopilot = 'githubcopilot',
   Google = 'google',
   GoogleCloud = 'googlecloud',
+  GreenPT = 'greenpt',
   Groq = 'groq',
   Higress = 'higress',
   Huawei = 'huawei',
