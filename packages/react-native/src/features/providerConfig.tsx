@@ -73,6 +73,7 @@ import LG from '../icons/LG';
 import Lambda from '../icons/Lambda';
 import LeptonAI from '../icons/LeptonAI';
 import LlmApi from '../icons/LlmApi';
+import LlmGateway from '../icons/LlmGateway';
 import LmStudio from '../icons/LmStudio';
 import LobeHub from '../icons/LobeHub';
 import LongCat from '../icons/LongCat';
@@ -187,6 +188,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Lambda, keywords: [RNModelProvider.Lambda] },
   { Icon: LeptonAI, keywords: [RNModelProvider.LeptonAI] },
   { Icon: LlmApi, keywords: [RNModelProvider.LlmApi] },
+  { Icon: LlmGateway, keywords: [RNModelProvider.LlmGateway] },
   { Icon: LG, keywords: [RNModelProvider.LG] },
   { Icon: Menlo, keywords: [RNModelProvider.Menlo] },
   { Icon: Meta, keywords: [RNModelProvider.Meta] },
