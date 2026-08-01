@@ -4888,25 +4888,6 @@
     "title": "Recraft"
   },
   {
-    "color": "#000",
-    "desc": "https://relace.ai",
-    "docsUrl": "relace",
-    "fullTitle": "Relace",
-    "group": "model",
-    "id": "Relace",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": false,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "Relace"
-  },
-  {
     "color": "#2276FF",
     "desc": "https://reka.ai",
     "docsUrl": "reka",
@@ -4924,6 +4905,25 @@
       "hasTextColor": false
     },
     "title": "Reka"
+  },
+  {
+    "color": "#000",
+    "desc": "https://relace.ai",
+    "docsUrl": "relace",
+    "fullTitle": "Relace",
+    "group": "model",
+    "id": "Relace",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Relace"
   },
   {
     "color": "#EA2805",
@@ -5060,25 +5060,6 @@
     "title": "RWKV"
   },
   {
-    "color": "#EE7624",
-    "desc": "https://sambanova.ai",
-    "docsUrl": "samba-nova",
-    "fullTitle": "SambaNova",
-    "group": "provider",
-    "id": "SambaNova",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": true,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "SambaNova"
-  },
-  {
     "color": "#E10600",
     "desc": "https://sakana.ai",
     "docsUrl": "sakana",
@@ -5096,6 +5077,25 @@
       "hasTextColor": false
     },
     "title": "Sakana"
+  },
+  {
+    "color": "#EE7624",
+    "desc": "https://sambanova.ai",
+    "docsUrl": "samba-nova",
+    "fullTitle": "SambaNova",
+    "group": "provider",
+    "id": "SambaNova",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "SambaNova"
   },
   {
     "color": "#0066FF",

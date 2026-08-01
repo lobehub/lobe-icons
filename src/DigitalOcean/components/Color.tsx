@@ -17,7 +17,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       {...rest}
     >
       <title>{TITLE}</title>
-      <g fill={COLOR_PRIMARY} transform="scale(0.133333)">
+      <g fill={COLOR_PRIMARY} transform="translate(0, 0.905) scale(0.124545)">
         <path d="M90 178.2v-34.2c36.2 0 64.3-35.9 50.4-74-5.1-14.1-16.4-25.4-30.5-30.5-38.1-13.8-74 14.2-74 50.4H2c0-57.7 55.8-102.7 116.3-83.8 26.4 8.3 47.5 29.3 55.7 55.7C192.7 122.4 147.8 178.2 90 178.2z" />
         <polygon points="90.1,144.1 56.1,144.1 56.1,110.1 90.1,110.1" />
         <polygon points="56.1,170.3 29.9,170.3 29.9,144.1 56.1,144.1" />
