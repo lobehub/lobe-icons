@@ -93,6 +93,7 @@ import Ollama from '../icons/Ollama';
 import OpenAI from '../icons/OpenAI';
 import OpenCode from '../icons/OpenCode';
 import OpenRouter from '../icons/OpenRouter';
+import Openference from '../icons/Openference';
 import PPIO from '../icons/PPIO';
 import Parasail from '../icons/Parasail';
 import Perplexity from '../icons/Perplexity';
@@ -266,6 +267,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   },
   { Icon: Novita, keywords: [RNModelProvider.Novita] },
   { Icon: OpenAI, keywords: [RNModelProvider.ChatGPT, RNModelProvider.OpenAI] },
+  { Icon: Openference, keywords: [RNModelProvider.Openference] },
   {
     Icon: OpenCode,
     keywords: [

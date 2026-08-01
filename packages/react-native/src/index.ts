@@ -281,6 +281,10 @@ export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './icons/O
 export { default as OpenChat, type CompoundedIcon as OpenChatProps } from './icons/OpenChat';
 export { default as OpenClaw, type CompoundedIcon as OpenClawProps } from './icons/OpenClaw';
 export { default as OpenCode, type CompoundedIcon as OpenCodeProps } from './icons/OpenCode';
+export {
+  default as Openference,
+  type CompoundedIcon as OpenferenceProps,
+} from './icons/Openference';
 export { default as OpenHands, type CompoundedIcon as OpenHandsProps } from './icons/OpenHands';
 export { default as OpenHuman, type CompoundedIcon as OpenHumanProps } from './icons/OpenHuman';
 export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './icons/OpenRouter';
