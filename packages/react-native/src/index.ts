@@ -285,6 +285,7 @@ export { default as OpenHands, type CompoundedIcon as OpenHandsProps } from './i
 export { default as OpenHuman, type CompoundedIcon as OpenHumanProps } from './icons/OpenHuman';
 export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './icons/OpenRouter';
 export { default as OpenWebUI, type CompoundedIcon as OpenWebUIProps } from './icons/OpenWebUI';
+export { default as OrcaRouter, type CompoundedIcon as OrcaRouterProps } from './icons/OrcaRouter';
 export { default as PaLM, type CompoundedIcon as PaLMProps } from './icons/PaLM';
 export { default as Parasail, type CompoundedIcon as ParasailProps } from './icons/Parasail';
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './icons/Perplexity';
