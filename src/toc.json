@@ -4297,6 +4297,25 @@
     "title": "OpenWebUI"
   },
   {
+    "color": "#0160E6",
+    "desc": "https://www.orcarouter.ai",
+    "docsUrl": "orca-router",
+    "fullTitle": "OrcaRouter",
+    "group": "provider",
+    "id": "OrcaRouter",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "OrcaRouter"
+  },
+  {
     "color": "#FFF",
     "desc": "https://ai.google/discover/palm2",
     "docsUrl": "pa-lm",

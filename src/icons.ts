@@ -229,6 +229,7 @@ export { default as OpenHands, type CompoundedIcon as OpenHandsProps } from './O
 export { default as OpenHuman, type CompoundedIcon as OpenHumanProps } from './OpenHuman';
 export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './OpenRouter';
 export { default as OpenWebUI, type CompoundedIcon as OpenWebUIProps } from './OpenWebUI';
+export { default as OrcaRouter, type CompoundedIcon as OrcaRouterProps } from './OrcaRouter';
 export { default as PaLM, type CompoundedIcon as PaLMProps } from './PaLM';
 export { default as Parasail, type CompoundedIcon as ParasailProps } from './Parasail';
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './Perplexity';
