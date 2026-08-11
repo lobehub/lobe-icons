@@ -259,6 +259,7 @@ export { default as RSSHub, type CompoundedIcon as RSSHubProps } from './RSSHub'
 export { default as Runway, type CompoundedIcon as RunwayProps } from './Runway';
 export { default as Rwkv, type CompoundedIcon as RwkvProps } from './Rwkv';
 export { default as SambaNova, type CompoundedIcon as SambaNovaProps } from './SambaNova';
+export { default as SayGM, type CompoundedIcon as SayGMProps } from './SayGM';
 export { default as Search1API, type CompoundedIcon as Search1APIProps } from './Search1API';
 export { default as SearchApi, type CompoundedIcon as SearchApiProps } from './SearchApi';
 export { default as SearXNG, type CompoundedIcon as SearXNGProps } from './SearXNG';

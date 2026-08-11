@@ -1,0 +1,48 @@
+---
+title: SayGM
+description: https://saygm.com
+category: Provider
+---
+
+import { SayGM } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  <Flexbox gap={16} horizontal>
+    <SayGM size={64} />
+    <SayGM.Color size={64} />
+  </Flexbox>
+</DocsPreview>
+
+## Text
+
+<DocsPreview>{<SayGM.Text size={64} />}</DocsPreview>
+
+## Combine
+
+<DocsPreview>
+  <Flexbox gap={16} horizontal>
+    <SayGM.Combine size={64} />
+    <SayGM.Combine size={64} type={'color'} />
+  </Flexbox>
+</DocsPreview>
+
+## Avatars
+
+<DocsPreview>
+  <Flexbox gap={16} horizontal>
+    <SayGM.Avatar size={64} />
+    <SayGM.Avatar shape={'square'} size={64} />
+  </Flexbox>
+</DocsPreview>
+
+## Colors
+
+<DocsPreview>
+  <ColorPreview color={SayGM.colorPrimary} />
+</DocsPreview>

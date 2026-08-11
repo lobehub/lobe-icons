@@ -101,6 +101,7 @@ import Qiniu from '../icons/Qiniu';
 import Qwen from '../icons/Qwen';
 import Replicate from '../icons/Replicate';
 import SambaNova from '../icons/SambaNova';
+import SayGM from '../icons/SayGM';
 import Search1API from '../icons/Search1API';
 import SearchApi from '../icons/SearchApi';
 import SenseNova from '../icons/SenseNova';
@@ -194,6 +195,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: NPLCloud, keywords: [RNModelProvider.NPLCloud] },
   { Icon: NousResearch, keywords: [RNModelProvider.NousResearch] },
   { Icon: Parasail, keywords: [RNModelProvider.Parasail] },
+  { Icon: SayGM, keywords: [RNModelProvider.SayGM] },
   { Icon: SearchApi, keywords: [RNModelProvider.SearchApi] },
   { Icon: Snowflake, keywords: [RNModelProvider.Snowflake] },
   { Icon: Stability, keywords: [RNModelProvider.Stability] },
