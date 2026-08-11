@@ -135,6 +135,7 @@ export {
   default as EssentialAI,
   type CompoundedIcon as EssentialAIProps,
 } from './icons/EssentialAI';
+export { default as EveryAPI, type CompoundedIcon as EveryAPIProps } from './icons/EveryAPI';
 export { default as Exa, type CompoundedIcon as ExaProps } from './icons/Exa';
 export { default as Fal, type CompoundedIcon as FalProps } from './icons/Fal';
 export { default as FastGPT, type CompoundedIcon as FastGPTProps } from './icons/FastGPT';
