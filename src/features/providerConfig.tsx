@@ -43,6 +43,7 @@ import DeepInfra from '@/DeepInfra';
 import DeepMind from '@/DeepMind';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
+import EveryAPI from '@/EveryAPI';
 import Exa from '@/Exa';
 import Fal from '@/Fal';
 import Featherless from '@/Featherless';
@@ -416,6 +417,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Replicate, combineMultiple: 0.9, keywords: [ModelProvider.Replicate] },
   { Icon: Nebius, combineMultiple: 0.75, keywords: [ModelProvider.Nebius] },
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [ModelProvider.NewAPI] },
+  { Icon: EveryAPI, combineMultiple: 0.85, keywords: [ModelProvider.EveryAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [ModelProvider.AkashChat] },
   { Icon: AtlasCloud, combineMultiple: 0.8, keywords: [ModelProvider.AtlasCloud] },
   { Icon: SophNet, combineMultiple: 0.85, keywords: [ModelProvider.SophNet] },

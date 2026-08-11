@@ -43,6 +43,7 @@ export enum ModelProvider {
   DeepMind = 'deepmind',
   DeepSeek = 'deepseek',
   Doubao = 'doubao',
+  EveryAPI = 'everyapi',
   Exa = 'exa',
   Fal = 'fal',
   Featherless = 'featherless',
