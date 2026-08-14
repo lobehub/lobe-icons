@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 5.16.0](https://github.com/lobehub/lobe-icons/compare/v5.15.0...v5.16.0)
+
+<sup>Released on **2026-08-12**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add Hunyuan icon mapping for Hy3 models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([0aaef1d](https://github.com/lobehub/lobe-icons/commit/0aaef1d))
+- **misc**: Add Hunyuan icon mapping for Hy3 models, closes [#378](https://github.com/lobehub/lobe-icons/issues/378) ([8c7fa2f](https://github.com/lobehub/lobe-icons/commit/8c7fa2f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.15.0](https://github.com/lobehub/lobe-icons/compare/v5.14.0...v5.15.0)
 
 <sup>Released on **2026-07-24**</sup>
