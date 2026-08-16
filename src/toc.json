@@ -1929,6 +1929,25 @@
     "title": "11x"
   },
   {
+    "color": "#0A7CFF",
+    "desc": "https://empiriolabs.ai",
+    "docsUrl": "empirio-labs",
+    "fullTitle": "EmpirioLabs AI",
+    "group": "provider",
+    "id": "EmpirioLabs",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "EmpirioLabs AI"
+  },
+  {
     "color": "#111322",
     "colorGradient": "linear-gradient(135deg, #5E38A5, #31018C 63%)",
     "desc": "https://essential.ai",
