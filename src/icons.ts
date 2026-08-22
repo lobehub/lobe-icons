@@ -294,6 +294,7 @@ export { default as Trae, type CompoundedIcon as TraeProps } from './Trae';
 export { default as Tripo, type CompoundedIcon as TripoProps } from './Tripo';
 export { default as TuriX, type CompoundedIcon as TuriXCompoundedIcon } from './TuriX';
 export { default as Udio, type CompoundedIcon as UdioProps } from './Udio';
+export { default as Unsloth, type CompoundedIcon as UnslothProps } from './Unsloth';
 export { default as Unstructured, type CompoundedIcon as UnstructuredProps } from './Unstructured';
 export { default as Upstage, type CompoundedIcon as UpstageProps } from './Upstage';
 export { default as V0, type CompoundedIcon as V0Props } from './V0';

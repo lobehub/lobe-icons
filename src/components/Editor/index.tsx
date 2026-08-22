@@ -41,14 +41,16 @@ export default () => {
 
   const removeColor = {
     addAttributesToSVGElement: {
-      attribute: {
-        'fill': 'currentColor',
-        'fill-rule': 'evenodd',
-      },
+      attributes: [
+        {
+          'fill': 'currentColor',
+          'fill-rule': 'evenodd',
+        },
+      ],
     },
     collapseGroups: true,
     removeAttrs: {
-      attrs: ['fill', 'color', 'stroke', 'stroke-width', 'fill-rule'],
+      attrs: '(fill|color|stroke|stroke-width|fill-rule)',
     },
   };
 

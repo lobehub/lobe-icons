@@ -1,3 +1,10 @@
 packages:
   - '*'
   - 'packages/**'
+allowBuilds:
+  core-js: true
+  core-js-pure: true
+  esbuild: true
+  puppeteer: true
+  sharp: true
+  unrs-resolver: true

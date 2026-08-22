@@ -6148,5 +6148,24 @@
       "hasTextColor": false
     },
     "title": "Zhipu"
+  },
+  {
+    "color": "#16B88A",
+    "desc": "https://unsloth.ai",
+    "docsUrl": "unsloth",
+    "fullTitle": "Unsloth",
+    "group": "provider",
+    "id": "Unsloth",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Unsloth"
   }
 ]

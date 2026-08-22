@@ -1,17 +1,22 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 
-import SvgoClient, { SvgoConfig } from '@/components/Editor/svgo';
+import SvgoClient, { type SvgoConfig } from '@/components/Editor/svgo';
 
 export const useSvgo = (svg: string, config: SvgoConfig) => {
-  const svgoInstance = useRef<SvgoClient>(null);
+  const svgoInstance = useRef<SvgoClient | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [newSvg, setNewSvg] = useState(svg);
 
   const compressionSvg = useCallback(async () => {
     if (!svgoInstance.current) return;
-    const data = await svgoInstance.current.optimize(svg);
-    setNewSvg(data);
-    setIsLoading(false);
+    try {
+      const data = await svgoInstance.current.optimize(svg);
+      setNewSvg(data);
+    } catch {
+      setNewSvg(svg);
+    } finally {
+      setIsLoading(false);
+    }
   }, [svg]);
 
   useEffect(() => {
@@ -19,13 +24,13 @@ export const useSvgo = (svg: string, config: SvgoConfig) => {
   }, [config]);
 
   useEffect(() => {
-    setIsLoading(false);
-    compressionSvg();
-  }, [config, svg]);
+    setIsLoading(true);
+    void compressionSvg();
+  }, [compressionSvg, config]);
 
   return {
     isLoading,
-    precent: `${-Math.floor((1 - newSvg.length / svg.length) * 100)}%`,
+    precent: `${-Math.floor((1 - newSvg.length / Math.max(svg.length, 1)) * 100)}%`,
     svg: newSvg,
   };
 };

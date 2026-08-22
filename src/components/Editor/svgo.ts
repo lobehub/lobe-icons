@@ -1,48 +1,14 @@
-// @ts-ignore
-import getSvgoInstance from 'svgo-browser/lib/get-svgo-instance';
+import { type Config, type PluginConfig, optimize } from 'svgo/browser';
 
 export interface SvgoConfig {
-  addAttributesToSVGElement?: any;
-  cleanupAttrs?: any;
-  cleanupEnableBackground?: any;
-  cleanupIDs?: any;
-  cleanupNumericValues?: any;
-  collapseGroups?: any;
-  convertColors?: any;
-  convertPathData?: any;
-  convertShapeToPath?: any;
-  convertStyleToAttrs?: any;
-  convertTransform?: any;
-  mergePaths?: any;
-  moveElemsAttrsToGroup?: any;
-  moveGroupAttrsToElems?: any;
-  removeAttrs?: any;
-  removeComments?: any;
-  removeDesc?: any;
-  removeDimensions?: any;
-  removeDoctype?: any;
-  removeEditorsNSData?: any;
-  removeEmptyAttrs?: any;
-  removeEmptyContainers?: any;
-  removeEmptyText?: any;
-  removeHiddenElems?: any;
-  removeMetadata?: any;
-  removeNonInheritableGroupAttrs?: any;
-  removeRasterImages?: any;
-  removeTitle?: any;
-  removeUnknownsAndDefaults?: any;
-  removeUnusedNS?: any;
-  removeUselessDefs?: any;
-  removeUselessStrokeAndFill?: any;
-  removeViewBox?: any;
-  removeXMLProcInst?: any;
-  sortAttrs?: any;
+  [key: string]: any;
 }
 
+/** Leva toggles for the editor Config panel (SVGO plugin names). */
 export const defaultPlugins = {
   cleanupAttrs: true,
   cleanupEnableBackground: true,
-  cleanupIDs: true,
+  cleanupIds: true,
   cleanupNumericValues: true,
   collapseGroups: true,
   convertColors: true,
@@ -74,14 +40,106 @@ export const defaultPlugins = {
   sortAttrs: true,
 };
 
+const PRESET_OVERRIDE_KEYS = [
+  'cleanupAttrs',
+  'cleanupEnableBackground',
+  'cleanupIds',
+  'cleanupNumericValues',
+  'collapseGroups',
+  'convertColors',
+  'convertPathData',
+  'convertShapeToPath',
+  'convertTransform',
+  'mergePaths',
+  'moveElemsAttrsToGroup',
+  'moveGroupAttrsToElems',
+  'removeComments',
+  'removeDesc',
+  'removeDoctype',
+  'removeEditorsNSData',
+  'removeEmptyAttrs',
+  'removeEmptyContainers',
+  'removeEmptyText',
+  'removeHiddenElems',
+  'removeMetadata',
+  'removeNonInheritableGroupAttrs',
+  'removeUnknownsAndDefaults',
+  'removeUnusedNS',
+  'removeUselessDefs',
+  'removeUselessStrokeAndFill',
+  'removeXMLProcInst',
+  'sortAttrs',
+] as const;
+
+const STANDALONE_BOOLEAN_PLUGINS = [
+  'convertStyleToAttrs',
+  'removeDimensions',
+  'removeRasterImages',
+  'removeTitle',
+  'removeViewBox',
+] as const;
+
+const toPluginEnabled = (value: unknown): boolean => value !== false && value !== undefined;
+
+const buildPlugins = (config: SvgoConfig = {}): PluginConfig[] => {
+  const normalized: SvgoConfig = {
+    ...config,
+    cleanupIds: config.cleanupIds ?? config.cleanupIDs,
+  };
+
+  const overrides: Record<string, false> = {};
+  for (const key of PRESET_OVERRIDE_KEYS) {
+    if (normalized[key] === false) overrides[key] = false;
+  }
+
+  const plugins: PluginConfig[] = [
+    {
+      name: 'preset-default',
+      params: { overrides },
+    },
+  ];
+
+  for (const name of STANDALONE_BOOLEAN_PLUGINS) {
+    if (toPluginEnabled(normalized[name])) {
+      plugins.push(name);
+    }
+  }
+
+  const removeAttrs = normalized.removeAttrs;
+  if (removeAttrs && typeof removeAttrs === 'object' && removeAttrs.attrs) {
+    plugins.push({
+      name: 'removeAttrs',
+      params: { attrs: removeAttrs.attrs },
+    });
+  }
+
+  const addAttributes = normalized.addAttributesToSVGElement;
+  if (addAttributes && typeof addAttributes === 'object') {
+    const attributes =
+      addAttributes.attributes ?? (addAttributes.attribute ? [addAttributes.attribute] : undefined);
+    if (attributes?.length) {
+      plugins.push({
+        name: 'addAttributesToSVGElement',
+        params: { attributes },
+      });
+    }
+  }
+
+  return plugins;
+};
+
 export default class SVGO {
-  app: any;
+  private readonly config: Config;
+
   constructor(config?: SvgoConfig) {
-    this.app = getSvgoInstance({ ...defaultPlugins, ...config });
+    this.config = {
+      multipass: true,
+      plugins: buildPlugins(config),
+    };
   }
 
   async optimize(svgData: string) {
-    const { data } = await this.app.optimize(svgData);
+    const { data } = optimize(svgData, this.config);
     return data;
   }
 }
