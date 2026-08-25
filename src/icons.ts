@@ -103,6 +103,7 @@ export { default as DreamMachine, type CompoundedIcon as DreamMachineProps } fro
 export { default as ElevenLabs, type CompoundedIcon as ElevenLabsProps } from './ElevenLabs';
 export { default as ElevenX, type CompoundedIcon as ElevenXProps } from './ElevenX';
 export { default as EssentialAI, type CompoundedIcon as EssentialAIProps } from './EssentialAI';
+export { default as Everruns, type CompoundedIcon as EverrunsProps } from './Everruns';
 export { default as Exa, type CompoundedIcon as ExaProps } from './Exa';
 export { default as Fal, type CompoundedIcon as FalProps } from './Fal';
 export { default as FastGPT, type CompoundedIcon as FastGPTProps } from './FastGPT';
