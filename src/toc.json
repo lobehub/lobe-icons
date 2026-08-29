@@ -1853,6 +1853,25 @@
     "title": "Dolphin"
   },
   {
+    "color": "#a3e6d9",
+    "desc": "https://studio.dots.ai",
+    "docsUrl": "dots-studio",
+    "fullTitle": "Dots Studio",
+    "group": "model",
+    "id": "DotsStudio",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Dots Studio"
+  },
+  {
     "color": "#FFF",
     "desc": "https://team.doubao.com",
     "docsUrl": "doubao",
@@ -5520,6 +5539,25 @@
     "title": "Udio"
   },
   {
+    "color": "#16B88A",
+    "desc": "https://unsloth.ai",
+    "docsUrl": "unsloth",
+    "fullTitle": "Unsloth",
+    "group": "provider",
+    "id": "Unsloth",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Unsloth"
+  },
+  {
     "color": "#0ADDF8",
     "desc": "https://unstructured.io",
     "docsUrl": "unstructured",
@@ -6129,24 +6167,5 @@
       "hasTextColor": false
     },
     "title": "Zhipu"
-  },
-  {
-    "color": "#16B88A",
-    "desc": "https://unsloth.ai",
-    "docsUrl": "unsloth",
-    "fullTitle": "Unsloth",
-    "group": "provider",
-    "id": "Unsloth",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": true,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "Unsloth"
   }
 ]
