@@ -77,6 +77,7 @@ export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
 export { default as CometAPI, type CompoundedIcon as CometAPIProps } from './CometAPI';
 export { default as ComfyUI, type CompoundedIcon as ComfyUIProps } from './ComfyUI';
 export { default as CommandA, type CompoundedIcon as CommandAProps } from './CommandA';
+export { default as CommandCode, type CompoundedIcon as CommandCodeProps } from './CommandCode';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
 export { default as CopilotKit, type CompoundedIcon as CopilotKitProps } from './CopilotKit';
 export { default as Coqui, type CompoundedIcon as CoquiProps } from './Coqui';
@@ -248,6 +249,7 @@ export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingy
 export { default as Qiniu, type CompoundedIcon as QiniuProps } from './Qiniu';
 export { default as Qoder, type CompoundedIcon as QoderProps } from './Qoder';
 export { default as Qwen, type CompoundedIcon as QwenProps } from './Qwen';
+export { default as RadeonCloud, type CompoundedIcon as RadeonCloudProps } from './RadeonCloud';
 export { default as Railway, type CompoundedIcon as RailwayProps } from './Railway';
 export { default as Recraft, type CompoundedIcon as RecraftProps } from './Recraft';
 export { default as Relace, type CompoundedIcon as RelaceProps } from './Relace';
