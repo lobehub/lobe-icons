@@ -17,6 +17,7 @@ export { default as AkashChat, type CompoundedIcon as AkashChatProps } from './A
 export { default as AlephAlpha, type CompoundedIcon as AlephAlphaProps } from './AlephAlpha';
 export { default as Alibaba, type CompoundedIcon as AlibabaProps } from './Alibaba';
 export { default as AlibabaCloud, type CompoundedIcon as AlibabaCloudProps } from './AlibabaCloud';
+export { default as AMDRadeonCloud, type CompoundedIcon as AMDRadeonCloudProps } from './AMDRadeonCloud';
 export { default as Amp, type CompoundedIcon as AmpProps } from './Amp';
 export { default as Anspire, type CompoundedIcon as AnspireProps } from './Anspire';
 export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './AntGroup';
@@ -249,7 +250,6 @@ export { default as Qingyan, type CompoundedIcon as QingyanProps } from './Qingy
 export { default as Qiniu, type CompoundedIcon as QiniuProps } from './Qiniu';
 export { default as Qoder, type CompoundedIcon as QoderProps } from './Qoder';
 export { default as Qwen, type CompoundedIcon as QwenProps } from './Qwen';
-export { default as RadeonCloud, type CompoundedIcon as RadeonCloudProps } from './RadeonCloud';
 export { default as Railway, type CompoundedIcon as RailwayProps } from './Railway';
 export { default as Recraft, type CompoundedIcon as RecraftProps } from './Recraft';
 export { default as Relace, type CompoundedIcon as RelaceProps } from './Relace';
