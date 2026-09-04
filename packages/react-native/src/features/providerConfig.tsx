@@ -77,7 +77,7 @@ import LmStudio from '../icons/LmStudio';
 import LobeHub from '../icons/LobeHub';
 import LongCat from '../icons/LongCat';
 import Menlo from '../icons/Menlo';
-import Meta from '../icons/Meta';
+import MetaAI from '../icons/MetaAI';
 import Microsoft from '../icons/Microsoft';
 import Minimax from '../icons/Minimax';
 import Mistral from '../icons/Mistral';
@@ -189,7 +189,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: LlmApi, keywords: [RNModelProvider.LlmApi] },
   { Icon: LG, keywords: [RNModelProvider.LG] },
   { Icon: Menlo, keywords: [RNModelProvider.Menlo] },
-  { Icon: Meta, keywords: [RNModelProvider.Meta] },
+  { Icon: MetaAI, keywords: [RNModelProvider.Meta] },
   { Icon: Microsoft, keywords: [RNModelProvider.Microsoft] },
   { Icon: NPLCloud, keywords: [RNModelProvider.NPLCloud] },
   { Icon: NousResearch, keywords: [RNModelProvider.NousResearch] },
