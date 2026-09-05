@@ -285,6 +285,7 @@ export { default as Targon, type CompoundedIcon as TargonProps } from './Targon'
 export { default as Tavily, type CompoundedIcon as TavilyProps } from './Tavily';
 export { default as Tencent, type CompoundedIcon as TencentProps } from './Tencent';
 export { default as TencentCloud, type CompoundedIcon as TencentCloudProps } from './TencentCloud';
+export { default as TheGrid, type CompoundedIcon as TheGridProps } from './TheGrid';
 export { default as Tiangong, type CompoundedIcon as TiangongProps } from './Tiangong';
 export { default as TII, type CompoundedIcon as TIIProps } from './TII';
 export { default as Together, type CompoundedIcon as TogetherProps } from './Together';
