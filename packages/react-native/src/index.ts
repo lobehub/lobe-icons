@@ -233,6 +233,7 @@ export { default as LiveKit, type CompoundedIcon as LiveKitProps } from './icons
 export { default as LlamaIndex, type CompoundedIcon as LlamaIndexProps } from './icons/LlamaIndex';
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './icons/LLaVA';
 export { default as LlmApi, type CompoundedIcon as LlmApiProps } from './icons/LlmApi';
+export { default as LlmGateway, type CompoundedIcon as LlmGatewayProps } from './icons/LlmGateway';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './icons/LmStudio';
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './icons/LobeHub';
 export { default as LongCat, type CompoundedIcon as LongCatProps } from './icons/LongCat';

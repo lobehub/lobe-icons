@@ -3361,6 +3361,25 @@
     "title": "LLM API"
   },
   {
+    "color": "#000",
+    "desc": "https://llmgateway.io",
+    "docsUrl": "llm-gateway",
+    "fullTitle": "LLM Gateway",
+    "group": "provider",
+    "id": "LlmGateway",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "LLM Gateway"
+  },
+  {
     "color": "#4338CA",
     "colorGradient": "linear-gradient(135deg, #6C78EF, #4F14BE)",
     "desc": "https://lmstudio.ai",

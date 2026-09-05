@@ -180,6 +180,7 @@ export { default as LiveKit, type CompoundedIcon as LiveKitProps } from './LiveK
 export { default as LlamaIndex, type CompoundedIcon as LlamaIndexProps } from './LlamaIndex';
 export { default as LLaVA, type CompoundedIcon as LLaVAProps } from './LLaVA';
 export { default as LlmApi, type CompoundedIcon as LlmApiProps } from './LlmApi';
+export { default as LlmGateway, type CompoundedIcon as LlmGatewayProps } from './LlmGateway';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmStudio';
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeHub';
 export { default as LongCat, type CompoundedIcon as LongCatProps } from './LongCat';
