@@ -6,6 +6,7 @@ import Ai302 from '@/Ai302';
 import Ai360 from '@/Ai360';
 import AiHubMix from '@/AiHubMix';
 import AiMass from '@/AiMass';
+import AiOnly from '@/AiOnly';
 import AiStudio from '@/AiStudio';
 import AkashChat from '@/AkashChat';
 import AlephAlpha from '@/AlephAlpha';
@@ -394,6 +395,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Fal, combineMultiple: 0.8, keywords: [ModelProvider.Fal] },
   { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
+  { Icon: AiOnly, combineMultiple: 0.9, keywords: [ModelProvider.AiOnly] },
   { Icon: CometAPI, keywords: [ModelProvider.CometAPI] },
   {
     Combine: memo(({ size = 24, ...props }) => (
