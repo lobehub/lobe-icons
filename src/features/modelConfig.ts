@@ -280,6 +280,8 @@ export const modelMappings: ModelMapping[] = [
   { Icon: SenseNova, keywords: ['SenseChat', 'SenseNova'] },
   { Icon: Grok, keywords: ['^grok-', '/grok-'] },
   { Icon: Ideogram, keywords: ['ideogram', '^v_1', '^v_2', '^v3$', '^upscale$', '^describe$'] },
+  /** Match Muse Spark before the broad iFlyTek Spark keyword. */
+  { Icon: Meta, keywords: ['(^|/)muse-spark($|-)'] },
   {
     Icon: Spark,
     keywords: [
