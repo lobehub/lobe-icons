@@ -94,6 +94,7 @@ import Ollama from '@/Ollama';
 import OpenAI from '@/OpenAI';
 import OpenCode from '@/OpenCode';
 import OpenRouter from '@/OpenRouter';
+import OrcaRouter from '@/OrcaRouter';
 import PPIO from '@/PPIO';
 import Parasail from '@/Parasail';
 import Perplexity from '@/Perplexity';
@@ -302,6 +303,7 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: Groq, keywords: [ModelProvider.Groq] },
   { Icon: OpenRouter, combineMultiple: 0.8, keywords: [ModelProvider.OpenRouter] },
+  { Icon: OrcaRouter, combineMultiple: 0.8, keywords: [ModelProvider.OrcaRouter] },
   { Icon: ZeroOne, combineMultiple: 1, keywords: [ModelProvider.ZeroOne] },
   { Icon: Together, keywords: [ModelProvider.TogetherAI] },
   { Icon: Qiniu, combineMultiple: 1.1, keywords: [ModelProvider.Qiniu] },

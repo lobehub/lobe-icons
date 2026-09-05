@@ -70,6 +70,7 @@ import Nvidia from '@/Nvidia';
 import OpenAI from '@/OpenAI';
 import OpenChat from '@/OpenChat';
 import OpenRouter from '@/OpenRouter';
+import OrcaRouter from '@/OrcaRouter';
 import PaLM from '@/PaLM';
 import Perplexity from '@/Perplexity';
 import Phind from '@/Phind';
@@ -211,6 +212,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Perplexity, keywords: ['pplx', 'sonar'] },
   { Icon: Yi, keywords: ['^yi-', '/yi-', '-yi-'] },
   { Icon: OpenRouter, keywords: ['^openrouter'] },
+  { Icon: OrcaRouter, keywords: ['^orcarouter'] },
   { Icon: Relace, keywords: ['^relace-', '/relace-'] },
   {
     Icon: Arcee,

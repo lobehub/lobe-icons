@@ -93,6 +93,7 @@ import Ollama from '../icons/Ollama';
 import OpenAI from '../icons/OpenAI';
 import OpenCode from '../icons/OpenCode';
 import OpenRouter from '../icons/OpenRouter';
+import OrcaRouter from '../icons/OrcaRouter';
 import PPIO from '../icons/PPIO';
 import Parasail from '../icons/Parasail';
 import Perplexity from '../icons/Perplexity';
@@ -298,6 +299,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   },
   { Icon: Groq, keywords: [RNModelProvider.Groq] },
   { Icon: OpenRouter, combineMultiple: 0.8, keywords: [RNModelProvider.OpenRouter] },
+  { Icon: OrcaRouter, combineMultiple: 0.8, keywords: [RNModelProvider.OrcaRouter] },
   { Icon: ZeroOne, combineMultiple: 1, keywords: [RNModelProvider.ZeroOne] },
   { Icon: Together, keywords: [RNModelProvider.TogetherAI] },
   { Icon: Qiniu, combineMultiple: 1.1, keywords: [RNModelProvider.Qiniu] },
