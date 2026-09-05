@@ -58,7 +58,6 @@ import Liquid from '@/Liquid';
 import LongCat from '@/LongCat';
 import Menlo from '@/Menlo';
 import Meta from '@/Meta';
-import MetaAI from '@/MetaAI';
 import Microsoft from '@/Microsoft';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
@@ -282,7 +281,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Grok, keywords: ['^grok-', '/grok-'] },
   { Icon: Ideogram, keywords: ['ideogram', '^v_1', '^v_2', '^v3$', '^upscale$', '^describe$'] },
   /** Match Muse Spark before the broad iFlyTek Spark keyword. */
-  { Icon: MetaAI, keywords: ['(^|/)muse-spark($|-)'] },
+  { Icon: Meta, keywords: ['(^|/)muse-spark($|-)'] },
   {
     Icon: Spark,
     keywords: [

@@ -58,7 +58,6 @@ import Liquid from '../icons/Liquid';
 import LongCat from '../icons/LongCat';
 import Menlo from '../icons/Menlo';
 import Meta from '../icons/Meta';
-import MetaAI from '../icons/MetaAI';
 import Microsoft from '../icons/Microsoft';
 import Minimax from '../icons/Minimax';
 import Mistral from '../icons/Mistral';
@@ -280,7 +279,7 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: Grok, keywords: ['^grok-', '/grok-'] },
   { Icon: Ideogram, keywords: ['ideogram', '^v_1', '^v_2', '^v3$', '^upscale$', '^describe$'] },
   /** Match Muse Spark before the broad iFlyTek Spark keyword. */
-  { Icon: MetaAI, keywords: ['(^|/)muse-spark($|-)'] },
+  { Icon: Meta, keywords: ['(^|/)muse-spark($|-)'] },
   {
     Icon: Spark,
     keywords: [

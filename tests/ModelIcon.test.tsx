@@ -1,19 +1,29 @@
 import { renderToStaticMarkup } from 'react-dom/server';
 import { describe, expect, it } from 'vitest';
 
+import MetaColor from '../src/Meta/components/Color';
 import ModelIcon from '../src/features/ModelIcon';
 
 describe('ModelIcon brand resolution', () => {
+  it('renders the Meta color icon for Muse Spark', () => {
+    const markup = renderToStaticMarkup(
+      <ModelIcon model={'muse-spark-1.3'} size={32} type={'color'} />,
+    );
+
+    expect(markup).toBe(renderToStaticMarkup(<MetaColor size={32} />));
+  });
+
   it.each([
     'muse-spark-1.3',
     'muse-spark',
     'meta/muse-spark-1.3',
     'aihubmix/muse-spark-1.3',
     'Muse-Spark-1.3',
-  ])('uses Meta AI for %s instead of iFlyTek Spark', (model) => {
+  ])('uses Meta for %s instead of iFlyTek Spark', (model) => {
     const markup = renderToStaticMarkup(<ModelIcon model={model} type={'mono'} />);
 
-    expect(markup).toContain('<title>MetaAI</title>');
+    expect(markup).toContain('<title>Meta</title>');
+    expect(markup).not.toContain('<title>MetaAI</title>');
     expect(markup).not.toContain('<title>Spark</title>');
   });
 
