@@ -247,7 +247,7 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: Jimeng, keywords: ['^jimeng-', '/jimeng-', 'seedream', 'seededit', 'seedance-'] },
   { Icon: Doubao, keywords: ['^ep-', 'doubao-'] },
   { Icon: Kling, keywords: ['^kling', 'kling-', 'klingai'] },
-  { Icon: Hunyuan, keywords: ['hunyuan', 'hy3'] },
+  { Icon: Hunyuan, keywords: ['hunyuan', 'hy3', 'hy4'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
   { Icon: ByteDance, keywords: ['skylark', 'seed-', 'bytedance'] },
   { Icon: BurnCloud, keywords: ['burncloud'] },
