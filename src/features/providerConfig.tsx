@@ -59,6 +59,7 @@ import Groq from '@/Groq';
 import Higress from '@/Higress';
 import Huawei from '@/Huawei';
 import HuaweiCloud from '@/HuaweiCloud';
+import Hubris from '@/Hubris';
 import HuggingFace from '@/HuggingFace';
 import Hunyuan from '@/Hunyuan';
 import Hyperbolic from '@/Hyperbolic';
@@ -435,5 +436,6 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Cerebras, combineMultiple: 1, keywords: [ModelProvider.Cerebras] },
   { Icon: Straico, combineMultiple: 0.85, keywords: [ModelProvider.Straico] },
   { Icon: ZenMux, combineMultiple: 1, keywords: [ModelProvider.ZenMux], props: { inverse: true } },
+  { Icon: Hubris, combineMultiple: 1, keywords: [ModelProvider.Hubris] },
   { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [ModelProvider.XiaomiMiMo] },
 ];

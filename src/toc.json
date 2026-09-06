@@ -2636,6 +2636,25 @@
     "title": "HuaweiCloud"
   },
   {
+    "color": "#8B6BFF",
+    "desc": "https://hubris.pw",
+    "docsUrl": "hubris",
+    "fullTitle": "Hubris",
+    "group": "provider",
+    "id": "Hubris",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Hubris"
+  },
+  {
     "color": "#fff",
     "desc": "https://huggingface.co",
     "docsUrl": "hugging-face",
