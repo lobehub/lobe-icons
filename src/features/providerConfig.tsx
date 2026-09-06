@@ -94,6 +94,7 @@ import Ollama from '@/Ollama';
 import OpenAI from '@/OpenAI';
 import OpenCode from '@/OpenCode';
 import OpenRouter from '@/OpenRouter';
+import Openference from '@/Openference';
 import PPIO from '@/PPIO';
 import Parasail from '@/Parasail';
 import Perplexity from '@/Perplexity';
@@ -270,6 +271,7 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: Novita, keywords: [ModelProvider.Novita] },
   { Icon: OpenAI, keywords: [ModelProvider.ChatGPT, ModelProvider.OpenAI] },
+  { Icon: Openference, keywords: [ModelProvider.Openference] },
   {
     Icon: OpenCode,
     keywords: [

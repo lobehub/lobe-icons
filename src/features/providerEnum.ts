@@ -102,6 +102,7 @@ export enum ModelProvider {
   OpenCodeGo = 'opencodego',
   OpenCodeZen = 'opencodezen',
   OpenRouter = 'openrouter',
+  Openference = 'openference',
   PPIO = 'ppio',
   Parasail = 'parasail',
   Perplexity = 'perplexity',
