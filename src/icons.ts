@@ -25,6 +25,7 @@ export { default as Antigravity, type CompoundedIcon as AntigravityProps } from 
 export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './Anyscale';
 export { default as Apertis, type CompoundedIcon as ApertisProps } from './Apertis';
 export { default as Apple, type CompoundedIcon as AppleProps } from './Apple';
+export { default as Appwrite, type CompoundedIcon as AppwriteProps } from './Appwrite';
 export { default as Arcee, type CompoundedIcon as ArceeProps } from './Arcee';
 export { default as AskVerdict, type CompoundedIcon as AskVerdictProps } from './AskVerdict';
 export { default as AssemblyAI, type CompoundedIcon as AssemblyAIProps } from './AssemblyAI';

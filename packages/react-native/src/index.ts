@@ -42,6 +42,7 @@ export {
 export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './icons/Anyscale';
 export { default as Apertis, type CompoundedIcon as ApertisProps } from './icons/Apertis';
 export { default as Apple, type CompoundedIcon as AppleProps } from './icons/Apple';
+export { default as Appwrite, type CompoundedIcon as AppwriteProps } from './icons/Appwrite';
 export { default as Arcee, type CompoundedIcon as ArceeProps } from './icons/Arcee';
 export { default as AskVerdict, type CompoundedIcon as AskVerdictProps } from './icons/AskVerdict';
 export { default as AssemblyAI, type CompoundedIcon as AssemblyAIProps } from './icons/AssemblyAI';
