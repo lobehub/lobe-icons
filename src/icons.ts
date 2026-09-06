@@ -232,6 +232,7 @@ export { default as OpenWebUI, type CompoundedIcon as OpenWebUIProps } from './O
 export { default as PaLM, type CompoundedIcon as PaLMProps } from './PaLM';
 export { default as Parasail, type CompoundedIcon as ParasailProps } from './Parasail';
 export { default as Perplexity, type CompoundedIcon as PerplexityProps } from './Perplexity';
+export { default as PersonaStack, type CompoundedIcon as PersonaStackProps } from './PersonaStack';
 export { default as Phidata, type CompoundedIcon as PhidataProps } from './Phidata';
 export { default as Phind, type CompoundedIcon as PhindProps } from './Phind';
 export { default as Pi, type CompoundedIcon as PiProps } from './Pi';
