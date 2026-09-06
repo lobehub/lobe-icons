@@ -306,6 +306,7 @@ export { default as Viggle, type CompoundedIcon as ViggleProps } from './Viggle'
 export { default as Vllm, type CompoundedIcon as VllmProps } from './Vllm';
 export { default as Volcengine, type CompoundedIcon as VolcengineProps } from './Volcengine';
 export { default as Voyage, type CompoundedIcon as VoyageProps } from './Voyage';
+export { default as WaveSpeed, type CompoundedIcon as WaveSpeedProps } from './WaveSpeed';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as Windsurf, type CompoundedIcon as WindsurfProps } from './Windsurf';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';

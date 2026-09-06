@@ -5769,6 +5769,25 @@
     "title": "Voyage"
   },
   {
+    "color": "#000",
+    "desc": "https://wavespeed.ai",
+    "docsUrl": "wave-speed",
+    "fullTitle": "WaveSpeed",
+    "group": "provider",
+    "id": "WaveSpeed",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "WaveSpeed"
+  },
+  {
     "color": "#167ADF",
     "colorGradient": "linear-gradient(to right, #0A51C3,  #23A4FB)",
     "desc": "https://yiyan.baidu.com",

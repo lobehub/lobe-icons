@@ -126,6 +126,7 @@ import Vercel from '@/Vercel';
 import VertexAI from '@/VertexAI';
 import Vllm from '@/Vllm';
 import Volcengine from '@/Volcengine';
+import WaveSpeed from '@/WaveSpeed';
 import Wenxin from '@/Wenxin';
 import WorkersAI from '@/WorkersAI';
 import XAI from '@/XAI';
@@ -436,4 +437,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Straico, combineMultiple: 0.85, keywords: [ModelProvider.Straico] },
   { Icon: ZenMux, combineMultiple: 1, keywords: [ModelProvider.ZenMux], props: { inverse: true } },
   { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [ModelProvider.XiaomiMiMo] },
+  { Icon: WaveSpeed, combineMultiple: 0.7, keywords: [ModelProvider.WaveSpeed] },
 ];
