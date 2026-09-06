@@ -54,6 +54,7 @@ import Github from '@/Github';
 import GithubCopilot from '@/GithubCopilot';
 import Google from '@/Google';
 import GoogleCloud from '@/GoogleCloud';
+import GreenPT from '@/GreenPT';
 import Grok from '@/Grok';
 import Groq from '@/Groq';
 import Higress from '@/Higress';
@@ -300,6 +301,7 @@ export const providerMappings: ProviderMapping[] = [
     combineMultiple: 0.83,
     keywords: [ModelProvider.Anthropic],
   },
+  { Icon: GreenPT, combineMultiple: 0.9, keywords: [ModelProvider.GreenPT] },
   { Icon: Groq, keywords: [ModelProvider.Groq] },
   { Icon: OpenRouter, combineMultiple: 0.8, keywords: [ModelProvider.OpenRouter] },
   { Icon: ZeroOne, combineMultiple: 1, keywords: [ModelProvider.ZeroOne] },
