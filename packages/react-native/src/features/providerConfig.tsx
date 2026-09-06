@@ -42,6 +42,7 @@ import DeepInfra from '../icons/DeepInfra';
 import DeepMind from '../icons/DeepMind';
 import DeepSeek from '../icons/DeepSeek';
 import Doubao from '../icons/Doubao';
+import EveryAPI from '../icons/EveryAPI';
 import Exa from '../icons/Exa';
 import Fal from '../icons/Fal';
 import Featherless from '../icons/Featherless';
@@ -415,6 +416,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Replicate, combineMultiple: 0.9, keywords: [RNModelProvider.Replicate] },
   { Icon: Nebius, combineMultiple: 0.75, keywords: [RNModelProvider.Nebius] },
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [RNModelProvider.NewAPI] },
+  { Icon: EveryAPI, combineMultiple: 0.85, keywords: [RNModelProvider.EveryAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [RNModelProvider.AkashChat] },
   { Icon: AtlasCloud, combineMultiple: 0.8, keywords: [RNModelProvider.AtlasCloud] },
   { Icon: SophNet, combineMultiple: 0.85, keywords: [RNModelProvider.SophNet] },

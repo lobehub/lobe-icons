@@ -1949,6 +1949,25 @@
     "title": "Essential AI"
   },
   {
+    "color": "#7C5CFF",
+    "desc": "https://everyapi.ai",
+    "docsUrl": "every-api",
+    "fullTitle": "EveryAPI",
+    "group": "provider",
+    "id": "EveryAPI",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "EveryAPI"
+  },
+  {
     "color": "#1f40ed",
     "desc": "https://exa.ai",
     "docsUrl": "exa",
