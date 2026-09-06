@@ -123,6 +123,7 @@ export enum RNModelProvider {
   StepfunCodingPlan = 'stepfuncodingplan',
   Straico = 'straico',
   StreamLake = 'streamlake',
+  Sub2API = 'sub2api',
   SubModel = 'submodel',
   SuperGrok = 'supergrok',
   TII = 'tii',

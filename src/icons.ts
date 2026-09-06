@@ -278,6 +278,7 @@ export { default as StateCloud, type CompoundedIcon as StateCloudProps } from '.
 export { default as Stepfun, type CompoundedIcon as StepfunProps } from './Stepfun';
 export { default as Straico, type CompoundedIcon as StraicoProps } from './Straico';
 export { default as StreamLake, type CompoundedIcon as StreamLakeProps } from './StreamLake';
+export { default as Sub2API, type CompoundedIcon as Sub2APIProps } from './Sub2API';
 export { default as SubModel, type CompoundedIcon as SubModelProps } from './SubModel';
 export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';
 export { default as Sync, type CompoundedIcon as SyncProps } from './Sync';

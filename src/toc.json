@@ -5233,6 +5233,26 @@
     "title": "StreamLake"
   },
   {
+    "color": "#2FD3E1",
+    "colorGradient": "linear-gradient(135deg, #67EDB1, #2FD3E1, #2E68EA)",
+    "desc": "https://sub2api.org",
+    "docsUrl": "sub2-api",
+    "fullTitle": "Sub2API",
+    "group": "provider",
+    "id": "Sub2API",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Sub2API"
+  },
+  {
     "color": "#fff",
     "desc": "https://submodel.ai",
     "docsUrl": "sub-model",
