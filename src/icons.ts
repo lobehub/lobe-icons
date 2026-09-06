@@ -17,6 +17,7 @@ export { default as AkashChat, type CompoundedIcon as AkashChatProps } from './A
 export { default as AlephAlpha, type CompoundedIcon as AlephAlphaProps } from './AlephAlpha';
 export { default as Alibaba, type CompoundedIcon as AlibabaProps } from './Alibaba';
 export { default as AlibabaCloud, type CompoundedIcon as AlibabaCloudProps } from './AlibabaCloud';
+export { default as AMDRadeonCloud, type CompoundedIcon as AMDRadeonCloudProps } from './AMDRadeonCloud';
 export { default as Amp, type CompoundedIcon as AmpProps } from './Amp';
 export { default as Anspire, type CompoundedIcon as AnspireProps } from './Anspire';
 export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './AntGroup';
@@ -77,6 +78,7 @@ export { default as Colab, type CompoundedIcon as ColabProps } from './Colab';
 export { default as CometAPI, type CompoundedIcon as CometAPIProps } from './CometAPI';
 export { default as ComfyUI, type CompoundedIcon as ComfyUIProps } from './ComfyUI';
 export { default as CommandA, type CompoundedIcon as CommandAProps } from './CommandA';
+export { default as CommandCode, type CompoundedIcon as CommandCodeProps } from './CommandCode';
 export { default as Copilot, type CompoundedIcon as CopilotProps } from './Copilot';
 export { default as CopilotKit, type CompoundedIcon as CopilotKitProps } from './CopilotKit';
 export { default as Coqui, type CompoundedIcon as CoquiProps } from './Coqui';
