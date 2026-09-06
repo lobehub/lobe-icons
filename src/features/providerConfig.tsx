@@ -119,6 +119,7 @@ import TII from '@/TII';
 import Targon from '@/Targon';
 import Tencent from '@/Tencent';
 import TencentCloud from '@/TencentCloud';
+import TheGrid from '@/TheGrid';
 import Together from '@/Together';
 import Upstage from '@/Upstage';
 import V0 from '@/V0';
@@ -395,6 +396,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
   { Icon: CometAPI, keywords: [ModelProvider.CometAPI] },
+  { Icon: TheGrid, keywords: [ModelProvider.TheGrid] },
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine

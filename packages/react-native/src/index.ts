@@ -353,6 +353,7 @@ export {
   default as TencentCloud,
   type CompoundedIcon as TencentCloudProps,
 } from './icons/TencentCloud';
+export { default as TheGrid, type CompoundedIcon as TheGridProps } from './icons/TheGrid';
 export { default as Tiangong, type CompoundedIcon as TiangongProps } from './icons/Tiangong';
 export { default as TII, type CompoundedIcon as TIIProps } from './icons/TII';
 export { default as Together, type CompoundedIcon as TogetherProps } from './icons/Together';
