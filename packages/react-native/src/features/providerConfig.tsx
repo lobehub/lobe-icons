@@ -58,6 +58,7 @@ import Groq from '../icons/Groq';
 import Higress from '../icons/Higress';
 import Huawei from '../icons/Huawei';
 import HuaweiCloud from '../icons/HuaweiCloud';
+import Hubris from '../icons/Hubris';
 import HuggingFace from '../icons/HuggingFace';
 import Hunyuan from '../icons/Hunyuan';
 import Hyperbolic from '../icons/Hyperbolic';
@@ -439,5 +440,6 @@ export const rnProviderMappings: RNProviderMapping[] = [
     keywords: [RNModelProvider.ZenMux],
     props: { inverse: true },
   },
+  { Icon: Hubris, combineMultiple: 1, keywords: [RNModelProvider.Hubris] },
   { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [RNModelProvider.XiaomiMiMo] },
 ];

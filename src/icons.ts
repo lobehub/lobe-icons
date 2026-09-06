@@ -142,6 +142,7 @@ export { default as HermesAgent, type CompoundedIcon as HermesAgentProps } from 
 export { default as Higress, type CompoundedIcon as HigressProps } from './Higress';
 export { default as Huawei, type CompoundedIcon as HuaweiProps } from './Huawei';
 export { default as HuaweiCloud, type CompoundedIcon as HuaweiCloudProps } from './HuaweiCloud';
+export { default as Hubris, type CompoundedIcon as HubrisProps } from './Hubris';
 export { default as HuggingFace, type CompoundedIcon as HuggingFaceProps } from './HuggingFace';
 export { default as Hunyuan, type CompoundedIcon as HunyuanProps } from './Hunyuan';
 export { default as Hyperbolic, type CompoundedIcon as HyperbolicProps } from './Hyperbolic';

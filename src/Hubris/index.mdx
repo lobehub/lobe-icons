@@ -1,0 +1,111 @@
+---
+title: Hubris
+description: https://hubris.pw
+category: Provider
+---
+
+import { Hubris } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Hubris size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Hubris } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Hubris size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Hubris.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Hubris } from '@lobehub/icons';
+
+export default () => <Hubris.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Hubris.Combine size={64} inverse />
+      <Hubris.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Hubris } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Hubris.Combine size={64} inverse />
+    <Hubris.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Hubris.Avatar size={64} />
+      <Hubris.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Hubris } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Hubris.Avatar size={64} />
+    <Hubris.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Hubris.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Hubris } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Hubris.colorPrimary} />
+  </Flexbox>
+);
+```

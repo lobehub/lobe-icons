@@ -186,6 +186,7 @@ export {
   default as HuaweiCloud,
   type CompoundedIcon as HuaweiCloudProps,
 } from './icons/HuaweiCloud';
+export { default as Hubris, type CompoundedIcon as HubrisProps } from './icons/Hubris';
 export {
   default as HuggingFace,
   type CompoundedIcon as HuggingFaceProps,
