@@ -1853,6 +1853,25 @@
     "title": "Dolphin"
   },
   {
+    "color": "#a3e6d9",
+    "desc": "https://studio.dots.ai",
+    "docsUrl": "dots-studio",
+    "fullTitle": "Dots Studio",
+    "group": "model",
+    "id": "DotsStudio",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Dots Studio"
+  },
+  {
     "color": "#FFF",
     "desc": "https://team.doubao.com",
     "docsUrl": "doubao",
