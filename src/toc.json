@@ -4870,6 +4870,25 @@
     "title": "SambaNova"
   },
   {
+    "color": "#FFCE3F",
+    "desc": "https://saygm.com",
+    "docsUrl": "say-gm",
+    "fullTitle": "SayGM",
+    "group": "provider",
+    "id": "SayGM",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "SayGM"
+  },
+  {
     "color": "#0066FF",
     "desc": "https://search1api.com",
     "docsUrl": "search1-api",
