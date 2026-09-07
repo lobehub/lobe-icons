@@ -2559,6 +2559,25 @@
     "title": "Hedra"
   },
   {
+    "color": "#0D9488",
+    "desc": "https://www.hefu.hk/",
+    "docsUrl": "hefu",
+    "fullTitle": "HeFu",
+    "group": "provider",
+    "id": "HeFu",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "HeFu"
+  },
+  {
     "color": "#fff",
     "desc": "https://hermes-agent.nousresearch.com",
     "docsUrl": "hermes-agent",

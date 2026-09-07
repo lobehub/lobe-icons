@@ -57,6 +57,7 @@ export enum ModelProvider {
   Google = 'google',
   GoogleCloud = 'googlecloud',
   Groq = 'groq',
+  HeFu = 'hefu',
   Higress = 'higress',
   Huawei = 'huawei',
   HuaweiCloud = 'huaweicloud',
