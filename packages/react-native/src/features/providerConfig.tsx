@@ -55,6 +55,7 @@ import Google from '../icons/Google';
 import GoogleCloud from '../icons/GoogleCloud';
 import Grok from '../icons/Grok';
 import Groq from '../icons/Groq';
+import HeFu from '../icons/HeFu';
 import Higress from '../icons/Higress';
 import Huawei from '../icons/Huawei';
 import HuaweiCloud from '../icons/HuaweiCloud';
@@ -394,6 +395,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Ai302, combineMultiple: 0.9, keywords: [RNModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [RNModelProvider.AiHubMix] },
   { Icon: CometAPI, keywords: [RNModelProvider.CometAPI] },
+  { Icon: HeFu, keywords: [RNModelProvider.HeFu] },
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine
