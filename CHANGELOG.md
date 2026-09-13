@@ -2,6 +2,131 @@
 
 # Changelog
 
+## [Version 5.18.0](https://github.com/lobehub/lobe-icons/compare/v5.17.0...v5.18.0)
+
+<sup>Released on **2026-09-05**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Use Meta AI icon for Muse Spark models, use Meta infinity icon for Muse Spark models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([5fa93d3](https://github.com/lobehub/lobe-icons/commit/5fa93d3))
+
+#### What's fixed
+
+- **misc**: Use Meta AI icon for Muse Spark models ([2771dc9](https://github.com/lobehub/lobe-icons/commit/2771dc9))
+- **misc**: Use Meta infinity icon for Muse Spark models ([1c89dbc](https://github.com/lobehub/lobe-icons/commit/1c89dbc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 5.17.0](https://github.com/lobehub/lobe-icons/compare/v5.16.2...v5.17.0)
+
+<sup>Released on **2026-09-05**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Stop the workspace glob from descending into nested node\_modules.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([2e7aef7](https://github.com/lobehub/lobe-icons/commit/2e7aef7))
+
+#### What's fixed
+
+- **misc**: Stop the workspace glob from descending into nested node\_modules ([6f8343b](https://github.com/lobehub/lobe-icons/commit/6f8343b))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 5.16.2](https://github.com/lobehub/lobe-icons/compare/v5.16.1...v5.16.2)
+
+<sup>Released on **2026-09-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Use Meta AI wordmark for the meta provider icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Use Meta AI wordmark for the meta provider icon ([4b3daf0](https://github.com/lobehub/lobe-icons/commit/4b3daf0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 5.16.1](https://github.com/lobehub/lobe-icons/compare/v5.16.0...v5.16.1)
+
+<sup>Released on **2026-09-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Remove committed docs-kit generated react-router config.
+
+#### 💄 Styles
+
+- **misc**: Add Unsloth.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Remove committed docs-kit generated react-router config ([b44202e](https://github.com/lobehub/lobe-icons/commit/b44202e))
+
+#### Styles
+
+- **misc**: Add Unsloth ([4aaf4ee](https://github.com/lobehub/lobe-icons/commit/4aaf4ee))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.16.0](https://github.com/lobehub/lobe-icons/compare/v5.15.0...v5.16.0)
 
 <sup>Released on **2026-08-12**</sup>

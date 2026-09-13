@@ -79,7 +79,7 @@ import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
 import LongCat from '@/LongCat';
 import Menlo from '@/Menlo';
-import Meta from '@/Meta';
+import MetaAI from '@/MetaAI';
 import Microsoft from '@/Microsoft';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
@@ -194,7 +194,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: LlmApi, keywords: [ModelProvider.LlmApi] },
   { Icon: LG, keywords: [ModelProvider.LG] },
   { Icon: Menlo, keywords: [ModelProvider.Menlo] },
-  { Icon: Meta, keywords: [ModelProvider.Meta] },
+  { Icon: MetaAI, keywords: [ModelProvider.Meta] },
   { Icon: Microsoft, keywords: [ModelProvider.Microsoft] },
   { Icon: NPLCloud, keywords: [ModelProvider.NPLCloud] },
   { Icon: NousResearch, keywords: [ModelProvider.NousResearch] },
