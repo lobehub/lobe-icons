@@ -54,6 +54,7 @@ import Github from '@/Github';
 import GithubCopilot from '@/GithubCopilot';
 import Google from '@/Google';
 import GoogleCloud from '@/GoogleCloud';
+import GPTZZZ from '@/GPTZZZ';
 import Grok from '@/Grok';
 import Groq from '@/Groq';
 import Higress from '@/Higress';
@@ -394,6 +395,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Fal, combineMultiple: 0.8, keywords: [ModelProvider.Fal] },
   { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
+  { Icon: GPTZZZ, combineMultiple: 0.9, keywords: [ModelProvider.GPTZZZ] },
   { Icon: CometAPI, keywords: [ModelProvider.CometAPI] },
   {
     Combine: memo(({ size = 24, ...props }) => (

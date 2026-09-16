@@ -130,6 +130,7 @@ export { default as GLMV, type CompoundedIcon as GLMVProps } from './GLMV';
 export { default as Google, type CompoundedIcon as GoogleProps } from './Google';
 export { default as GoogleCloud, type CompoundedIcon as GoogleCloudProps } from './GoogleCloud';
 export { default as Goose, type CompoundedIcon as GooseProps } from './Goose';
+export { default as GPTZZZ, type CompoundedIcon as GPTZZZProps } from './GPTZZZ';
 export { default as Gradio, type CompoundedIcon as GradioProps } from './Gradio';
 export { default as Greptile, type CompoundedIcon as GreptileProps } from './Greptile';
 export { default as Grok, type CompoundedIcon as GrokProps } from './Grok';
