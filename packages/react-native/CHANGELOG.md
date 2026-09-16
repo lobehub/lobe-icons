@@ -2,6 +2,65 @@
 
 # Changelog
 
+### [Version 2.13.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.13.0...@lobehub/icons-rn@2.13.1)
+
+<sup>Released on **2026-09-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Use Meta AI icon for Muse Spark models, use Meta infinity icon for Muse Spark models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Use Meta AI icon for Muse Spark models ([2771dc9](https://github.com/lobehub/lobe-icons/commit/2771dc9))
+- **misc**: Use Meta infinity icon for Muse Spark models ([1c89dbc](https://github.com/lobehub/lobe-icons/commit/1c89dbc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 2.13.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.12.0...@lobehub/icons-rn@2.13.0)
+
+<sup>Released on **2026-09-05**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Hunyuan icon mapping for Hy3 models.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Use Meta AI wordmark for the meta provider icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Hunyuan icon mapping for Hy3 models, closes [#378](https://github.com/lobehub/lobe-icons/issues/378) ([8c7fa2f](https://github.com/lobehub/lobe-icons/commit/8c7fa2f))
+
+#### What's fixed
+
+- **misc**: Use Meta AI wordmark for the meta provider icon ([4b3daf0](https://github.com/lobehub/lobe-icons/commit/4b3daf0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.12.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.11.0...@lobehub/icons-rn@2.12.0)
 
 <sup>Released on **2026-07-24**</sup>

@@ -33,6 +33,7 @@ test-output
 
 # docs
 .react-router
+react-router.config.mjs
 
 # husky
 .husky/prepare-commit-msg
