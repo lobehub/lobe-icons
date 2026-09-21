@@ -6,6 +6,37 @@ on:
       - alpha
       - beta
       - rc
+  workflow_dispatch:
+    inputs:
+      force_release:
+        description: 'Force release (bypass conventional commits)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+      release_type:
+        description: 'Release type (when force release is true)'
+        required: false
+        default: 'patch'
+        type: choice
+        options:
+          - 'patch'
+          - 'minor'
+          - 'major'
+
+# Every job here ends by pushing a release commit to the branch, so two runs
+# must never overlap.
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  id-token: write # Required for OIDC
+  contents: write # Required for semantic-release to push tags and commits
+  issues: write # Required for semantic-release to create issues
+  pull-requests: write # Required for semantic-release to comment on PRs
 
 jobs:
   release:
