@@ -10,7 +10,6 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
   return (
     <svg
       fill="currentColor"
-      fillRule="evenodd"
       height={size}
       style={{ flex: 'none', lineHeight: 1, ...style }}
       viewBox="0 0 86 24"
