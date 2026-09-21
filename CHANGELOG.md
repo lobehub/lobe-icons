@@ -2,6 +2,34 @@
 
 # Changelog
 
+## [Version 5.19.0](https://github.com/lobehub/lobe-icons/compare/v5.18.0...v5.19.0)
+
+<sup>Released on **2026-09-21**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add Chutes, Decart, DigitalOcean, GmiCloud, Inceptron, IoNet,…, merge new icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([3907f71](https://github.com/lobehub/lobe-icons/commit/3907f71))
+- **misc**: Add Chutes, Decart, DigitalOcean, GmiCloud, Inceptron, IoNet,…, closes [#416](https://github.com/lobehub/lobe-icons/issues/416) [#369](https://github.com/lobehub/lobe-icons/issues/369) ([c4a016c](https://github.com/lobehub/lobe-icons/commit/c4a016c))
+- **misc**: Merge new icons, closes [#417](https://github.com/lobehub/lobe-icons/issues/417) [#401](https://github.com/lobehub/lobe-icons/issues/401) [#402](https://github.com/lobehub/lobe-icons/issues/402) [#8C4](https://github.com/lobehub/lobe-icons/issues/8C4) [#ED1C24](https://github.com/lobehub/lobe-icons/issues/ED1C24) [#396](https://github.com/lobehub/lobe-icons/issues/396) [#390](https://github.com/lobehub/lobe-icons/issues/390) [#389](https://github.com/lobehub/lobe-icons/issues/389) ([38bbb50](https://github.com/lobehub/lobe-icons/commit/38bbb50))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.18.0](https://github.com/lobehub/lobe-icons/compare/v5.17.0...v5.18.0)
 
 <sup>Released on **2026-09-05**</sup>
