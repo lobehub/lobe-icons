@@ -6017,6 +6017,11 @@
   },
   {
     "color": "#000",
+    "desc": "https://wavespeed.ai",
+    "docsUrl": "wave-speed",
+    "fullTitle": "WaveSpeed",
+    "group": "provider",
+    "id": "WaveSpeed",
     "desc": "https://wafer.ai",
     "docsUrl": "wafer",
     "fullTitle": "Wafer",
@@ -6032,6 +6037,7 @@
       "hasTextCn": false,
       "hasTextColor": false
     },
+    "title": "WaveSpeed"
     "title": "Wafer"
   },
   {
