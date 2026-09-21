@@ -1,6 +1,6 @@
 export const TITLE = 'AMD Radeon Cloud';
-export const COMBINE_TEXT_MULTIPLE = 0.75;
-export const COMBINE_SPACE_MULTIPLE = 0.3;
+export const COMBINE_TEXT_MULTIPLE = 0.9;
+export const COMBINE_SPACE_MULTIPLE = 0.1;
 export const COLOR_PRIMARY = '#ED1C24';
 
 // Avatar constants

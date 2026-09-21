@@ -12,13 +12,25 @@ import DocsPreview from '../components/DocsPreview';
 
 ## Icons
 
-<DocsPreview>{<AMDRadeonCloud size={64} />}</DocsPreview>
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <AMDRadeonCloud size={64} />
+      <AMDRadeonCloud.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { AMDRadeonCloud } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
 
-export default () => <AMDRadeonCloud size={64} />;
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <AMDRadeonCloud size={64} />
+    <AMDRadeonCloud.Color size={64} />
+  </Flexbox>
+);
 ```
 
 ## Text
@@ -37,6 +49,7 @@ export default () => <AMDRadeonCloud.Text size={48} />;
   {
     <Flexbox gap={16} align={'flex-start'}>
       <AMDRadeonCloud.Combine size={64} />
+      <AMDRadeonCloud.Combine size={64} type={'color'} />
     </Flexbox>
   }
 </DocsPreview>
@@ -48,6 +61,7 @@ import { Flexbox } from '@lobehub/ui';
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
     <AMDRadeonCloud.Combine size={64} />
+    <AMDRadeonCloud.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
@@ -97,3 +111,4 @@ export default () => (
   </Flexbox>
 );
 ```
+

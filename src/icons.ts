@@ -17,7 +17,10 @@ export { default as AkashChat, type CompoundedIcon as AkashChatProps } from './A
 export { default as AlephAlpha, type CompoundedIcon as AlephAlphaProps } from './AlephAlpha';
 export { default as Alibaba, type CompoundedIcon as AlibabaProps } from './Alibaba';
 export { default as AlibabaCloud, type CompoundedIcon as AlibabaCloudProps } from './AlibabaCloud';
-export { default as AMDRadeonCloud, type CompoundedIcon as AMDRadeonCloudProps } from './AMDRadeonCloud';
+export {
+  default as AMDRadeonCloud,
+  type CompoundedIcon as AMDRadeonCloudProps,
+} from './AMDRadeonCloud';
 export { default as Amp, type CompoundedIcon as AmpProps } from './Amp';
 export { default as Anspire, type CompoundedIcon as AnspireProps } from './Anspire';
 export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './AntGroup';
@@ -198,7 +201,6 @@ export { default as Luma, type CompoundedIcon as LumaProps } from './Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './Magic';
 export { default as Make, type CompoundedIcon as MakeProps } from './Make';
 export { default as Manus, type CompoundedIcon as ManusProps } from './Manus';
-export { default as Manifest, type CompoundedIcon as ManifestProps } from './Manifest';
 export { default as Mastra, type CompoundedIcon as MastraProps } from './Mastra';
 export { default as MCP, type CompoundedIcon as MCPProps } from './MCP';
 export { default as McpSo, type CompoundedIcon as McpSoProps } from './McpSo';
@@ -322,9 +324,9 @@ export { default as Viggle, type CompoundedIcon as ViggleProps } from './Viggle'
 export { default as Vllm, type CompoundedIcon as VllmProps } from './Vllm';
 export { default as Volcengine, type CompoundedIcon as VolcengineProps } from './Volcengine';
 export { default as Voyage, type CompoundedIcon as VoyageProps } from './Voyage';
-export { default as WaveSpeed, type CompoundedIcon as WaveSpeedProps } from './WaveSpeed';
 export { default as Wafer, type CompoundedIcon as WaferProps } from './Wafer';
 export { default as Wandb, type CompoundedIcon as WandbProps } from './Wandb';
+export { default as WaveSpeed, type CompoundedIcon as WaveSpeedProps } from './WaveSpeed';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as Windsurf, type CompoundedIcon as WindsurfProps } from './Windsurf';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
