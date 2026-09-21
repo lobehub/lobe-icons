@@ -42,6 +42,7 @@ export enum RNModelProvider {
   DeepInfra = 'deepinfra',
   DeepMind = 'deepmind',
   DeepSeek = 'deepseek',
+  Deyin = 'deyin',
   Doubao = 'doubao',
   Exa = 'exa',
   Fal = 'fal',
