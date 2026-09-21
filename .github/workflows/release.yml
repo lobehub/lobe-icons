@@ -73,7 +73,8 @@ jobs:
       - name: Release
         run: bun run release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          # Use the Actions token, not secrets.GH_TOKEN (that PAT's account is suspended).
+          GITHUB_TOKEN: ${{ github.token }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Build Static
@@ -90,7 +91,7 @@ jobs:
           git commit -m "✨ feat(auto): Auto build static icons" || exit 0
           git push
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
 
       - name: Build RN
         run: bun run build:rn
@@ -98,5 +99,5 @@ jobs:
       - name: Release Static
         run: bun run release:static
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
