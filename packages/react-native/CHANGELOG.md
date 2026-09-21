@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 2.14.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.13.1...@lobehub/icons-rn@2.14.0)
+
+<sup>Released on **2026-09-21**</sup>
+
+#### ✨ Features
+
+- **misc**: Merge new icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Merge new icons, closes [#417](https://github.com/lobehub/lobe-icons/issues/417) [#401](https://github.com/lobehub/lobe-icons/issues/401) [#402](https://github.com/lobehub/lobe-icons/issues/402) [#8C4](https://github.com/lobehub/lobe-icons/issues/8C4) [#ED1C24](https://github.com/lobehub/lobe-icons/issues/ED1C24) [#396](https://github.com/lobehub/lobe-icons/issues/396) [#390](https://github.com/lobehub/lobe-icons/issues/390) [#389](https://github.com/lobehub/lobe-icons/issues/389) ([38bbb50](https://github.com/lobehub/lobe-icons/commit/38bbb50))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 2.13.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.13.0...@lobehub/icons-rn@2.13.1)
 
 <sup>Released on **2026-09-05**</sup>
