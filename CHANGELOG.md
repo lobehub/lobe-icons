@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 5.19.3](https://github.com/lobehub/lobe-icons/compare/v5.19.2...v5.19.3)
+
+<sup>Released on **2026-09-21**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Use github.token for semantic-release.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Use github.token for semantic-release ([ad84f0c](https://github.com/lobehub/lobe-icons/commit/ad84f0c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 5.19.2](https://github.com/lobehub/lobe-icons/compare/v5.19.1...v5.19.2)
 
 <sup>Released on **2026-09-21**</sup>
