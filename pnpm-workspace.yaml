@@ -8,3 +8,13 @@ allowBuilds:
   puppeteer: true
   sharp: true
   unrs-resolver: true
+publicHoistPattern:
+  - '*@umijs/lint*'
+  - '*changelog*'
+  - '*commitlint*'
+  - '*eslint*'
+  - '*postcss*'
+  - '*prettier*'
+  - '*remark*'
+  - '*semantic-release*'
+  - '*stylelint*'
