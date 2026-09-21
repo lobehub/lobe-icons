@@ -103,6 +103,7 @@ export { default as DigitalOcean, type CompoundedIcon as DigitalOceanProps } fro
 export { default as Doc2X, type CompoundedIcon as Doc2XProps } from './Doc2X';
 export { default as DocSearch, type CompoundedIcon as DocSearchProps } from './DocSearch';
 export { default as Dolphin, type CompoundedIcon as DolphinProps } from './Dolphin';
+export { default as DotsStudio, type CompoundedIcon as DotsStudioProps } from './DotsStudio';
 export { default as Doubao, type CompoundedIcon as DoubaoProps } from './Doubao';
 export { default as DreamMachine, type CompoundedIcon as DreamMachineProps } from './DreamMachine';
 export { default as ElevenLabs, type CompoundedIcon as ElevenLabsProps } from './ElevenLabs';
