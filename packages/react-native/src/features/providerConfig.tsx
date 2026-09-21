@@ -41,6 +41,7 @@ import Crusoe from '../icons/Crusoe';
 import DeepInfra from '../icons/DeepInfra';
 import DeepMind from '../icons/DeepMind';
 import DeepSeek from '../icons/DeepSeek';
+import Deyin from '../icons/Deyin';
 import Doubao from '../icons/Doubao';
 import Exa from '../icons/Exa';
 import Fal from '../icons/Fal';
@@ -229,6 +230,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
     keywords: [RNModelProvider.Bedrock],
   },
   { Icon: DeepSeek, combineMultiple: 1.16, keywords: [RNModelProvider.DeepSeek] },
+  { Icon: Deyin, keywords: [RNModelProvider.Deyin] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine

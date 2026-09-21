@@ -130,6 +130,7 @@ export { default as DeepL, type CompoundedIcon as DeepLProps } from './icons/Dee
 export { default as DeepMind, type CompoundedIcon as DeepMindProps } from './icons/DeepMind';
 export { default as DeepSeek, type CompoundedIcon as DeepSeekProps } from './icons/DeepSeek';
 export { default as Devin, type CompoundedIcon as DevinProps } from './icons/Devin';
+export { default as Deyin, type CompoundedIcon as DeyinProps } from './icons/Deyin';
 export { default as Dify, type CompoundedIcon as DifyProps } from './icons/Dify';
 export {
   default as DigitalOcean,

@@ -1,0 +1,72 @@
+---
+nav: Components
+group: Application
+title: Deyin
+atomId: Deyin
+description: https://deyin.ai
+---
+
+## Icons
+
+```tsx
+import { Deyin } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Deyin size={64} />
+    <Deyin.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+```tsx
+import { Deyin } from '@lobehub/icons';
+
+export default () => <Deyin.Text size={48} />;
+```
+
+## Combine
+
+```tsx
+import { Deyin } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Deyin.Combine size={64} />
+    <Deyin.Combine type={'color'} size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+```tsx
+import { Deyin } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Deyin.Avatar size={64} />
+    <Deyin.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+```tsx
+import { Deyin } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Deyin.colorPrimary} />
+  </Flexbox>
+);
+```
