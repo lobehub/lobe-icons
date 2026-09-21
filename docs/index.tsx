@@ -1,4 +1,4 @@
-import { Center, Flexbox } from '@lobehub/ui';
+import { Center } from '@lobehub/ui';
 import { Features, FeaturesProps, Hero } from '@lobehub/ui/awesome';
 import { Expand, GitPullRequest, Trees } from 'lucide-react';
 import { Link } from 'react-router';
@@ -33,7 +33,7 @@ const items: FeaturesProps['items'] = [
 
 export default () => {
   return (
-    <Flexbox gap={64} paddingBlock={64}>
+    <Center gap={64} paddingBlock={64}>
       <Hero
         Link={Link}
         actions={[
@@ -76,6 +76,6 @@ export default () => {
       </Center>
       <Dashboard />
       <Features items={items} />
-    </Flexbox>
+    </Center>
   );
 };

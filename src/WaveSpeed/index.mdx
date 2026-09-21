@@ -1,0 +1,99 @@
+---
+title: WaveSpeed
+description: https://wavespeed.ai
+category: Provider
+---
+
+import { WaveSpeed } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<WaveSpeed size={64} />}</DocsPreview>
+
+```tsx
+import { WaveSpeed } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <WaveSpeed size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<WaveSpeed.Text size={48} />}</DocsPreview>
+
+```tsx
+import { WaveSpeed } from '@lobehub/icons';
+
+export default () => <WaveSpeed.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <WaveSpeed.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { WaveSpeed } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <WaveSpeed.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <WaveSpeed.Avatar size={64} />
+      <WaveSpeed.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { WaveSpeed } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <WaveSpeed.Avatar size={64} />
+    <WaveSpeed.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={WaveSpeed.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { WaveSpeed } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={WaveSpeed.colorPrimary} />
+  </Flexbox>
+);
+```

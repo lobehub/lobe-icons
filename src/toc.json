@@ -363,6 +363,25 @@
     "title": "AlibabaCloud"
   },
   {
+    "color": "#ED1C24",
+    "desc": "https://developer.amd.com.cn/radeon",
+    "docsUrl": "amd-radeon-cloud",
+    "fullTitle": "AMD Radeon Cloud",
+    "group": "provider",
+    "id": "AMDRadeonCloud",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "AMD Radeon Cloud"
+  },
+  {
     "color": "#F34E3F",
     "desc": "https://ampcode.com",
     "docsUrl": "amp",
@@ -1472,6 +1491,25 @@
     "title": "CommandA"
   },
   {
+    "color": "#000",
+    "desc": "https://commandcode.ai",
+    "docsUrl": "command-code",
+    "fullTitle": "Command Code",
+    "group": "application",
+    "id": "CommandCode",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Command Code"
+  },
+  {
     "color": "#fff",
     "desc": "https://copilot.microsoft.com",
     "docsUrl": "copilot",
@@ -1683,7 +1721,7 @@
   },
   {
     "color": "#fff",
-    "desc": "hhttps://deepai.org",
+    "desc": "https://deepai.org",
     "docsUrl": "deep-ai",
     "fullTitle": "DeepAI",
     "group": "application",
@@ -1908,6 +1946,25 @@
       "hasTextColor": false
     },
     "title": "Dolphin"
+  },
+  {
+    "color": "#a3e6d9",
+    "desc": "https://studio.dots.ai",
+    "docsUrl": "dots-studio",
+    "fullTitle": "Dots Studio",
+    "group": "model",
+    "id": "DotsStudio",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Dots Studio"
   },
   {
     "color": "#FFF",
@@ -6033,6 +6090,25 @@
       "hasTextColor": false
     },
     "title": "Weights & Biases"
+  },
+  {
+    "color": "#000",
+    "desc": "https://wavespeed.ai",
+    "docsUrl": "wave-speed",
+    "fullTitle": "WaveSpeed",
+    "group": "provider",
+    "id": "WaveSpeed",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "WaveSpeed"
   },
   {
     "color": "#167ADF",

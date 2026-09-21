@@ -86,6 +86,7 @@ import Stepfun from '../icons/Stepfun';
 import Suno from '../icons/Suno';
 import TII from '../icons/TII';
 import Udio from '../icons/Udio';
+import UnionAlpha from '../icons/UnionAlpha';
 import Upstage from '../icons/Upstage';
 import V0 from '../icons/V0';
 import VertexAI from '../icons/VertexAI';
@@ -295,6 +296,7 @@ export const rnModelMappings: RNModelMapping[] = [
     ],
   },
   { Icon: Udio, keywords: ['udio'] },
+  { Icon: UnionAlpha, keywords: ['union-alpha', 'unionalpha', 'pareto'] },
   { Icon: DeepSeek, keywords: ['deepseek'] },
   { Icon: Voyage, keywords: ['voyage'] },
   { Icon: AssemblyAI, keywords: ['assemblyai'] },

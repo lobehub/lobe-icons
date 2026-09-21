@@ -1,0 +1,30 @@
+'use client';
+
+import { memo } from 'react';
+
+import type { IconType } from '@/types';
+
+import { TITLE } from '../style';
+
+const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
+  return (
+    <svg
+      fill="currentColor"
+      fillRule="evenodd"
+      height={size}
+      style={{ flex: 'none', lineHeight: 1, ...style }}
+      viewBox="0 0 96 24"
+      xmlns="http://www.w3.org/2000/svg"
+      {...rest}
+    >
+      <title>{TITLE}</title>
+      <path d="M28.702 2.006h10.49V22H36.33V6.005h-.954V22h-2.86V6.005h-.954V22h-2.86zm-11.446 0h10.49V22h-2.861V6.005h-.954V22h-2.86V6.005h-.954V22h-2.86zm30.514 0h7.628V22h-2.86V6.005H50.63V22h-2.86zM2 2.006h6.675v7.997h-2.86V6.005H4.86V18h.953v-3.999h2.86V22H2zM16.299 22H9.624V2.006h6.675zM11.53 6.005v11.997h1.907V6.005zM63.03 22h-6.675V6.005h2.86v-4h3.815zm-3.816-11.994v7.998h.954v-7.998zM46.816 22h-2.861v-4H43v4h-2.86V2.006h6.675zM42.998 6.005v3.999h.954V6.005z" />
+      <path
+        d="M86.398 22h-6.554V6h2.809V2h3.745zm-3.746-12v8h.936v-8zM64.895 2.002h6.553V10H68.64V6h-.936v12h.936v-4h2.808v8h-6.553zm14.039 19.995h-6.552V2.002h6.552zm-4.69-15.985v11.972h1.868V6.012zm19.644 8.578H91.09v3.657h2.798V22h-6.573V2.004h6.573zm-3.83-9.261v5.92h1.036v-5.92z"
+        fillOpacity=".66"
+       />
+    </svg>
+  );
+});
+
+export default Icon;
