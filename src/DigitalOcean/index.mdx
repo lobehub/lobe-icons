@@ -1,0 +1,109 @@
+---
+title: DigitalOcean
+description: https://digitalocean.com
+category: Provider
+---
+
+import { DigitalOcean } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <DigitalOcean size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { DigitalOcean } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <DigitalOcean size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<DigitalOcean.Text size={48} />}</DocsPreview>
+
+```tsx
+import { DigitalOcean } from '@lobehub/icons';
+
+export default () => <DigitalOcean.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <DigitalOcean.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { DigitalOcean } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <DigitalOcean.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <DigitalOcean.Avatar size={64} />
+      <DigitalOcean.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { DigitalOcean } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <DigitalOcean.Avatar size={64} />
+    <DigitalOcean.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={DigitalOcean.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { DigitalOcean } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={DigitalOcean.colorPrimary} />
+  </Flexbox>
+);
+```

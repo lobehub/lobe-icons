@@ -1127,6 +1127,25 @@
     "title": "CherryStudio"
   },
   {
+    "color": "#0D0D0D",
+    "desc": "https://chutes.ai",
+    "docsUrl": "chutes",
+    "fullTitle": "Chutes",
+    "group": "provider",
+    "id": "Chutes",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Chutes"
+  },
+  {
     "color": "#fff",
     "desc": "https://civitai.com",
     "docsUrl": "civitai",
@@ -1644,6 +1663,25 @@
     "title": "DBRX"
   },
   {
+    "color": "#2548F6",
+    "desc": "https://decart.ai",
+    "docsUrl": "decart",
+    "fullTitle": "Decart",
+    "group": "provider",
+    "id": "Decart",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Decart"
+  },
+  {
     "color": "#fff",
     "desc": "hhttps://deepai.org",
     "docsUrl": "deep-ai",
@@ -1796,6 +1834,25 @@
     "title": "Dify"
   },
   {
+    "color": "#000",
+    "desc": "https://digitalocean.com",
+    "docsUrl": "digital-ocean",
+    "fullTitle": "DigitalOcean",
+    "group": "provider",
+    "id": "DigitalOcean",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "DigitalOcean"
+  },
+  {
     "color": "#fff",
     "desc": "https://doc2x.noedgeai.com",
     "docsUrl": "doc2-x",
@@ -1851,6 +1908,25 @@
       "hasTextColor": false
     },
     "title": "Dolphin"
+  },
+  {
+    "color": "#a3e6d9",
+    "desc": "https://studio.dots.ai",
+    "docsUrl": "dots-studio",
+    "fullTitle": "Dots Studio",
+    "group": "model",
+    "id": "DotsStudio",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Dots Studio"
   },
   {
     "color": "#FFF",
@@ -2349,6 +2425,25 @@
     "title": "GLM-V"
   },
   {
+    "color": "#0A0A0A",
+    "desc": "https://gmicloud.ai",
+    "docsUrl": "gmi-cloud",
+    "fullTitle": "GMI Cloud",
+    "group": "provider",
+    "id": "GmiCloud",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "GmiCloud"
+  },
+  {
     "color": "#fff",
     "desc": "https://google.com",
     "docsUrl": "google",
@@ -2769,6 +2864,25 @@
     "title": "Inception"
   },
   {
+    "color": "#fff",
+    "desc": "https://inceptron.io",
+    "docsUrl": "inceptron",
+    "fullTitle": "Inceptron",
+    "group": "provider",
+    "id": "Inceptron",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Inceptron"
+  },
+  {
     "color": "#000",
     "desc": "https://inference.net",
     "docsUrl": "inference",
@@ -2862,6 +2976,25 @@
       "hasTextColor": false
     },
     "title": "InternLM"
+  },
+  {
+    "color": "#000",
+    "desc": "https://io.net",
+    "docsUrl": "io-net",
+    "fullTitle": "io.net",
+    "group": "provider",
+    "id": "IoNet",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "IoNet"
   },
   {
     "color": "#000",
@@ -3954,6 +4087,25 @@
     "title": "New API"
   },
   {
+    "color": "#04D98B",
+    "desc": "https://nextbit256.com",
+    "docsUrl": "nextbit",
+    "fullTitle": "Nextbit",
+    "group": "provider",
+    "id": "Nextbit",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Nextbit"
+  },
+  {
     "color": "#fff",
     "desc": "https://notebooklm.google",
     "docsUrl": "notebook-lm",
@@ -4335,6 +4487,25 @@
     "title": "Parasail"
   },
   {
+    "color": "#F8F4EB",
+    "desc": "https://perceptron.inc",
+    "docsUrl": "perceptron",
+    "fullTitle": "Perceptron",
+    "group": "model",
+    "id": "Perceptron",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Perceptron"
+  },
+  {
     "color": "#22B8CD",
     "desc": "https://perplexity.ai",
     "docsUrl": "perplexity",
@@ -4352,6 +4523,25 @@
       "hasTextColor": false
     },
     "title": "Perplexity"
+  },
+  {
+    "color": "#CDFA50",
+    "desc": "https://phala.com",
+    "docsUrl": "phala",
+    "fullTitle": "Phala",
+    "group": "provider",
+    "id": "Phala",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Phala"
   },
   {
     "color": "#FF4017",
@@ -4698,6 +4888,25 @@
     "title": "Recraft"
   },
   {
+    "color": "#fff",
+    "desc": "https://reka.ai",
+    "docsUrl": "reka",
+    "fullTitle": "Reka",
+    "group": "model",
+    "id": "Reka",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Reka"
+  },
+  {
     "color": "#000",
     "desc": "https://relace.ai",
     "docsUrl": "relace",
@@ -4849,6 +5058,25 @@
       "hasTextColor": false
     },
     "title": "RWKV"
+  },
+  {
+    "color": "#E10600",
+    "desc": "https://sakana.ai",
+    "docsUrl": "sakana",
+    "fullTitle": "Sakana",
+    "group": "model",
+    "id": "Sakana",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "sakana.ai"
   },
   {
     "color": "#EE7624",
@@ -5520,6 +5748,44 @@
     "title": "Udio"
   },
   {
+    "color": "#1A1A1A",
+    "desc": "https://union-alpha.com",
+    "docsUrl": "union-alpha",
+    "fullTitle": "Union Alpha",
+    "group": "model",
+    "id": "UnionAlpha",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "UnionAlpha"
+  },
+  {
+    "color": "#16B88A",
+    "desc": "https://unsloth.ai",
+    "docsUrl": "unsloth",
+    "fullTitle": "Unsloth",
+    "group": "provider",
+    "id": "Unsloth",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Unsloth"
+  },
+  {
     "color": "#0ADDF8",
     "desc": "https://unstructured.io",
     "docsUrl": "unstructured",
@@ -5756,6 +6022,11 @@
     "fullTitle": "WaveSpeed",
     "group": "provider",
     "id": "WaveSpeed",
+    "desc": "https://wafer.ai",
+    "docsUrl": "wafer",
+    "fullTitle": "Wafer",
+    "group": "provider",
+    "id": "Wafer",
     "param": {
       "hasAvatar": true,
       "hasBrand": false,
@@ -5767,6 +6038,26 @@
       "hasTextColor": false
     },
     "title": "WaveSpeed"
+    "title": "Wafer"
+  },
+  {
+    "color": "#FFCC33",
+    "desc": "https://wandb.ai",
+    "docsUrl": "wandb",
+    "fullTitle": "Weights & Biases",
+    "group": "application",
+    "id": "Wandb",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Weights & Biases"
   },
   {
     "color": "#167ADF",
@@ -6148,24 +6439,5 @@
       "hasTextColor": false
     },
     "title": "Zhipu"
-  },
-  {
-    "color": "#16B88A",
-    "desc": "https://unsloth.ai",
-    "docsUrl": "unsloth",
-    "fullTitle": "Unsloth",
-    "group": "provider",
-    "id": "Unsloth",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": true,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "Unsloth"
   }
 ]
