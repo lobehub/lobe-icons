@@ -6055,25 +6055,6 @@
   },
   {
     "color": "#000",
-    "desc": "https://wavespeed.ai",
-    "docsUrl": "wave-speed",
-    "fullTitle": "WaveSpeed",
-    "group": "provider",
-    "id": "WaveSpeed",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": false,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "WaveSpeed"
-  },
-  {
-    "color": "#000",
     "desc": "https://wafer.ai",
     "docsUrl": "wafer",
     "fullTitle": "Wafer",
@@ -6109,6 +6090,25 @@
       "hasTextColor": false
     },
     "title": "Weights & Biases"
+  },
+  {
+    "color": "#000",
+    "desc": "https://wavespeed.ai",
+    "docsUrl": "wave-speed",
+    "fullTitle": "WaveSpeed",
+    "group": "provider",
+    "id": "WaveSpeed",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "WaveSpeed"
   },
   {
     "color": "#167ADF",

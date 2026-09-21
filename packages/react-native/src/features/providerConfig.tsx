@@ -125,6 +125,7 @@ import Vercel from '../icons/Vercel';
 import VertexAI from '../icons/VertexAI';
 import Vllm from '../icons/Vllm';
 import Volcengine from '../icons/Volcengine';
+import WaveSpeed from '../icons/WaveSpeed';
 import Wenxin from '../icons/Wenxin';
 import WorkersAI from '../icons/WorkersAI';
 import XAI from '../icons/XAI';
@@ -440,4 +441,5 @@ export const rnProviderMappings: RNProviderMapping[] = [
     props: { inverse: true },
   },
   { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [RNModelProvider.XiaomiMiMo] },
+  { Icon: WaveSpeed, combineMultiple: 0.7, keywords: [RNModelProvider.WaveSpeed] },
 ];
