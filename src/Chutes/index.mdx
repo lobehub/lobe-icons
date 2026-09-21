@@ -1,12 +1,18 @@
 ---
-nav: Components
-group: Provider
 title: Chutes
-atomId: Chutes
 description: https://chutes.ai
+category: Provider
 ---
 
+import { Chutes } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
 ## Icons
+
+<DocsPreview>{<Chutes size={64} />}</DocsPreview>
 
 ```tsx
 import { Chutes } from '@lobehub/icons';
@@ -17,18 +23,23 @@ export default () => <Chutes size={64} />;
 
 ## Text
 
+<DocsPreview>{<Chutes.Text size={48} />}</DocsPreview>
+
 ```tsx
 import { Chutes } from '@lobehub/icons';
-import { Flexbox } from '@lobehub/ui';
 
-export default () => (
-  <Flexbox gap={16} align={'flex-start'}>
-    <Chutes.Text size={48} />
-  </Flexbox>
-);
+export default () => <Chutes.Text size={48} />;
 ```
 
 ## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Chutes.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Chutes } from '@lobehub/icons';
@@ -43,6 +54,15 @@ export default () => (
 
 ## Avatars
 
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Chutes.Avatar size={64} />
+      <Chutes.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
 ```tsx
 import { Chutes } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
@@ -56,6 +76,14 @@ export default () => (
 ```
 
 ## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Chutes.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Chutes } from '@lobehub/icons';

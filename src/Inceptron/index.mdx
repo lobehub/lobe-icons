@@ -1,12 +1,25 @@
 ---
-nav: Components
-group: Provider
 title: Inceptron
-atomId: Inceptron
 description: https://inceptron.io
+category: Provider
 ---
 
+import { Inceptron } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
 ## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Inceptron size={64} />
+      <Inceptron.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Inceptron } from '@lobehub/icons';
@@ -22,18 +35,24 @@ export default () => (
 
 ## Text
 
+<DocsPreview>{<Inceptron.Text size={48} />}</DocsPreview>
+
 ```tsx
 import { Inceptron } from '@lobehub/icons';
-import { Flexbox } from '@lobehub/ui';
 
-export default () => (
-  <Flexbox gap={16} align={'flex-start'}>
-    <Inceptron.Text size={48} />
-  </Flexbox>
-);
+export default () => <Inceptron.Text size={48} />;
 ```
 
 ## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Inceptron.Combine size={64} />
+      <Inceptron.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Inceptron } from '@lobehub/icons';
@@ -49,6 +68,15 @@ export default () => (
 
 ## Avatars
 
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Inceptron.Avatar size={64} />
+      <Inceptron.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
 ```tsx
 import { Inceptron } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
@@ -62,6 +90,14 @@ export default () => (
 ```
 
 ## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Inceptron.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Inceptron } from '@lobehub/icons';

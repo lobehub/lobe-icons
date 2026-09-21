@@ -1,12 +1,25 @@
 ---
-nav: Components
-group: Application
-title: Wandb
-atomId: Wandb
+title: Weights & Biases
 description: https://wandb.ai
+category: Application
 ---
 
+import { Wandb } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
 ## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Wandb size={64} />
+      <Wandb.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Wandb } from '@lobehub/icons';
@@ -22,18 +35,24 @@ export default () => (
 
 ## Text
 
+<DocsPreview>{<Wandb.Text size={48} />}</DocsPreview>
+
 ```tsx
 import { Wandb } from '@lobehub/icons';
-import { Flexbox } from '@lobehub/ui';
 
-export default () => (
-  <Flexbox gap={16} align={'flex-start'}>
-    <Wandb.Text size={48} />
-  </Flexbox>
-);
+export default () => <Wandb.Text size={48} />;
 ```
 
 ## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Wandb.Combine size={64} />
+      <Wandb.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Wandb } from '@lobehub/icons';
@@ -49,6 +68,15 @@ export default () => (
 
 ## Avatars
 
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Wandb.Avatar size={64} />
+      <Wandb.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
 ```tsx
 import { Wandb } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
@@ -62,6 +90,14 @@ export default () => (
 ```
 
 ## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Wandb.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Wandb } from '@lobehub/icons';

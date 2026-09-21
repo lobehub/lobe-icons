@@ -1,12 +1,25 @@
 ---
-nav: Components
-group: Provider
 title: Nextbit
-atomId: Nextbit
 description: https://nextbit256.com
+category: Provider
 ---
 
+import { Nextbit } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
 ## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Nextbit size={64} />
+      <Nextbit.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Nextbit } from '@lobehub/icons';
@@ -22,18 +35,24 @@ export default () => (
 
 ## Text
 
+<DocsPreview>{<Nextbit.Text size={48} />}</DocsPreview>
+
 ```tsx
 import { Nextbit } from '@lobehub/icons';
-import { Flexbox } from '@lobehub/ui';
 
-export default () => (
-  <Flexbox gap={16} align={'flex-start'}>
-    <Nextbit.Text size={48} />
-  </Flexbox>
-);
+export default () => <Nextbit.Text size={48} />;
 ```
 
 ## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Nextbit.Combine size={64} />
+      <Nextbit.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Nextbit } from '@lobehub/icons';
@@ -49,6 +68,15 @@ export default () => (
 
 ## Avatars
 
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Nextbit.Avatar size={64} />
+      <Nextbit.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
 ```tsx
 import { Nextbit } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
@@ -62,6 +90,14 @@ export default () => (
 ```
 
 ## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Nextbit.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Nextbit } from '@lobehub/icons';

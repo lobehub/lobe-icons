@@ -1,12 +1,25 @@
 ---
-nav: Components
-group: Provider
 title: Mancer
-atomId: Mancer
 description: https://mancer.tech
+category: Provider
 ---
 
+import { Mancer } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
 ## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Mancer size={64} />
+      <Mancer.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Mancer } from '@lobehub/icons';
@@ -22,18 +35,24 @@ export default () => (
 
 ## Text
 
+<DocsPreview>{<Mancer.Text size={48} />}</DocsPreview>
+
 ```tsx
 import { Mancer } from '@lobehub/icons';
-import { Flexbox } from '@lobehub/ui';
 
-export default () => (
-  <Flexbox gap={16} align={'flex-start'}>
-    <Mancer.Text size={48} />
-  </Flexbox>
-);
+export default () => <Mancer.Text size={48} />;
 ```
 
 ## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Mancer.Combine size={64} />
+      <Mancer.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Mancer } from '@lobehub/icons';
@@ -49,6 +68,15 @@ export default () => (
 
 ## Avatars
 
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Mancer.Avatar size={64} />
+      <Mancer.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
 ```tsx
 import { Mancer } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
@@ -62,6 +90,14 @@ export default () => (
 ```
 
 ## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Mancer.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Mancer } from '@lobehub/icons';

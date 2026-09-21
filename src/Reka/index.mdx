@@ -1,12 +1,25 @@
 ---
-nav: Components
-group: Model
 title: Reka
-atomId: Reka
 description: https://reka.ai
+category: Model
 ---
 
+import { Reka } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
 ## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Reka size={64} />
+      <Reka.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Reka } from '@lobehub/icons';
@@ -22,18 +35,24 @@ export default () => (
 
 ## Text
 
+<DocsPreview>{<Reka.Text size={48} />}</DocsPreview>
+
 ```tsx
 import { Reka } from '@lobehub/icons';
-import { Flexbox } from '@lobehub/ui';
 
-export default () => (
-  <Flexbox gap={16} align={'flex-start'}>
-    <Reka.Text size={48} />
-  </Flexbox>
-);
+export default () => <Reka.Text size={48} />;
 ```
 
 ## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Reka.Combine size={64} />
+      <Reka.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Reka } from '@lobehub/icons';
@@ -49,6 +68,15 @@ export default () => (
 
 ## Avatars
 
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Reka.Avatar size={64} />
+      <Reka.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
 ```tsx
 import { Reka } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
@@ -62,6 +90,14 @@ export default () => (
 ```
 
 ## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Reka.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { Reka } from '@lobehub/icons';

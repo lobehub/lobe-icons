@@ -2409,7 +2409,7 @@
     "color": "#0A0A0A",
     "desc": "https://gmicloud.ai",
     "docsUrl": "gmi-cloud",
-    "fullTitle": "GmiCloud",
+    "fullTitle": "GMI Cloud",
     "group": "provider",
     "id": "GmiCloud",
     "param": {
@@ -2962,7 +2962,7 @@
     "color": "#3179FF",
     "desc": "https://io.net",
     "docsUrl": "io-net",
-    "fullTitle": "IoNet",
+    "fullTitle": "io.net",
     "group": "provider",
     "id": "IoNet",
     "param": {
@@ -4491,7 +4491,7 @@
     "desc": "https://perceptron.inc",
     "docsUrl": "perceptron",
     "fullTitle": "Perceptron",
-    "group": "provider",
+    "group": "model",
     "id": "Perceptron",
     "param": {
       "hasAvatar": true,
@@ -5064,7 +5064,7 @@
     "desc": "https://sakana.ai",
     "docsUrl": "sakana",
     "fullTitle": "Sakana",
-    "group": "provider",
+    "group": "model",
     "id": "Sakana",
     "param": {
       "hasAvatar": true,
@@ -5748,6 +5748,25 @@
     "title": "Udio"
   },
   {
+    "color": "#1A1A1A",
+    "desc": "https://union-alpha.com",
+    "docsUrl": "union-alpha",
+    "fullTitle": "Union Alpha",
+    "group": "model",
+    "id": "UnionAlpha",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "UnionAlpha"
+  },
+  {
     "color": "#16B88A",
     "desc": "https://unsloth.ai",
     "docsUrl": "unsloth",
@@ -6001,7 +6020,7 @@
     "desc": "https://wafer.ai",
     "docsUrl": "wafer",
     "fullTitle": "Wafer",
-    "group": "application",
+    "group": "provider",
     "id": "Wafer",
     "param": {
       "hasAvatar": true,
@@ -6019,7 +6038,7 @@
     "color": "#FFCC33",
     "desc": "https://wandb.ai",
     "docsUrl": "wandb",
-    "fullTitle": "Wandb",
+    "fullTitle": "Weights & Biases",
     "group": "application",
     "id": "Wandb",
     "param": {
