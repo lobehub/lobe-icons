@@ -1,5 +1,5 @@
 export const TITLE = 'Jotaid';
-export const COMBINE_TEXT_MULTIPLE = 0.75;
+export const COMBINE_TEXT_MULTIPLE = 1.1;
 export const COMBINE_SPACE_MULTIPLE = 0.25;
 export const COLOR_PRIMARY = '#D98E04';
 
