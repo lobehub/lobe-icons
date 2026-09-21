@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 5.19.1](https://github.com/lobehub/lobe-icons/compare/v5.19.0...v5.19.1)
+
+<sup>Released on **2026-09-21**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update static.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update static ([7d053de](https://github.com/lobehub/lobe-icons/commit/7d053de))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.19.0](https://github.com/lobehub/lobe-icons/compare/v5.18.0...v5.19.0)
 
 <sup>Released on **2026-09-21**</sup>
