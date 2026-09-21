@@ -86,6 +86,7 @@ import Stepfun from '@/Stepfun';
 import Suno from '@/Suno';
 import TII from '@/TII';
 import Udio from '@/Udio';
+import UnionAlpha from '@/UnionAlpha';
 import Upstage from '@/Upstage';
 import V0 from '@/V0';
 import VertexAI from '@/VertexAI';
@@ -297,6 +298,7 @@ export const modelMappings: ModelMapping[] = [
     ],
   },
   { Icon: Udio, keywords: ['udio'] },
+  { Icon: UnionAlpha, keywords: ['union-alpha', 'unionalpha', 'pareto'] },
   { Icon: DeepSeek, keywords: ['deepseek'] },
   { Icon: Voyage, keywords: ['voyage'] },
   { Icon: AssemblyAI, keywords: ['assemblyai'] },
