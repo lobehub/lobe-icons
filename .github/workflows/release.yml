@@ -50,6 +50,8 @@ jobs:
           private-key: ${{ secrets.LOBEHUB_BOT_APP_PRIVATE_KEY }}
 
       - uses: actions/checkout@v4
+        with:
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v6
