@@ -1,6 +1,6 @@
-export const TITLE = 'Wandb';
-export const COMBINE_TEXT_MULTIPLE = 0.75;
-export const COMBINE_SPACE_MULTIPLE = 0.1;
+export const TITLE = 'Weights & Biases';
+export const COMBINE_TEXT_MULTIPLE = 1;
+export const COMBINE_SPACE_MULTIPLE = 0.25;
 export const COLOR_PRIMARY = '#FFCC33';
 
 // Avatar constants

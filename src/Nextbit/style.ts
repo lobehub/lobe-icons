@@ -1,6 +1,6 @@
 export const TITLE = 'Nextbit';
 export const COMBINE_TEXT_MULTIPLE = 0.75;
-export const COMBINE_SPACE_MULTIPLE = 0.1;
+export const COMBINE_SPACE_MULTIPLE = 0.2;
 export const COLOR_PRIMARY = '#04D98B';
 
 // Avatar constants

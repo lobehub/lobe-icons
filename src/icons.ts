@@ -194,7 +194,6 @@ export { default as Lovart, type CompoundedIcon as LovartProps } from './Lovart'
 export { default as Luma, type CompoundedIcon as LumaProps } from './Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './Magic';
 export { default as Make, type CompoundedIcon as MakeProps } from './Make';
-export { default as Mancer, type CompoundedIcon as MancerProps } from './Mancer';
 export { default as Manus, type CompoundedIcon as ManusProps } from './Manus';
 export { default as Mastra, type CompoundedIcon as MastraProps } from './Mastra';
 export { default as MCP, type CompoundedIcon as MCPProps } from './MCP';

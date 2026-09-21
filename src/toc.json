@@ -1834,7 +1834,7 @@
     "title": "Dify"
   },
   {
-    "color": "#0080FF",
+    "color": "#000",
     "desc": "https://digitalocean.com",
     "docsUrl": "digital-ocean",
     "fullTitle": "DigitalOcean",
@@ -1844,7 +1844,7 @@
       "hasAvatar": true,
       "hasBrand": false,
       "hasBrandColor": false,
-      "hasColor": true,
+      "hasColor": false,
       "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
@@ -2845,7 +2845,7 @@
     "title": "Inception"
   },
   {
-    "color": "#666666",
+    "color": "#fff",
     "desc": "https://inceptron.io",
     "docsUrl": "inceptron",
     "fullTitle": "Inceptron",
@@ -2959,7 +2959,7 @@
     "title": "InternLM"
   },
   {
-    "color": "#3179FF",
+    "color": "#000",
     "desc": "https://io.net",
     "docsUrl": "io-net",
     "fullTitle": "io.net",
@@ -2969,7 +2969,7 @@
       "hasAvatar": true,
       "hasBrand": false,
       "hasBrandColor": false,
-      "hasColor": true,
+      "hasColor": false,
       "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
@@ -3626,25 +3626,6 @@
       "hasTextColor": false
     },
     "title": "Make"
-  },
-  {
-    "color": "#5138EE",
-    "desc": "https://mancer.tech",
-    "docsUrl": "mancer",
-    "fullTitle": "Mancer",
-    "group": "provider",
-    "id": "Mancer",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": true,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "Mancer"
   },
   {
     "color": "#fff",
@@ -4497,7 +4478,7 @@
       "hasAvatar": true,
       "hasBrand": false,
       "hasBrandColor": false,
-      "hasColor": true,
+      "hasColor": false,
       "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
@@ -4888,7 +4869,7 @@
     "title": "Recraft"
   },
   {
-    "color": "#2276FF",
+    "color": "#fff",
     "desc": "https://reka.ai",
     "docsUrl": "reka",
     "fullTitle": "Reka",
@@ -4898,7 +4879,7 @@
       "hasAvatar": true,
       "hasBrand": false,
       "hasBrandColor": false,
-      "hasColor": true,
+      "hasColor": false,
       "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
@@ -5076,7 +5057,7 @@
       "hasTextCn": false,
       "hasTextColor": false
     },
-    "title": "Sakana"
+    "title": "sakana.ai"
   },
   {
     "color": "#EE7624",
@@ -6016,7 +5997,7 @@
     "title": "Voyage"
   },
   {
-    "color": "#1A1A1A",
+    "color": "#000",
     "desc": "https://wafer.ai",
     "docsUrl": "wafer",
     "fullTitle": "Wafer",
@@ -6026,7 +6007,7 @@
       "hasAvatar": true,
       "hasBrand": false,
       "hasBrandColor": false,
-      "hasColor": true,
+      "hasColor": false,
       "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
@@ -6051,7 +6032,7 @@
       "hasTextCn": false,
       "hasTextColor": false
     },
-    "title": "Wandb"
+    "title": "Weights & Biases"
   },
   {
     "color": "#167ADF",

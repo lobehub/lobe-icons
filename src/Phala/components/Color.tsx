@@ -4,7 +4,7 @@ import { memo } from 'react';
 
 import type { IconType } from '@/types';
 
-import { COLOR_PRIMARY, TITLE } from '../style';
+import { TITLE } from '../style';
 
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
   return (
@@ -17,12 +17,15 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       {...rest}
     >
       <title>{TITLE}</title>
-      <g fill={COLOR_PRIMARY} transform="scale(0.5)">
-        <path d="M11.2 29.3337H16.5333V37.3337H11.2V29.3337Z" />
-        <path d="M32.5333 16.0003H37.8667V24.0003H32.5333V16.0003Z" />
-        <path d="M16.5333 24.0003H32.5333V29.3337H16.5333V24.0003Z" />
-        <path d="M11.2 10.667H32.5333V16.0003H16.5333V24.0003L11.2 23.9337V10.667Z" />
-      </g>
+      <path
+        d="M0 3.84c0-1.344 0-2.016.262-2.53A2.4 2.4 0 0 1 1.31.262C1.824 0 2.496 0 3.84 0h16.32c1.344 0 2.016 0 2.53.262a2.4 2.4 0 0 1 1.048 1.048C24 1.824 24 2.496 24 3.84v16.32c0 1.344 0 2.016-.262 2.53a2.4 2.4 0 0 1-1.048 1.048c-.514.262-1.186.262-2.53.262H3.84c-1.344 0-2.016 0-2.53-.262A2.4 2.4 0 0 1 .262 22.69C0 22.176 0 21.504 0 20.16z"
+        fill="#cdfa50"
+       />
+      <path
+        d="M5.6 14.667h2.667v4H5.6zM16.267 8h2.666v4h-2.666zm-8 4h8v2.667h-8z"
+        fill="#1e2119"
+       />
+      <path d="M5.6 5.334h10.667v2.667h-8v4L5.6 11.967z" fill="#1e2119" />
     </svg>
   );
 });

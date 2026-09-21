@@ -21,6 +21,7 @@ const Combine = memo<CombineProps>(({ type = 'mono', ...rest }) => {
       Icon={Icon}
       Text={Text}
       aria-label={TITLE}
+      inverse
       spaceMultiple={COMBINE_SPACE_MULTIPLE}
       textMultiple={COMBINE_TEXT_MULTIPLE}
       {...rest}

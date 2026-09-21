@@ -1,7 +1,7 @@
 export const TITLE = 'Wafer';
 export const COMBINE_TEXT_MULTIPLE = 0.75;
 export const COMBINE_SPACE_MULTIPLE = 0.1;
-export const COLOR_PRIMARY = '#1A1A1A';
+export const COLOR_PRIMARY = '#000';
 
 // Avatar constants
 export const AVATAR_BACKGROUND = COLOR_PRIMARY;

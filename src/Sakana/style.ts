@@ -1,6 +1,6 @@
-export const TITLE = 'Sakana';
+export const TITLE = 'sakana.ai';
 export const COMBINE_TEXT_MULTIPLE = 0.75;
-export const COMBINE_SPACE_MULTIPLE = 0.1;
+export const COMBINE_SPACE_MULTIPLE = 0.2;
 export const COLOR_PRIMARY = '#E10600';
 
 // Avatar constants

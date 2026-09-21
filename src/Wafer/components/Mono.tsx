@@ -19,72 +19,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       {...rest}
     >
       <title>{TITLE}</title>
-      <g transform="scale(0.347826)">
-        <circle cx="3" cy="3" opacity={0.35} r="3" />
-        <circle cx="12" cy="3" opacity={0.45} r="3" />
-        <circle cx="21" cy="3" opacity={0.45} r="3" />
-        <circle cx="30" cy="3" opacity={0.45} r="3" />
-        <circle cx="39" cy="3" opacity={0.45} r="3" />
-        <circle cx="48" cy="3" opacity={0.45} r="3" />
-        <circle cx="57" cy="3" opacity={0.45} r="3" />
-        <circle cx="66" cy="3" opacity={0.45} r="3" />
-        <circle cx="3" cy="12" opacity={0.45} r="3" />
-        <circle cx="12" cy="12" opacity={0.45} r="3" />
-        <circle cx="66" cy="12" opacity={0.45} r="3" />
-        <circle cx="3" cy="21" opacity={0.45} r="3" />
-        <circle cx="30" cy="21" opacity={0.45} r="3" />
-        <circle cx="39" cy="21" opacity={0.45} r="3" />
-        <circle cx="66" cy="21" opacity={0.45} r="3" />
-        <circle cx="3" cy="30" opacity={0.45} r="3" />
-        <circle cx="21" cy="30" opacity={0.45} r="3" />
-        <circle cx="30" cy="30" opacity={0.45} r="3" />
-        <circle cx="39" cy="30" opacity={0.45} r="3" />
-        <circle cx="48" cy="30" opacity={0.45} r="3" />
-        <circle cx="66" cy="30" opacity={0.45} r="3" />
-        <circle cx="3" cy="39" opacity={0.45} r="3" />
-        <circle cx="21" cy="39" opacity={0.45} r="3" />
-        <circle cx="30" cy="39" opacity={0.45} r="3" />
-        <circle cx="39" cy="39" opacity={0.45} r="3" />
-        <circle cx="48" cy="39" opacity={0.45} r="3" />
-        <circle cx="66" cy="39" opacity={0.45} r="3" />
-        <circle cx="3" cy="48" opacity={0.45} r="3" />
-        <circle cx="30" cy="48" opacity={0.45} r="3" />
-        <circle cx="39" cy="48" opacity={0.45} r="3" />
-        <circle cx="66" cy="48" opacity={0.45} r="3" />
-        <circle cx="3" cy="57" opacity={0.45} r="3" />
-        <circle cx="12" cy="57" opacity={0.45} r="3" />
-        <circle cx="66" cy="57" opacity={0.45} r="3" />
-        <circle cx="3" cy="66" opacity={0.35} r="3" />
-        <circle cx="12" cy="66" opacity={0.45} r="3" />
-        <circle cx="21" cy="66" opacity={0.45} r="3" />
-        <circle cx="30" cy="66" opacity={0.45} r="3" />
-        <circle cx="39" cy="66" opacity={0.45} r="3" />
-        <circle cx="48" cy="66" opacity={0.45} r="3" />
-        <circle cx="57" cy="66" opacity={0.45} r="3" />
-        <circle cx="66" cy="66" opacity={0.45} r="3" />
-        <circle cx="21" cy="12" r="3" />
-        <circle cx="30" cy="12" r="3" />
-        <circle cx="39" cy="12" r="3" />
-        <circle cx="48" cy="12" r="3" />
-        <circle cx="57" cy="12" r="3" />
-        <circle cx="12" cy="21" r="3" />
-        <circle cx="21" cy="21" r="3" />
-        <circle cx="48" cy="21" r="3" />
-        <circle cx="57" cy="21" r="3" />
-        <circle cx="12" cy="30" r="3" />
-        <circle cx="57" cy="30" r="3" />
-        <circle cx="12" cy="39" r="3" />
-        <circle cx="57" cy="39" r="3" />
-        <circle cx="12" cy="48" r="3" />
-        <circle cx="21" cy="48" r="3" />
-        <circle cx="48" cy="48" r="3" />
-        <circle cx="57" cy="48" r="3" />
-        <circle cx="21" cy="57" r="3" />
-        <circle cx="30" cy="57" r="3" />
-        <circle cx="39" cy="57" r="3" />
-        <circle cx="48" cy="57" r="3" />
-        <circle cx="57" cy="57" r="3" />
-      </g>
+      <path d="M0 12c0 6.617 5.395 12 12.026 12H24V0H12.026C5.395 0 0 5.383 0 12m3.518 0c0-4.81 3.861-8.726 8.608-8.726S20.733 7.189 20.733 12c0 4.81-3.861 8.726-8.607 8.726-4.747 0-8.608-3.915-8.608-8.726" />
     </svg>
   );
 });
