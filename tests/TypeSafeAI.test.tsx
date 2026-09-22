@@ -2,10 +2,15 @@ import { renderToStaticMarkup } from 'react-dom/server';
 import { describe, expect, it } from 'vitest';
 
 import { TypeSafeAI } from '../src/icons';
+import { toc } from '../src/toc';
 
 describe('TypeSafeAI', () => {
   it('exposes the official pink brand color', () => {
     expect(TypeSafeAI.colorPrimary).toBe('#F386A1');
+  });
+
+  it('is categorized as a provider', () => {
+    expect(toc.find((icon) => icon.id === 'TypeSafeAI')?.group).toBe('provider');
   });
 
   it('renders the official 24px TypeSafe AI mark and wordmark', () => {
