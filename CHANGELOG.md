@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 5.20.0](https://github.com/lobehub/lobe-icons/compare/v5.19.3...v5.20.0)
+
+<sup>Released on **2026-09-23**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Redesign the docs home and show guide pages in the sidebar.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([2e25cec](https://github.com/lobehub/lobe-icons/commit/2e25cec))
+- **misc**: Redesign the docs home and show guide pages in the sidebar ([8196bab](https://github.com/lobehub/lobe-icons/commit/8196bab))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 5.19.3](https://github.com/lobehub/lobe-icons/compare/v5.19.2...v5.19.3)
 
 <sup>Released on **2026-09-21**</sup>
