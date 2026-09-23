@@ -25,6 +25,7 @@ import Claude from '../icons/Claude';
 import CodeGeeX from '../icons/CodeGeeX';
 import CogView from '../icons/CogView';
 import Cohere from '../icons/Cohere';
+import Cursor from '../icons/Cursor';
 import Dalle from '../icons/Dalle';
 import Dbrx from '../icons/Dbrx';
 import DeepCogito from '../icons/DeepCogito';
@@ -325,4 +326,5 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: XiaomiMiMo, keywords: ['^mimo-', '/mimo-'] },
   { Icon: BAAI, keywords: ['^baai', '^bge-', '/beg-', 'touchd', 'robobrain'] },
   { Icon: Ace, keywords: ['ace-step'] },
+  { Icon: Cursor, keywords: ['^composer', '/composer', '-composer'] },
 ];
