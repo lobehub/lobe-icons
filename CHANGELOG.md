@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 5.21.0](https://github.com/lobehub/lobe-icons/compare/v5.20.0...v5.21.0)
+
+<sup>Released on **2026-09-23**</sup>
+
+#### ✨ Features
+
+- **misc**: Map Composer models to the Cursor icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Map Composer models to the Cursor icon ([f0183a2](https://github.com/lobehub/lobe-icons/commit/f0183a2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.20.0](https://github.com/lobehub/lobe-icons/compare/v5.19.3...v5.20.0)
 
 <sup>Released on **2026-09-23**</sup>
