@@ -11,7 +11,7 @@ export default defineDocsConfig({
     '@lobehub/icons': 'src',
   },
   atomDirs: [{ dir: 'src', subType: 'components', type: 'component' }],
-  description: 'Popular AI / LLM Model Brand SVG Logo and Icon Collection',
+  description: 'React components for AI model and provider logos.',
   favicons: {
     icon: 'https://lobehub.com/favicon.ico',
   },
@@ -56,12 +56,8 @@ export default defineDocsConfig({
           'https://repository-images.githubusercontent.com/750129442/59a8d16a-7ba1-4eda-b611-697d35cd04ab',
       },
     },
-    navItems: [
-      { external: true, href: 'https://ui.lobehub.com', label: 'UI' },
-      { external: true, href: 'https://charts.lobehub.com', label: 'Charts' },
-      { href: '/changelog', label: 'Changelog' },
-    ],
-    prefersColor: 'dark',
+    navItems: [{ href: '/changelog', label: 'Changelog' }],
+    prefersColor: 'auto',
     socialLinks: [
       {
         href: 'https://github.com/lobehub/lobe-icons',

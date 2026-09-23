@@ -8,6 +8,11 @@ allowBuilds:
   puppeteer: true
   sharp: true
   unrs-resolver: true
+minimumReleaseAgeExclude:
+  - '@lobehub/docs-kit@5.27.4'
+  - '@lobehub/ui@5.49.0'
+patchedDependencies:
+  '@lobehub/docs-kit@5.27.4': patches/@lobehub__docs-kit@5.27.4.patch
 publicHoistPattern:
   - '*@umijs/lint*'
   - '*changelog*'
