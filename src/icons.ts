@@ -168,6 +168,7 @@ export { default as InternLM, type CompoundedIcon as InternLMProps } from './Int
 export { default as IoNet, type CompoundedIcon as IoNetProps } from './IoNet';
 export { default as Jimeng, type CompoundedIcon as JimengProps } from './Jimeng';
 export { default as Jina, type CompoundedIcon as JinaProps } from './Jina';
+export { default as Jotaid, type CompoundedIcon as JotaidProps } from './Jotaid';
 export { default as Junie, type CompoundedIcon as JunieProps } from './Junie';
 export { default as Kagi, type CompoundedIcon as KagiProps } from './Kagi';
 export { default as KiloCode, type CompoundedIcon as KiloCodeProps } from './KiloCode';
