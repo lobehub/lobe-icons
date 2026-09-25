@@ -1,0 +1,94 @@
+---
+title: Appwrite
+description: https://appwrite.io
+category: Application
+---
+
+import { Appwrite } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Appwrite size={64} />
+      <Appwrite.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Appwrite } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Appwrite size={64} />
+    <Appwrite.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Appwrite.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Appwrite } from '@lobehub/icons';
+
+export default () => <Appwrite.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Appwrite.Combine size={64} />
+      <Appwrite.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Appwrite } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Appwrite.Combine size={64} />
+    <Appwrite.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Appwrite.Avatar size={64} />
+      <Appwrite.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Appwrite } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Appwrite.Avatar size={64} />
+    <Appwrite.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Color Preview
+
+<ColorPreview primary={'#FD366E'} />
