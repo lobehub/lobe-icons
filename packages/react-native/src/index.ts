@@ -130,6 +130,7 @@ export { default as DeepL, type CompoundedIcon as DeepLProps } from './icons/Dee
 export { default as DeepMind, type CompoundedIcon as DeepMindProps } from './icons/DeepMind';
 export { default as DeepSeek, type CompoundedIcon as DeepSeekProps } from './icons/DeepSeek';
 export { default as Devin, type CompoundedIcon as DevinProps } from './icons/Devin';
+export { default as Deyin, type CompoundedIcon as DeyinProps } from './icons/Deyin';
 export { default as Dify, type CompoundedIcon as DifyProps } from './icons/Dify';
 export {
   default as DigitalOcean,
@@ -300,6 +301,10 @@ export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './icons/O
 export { default as OpenChat, type CompoundedIcon as OpenChatProps } from './icons/OpenChat';
 export { default as OpenClaw, type CompoundedIcon as OpenClawProps } from './icons/OpenClaw';
 export { default as OpenCode, type CompoundedIcon as OpenCodeProps } from './icons/OpenCode';
+export {
+  default as Openference,
+  type CompoundedIcon as OpenferenceProps,
+} from './icons/Openference';
 export { default as OpenHands, type CompoundedIcon as OpenHandsProps } from './icons/OpenHands';
 export { default as OpenHuman, type CompoundedIcon as OpenHumanProps } from './icons/OpenHuman';
 export { default as OpenRouter, type CompoundedIcon as OpenRouterProps } from './icons/OpenRouter';

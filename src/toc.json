@@ -1834,6 +1834,25 @@
     "title": "DeepSeek"
   },
   {
+    "color": "#4f7cff",
+    "desc": "https://deyin.ai",
+    "docsUrl": "deyin",
+    "fullTitle": "Deyin",
+    "group": "application",
+    "id": "Deyin",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Deyin"
+  },
+  {
     "color": "#fff",
     "desc": "https://devin.ai",
     "docsUrl": "devin",
@@ -4409,6 +4428,25 @@
       "hasTextColor": false
     },
     "title": "opencode"
+  },
+  {
+    "color": "#6366f1",
+    "desc": "https://openference.com",
+    "docsUrl": "openference",
+    "fullTitle": "Openference",
+    "group": "application",
+    "id": "Openference",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Openference"
   },
   {
     "color": "#fff",

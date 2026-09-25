@@ -42,6 +42,7 @@ import Crusoe from '@/Crusoe';
 import DeepInfra from '@/DeepInfra';
 import DeepMind from '@/DeepMind';
 import DeepSeek from '@/DeepSeek';
+import Deyin from '@/Deyin';
 import Doubao from '@/Doubao';
 import Exa from '@/Exa';
 import Fal from '@/Fal';
@@ -94,6 +95,7 @@ import Ollama from '@/Ollama';
 import OpenAI from '@/OpenAI';
 import OpenCode from '@/OpenCode';
 import OpenRouter from '@/OpenRouter';
+import Openference from '@/Openference';
 import PPIO from '@/PPIO';
 import Parasail from '@/Parasail';
 import Perplexity from '@/Perplexity';
@@ -232,6 +234,7 @@ export const providerMappings: ProviderMapping[] = [
     keywords: [ModelProvider.Bedrock],
   },
   { Icon: DeepSeek, combineMultiple: 1.16, keywords: [ModelProvider.DeepSeek] },
+  { Icon: Deyin, keywords: [ModelProvider.Deyin] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -271,6 +274,7 @@ export const providerMappings: ProviderMapping[] = [
   },
   { Icon: Novita, keywords: [ModelProvider.Novita] },
   { Icon: OpenAI, keywords: [ModelProvider.ChatGPT, ModelProvider.OpenAI] },
+  { Icon: Openference, keywords: [ModelProvider.Openference] },
   {
     Icon: OpenCode,
     keywords: [

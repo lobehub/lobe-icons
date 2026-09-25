@@ -41,6 +41,7 @@ import Crusoe from '../icons/Crusoe';
 import DeepInfra from '../icons/DeepInfra';
 import DeepMind from '../icons/DeepMind';
 import DeepSeek from '../icons/DeepSeek';
+import Deyin from '../icons/Deyin';
 import Doubao from '../icons/Doubao';
 import Exa from '../icons/Exa';
 import Fal from '../icons/Fal';
@@ -93,6 +94,7 @@ import Ollama from '../icons/Ollama';
 import OpenAI from '../icons/OpenAI';
 import OpenCode from '../icons/OpenCode';
 import OpenRouter from '../icons/OpenRouter';
+import Openference from '../icons/Openference';
 import PPIO from '../icons/PPIO';
 import Parasail from '../icons/Parasail';
 import Perplexity from '../icons/Perplexity';
@@ -228,6 +230,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
     keywords: [RNModelProvider.Bedrock],
   },
   { Icon: DeepSeek, combineMultiple: 1.16, keywords: [RNModelProvider.DeepSeek] },
+  { Icon: Deyin, keywords: [RNModelProvider.Deyin] },
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
@@ -267,6 +270,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   },
   { Icon: Novita, keywords: [RNModelProvider.Novita] },
   { Icon: OpenAI, keywords: [RNModelProvider.ChatGPT, RNModelProvider.OpenAI] },
+  { Icon: Openference, keywords: [RNModelProvider.Openference] },
   {
     Icon: OpenCode,
     keywords: [
