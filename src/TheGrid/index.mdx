@@ -1,0 +1,46 @@
+---
+title: The Grid
+description: https://thegrid.ai
+category: Provider
+---
+
+import { TheGrid } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<TheGrid size={64} />}</DocsPreview>
+
+```tsx
+import { TheGrid } from '@lobehub/icons';
+
+export default () => <TheGrid size={64} />;
+```
+
+## Color
+
+<ColorPreview color={TheGrid.colorPrimary} />
+
+```tsx
+import { TheGrid } from '@lobehub/icons';
+
+export default () => TheGrid.colorPrimary;
+```
+
+## Avatars
+
+<DocsPreview>
+  <Flexbox gap={8} horizontal>
+    <TheGrid.Avatar size={64} />
+    <TheGrid.Avatar shape={'square'} size={64} />
+  </Flexbox>
+</DocsPreview>
+
+```tsx
+import { TheGrid } from '@lobehub/icons';
+
+export default () => <TheGrid.Avatar size={64} />;
+```
