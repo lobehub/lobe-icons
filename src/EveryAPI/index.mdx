@@ -1,0 +1,113 @@
+---
+title: EveryAPI
+description: https://everyapi.ai
+category: Provider
+---
+
+import { EveryAPI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <EveryAPI size={64} />
+      <EveryAPI.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { EveryAPI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <EveryAPI size={64} />
+    <EveryAPI.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<EveryAPI.Text size={64} />}</DocsPreview>
+
+```tsx
+import { EveryAPI } from '@lobehub/icons';
+
+export default () => <EveryAPI.Text size={64} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <EveryAPI.Combine size={64} />
+      <EveryAPI.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { EveryAPI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <EveryAPI.Combine size={64} />
+    <EveryAPI.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <EveryAPI.Avatar size={64} />
+      <EveryAPI.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { EveryAPI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <EveryAPI.Avatar size={64} />
+    <EveryAPI.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={EveryAPI.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { EveryAPI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={EveryAPI.colorPrimary} />
+  </Flexbox>
+);
+```
