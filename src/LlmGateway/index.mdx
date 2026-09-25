@@ -1,0 +1,98 @@
+---
+title: LLM Gateway
+description: https://llmgateway.io
+category: Provider
+---
+
+import { LlmGateway } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<LlmGateway size={64} />}</DocsPreview>
+
+```tsx
+import { LlmGateway } from '@lobehub/icons';
+
+export default () => <LlmGateway size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<LlmGateway.Text size={48} />}</DocsPreview>
+
+```tsx
+import { LlmGateway } from '@lobehub/icons';
+
+export default () => <LlmGateway.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <LlmGateway.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { LlmGateway } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <LlmGateway.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <LlmGateway.Avatar size={64} />
+      <LlmGateway.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { LlmGateway } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <LlmGateway.Avatar size={64} />
+    <LlmGateway.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={LlmGateway.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { LlmGateway } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={LlmGateway.colorPrimary} />
+  </Flexbox>
+);
+```
