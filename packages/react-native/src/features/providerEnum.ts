@@ -57,6 +57,7 @@ export enum RNModelProvider {
   Google = 'google',
   GoogleCloud = 'googlecloud',
   Groq = 'groq',
+  HeFu = 'hefu',
   Higress = 'higress',
   Huawei = 'huawei',
   HuaweiCloud = 'huaweicloud',
