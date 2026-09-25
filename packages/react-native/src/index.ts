@@ -341,6 +341,7 @@ export { default as Runway, type CompoundedIcon as RunwayProps } from './icons/R
 export { default as Rwkv, type CompoundedIcon as RwkvProps } from './icons/Rwkv';
 export { default as Sakana, type CompoundedIcon as SakanaProps } from './icons/Sakana';
 export { default as SambaNova, type CompoundedIcon as SambaNovaProps } from './icons/SambaNova';
+export { default as SayGM, type CompoundedIcon as SayGMProps } from './icons/SayGM';
 export { default as Search1API, type CompoundedIcon as Search1APIProps } from './icons/Search1API';
 export { default as SearchApi, type CompoundedIcon as SearchApiProps } from './icons/SearchApi';
 export { default as SearXNG, type CompoundedIcon as SearXNGProps } from './icons/SearXNG';
