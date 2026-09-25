@@ -1,0 +1,82 @@
+---
+title: GreenPT
+description: https://greenpt.ai
+category: Provider
+---
+
+import { GreenPT } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <GreenPT size={64} />
+      <GreenPT.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { GreenPT } from '@lobehub/icons';
+
+export default () => <GreenPT.Color size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<GreenPT.Text size={48} />}</DocsPreview>
+
+```tsx
+import { GreenPT } from '@lobehub/icons';
+
+export default () => <GreenPT.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox align={'flex-start'} gap={16}>
+      <GreenPT.Combine size={64} />
+      <GreenPT.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { GreenPT } from '@lobehub/icons';
+
+export default () => <GreenPT.Combine size={64} type={'color'} />;
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <GreenPT.Avatar size={64} />
+      <GreenPT.Avatar shape={'square'} size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { GreenPT } from '@lobehub/icons';
+
+export default () => <GreenPT.Avatar size={64} />;
+```
+
+## Colors
+
+<DocsPreview>{<ColorPreview color={GreenPT.colorPrimary} />}</DocsPreview>
+
+```tsx
+import { GreenPT } from '@lobehub/icons';
+
+export default GreenPT.colorPrimary;
+```
