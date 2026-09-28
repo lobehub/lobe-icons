@@ -1127,6 +1127,25 @@
     "title": "ChatGLM"
   },
   {
+    "color": "#040D10",
+    "desc": "https://cheaperinference.com",
+    "docsUrl": "cheaper-inference",
+    "fullTitle": "Cheaper Inference",
+    "group": "provider",
+    "id": "CheaperInference",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Cheaper Inference"
+  },
+  {
     "color": "#EA5E5D",
     "desc": "https://cherry-ai.com",
     "docsUrl": "cherry-studio",
