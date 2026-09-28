@@ -31,6 +31,7 @@ import BurnCloud from '@/BurnCloud';
 import ByteDance from '@/ByteDance';
 import CentML from '@/CentML';
 import Cerebras from '@/Cerebras';
+import CheaperInference from '@/CheaperInference';
 import Civitai from '@/Civitai';
 import Claude from '@/Claude';
 import Cloudflare from '@/Cloudflare';
@@ -438,4 +439,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: ZenMux, combineMultiple: 1, keywords: [ModelProvider.ZenMux], props: { inverse: true } },
   { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [ModelProvider.XiaomiMiMo] },
   { Icon: WaveSpeed, combineMultiple: 0.7, keywords: [ModelProvider.WaveSpeed] },
+  { Icon: CheaperInference, combineMultiple: 0.8, keywords: [ModelProvider.CheaperInference] },
 ];
