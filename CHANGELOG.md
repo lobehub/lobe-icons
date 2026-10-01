@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 5.22.0](https://github.com/lobehub/lobe-icons/compare/v5.21.0...v5.22.0)
+
+<sup>Released on **2026-10-01**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([329f378](https://github.com/lobehub/lobe-icons/commit/329f378))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.21.0](https://github.com/lobehub/lobe-icons/compare/v5.20.0...v5.21.0)
 
 <sup>Released on **2026-09-23**</sup>
@@ -201,7 +226,7 @@
 
 #### 🐛 Bug Fixes
 
-- **misc**: Stop the workspace glob from descending into nested node\_modules.
+- **misc**: Stop the workspace glob from descending into nested node_modules.
 
 <br/>
 
@@ -214,7 +239,7 @@
 
 #### What's fixed
 
-- **misc**: Stop the workspace glob from descending into nested node\_modules ([6f8343b](https://github.com/lobehub/lobe-icons/commit/6f8343b))
+- **misc**: Stop the workspace glob from descending into nested node_modules ([6f8343b](https://github.com/lobehub/lobe-icons/commit/6f8343b))
 
 </details>
 
