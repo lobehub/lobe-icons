@@ -31,6 +31,7 @@ export enum ModelProvider {
   CentML = 'centml',
   Cerebras = 'cerebras',
   ChatGPT = 'chatgpt',
+  CheaperInference = 'cheaperinference',
   Civitai = 'civitai',
   Claude = 'claude',
   Cloudflare = 'cloudflare',

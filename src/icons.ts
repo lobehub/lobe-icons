@@ -63,6 +63,10 @@ export { default as CelestoAI, type CompoundedIcon as CelestoAIProps } from './C
 export { default as CentML, type CompoundedIcon as CentMLProps } from './CentML';
 export { default as Cerebras, type CompoundedIcon as CerebrasProps } from './Cerebras';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './ChatGLM';
+export {
+  default as CheaperInference,
+  type CompoundedIcon as CheaperInferenceProps,
+} from './CheaperInference';
 export { default as CherryStudio, type CompoundedIcon as CherryStudioProps } from './CherryStudio';
 export { default as Chutes, type CompoundedIcon as ChutesProps } from './Chutes';
 export { default as Civitai, type CompoundedIcon as CivitaiProps } from './Civitai';
