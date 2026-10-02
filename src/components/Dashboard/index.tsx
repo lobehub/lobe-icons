@@ -1,8 +1,8 @@
 'use client';
 
 import * as Icons from '@lobehub/icons';
-import { Flexbox, Grid, SearchBar, TooltipGroup } from '@lobehub/ui';
-import { Empty, Segmented } from 'antd';
+import { Empty, Flexbox, Grid, SearchBar, TooltipGroup } from '@lobehub/ui';
+import { Segmented } from '@lobehub/ui/base-ui';
 import { cssVar } from 'antd-style';
 import { memo, useMemo, useState } from 'react';
 
@@ -76,7 +76,7 @@ const Dashboard = memo(() => {
             })}
           </Grid>
         ) : (
-          <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />
+          <Empty description={'No Data'} />
         )}
       </TooltipGroup>
     </Flexbox>

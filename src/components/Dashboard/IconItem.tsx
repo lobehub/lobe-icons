@@ -1,6 +1,7 @@
 'use client';
 
-import { ActionIcon, Block, Center, CopyButton, Flexbox, Text } from '@lobehub/ui';
+import { Block, Center, CopyButton, Flexbox } from '@lobehub/ui';
+import { ActionIcon, Text } from '@lobehub/ui/base-ui';
 import { createStaticStyles, cx } from 'antd-style';
 import { DownloadIcon, SearchIcon } from 'lucide-react';
 import { readableColor } from 'polished';

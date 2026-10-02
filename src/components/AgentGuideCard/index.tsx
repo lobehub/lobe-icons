@@ -1,6 +1,7 @@
 'use client';
 
-import { Block, BlockProps, Flexbox, Icon, Segmented, Snippet, Text } from '@lobehub/ui';
+import { Block, BlockProps, Flexbox, Icon, Snippet } from '@lobehub/ui';
+import { Segmented, Text } from '@lobehub/ui/base-ui';
 import { BotIcon, UserRoundIcon } from 'lucide-react';
 import { memo, useMemo, useState } from 'react';
 
