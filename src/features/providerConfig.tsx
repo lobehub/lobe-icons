@@ -47,6 +47,7 @@ import Exa from '@/Exa';
 import Fal from '@/Fal';
 import Featherless from '@/Featherless';
 import Fireworks from '@/Fireworks';
+import FlexAI from '@/FlexAI';
 import Friendli from '@/Friendli';
 import Gemini from '@/Gemini';
 import GiteeAI from '@/GiteeAI';
@@ -416,6 +417,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Bfl, keywords: [ModelProvider.Bfl] },
   { Icon: Replicate, combineMultiple: 0.9, keywords: [ModelProvider.Replicate] },
   { Icon: Nebius, combineMultiple: 0.75, keywords: [ModelProvider.Nebius] },
+  { Icon: FlexAI, keywords: [ModelProvider.FlexAI] },
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [ModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [ModelProvider.AkashChat] },
   { Icon: AtlasCloud, combineMultiple: 0.8, keywords: [ModelProvider.AtlasCloud] },
