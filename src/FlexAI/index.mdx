@@ -1,0 +1,68 @@
+---
+title: FlexAI
+description: https://flex.ai
+category: Provider
+---
+
+import { FlexAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<FlexAI size={64} />}</DocsPreview>
+
+```tsx
+import { FlexAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <FlexAI size={64} />;
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <FlexAI.Avatar size={64} />
+      <FlexAI.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { FlexAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <FlexAI.Avatar size={64} />
+    <FlexAI.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={FlexAI.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { FlexAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={FlexAI.colorPrimary} />
+  </Flexbox>
+);
+```
