@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 5.23.0](https://github.com/lobehub/lobe-icons/compare/v5.22.0...v5.23.0)
+
+<sup>Released on **2026-10-03**</sup>
+
+#### ✨ Features
+
+- **misc**: Migrate to @lobehub/ui/base-ui components.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Migrate to @lobehub/ui/base-ui components, closes [#427](https://github.com/lobehub/lobe-icons/issues/427) ([39250a2](https://github.com/lobehub/lobe-icons/commit/39250a2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.22.0](https://github.com/lobehub/lobe-icons/compare/v5.21.0...v5.22.0)
 
 <sup>Released on **2026-10-01**</sup>
