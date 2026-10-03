@@ -9,6 +9,9 @@ export default defineDocsConfig({
   alias: {
     '@': 'src',
     '@lobehub/icons': 'src',
+    // @lobehub/ui deep-imports the published `es` build; point those paths back at src.
+    '@lobehub/icons/es/features/getLobeIconCDN/index.js': 'src/features/getLobeIconCDN/index.tsx',
+    '@lobehub/icons/es/toc.js': 'src/toc.ts',
   },
   atomDirs: [{ dir: 'src', subType: 'components', type: 'component' }],
   description: 'React components for AI model and provider logos.',

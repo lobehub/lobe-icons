@@ -1,5 +1,5 @@
 import { DivProps, Flexbox } from '@lobehub/ui';
-import { Divider } from 'antd';
+import { Divider } from '@lobehub/ui/base-ui';
 import { ReactNode, memo } from 'react';
 
 const Combine = memo<DivProps & { left: ReactNode; right: ReactNode; size: number }>(
@@ -7,7 +7,7 @@ const Combine = memo<DivProps & { left: ReactNode; right: ReactNode; size: numbe
     return (
       <Flexbox align={'center'} flex={'none'} gap={size / 3} horizontal {...rest}>
         {left}
-        <Divider style={{ marginBlock: 0, marginInline: size / 6 }} type={'vertical'} />
+        <Divider orientation={'vertical'} style={{ marginBlock: 0, marginInline: size / 6 }} />
         {right}
       </Flexbox>
     );
