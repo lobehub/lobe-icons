@@ -96,7 +96,7 @@
     "@commitlint/cli": "^19.8.1",
     "@lobehub/docs-kit": "^5.27.4",
     "@lobehub/lint": "^1.26.3",
-    "@lobehub/ui": "^5.54.0",
+    "@lobehub/ui": "^5.56.0",
     "@qiwi/multi-semantic-release": "^7.1.2",
     "@react-router/dev": "8.2.0",
     "@testing-library/react": "^16.3.3",
