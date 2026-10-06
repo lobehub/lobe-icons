@@ -102,6 +102,7 @@ export enum RNModelProvider {
   OpenCodeGo = 'opencodego',
   OpenCodeZen = 'opencodezen',
   OpenRouter = 'openrouter',
+  OrcaRouter = 'orcarouter',
   PPIO = 'ppio',
   Parasail = 'parasail',
   Perplexity = 'perplexity',
