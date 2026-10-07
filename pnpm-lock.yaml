@@ -11,12 +11,6 @@ importers:
 
   .:
     dependencies:
-      antd:
-        specifier: ^6.1.1
-        version: 6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
-      antd-style:
-        specifier: ^4.1.0
-        version: 4.1.0(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
       es-toolkit:
         specifier: ^1.52.0
         version: 1.52.0
@@ -66,9 +60,6 @@ importers:
       ajv:
         specifier: ^8.20.0
         version: 8.20.0
-      babel-plugin-antd-style:
-        specifier: ^1.0.4
-        version: 1.0.4(supports-color@9.4.0)
       clean-package:
         specifier: ^2.2.0
         version: 2.2.0
@@ -3732,9 +3723,6 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@18.19.130':
-    resolution: {integrity: sha512-GRaXQx6jGfL8sKfaIDD6OupbIHBr9jv7Jnaml9tB7l4v068PAOXqfcujMMo5PhbIs6ggR1XODELqahT2R8v0fg==}
-
   '@types/node@20.19.43':
     resolution: {integrity: sha512-6oYBAi5ikg4Pl+kGsoYtawUMBT2zZMCvPNF7pVLnHZfd1zf38DRiWn/gT01RYCdUqkv7Fhr+C9ot4/tb+2sVvA==}
 
@@ -4556,9 +4544,6 @@ packages:
 
   babel-dead-code-elimination@1.0.12:
     resolution: {integrity: sha512-GERT7L2TiYcYDtYk1IpD+ASAYXjKbLTDPhBtYj7X1NuRMDTMtAx9kyBenub1Ev41lo91OHCKdmP+egTDmfQ7Ig==}
-
-  babel-plugin-antd-style@1.0.4:
-    resolution: {integrity: sha512-Lqs8T923HzSyH28hp3x1SzcmGO9nC376rBeKX2uBBPpA1ruR6nrvLpz2Lw4nJ3zDKj8cxPVoIp/usubWaRurXQ==}
 
   babel-plugin-dynamic-import-node@2.3.3:
     resolution: {integrity: sha512-jZVI+s9Zg3IqA/kdi0i6UDCybUI3aSBLnglhYbSSjKlV7yF1F/5LWv8MakQmvYpnbJDS6fcBL2KzHSxNCMtWSQ==}
@@ -11759,9 +11744,6 @@ packages:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
 
-  undici-types@5.26.4:
-    resolution: {integrity: sha512-nSNuWyiXbGptNQjUVhJGKA0KufCryCa6yjc2IAfg4HRblpUNgF5xhqEXNO3+F8cVYFiJsIgurydTuKphzszEmA==}
-
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
@@ -16471,10 +16453,6 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@18.19.130':
-    dependencies:
-      undici-types: 5.26.4
-
   '@types/node@20.19.43':
     dependencies:
       undici-types: 6.21.0
@@ -17592,17 +17570,6 @@ snapshots:
       '@babel/parser': 7.29.9
       '@babel/traverse': 7.29.8(supports-color@9.4.0)
       '@babel/types': 7.29.8
-    transitivePeerDependencies:
-      - supports-color
-
-  babel-plugin-antd-style@1.0.4(supports-color@9.4.0):
-    dependencies:
-      '@babel/generator': 7.29.8
-      '@babel/parser': 7.29.9
-      '@babel/runtime': 7.29.7
-      '@babel/traverse': 7.29.8(supports-color@9.4.0)
-      '@babel/types': 7.29.8
-      '@types/node': 18.19.130
     transitivePeerDependencies:
       - supports-color
 
@@ -26720,8 +26687,6 @@ snapshots:
       has-bigints: 1.1.0
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
-
-  undici-types@5.26.4: {}
 
   undici-types@6.21.0: {}
 

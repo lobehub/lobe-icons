@@ -1,6 +1,5 @@
-import { Icon } from '@lobehub/ui';
+import { Icon, cssVar } from '@lobehub/ui';
 import { ProviderIcon } from '@lobehub/ui/icons';
-import { cssVar } from 'antd-style';
 import { type CSSProperties, memo } from 'react';
 
 interface DefaultIconProps {

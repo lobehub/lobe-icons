@@ -1,9 +1,7 @@
 'use client';
 
 import * as Icons from '@lobehub/icons';
-import { Empty, Flexbox, Grid, SearchBar, TooltipGroup } from '@lobehub/ui';
-import { Segmented } from '@lobehub/ui/base-ui';
-import { cssVar } from 'antd-style';
+import { Empty, Flexbox, Grid, SearchBar, Segmented, TooltipGroup, cssVar } from '@lobehub/ui';
 import { memo, useMemo, useState } from 'react';
 
 import IconItem from './IconItem';
