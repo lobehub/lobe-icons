@@ -34,8 +34,8 @@ importers:
         specifier: ^1.26.3
         version: 1.26.3(@octokit/core@3.6.0)(eslint@8.57.1(supports-color@9.4.0))(postcss@8.5.28)(prettier@3.9.8)(semantic-release@21.1.2(supports-color@9.4.0))(stylelint@15.11.0(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3)
       '@lobehub/ui':
-        specifier: ^5.56.0
-        version: 5.56.0(@lobehub/fluent-emoji@4.1.0(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0))(@lobehub/icons@5.15.0)(@shikijs/themes@4.4.3)(@types/mdast@4.0.4)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(micromark-util-types@2.0.2)(micromark@4.0.2(supports-color@9.4.0))(motion@12.43.0(@emotion/is-prop-valid@1.4.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
+        specifier: https://pkg.pr.new/@lobehub/ui@703
+        version: https://pkg.pr.new/@lobehub/ui@703(@lobehub/fluent-emoji@4.1.0(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0))(@lobehub/icons@5.15.0)(@shikijs/themes@4.4.3)(@types/mdast@4.0.4)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(micromark-util-types@2.0.2)(micromark@4.0.2(supports-color@9.4.0))(motion@13.5.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
       '@qiwi/multi-semantic-release':
         specifier: ^7.1.2
         version: 7.1.2(supports-color@9.4.0)(typescript@5.9.3)
@@ -1939,6 +1939,7 @@ packages:
 
   '@lobehub/icons@5.15.0':
     resolution: {integrity: sha512-+Zca8eBEeogivK9cyOh37TUYCJiISo2EisKNElIFP+mS9P5dUX2e9HxEs9V4h2Z446VXyC/Gp2i86mI/pjJlxg==}
+    version: 5.15.0
     peerDependencies:
       '@lobehub/ui': ^5.0.0
       antd: ^6.1.1
@@ -1963,6 +1964,17 @@ packages:
       '@lobehub/icons': ^5.0.0
       antd: ^6.1.1
       motion: ^12.0.0
+      react: ^19.0.0
+      react-dom: ^19.0.0
+
+  '@lobehub/ui@https://pkg.pr.new/@lobehub/ui@703':
+    resolution: {integrity: sha512-KEGBB3v1Rcu1sR6jV/8dEZn0Wn8d4HGmuAF0hu6iSQUFC59qMhu6xxuiPyWpbtf7/+5HlGKLJeixeorJtyZZxw==, tarball: https://pkg.pr.new/@lobehub/ui@703}
+    version: 5.56.0
+    engines: {node: '>=22.22.0'}
+    peerDependencies:
+      '@lobehub/fluent-emoji': ^4.0.0
+      '@lobehub/icons': ^5.0.0
+      motion: ^13.0.0
       react: ^19.0.0
       react-dom: ^19.0.0
 
@@ -3497,6 +3509,9 @@ packages:
     peerDependencies:
       postcss: '>=7.0.0'
       postcss-syntax: '>=0.36.2'
+
+  '@stylexjs/stylex@0.19.1':
+    resolution: {integrity: sha512-JwNFm0MOYPqi+M4Ax5Un4ZxfZp4HEAX2sAWetZ88KALFcv1eEiHNJs75oO3V3U7RVWnzfkiM8i9eBowC3hqgUw==}
 
   '@svgr/babel-plugin-add-jsx-attribute@6.5.1':
     resolution: {integrity: sha512-9PYGcXrAxitycIjRmZB+Q0JaN07GZIWaTBIGQzfaZv+qr1n8X1XUEJ5rZ/vx6OVD9RRYlrNnXWExQXcmZeD/BQ==}
@@ -5352,6 +5367,9 @@ packages:
     peerDependencies:
       webpack: ^5.0.0
 
+  css-mediaquery@0.1.2:
+    resolution: {integrity: sha512-COtn4EROW5dBGlE/4PiKnh6rZpAPxDeFLaEEwt4i10jpDMFt2EhQGS79QmmrO+iKCHv0PU/HrOWEhijFd1x99Q==}
+
   css-prefers-color-scheme@6.0.3:
     resolution: {integrity: sha512-4BqMbZksRkJQx2zAjrokiGMd07RqOa2IxIrrN10lyBe9xhn9DEvjUK79J6jkeiv9D9hQFXKb6g1jwU62jziJZA==}
     engines: {node: ^12 || ^14 || >=16}
@@ -6608,6 +6626,17 @@ packages:
     peerDependenciesMeta:
       '@emotion/is-prop-valid':
         optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
+
+  framer-motion@13.5.1:
+    resolution: {integrity: sha512-HeWOaeHD3kyTSIEMT6+nw7fBn4saIfxxabZyAITbycAl4xr1kzGJKIvGt/OWghSlvIA9qTnZ1zTGelHAe6S8DA==}
+    peerDependencies:
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+    peerDependenciesMeta:
       react:
         optional: true
       react-dom:
@@ -8675,8 +8704,14 @@ packages:
   motion-dom@12.43.0:
     resolution: {integrity: sha512-azKON4d9S65PEoFUiQTMTgPheEmzf2QngdRc50AKfJp9Q9mmcBVw22c8eMq9k8kxOFHdL7+WZY7N/5F/lwiDag==}
 
+  motion-dom@13.5.1:
+    resolution: {integrity: sha512-/7CVCD20Mz1KobktorpdgvowV0V41J7UxqE+qWS3GkSJqrRr5ft+2RloOYtEKv+wvBp3JaSFBclhxt4ja8ovHg==}
+
   motion-utils@12.39.0:
     resolution: {integrity: sha512-8nadJAJjTtqRkmRF36FoJTrywK9nnFmnPwnSMyxaOCU7GDjN9RTMJIxx9De8ErM+vpPhMccr/6fo5WciyQLnMQ==}
+
+  motion-utils@13.5.0:
+    resolution: {integrity: sha512-Hqe/sqjIKliPZg8sVjWAkdySDPJNIeKH+euVkDOG8ri3DUUU7ZjndmHsGqEPz2iHpiyVaV5I22iguCMHU2he+Q==}
 
   motion@12.43.0:
     resolution: {integrity: sha512-BQgQbSa9Hn3/mtbib0MK53y6JSANa+YKUKlaYnWzAVDH424RYQ5LVpV3pNiWH00BA2z4ojsSdMzqT7g2FQwjuQ==}
@@ -8687,6 +8722,17 @@ packages:
     peerDependenciesMeta:
       '@emotion/is-prop-valid':
         optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
+
+  motion@13.5.1:
+    resolution: {integrity: sha512-eV9SUem6KnzEa9+eT+dVBeDlhy5TTdn09YWR1WhUsKoZCJPw/n4TcYhjbxq2Gy5PTwDr//4H3r5vxkcZnNnO1w==}
+    peerDependencies:
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+    peerDependenciesMeta:
       react:
         optional: true
       react-dom:
@@ -11293,6 +11339,9 @@ packages:
     resolution: {integrity: sha512-78O4c6IswZ9TzpcIiQJIN49K3qNoXTM8zEJzhaTE/xRTCZswaovSEVIa/uwbOltZrk16X4jAxjaOhzz/hTm1Kw==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
+
+  styleq@0.2.1:
+    resolution: {integrity: sha512-L0TR0NQb+X4/ktDEKmjWyp27gla+LUYi/by5k5SjKXf6/pvZP7wbwEB5J+tqxdFVPgzbsuz+d4RTScO/QZquBw==}
 
   stylis@4.2.0:
     resolution: {integrity: sha512-Orov6g6BB1sDfYgzWfTHDOxamtX1bE/zo104Dh9e6fqJ3PooipYyfJ0pUmrZO2wAvO8YbEyeFrkV91XTsGMSrw==}
@@ -14407,9 +14456,9 @@ snapshots:
       - antd
       - supports-color
 
-  '@lobehub/icons@5.15.0(@lobehub/ui@5.56.0)(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)':
+  '@lobehub/icons@5.15.0(@lobehub/ui@https://pkg.pr.new/@lobehub/ui@703)(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)':
     dependencies:
-      '@lobehub/ui': 5.56.0(@lobehub/fluent-emoji@4.1.0(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0))(@lobehub/icons@5.15.0)(@shikijs/themes@4.4.3)(@types/mdast@4.0.4)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(micromark-util-types@2.0.2)(micromark@4.0.2(supports-color@9.4.0))(motion@12.43.0(@emotion/is-prop-valid@1.4.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
+      '@lobehub/ui': https://pkg.pr.new/@lobehub/ui@703(@lobehub/fluent-emoji@4.1.0(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0))(@lobehub/icons@5.15.0)(@shikijs/themes@4.4.3)(@types/mdast@4.0.4)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(micromark-util-types@2.0.2)(micromark@4.0.2(supports-color@9.4.0))(motion@13.5.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
       antd: 6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       antd-style: 4.1.0(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
       es-toolkit: 1.52.0
@@ -14543,7 +14592,7 @@ snapshots:
       '@floating-ui/react': 0.27.20(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       '@giscus/react': 3.1.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       '@lobehub/fluent-emoji': 4.1.0(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
-      '@lobehub/icons': 5.15.0(@lobehub/ui@5.56.0)(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
+      '@lobehub/icons': 5.15.0(@lobehub/ui@https://pkg.pr.new/@lobehub/ui@703)(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
       '@lobehub/streamdown': 1.3.1(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
       '@mdx-js/mdx': 3.1.1(supports-color@9.4.0)
       '@mdx-js/react': 3.1.1(@types/react@19.3.0)(react@19.3.0)
@@ -14584,6 +14633,104 @@ snapshots:
       rc-image: 7.12.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       rc-input-number: 9.5.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       rc-menu: 9.16.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      re-resizable: 6.11.2(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      react: 19.3.0
+      react-avatar-editor: 15.1.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      react-dom: 19.3.0(react@19.3.0)
+      react-error-boundary: 6.1.6(@types/react@19.3.0)(react@19.3.0)
+      react-hotkeys-hook: 5.3.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      react-markdown: 10.1.0(@types/react@19.3.0)(react@19.3.0)(supports-color@9.4.0)
+      react-merge-refs: 3.0.2(react@19.3.0)
+      react-rnd: 10.5.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      react-zoom-pan-pinch: 4.2.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      rehype-github-alerts: 4.2.0
+      rehype-raw: 7.0.0
+      rehype-sanitize: 6.0.0
+      remark-breaks: 4.0.0
+      remark-cjk-friendly: 2.3.1(@types/mdast@4.0.4)(micromark-util-types@2.0.2)(micromark@4.0.2(supports-color@9.4.0))(unified@11.0.5)
+      remark-gfm: 4.0.1(supports-color@9.4.0)
+      remark-github: 12.0.0
+      remark-math: 6.0.0(supports-color@9.4.0)
+      remark-parse: 11.0.0(supports-color@9.4.0)
+      remark-rehype: 11.1.2
+      remend: 1.3.1
+      shiki: 4.4.3
+      swr: 2.5.1(react@19.3.0)
+      ts-md5: 2.0.1
+      unified: 11.0.5
+      unist-util-visit-parents: 6.0.2
+      uqr: 0.1.3
+      url-join: 5.0.0
+      use-merge-value: 1.2.0(react@19.3.0)
+      uuid: 14.0.2
+      vfile: 6.0.3
+      virtua: 0.52.7(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+    transitivePeerDependencies:
+      - '@angular/common'
+      - '@angular/core'
+      - '@date-fns/tz'
+      - '@shikijs/themes'
+      - '@types/mdast'
+      - '@types/react'
+      - '@types/react-dom'
+      - date-fns
+      - micromark
+      - micromark-util-types
+      - solid-js
+      - supports-color
+      - svelte
+      - vue
+
+  '@lobehub/ui@https://pkg.pr.new/@lobehub/ui@703(@lobehub/fluent-emoji@4.1.0(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0))(@lobehub/icons@5.15.0)(@shikijs/themes@4.4.3)(@types/mdast@4.0.4)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(micromark-util-types@2.0.2)(micromark@4.0.2(supports-color@9.4.0))(motion@13.5.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)':
+    dependencies:
+      '@base-ui/react': 1.8.0(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      '@dnd-kit/core': 6.3.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      '@dnd-kit/modifiers': 9.0.0(@dnd-kit/core@6.3.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react@19.3.0)
+      '@dnd-kit/sortable': 10.0.0(@dnd-kit/core@6.3.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react@19.3.0)
+      '@dnd-kit/utilities': 3.2.2(react@19.3.0)
+      '@emoji-mart/data': 1.2.1
+      '@emoji-mart/react': 1.1.1(emoji-mart@5.6.0)(react@19.3.0)
+      '@emotion/css': 11.13.5(supports-color@9.4.0)
+      '@emotion/is-prop-valid': 1.4.0
+      '@emotion/serialize': 1.3.3
+      '@floating-ui/react': 0.27.20(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      '@giscus/react': 3.1.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      '@lobehub/fluent-emoji': 4.1.0(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
+      '@lobehub/icons': 5.15.0(@lobehub/ui@https://pkg.pr.new/@lobehub/ui@703)(@types/react@19.3.0)(antd@6.6.5(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
+      '@lobehub/streamdown': 1.3.1(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
+      '@mdx-js/mdx': 3.1.1(supports-color@9.4.0)
+      '@mdx-js/react': 3.1.1(@types/react@19.3.0)(react@19.3.0)
+      '@pierre/diffs': 1.2.12(@shikijs/themes@4.4.3)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      '@radix-ui/react-slot': 1.3.3(@types/react@19.3.0)(react@19.3.0)
+      '@shikijs/core': 4.4.3
+      '@shikijs/stream': 4.4.3(react@19.3.0)
+      '@shikijs/transformers': 4.4.3
+      '@splinetool/runtime': 1.12.98
+      '@stylexjs/stylex': 0.19.1
+      '@tanstack/form-core': 1.33.5
+      '@tanstack/react-table': 9.2.4(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      ahooks: 3.10.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      beautiful-mermaid: 1.1.3
+      chroma-js: 3.2.0
+      class-variance-authority: 0.7.1
+      clsx: 2.1.1
+      dayjs: 1.11.23
+      emoji-mart: 5.6.0
+      es-toolkit: 1.52.0
+      fast-deep-equal: 3.1.3
+      hast-util-from-html-isomorphic: 2.0.0
+      hast-util-to-jsx-runtime: 2.3.6(supports-color@9.4.0)
+      hast-util-to-text: 4.0.2
+      html-url-attributes: 3.0.1
+      immer: 11.1.18
+      katex: 0.18.7
+      leva: 0.10.1(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      lucide-react: 1.47.0(react@19.3.0)
+      marked: 18.0.14
+      motion: 13.5.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      numeral: 2.0.6
+      polished: 4.3.1
+      query-string: 9.5.1
       re-resizable: 6.11.2(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       react: 19.3.0
       react-avatar-editor: 15.1.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
@@ -16230,6 +16377,12 @@ snapshots:
       postcss-syntax: 0.36.2(postcss-less@6.0.0(postcss@8.5.28))(postcss@8.5.28)
     transitivePeerDependencies:
       - supports-color
+
+  '@stylexjs/stylex@0.19.1':
+    dependencies:
+      css-mediaquery: 0.1.2
+      invariant: 2.2.4
+      styleq: 0.2.1
 
   '@svgr/babel-plugin-add-jsx-attribute@6.5.1(@babel/core@7.29.7(supports-color@9.4.0))':
     dependencies:
@@ -18537,6 +18690,8 @@ snapshots:
       semver: 7.8.5
       webpack: 5.109.2(csso@5.0.5)(esbuild@0.28.2)(lightningcss@1.33.0)(postcss@8.5.28)(uglify-js@3.19.3)
 
+  css-mediaquery@0.1.2: {}
+
   css-prefers-color-scheme@6.0.3(postcss@8.5.28):
     dependencies:
       postcss: 8.5.28
@@ -20090,6 +20245,15 @@ snapshots:
       tslib: 2.8.1
     optionalDependencies:
       '@emotion/is-prop-valid': 1.4.0
+      react: 19.3.0
+      react-dom: 19.3.0(react@19.3.0)
+
+  framer-motion@13.5.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0):
+    dependencies:
+      motion-dom: 13.5.1
+      motion-utils: 13.5.0
+      tslib: 2.8.1
+    optionalDependencies:
       react: 19.3.0
       react-dom: 19.3.0(react@19.3.0)
 
@@ -22697,7 +22861,13 @@ snapshots:
     dependencies:
       motion-utils: 12.39.0
 
+  motion-dom@13.5.1:
+    dependencies:
+      motion-utils: 13.5.0
+
   motion-utils@12.39.0: {}
+
+  motion-utils@13.5.0: {}
 
   motion@12.43.0(@emotion/is-prop-valid@1.4.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0):
     dependencies:
@@ -22705,6 +22875,14 @@ snapshots:
       tslib: 2.8.1
     optionalDependencies:
       '@emotion/is-prop-valid': 1.4.0
+      react: 19.3.0
+      react-dom: 19.3.0(react@19.3.0)
+
+  motion@13.5.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0):
+    dependencies:
+      framer-motion: 13.5.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+      tslib: 2.8.1
+    optionalDependencies:
       react: 19.3.0
       react-dom: 19.3.0(react@19.3.0)
 
@@ -26244,6 +26422,8 @@ snapshots:
       write-file-atomic: 5.0.1
     transitivePeerDependencies:
       - supports-color
+
+  styleq@0.2.1: {}
 
   stylis@4.2.0: {}
 
