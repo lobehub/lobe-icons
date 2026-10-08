@@ -1,6 +1,7 @@
 'use client';
 
-import { ActionIcon, ActionIconSize, DivProps } from '@lobehub/ui';
+import { DivProps } from '@lobehub/ui';
+import { ActionIcon, ActionIconSize } from '@lobehub/ui/base-ui';
 import { Download } from 'lucide-react';
 import { memo } from 'react';
 

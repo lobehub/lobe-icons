@@ -2,11 +2,13 @@
 
 import { memo } from 'react';
 
+import { useFillId } from '@/hooks/useFillId';
 import type { IconType } from '@/types';
 
 import { TITLE } from '../style';
 
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
+  const { fill, id } = useFillId(TITLE);
   return (
     <svg
       fill="currentColor"
@@ -19,14 +21,14 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       {...rest}
     >
       <title>{TITLE}</title>
-      <g clipPath="url(#a)">
+      <g clipPath={fill}>
         <path
           clipRule="evenodd"
           d="m.197 0 6.538 6.539h10.719v10.717L24 23.795V0zm6.53 7.85L0 14.57V24h9.419l6.726-6.736H6.727z"
-         />
+        />
       </g>
       <defs>
-        <clipPath id="a">
+        <clipPath id={id}>
           <path d="M0 0h24v24H0z" />
         </clipPath>
       </defs>

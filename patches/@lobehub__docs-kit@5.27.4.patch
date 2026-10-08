@@ -1,0 +1,58 @@
+diff --git a/site/components/DocsShell/navigation.ts b/site/components/DocsShell/navigation.ts
+index d6b855bddba611b4cf99cc06fcb64f45f079e4ad..cfedc6b3665f8b64b9789839502f97e08d0d5a4a 100644
+--- a/site/components/DocsShell/navigation.ts
++++ b/site/components/DocsShell/navigation.ts
+@@ -38,6 +38,8 @@ const sectionIcons: Record<string, LucideIcon> = {
+   'Color': Palette,
+   'Components': Component,
+   'Dashboard': LayoutDashboard,
++  'Editor': FileCode,
++  'Features': Sparkles,
+   'Guides': BookOpen,
+   'Hooks & Providers': Webhook,
+   'Icons': Shapes,
+diff --git a/site/content/navigation.ts b/site/content/navigation.ts
+index 61fb421c0264de43726574f13629388b06a207d9..27e8c51204626f5280248683c65855b14354fd0a 100644
+--- a/site/content/navigation.ts
++++ b/site/content/navigation.ts
+@@ -33,6 +33,17 @@ const specialSections = new Map([
+ const subTypeSectionTitle = (subType: string): string =>
+   subType.charAt(0).toUpperCase() + subType.slice(1);
+ 
++/** Guide folders that should sit in the sidebar beside component sections. */
++const sidebarGuideSections: Record<string, string> = {
++  editor: 'Editor',
++  features: 'Features',
++};
++
++const sidebarGuideSection = (source: string): string | undefined => {
++  const match = source.replaceAll('\\', '/').match(/^docs\/([^/]+)\//);
++  return match ? sidebarGuideSections[match[1]] : undefined;
++};
++
+ const compareDocuments = (left: DocumentManifestEntry, right: DocumentManifestEntry): number => {
+   const orderDifference =
+     (left.order ?? Number.MAX_SAFE_INTEGER) - (right.order ?? Number.MAX_SAFE_INTEGER);
+@@ -64,12 +75,17 @@ export function createNavigation(
+   const sections = new Map<string, Map<string, DocumentManifestEntry[]>>();
+ 
+   for (const document of documents) {
+-    const section = document.subType
+-      ? subTypeSectionTitle(document.subType)
+-      : deriveDocumentSection(document.source, sectionOverrides);
++    const guideSection = sidebarGuideSection(document.source);
++    const section =
++      guideSection ??
++      (document.subType
++        ? subTypeSectionTitle(document.subType)
++        : deriveDocumentSection(document.source, sectionOverrides));
+ 
+-    // Standalone guides live outside the component sidebar.
+-    if (specialSections.has(section) || document.source.startsWith('docs/')) continue;
++    // Home, changelog, and unlisted guides stay out of the component sidebar.
++    if (specialSections.has(section) || (document.source.startsWith('docs/') && !guideSection)) {
++      continue;
++    }
+     if (!document.category) {
+       diagnostics.push(`${document.source}: component navigation requires a category`);
+       continue;

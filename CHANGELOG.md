@@ -2,6 +2,108 @@
 
 # Changelog
 
+## [Version 5.23.0](https://github.com/lobehub/lobe-icons/compare/v5.22.0...v5.23.0)
+
+<sup>Released on **2026-10-03**</sup>
+
+#### ✨ Features
+
+- **misc**: Migrate to @lobehub/ui/base-ui components.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Migrate to @lobehub/ui/base-ui components, closes [#427](https://github.com/lobehub/lobe-icons/issues/427) ([39250a2](https://github.com/lobehub/lobe-icons/commit/39250a2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 5.22.0](https://github.com/lobehub/lobe-icons/compare/v5.21.0...v5.22.0)
+
+<sup>Released on **2026-10-01**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([329f378](https://github.com/lobehub/lobe-icons/commit/329f378))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 5.21.0](https://github.com/lobehub/lobe-icons/compare/v5.20.0...v5.21.0)
+
+<sup>Released on **2026-09-23**</sup>
+
+#### ✨ Features
+
+- **misc**: Map Composer models to the Cursor icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Map Composer models to the Cursor icon ([f0183a2](https://github.com/lobehub/lobe-icons/commit/f0183a2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 5.20.0](https://github.com/lobehub/lobe-icons/compare/v5.19.3...v5.20.0)
+
+<sup>Released on **2026-09-23**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Redesign the docs home and show guide pages in the sidebar.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([2e25cec](https://github.com/lobehub/lobe-icons/commit/2e25cec))
+- **misc**: Redesign the docs home and show guide pages in the sidebar ([8196bab](https://github.com/lobehub/lobe-icons/commit/8196bab))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 5.19.3](https://github.com/lobehub/lobe-icons/compare/v5.19.2...v5.19.3)
 
 <sup>Released on **2026-09-21**</sup>
@@ -149,7 +251,7 @@
 
 #### 🐛 Bug Fixes
 
-- **misc**: Stop the workspace glob from descending into nested node\_modules.
+- **misc**: Stop the workspace glob from descending into nested node_modules.
 
 <br/>
 
@@ -162,7 +264,7 @@
 
 #### What's fixed
 
-- **misc**: Stop the workspace glob from descending into nested node\_modules ([6f8343b](https://github.com/lobehub/lobe-icons/commit/6f8343b))
+- **misc**: Stop the workspace glob from descending into nested node_modules ([6f8343b](https://github.com/lobehub/lobe-icons/commit/6f8343b))
 
 </details>
 

@@ -5,10 +5,14 @@ import { name } from './package.json';
 
 export default defineConfig({
   test: {
-    alias: {
-      '@': fileURLToPath(new URL('src', import.meta.url)),
-      [name]: fileURLToPath(new URL('src', import.meta.url)),
-    },
+    alias: [
+      { find: '@', replacement: fileURLToPath(new URL('src', import.meta.url)) },
+      // Exact match only: @lobehub/ui deep-imports `@lobehub/icons/es/...`, which must keep resolving to the installed package.
+      {
+        find: new RegExp(`^${name}$`),
+        replacement: fileURLToPath(new URL('src', import.meta.url)),
+      },
+    ],
     environment: 'jsdom',
     globals: true,
     server: {

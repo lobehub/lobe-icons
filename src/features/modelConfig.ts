@@ -25,6 +25,7 @@ import Claude from '@/Claude';
 import CodeGeeX from '@/CodeGeeX';
 import CogView from '@/CogView';
 import Cohere from '@/Cohere';
+import Cursor from '@/Cursor';
 import Dalle from '@/Dalle';
 import Dbrx from '@/Dbrx';
 import DeepCogito from '@/DeepCogito';
@@ -327,4 +328,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: XiaomiMiMo, keywords: ['^mimo-', '/mimo-'] },
   { Icon: BAAI, keywords: ['^baai', '^bge-', '/beg-', 'touchd', 'robobrain'] },
   { Icon: Ace, keywords: ['ace-step'] },
+  { Icon: Cursor, keywords: ['^composer', '/composer', '-composer'] },
 ];
