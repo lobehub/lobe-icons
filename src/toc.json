@@ -3073,6 +3073,25 @@
     "title": "Jina"
   },
   {
+    "color": "#D98E04",
+    "desc": "https://jotaid.com",
+    "docsUrl": "jotaid",
+    "fullTitle": "Jotaid",
+    "group": "application",
+    "id": "Jotaid",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Jotaid"
+  },
+  {
     "color": "#47E054",
     "desc": "https://jetbrains.com/junie",
     "docsUrl": "junie",
