@@ -86,7 +86,6 @@
     ]
   },
   "dependencies": {
-    "antd-style": "^4.1.0",
     "es-toolkit": "^1.52.0",
     "lucide-react": "^0.469.0",
     "polished": "^4.3.1"
@@ -96,7 +95,7 @@
     "@commitlint/cli": "^19.8.1",
     "@lobehub/docs-kit": "^5.27.4",
     "@lobehub/lint": "^1.26.3",
-    "@lobehub/ui": "^5.56.0",
+    "@lobehub/ui": "^6.0.0-beta.1",
     "@qiwi/multi-semantic-release": "^7.1.2",
     "@react-router/dev": "8.2.0",
     "@testing-library/react": "^16.3.3",
@@ -105,7 +104,6 @@
     "@types/react-dom": "^19.3.0",
     "@vitest/coverage-v8": "^3.2.7",
     "ajv": "^8.20.0",
-    "babel-plugin-antd-style": "^1.0.4",
     "clean-package": "^2.2.0",
     "commitlint": "^19.8.1",
     "consola": "^3.4.2",
@@ -141,8 +139,7 @@
     "vitest": "^3.2.7"
   },
   "peerDependencies": {
-    "@lobehub/ui": "^5.54.0",
-    "antd": "^6.1.1",
+    "@lobehub/ui": "^6.0.0-beta.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

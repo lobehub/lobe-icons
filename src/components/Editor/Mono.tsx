@@ -1,7 +1,6 @@
 'use client';
 
-import { Flexbox, Highlighter } from '@lobehub/ui';
-import { createStaticStyles } from 'antd-style';
+import { Flexbox, Highlighter, createStaticStyles } from '@lobehub/ui';
 import { memo } from 'react';
 
 const styles = createStaticStyles(({ css }) => {
