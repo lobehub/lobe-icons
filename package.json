@@ -95,7 +95,7 @@
     "@commitlint/cli": "^19.8.1",
     "@lobehub/docs-kit": "^5.27.4",
     "@lobehub/lint": "^1.26.3",
-    "@lobehub/ui": "https://pkg.pr.new/@lobehub/ui@7f8f8c2",
+    "@lobehub/ui": "^6.0.0-beta.1",
     "@qiwi/multi-semantic-release": "^7.1.2",
     "@react-router/dev": "8.2.0",
     "@testing-library/react": "^16.3.3",
@@ -139,7 +139,7 @@
     "vitest": "^3.2.7"
   },
   "peerDependencies": {
-    "@lobehub/ui": "^6.0.0",
+    "@lobehub/ui": "^6.0.0-beta.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
