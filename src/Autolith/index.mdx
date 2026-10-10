@@ -33,6 +33,39 @@ export default () => (
 );
 ```
 
+## Text
+
+<DocsPreview>{<Autolith.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Autolith } from '@lobehub/icons';
+
+export default () => <Autolith.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Autolith.Combine size={64} />
+      <Autolith.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Autolith } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Autolith.Combine size={64} />
+    <Autolith.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
 ## Avatars
 
 <DocsPreview>
