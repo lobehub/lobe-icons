@@ -2,6 +2,7 @@ import { FC } from 'react';
 
 import Amp from '@/Amp';
 import Antigravity from '@/Antigravity';
+import Autolith from '@/Autolith';
 import CherryStudio from '@/CherryStudio';
 import Claude from '@/Claude';
 import ClaudeCode from '@/ClaudeCode';
@@ -147,4 +148,5 @@ export const agentMappings: AgentMapping[] = [
   { Icon: Notion, keywords: ['notion'] },
   { Icon: CodeBuddy, keywords: ['code-buddy', 'codebuddy'] },
   { Icon: Devin, keywords: ['devin', 'cognition'] },
+  { Icon: Autolith, keywords: ['autolith'] },
 ];
