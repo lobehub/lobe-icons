@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 6.0.0-beta.1](https://github.com/lobehub/lobe-icons/compare/v5.23.0...v6.0.0-beta.1)
+
+<sup>Released on **2026-10-10**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Migrate to @lobehub/ui next major (drop antd-style).
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Migrate to @lobehub/ui next major (drop antd-style) ([4461a91](https://github.com/lobehub/lobe-icons/commit/4461a91))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.23.0](https://github.com/lobehub/lobe-icons/compare/v5.22.0...v5.23.0)
 
 <sup>Released on **2026-10-03**</sup>
