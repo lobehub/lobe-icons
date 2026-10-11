@@ -2406,6 +2406,25 @@
     "title": "Goose"
   },
   {
+    "color": "#7C6CFF",
+    "desc": "https://gptzzz.ai",
+    "docsUrl": "gptzzz",
+    "fullTitle": "GPTZZZ",
+    "group": "provider",
+    "id": "GPTZZZ",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "GPTZZZ"
+  },
+  {
     "color": "#fff",
     "desc": "https://gradio.app",
     "docsUrl": "gradio",
