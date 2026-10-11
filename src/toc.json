@@ -211,6 +211,26 @@
     "title": "AiHubMix"
   },
   {
+    "color": "#2272FC",
+    "colorGradient": "linear-gradient(135deg, #2272FC, #00E5E5)",
+    "desc": "https://aionly.com",
+    "docsUrl": "ai-only",
+    "fullTitle": "AiOnly",
+    "group": "provider",
+    "id": "AiOnly",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "AiOnly"
+  },
+  {
     "color": "#fff",
     "desc": "https://ai-maas.wair.ac.cn",
     "docsUrl": "ai-mass",

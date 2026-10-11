@@ -4,6 +4,7 @@ export enum RNModelProvider {
   Ai360 = 'ai360',
   AiHubMix = 'aihubmix',
   AiMass = 'aimass',
+  AiOnly = 'aionly',
   AiStudio = 'aistudio',
   AkashChat = 'akashchat',
   AlephAlpha = 'alephalpha',
