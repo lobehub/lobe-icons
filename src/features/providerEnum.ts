@@ -48,6 +48,7 @@ export enum ModelProvider {
   Featherless = 'featherless',
   Fireworks = 'fireworks',
   FireworksAI = 'fireworksai',
+  FlexAI = 'flexai',
   Friendli = 'friendli',
   GLMCodingPlan = 'glmcodingplan',
   Gemini = 'gemini',

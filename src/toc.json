@@ -2234,6 +2234,25 @@
     "title": "Flora"
   },
   {
+    "color": "#00349F",
+    "desc": "https://flex.ai",
+    "docsUrl": "flex-ai",
+    "fullTitle": "FlexAI",
+    "group": "provider",
+    "id": "FlexAI",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": false,
+      "hasText": false,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "FlexAI"
+  },
+  {
     "color": "#fff",
     "desc": "https://flowith.io",
     "docsUrl": "flowith",
