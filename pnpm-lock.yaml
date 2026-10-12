@@ -69,9 +69,6 @@ importers:
       babel-plugin-antd-style:
         specifier: ^1.0.4
         version: 1.0.4(supports-color@9.4.0)
-      clean-package:
-        specifier: ^2.2.0
-        version: 2.2.0
       commitlint:
         specifier: ^19.8.1
         version: 19.8.1(@types/node@26.6.2)(typescript@5.9.3)
