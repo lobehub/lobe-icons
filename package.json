@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/icons",
-  "version": "5.23.0",
+  "version": "5.23.1",
   "description": "Popular AI / LLM Model Brand SVG Logo and Icon Collection",
   "keywords": [
     "lobehub",
@@ -26,15 +26,36 @@
       "import": "./es/index.mjs",
       "default": "./es/index.mjs"
     },
+    "./es/icons": "./es/icons.mjs",
+    "./es/toc": "./es/toc.mjs",
+    "./es/*/Avatar": "./es/*/Avatar.mjs",
+    "./es/*/Brand": "./es/*/Brand.mjs",
+    "./es/*/BrandColor": "./es/*/BrandColor.mjs",
+    "./es/*/BrandMono": "./es/*/BrandMono.mjs",
+    "./es/*/Color": "./es/*/Color.mjs",
+    "./es/*/Combine": "./es/*/Combine.mjs",
+    "./es/*/DefaultAvatar": "./es/*/DefaultAvatar.mjs",
+    "./es/*/DefaultIcon": "./es/*/DefaultIcon.mjs",
+    "./es/*/Inner": "./es/*/Inner.mjs",
+    "./es/*/Mono": "./es/*/Mono.mjs",
+    "./es/*/Morden": "./es/*/Morden.mjs",
+    "./es/*/Simple": "./es/*/Simple.mjs",
+    "./es/*/Text": "./es/*/Text.mjs",
+    "./es/*/TextCn": "./es/*/TextCn.mjs",
+    "./es/*/TextColor": "./es/*/TextColor.mjs",
+    "./es/*/agentConfig": "./es/*/agentConfig.mjs",
+    "./es/*/modelConfig": "./es/*/modelConfig.mjs",
+    "./es/*/providerConfig": "./es/*/providerConfig.mjs",
+    "./es/*/providerEnum": "./es/*/providerEnum.mjs",
+    "./es/*/style": "./es/*/style.mjs",
+    "./es/*/toc": "./es/*/toc.mjs",
+    "./es/*/useFillId": "./es/*/useFillId.mjs",
+    "./es/*/util": "./es/*/util.mjs",
+    "./es/*": "./es/*/index.mjs",
     "./es/*.js": {
       "types": "./es/*.d.mts",
       "import": "./es/*.mjs",
       "default": "./es/*.mjs"
-    },
-    "./es/*": {
-      "types": "./es/*/index.d.mts",
-      "import": "./es/*/index.mjs",
-      "default": "./es/*/index.mjs"
     },
     "./package.json": "./package.json"
   },
