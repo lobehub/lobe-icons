@@ -27,6 +27,15 @@ describe('ModelIcon brand resolution', () => {
     expect(markup).not.toContain('<title>Spark</title>');
   });
 
+  it.each(['muse-wonder-1.0', 'muse-wonder', 'meta/muse-wonder', 'Muse-Wonder-1.0'])(
+    'uses Meta for Muse Wonder model %s',
+    (model) => {
+      const markup = renderToStaticMarkup(<ModelIcon model={model} type={'mono'} />);
+
+      expect(markup).toContain('<title>Meta</title>');
+    },
+  );
+
   it.each(['spark', 'spark-v3.5', 'generalv3.5', '4.0ultra'])(
     'preserves the iFlyTek Spark icon for %s',
     (model) => {
