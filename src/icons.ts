@@ -10,6 +10,7 @@ export { default as Ai302, type CompoundedIcon as Ai302Props } from './Ai302';
 export { default as Ai360, type CompoundedIcon as Ai360Props } from './Ai360';
 export { default as AiHubMix, type CompoundedIcon as AiHubMixProps } from './AiHubMix';
 export { default as AiMass, type CompoundedIcon as AiMassProps } from './AiMass';
+export { default as AiOnly, type CompoundedIcon as AiOnlyProps } from './AiOnly';
 export { default as AionLabs, type CompoundedIcon as AionLabsProps } from './AionLabs';
 export { default as AirJelly, type CompoundedIcon as AirJellyProps } from './AirJelly';
 export { default as AiStudio, type CompoundedIcon as AiStudioProps } from './AiStudio';
