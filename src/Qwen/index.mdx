@@ -71,7 +71,7 @@ export default () => (
 <DocsPreview>
   {
     <Flexbox gap={16} horizontal>
-      <Qwen.Avatar size={64} background={Qwen.colorGradient} />
+      <Qwen.Avatar size={64} background={Qwen.colorPrimary} />
       <Qwen.Avatar size={64} />
       <Qwen.Avatar size={64} shape={'square'} />
     </Flexbox>
@@ -84,7 +84,7 @@ import { Flexbox } from '@lobehub/ui';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Qwen.Avatar size={64} background={Qwen.colorGradient} />
+    <Qwen.Avatar size={64} background={Qwen.colorPrimary} />
     <Qwen.Avatar size={64} />
     <Qwen.Avatar size={64} shape={'square'} />
   </Flexbox>
@@ -97,7 +97,6 @@ export default () => (
   {
     <Flexbox gap={16} horizontal>
       <ColorPreview color={Qwen.colorPrimary} />
-      <ColorPreview color={Qwen.colorGradient} />
     </Flexbox>
   }
 </DocsPreview>
@@ -111,7 +110,6 @@ import ColorPreview from '../components/ColorPreview';
 export default () => (
   <Flexbox gap={16} horizontal>
     <ColorPreview color={Qwen.colorPrimary} />
-    <ColorPreview color={Qwen.colorGradient} />
   </Flexbox>
 );
 ```

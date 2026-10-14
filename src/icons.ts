@@ -10,6 +10,7 @@ export { default as Ai302, type CompoundedIcon as Ai302Props } from './Ai302';
 export { default as Ai360, type CompoundedIcon as Ai360Props } from './Ai360';
 export { default as AiHubMix, type CompoundedIcon as AiHubMixProps } from './AiHubMix';
 export { default as AiMass, type CompoundedIcon as AiMassProps } from './AiMass';
+export { default as AIMLAPI, type CompoundedIcon as AIMLAPIProps } from './AIMLAPI';
 export { default as AionLabs, type CompoundedIcon as AionLabsProps } from './AionLabs';
 export { default as AirJelly, type CompoundedIcon as AirJellyProps } from './AirJelly';
 export { default as AiStudio, type CompoundedIcon as AiStudioProps } from './AiStudio';
@@ -187,6 +188,7 @@ export { default as LangSmith, type CompoundedIcon as LangSmithProps } from './L
 export { default as LeptonAI, type CompoundedIcon as LeptonAIProps } from './LeptonAI';
 export { default as LG, type CompoundedIcon as LGProps } from './LG';
 export { default as Lightricks, type CompoundedIcon as LightricksProps } from './Lightricks';
+export { default as Ling, type CompoundedIcon as LingProps } from './Ling';
 export { default as Liquid, type CompoundedIcon as LiquidProps } from './Liquid';
 export { default as LiveKit, type CompoundedIcon as LiveKitProps } from './LiveKit';
 export { default as LlamaIndex, type CompoundedIcon as LlamaIndexProps } from './LlamaIndex';
