@@ -5767,6 +5767,25 @@
     "title": "TuriX"
   },
   {
+    "color": "#F386A1",
+    "desc": "https://typesafe.ai/",
+    "docsUrl": "type-safe-ai",
+    "fullTitle": "TypeSafe AI",
+    "group": "provider",
+    "id": "TypeSafeAI",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "TypeSafe AI"
+  },
+  {
     "color": "#e30a5d",
     "desc": "https://udio.com",
     "docsUrl": "udio",
