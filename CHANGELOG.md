@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 6.0.0](https://github.com/lobehub/lobe-icons/compare/v5.23.1...v6.0.0)
+
+<sup>Released on **2026-10-15**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Adopt lobe-ui 6 and drop antd \[force major].
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([559e761](https://github.com/lobehub/lobe-icons/commit/559e761))
+- **misc**: Adopt lobe-ui 6 and drop antd \[force major], closes [#432](https://github.com/lobehub/lobe-icons/issues/432) ([a83b922](https://github.com/lobehub/lobe-icons/commit/a83b922))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 5.23.1](https://github.com/lobehub/lobe-icons/compare/v5.23.0...v5.23.1)
 
 <sup>Released on **2026-10-13**</sup>
@@ -277,7 +304,7 @@
 
 #### 🐛 Bug Fixes
 
-- **misc**: Stop the workspace glob from descending into nested node\_modules.
+- **misc**: Stop the workspace glob from descending into nested node_modules.
 
 <br/>
 
@@ -290,7 +317,7 @@
 
 #### What's fixed
 
-- **misc**: Stop the workspace glob from descending into nested node\_modules ([6f8343b](https://github.com/lobehub/lobe-icons/commit/6f8343b))
+- **misc**: Stop the workspace glob from descending into nested node_modules ([6f8343b](https://github.com/lobehub/lobe-icons/commit/6f8343b))
 
 </details>
 
