@@ -40,93 +40,32 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 
 ```html
 <!--UNPKG-->
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://unpkg.com/@lobehub/icons-static-avatar@latest/dark/[ICON SLUG].png"
-  />
-  <img
-    height="64"
-    src="https://unpkg.com/@lobehub/icons-static-avatar@latest/light/[ICON SLUG].png"
-  />
-</picture>
+<img height="64" src="https://unpkg.com/@lobehub/icons-static-avatar@latest/avatars/[ICON SLUG].webp" />
 
 <!--ALIYUN-->
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/dark/[ICON SLUG].png"
-  />
-  <img
-    height="64"
-    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/light/[ICON SLUG].png"
-  />
-</picture>
+<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/avatars/[ICON SLUG].webp" />
 ```
 
 ### Example
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-avatar/latest/files/dark/openai.png">
-  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-avatar/latest/files/light/openai.png">
-</picture>
+<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/avatars/openai.webp">
 
 ```html
 <!--UNPKG-->
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://unpkg.com/@lobehub/icons-static-avatar@latest/dark/open-ai.png"
-  />
-  <img height="64" src="https://unpkg.com/@lobehub/icons-static-avatar@latest/light/openai.png" />
-</picture>
+<img height="64" src="https://unpkg.com/@lobehub/icons-static-avatar@latest/avatars/openai.webp" />
 
 <!--ALIYUN-->
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="
-      https://registry.npmmirror.com/@lobehub/icons-static-avatar/latest/files/dark/openai.png
-    "
-  />
-  <img
-    height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-avatar/latest/files/light/openai.png"
-  />
-</picture>
+<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/avatars/openai.webp" />
 ```
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-avatar/latest/files/dark/open-ai-text.png">
-  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-avatar/latest/files/light/open-ai-text.png">
-</picture>
+<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/avatars/claude.webp">
 
 ```html
 <!--UNPKG-->
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://unpkg.com/@lobehub/icons-static-avatar@latest/dark/openai-text.png"
-  />
-  <img
-    height="64"
-    src="https://unpkg.com/@lobehub/icons-static-avatar@latest/light/openai-text.png"
-  />
-</picture>
+<img height="64" src="https://unpkg.com/@lobehub/icons-static-avatar@latest/avatars/claude.webp" />
 
 <!--ALIYUN-->
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="
-      https://registry.npmmirror.com/@lobehub/icons-static-avatar/latest/files/dark/openai-text.png
-    "
-  />
-  <img
-    height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-avatar/latest/files/light/openai-text.png"
-  />
-</picture>
+<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/avatars/claude.webp" />
 ```
 
 <div align="right">
