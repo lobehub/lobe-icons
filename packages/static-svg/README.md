@@ -2,9 +2,9 @@
 
 <div align="center">
 
-<img height="120" src="https://registry.npmmirror.com/@lobehub/assets-logo/1.0.0/files/assets/logo-3d.webp">
-<img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
-<img height="120" src="https://registry.npmmirror.com/@lobehub/fluent-emoji-3d/1.1.0/files/assets/1f968.webp">
+<img height="120" src="https://raw.githubusercontent.com/lobehub/lobe-assets/master/packages/assets-logo/assets/logo-3d.webp">
+<img height="120" src="https://raw.githubusercontent.com/lobehub/lobe-assets/master/packages/assets-logo/assets/split.svg">
+<img height="120" src="https://raw.githubusercontent.com/lobehub/fluent-emoji/master/packages/3d/assets/1f968.webp">
 
 # Lobe Icons
 
@@ -45,13 +45,13 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 <!--ALIYUN-->
 <img
   height="64"
-  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/[ICON SLUG].svg"
+  src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/[ICON SLUG].svg"
 />
 ```
 
 ### Example
 
-<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai.svg">
+<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai.svg">
 
 ```html
 <!--UNPKG-->
@@ -60,11 +60,11 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 <!--ALIYUN-->
 <img
   height="64"
-  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai.svg"
+  src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai.svg"
 />
 ```
 
-<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai-text.svg">
+<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai-text.svg">
 
 ```html
 <!--UNPKG-->
@@ -73,7 +73,7 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 <!--ALIYUN-->
 <img
   height="64"
-  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai-text.svg"
+  src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai-text.svg"
 />
 ```
 

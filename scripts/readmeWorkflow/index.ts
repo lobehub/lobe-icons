@@ -1,6 +1,6 @@
 import { consola } from 'consola';
 import { markdownTable } from 'markdown-table';
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 import { toc } from '@/toc';
@@ -16,12 +16,29 @@ const updateReadme = (split: string, md: string, content: string): string => {
   return mds.join(split);
 };
 
+const STATIC_PNG_PATH = resolve(ROOT_PATH, 'packages/static-png');
+
+/** 静态 png 里未必已经构建出 color 变体，只有文件真的存在才用 -color，避免 README 里出现 404 图 */
+const hasStaticPng = (slug: string, mode: 'dark' | 'light') =>
+  existsSync(resolve(STATIC_PNG_PATH, mode, `${slug}.png`));
+
+const iconSlug = (data: IconToc, mode: 'dark' | 'light') => {
+  const slug = data.id.toLowerCase();
+
+  if (data.param.hasColor && hasStaticPng(`${slug}-color`, mode)) return `${slug}-color`;
+
+  return slug;
+};
+
+const staticPngUrl = (data: IconToc, mode: 'dark' | 'light') =>
+  `https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/${mode}/${iconSlug(data, mode)}.png`;
+
 const genMd = (data: IconToc): string =>
   [
     `<a href="${BASE_URL}${data.id.toLowerCase()}">`,
     `<picture>`,
-    `<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/${data.param.hasColor ? data.id.toLowerCase() + '-color' : data.id.toLowerCase()}.png" />`,
-    `<img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/${data.param.hasColor ? data.id.toLowerCase() + '-color' : data.id.toLowerCase()}.png" />`,
+    `<source media="(prefers-color-scheme: dark)" srcset="${staticPngUrl(data, 'dark')}" />`,
+    `<img height="56px" width="56px" src="${staticPngUrl(data, 'light')}" />`,
     `</picture>`,
     '<br/>',
     data.fullTitle,

@@ -2,9 +2,9 @@
 
 <div align="center">
 
-<img height="120" src="https://registry.npmmirror.com/@lobehub/assets-logo/1.0.0/files/assets/logo-3d.webp">
-<img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
-<img height="120" src="https://registry.npmmirror.com/@lobehub/fluent-emoji-3d/1.1.0/files/assets/1f968.webp">
+<img height="120" src="https://raw.githubusercontent.com/lobehub/lobe-assets/master/packages/assets-logo/assets/logo-3d.webp">
+<img height="120" src="https://raw.githubusercontent.com/lobehub/lobe-assets/master/packages/assets-logo/assets/split.svg">
+<img height="120" src="https://raw.githubusercontent.com/lobehub/fluent-emoji/master/packages/3d/assets/1f968.webp">
 
 <h1>Lobe Icons</h1>
 
@@ -129,7 +129,7 @@ npm i @lobehub/icons
 | <a href="https://lobehub.com/icons/commanda"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/commanda-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/commanda-color.png" /></picture><br/>CommandA (Cohere)              | <a href="https://lobehub.com/icons/apertis"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/apertis-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/apertis-color.png" /></picture><br/>Apertis                                    | <a href="https://lobehub.com/icons/codeflicker"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/codeflicker-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/codeflicker-color.png" /></picture><br/>CodeFlicker          |
 | <a href="https://lobehub.com/icons/dalle"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/dalle-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/dalle-color.png" /></picture><br/>DALL·E (OpenAI)                         | <a href="https://lobehub.com/icons/apple"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/apple.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/apple.png" /></picture><br/>Apple                                                        | <a href="https://lobehub.com/icons/colab"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/colab-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/colab-color.png" /></picture><br/>Colab (Google)                         |
 | <a href="https://lobehub.com/icons/dbrx"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/dbrx-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/dbrx-color.png" /></picture><br/>DBRX (Databricks)                          | <a href="https://lobehub.com/icons/atlascloud"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/atlascloud.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/atlascloud.png" /></picture><br/>AtlasCloud                                    | <a href="https://lobehub.com/icons/comfyui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/comfyui-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/comfyui-color.png" /></picture><br/>ComfyUI                          |
-| <a href="https://lobehub.com/icons/deepcogito"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/deepcogito-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/deepcogito-color.png" /></picture><br/>Deep Cogito              | <a href="https://lobehub.com/icons/aws"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/aws-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/aws-color.png" /></picture><br/>AWS                                                    | <a href="https://lobehub.com/icons/commandcode"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/commandcode-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/commandcode-color.png" /></picture><br/>Command Code         |
+| <a href="https://lobehub.com/icons/deepcogito"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/deepcogito-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/deepcogito-color.png" /></picture><br/>Deep Cogito              | <a href="https://lobehub.com/icons/aws"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/aws-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/aws-color.png" /></picture><br/>AWS                                                    | <a href="https://lobehub.com/icons/commandcode"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/commandcode.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/commandcode.png" /></picture><br/>Command Code         |
 | <a href="https://lobehub.com/icons/deepseek"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/deepseek-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/deepseek-color.png" /></picture><br/>DeepSeek                       | <a href="https://lobehub.com/icons/azureai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/azureai-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/azureai-color.png" /></picture><br/>AzureAI                                    | <a href="https://lobehub.com/icons/copilotkit"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/copilotkit-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/copilotkit-color.png" /></picture><br/>CopilotKit              |
 | <a href="https://lobehub.com/icons/dolphin"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/dolphin.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/dolphin.png" /></picture><br/>Dolphin (dphnAI)                              | <a href="https://lobehub.com/icons/baidu"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/baidu-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/baidu-color.png" /></picture><br/>Baidu                                            | <a href="https://lobehub.com/icons/coqui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/coqui-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/coqui-color.png" /></picture><br/>Coqui                                  |
 | <a href="https://lobehub.com/icons/dotsstudio"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/dotsstudio.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/dotsstudio.png" /></picture><br/>Dots Studio                          | <a href="https://lobehub.com/icons/baiducloud"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/baiducloud-color.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/baiducloud-color.png" /></picture><br/>BaiduCloud (百度智能云)           | <a href="https://lobehub.com/icons/coze"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/coze.png" /><img height="56px" width="56px" src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/coze.png" /></picture><br/>Coze                                                  |
@@ -273,13 +273,13 @@ We provide a CDN service (`@lobehub/icons-static-svg`) which allows you to use S
 <!--ALIYUN-->
 <img
   height="64"
-  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/[ICON SLUG].svg"
+  src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/[ICON SLUG].svg"
 />
 ```
 
 #### Example
 
-<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai.svg">
+<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai.svg">
 
 ```html
 <!--UNPKG-->
@@ -288,11 +288,11 @@ We provide a CDN service (`@lobehub/icons-static-svg`) which allows you to use S
 <!--ALIYUN-->
 <img
   height="64"
-  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai.svg"
+  src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai.svg"
 />
 ```
 
-<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai-text.svg">
+<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai-text.svg">
 
 ```html
 <!--UNPKG-->
@@ -301,7 +301,7 @@ We provide a CDN service (`@lobehub/icons-static-svg`) which allows you to use S
 <!--ALIYUN-->
 <img
   height="64"
-  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai-text.svg"
+  src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai-text.svg"
 />
 ```
 
@@ -325,11 +325,11 @@ We provide a CDN service (`@lobehub/icons-static-png`) which allows you to use P
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/[ICON SLUG].png"
+    srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/dark/[ICON SLUG].png"
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/[ICON SLUG].png"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/light/[ICON SLUG].png"
   />
 </picture>
 ```
@@ -337,8 +337,8 @@ We provide a CDN service (`@lobehub/icons-static-png`) which allows you to use P
 #### Example
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/openai.png">
-  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/openai.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/dark/openai.png">
+  <img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/light/openai.png">
 </picture>
 
 ```html
@@ -355,18 +355,18 @@ We provide a CDN service (`@lobehub/icons-static-png`) which allows you to use P
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/openai.png"
+    srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/dark/openai.png"
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/openai.png"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/light/openai.png"
   />
 </picture>
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/openai-text.png">
-  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/openai-text.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/dark/openai-text.png">
+  <img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/light/openai-text.png">
 </picture>
 
 ```html
@@ -384,12 +384,12 @@ We provide a CDN service (`@lobehub/icons-static-png`) which allows you to use P
   <source
     media="(prefers-color-scheme: dark)"
     srcset="
-      https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/openai-text.png
+      https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/dark/openai-text.png
     "
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/openai-text.png"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/light/openai-text.png"
   />
 </picture>
 ```
@@ -417,11 +417,11 @@ We provide a CDN service (`@lobehub/icons-static-webp`) which allows you to use 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/[ICON SLUG].webp"
+    srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/[ICON SLUG].webp"
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/[ICON SLUG].webp"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/[ICON SLUG].webp"
   />
 </picture>
 ```
@@ -429,8 +429,8 @@ We provide a CDN service (`@lobehub/icons-static-webp`) which allows you to use 
 #### Example
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/openai.webp">
-  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/openai.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai.webp">
+  <img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/openai.webp">
 </picture>
 
 ```html
@@ -447,18 +447,18 @@ We provide a CDN service (`@lobehub/icons-static-webp`) which allows you to use 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/openai.webp"
+    srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai.webp"
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/openai.webp"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/openai.webp"
   />
 </picture>
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/openai-text.webp">
-  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/openai-text.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai-text.webp">
+  <img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/openai-text.webp">
 </picture>
 
 ```html
@@ -479,12 +479,12 @@ We provide a CDN service (`@lobehub/icons-static-webp`) which allows you to use 
   <source
     media="(prefers-color-scheme: dark)"
     srcset="
-      https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/openai-text.webp
+      https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai-text.webp
     "
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/openai-text.webp"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/openai-text.webp"
   />
 </picture>
 ```
