@@ -85,7 +85,9 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai.webp"
+    srcset="
+      https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai.webp
+    "
   />
   <img
     height="64"

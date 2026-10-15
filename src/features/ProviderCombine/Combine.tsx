@@ -1,5 +1,4 @@
-import { DivProps, Flexbox } from '@lobehub/ui';
-import { Divider } from '@lobehub/ui/base-ui';
+import { DivProps, Divider, Flexbox } from '@lobehub/ui';
 import { ReactNode, memo } from 'react';
 
 const Combine = memo<DivProps & { left: ReactNode; right: ReactNode; size: number }>(

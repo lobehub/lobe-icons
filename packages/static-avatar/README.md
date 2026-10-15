@@ -40,10 +40,16 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 
 ```html
 <!--UNPKG-->
-<img height="64" src="https://unpkg.com/@lobehub/icons-static-avatar@latest/avatars/[ICON SLUG].webp" />
+<img
+  height="64"
+  src="https://unpkg.com/@lobehub/icons-static-avatar@latest/avatars/[ICON SLUG].webp"
+/>
 
 <!--ALIYUN-->
-<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/avatars/[ICON SLUG].webp" />
+<img
+  height="64"
+  src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/avatars/[ICON SLUG].webp"
+/>
 ```
 
 ### Example
@@ -55,7 +61,10 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 <img height="64" src="https://unpkg.com/@lobehub/icons-static-avatar@latest/avatars/openai.webp" />
 
 <!--ALIYUN-->
-<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/avatars/openai.webp" />
+<img
+  height="64"
+  src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/avatars/openai.webp"
+/>
 ```
 
 <img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/avatars/claude.webp">
@@ -65,7 +74,10 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 <img height="64" src="https://unpkg.com/@lobehub/icons-static-avatar@latest/avatars/claude.webp" />
 
 <!--ALIYUN-->
-<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/avatars/claude.webp" />
+<img
+  height="64"
+  src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-avatar/avatars/claude.webp"
+/>
 ```
 
 <div align="right">

@@ -277,7 +277,7 @@
 
 #### 🐛 Bug Fixes
 
-- **misc**: Stop the workspace glob from descending into nested node_modules.
+- **misc**: Stop the workspace glob from descending into nested node\_modules.
 
 <br/>
 
@@ -290,7 +290,7 @@
 
 #### What's fixed
 
-- **misc**: Stop the workspace glob from descending into nested node_modules ([6f8343b](https://github.com/lobehub/lobe-icons/commit/6f8343b))
+- **misc**: Stop the workspace glob from descending into nested node\_modules ([6f8343b](https://github.com/lobehub/lobe-icons/commit/6f8343b))
 
 </details>
 
