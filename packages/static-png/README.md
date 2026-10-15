@@ -73,7 +73,7 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://unpkg.com/@lobehub/icons-static-png@latest/dark/open-ai.png"
+    srcset="https://unpkg.com/@lobehub/icons-static-png@latest/dark/openai.png"
   />
   <img height="64" src="https://unpkg.com/@lobehub/icons-static-png@latest/light/openai.png" />
 </picture>
@@ -92,8 +92,8 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/open-ai-text.png">
-  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/open-ai-text.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/dark/openai-text.png">
+  <img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/light/openai-text.png">
 </picture>
 
 ```html
