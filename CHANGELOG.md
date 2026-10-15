@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 5.23.1](https://github.com/lobehub/lobe-icons/compare/v5.23.0...v5.23.1)
+
+<sup>Released on **2026-10-13**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Use Meta icon for Muse Wonder models, use Node 22 in release CI so tsdown can load its config.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Use Meta icon for Muse Wonder models ([6f2c20d](https://github.com/lobehub/lobe-icons/commit/6f2c20d))
+- **misc**: Use Node 22 in release CI so tsdown can load its config ([5f19aab](https://github.com/lobehub/lobe-icons/commit/5f19aab))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.23.0](https://github.com/lobehub/lobe-icons/compare/v5.22.0...v5.23.0)
 
 <sup>Released on **2026-10-03**</sup>
@@ -251,7 +277,7 @@
 
 #### 🐛 Bug Fixes
 
-- **misc**: Stop the workspace glob from descending into nested node_modules.
+- **misc**: Stop the workspace glob from descending into nested node\_modules.
 
 <br/>
 
@@ -264,7 +290,7 @@
 
 #### What's fixed
 
-- **misc**: Stop the workspace glob from descending into nested node_modules ([6f8343b](https://github.com/lobehub/lobe-icons/commit/6f8343b))
+- **misc**: Stop the workspace glob from descending into nested node\_modules ([6f8343b](https://github.com/lobehub/lobe-icons/commit/6f8343b))
 
 </details>
 
