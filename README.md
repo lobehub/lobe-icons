@@ -2,9 +2,9 @@
 
 <div align="center">
 
-<img height="120" src="https://registry.npmmirror.com/@lobehub/assets-logo/1.0.0/files/assets/logo-3d.webp">
+<img height="120" src="https://raw.githubusercontent.com/lobehub/lobe-assets/master/packages/assets-logo/assets/logo-3d.webp">
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
-<img height="120" src="https://registry.npmmirror.com/@lobehub/fluent-emoji-3d/1.1.0/files/assets/1f968.webp">
+<img height="120" src="https://raw.githubusercontent.com/lobehub/fluent-emoji/master/packages/3d/assets/1f968.webp">
 
 <h1>Lobe Icons</h1>
 
@@ -273,13 +273,13 @@ We provide a CDN service (`@lobehub/icons-static-svg`) which allows you to use S
 <!--ALIYUN-->
 <img
   height="64"
-  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/[ICON SLUG].svg"
+  src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/[ICON SLUG].svg"
 />
 ```
 
 #### Example
 
-<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai.svg">
+<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai.svg">
 
 ```html
 <!--UNPKG-->
@@ -288,11 +288,11 @@ We provide a CDN service (`@lobehub/icons-static-svg`) which allows you to use S
 <!--ALIYUN-->
 <img
   height="64"
-  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai.svg"
+  src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai.svg"
 />
 ```
 
-<img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai-text.svg">
+<img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai-text.svg">
 
 ```html
 <!--UNPKG-->
@@ -301,7 +301,7 @@ We provide a CDN service (`@lobehub/icons-static-svg`) which allows you to use S
 <!--ALIYUN-->
 <img
   height="64"
-  src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai-text.svg"
+  src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai-text.svg"
 />
 ```
 
@@ -325,11 +325,11 @@ We provide a CDN service (`@lobehub/icons-static-png`) which allows you to use P
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/[ICON SLUG].png"
+    srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/dark/[ICON SLUG].png"
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/[ICON SLUG].png"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/light/[ICON SLUG].png"
   />
 </picture>
 ```
@@ -337,8 +337,8 @@ We provide a CDN service (`@lobehub/icons-static-png`) which allows you to use P
 #### Example
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/openai.png">
-  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/openai.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/dark/openai.png">
+  <img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/light/openai.png">
 </picture>
 
 ```html
@@ -355,18 +355,18 @@ We provide a CDN service (`@lobehub/icons-static-png`) which allows you to use P
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/openai.png"
+    srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/dark/openai.png"
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/openai.png"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/light/openai.png"
   />
 </picture>
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/openai-text.png">
-  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/openai-text.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/dark/openai-text.png">
+  <img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/light/openai-text.png">
 </picture>
 
 ```html
@@ -384,12 +384,12 @@ We provide a CDN service (`@lobehub/icons-static-png`) which allows you to use P
   <source
     media="(prefers-color-scheme: dark)"
     srcset="
-      https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/openai-text.png
+      https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/dark/openai-text.png
     "
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/openai-text.png"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-png/light/openai-text.png"
   />
 </picture>
 ```
@@ -417,11 +417,11 @@ We provide a CDN service (`@lobehub/icons-static-webp`) which allows you to use 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/[ICON SLUG].webp"
+    srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/[ICON SLUG].webp"
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/[ICON SLUG].webp"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/[ICON SLUG].webp"
   />
 </picture>
 ```
@@ -429,8 +429,8 @@ We provide a CDN service (`@lobehub/icons-static-webp`) which allows you to use 
 #### Example
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/openai.webp">
-  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/openai.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai.webp">
+  <img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/openai.webp">
 </picture>
 
 ```html
@@ -447,18 +447,18 @@ We provide a CDN service (`@lobehub/icons-static-webp`) which allows you to use 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/openai.webp"
+    srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai.webp"
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/openai.webp"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/openai.webp"
   />
 </picture>
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/openai-text.webp">
-  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/openai-text.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai-text.webp">
+  <img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/openai-text.webp">
 </picture>
 
 ```html
@@ -479,12 +479,12 @@ We provide a CDN service (`@lobehub/icons-static-webp`) which allows you to use 
   <source
     media="(prefers-color-scheme: dark)"
     srcset="
-      https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/openai-text.webp
+      https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai-text.webp
     "
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/openai-text.webp"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/openai-text.webp"
   />
 </picture>
 ```

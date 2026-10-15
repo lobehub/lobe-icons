@@ -2,9 +2,9 @@
 
 <div align="center">
 
-<img height="120" src="https://registry.npmmirror.com/@lobehub/assets-logo/1.0.0/files/assets/logo-3d.webp">
+<img height="120" src="https://raw.githubusercontent.com/lobehub/lobe-assets/master/packages/assets-logo/assets/logo-3d.webp">
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
-<img height="120" src="https://registry.npmmirror.com/@lobehub/fluent-emoji-3d/1.1.0/files/assets/1f968.webp">
+<img height="120" src="https://raw.githubusercontent.com/lobehub/fluent-emoji/master/packages/3d/assets/1f968.webp">
 
 # Lobe Icons
 
@@ -55,11 +55,11 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/[ICON SLUG].webp"
+    srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/[ICON SLUG].webp"
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/[ICON SLUG].webp"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/[ICON SLUG].webp"
   />
 </picture>
 ```
@@ -67,8 +67,8 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 ### Example
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/openai.webp">
-  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/openai.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai.webp">
+  <img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/openai.webp">
 </picture>
 
 ```html
@@ -85,18 +85,18 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/openai.webp"
+    srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai.webp"
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/openai.webp"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/openai.webp"
   />
 </picture>
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/openai-text.webp">
-  <img height="64" src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/openai-text.webp">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai-text.webp">
+  <img height="64" src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/openai-text.webp">
 </picture>
 
 ```html
@@ -117,12 +117,12 @@ Icons can be served from a CDN such as **unpkg** or **npmmirror (aliyun)**. Simp
   <source
     media="(prefers-color-scheme: dark)"
     srcset="
-      https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/dark/openai-text.webp
+      https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/dark/openai-text.webp
     "
   />
   <img
     height="64"
-    src="https://registry.npmmirror.com/@lobehub/icons-static-webp/latest/files/light/openai-text.webp"
+    src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-webp/light/openai-text.webp"
   />
 </picture>
 ```
