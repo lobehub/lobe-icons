@@ -87,6 +87,7 @@ export enum ModelProvider {
   Minimax = 'minimax',
   Mistral = 'mistral',
   ModelScope = 'modelscope',
+  Modelflare = 'modelflare',
   Moonshot = 'moonshot',
   NPLCloud = 'nplcloud',
   Nebius = 'nebius',

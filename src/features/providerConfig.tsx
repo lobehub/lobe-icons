@@ -83,6 +83,7 @@ import Microsoft from '@/Microsoft';
 import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import ModelScope from '@/ModelScope';
+import Modelflare from '@/Modelflare';
 import Moonshot from '@/Moonshot';
 import NPLCloud from '@/NPLCloud';
 import Nebius from '@/Nebius';
@@ -396,6 +397,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
   { Icon: CometAPI, keywords: [ModelProvider.CometAPI] },
+  { Icon: Modelflare, keywords: [ModelProvider.Modelflare] },
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine

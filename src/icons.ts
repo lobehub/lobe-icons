@@ -213,6 +213,7 @@ export { default as Microsoft, type CompoundedIcon as MicrosoftProps } from './M
 export { default as Midjourney, type CompoundedIcon as MidjourneyProps } from './Midjourney';
 export { default as Minimax, type CompoundedIcon as MinimaxProps } from './Minimax';
 export { default as Mistral, type CompoundedIcon as MistralProps } from './Mistral';
+export { default as Modelflare, type CompoundedIcon as ModelflareProps } from './Modelflare';
 export { default as ModelScope, type CompoundedIcon as ModelScopeProps } from './ModelScope';
 export { default as Monica, type CompoundedIcon as MonicaProps } from './Monica';
 export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moonshot';
