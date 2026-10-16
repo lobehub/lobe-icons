@@ -230,6 +230,25 @@
     "title": "AiMass"
   },
   {
+    "color": "#000",
+    "desc": "https://aimlapi.com",
+    "docsUrl": "aimlapi",
+    "fullTitle": "AI/ML API",
+    "group": "provider",
+    "id": "AIMLAPI",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "AIMLAPI"
+  },
+  {
     "color": "#0f172a",
     "desc": "https://aionlabs.ai",
     "docsUrl": "aion-labs",
@@ -3436,6 +3455,25 @@
     "title": "Lightricks"
   },
   {
+    "color": "#144DFF",
+    "desc": "https://www.ant-ling.com",
+    "docsUrl": "ling",
+    "fullTitle": "Ling (百灵)",
+    "group": "model",
+    "id": "Ling",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Ling"
+  },
+  {
     "color": "#fff",
     "desc": "https://liquid.ai",
     "docsUrl": "liquid",
@@ -4867,8 +4905,7 @@
     "title": "Qoder"
   },
   {
-    "color": "#615ced",
-    "colorGradient": "linear-gradient(to right, #6336E7,  #6F69F7)",
+    "color": "#082dff",
     "desc": "https://huggingface.co/Qwen",
     "docsUrl": "qwen",
     "fullTitle": "Qwen (千问)",
