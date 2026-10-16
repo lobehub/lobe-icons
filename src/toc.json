@@ -6150,6 +6150,26 @@
     "title": "Windsurf"
   },
   {
+    "color": "#01C886",
+    "colorGradient": "radial-gradient(66.67% 66.67% at 87.5% 102.08%, #94d378 0%, #01C886 100%)",
+    "desc": "https://workbuddy.ai",
+    "docsUrl": "work-buddy",
+    "fullTitle": "WorkBuddy",
+    "group": "application",
+    "id": "WorkBuddy",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "WorkBuddy"
+  },
+  {
     "color": "#F38020",
     "desc": "https://developers.cloudflare.com/workers-ai",
     "docsUrl": "workers-ai",
