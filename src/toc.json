@@ -610,6 +610,25 @@
     "title": "Atlas Cloud"
   },
   {
+    "color": "#42B28A",
+    "desc": "https://autolith.rocks",
+    "docsUrl": "autolith",
+    "fullTitle": "Autolith",
+    "group": "application",
+    "id": "Autolith",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Autolith"
+  },
+  {
     "color": "#E00054",
     "desc": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
     "docsUrl": "automatic",
