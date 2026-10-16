@@ -1,0 +1,117 @@
+---
+title: WorkBuddy
+description: https://workbuddy.ai
+category: Application
+---
+
+import { WorkBuddy } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <WorkBuddy size={64} />
+      <WorkBuddy.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { WorkBuddy } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <WorkBuddy size={64} />
+    <WorkBuddy.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<WorkBuddy.Text size={48} />}</DocsPreview>
+
+```tsx
+import { WorkBuddy } from '@lobehub/icons';
+
+export default () => <WorkBuddy.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <WorkBuddy.Combine size={64} />
+      <WorkBuddy.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { WorkBuddy } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <WorkBuddy.Combine size={64} />
+    <WorkBuddy.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <WorkBuddy.Avatar size={64} />
+      <WorkBuddy.Avatar size={64} shape={'square'} />
+      <WorkBuddy.Avatar size={64} shape={'square'} background={WorkBuddy.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { WorkBuddy } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <WorkBuddy.Avatar size={64} />
+    <WorkBuddy.Avatar size={64} shape={'square'} />
+    <WorkBuddy.Avatar size={64} shape={'square'} background={WorkBuddy.colorPrimary} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={WorkBuddy.colorPrimary} />
+      <ColorPreview color={WorkBuddy.colorGradient} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { WorkBuddy } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={WorkBuddy.colorPrimary} />
+    <ColorPreview color={WorkBuddy.colorGradient} />
+  </Flexbox>
+);
+```
