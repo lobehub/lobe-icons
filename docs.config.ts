@@ -56,7 +56,7 @@ export default defineDocsConfig({
     metadata: {
       openGraph: {
         image:
-          'https://repository-images.githubusercontent.com/750129442/59a8d16a-7ba1-4eda-b611-697d35cd04ab',
+          'https://repository-images.githubusercontent.com/750129442/edc2a03a-a6c4-4f11-89c8-8ffafbb85a7a',
       },
     },
     navItems: [{ href: '/changelog', label: 'Changelog' }],
