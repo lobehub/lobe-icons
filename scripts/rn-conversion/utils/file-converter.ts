@@ -301,6 +301,7 @@ export class FileConverter {
 
     // 移除RN不支持的SVG属性
     result = result.replaceAll(/\s+shapeRendering="[^"]*"/g, '');
+    result = result.replaceAll(/\s+colorInterpolationFilters="[^"]*"/g, '');
     result = result.replaceAll(/style={{\s*mixBlendMode:\s*'[^']*',?\s*}}/g, '');
 
     // 修复fontWeight在ViewStyle中的使用（移除fontWeight）
