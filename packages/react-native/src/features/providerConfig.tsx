@@ -30,6 +30,7 @@ import BurnCloud from '../icons/BurnCloud';
 import ByteDance from '../icons/ByteDance';
 import CentML from '../icons/CentML';
 import Cerebras from '../icons/Cerebras';
+import CheaperInference from '../icons/CheaperInference';
 import Civitai from '../icons/Civitai';
 import Claude from '../icons/Claude';
 import Cloudflare from '../icons/Cloudflare';
@@ -46,6 +47,7 @@ import Exa from '../icons/Exa';
 import Fal from '../icons/Fal';
 import Featherless from '../icons/Featherless';
 import Fireworks from '../icons/Fireworks';
+import FlexAI from '../icons/FlexAI';
 import Friendli from '../icons/Friendli';
 import Gemini from '../icons/Gemini';
 import GiteeAI from '../icons/GiteeAI';
@@ -421,6 +423,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Bfl, keywords: [RNModelProvider.Bfl] },
   { Icon: Replicate, combineMultiple: 0.9, keywords: [RNModelProvider.Replicate] },
   { Icon: Nebius, combineMultiple: 0.75, keywords: [RNModelProvider.Nebius] },
+  { Icon: FlexAI, keywords: [RNModelProvider.FlexAI] },
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [RNModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [RNModelProvider.AkashChat] },
   { Icon: AtlasCloud, combineMultiple: 0.8, keywords: [RNModelProvider.AtlasCloud] },
@@ -448,4 +451,5 @@ export const rnProviderMappings: RNProviderMapping[] = [
   },
   { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [RNModelProvider.XiaomiMiMo] },
   { Icon: WaveSpeed, combineMultiple: 0.7, keywords: [RNModelProvider.WaveSpeed] },
+  { Icon: CheaperInference, combineMultiple: 0.8, keywords: [RNModelProvider.CheaperInference] },
 ];

@@ -1,6 +1,6 @@
 export const TITLE = 'GreenPT';
-export const COMBINE_TEXT_MULTIPLE = 0.92;
-export const COMBINE_SPACE_MULTIPLE = 0.12;
+export const COMBINE_TEXT_MULTIPLE = 0.7;
+export const COMBINE_SPACE_MULTIPLE = 0.2;
 export const COLOR_PRIMARY = '#9BE755';
 
 // Avatar constants
