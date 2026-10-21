@@ -10,10 +10,8 @@ allowBuilds:
   sharp: true
   unrs-resolver: true
 minimumReleaseAgeExclude:
-  - '@lobehub/docs-kit@6.0.3'
+  - '@lobehub/docs-kit@6.1.0'
   - '@lobehub/ui@5.49.0 || 6.0.0-beta.1 || 6.0.0-beta.10 || 6.0.0'
-patchedDependencies:
-  '@lobehub/docs-kit@6.0.3': patches/@lobehub__docs-kit@6.0.3.patch
 publicHoistPattern:
   - '*@umijs/lint*'
   - '*changelog*'

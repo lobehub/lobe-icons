@@ -4,9 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-patchedDependencies:
-  '@lobehub/docs-kit@6.0.3': 6342b0a5db34612cbbbbcd25d56b9f9fbc5d2c18cd607c282f4056427ad36a64
-
 importers:
 
   .:
@@ -28,8 +25,8 @@ importers:
         specifier: ^19.8.1
         version: 19.8.1(@types/node@26.6.2)(typescript@5.9.3)
       '@lobehub/docs-kit':
-        specifier: ^6.0.3
-        version: 6.0.3(patch_hash=6342b0a5db34612cbbbbcd25d56b9f9fbc5d2c18cd607c282f4056427ad36a64)(@lobehub/fluent-emoji@5.0.0-beta.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(@lobehub/icons@6.0.0-beta.1)(@react-router/dev@8.2.0(babel-plugin-macros@3.1.0)(react-router@8.2.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@9.4.0)(typescript@5.9.3)(vite@8.1.4(@types/node@26.6.2)(esbuild@0.28.2)(jiti@2.6.1)(less@4.8.1(supports-color@9.4.0))(terser@5.49.2)(tsx@4.23.15)(yaml@2.9.1)))(@shikijs/themes@4.5.0)(@types/mdast@4.0.4)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(micromark-util-types@2.0.3)(micromark@4.0.3(supports-color@9.4.0))(react-dom@19.3.0(react@19.3.0))(react-router@8.2.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react@19.3.0)(rolldown@1.2.13)(rollup@4.63.4)(supports-color@9.4.0)(tsx@4.23.15)(unplugin@2.3.11)(vite@8.1.4(@types/node@26.6.2)(esbuild@0.28.2)(jiti@2.6.1)(less@4.8.1(supports-color@9.4.0))(terser@5.49.2)(tsx@4.23.15)(yaml@2.9.1))
+        specifier: ^6.1.0
+        version: 6.1.0(@lobehub/fluent-emoji@5.0.0-beta.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(@lobehub/icons@6.0.0-beta.1)(@react-router/dev@8.2.0(babel-plugin-macros@3.1.0)(react-router@8.2.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@9.4.0)(typescript@5.9.3)(vite@8.1.4(@types/node@26.6.2)(esbuild@0.28.2)(jiti@2.6.1)(less@4.8.1(supports-color@9.4.0))(terser@5.49.2)(tsx@4.23.15)(yaml@2.9.1)))(@shikijs/themes@4.5.0)(@types/mdast@4.0.4)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(micromark-util-types@2.0.3)(micromark@4.0.3(supports-color@9.4.0))(react-dom@19.3.0(react@19.3.0))(react-router@8.2.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react@19.3.0)(rolldown@1.2.13)(rollup@4.63.4)(supports-color@9.4.0)(tsx@4.23.15)(unplugin@2.3.11)(vite@8.1.4(@types/node@26.6.2)(esbuild@0.28.2)(jiti@2.6.1)(less@4.8.1(supports-color@9.4.0))(terser@5.49.2)(tsx@4.23.15)(yaml@2.9.1))
       '@lobehub/fluent-emoji':
         specifier: ^5.0.0-beta.1
         version: 5.0.0-beta.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
@@ -1636,8 +1633,8 @@ packages:
   '@lit/reactive-element@2.1.2':
     resolution: {integrity: sha512-pbCDiVMnne1lYUIaYNN5wrwQXDtHaYtg7YEFPeW+hws6U47WeFvISGUWekPGKWOP1ygrs0ef0o1VJMk1exos5A==}
 
-  '@lobehub/docs-kit@6.0.3':
-    resolution: {integrity: sha512-M9wpbnLpPUqocVbfBkq4Y8dzTWFsmQ28T4q4fQKldNn9SuJnlI2g5FECDDHrW5pis2j0lyVnUTfu4M7Po2Z/WQ==}
+  '@lobehub/docs-kit@6.1.0':
+    resolution: {integrity: sha512-BPgzCuC+Ef73P2+80anTymAT/L/ZORUBMRsReztuQOsqSnfcSJDW/xvnWR42Wq6fTh9YO2PVrb2p8HjJBMnpaw==}
     engines: {node: '>=22.22.0'}
     hasBin: true
     peerDependencies:
@@ -12256,7 +12253,7 @@ snapshots:
     dependencies:
       '@lit-labs/ssr-dom-shim': 1.6.0
 
-  '@lobehub/docs-kit@6.0.3(patch_hash=6342b0a5db34612cbbbbcd25d56b9f9fbc5d2c18cd607c282f4056427ad36a64)(@lobehub/fluent-emoji@5.0.0-beta.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(@lobehub/icons@6.0.0-beta.1)(@react-router/dev@8.2.0(babel-plugin-macros@3.1.0)(react-router@8.2.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@9.4.0)(typescript@5.9.3)(vite@8.1.4(@types/node@26.6.2)(esbuild@0.28.2)(jiti@2.6.1)(less@4.8.1(supports-color@9.4.0))(terser@5.49.2)(tsx@4.23.15)(yaml@2.9.1)))(@shikijs/themes@4.5.0)(@types/mdast@4.0.4)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(micromark-util-types@2.0.3)(micromark@4.0.3(supports-color@9.4.0))(react-dom@19.3.0(react@19.3.0))(react-router@8.2.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react@19.3.0)(rolldown@1.2.13)(rollup@4.63.4)(supports-color@9.4.0)(tsx@4.23.15)(unplugin@2.3.11)(vite@8.1.4(@types/node@26.6.2)(esbuild@0.28.2)(jiti@2.6.1)(less@4.8.1(supports-color@9.4.0))(terser@5.49.2)(tsx@4.23.15)(yaml@2.9.1))':
+  '@lobehub/docs-kit@6.1.0(@lobehub/fluent-emoji@5.0.0-beta.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(@lobehub/icons@6.0.0-beta.1)(@react-router/dev@8.2.0(babel-plugin-macros@3.1.0)(react-router@8.2.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@9.4.0)(typescript@5.9.3)(vite@8.1.4(@types/node@26.6.2)(esbuild@0.28.2)(jiti@2.6.1)(less@4.8.1(supports-color@9.4.0))(terser@5.49.2)(tsx@4.23.15)(yaml@2.9.1)))(@shikijs/themes@4.5.0)(@types/mdast@4.0.4)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(micromark-util-types@2.0.3)(micromark@4.0.3(supports-color@9.4.0))(react-dom@19.3.0(react@19.3.0))(react-router@8.2.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react@19.3.0)(rolldown@1.2.13)(rollup@4.63.4)(supports-color@9.4.0)(tsx@4.23.15)(unplugin@2.3.11)(vite@8.1.4(@types/node@26.6.2)(esbuild@0.28.2)(jiti@2.6.1)(less@4.8.1(supports-color@9.4.0))(terser@5.49.2)(tsx@4.23.15)(yaml@2.9.1))':
     dependencies:
       '@giscus/react': 3.1.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       '@lobehub/ui': 6.0.0(@lobehub/fluent-emoji@5.0.0-beta.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(@lobehub/icons@6.0.0-beta.1)(@shikijs/themes@4.5.0)(@types/mdast@4.0.4)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(micromark-util-types@2.0.3)(micromark@4.0.3(supports-color@9.4.0))(motion@14.2.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
