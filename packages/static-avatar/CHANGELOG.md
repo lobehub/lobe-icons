@@ -2,6 +2,12 @@
 
 # Changelog
 
+# @lobehub/icons-static-avatar [2.1.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-avatar@2.0.0...@lobehub/icons-static-avatar@2.1.0) (2026-10-21)
+
+### ✨ Features
+
+- **auto**: Auto build static icons ([ba4c214](https://github.com/lobehub/lobe-icons/commit/ba4c214))
+
 ## [Version 2.0.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-avatar@1.15.0...@lobehub/icons-static-avatar@2.0.0)
 
 <sup>Released on **2026-10-21**</sup>
