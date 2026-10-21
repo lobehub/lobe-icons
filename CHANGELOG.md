@@ -2,6 +2,93 @@
 
 # Changelog
 
+## [Version 6.3.0](https://github.com/lobehub/lobe-icons/compare/v6.2.0...v6.3.0)
+
+<sup>Released on **2026-10-21**</sup>
+
+#### ♻ Code Refactoring
+
+- **cheaperinference**: Drop color variant and use stacked wordmark.
+
+#### ✨ Features
+
+- **flexai**: Add text and combine.
+- **rn**: Sync new and updated icons.
+- **misc**: Add Appwrite icon, add Cheaper Inference icon components, add Cheaper Inference icon style and docs, add FlexAI, add GreenPT icon and provider mapping, add Hunyuan icon mapping for Hy4 models, add LLM Gateway icon, add llmgateway provider mapping and RN icon, add Sub2API icon, Add Tabbit icon, add WorkBuddy icon, map the cheaperinference provider to the icon, register the Cheaper Inference icon.
+
+#### 🐛 Bug Fixes
+
+- **aimlapi**: Normalize icon viewBox to 24x24.
+- **appwrite**: Align combine ratio with official logo.
+- **cheaperinference**: Align icons with official brand.
+- **copilot**: Normalize icon viewBox to 24x24.
+- **greenpt**: Align combine ratio with official logo.
+- **ling**: Normalize icon viewBox to 24x24.
+- **release**: Skip broken release-notes-generator 11.0.0.
+- **rn**: Emit string fontWeight in provider config, strip unsupported colorInterpolationFilters in converter.
+- **tabbit**: Normalize text viewBox, support color combine and fill mono viewBox.
+- **misc**: HappyHorse icon renders the title "Hedra".
+
+#### 💄 Styles
+
+- **flexai**: Combine renders text only.
+- **misc**: Sort JSX props in Appwrite and GreenPT icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **cheaperinference**: Drop color variant and use stacked wordmark ([5ccb6f6](https://github.com/lobehub/lobe-icons/commit/5ccb6f6))
+
+#### What's improved
+
+- **flexai**: Add text and combine ([fb20313](https://github.com/lobehub/lobe-icons/commit/fb20313))
+- **rn**: Sync new and updated icons ([c32093e](https://github.com/lobehub/lobe-icons/commit/c32093e))
+- **misc**: Add Appwrite icon, closes [#FD366](https://github.com/lobehub/lobe-icons/issues/FD366) ([8104d97](https://github.com/lobehub/lobe-icons/commit/8104d97))
+- **misc**: Add Cheaper Inference icon components ([c4bb6be](https://github.com/lobehub/lobe-icons/commit/c4bb6be))
+- **misc**: Add Cheaper Inference icon style and docs ([14d8c91](https://github.com/lobehub/lobe-icons/commit/14d8c91))
+- **misc**: Add FlexAI, closes [#00349](https://github.com/lobehub/lobe-icons/issues/00349) ([6474d09](https://github.com/lobehub/lobe-icons/commit/6474d09))
+- **misc**: Add GreenPT icon and provider mapping ([816e3c4](https://github.com/lobehub/lobe-icons/commit/816e3c4))
+- **misc**: Add Hunyuan icon mapping for Hy4 models ([ed3ac79](https://github.com/lobehub/lobe-icons/commit/ed3ac79))
+- **misc**: Add LLM Gateway icon ([ca7646b](https://github.com/lobehub/lobe-icons/commit/ca7646b))
+- **misc**: Add llmgateway provider mapping and RN icon ([ec2a2ca](https://github.com/lobehub/lobe-icons/commit/ec2a2ca))
+- **misc**: Add Sub2API icon ([d256b23](https://github.com/lobehub/lobe-icons/commit/d256b23))
+- **misc**: Add Tabbit icon ([c462600](https://github.com/lobehub/lobe-icons/commit/c462600))
+- **misc**: Add WorkBuddy icon ([fad320d](https://github.com/lobehub/lobe-icons/commit/fad320d))
+- **misc**: Map the cheaperinference provider to the icon ([b0a5849](https://github.com/lobehub/lobe-icons/commit/b0a5849))
+- **misc**: Register the Cheaper Inference icon ([b1b93a3](https://github.com/lobehub/lobe-icons/commit/b1b93a3))
+
+#### What's fixed
+
+- **aimlapi**: Normalize icon viewBox to 24x24 ([1651f76](https://github.com/lobehub/lobe-icons/commit/1651f76))
+- **appwrite**: Align combine ratio with official logo ([6a29208](https://github.com/lobehub/lobe-icons/commit/6a29208))
+- **cheaperinference**: Align icons with official brand ([63ef3f5](https://github.com/lobehub/lobe-icons/commit/63ef3f5))
+- **copilot**: Normalize icon viewBox to 24x24 ([1b093d5](https://github.com/lobehub/lobe-icons/commit/1b093d5))
+- **greenpt**: Align combine ratio with official logo ([6dbcf9f](https://github.com/lobehub/lobe-icons/commit/6dbcf9f))
+- **ling**: Normalize icon viewBox to 24x24 ([84e4834](https://github.com/lobehub/lobe-icons/commit/84e4834))
+- **release**: Skip broken release-notes-generator 11.0.0 ([f97fff9](https://github.com/lobehub/lobe-icons/commit/f97fff9))
+- **rn**: Emit string fontWeight in provider config ([02b95c8](https://github.com/lobehub/lobe-icons/commit/02b95c8))
+- **rn**: Strip unsupported colorInterpolationFilters in converter ([e70cb6e](https://github.com/lobehub/lobe-icons/commit/e70cb6e))
+- **tabbit**: Normalize text viewBox ([6a4879b](https://github.com/lobehub/lobe-icons/commit/6a4879b))
+- **tabbit**: Support color combine and fill mono viewBox ([5a56ce1](https://github.com/lobehub/lobe-icons/commit/5a56ce1))
+- **misc**: HappyHorse icon renders the title "Hedra" ([2b93206](https://github.com/lobehub/lobe-icons/commit/2b93206))
+
+#### Styles
+
+- **flexai**: Combine renders text only ([f99c0ad](https://github.com/lobehub/lobe-icons/commit/f99c0ad))
+- **misc**: Sort JSX props in Appwrite and GreenPT icons ([d98341e](https://github.com/lobehub/lobe-icons/commit/d98341e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 6.2.0](https://github.com/lobehub/lobe-icons/compare/v6.1.0...v6.2.0)
 
 <sup>Released on **2026-10-21**</sup>
@@ -354,7 +441,7 @@
 
 #### 🐛 Bug Fixes
 
-- **misc**: Stop the workspace glob from descending into nested node_modules.
+- **misc**: Stop the workspace glob from descending into nested node\_modules.
 
 <br/>
 
@@ -367,7 +454,7 @@
 
 #### What's fixed
 
-- **misc**: Stop the workspace glob from descending into nested node_modules ([6f8343b](https://github.com/lobehub/lobe-icons/commit/6f8343b))
+- **misc**: Stop the workspace glob from descending into nested node\_modules ([6f8343b](https://github.com/lobehub/lobe-icons/commit/6f8343b))
 
 </details>
 
