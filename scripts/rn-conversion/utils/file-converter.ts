@@ -45,8 +45,11 @@ export class FileConverter {
       content = this.removeWebSpecificImports(content);
 
       // 组件转换
+      // Stroked (outline) icons resolve their color through `stroke="currentColor"`
+      // rather than `fill="currentColor"`, so they also need the `color` prop.
       const hasCurrentColor = content.includes('fill="currentColor"');
-      content = this.updateComponentSignature(content, hasCurrentColor);
+      const hasStrokeColor = content.includes('stroke="currentColor"');
+      content = this.updateComponentSignature(content, hasCurrentColor || hasStrokeColor);
       content = this.convertSvgContent(content, hasCurrentColor);
 
       // 转换后更新导入（基于转换后的内容）
@@ -220,6 +223,10 @@ export class FileConverter {
     result = this.formatSvgTag(result, hasCurrentColor);
     result = this.formatPathTag(result, hasCurrentColor);
 
+    // 子元素上的 stroke="currentColor" 也要转换（不只是根节点）：
+    // react-native-svg 不解析 CSS 的 currentColor，遗留下来会渲染成黑色。
+    result = result.replaceAll('stroke="currentColor"', 'stroke={color}');
+
     return result;
   }
 
@@ -318,16 +325,25 @@ export class FileConverter {
 
   private formatSvgTag(content: string, hasCurrentColor: boolean): string {
     return content.replaceAll(/<Svg\s+([^>]*?)>/g, (match, attrs) => {
-      // 移除Web特有属性
-      let cleanAttrs = attrs.replaceAll(/\s*fill="[^"]*"/g, '').replaceAll(/\s*xmlns="[^"]*"/g, '');
+      // 描边图标通过 color 参数着色（与 fill="currentColor" 一致）
+      let workAttrs = attrs.replaceAll('stroke="currentColor"', 'stroke={color}');
+
+      // 移除Web特有的 fill，但保留 fill="none"（描边/轮廓图标需要它）
+      let cleanAttrs = workAttrs
+        .replaceAll(/\s*fill="(?!none")[^"]*"/g, '')
+        .replaceAll(/\s*xmlns="[^"]*"/g, '');
 
       // 构建属性数组
       const allAttrs = [];
       if (hasCurrentColor) allAttrs.push('color={color}');
 
-      // 按顺序添加属性
+      // 按顺序添加属性（保留 fill/stroke/strokeWidth，与根节点上的 fillRule 一样，
+      // 由子元素继承 —— react-native-svg 支持从 Svg 根节点继承呈现属性）
+      this.addAttributeIfExists(cleanAttrs, 'fill', allAttrs);
       this.addAttributeIfExists(cleanAttrs, 'fillRule', allAttrs);
       this.addAttributeIfExists(cleanAttrs, 'height', allAttrs);
+      this.addAttributeIfExists(cleanAttrs, 'stroke', allAttrs);
+      this.addAttributeIfExists(cleanAttrs, 'strokeWidth', allAttrs);
       this.addAttributeIfExists(cleanAttrs, 'style', allAttrs);
       this.addAttributeIfExists(cleanAttrs, 'viewBox', allAttrs);
       this.addAttributeIfExists(cleanAttrs, 'width', allAttrs);
@@ -361,8 +377,11 @@ export class FileConverter {
 
   private addAttributeIfExists(attrs: string, attrName: string, targetArray: string[]): void {
     const patterns = {
+      fill: /fill="[^"]*"|fill={[^}]+}/,
       fillRule: /fillRule="[^"]*"/,
       height: /height={[^}]+}/,
+      stroke: /stroke="[^"]*"|stroke={[^}]+}/,
+      strokeWidth: /strokeWidth="[^"]*"|strokeWidth={[^}]+}/,
       style: /style={[^}]+}/,
       viewBox: /viewBox="[^"]*"/,
       width: /width={[^}]+}/,
