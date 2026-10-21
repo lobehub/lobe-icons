@@ -432,7 +432,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
     Combine: memo(({ size = 24, ...props }) => (
       <Ollama.Combine
         extra={'Cloud'}
-        extraStyle={{ fontSize: size * 0.78, fontWeight: 500, marginLeft: size * 0.2 }}
+        extraStyle={{ fontSize: size * 0.78, fontWeight: '500', marginLeft: size * 0.2 }}
         size={size * 1.16}
         {...props}
       />
