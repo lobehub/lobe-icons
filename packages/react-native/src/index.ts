@@ -153,6 +153,10 @@ export {
 export { default as ElevenLabs, type CompoundedIcon as ElevenLabsProps } from './icons/ElevenLabs';
 export { default as ElevenX, type CompoundedIcon as ElevenXProps } from './icons/ElevenX';
 export {
+  default as EmpirioLabs,
+  type CompoundedIcon as EmpirioLabsProps,
+} from './icons/EmpirioLabs';
+export {
   default as EssentialAI,
   type CompoundedIcon as EssentialAIProps,
 } from './icons/EssentialAI';
