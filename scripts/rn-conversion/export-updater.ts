@@ -58,7 +58,7 @@ export type {
 `;
 
   // 写入文件
-  await fs.writeFile(path.resolve(__dirname, outputFile), content);
+  await fs.writeFile(path.resolve(__dirname, outputFile), content.trimStart());
 
   console.log(`✅ 导出文件已更新`);
   console.log(`📦 导出 ${validIcons.length} 个图标: ${validIcons.join(', ')}`);
