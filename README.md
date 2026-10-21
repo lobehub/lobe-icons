@@ -2,9 +2,7 @@
 
 <div align="center">
 
-<img height="120" src="https://raw.githubusercontent.com/lobehub/lobe-assets/master/packages/assets-logo/assets/logo-3d.webp">
-<img height="120" src="https://raw.githubusercontent.com/lobehub/lobe-assets/master/packages/assets-logo/assets/split.svg">
-<img height="120" src="https://raw.githubusercontent.com/lobehub/fluent-emoji/master/packages/3d/assets/1f968.webp">
+![](https://github.com/user-attachments/assets/4f1c1ded-0de3-4425-8ea7-605f19fc157a)
 
 <h1>Lobe Icons</h1>
 
@@ -30,8 +28,6 @@
 [![][github-stars-shield]][github-stars-link]
 [![][github-issues-shield]][github-issues-link]
 [![][github-license-shield]][github-license-link]
-
-![](https://github.com/lobehub/lobe-icons/assets/17870709/7e2c56d2-d7ea-4cb8-842b-22de162d6486)
 
 </div>
 
