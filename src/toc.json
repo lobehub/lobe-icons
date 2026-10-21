@@ -1165,7 +1165,7 @@
     "title": "ChatGLM"
   },
   {
-    "color": "#040D10",
+    "color": "#CFF331",
     "desc": "https://cheaperinference.com",
     "docsUrl": "cheaper-inference",
     "fullTitle": "Cheaper Inference",
@@ -1175,7 +1175,7 @@
       "hasAvatar": true,
       "hasBrand": false,
       "hasBrandColor": false,
-      "hasColor": false,
+      "hasColor": true,
       "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
