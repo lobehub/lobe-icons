@@ -1,15 +1,15 @@
-import { Flexbox, createStaticStyles } from '@lobehub/ui';
+import { createStaticStyles, Flexbox } from '@lobehub/ui';
 import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
 import { useEffect, useRef, useState } from 'react';
 
 import { useSvgo } from '@/components/Editor/useSvgo';
 
 import Color from './Color';
+import { svgIcon } from './data';
 import Mono from './Mono';
 import Preview from './Preview';
-import Text from './Text';
-import { svgIcon } from './data';
 import { defaultPlugins } from './svgo';
+import Text from './Text';
 
 const styles = createStaticStyles(({ css, cssVar }) => {
   return {

@@ -1,5 +1,7 @@
-import { Flexbox, FlexboxProps, createStaticStyles, cx } from '@lobehub/ui';
-import { ReactNode, Ref, memo, useRef } from 'react';
+import type { FlexboxProps } from '@lobehub/ui';
+import { createStaticStyles, cx, Flexbox } from '@lobehub/ui';
+import type { ReactNode, Ref } from 'react';
+import { memo, useRef } from 'react';
 
 import DownloadButton from '@/components/DownloadButton';
 

@@ -16,12 +16,12 @@ const Combine = memo<CombineProps>(({ iconProps, ...rest }) => {
       Icon={Avatar}
       Text={Text as any}
       aria-label={TITLE}
+      spaceMultiple={COMBINE_SPACE_MULTIPLE}
+      textMultiple={COMBINE_TEXT_MULTIPLE}
       iconProps={{
         shape: 'square',
         ...iconProps,
       }}
-      spaceMultiple={COMBINE_SPACE_MULTIPLE}
-      textMultiple={COMBINE_TEXT_MULTIPLE}
       {...rest}
     />
   );

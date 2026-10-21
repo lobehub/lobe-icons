@@ -1,7 +1,7 @@
 import { Center, cssVar } from '@lobehub/ui';
 import { memo } from 'react';
 
-import { IconAvatarProps } from '@/features/IconAvatar';
+import type { IconAvatarProps } from '@/features/IconAvatar';
 
 import DefaultIcon from './DefaultIcon';
 

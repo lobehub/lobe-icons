@@ -1,4 +1,4 @@
-import { Icon, cssVar } from '@lobehub/ui';
+import { cssVar, Icon } from '@lobehub/ui';
 import { ProviderIcon } from '@lobehub/ui/icons';
 import { type CSSProperties, memo } from 'react';
 

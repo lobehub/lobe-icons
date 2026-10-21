@@ -11,8 +11,8 @@ import {
   COLOR_GPT_3,
   COLOR_GPT_4,
   COLOR_GPT_5,
-  COLOR_OSS,
   COLOR_O_1,
+  COLOR_OSS,
   COLOR_PLATFORM,
   TITLE,
 } from '../style';

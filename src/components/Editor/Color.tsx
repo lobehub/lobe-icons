@@ -1,6 +1,6 @@
 'use client';
 
-import { Flexbox, Highlighter, createStaticStyles } from '@lobehub/ui';
+import { createStaticStyles, Flexbox, Highlighter } from '@lobehub/ui';
 import { memo } from 'react';
 
 const styles = createStaticStyles(({ css }) => {
@@ -35,7 +35,7 @@ const Preview = memo<PreviewProps>(({ svg, title, viewbox, textMode }) => {
 
   return (
     <Flexbox flex={'none'} gap={16} style={{ position: 'relative', width: '100%' }}>
-      <Flexbox align={'center'} gap={8} horizontal>
+      <Flexbox horizontal align={'center'} gap={8}>
         <h3 style={{ lineHeight: 1, margin: 0 }}>{title}</h3>
       </Flexbox>
       <Highlighter className={styles.code} language={'tsx'}>

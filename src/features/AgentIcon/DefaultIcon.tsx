@@ -1,6 +1,7 @@
-import { Icon, cssVar } from '@lobehub/ui';
+import { cssVar, Icon } from '@lobehub/ui';
 import { Bot } from 'lucide-react';
-import { CSSProperties, memo } from 'react';
+import type { CSSProperties } from 'react';
+import { memo } from 'react';
 
 interface DefaultIconProps {
   className?: string;

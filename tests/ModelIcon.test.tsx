@@ -1,8 +1,8 @@
 import { renderToStaticMarkup } from 'react-dom/server';
 import { describe, expect, it } from 'vitest';
 
-import MetaColor from '../src/Meta/components/Color';
 import ModelIcon from '../src/features/ModelIcon';
+import MetaColor from '../src/Meta/components/Color';
 
 describe('ModelIcon brand resolution', () => {
   it('renders the Meta color icon for Muse Spark', () => {

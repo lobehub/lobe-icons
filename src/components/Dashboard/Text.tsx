@@ -1,7 +1,7 @@
 'use client';
 
 import * as Icons from '@lobehub/icons';
-import { Flexbox, createStaticStyles } from '@lobehub/ui';
+import { createStaticStyles, Flexbox } from '@lobehub/ui';
 import { StoryBook, useControls, useCreateStore } from '@lobehub/ui/storybook';
 import { memo } from 'react';
 
@@ -39,7 +39,7 @@ const Dashboard = memo<{ className: string }>(({ className }) => {
 
   return (
     <StoryBook className={className} levaStore={store}>
-      <Flexbox align={'center'} gap={4} horizontal justify={'center'} style={{ flexWrap: 'wrap' }}>
+      <Flexbox horizontal align={'center'} gap={4} justify={'center'} style={{ flexWrap: 'wrap' }}>
         {data.map((Icon: any, index) => {
           const IconRender = Icon.Text || Icon.Brand;
           if (!IconRender) return null;

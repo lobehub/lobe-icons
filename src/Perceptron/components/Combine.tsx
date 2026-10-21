@@ -13,10 +13,10 @@ export type CombineProps = Omit<IconCombineProps, 'Icon' | 'Text'>;
 const Combine = memo<CombineProps>(({ ...rest }) => {
   return (
     <IconCombine
+      inverse
       Icon={Mono}
       Text={Text as any}
       aria-label={TITLE}
-      inverse
       spaceMultiple={COMBINE_SPACE_MULTIPLE}
       textMultiple={COMBINE_TEXT_MULTIPLE}
       {...rest}

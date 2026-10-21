@@ -1,9 +1,11 @@
 'use client';
 
-import { CSSProperties, memo, useMemo } from 'react';
+import type { CSSProperties } from 'react';
+import { memo, useMemo } from 'react';
 
 import { providerMappings } from '../providerConfig';
-import { ModelProvider, ModelProviderKey } from '../providerEnum';
+import type { ModelProviderKey } from '../providerEnum';
+import { ModelProvider } from '../providerEnum';
 import DefaultAvatar from './DefaultAvatar';
 import DefaultIcon from './DefaultIcon';
 

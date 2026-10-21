@@ -5,14 +5,15 @@ import {
   Block,
   Center,
   CopyButton,
-  Flexbox,
-  Text,
   createStaticStyles,
   cx,
+  Flexbox,
+  Text,
 } from '@lobehub/ui';
 import { DownloadIcon, SearchIcon } from 'lucide-react';
 import { readableColor } from 'polished';
-import { ReactNode, memo, useCallback, useRef } from 'react';
+import type { ReactNode } from 'react';
+import { memo, useCallback, useRef } from 'react';
 import { Link } from 'react-router';
 
 import { customKebabCase, docsKebabCase } from '@/components/Dashboard/utils';
@@ -103,25 +104,25 @@ const IconItem = memo<IconItemProps>(({ children, title, color, id }) => {
         </Center>
       </Link>
       <Flexbox
+        horizontal
         align={'center'}
         className={styles.titleRow}
-        horizontal
         justify={'space-between'}
         paddingBlock={8}
         paddingInline={12}
         width={'100%'}
       >
-        <Text as={'h2'} className={styles.title} ellipsis>
+        <Text ellipsis as={'h2'} className={styles.title}>
           {title}
         </Text>
         <CopyButton content={title} size={'small'} />
       </Flexbox>
-      <Flexbox align={'center'} className={styles.row} horizontal>
+      <Flexbox horizontal align={'center'} className={styles.row}>
         <Center
+          horizontal
           className={styles.color}
           flex={1}
           height={32}
-          horizontal
           paddingInline={12}
           style={{ background: color, color: readableColor(color) }}
         >
@@ -133,7 +134,7 @@ const IconItem = memo<IconItemProps>(({ children, title, color, id }) => {
             size={'small'}
           />
         </Center>
-        <Flexbox flex={1} horizontal paddingInline={12}>
+        <Flexbox horizontal flex={1} paddingInline={12}>
           <Center flex={1} height={32}>
             <a
               href={`https://lobehub.com/icons/${customKebabCase(id)}`}

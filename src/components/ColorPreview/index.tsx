@@ -1,6 +1,6 @@
 'use client';
 
-import { CopyButton, Flexbox, Tooltip, createStaticStyles, cx } from '@lobehub/ui';
+import { CopyButton, createStaticStyles, cx, Flexbox, Tooltip } from '@lobehub/ui';
 import { memo } from 'react';
 
 const styles = createStaticStyles(({ css, cssVar }) => {

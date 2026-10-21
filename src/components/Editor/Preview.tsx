@@ -1,5 +1,6 @@
-import { Flexbox, Highlighter, Tag, createStaticStyles } from '@lobehub/ui';
-import { Ref, memo } from 'react';
+import { createStaticStyles, Flexbox, Highlighter, Tag } from '@lobehub/ui';
+import type { Ref } from 'react';
+import { memo } from 'react';
 
 import IconPreview from '@/components/IconPreview';
 
@@ -31,11 +32,11 @@ interface PreviewProps {
 const Preview = memo<PreviewProps>(({ svg, title, precent, ref }) => {
   return (
     <Flexbox flex={'none'} gap={16} style={{ position: 'relative', width: '100%' }}>
-      <Flexbox align={'center'} gap={8} horizontal>
+      <Flexbox horizontal align={'center'} gap={8}>
         <h3 style={{ lineHeight: 1, margin: 0 }}>{title}</h3>
         {precent && <Tag>{precent}</Tag>}
       </Flexbox>
-      <Flexbox gap={8} horizontal ref={ref}>
+      <Flexbox horizontal gap={8} ref={ref}>
         <IconPreview>{svg}</IconPreview>
         <Highlighter className={styles.code} language={'tsx'}>
           {svg}
