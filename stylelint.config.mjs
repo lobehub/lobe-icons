@@ -1,11 +1,11 @@
-const config = require('@lobehub/lint').stylelint;
+import { stylelint } from '@lobehub/lint';
 
-module.exports = {
-  ...config,
+export default {
+  ...stylelint,
   rules: {
+    ...stylelint.rules,
     'custom-property-pattern': null,
     'selector-pseudo-element-no-unknown': null,
     'no-descending-specificity': null,
-    ...config.rules,
   },
 };
