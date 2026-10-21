@@ -1,6 +1,6 @@
 export const TITLE = 'Cheaper Inference';
-export const COMBINE_TEXT_MULTIPLE = 1;
-export const COMBINE_SPACE_MULTIPLE = 0.25;
+export const COMBINE_TEXT_MULTIPLE = 1.19;
+export const COMBINE_SPACE_MULTIPLE = 0.14;
 export const COLOR_PRIMARY = '#CFF331';
 
 // Avatar constants

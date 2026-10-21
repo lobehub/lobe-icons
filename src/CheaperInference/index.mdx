@@ -12,25 +12,13 @@ import DocsPreview from '../components/DocsPreview';
 
 ## Icons
 
-<DocsPreview>
-  {
-    <Flexbox gap={16} horizontal>
-      <CheaperInference size={64} />
-      <CheaperInference.Color size={64} />
-    </Flexbox>
-  }
-</DocsPreview>
+<DocsPreview>{<CheaperInference size={64} />}</DocsPreview>
 
 ```tsx
 import { CheaperInference } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
 
-export default () => (
-  <Flexbox gap={16} horizontal>
-    <CheaperInference size={64} />
-    <CheaperInference.Color size={64} />
-  </Flexbox>
-);
+export default () => <CheaperInference size={64} />;
 ```
 
 ## Text
@@ -49,7 +37,6 @@ export default () => <CheaperInference.Text size={48} />;
   {
     <Flexbox gap={16} align={'flex-start'}>
       <CheaperInference.Combine size={64} />
-      <CheaperInference.Combine size={64} type={'color'} />
     </Flexbox>
   }
 </DocsPreview>
@@ -61,7 +48,6 @@ import { Flexbox } from '@lobehub/ui';
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
     <CheaperInference.Combine size={64} />
-    <CheaperInference.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
