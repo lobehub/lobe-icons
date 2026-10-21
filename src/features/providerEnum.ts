@@ -50,6 +50,7 @@ export enum ModelProvider {
   FireworksAI = 'fireworksai',
   Friendli = 'friendli',
   GLMCodingPlan = 'glmcodingplan',
+  GPTZZZ = 'gptzzz',
   Gemini = 'gemini',
   GiteeAI = 'giteeai',
   Github = 'github',
