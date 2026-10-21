@@ -6,6 +6,7 @@ settings:
 
 overrides:
   '@semantic-release/release-notes-generator@^11.0.0': ^11.0.1
+  semantic-release@21>cosmiconfig: ^8.3.6
 
 importers:
 
@@ -35,7 +36,7 @@ importers:
         version: 5.0.0-beta.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       '@lobehub/lint':
         specifier: ^2.1.5
-        version: 2.1.5(@commitlint/cli@19.8.1(@types/node@26.6.2)(typescript@5.9.3))(@octokit/core@3.6.0)(@typescript-eslint/eslint-plugin@8.72.0(@typescript-eslint/parser@8.72.0(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(@typescript-eslint/utils@8.72.0(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(eslint-import-resolver-node@0.3.10(supports-color@9.4.0))(eslint-plugin-import@2.32.0)(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(postcss@8.5.28)(prettier@3.9.10)(remark-cli@12.0.1(supports-color@9.4.0))(remark@15.0.1(supports-color@9.4.0))(semantic-release@21.1.2(supports-color@9.4.0))(stylelint@16.26.1(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)(typescript@5.9.3)
+        version: 2.1.5(@commitlint/cli@19.8.1(@types/node@26.6.2)(typescript@5.9.3))(@octokit/core@3.6.0)(@typescript-eslint/eslint-plugin@8.72.0(@typescript-eslint/parser@8.72.0(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(@typescript-eslint/utils@8.72.0(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(eslint-import-resolver-node@0.3.10(supports-color@9.4.0))(eslint-plugin-import@2.32.0)(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(postcss@8.5.28)(prettier@3.9.10)(remark-cli@12.0.1(supports-color@9.4.0))(remark@15.0.1(supports-color@9.4.0))(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(stylelint@16.26.1(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)(typescript@5.9.3)
       '@lobehub/ui':
         specifier: ^6.0.0
         version: 6.0.0(@lobehub/fluent-emoji@5.0.0-beta.1(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(@lobehub/icons@6.0.0-beta.1)(@shikijs/themes@4.5.0)(@types/mdast@4.0.4)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(micromark-util-types@2.0.3)(micromark@4.0.3(supports-color@9.4.0))(motion@14.2.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(supports-color@9.4.0)
@@ -134,7 +135,7 @@ importers:
         version: 0.15.2
       semantic-release:
         specifier: ^21.1.2
-        version: 21.1.2(supports-color@9.4.0)
+        version: 21.1.2(supports-color@9.4.0)(typescript@5.9.3)
       sharp:
         specifier: ^0.34.5
         version: 0.34.5
@@ -4503,10 +4504,6 @@ packages:
   cosmiconfig@7.0.0:
     resolution: {integrity: sha512-pondGvTuVYDk++upghXJabWzL6Kxu6f26ljFw64Swq9v6sQPUL3EUlVDV56diOjpCayKihL6hVe8exIACU4XcA==}
     engines: {node: '>=10'}
-
-  cosmiconfig@8.0.0:
-    resolution: {integrity: sha512-da1EafcpH6b/TD8vDRaWV7xFINlHlF6zKsGwS1TsuVJTZRkquaS5HTMq7uq6h31619QjbsYl21gVDOm32KM1vQ==}
-    engines: {node: '>=14'}
 
   cosmiconfig@8.3.6:
     resolution: {integrity: sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==}
@@ -10583,7 +10580,7 @@ snapshots:
 
   '@acemir/cssom@0.9.31': {}
 
-  '@achingbrain/semantic-release-github@0.0.2(@octokit/core@3.6.0)(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)':
+  '@achingbrain/semantic-release-github@0.0.2(@octokit/core@3.6.0)(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)':
     dependencies:
       '@octokit/plugin-retry': 3.0.9
       '@octokit/plugin-throttling': 3.6.2(@octokit/core@3.6.0)
@@ -10600,7 +10597,7 @@ snapshots:
       lodash: 4.18.1
       mime: 3.0.0
       p-filter: 2.1.0
-      semantic-release: 21.1.2(supports-color@9.4.0)
+      semantic-release: 21.1.2(supports-color@9.4.0)(typescript@5.9.3)
       url-join: 4.0.1
     transitivePeerDependencies:
       - '@octokit/core'
@@ -12463,13 +12460,13 @@ snapshots:
       react: 19.3.0
       react-dom: 19.3.0(react@19.3.0)
 
-  '@lobehub/lint@2.1.5(@commitlint/cli@19.8.1(@types/node@26.6.2)(typescript@5.9.3))(@octokit/core@3.6.0)(@typescript-eslint/eslint-plugin@8.72.0(@typescript-eslint/parser@8.72.0(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(@typescript-eslint/utils@8.72.0(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(eslint-import-resolver-node@0.3.10(supports-color@9.4.0))(eslint-plugin-import@2.32.0)(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(postcss@8.5.28)(prettier@3.9.10)(remark-cli@12.0.1(supports-color@9.4.0))(remark@15.0.1(supports-color@9.4.0))(semantic-release@21.1.2(supports-color@9.4.0))(stylelint@16.26.1(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)(typescript@5.9.3)':
+  '@lobehub/lint@2.1.5(@commitlint/cli@19.8.1(@types/node@26.6.2)(typescript@5.9.3))(@octokit/core@3.6.0)(@typescript-eslint/eslint-plugin@8.72.0(@typescript-eslint/parser@8.72.0(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(@typescript-eslint/utils@8.72.0(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(eslint-import-resolver-node@0.3.10(supports-color@9.4.0))(eslint-plugin-import@2.32.0)(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(postcss@8.5.28)(prettier@3.9.10)(remark-cli@12.0.1(supports-color@9.4.0))(remark@15.0.1(supports-color@9.4.0))(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(stylelint@16.26.1(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)(typescript@5.9.3)':
     dependencies:
       '@lobehub/commitlint-config': 2.1.5(@commitlint/cli@19.8.1(@types/node@26.6.2)(typescript@5.9.3))
       '@lobehub/eslint-config': 2.1.5(@typescript-eslint/eslint-plugin@8.72.0(@typescript-eslint/parser@8.72.0(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(@typescript-eslint/utils@8.72.0(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3))(eslint-import-resolver-node@0.3.10(supports-color@9.4.0))(eslint-plugin-import@2.32.0)(eslint@10.13.0(jiti@2.6.1)(supports-color@9.4.0))(supports-color@9.4.0)(typescript@5.9.3)
       '@lobehub/prettier-config': 2.1.5(prettier@3.9.10)
       '@lobehub/remarklint-config': 2.1.5(remark-cli@12.0.1(supports-color@9.4.0))(remark@15.0.1(supports-color@9.4.0))(supports-color@9.4.0)
-      '@lobehub/semantic-release-config': 2.1.5(@octokit/core@3.6.0)(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)
+      '@lobehub/semantic-release-config': 2.1.5(@octokit/core@3.6.0)(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)
       '@lobehub/stylelint-config': 2.1.5(postcss@8.5.28)(stylelint@16.26.1(supports-color@9.4.0)(typescript@5.9.3))
     transitivePeerDependencies:
       - '@commitlint/cli'
@@ -12535,10 +12532,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@lobehub/semantic-release-config@2.1.5(@octokit/core@3.6.0)(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)':
+  '@lobehub/semantic-release-config@2.1.5(@octokit/core@3.6.0)(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)':
     dependencies:
-      semantic-release: 21.1.2(supports-color@9.4.0)
-      semantic-release-config-gitmoji: 1.5.3(@octokit/core@3.6.0)(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)
+      semantic-release: 21.1.2(supports-color@9.4.0)(typescript@5.9.3)
+      semantic-release-config-gitmoji: 1.5.3(@octokit/core@3.6.0)(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)
     transitivePeerDependencies:
       - '@octokit/core'
       - encoding
@@ -13051,7 +13048,7 @@ snapshots:
       meow: 12.0.1
       promise-events: 0.2.4
       resolve-from: 5.0.0
-      semantic-release: 21.1.2(supports-color@9.4.0)
+      semantic-release: 21.1.2(supports-color@9.4.0)(typescript@5.9.3)
       semver: 7.8.5
       signale: 1.4.0
       stream-buffers: 3.0.3
@@ -13656,15 +13653,15 @@ snapshots:
       - '@types/node'
     optional: true
 
-  '@semantic-release/changelog@6.0.0(semantic-release@21.1.2(supports-color@9.4.0))':
+  '@semantic-release/changelog@6.0.0(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))':
     dependencies:
       '@semantic-release/error': 2.2.0
       aggregate-error: 3.1.0
       fs-extra: 9.0.0
       lodash: 4.18.1
-      semantic-release: 21.1.2(supports-color@9.4.0)
+      semantic-release: 21.1.2(supports-color@9.4.0)(typescript@5.9.3)
 
-  '@semantic-release/commit-analyzer@10.0.0(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)':
+  '@semantic-release/commit-analyzer@10.0.0(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)':
     dependencies:
       conventional-changelog-angular: 5.0.0
       conventional-commits-filter: 2.0.0
@@ -13673,7 +13670,7 @@ snapshots:
       import-from: 4.0.0
       lodash-es: 4.18.1
       micromatch: 4.0.8
-      semantic-release: 21.1.2(supports-color@9.4.0)
+      semantic-release: 21.1.2(supports-color@9.4.0)(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -13683,7 +13680,7 @@ snapshots:
 
   '@semantic-release/error@4.0.0': {}
 
-  '@semantic-release/git@10.0.0(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)':
+  '@semantic-release/git@10.0.0(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)':
     dependencies:
       '@semantic-release/error': 2.2.0
       aggregate-error: 3.1.0
@@ -13693,11 +13690,11 @@ snapshots:
       lodash: 4.18.1
       micromatch: 4.0.8
       p-reduce: 2.1.0
-      semantic-release: 21.1.2(supports-color@9.4.0)
+      semantic-release: 21.1.2(supports-color@9.4.0)(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/github@9.0.0(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)':
+  '@semantic-release/github@9.0.0(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)':
     dependencies:
       '@octokit/core': 4.2.1
       '@octokit/plugin-paginate-rest': 6.1.2(@octokit/core@4.2.1)
@@ -13714,13 +13711,13 @@ snapshots:
       lodash-es: 4.18.1
       mime: 3.0.0
       p-filter: 3.0.0
-      semantic-release: 21.1.2(supports-color@9.4.0)
+      semantic-release: 21.1.2(supports-color@9.4.0)(typescript@5.9.3)
       url-join: 5.0.0
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  '@semantic-release/npm@10.0.2(semantic-release@21.1.2(supports-color@9.4.0))':
+  '@semantic-release/npm@10.0.2(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))':
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 4.0.1
@@ -13733,11 +13730,11 @@ snapshots:
       rc: 1.2.8
       read-pkg: 7.0.0
       registry-auth-token: 5.1.1
-      semantic-release: 21.1.2(supports-color@9.4.0)
+      semantic-release: 21.1.2(supports-color@9.4.0)(typescript@5.9.3)
       semver: 7.8.5
       tempy: 3.2.0
 
-  '@semantic-release/release-notes-generator@11.0.1(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)':
+  '@semantic-release/release-notes-generator@11.0.1(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)':
     dependencies:
       conventional-changelog-angular: 5.0.0
       conventional-changelog-writer: 5.0.0
@@ -13749,7 +13746,7 @@ snapshots:
       into-stream: 7.0.0
       lodash-es: 4.18.1
       read-pkg-up: 9.1.0
-      semantic-release: 21.1.2(supports-color@9.4.0)
+      semantic-release: 21.1.2(supports-color@9.4.0)(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -15413,13 +15410,6 @@ snapshots:
       parse-json: 5.2.0
       path-type: 4.0.0
       yaml: 1.10.3
-
-  cosmiconfig@8.0.0:
-    dependencies:
-      import-fresh: 3.2.1
-      js-yaml: 4.3.2
-      parse-json: 5.2.0
-      path-type: 4.0.0
 
   cosmiconfig@8.3.6(typescript@5.9.3):
     dependencies:
@@ -21420,12 +21410,12 @@ snapshots:
       extend-shallow: 2.0.1
       kind-of: 6.0.3
 
-  semantic-release-config-gitmoji@1.5.3(@octokit/core@3.6.0)(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0):
+  semantic-release-config-gitmoji@1.5.3(@octokit/core@3.6.0)(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0):
     dependencies:
       '@gitmoji/commit-types': 1.1.5
-      '@semantic-release/changelog': 6.0.0(semantic-release@21.1.2(supports-color@9.4.0))
-      '@semantic-release/git': 10.0.0(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)
-      '@semantic-release/github': '@achingbrain/semantic-release-github@0.0.2(@octokit/core@3.6.0)(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)'
+      '@semantic-release/changelog': 6.0.0(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))
+      '@semantic-release/git': 10.0.0(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)
+      '@semantic-release/github': '@achingbrain/semantic-release-github@0.0.2(@octokit/core@3.6.0)(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)'
       '@semrel-extra/npm': 1.2.2
       '@types/semantic-release': 17.2.11
       conventional-changelog-gitmoji-config: 1.5.2
@@ -21435,15 +21425,15 @@ snapshots:
       - semantic-release
       - supports-color
 
-  semantic-release@21.1.2(supports-color@9.4.0):
+  semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3):
     dependencies:
-      '@semantic-release/commit-analyzer': 10.0.0(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)
+      '@semantic-release/commit-analyzer': 10.0.0(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 9.0.0(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)
-      '@semantic-release/npm': 10.0.2(semantic-release@21.1.2(supports-color@9.4.0))
-      '@semantic-release/release-notes-generator': 11.0.1(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)
+      '@semantic-release/github': 9.0.0(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)
+      '@semantic-release/npm': 10.0.2(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))
+      '@semantic-release/release-notes-generator': 11.0.1(semantic-release@21.1.2(supports-color@9.4.0)(typescript@5.9.3))(supports-color@9.4.0)
       aggregate-error: 5.0.0
-      cosmiconfig: 8.0.0
+      cosmiconfig: 8.3.6(typescript@5.9.3)
       debug: 4.4.3(supports-color@9.4.0)
       env-ci: 9.1.1
       execa: 8.0.0
@@ -21468,6 +21458,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
       - supports-color
+      - typescript
 
   semver-compare@1.0.0: {}
 
