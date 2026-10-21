@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version 2.0.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-webp@1.94.1...@lobehub/icons-static-webp@2.0.0)
+
+<sup>Released on **2026-10-21**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Adopt lobe-ui 6 and drop antd \[force major].
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([9046e38](https://github.com/lobehub/lobe-icons/commit/9046e38))
+- **misc**: Adopt lobe-ui 6 and drop antd \[force major], closes [#432](https://github.com/lobehub/lobe-icons/issues/432) ([a83b922](https://github.com/lobehub/lobe-icons/commit/a83b922))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.94.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-webp@1.94.0...@lobehub/icons-static-webp@1.94.1)
 
 <sup>Released on **2026-09-21**</sup>
