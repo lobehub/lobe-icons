@@ -21,6 +21,7 @@ export { default as Ai302, type CompoundedIcon as Ai302Props } from './icons/Ai3
 export { default as Ai360, type CompoundedIcon as Ai360Props } from './icons/Ai360';
 export { default as AiHubMix, type CompoundedIcon as AiHubMixProps } from './icons/AiHubMix';
 export { default as AiMass, type CompoundedIcon as AiMassProps } from './icons/AiMass';
+export { default as AIMLAPI, type CompoundedIcon as AIMLAPIProps } from './icons/AIMLAPI';
 export { default as AionLabs, type CompoundedIcon as AionLabsProps } from './icons/AionLabs';
 export { default as AirJelly, type CompoundedIcon as AirJellyProps } from './icons/AirJelly';
 export { default as AiStudio, type CompoundedIcon as AiStudioProps } from './icons/AiStudio';
@@ -84,6 +85,10 @@ export { default as CelestoAI, type CompoundedIcon as CelestoAIProps } from './i
 export { default as CentML, type CompoundedIcon as CentMLProps } from './icons/CentML';
 export { default as Cerebras, type CompoundedIcon as CerebrasProps } from './icons/Cerebras';
 export { default as ChatGLM, type CompoundedIcon as ChatGLMProps } from './icons/ChatGLM';
+export {
+  default as CheaperInference,
+  type CompoundedIcon as CheaperInferenceProps,
+} from './icons/CheaperInference';
 export {
   default as CherryStudio,
   type CompoundedIcon as CherryStudioProps,
@@ -162,6 +167,7 @@ export { default as Figma, type CompoundedIcon as FigmaProps } from './icons/Fig
 export { default as Firecrawl, type CompoundedIcon as FirecrawlProps } from './icons/Firecrawl';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './icons/Fireworks';
 export { default as FishAudio, type CompoundedIcon as FishAudioProps } from './icons/FishAudio';
+export { default as FlexAI, type CompoundedIcon as FlexAIProps } from './icons/FlexAI';
 export { default as Flora, type CompoundedIcon as FloraProps } from './icons/Flora';
 export { default as Flowith, type CompoundedIcon as FlowithProps } from './icons/Flowith';
 export { default as Flux, type CompoundedIcon as FluxProps } from './icons/Flux';
@@ -248,6 +254,7 @@ export { default as LangSmith, type CompoundedIcon as LangSmithProps } from './i
 export { default as LeptonAI, type CompoundedIcon as LeptonAIProps } from './icons/LeptonAI';
 export { default as LG, type CompoundedIcon as LGProps } from './icons/LG';
 export { default as Lightricks, type CompoundedIcon as LightricksProps } from './icons/Lightricks';
+export { default as Ling, type CompoundedIcon as LingProps } from './icons/Ling';
 export { default as Liquid, type CompoundedIcon as LiquidProps } from './icons/Liquid';
 export { default as LiveKit, type CompoundedIcon as LiveKitProps } from './icons/LiveKit';
 export { default as LlamaIndex, type CompoundedIcon as LlamaIndexProps } from './icons/LlamaIndex';
@@ -373,6 +380,7 @@ export { default as Sub2API, type CompoundedIcon as Sub2APIProps } from './icons
 export { default as SubModel, type CompoundedIcon as SubModelProps } from './icons/SubModel';
 export { default as Suno, type CompoundedIcon as SunoProps } from './icons/Suno';
 export { default as Sync, type CompoundedIcon as SyncProps } from './icons/Sync';
+export { default as Tabbit, type CompoundedIcon as TabbitProps } from './icons/Tabbit';
 export { default as Targon, type CompoundedIcon as TargonProps } from './icons/Targon';
 export { default as Tavily, type CompoundedIcon as TavilyProps } from './icons/Tavily';
 export { default as Tencent, type CompoundedIcon as TencentProps } from './icons/Tencent';
@@ -413,6 +421,7 @@ export { default as Wandb, type CompoundedIcon as WandbProps } from './icons/Wan
 export { default as WaveSpeed, type CompoundedIcon as WaveSpeedProps } from './icons/WaveSpeed';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './icons/Wenxin';
 export { default as Windsurf, type CompoundedIcon as WindsurfProps } from './icons/Windsurf';
+export { default as WorkBuddy, type CompoundedIcon as WorkBuddyProps } from './icons/WorkBuddy';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './icons/WorkersAI';
 export {
   default as WorldRouter,
