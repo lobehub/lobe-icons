@@ -2,6 +2,48 @@
 
 # Changelog
 
+## [Version 2.15.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.14.0...@lobehub/icons-rn@2.15.0)
+
+<sup>Released on **2026-10-21**</sup>
+
+#### ✨ Features
+
+- **rn**: Sync new and updated icons.
+- **misc**: Add Appwrite icon, add GreenPT icon and provider mapping, add Hunyuan icon mapping for Hy4 models, add llmgateway provider mapping and RN icon, add Sub2API icon, map Composer models to the Cursor icon.
+
+#### 🐛 Bug Fixes
+
+- **rn**: Emit string fontWeight in provider config.
+- **misc**: Use Meta icon for Muse Wonder models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **rn**: Sync new and updated icons ([c32093e](https://github.com/lobehub/lobe-icons/commit/c32093e))
+- **misc**: Add Appwrite icon, closes [#FD366](https://github.com/lobehub/lobe-icons/issues/FD366) ([8104d97](https://github.com/lobehub/lobe-icons/commit/8104d97))
+- **misc**: Add GreenPT icon and provider mapping ([816e3c4](https://github.com/lobehub/lobe-icons/commit/816e3c4))
+- **misc**: Add Hunyuan icon mapping for Hy4 models ([ed3ac79](https://github.com/lobehub/lobe-icons/commit/ed3ac79))
+- **misc**: Add llmgateway provider mapping and RN icon ([ec2a2ca](https://github.com/lobehub/lobe-icons/commit/ec2a2ca))
+- **misc**: Add Sub2API icon ([d256b23](https://github.com/lobehub/lobe-icons/commit/d256b23))
+- **misc**: Map Composer models to the Cursor icon ([f0183a2](https://github.com/lobehub/lobe-icons/commit/f0183a2))
+
+#### What's fixed
+
+- **rn**: Emit string fontWeight in provider config ([02b95c8](https://github.com/lobehub/lobe-icons/commit/02b95c8))
+- **misc**: Use Meta icon for Muse Wonder models ([6f2c20d](https://github.com/lobehub/lobe-icons/commit/6f2c20d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.14.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.13.1...@lobehub/icons-rn@2.14.0)
 
 <sup>Released on **2026-09-21**</sup>
