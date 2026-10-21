@@ -553,6 +553,25 @@
     "title": "Apple"
   },
   {
+    "color": "#FD366E",
+    "desc": "https://appwrite.io",
+    "docsUrl": "appwrite",
+    "fullTitle": "Appwrite",
+    "group": "application",
+    "id": "Appwrite",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Appwrite"
+  },
+  {
     "color": "#008C8C",
     "desc": "https://arcee.ai/",
     "docsUrl": "arcee",
@@ -2253,25 +2272,6 @@
     "title": "FishAudio"
   },
   {
-    "color": "#000",
-    "desc": "https://florafauna.ai",
-    "docsUrl": "flora",
-    "fullTitle": "Flora",
-    "group": "application",
-    "id": "Flora",
-    "param": {
-      "hasAvatar": true,
-      "hasBrand": false,
-      "hasBrandColor": false,
-      "hasColor": false,
-      "hasCombine": true,
-      "hasText": true,
-      "hasTextCn": false,
-      "hasTextColor": false
-    },
-    "title": "Flora"
-  },
-  {
     "color": "#00349F",
     "desc": "https://flex.ai",
     "docsUrl": "flex-ai",
@@ -2289,6 +2289,25 @@
       "hasTextColor": false
     },
     "title": "FlexAI"
+  },
+  {
+    "color": "#000",
+    "desc": "https://florafauna.ai",
+    "docsUrl": "flora",
+    "fullTitle": "Flora",
+    "group": "application",
+    "id": "Flora",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Flora"
   },
   {
     "color": "#fff",
@@ -5687,6 +5706,25 @@
       "hasTextColor": false
     },
     "title": "Sync"
+  },
+  {
+    "color": "#FC9832",
+    "desc": "https://tabbit.ai",
+    "docsUrl": "tabbit",
+    "fullTitle": "Tabbit",
+    "group": "application",
+    "id": "Tabbit",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Tabbit"
   },
   {
     "color": "#68C3FF",
