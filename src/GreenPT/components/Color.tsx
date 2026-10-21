@@ -33,7 +33,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
         fill={fill}
       />
       <defs>
-        <linearGradient id={id} x1="40" x2="56" y1="12" y2="76" gradientUnits="userSpaceOnUse">
+        <linearGradient gradientUnits="userSpaceOnUse" id={id} x1="40" x2="56" y1="12" y2="76">
           <stop stopColor="#FFFFFF" stopOpacity=".1" />
           <stop offset="1" stopColor="#000000" stopOpacity=".3" />
         </linearGradient>
