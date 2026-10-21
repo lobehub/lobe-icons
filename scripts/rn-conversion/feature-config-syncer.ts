@@ -65,6 +65,10 @@ class FeatureConfigSyncer {
     // 1. 转换导入路径：@/IconName → ../icons/IconName
     transformed = transformed.replaceAll(/from '@\/([A-Z][\dA-Za-z]*)'/g, "from '../icons/$1'");
 
+    // RN 的 TextStyle.fontWeight 只接受字符串字面量（部分 react-native 类型版本不含数字），
+    // 把 web 里的数字 fontWeight 转成字符串，例如 fontWeight: 500 → fontWeight: '500'
+    transformed = transformed.replaceAll(/\bfontWeight: (\d{3})\b/g, "fontWeight: '$1'");
+
     // 2. 转换类型名称
     // ModelProvider → RNModelProvider (枚举定义)
     transformed = transformed.replaceAll(
