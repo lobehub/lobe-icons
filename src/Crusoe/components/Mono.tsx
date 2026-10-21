@@ -20,21 +20,6 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
     >
       <title>{TITLE}</title>
       <path d="M12 0L4.583 6.583c-3.23 2.869-3.23 7.965 0 10.834L12 24l7.417-6.583c3.23-2.869 3.23-7.965 0-10.834L12 0z" />
-      <defs>
-        <linearGradient
-          gradientUnits="userSpaceOnUse"
-          id="a"
-          x1="18.919"
-          x2="4.853"
-          y1="5.595"
-          y2="18.301"
-        >
-          <stop stopColor="#F4BF45" />
-          <stop offset=".35" stopColor="#E48047" />
-          <stop offset=".69" stopColor="#C73361" />
-          <stop offset="1" stopColor="#A42F5F" />
-        </linearGradient>
-      </defs>
     </svg>
   );
 });

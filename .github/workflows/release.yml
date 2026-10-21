@@ -6,6 +6,37 @@ on:
       - alpha
       - beta
       - rc
+  workflow_dispatch:
+    inputs:
+      force_release:
+        description: 'Force release (bypass conventional commits)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+      release_type:
+        description: 'Release type (when force release is true)'
+        required: false
+        default: 'patch'
+        type: choice
+        options:
+          - 'patch'
+          - 'minor'
+          - 'major'
+
+# Every job here ends by pushing a release commit to the branch, so two runs
+# must never overlap.
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  id-token: write # Required for OIDC
+  contents: write # Required for semantic-release to push tags and commits
+  issues: write # Required for semantic-release to create issues
+  pull-requests: write # Required for semantic-release to comment on PRs
 
 jobs:
   release:
@@ -14,10 +45,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # tsdown loads tsdown.config.ts natively on Node 22.18+. Node 20 falls through to optional peer `unrun`.
       - name: Setup Node.js environment
         uses: actions/setup-node@v6
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Setup npm 7
         run: npm i -g npm@7 --registry=https://registry.npmjs.org
@@ -42,7 +74,8 @@ jobs:
       - name: Release
         run: bun run release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          # Use the Actions token, not secrets.GH_TOKEN (that PAT's account is suspended).
+          GITHUB_TOKEN: ${{ github.token }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Build Static
@@ -59,7 +92,7 @@ jobs:
           git commit -m "✨ feat(auto): Auto build static icons" || exit 0
           git push
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
 
       - name: Build RN
         run: bun run build:rn
@@ -67,5 +100,5 @@ jobs:
       - name: Release Static
         run: bun run release:static
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

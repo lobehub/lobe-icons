@@ -1,0 +1,113 @@
+---
+title: Union Alpha
+description: https://union-alpha.com
+category: Model
+---
+
+import { UnionAlpha } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <UnionAlpha size={64} />
+      <UnionAlpha.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { UnionAlpha } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <UnionAlpha size={64} />
+    <UnionAlpha.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<UnionAlpha.Text size={48} />}</DocsPreview>
+
+```tsx
+import { UnionAlpha } from '@lobehub/icons';
+
+export default () => <UnionAlpha.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <UnionAlpha.Combine size={64} />
+      <UnionAlpha.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { UnionAlpha } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <UnionAlpha.Combine size={64} />
+    <UnionAlpha.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <UnionAlpha.Avatar size={64} />
+      <UnionAlpha.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { UnionAlpha } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <UnionAlpha.Avatar size={64} />
+    <UnionAlpha.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={UnionAlpha.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { UnionAlpha } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={UnionAlpha.colorPrimary} />
+  </Flexbox>
+);
+```

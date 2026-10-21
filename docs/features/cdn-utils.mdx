@@ -1,15 +1,14 @@
 ---
 title: getLobeIconCDN
 description: Guide to resolving Lobe Icons assets through the public CDN utilities.
-category: Utils
+category: Features
 ---
 
 ## Default
 
 ```tsx
 import { getLobeIconCDN } from '@lobehub/icons';
-import { Grid } from '@lobehub/ui';
-import { useThemeMode } from 'antd-style';
+import { Grid, useThemeMode } from '@lobehub/ui';
 
 export default () => {
   const { isDarkMode } = useThemeMode();

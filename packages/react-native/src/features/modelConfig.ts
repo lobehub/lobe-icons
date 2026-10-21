@@ -25,6 +25,7 @@ import Claude from '../icons/Claude';
 import CodeGeeX from '../icons/CodeGeeX';
 import CogView from '../icons/CogView';
 import Cohere from '../icons/Cohere';
+import Cursor from '../icons/Cursor';
 import Dalle from '../icons/Dalle';
 import Dbrx from '../icons/Dbrx';
 import DeepCogito from '../icons/DeepCogito';
@@ -86,6 +87,7 @@ import Stepfun from '../icons/Stepfun';
 import Suno from '../icons/Suno';
 import TII from '../icons/TII';
 import Udio from '../icons/Udio';
+import UnionAlpha from '../icons/UnionAlpha';
 import Upstage from '../icons/Upstage';
 import V0 from '../icons/V0';
 import VertexAI from '../icons/VertexAI';
@@ -247,7 +249,7 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: Jimeng, keywords: ['^jimeng-', '/jimeng-', 'seedream', 'seededit', 'seedance-'] },
   { Icon: Doubao, keywords: ['^ep-', 'doubao-'] },
   { Icon: Kling, keywords: ['^kling', 'kling-', 'klingai'] },
-  { Icon: Hunyuan, keywords: ['hunyuan', 'hy3'] },
+  { Icon: Hunyuan, keywords: ['hunyuan', 'hy3', 'hy4'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
   { Icon: ByteDance, keywords: ['skylark', 'seed-', 'bytedance'] },
   { Icon: BurnCloud, keywords: ['burncloud'] },
@@ -278,6 +280,8 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: SenseNova, keywords: ['SenseChat', 'SenseNova'] },
   { Icon: Grok, keywords: ['^grok-', '/grok-'] },
   { Icon: Ideogram, keywords: ['ideogram', '^v_1', '^v_2', '^v3$', '^upscale$', '^describe$'] },
+  /** Meta Muse models; match Muse Spark before the broad iFlyTek Spark keyword. */
+  { Icon: Meta, keywords: ['(^|/)muse-(spark|wonder)($|-)'] },
   {
     Icon: Spark,
     keywords: [
@@ -293,6 +297,7 @@ export const rnModelMappings: RNModelMapping[] = [
     ],
   },
   { Icon: Udio, keywords: ['udio'] },
+  { Icon: UnionAlpha, keywords: ['union-alpha', 'unionalpha', 'pareto'] },
   { Icon: DeepSeek, keywords: ['deepseek'] },
   { Icon: Voyage, keywords: ['voyage'] },
   { Icon: AssemblyAI, keywords: ['assemblyai'] },
@@ -321,4 +326,5 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: XiaomiMiMo, keywords: ['^mimo-', '/mimo-'] },
   { Icon: BAAI, keywords: ['^baai', '^bge-', '/beg-', 'touchd', 'robobrain'] },
   { Icon: Ace, keywords: ['ace-step'] },
+  { Icon: Cursor, keywords: ['^composer', '/composer', '-composer'] },
 ];

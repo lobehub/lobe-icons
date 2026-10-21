@@ -30,6 +30,7 @@ import BurnCloud from '../icons/BurnCloud';
 import ByteDance from '../icons/ByteDance';
 import CentML from '../icons/CentML';
 import Cerebras from '../icons/Cerebras';
+import CheaperInference from '../icons/CheaperInference';
 import Civitai from '../icons/Civitai';
 import Claude from '../icons/Claude';
 import Cloudflare from '../icons/Cloudflare';
@@ -46,6 +47,7 @@ import Exa from '../icons/Exa';
 import Fal from '../icons/Fal';
 import Featherless from '../icons/Featherless';
 import Fireworks from '../icons/Fireworks';
+import FlexAI from '../icons/FlexAI';
 import Friendli from '../icons/Friendli';
 import Gemini from '../icons/Gemini';
 import GiteeAI from '../icons/GiteeAI';
@@ -53,6 +55,7 @@ import Github from '../icons/Github';
 import GithubCopilot from '../icons/GithubCopilot';
 import Google from '../icons/Google';
 import GoogleCloud from '../icons/GoogleCloud';
+import GreenPT from '../icons/GreenPT';
 import Grok from '../icons/Grok';
 import Groq from '../icons/Groq';
 import Higress from '../icons/Higress';
@@ -73,6 +76,7 @@ import LG from '../icons/LG';
 import Lambda from '../icons/Lambda';
 import LeptonAI from '../icons/LeptonAI';
 import LlmApi from '../icons/LlmApi';
+import LlmGateway from '../icons/LlmGateway';
 import LmStudio from '../icons/LmStudio';
 import LobeHub from '../icons/LobeHub';
 import LongCat from '../icons/LongCat';
@@ -113,6 +117,7 @@ import StateCloud from '../icons/StateCloud';
 import Stepfun from '../icons/Stepfun';
 import Straico from '../icons/Straico';
 import StreamLake from '../icons/StreamLake';
+import Sub2API from '../icons/Sub2API';
 import SubModel from '../icons/SubModel';
 import TII from '../icons/TII';
 import Targon from '../icons/Targon';
@@ -126,6 +131,7 @@ import Vercel from '../icons/Vercel';
 import VertexAI from '../icons/VertexAI';
 import Vllm from '../icons/Vllm';
 import Volcengine from '../icons/Volcengine';
+import WaveSpeed from '../icons/WaveSpeed';
 import Wenxin from '../icons/Wenxin';
 import WorkersAI from '../icons/WorkersAI';
 import XAI from '../icons/XAI';
@@ -188,6 +194,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Lambda, keywords: [RNModelProvider.Lambda] },
   { Icon: LeptonAI, keywords: [RNModelProvider.LeptonAI] },
   { Icon: LlmApi, keywords: [RNModelProvider.LlmApi] },
+  { Icon: LlmGateway, keywords: [RNModelProvider.LlmGateway] },
   { Icon: LG, keywords: [RNModelProvider.LG] },
   { Icon: Menlo, keywords: [RNModelProvider.Menlo] },
   { Icon: MetaAI, keywords: [RNModelProvider.Meta] },
@@ -200,6 +207,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Stability, keywords: [RNModelProvider.Stability] },
   { Icon: StateCloud, keywords: [RNModelProvider.StateCloud] },
   { Icon: StreamLake, keywords: [RNModelProvider.StreamLake] },
+  { Icon: Sub2API, keywords: [RNModelProvider.Sub2API] },
   { Icon: SubModel, keywords: [RNModelProvider.SubModel] },
   { Icon: Targon, keywords: [RNModelProvider.Targon] },
   { Icon: Tencent, keywords: [RNModelProvider.Tencent] },
@@ -297,6 +305,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
     combineMultiple: 0.83,
     keywords: [RNModelProvider.Anthropic],
   },
+  { Icon: GreenPT, combineMultiple: 0.9, keywords: [RNModelProvider.GreenPT] },
   { Icon: Groq, keywords: [RNModelProvider.Groq] },
   { Icon: OpenRouter, combineMultiple: 0.8, keywords: [RNModelProvider.OpenRouter] },
   { Icon: ZeroOne, combineMultiple: 1, keywords: [RNModelProvider.ZeroOne] },
@@ -416,6 +425,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Bfl, keywords: [RNModelProvider.Bfl] },
   { Icon: Replicate, combineMultiple: 0.9, keywords: [RNModelProvider.Replicate] },
   { Icon: Nebius, combineMultiple: 0.75, keywords: [RNModelProvider.Nebius] },
+  { Icon: FlexAI, keywords: [RNModelProvider.FlexAI] },
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [RNModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [RNModelProvider.AkashChat] },
   { Icon: AtlasCloud, combineMultiple: 0.8, keywords: [RNModelProvider.AtlasCloud] },
@@ -424,7 +434,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
     Combine: memo(({ size = 24, ...props }) => (
       <Ollama.Combine
         extra={'Cloud'}
-        extraStyle={{ fontSize: size * 0.78, fontWeight: 500, marginLeft: size * 0.2 }}
+        extraStyle={{ fontSize: size * 0.78, fontWeight: '500', marginLeft: size * 0.2 }}
         size={size * 1.16}
         {...props}
       />
@@ -442,4 +452,6 @@ export const rnProviderMappings: RNProviderMapping[] = [
     props: { inverse: true },
   },
   { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [RNModelProvider.XiaomiMiMo] },
+  { Icon: WaveSpeed, combineMultiple: 0.7, keywords: [RNModelProvider.WaveSpeed] },
+  { Icon: CheaperInference, combineMultiple: 0.8, keywords: [RNModelProvider.CheaperInference] },
 ];

@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import type { FC } from 'react';
 
 import Ace from '@/Ace';
 import Adobe from '@/Adobe';
@@ -25,6 +25,7 @@ import Claude from '@/Claude';
 import CodeGeeX from '@/CodeGeeX';
 import CogView from '@/CogView';
 import Cohere from '@/Cohere';
+import Cursor from '@/Cursor';
 import Dalle from '@/Dalle';
 import Dbrx from '@/Dbrx';
 import DeepCogito from '@/DeepCogito';
@@ -33,12 +34,14 @@ import DeepSeek from '@/DeepSeek';
 import Dolphin from '@/Dolphin';
 import Doubao from '@/Doubao';
 import EssentialAI from '@/EssentialAI';
+import type { IconAvatarProps } from '@/features/IconAvatar';
+import type { IconCombineProps } from '@/features/IconCombine';
 import Fireworks from '@/Fireworks';
 import FishAudio from '@/FishAudio';
 import Flux from '@/Flux';
-import GLMV from '@/GLMV';
 import Gemini from '@/Gemini';
 import Gemma from '@/Gemma';
+import GLMV from '@/GLMV';
 import Google from '@/Google';
 import Grok from '@/Grok';
 import Hunyuan from '@/Hunyuan';
@@ -53,8 +56,8 @@ import Kling from '@/Kling';
 import Kolors from '@/Kolors';
 import Kwaipilot from '@/Kwaipilot';
 import LG from '@/LG';
-import LLaVA from '@/LLaVA';
 import Liquid from '@/Liquid';
+import LLaVA from '@/LLaVA';
 import LongCat from '@/LongCat';
 import Menlo from '@/Menlo';
 import Meta from '@/Meta';
@@ -85,7 +88,9 @@ import Stability from '@/Stability';
 import Stepfun from '@/Stepfun';
 import Suno from '@/Suno';
 import TII from '@/TII';
+import type { IconType } from '@/types';
 import Udio from '@/Udio';
+import UnionAlpha from '@/UnionAlpha';
 import Upstage from '@/Upstage';
 import V0 from '@/V0';
 import VertexAI from '@/VertexAI';
@@ -94,9 +99,6 @@ import Wenxin from '@/Wenxin';
 import XiaomiMiMo from '@/XiaomiMiMo';
 import Yi from '@/Yi';
 import ZAI from '@/ZAI';
-import type { IconAvatarProps } from '@/features/IconAvatar';
-import type { IconCombineProps } from '@/features/IconCombine';
-import type { IconType } from '@/types';
 
 type ModelIconType = FC<IconType & any> & {
   Avatar: FC<Omit<IconAvatarProps, 'Icon'> & any>;
@@ -249,7 +251,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Jimeng, keywords: ['^jimeng-', '/jimeng-', 'seedream', 'seededit', 'seedance-'] },
   { Icon: Doubao, keywords: ['^ep-', 'doubao-'] },
   { Icon: Kling, keywords: ['^kling', 'kling-', 'klingai'] },
-  { Icon: Hunyuan, keywords: ['hunyuan', 'hy3'] },
+  { Icon: Hunyuan, keywords: ['hunyuan', 'hy3', 'hy4'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
   { Icon: ByteDance, keywords: ['skylark', 'seed-', 'bytedance'] },
   { Icon: BurnCloud, keywords: ['burncloud'] },
@@ -280,6 +282,8 @@ export const modelMappings: ModelMapping[] = [
   { Icon: SenseNova, keywords: ['SenseChat', 'SenseNova'] },
   { Icon: Grok, keywords: ['^grok-', '/grok-'] },
   { Icon: Ideogram, keywords: ['ideogram', '^v_1', '^v_2', '^v3$', '^upscale$', '^describe$'] },
+  /** Meta Muse models; match Muse Spark before the broad iFlyTek Spark keyword. */
+  { Icon: Meta, keywords: ['(^|/)muse-(spark|wonder)($|-)'] },
   {
     Icon: Spark,
     keywords: [
@@ -295,6 +299,7 @@ export const modelMappings: ModelMapping[] = [
     ],
   },
   { Icon: Udio, keywords: ['udio'] },
+  { Icon: UnionAlpha, keywords: ['union-alpha', 'unionalpha', 'pareto'] },
   { Icon: DeepSeek, keywords: ['deepseek'] },
   { Icon: Voyage, keywords: ['voyage'] },
   { Icon: AssemblyAI, keywords: ['assemblyai'] },
@@ -323,4 +328,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: XiaomiMiMo, keywords: ['^mimo-', '/mimo-'] },
   { Icon: BAAI, keywords: ['^baai', '^bge-', '/beg-', 'touchd', 'robobrain'] },
   { Icon: Ace, keywords: ['ace-step'] },
+  { Icon: Cursor, keywords: ['^composer', '/composer', '-composer'] },
 ];

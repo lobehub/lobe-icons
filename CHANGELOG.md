@@ -2,6 +2,457 @@
 
 # Changelog
 
+# [6.4.0](https://github.com/lobehub/lobe-icons/compare/v6.3.0...v6.4.0) (2026-10-21)
+
+### ✨ Features
+
+- **auto**: Auto build static icons ([ba4c214](https://github.com/lobehub/lobe-icons/commit/ba4c214))
+- **auto**: Auto build static icons ([9046e38](https://github.com/lobehub/lobe-icons/commit/9046e38))
+- **lint**: Add icon convention rules ([4cb27b2](https://github.com/lobehub/lobe-icons/commit/4cb27b2))
+
+### 🎫 Chores
+
+- **deps**: Refresh lockfile so semantic-release reads .releaserc.mjs ([995cb8c](https://github.com/lobehub/lobe-icons/commit/995cb8c))
+- **lint**: Upgrade @lobehub/lint to v2 with flat config ([abae668](https://github.com/lobehub/lobe-icons/commit/abae668))
+- **release**: @lobehub/icons-rn@2.15.0 [skip ci], closes [#FD366](https://github.com/lobehub/lobe-icons/issues/FD366) ([b0b7b42](https://github.com/lobehub/lobe-icons/commit/b0b7b42))
+- **release**: @lobehub/icons-static-avatar@2.0.0 [skip ci], closes [#432](https://github.com/lobehub/lobe-icons/issues/432) ([e6a84e8](https://github.com/lobehub/lobe-icons/commit/e6a84e8))
+- **release**: @lobehub/icons-static-png@2.0.0 [skip ci], closes [#432](https://github.com/lobehub/lobe-icons/issues/432) ([0da34dd](https://github.com/lobehub/lobe-icons/commit/0da34dd))
+- **release**: @lobehub/icons-static-svg@1.96.0 [skip ci] ([44d6353](https://github.com/lobehub/lobe-icons/commit/44d6353))
+- **release**: @lobehub/icons-static-webp@2.0.0 [skip ci], closes [#432](https://github.com/lobehub/lobe-icons/issues/432) ([b013369](https://github.com/lobehub/lobe-icons/commit/b013369))
+
+### 🐛 Bug Fixes
+
+- **lint**: Resolve lobe-lint v2 errors with autofix ([22b5633](https://github.com/lobehub/lobe-icons/commit/22b5633))
+
+## [Version 6.3.0](https://github.com/lobehub/lobe-icons/compare/v6.2.0...v6.3.0)
+
+<sup>Released on **2026-10-21**</sup>
+
+#### ♻ Code Refactoring
+
+- **cheaperinference**: Drop color variant and use stacked wordmark.
+
+#### ✨ Features
+
+- **flexai**: Add text and combine.
+- **rn**: Sync new and updated icons.
+- **misc**: Add Appwrite icon, add Cheaper Inference icon components, add Cheaper Inference icon style and docs, add FlexAI, add GreenPT icon and provider mapping, add Hunyuan icon mapping for Hy4 models, add LLM Gateway icon, add llmgateway provider mapping and RN icon, add Sub2API icon, Add Tabbit icon, add WorkBuddy icon, map the cheaperinference provider to the icon, register the Cheaper Inference icon.
+
+#### 🐛 Bug Fixes
+
+- **aimlapi**: Normalize icon viewBox to 24x24.
+- **appwrite**: Align combine ratio with official logo.
+- **cheaperinference**: Align icons with official brand.
+- **copilot**: Normalize icon viewBox to 24x24.
+- **greenpt**: Align combine ratio with official logo.
+- **ling**: Normalize icon viewBox to 24x24.
+- **release**: Skip broken release-notes-generator 11.0.0.
+- **rn**: Emit string fontWeight in provider config, strip unsupported colorInterpolationFilters in converter.
+- **tabbit**: Normalize text viewBox, support color combine and fill mono viewBox.
+- **misc**: HappyHorse icon renders the title "Hedra".
+
+#### 💄 Styles
+
+- **flexai**: Combine renders text only.
+- **misc**: Sort JSX props in Appwrite and GreenPT icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **cheaperinference**: Drop color variant and use stacked wordmark ([5ccb6f6](https://github.com/lobehub/lobe-icons/commit/5ccb6f6))
+
+#### What's improved
+
+- **flexai**: Add text and combine ([fb20313](https://github.com/lobehub/lobe-icons/commit/fb20313))
+- **rn**: Sync new and updated icons ([c32093e](https://github.com/lobehub/lobe-icons/commit/c32093e))
+- **misc**: Add Appwrite icon, closes [#FD366](https://github.com/lobehub/lobe-icons/issues/FD366) ([8104d97](https://github.com/lobehub/lobe-icons/commit/8104d97))
+- **misc**: Add Cheaper Inference icon components ([c4bb6be](https://github.com/lobehub/lobe-icons/commit/c4bb6be))
+- **misc**: Add Cheaper Inference icon style and docs ([14d8c91](https://github.com/lobehub/lobe-icons/commit/14d8c91))
+- **misc**: Add FlexAI, closes [#00349](https://github.com/lobehub/lobe-icons/issues/00349) ([6474d09](https://github.com/lobehub/lobe-icons/commit/6474d09))
+- **misc**: Add GreenPT icon and provider mapping ([816e3c4](https://github.com/lobehub/lobe-icons/commit/816e3c4))
+- **misc**: Add Hunyuan icon mapping for Hy4 models ([ed3ac79](https://github.com/lobehub/lobe-icons/commit/ed3ac79))
+- **misc**: Add LLM Gateway icon ([ca7646b](https://github.com/lobehub/lobe-icons/commit/ca7646b))
+- **misc**: Add llmgateway provider mapping and RN icon ([ec2a2ca](https://github.com/lobehub/lobe-icons/commit/ec2a2ca))
+- **misc**: Add Sub2API icon ([d256b23](https://github.com/lobehub/lobe-icons/commit/d256b23))
+- **misc**: Add Tabbit icon ([c462600](https://github.com/lobehub/lobe-icons/commit/c462600))
+- **misc**: Add WorkBuddy icon ([fad320d](https://github.com/lobehub/lobe-icons/commit/fad320d))
+- **misc**: Map the cheaperinference provider to the icon ([b0a5849](https://github.com/lobehub/lobe-icons/commit/b0a5849))
+- **misc**: Register the Cheaper Inference icon ([b1b93a3](https://github.com/lobehub/lobe-icons/commit/b1b93a3))
+
+#### What's fixed
+
+- **aimlapi**: Normalize icon viewBox to 24x24 ([1651f76](https://github.com/lobehub/lobe-icons/commit/1651f76))
+- **appwrite**: Align combine ratio with official logo ([6a29208](https://github.com/lobehub/lobe-icons/commit/6a29208))
+- **cheaperinference**: Align icons with official brand ([63ef3f5](https://github.com/lobehub/lobe-icons/commit/63ef3f5))
+- **copilot**: Normalize icon viewBox to 24x24 ([1b093d5](https://github.com/lobehub/lobe-icons/commit/1b093d5))
+- **greenpt**: Align combine ratio with official logo ([6dbcf9f](https://github.com/lobehub/lobe-icons/commit/6dbcf9f))
+- **ling**: Normalize icon viewBox to 24x24 ([84e4834](https://github.com/lobehub/lobe-icons/commit/84e4834))
+- **release**: Skip broken release-notes-generator 11.0.0 ([f97fff9](https://github.com/lobehub/lobe-icons/commit/f97fff9))
+- **rn**: Emit string fontWeight in provider config ([02b95c8](https://github.com/lobehub/lobe-icons/commit/02b95c8))
+- **rn**: Strip unsupported colorInterpolationFilters in converter ([e70cb6e](https://github.com/lobehub/lobe-icons/commit/e70cb6e))
+- **tabbit**: Normalize text viewBox ([6a4879b](https://github.com/lobehub/lobe-icons/commit/6a4879b))
+- **tabbit**: Support color combine and fill mono viewBox ([5a56ce1](https://github.com/lobehub/lobe-icons/commit/5a56ce1))
+- **misc**: HappyHorse icon renders the title "Hedra" ([2b93206](https://github.com/lobehub/lobe-icons/commit/2b93206))
+
+#### Styles
+
+- **flexai**: Combine renders text only ([f99c0ad](https://github.com/lobehub/lobe-icons/commit/f99c0ad))
+- **misc**: Sort JSX props in Appwrite and GreenPT icons ([d98341e](https://github.com/lobehub/lobe-icons/commit/d98341e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 6.2.0](https://github.com/lobehub/lobe-icons/compare/v6.1.0...v6.2.0)
+
+<sup>Released on **2026-10-21**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([8c096a1](https://github.com/lobehub/lobe-icons/commit/8c096a1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 6.1.0](https://github.com/lobehub/lobe-icons/compare/v6.0.0...v6.1.0)
+
+<sup>Released on **2026-10-21**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([df77b46](https://github.com/lobehub/lobe-icons/commit/df77b46))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 6.0.0](https://github.com/lobehub/lobe-icons/compare/v5.23.1...v6.0.0)
+
+<sup>Released on **2026-10-15**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Adopt lobe-ui 6 and drop antd \[force major].
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([559e761](https://github.com/lobehub/lobe-icons/commit/559e761))
+- **misc**: Adopt lobe-ui 6 and drop antd \[force major], closes [#432](https://github.com/lobehub/lobe-icons/issues/432) ([a83b922](https://github.com/lobehub/lobe-icons/commit/a83b922))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 5.23.1](https://github.com/lobehub/lobe-icons/compare/v5.23.0...v5.23.1)
+
+<sup>Released on **2026-10-13**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Use Meta icon for Muse Wonder models, use Node 22 in release CI so tsdown can load its config.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Use Meta icon for Muse Wonder models ([6f2c20d](https://github.com/lobehub/lobe-icons/commit/6f2c20d))
+- **misc**: Use Node 22 in release CI so tsdown can load its config ([5f19aab](https://github.com/lobehub/lobe-icons/commit/5f19aab))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 5.23.0](https://github.com/lobehub/lobe-icons/compare/v5.22.0...v5.23.0)
+
+<sup>Released on **2026-10-03**</sup>
+
+#### ✨ Features
+
+- **misc**: Migrate to @lobehub/ui/base-ui components.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Migrate to @lobehub/ui/base-ui components, closes [#427](https://github.com/lobehub/lobe-icons/issues/427) ([39250a2](https://github.com/lobehub/lobe-icons/commit/39250a2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 5.22.0](https://github.com/lobehub/lobe-icons/compare/v5.21.0...v5.22.0)
+
+<sup>Released on **2026-10-01**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([329f378](https://github.com/lobehub/lobe-icons/commit/329f378))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 5.21.0](https://github.com/lobehub/lobe-icons/compare/v5.20.0...v5.21.0)
+
+<sup>Released on **2026-09-23**</sup>
+
+#### ✨ Features
+
+- **misc**: Map Composer models to the Cursor icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Map Composer models to the Cursor icon ([f0183a2](https://github.com/lobehub/lobe-icons/commit/f0183a2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 5.20.0](https://github.com/lobehub/lobe-icons/compare/v5.19.3...v5.20.0)
+
+<sup>Released on **2026-09-23**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Redesign the docs home and show guide pages in the sidebar.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([2e25cec](https://github.com/lobehub/lobe-icons/commit/2e25cec))
+- **misc**: Redesign the docs home and show guide pages in the sidebar ([8196bab](https://github.com/lobehub/lobe-icons/commit/8196bab))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 5.19.3](https://github.com/lobehub/lobe-icons/compare/v5.19.2...v5.19.3)
+
+<sup>Released on **2026-09-21**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Use github.token for semantic-release.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Use github.token for semantic-release ([ad84f0c](https://github.com/lobehub/lobe-icons/commit/ad84f0c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 5.19.2](https://github.com/lobehub/lobe-icons/compare/v5.19.1...v5.19.2)
+
+<sup>Released on **2026-09-21**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update workflow.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update workflow ([bded67e](https://github.com/lobehub/lobe-icons/commit/bded67e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 5.19.1](https://github.com/lobehub/lobe-icons/compare/v5.19.0...v5.19.1)
+
+<sup>Released on **2026-09-21**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update static.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update static ([7d053de](https://github.com/lobehub/lobe-icons/commit/7d053de))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 5.19.0](https://github.com/lobehub/lobe-icons/compare/v5.18.0...v5.19.0)
+
+<sup>Released on **2026-09-21**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add Chutes, Decart, DigitalOcean, GmiCloud, Inceptron, IoNet,…, merge new icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([3907f71](https://github.com/lobehub/lobe-icons/commit/3907f71))
+- **misc**: Add Chutes, Decart, DigitalOcean, GmiCloud, Inceptron, IoNet,…, closes [#416](https://github.com/lobehub/lobe-icons/issues/416) [#369](https://github.com/lobehub/lobe-icons/issues/369) ([c4a016c](https://github.com/lobehub/lobe-icons/commit/c4a016c))
+- **misc**: Merge new icons, closes [#417](https://github.com/lobehub/lobe-icons/issues/417) [#401](https://github.com/lobehub/lobe-icons/issues/401) [#402](https://github.com/lobehub/lobe-icons/issues/402) [#8C4](https://github.com/lobehub/lobe-icons/issues/8C4) [#ED1C24](https://github.com/lobehub/lobe-icons/issues/ED1C24) [#396](https://github.com/lobehub/lobe-icons/issues/396) [#390](https://github.com/lobehub/lobe-icons/issues/390) [#389](https://github.com/lobehub/lobe-icons/issues/389) ([38bbb50](https://github.com/lobehub/lobe-icons/commit/38bbb50))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 5.18.0](https://github.com/lobehub/lobe-icons/compare/v5.17.0...v5.18.0)
+
+<sup>Released on **2026-09-05**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Use Meta AI icon for Muse Spark models, use Meta infinity icon for Muse Spark models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([5fa93d3](https://github.com/lobehub/lobe-icons/commit/5fa93d3))
+
+#### What's fixed
+
+- **misc**: Use Meta AI icon for Muse Spark models ([2771dc9](https://github.com/lobehub/lobe-icons/commit/2771dc9))
+- **misc**: Use Meta infinity icon for Muse Spark models ([1c89dbc](https://github.com/lobehub/lobe-icons/commit/1c89dbc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 5.17.0](https://github.com/lobehub/lobe-icons/compare/v5.16.2...v5.17.0)
 
 <sup>Released on **2026-09-05**</sup>

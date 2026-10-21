@@ -1,9 +1,7 @@
 'use client';
 
 import * as Icons from '@lobehub/icons';
-import { Flexbox, Grid, SearchBar, TooltipGroup } from '@lobehub/ui';
-import { Empty, Segmented } from 'antd';
-import { cssVar } from 'antd-style';
+import { cssVar, Empty, Flexbox, Grid, SearchBar, Segmented, TooltipGroup } from '@lobehub/ui';
 import { memo, useMemo, useState } from 'react';
 
 import IconItem from './IconItem';
@@ -36,18 +34,17 @@ const Dashboard = memo(() => {
 
   return (
     <Flexbox gap={16} style={{ maxWidth: 960 }} width={'100%'}>
-      <Flexbox align={'center'} gap={12} horizontal>
+      <Flexbox horizontal align={'center'} gap={12}>
         <SearchBar
           allowClear
           defaultValue={keyword}
-          onSearch={(v) => setKeyword(v)}
           placeholder={'Search by brand or model keywords...'}
           style={{ width: '100%' }}
           type={'block'}
+          onSearch={(v) => setKeyword(v)}
         />
         <Segmented
           defaultValue={type}
-          onChange={(v) => setType(v)}
           options={[
             {
               label: 'Color',
@@ -61,6 +58,7 @@ const Dashboard = memo(() => {
           style={{
             border: `1px solid ${cssVar.colorBorder}`,
           }}
+          onChange={(v) => setType(v)}
         />
       </Flexbox>
       <TooltipGroup>
@@ -76,7 +74,7 @@ const Dashboard = memo(() => {
             })}
           </Grid>
         ) : (
-          <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />
+          <Empty description={'No Data'} />
         )}
       </TooltipGroup>
     </Flexbox>

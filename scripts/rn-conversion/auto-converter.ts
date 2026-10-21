@@ -5,6 +5,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import FeatureConfigSyncer from './feature-config-syncer';
+import { formatGeneratedFiles } from './utils/formatter';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -207,10 +208,36 @@ class AutoConverter {
 
     try {
       const syncer = new FeatureConfigSyncer();
-      const success = await syncer.syncAll();
+      // 统一在 formatOutput 中格式化
+      const success = await syncer.syncAll({ format: false });
       return success;
     } catch (error) {
       console.error('❌ 配置文件同步失败:', error);
+      return false;
+    }
+  }
+
+  // 格式化生成的文件
+  private async formatOutput(options: ConversionOptions): Promise<boolean> {
+    console.log('\n🎨 格式化生成的文件...');
+
+    if (options.dryRun) {
+      console.log('🔄 预演模式：不会实际格式化文件');
+      return true;
+    }
+
+    try {
+      const rnSrcDir = join(this.projectRoot, 'packages/react-native/src');
+      const files = formatGeneratedFiles(this.projectRoot, [
+        ...this.stats.converted.map((icon) => join(this.rnIconsDir, icon)),
+        join(rnSrcDir, 'index.ts'),
+        ...new FeatureConfigSyncer().targetFiles,
+      ]);
+
+      console.log(`✅ 已格式化 ${files.length} 个文件`);
+      return true;
+    } catch (error) {
+      console.error('❌ 格式化失败:', error);
       return false;
     }
   }
@@ -326,6 +353,10 @@ class AutoConverter {
 
     if (success) {
       success = await this.syncFeatureConfigs(options);
+    }
+
+    if (success) {
+      success = await this.formatOutput(options);
     }
 
     if (success && options.lintCheck) {

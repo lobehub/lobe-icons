@@ -2,6 +2,99 @@
 
 # Changelog
 
+## [Version 2.15.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.14.0...@lobehub/icons-rn@2.15.0)
+
+<sup>Released on **2026-10-21**</sup>
+
+#### ✨ Features
+
+- **rn**: Sync new and updated icons.
+- **misc**: Add Appwrite icon, add GreenPT icon and provider mapping, add Hunyuan icon mapping for Hy4 models, add llmgateway provider mapping and RN icon, add Sub2API icon, map Composer models to the Cursor icon.
+
+#### 🐛 Bug Fixes
+
+- **rn**: Emit string fontWeight in provider config.
+- **misc**: Use Meta icon for Muse Wonder models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **rn**: Sync new and updated icons ([c32093e](https://github.com/lobehub/lobe-icons/commit/c32093e))
+- **misc**: Add Appwrite icon, closes [#FD366](https://github.com/lobehub/lobe-icons/issues/FD366) ([8104d97](https://github.com/lobehub/lobe-icons/commit/8104d97))
+- **misc**: Add GreenPT icon and provider mapping ([816e3c4](https://github.com/lobehub/lobe-icons/commit/816e3c4))
+- **misc**: Add Hunyuan icon mapping for Hy4 models ([ed3ac79](https://github.com/lobehub/lobe-icons/commit/ed3ac79))
+- **misc**: Add llmgateway provider mapping and RN icon ([ec2a2ca](https://github.com/lobehub/lobe-icons/commit/ec2a2ca))
+- **misc**: Add Sub2API icon ([d256b23](https://github.com/lobehub/lobe-icons/commit/d256b23))
+- **misc**: Map Composer models to the Cursor icon ([f0183a2](https://github.com/lobehub/lobe-icons/commit/f0183a2))
+
+#### What's fixed
+
+- **rn**: Emit string fontWeight in provider config ([02b95c8](https://github.com/lobehub/lobe-icons/commit/02b95c8))
+- **misc**: Use Meta icon for Muse Wonder models ([6f2c20d](https://github.com/lobehub/lobe-icons/commit/6f2c20d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 2.14.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.13.1...@lobehub/icons-rn@2.14.0)
+
+<sup>Released on **2026-09-21**</sup>
+
+#### ✨ Features
+
+- **misc**: Merge new icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Merge new icons, closes [#417](https://github.com/lobehub/lobe-icons/issues/417) [#401](https://github.com/lobehub/lobe-icons/issues/401) [#402](https://github.com/lobehub/lobe-icons/issues/402) [#8C4](https://github.com/lobehub/lobe-icons/issues/8C4) [#ED1C24](https://github.com/lobehub/lobe-icons/issues/ED1C24) [#396](https://github.com/lobehub/lobe-icons/issues/396) [#390](https://github.com/lobehub/lobe-icons/issues/390) [#389](https://github.com/lobehub/lobe-icons/issues/389) ([38bbb50](https://github.com/lobehub/lobe-icons/commit/38bbb50))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 2.13.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.13.0...@lobehub/icons-rn@2.13.1)
+
+<sup>Released on **2026-09-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Use Meta AI icon for Muse Spark models, use Meta infinity icon for Muse Spark models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Use Meta AI icon for Muse Spark models ([2771dc9](https://github.com/lobehub/lobe-icons/commit/2771dc9))
+- **misc**: Use Meta infinity icon for Muse Spark models ([1c89dbc](https://github.com/lobehub/lobe-icons/commit/1c89dbc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.13.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.12.0...@lobehub/icons-rn@2.13.0)
 
 <sup>Released on **2026-09-05**</sup>

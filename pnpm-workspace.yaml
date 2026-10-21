@@ -5,6 +5,27 @@ allowBuilds:
   core-js: true
   core-js-pure: true
   esbuild: true
+  node-pty: false
   puppeteer: true
   sharp: true
   unrs-resolver: true
+minimumReleaseAgeExclude:
+  - '@lobehub/docs-kit@6.1.0'
+  - '@lobehub/ui@5.49.0 || 6.0.0-beta.1 || 6.0.0-beta.10 || 6.0.0'
+publicHoistPattern:
+  - '*@umijs/lint*'
+  - '*changelog*'
+  - '*commitlint*'
+  - '*eslint*'
+  - '*postcss*'
+  - '*prettier*'
+  - '*remark*'
+  - '*semantic-release*'
+  - '*stylelint*'
+overrides:
+  # release-notes-generator 11.0.0 was published without wrappers/conventional-changelog-writer.js,
+  # so semantic-release 21 fails with ERR_MODULE_NOT_FOUND. 11.0.1+ ships the file.
+  '@semantic-release/release-notes-generator@^11.0.0': ^11.0.1
+  # semantic-release 21 accepts cosmiconfig ^8.0.0, but the lock kept 8.0.0, which predates .mjs
+  # search places, so .releaserc.mjs was ignored. pnpm update cannot re-resolve this locked transitive dep.
+  'semantic-release@21>cosmiconfig': ^8.3.6

@@ -1,0 +1,27 @@
+import React, { memo } from 'react';
+import { Path, Svg } from 'react-native-svg';
+
+import type { RNIconProps } from '@/features';
+
+const Icon = memo<RNIconProps>(({ size = 24, style, color = '#000000', ...rest }) => {
+  return (
+    <Svg
+      color={color}
+      fillRule="evenodd"
+      height={size}
+      style={style}
+      viewBox="0 0 24 24"
+      width={size}
+      {...rest}
+    >
+      <Path
+        d="M22.117 6.31a1.1 1.1 0 0 0-.781-.31H7.607c-.297 0-.572.118-.781.31L5.273 7.822a1.05 1.05 0 0 0-.319.761v.632h15.743v4.822H24V8.582c0-.29-.121-.557-.32-.76L22.129 6.31zm-13.86 9.333V10.82H4.954v5.454c0 .29.121.557.32.76l1.552 1.511c.209.204.484.311.781.311h13.74c.297 0 .572-.118.781-.31l1.553-1.511c.209-.204.319-.472.319-.761v-.632zM0 16.275c0 .29.121.557.32.76l1.552 1.511c.209.204.484.311.781.311h.65v-8.036H0zM1.872 6.31.319 7.822a1.04 1.04 0 0 0-.319.76v.632h3.303V6h-.65c-.297 0-.572.118-.781.31"
+        fill={color}
+      />
+    </Svg>
+  );
+});
+
+Icon.displayName = 'IoNetMono';
+
+export default Icon;

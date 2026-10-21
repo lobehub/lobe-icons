@@ -2,8 +2,8 @@
 
 import { memo } from 'react';
 
-import Mono from '@/OpenAI/components/Mono';
 import IconCombine, { type IconCombineProps } from '@/features/IconCombine';
+import Mono from '@/OpenAI/components/Mono';
 
 import { COMBINE_SPACE_MULTIPLE, COMBINE_TEXT_MULTIPLE, TITLE } from '../style';
 import Text from './Text';
@@ -16,14 +16,14 @@ const Combine = memo<CombineProps>(({ extraStyle, size = 24, ...rest }) => {
       Icon={Mono}
       Text={Text}
       aria-label={TITLE}
+      size={size}
+      spaceMultiple={COMBINE_SPACE_MULTIPLE}
+      textMultiple={COMBINE_TEXT_MULTIPLE}
       extraStyle={{
         fontSize: size * 0.85,
         marginLeft: size * COMBINE_SPACE_MULTIPLE,
         ...extraStyle,
       }}
-      size={size}
-      spaceMultiple={COMBINE_SPACE_MULTIPLE}
-      textMultiple={COMBINE_TEXT_MULTIPLE}
       {...rest}
     />
   );

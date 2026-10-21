@@ -9,9 +9,12 @@ export default defineDocsConfig({
   alias: {
     '@': 'src',
     '@lobehub/icons': 'src',
+    // @lobehub/ui deep-imports the published `es` build; point those paths back at src.
+    '@lobehub/icons/es/features/getLobeIconCDN': 'src/features/getLobeIconCDN/index.tsx',
+    '@lobehub/icons/es/toc': 'src/toc.ts',
   },
   atomDirs: [{ dir: 'src', subType: 'components', type: 'component' }],
-  description: 'Popular AI / LLM Model Brand SVG Logo and Icon Collection',
+  description: 'React components for AI model and provider logos.',
   favicons: {
     icon: 'https://lobehub.com/favicon.ico',
   },
@@ -53,15 +56,15 @@ export default defineDocsConfig({
     metadata: {
       openGraph: {
         image:
-          'https://repository-images.githubusercontent.com/750129442/59a8d16a-7ba1-4eda-b611-697d35cd04ab',
+          'https://repository-images.githubusercontent.com/750129442/edc2a03a-a6c4-4f11-89c8-8ffafbb85a7a',
       },
     },
-    navItems: [
-      { external: true, href: 'https://ui.lobehub.com', label: 'UI' },
-      { external: true, href: 'https://charts.lobehub.com', label: 'Charts' },
-      { href: '/changelog', label: 'Changelog' },
+    navItems: [{ href: '/changelog', label: 'Changelog' }],
+    prefersColor: 'auto',
+    sidebarGroups: [
+      { dir: 'docs/editor', icon: 'file-code', order: 1, title: 'Editor' },
+      { dir: 'docs/features', icon: 'sparkles', order: 2, title: 'Features' },
     ],
-    prefersColor: 'dark',
     socialLinks: [
       {
         href: 'https://github.com/lobehub/lobe-icons',

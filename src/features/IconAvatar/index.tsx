@@ -1,17 +1,17 @@
 'use client';
 
-import { Center, type CenterProps } from '@lobehub/ui';
-import { useThemeMode } from 'antd-style';
-import { CSSProperties, memo } from 'react';
+import { Center, type CenterProps, useThemeMode } from '@lobehub/ui';
+import type { CSSProperties } from 'react';
+import { memo } from 'react';
 
-import { IconType } from '@/types';
+import type { IconType } from '@/types';
 
 import { getAvatarShadow } from './util';
 
 export interface IconAvatarProps extends Omit<CenterProps, 'children'> {
-  Icon?: IconType;
   background?: string;
   color?: string;
+  Icon?: IconType;
   iconClassName?: string;
   iconMultiple?: number;
   iconStyle?: CSSProperties;

@@ -5,7 +5,7 @@ export const docsKebabCase = (string: string) =>
     .replaceAll(/([A-Z]+)([A-Z][a-z])/g, '$1-$2')
     .replaceAll(/([\da-z])([A-Z])/g, '$1-$2')
     .replaceAll(/['’]/g, '')
-    .replaceAll(/[^\dA-Za-z]+/g, '-')
+    .replaceAll(/[^\da-z]+/gi, '-')
     .replaceAll(/^-|-$/g, '')
     .toLowerCase();
 

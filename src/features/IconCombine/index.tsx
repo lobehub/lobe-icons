@@ -1,24 +1,26 @@
 'use client';
 
 import { Flexbox, type FlexboxProps } from '@lobehub/ui';
-import { CSSProperties, memo } from 'react';
+import type { CSSProperties } from 'react';
+import { memo } from 'react';
 
-import IconAvatar, { IconAvatarProps } from '@/features/IconAvatar';
-import { IconType } from '@/types';
+import type { IconAvatarProps } from '@/features/IconAvatar';
+import type IconAvatar from '@/features/IconAvatar';
+import type { IconType } from '@/types';
 
 export interface IconCombineProps extends FlexboxProps {
-  Icon?: IconType | typeof IconAvatar;
-  Text?: IconType;
   color?: string;
   extra?: string;
   extraClassName?: string;
   extraStyle?: CSSProperties;
+  Icon?: IconType | typeof IconAvatar;
   iconProps?: Partial<IconAvatarProps>;
   inverse?: boolean;
   showLogo?: boolean;
   showText?: boolean;
   size?: number;
   spaceMultiple?: number;
+  Text?: IconType;
   textMultiple?: number;
 }
 const IconCombine = memo<IconCombineProps>(
@@ -55,9 +57,9 @@ const IconCombine = memo<IconCombineProps>(
 
     return (
       <Flexbox
+        horizontal
         align={'center'}
         flex={'none'}
-        horizontal
         justify={'flex-start'}
         style={{ color, ...style }}
         {...rest}

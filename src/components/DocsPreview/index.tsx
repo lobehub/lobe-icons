@@ -1,15 +1,8 @@
 'use client';
 
-import { Flexbox } from '@lobehub/ui';
-import { createStaticStyles } from 'antd-style';
-import {
-  PropsWithChildren,
-  memo,
-  useId,
-  useLayoutEffect,
-  useRef,
-  useSyncExternalStore,
-} from 'react';
+import { createStaticStyles, Flexbox } from '@lobehub/ui';
+import type { PropsWithChildren } from 'react';
+import { memo, useId, useLayoutEffect, useRef, useSyncExternalStore } from 'react';
 
 const styles = createStaticStyles(({ css, cssVar }) => ({
   container: css`
@@ -84,9 +77,9 @@ const DocsPreview = memo<PropsWithChildren>(({ children }) => {
 
   return (
     <Flexbox
+      data-docs-preview
       align={'center'}
       className={styles.container}
-      data-docs-preview
       justify={'center'}
       ref={containerRef}
     >

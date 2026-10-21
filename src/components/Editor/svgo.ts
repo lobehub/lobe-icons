@@ -1,4 +1,4 @@
-import { type Config, type PluginConfig, optimize } from 'svgo/browser';
+import { type Config, optimize, type PluginConfig } from 'svgo/browser';
 
 export interface SvgoConfig {
   [key: string]: any;

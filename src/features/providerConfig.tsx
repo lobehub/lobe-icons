@@ -1,5 +1,6 @@
-import { DivProps } from '@lobehub/ui';
-import { FC, memo } from 'react';
+import type { DivProps } from '@lobehub/ui';
+import type { FC } from 'react';
+import { memo } from 'react';
 
 import Ai21 from '@/Ai21';
 import Ai302 from '@/Ai302';
@@ -31,6 +32,7 @@ import BurnCloud from '@/BurnCloud';
 import ByteDance from '@/ByteDance';
 import CentML from '@/CentML';
 import Cerebras from '@/Cerebras';
+import CheaperInference from '@/CheaperInference';
 import Civitai from '@/Civitai';
 import Claude from '@/Claude';
 import Cloudflare from '@/Cloudflare';
@@ -47,6 +49,7 @@ import Exa from '@/Exa';
 import Fal from '@/Fal';
 import Featherless from '@/Featherless';
 import Fireworks from '@/Fireworks';
+import FlexAI from '@/FlexAI';
 import Friendli from '@/Friendli';
 import Gemini from '@/Gemini';
 import GiteeAI from '@/GiteeAI';
@@ -54,6 +57,7 @@ import Github from '@/Github';
 import GithubCopilot from '@/GithubCopilot';
 import Google from '@/Google';
 import GoogleCloud from '@/GoogleCloud';
+import GreenPT from '@/GreenPT';
 import Grok from '@/Grok';
 import Groq from '@/Groq';
 import Higress from '@/Higress';
@@ -70,10 +74,11 @@ import Infinigence from '@/Infinigence';
 import InternLM from '@/InternLM';
 import Jina from '@/Jina';
 import Kluster from '@/Kluster';
-import LG from '@/LG';
 import Lambda from '@/Lambda';
 import LeptonAI from '@/LeptonAI';
+import LG from '@/LG';
 import LlmApi from '@/LlmApi';
+import LlmGateway from '@/LlmGateway';
 import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
 import LongCat from '@/LongCat';
@@ -84,20 +89,20 @@ import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import ModelScope from '@/ModelScope';
 import Moonshot from '@/Moonshot';
-import NPLCloud from '@/NPLCloud';
 import Nebius from '@/Nebius';
 import NewAPI from '@/NewAPI';
 import NousResearch from '@/NousResearch';
 import Novita from '@/Novita';
+import NPLCloud from '@/NPLCloud';
 import Nvidia from '@/Nvidia';
 import Ollama from '@/Ollama';
 import OpenAI from '@/OpenAI';
 import OpenCode from '@/OpenCode';
 import OpenRouter from '@/OpenRouter';
-import PPIO from '@/PPIO';
 import Parasail from '@/Parasail';
 import Perplexity from '@/Perplexity';
 import Player2 from '@/Player2';
+import PPIO from '@/PPIO';
 import Qiniu from '@/Qiniu';
 import Qwen from '@/Qwen';
 import Replicate from '@/Replicate';
@@ -114,19 +119,22 @@ import StateCloud from '@/StateCloud';
 import Stepfun from '@/Stepfun';
 import Straico from '@/Straico';
 import StreamLake from '@/StreamLake';
+import Sub2API from '@/Sub2API';
 import SubModel from '@/SubModel';
-import TII from '@/TII';
 import Targon from '@/Targon';
 import Tencent from '@/Tencent';
 import TencentCloud from '@/TencentCloud';
 import TheGrid from '@/TheGrid';
+import TII from '@/TII';
 import Together from '@/Together';
+import type { IconType } from '@/types';
 import Upstage from '@/Upstage';
 import V0 from '@/V0';
 import Vercel from '@/Vercel';
 import VertexAI from '@/VertexAI';
 import Vllm from '@/Vllm';
 import Volcengine from '@/Volcengine';
+import WaveSpeed from '@/WaveSpeed';
 import Wenxin from '@/Wenxin';
 import WorkersAI from '@/WorkersAI';
 import XAI from '@/XAI';
@@ -137,7 +145,6 @@ import Yandex from '@/Yandex';
 import ZenMux from '@/ZenMux';
 import ZeroOne from '@/ZeroOne';
 import Zhipu from '@/Zhipu';
-import type { IconType } from '@/types';
 
 import type { IconAvatarProps } from './IconAvatar';
 import type { IconCombineProps } from './IconCombine';
@@ -155,8 +162,8 @@ type ProviderIconType = FC<IconType & any> & {
 
 export interface ProviderMapping {
   Combine?: FC<DivProps & { size: number; type: 'color' | 'mono' }>;
-  Icon: ProviderIconType;
   combineMultiple?: number;
+  Icon: ProviderIconType;
   keywords: string[];
   props?: any;
 }
@@ -192,6 +199,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Lambda, keywords: [ModelProvider.Lambda] },
   { Icon: LeptonAI, keywords: [ModelProvider.LeptonAI] },
   { Icon: LlmApi, keywords: [ModelProvider.LlmApi] },
+  { Icon: LlmGateway, keywords: [ModelProvider.LlmGateway] },
   { Icon: LG, keywords: [ModelProvider.LG] },
   { Icon: Menlo, keywords: [ModelProvider.Menlo] },
   { Icon: MetaAI, keywords: [ModelProvider.Meta] },
@@ -204,6 +212,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Stability, keywords: [ModelProvider.Stability] },
   { Icon: StateCloud, keywords: [ModelProvider.StateCloud] },
   { Icon: StreamLake, keywords: [ModelProvider.StreamLake] },
+  { Icon: Sub2API, keywords: [ModelProvider.Sub2API] },
   { Icon: SubModel, keywords: [ModelProvider.SubModel] },
   { Icon: Targon, keywords: [ModelProvider.Targon] },
   { Icon: Tencent, keywords: [ModelProvider.Tencent] },
@@ -235,6 +244,8 @@ export const providerMappings: ProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
+        right={<Gemini.Combine size={size} type={type} />}
+        size={size}
         left={
           type === 'color' ? (
             <Google.BrandColor size={size * 0.95} />
@@ -242,8 +253,6 @@ export const providerMappings: ProviderMapping[] = [
             <Google.Brand size={size * 0.95} />
           )
         }
-        right={<Gemini.Combine size={size} type={type} />}
-        size={size}
         {...props}
       />
     )),
@@ -301,6 +310,7 @@ export const providerMappings: ProviderMapping[] = [
     combineMultiple: 0.83,
     keywords: [ModelProvider.Anthropic],
   },
+  { Icon: GreenPT, combineMultiple: 0.9, keywords: [ModelProvider.GreenPT] },
   { Icon: Groq, keywords: [ModelProvider.Groq] },
   { Icon: OpenRouter, combineMultiple: 0.8, keywords: [ModelProvider.OpenRouter] },
   { Icon: ZeroOne, combineMultiple: 1, keywords: [ModelProvider.ZeroOne] },
@@ -417,6 +427,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Bfl, keywords: [ModelProvider.Bfl] },
   { Icon: Replicate, combineMultiple: 0.9, keywords: [ModelProvider.Replicate] },
   { Icon: Nebius, combineMultiple: 0.75, keywords: [ModelProvider.Nebius] },
+  { Icon: FlexAI, keywords: [ModelProvider.FlexAI] },
   { Icon: NewAPI, combineMultiple: 0.85, keywords: [ModelProvider.NewAPI] },
   { Icon: AkashChat, combineMultiple: 0.8, keywords: [ModelProvider.AkashChat] },
   { Icon: AtlasCloud, combineMultiple: 0.8, keywords: [ModelProvider.AtlasCloud] },
@@ -438,4 +449,6 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Straico, combineMultiple: 0.85, keywords: [ModelProvider.Straico] },
   { Icon: ZenMux, combineMultiple: 1, keywords: [ModelProvider.ZenMux], props: { inverse: true } },
   { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [ModelProvider.XiaomiMiMo] },
+  { Icon: WaveSpeed, combineMultiple: 0.7, keywords: [ModelProvider.WaveSpeed] },
+  { Icon: CheaperInference, combineMultiple: 0.8, keywords: [ModelProvider.CheaperInference] },
 ];

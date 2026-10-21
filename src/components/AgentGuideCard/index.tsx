@@ -1,6 +1,7 @@
 'use client';
 
-import { Block, BlockProps, Flexbox, Icon, Segmented, Snippet, Text } from '@lobehub/ui';
+import type { BlockProps } from '@lobehub/ui';
+import { Block, Flexbox, Icon, Segmented, Snippet, Text } from '@lobehub/ui';
 import { BotIcon, UserRoundIcon } from 'lucide-react';
 import { memo, useMemo, useState } from 'react';
 
@@ -43,9 +44,9 @@ const AgentGuideCard = memo<AgentGuideCardProps>(
 
     return (
       <Block
+        shadow
         className={className}
         flex={'none'}
-        shadow
         style={{ maxWidth: 960 }}
         variant={'outlined'}
         width={'100%'}
@@ -54,7 +55,8 @@ const AgentGuideCard = memo<AgentGuideCardProps>(
         <Flexbox flex={1} padding={8}>
           <Segmented
             block
-            onChange={(value) => handleModeChange(value as GuideMode)}
+            value={currentMode}
+            variant={'filled'}
             options={[
               {
                 icon: <Icon icon={BotIcon} />,
@@ -67,8 +69,7 @@ const AgentGuideCard = memo<AgentGuideCardProps>(
                 value: 'human',
               },
             ]}
-            value={currentMode}
-            variant={'filled'}
+            onChange={(value) => handleModeChange(value as GuideMode)}
           />
         </Flexbox>
         <Flexbox gap={8} paddingBlock={'8px 16px'} paddingInline={16}>

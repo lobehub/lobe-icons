@@ -1,6 +1,7 @@
 'use client';
 
-import { CSSProperties, memo, useMemo } from 'react';
+import type { CSSProperties } from 'react';
+import { memo, useMemo } from 'react';
 
 import { agentMappings } from '../agentConfig';
 import DefaultAvatar from './DefaultAvatar';

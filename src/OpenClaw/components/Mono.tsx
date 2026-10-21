@@ -2,11 +2,13 @@
 
 import { memo } from 'react';
 
+import { useFillId } from '@/hooks/useFillId';
 import type { IconType } from '@/types';
 
 import { TITLE } from '../style';
 
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
+  const { fill, id } = useFillId(TITLE);
   return (
     <svg
       fill="currentColor"
@@ -19,7 +21,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       {...rest}
     >
       <title>{TITLE}</title>
-      <g clipPath="url(#a)">
+      <g clipPath={fill}>
         <path d="M9.046 7.104a.527.527 0 110 1.055.527.527 0 010-1.055z" />
         <path d="M15.376 7.104a.528.528 0 110 1.056.528.528 0 010-1.056z" />
         <path
@@ -30,62 +32,7 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
         <path d="M21.193 9.753c2.574-.5 3.378 1.433 2.411 3.365-.58 1.159-1.476 1.361-2.342.96l-.011-.005a2.419 2.419 0 01-.114-.056l-.019-.01a2.751 2.751 0 01-.115-.067l-.023-.014c-.035-.022-.071-.044-.106-.068l-.05-.035c-.55-.388-1.062-1.007-1.44-1.76-.276-.647-.311-1.132-.174-1.472.176-.439.636-.639 1.23-.639.032-.011.066-.02.099-.03.08-.026.16-.05.238-.072l.117-.03a5.502 5.502 0 01.3-.067z" />
       </g>
       <defs>
-        <linearGradient
-          gradientUnits="userSpaceOnUse"
-          id="b"
-          x1="-.659"
-          x2="27.023"
-          y1=".458"
-          y2="22.855"
-        >
-          <stop stopColor="#FF4D4D" />
-          <stop offset="1" stopColor="#991B1B" />
-        </linearGradient>
-        <linearGradient
-          gradientUnits="userSpaceOnUse"
-          id="c"
-          x1="-.659"
-          x2="27.023"
-          y1=".458"
-          y2="22.855"
-        >
-          <stop stopColor="#FF4D4D" />
-          <stop offset="1" stopColor="#991B1B" />
-        </linearGradient>
-        <linearGradient
-          gradientUnits="userSpaceOnUse"
-          id="d"
-          x1="-.659"
-          x2="27.023"
-          y1=".458"
-          y2="22.855"
-        >
-          <stop stopColor="#FF4D4D" />
-          <stop offset="1" stopColor="#991B1B" />
-        </linearGradient>
-        <linearGradient
-          gradientUnits="userSpaceOnUse"
-          id="e"
-          x1="-.659"
-          x2="27.023"
-          y1=".458"
-          y2="22.855"
-        >
-          <stop stopColor="#FF4D4D" />
-          <stop offset="1" stopColor="#991B1B" />
-        </linearGradient>
-        <linearGradient
-          gradientUnits="userSpaceOnUse"
-          id="f"
-          x1="-.659"
-          x2="27.023"
-          y1=".458"
-          y2="22.855"
-        >
-          <stop stopColor="#FF4D4D" />
-          <stop offset="1" stopColor="#991B1B" />
-        </linearGradient>
-        <clipPath id="a">
+        <clipPath id={id}>
           <path d="M0 0h24v24H0z" />
         </clipPath>
       </defs>

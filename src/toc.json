@@ -230,6 +230,25 @@
     "title": "AiMass"
   },
   {
+    "color": "#000",
+    "desc": "https://aimlapi.com",
+    "docsUrl": "aimlapi",
+    "fullTitle": "AI/ML API",
+    "group": "provider",
+    "id": "AIMLAPI",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "AIMLAPI"
+  },
+  {
     "color": "#0f172a",
     "desc": "https://aionlabs.ai",
     "docsUrl": "aion-labs",
@@ -361,6 +380,25 @@
       "hasTextColor": false
     },
     "title": "AlibabaCloud"
+  },
+  {
+    "color": "#ED1C24",
+    "desc": "https://developer.amd.com.cn/radeon",
+    "docsUrl": "amd-radeon-cloud",
+    "fullTitle": "AMD Radeon Cloud",
+    "group": "provider",
+    "id": "AMDRadeonCloud",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "AMD Radeon Cloud"
   },
   {
     "color": "#F34E3F",
@@ -513,6 +551,25 @@
       "hasTextColor": false
     },
     "title": "Apple"
+  },
+  {
+    "color": "#FD366E",
+    "desc": "https://appwrite.io",
+    "docsUrl": "appwrite",
+    "fullTitle": "Appwrite",
+    "group": "application",
+    "id": "Appwrite",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Appwrite"
   },
   {
     "color": "#008C8C",
@@ -1108,6 +1165,25 @@
     "title": "ChatGLM"
   },
   {
+    "color": "#CFF331",
+    "desc": "https://cheaperinference.com",
+    "docsUrl": "cheaper-inference",
+    "fullTitle": "Cheaper Inference",
+    "group": "provider",
+    "id": "CheaperInference",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Cheaper Inference"
+  },
+  {
     "color": "#EA5E5D",
     "desc": "https://cherry-ai.com",
     "docsUrl": "cherry-studio",
@@ -1125,6 +1201,25 @@
       "hasTextColor": false
     },
     "title": "CherryStudio"
+  },
+  {
+    "color": "#0D0D0D",
+    "desc": "https://chutes.ai",
+    "docsUrl": "chutes",
+    "fullTitle": "Chutes",
+    "group": "provider",
+    "id": "Chutes",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Chutes"
   },
   {
     "color": "#fff",
@@ -1453,6 +1548,25 @@
     "title": "CommandA"
   },
   {
+    "color": "#000",
+    "desc": "https://commandcode.ai",
+    "docsUrl": "command-code",
+    "fullTitle": "Command Code",
+    "group": "application",
+    "id": "CommandCode",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Command Code"
+  },
+  {
     "color": "#fff",
     "desc": "https://copilot.microsoft.com",
     "docsUrl": "copilot",
@@ -1644,8 +1758,27 @@
     "title": "DBRX"
   },
   {
+    "color": "#2548F6",
+    "desc": "https://decart.ai",
+    "docsUrl": "decart",
+    "fullTitle": "Decart",
+    "group": "provider",
+    "id": "Decart",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Decart"
+  },
+  {
     "color": "#fff",
-    "desc": "hhttps://deepai.org",
+    "desc": "https://deepai.org",
     "docsUrl": "deep-ai",
     "fullTitle": "DeepAI",
     "group": "application",
@@ -1796,6 +1929,25 @@
     "title": "Dify"
   },
   {
+    "color": "#000",
+    "desc": "https://digitalocean.com",
+    "docsUrl": "digital-ocean",
+    "fullTitle": "DigitalOcean",
+    "group": "provider",
+    "id": "DigitalOcean",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "DigitalOcean"
+  },
+  {
     "color": "#fff",
     "desc": "https://doc2x.noedgeai.com",
     "docsUrl": "doc2-x",
@@ -1851,6 +2003,25 @@
       "hasTextColor": false
     },
     "title": "Dolphin"
+  },
+  {
+    "color": "#a3e6d9",
+    "desc": "https://studio.dots.ai",
+    "docsUrl": "dots-studio",
+    "fullTitle": "Dots Studio",
+    "group": "model",
+    "id": "DotsStudio",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Dots Studio"
   },
   {
     "color": "#FFF",
@@ -2101,6 +2272,25 @@
     "title": "FishAudio"
   },
   {
+    "color": "#00349F",
+    "desc": "https://flex.ai",
+    "docsUrl": "flex-ai",
+    "fullTitle": "FlexAI",
+    "group": "provider",
+    "id": "FlexAI",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "FlexAI"
+  },
+  {
     "color": "#000",
     "desc": "https://florafauna.ai",
     "docsUrl": "flora",
@@ -2349,6 +2539,25 @@
     "title": "GLM-V"
   },
   {
+    "color": "#0A0A0A",
+    "desc": "https://gmicloud.ai",
+    "docsUrl": "gmi-cloud",
+    "fullTitle": "GMI Cloud",
+    "group": "provider",
+    "id": "GmiCloud",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "GmiCloud"
+  },
+  {
     "color": "#fff",
     "desc": "https://google.com",
     "docsUrl": "google",
@@ -2423,6 +2632,25 @@
       "hasTextColor": false
     },
     "title": "Gradio"
+  },
+  {
+    "color": "#9BE755",
+    "desc": "https://greenpt.ai",
+    "docsUrl": "green-pt",
+    "fullTitle": "GreenPT",
+    "group": "provider",
+    "id": "GreenPT",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "GreenPT"
   },
   {
     "color": "#44A775",
@@ -2537,7 +2765,7 @@
       "hasTextCn": false,
       "hasTextColor": false
     },
-    "title": "Hedra"
+    "title": "HappyHorse"
   },
   {
     "color": "#000",
@@ -2769,6 +2997,25 @@
     "title": "Inception"
   },
   {
+    "color": "#fff",
+    "desc": "https://inceptron.io",
+    "docsUrl": "inceptron",
+    "fullTitle": "Inceptron",
+    "group": "provider",
+    "id": "Inceptron",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Inceptron"
+  },
+  {
     "color": "#000",
     "desc": "https://inference.net",
     "docsUrl": "inference",
@@ -2862,6 +3109,25 @@
       "hasTextColor": false
     },
     "title": "InternLM"
+  },
+  {
+    "color": "#000",
+    "desc": "https://io.net",
+    "docsUrl": "io-net",
+    "fullTitle": "io.net",
+    "group": "provider",
+    "id": "IoNet",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "IoNet"
   },
   {
     "color": "#000",
@@ -3265,6 +3531,25 @@
     "title": "Lightricks"
   },
   {
+    "color": "#144DFF",
+    "desc": "https://www.ant-ling.com",
+    "docsUrl": "ling",
+    "fullTitle": "Ling (百灵)",
+    "group": "model",
+    "id": "Ling",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Ling"
+  },
+  {
     "color": "#fff",
     "desc": "https://liquid.ai",
     "docsUrl": "liquid",
@@ -3359,6 +3644,25 @@
       "hasTextColor": false
     },
     "title": "LLM API"
+  },
+  {
+    "color": "#000",
+    "desc": "https://llmgateway.io",
+    "docsUrl": "llm-gateway",
+    "fullTitle": "LLM Gateway",
+    "group": "provider",
+    "id": "LlmGateway",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "LLM Gateway"
   },
   {
     "color": "#4338CA",
@@ -3954,6 +4258,25 @@
     "title": "New API"
   },
   {
+    "color": "#04D98B",
+    "desc": "https://nextbit256.com",
+    "docsUrl": "nextbit",
+    "fullTitle": "Nextbit",
+    "group": "provider",
+    "id": "Nextbit",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Nextbit"
+  },
+  {
     "color": "#fff",
     "desc": "https://notebooklm.google",
     "docsUrl": "notebook-lm",
@@ -4335,6 +4658,25 @@
     "title": "Parasail"
   },
   {
+    "color": "#F8F4EB",
+    "desc": "https://perceptron.inc",
+    "docsUrl": "perceptron",
+    "fullTitle": "Perceptron",
+    "group": "model",
+    "id": "Perceptron",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Perceptron"
+  },
+  {
     "color": "#22B8CD",
     "desc": "https://perplexity.ai",
     "docsUrl": "perplexity",
@@ -4352,6 +4694,25 @@
       "hasTextColor": false
     },
     "title": "Perplexity"
+  },
+  {
+    "color": "#CDFA50",
+    "desc": "https://phala.com",
+    "docsUrl": "phala",
+    "fullTitle": "Phala",
+    "group": "provider",
+    "id": "Phala",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Phala"
   },
   {
     "color": "#FF4017",
@@ -4639,8 +5000,7 @@
     "title": "Qoder"
   },
   {
-    "color": "#615ced",
-    "colorGradient": "linear-gradient(to right, #6336E7,  #6F69F7)",
+    "color": "#082dff",
     "desc": "https://huggingface.co/Qwen",
     "docsUrl": "qwen",
     "fullTitle": "Qwen (千问)",
@@ -4696,6 +5056,25 @@
       "hasTextColor": false
     },
     "title": "Recraft"
+  },
+  {
+    "color": "#fff",
+    "desc": "https://reka.ai",
+    "docsUrl": "reka",
+    "fullTitle": "Reka",
+    "group": "model",
+    "id": "Reka",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Reka"
   },
   {
     "color": "#000",
@@ -4849,6 +5228,25 @@
       "hasTextColor": false
     },
     "title": "RWKV"
+  },
+  {
+    "color": "#E10600",
+    "desc": "https://sakana.ai",
+    "docsUrl": "sakana",
+    "fullTitle": "Sakana",
+    "group": "model",
+    "id": "Sakana",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "sakana.ai"
   },
   {
     "color": "#EE7624",
@@ -5233,6 +5631,26 @@
     "title": "StreamLake"
   },
   {
+    "color": "#2FD3E1",
+    "colorGradient": "linear-gradient(135deg, #67EDB1, #2FD3E1, #2E68EA)",
+    "desc": "https://sub2api.org",
+    "docsUrl": "sub2-api",
+    "fullTitle": "Sub2API",
+    "group": "provider",
+    "id": "Sub2API",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Sub2API"
+  },
+  {
     "color": "#fff",
     "desc": "https://submodel.ai",
     "docsUrl": "sub-model",
@@ -5288,6 +5706,25 @@
       "hasTextColor": false
     },
     "title": "Sync"
+  },
+  {
+    "color": "#FC9832",
+    "desc": "https://tabbit.ai",
+    "docsUrl": "tabbit",
+    "fullTitle": "Tabbit",
+    "group": "application",
+    "id": "Tabbit",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Tabbit"
   },
   {
     "color": "#68C3FF",
@@ -5518,6 +5955,25 @@
       "hasTextColor": false
     },
     "title": "Udio"
+  },
+  {
+    "color": "#1A1A1A",
+    "desc": "https://union-alpha.com",
+    "docsUrl": "union-alpha",
+    "fullTitle": "Union Alpha",
+    "group": "model",
+    "id": "UnionAlpha",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "UnionAlpha"
   },
   {
     "color": "#16B88A",
@@ -5769,6 +6225,63 @@
     "title": "Voyage"
   },
   {
+    "color": "#000",
+    "desc": "https://wafer.ai",
+    "docsUrl": "wafer",
+    "fullTitle": "Wafer",
+    "group": "provider",
+    "id": "Wafer",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Wafer"
+  },
+  {
+    "color": "#FFCC33",
+    "desc": "https://wandb.ai",
+    "docsUrl": "wandb",
+    "fullTitle": "Weights & Biases",
+    "group": "application",
+    "id": "Wandb",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Weights & Biases"
+  },
+  {
+    "color": "#000",
+    "desc": "https://wavespeed.ai",
+    "docsUrl": "wave-speed",
+    "fullTitle": "WaveSpeed",
+    "group": "provider",
+    "id": "WaveSpeed",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "WaveSpeed"
+  },
+  {
     "color": "#167ADF",
     "colorGradient": "linear-gradient(to right, #0A51C3,  #23A4FB)",
     "desc": "https://yiyan.baidu.com",
@@ -5806,6 +6319,26 @@
       "hasTextColor": false
     },
     "title": "Windsurf"
+  },
+  {
+    "color": "#01C886",
+    "colorGradient": "radial-gradient(66.67% 66.67% at 87.5% 102.08%, #94d378 0%, #01C886 100%)",
+    "desc": "https://workbuddy.ai",
+    "docsUrl": "work-buddy",
+    "fullTitle": "WorkBuddy",
+    "group": "application",
+    "id": "WorkBuddy",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "WorkBuddy"
   },
   {
     "color": "#F38020",

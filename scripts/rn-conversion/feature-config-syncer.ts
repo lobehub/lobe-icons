@@ -1,7 +1,8 @@
 #!/usr/bin/env npx tsx
-import { execSync } from 'node:child_process';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
+
+import { formatGeneratedFiles } from './utils/formatter';
 
 /**
  * 特性配置文件同步器
@@ -49,6 +50,13 @@ class FeatureConfigSyncer {
   }
 
   /**
+   * 同步写入的 RN 目标文件
+   */
+  get targetFiles(): string[] {
+    return this.configFiles.map((config) => config.targetFile);
+  }
+
+  /**
    * 转换配置文件内容
    */
   private transformContent(content: string, fileName: string): string {
@@ -56,6 +64,10 @@ class FeatureConfigSyncer {
 
     // 1. 转换导入路径：@/IconName → ../icons/IconName
     transformed = transformed.replaceAll(/from '@\/([A-Z][\dA-Za-z]*)'/g, "from '../icons/$1'");
+
+    // RN 的 TextStyle.fontWeight 只接受字符串字面量（部分 react-native 类型版本不含数字），
+    // 把 web 里的数字 fontWeight 转成字符串，例如 fontWeight: 500 → fontWeight: '500'
+    transformed = transformed.replaceAll(/\bfontWeight: (\d{3})\b/g, "fontWeight: '$1'");
 
     // 2. 转换类型名称
     // ModelProvider → RNModelProvider (枚举定义)
@@ -215,37 +227,11 @@ class FeatureConfigSyncer {
   /**
    * 格式化生成的文件
    */
-  private async formatFiles(): Promise<boolean> {
+  private formatFiles(): boolean {
     try {
       console.log('\n🎨 格式化生成的文件...');
-
-      const targetFiles = this.configFiles.map((config) => config.targetFile);
-
-      // 使用 prettier 格式化
-      try {
-        execSync(`npx prettier --write ${targetFiles.join(' ')}`, {
-          cwd: this.projectRoot,
-          encoding: 'utf8',
-          stdio: 'pipe',
-        });
-        console.log('✅ Prettier 格式化完成');
-      } catch {
-        console.log('⚠️  Prettier 格式化失败，尝试使用 ESLint...');
-      }
-
-      // 使用 eslint 修复
-      try {
-        const featuresDir = path.join(this.projectRoot, 'packages/react-native/src/features');
-        execSync(`npx eslint "${featuresDir}/*.{ts,tsx}" --fix`, {
-          cwd: this.projectRoot,
-          encoding: 'utf8',
-          stdio: 'pipe',
-        });
-        console.log('✅ ESLint 修复完成');
-      } catch {
-        console.log('⚠️  ESLint 修复跳过');
-      }
-
+      formatGeneratedFiles(this.projectRoot, this.targetFiles);
+      console.log('✅ 格式化完成');
       return true;
     } catch (error) {
       console.error('❌ 格式化失败:', error);
@@ -268,7 +254,7 @@ class FeatureConfigSyncer {
 
       // 格式化生成的文件
       if (options.format !== false) {
-        await this.formatFiles();
+        return this.formatFiles();
       }
     } else {
       console.log('\n❌ 部分配置文件同步失败');

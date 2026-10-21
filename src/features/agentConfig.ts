@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import type { FC } from 'react';
 
 import Amp from '@/Amp';
 import Antigravity from '@/Antigravity';
@@ -14,6 +14,8 @@ import Coze from '@/Coze';
 import Cursor from '@/Cursor';
 import Devin from '@/Devin';
 import Dify from '@/Dify';
+import type { IconAvatarProps } from '@/features/IconAvatar';
+import type { IconCombineProps } from '@/features/IconCombine';
 import Flowith from '@/Flowith';
 import Gemini from '@/Gemini';
 import GeminiCLI from '@/GeminiCLI';
@@ -39,12 +41,10 @@ import Qwen from '@/Qwen';
 import Replit from '@/Replit';
 import RooCode from '@/RooCode';
 import Trae from '@/Trae';
+import type { IconType } from '@/types';
 import Windsurf from '@/Windsurf';
 import Zencoder from '@/Zencoder';
 import ZeroOne from '@/ZeroOne';
-import type { IconAvatarProps } from '@/features/IconAvatar';
-import type { IconCombineProps } from '@/features/IconCombine';
-import type { IconType } from '@/types';
 
 type AgentIconType = FC<IconType & any> & {
   Avatar: FC<Omit<IconAvatarProps, 'Icon'> & any>;
