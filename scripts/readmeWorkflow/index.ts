@@ -44,27 +44,20 @@ const genMd = (data: IconToc): string =>
     data.fullTitle,
   ].join('');
 
+const COLUMNS = 5;
+
+const byTitle = (a: IconToc, b: IconToc) =>
+  a.fullTitle.toLowerCase().localeCompare(b.fullTitle.toLowerCase(), 'en') ||
+  a.id.localeCompare(b.id, 'en');
+
 const run = () => {
-  const model = toc
-    .filter((item) => item.group === 'model')
-    .sort((a, b) => a.fullTitle.localeCompare(b.fullTitle));
-  const provider = toc
-    .filter((item) => item.group === 'provider')
-    .sort((a, b) => a.fullTitle.localeCompare(b.fullTitle));
-  const application = toc
-    .filter((item) => item.group === 'application')
-    .sort((a, b) => a.fullTitle.localeCompare(b.fullTitle));
+  const cells = [...toc].sort(byTitle).map((item) => genMd(item));
 
-  const max = Math.max(model.length, provider.length, application.length);
+  const rows = Array.from({ length: Math.ceil(cells.length / COLUMNS) }, (_, row) =>
+    Array.from({ length: COLUMNS }, (_, col) => cells[row * COLUMNS + col] ?? ''),
+  );
 
-  const table = [
-    ['Model', 'Provider', 'Application'],
-    ...Array.from({ length: max }).map((_, index) => [
-      model[index] ? genMd(model[index]) : '',
-      provider[index] ? genMd(provider[index]) : '',
-      application[index] ? genMd(application[index]) : '',
-    ]),
-  ];
+  const table = [Array.from({ length: COLUMNS }, () => ''), ...rows];
 
   const contents = markdownTable(table);
 
