@@ -2,6 +2,12 @@
 
 # Changelog
 
+# @lobehub/icons-static-svg [1.97.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.96.0...@lobehub/icons-static-svg@1.97.0) (2026-10-21)
+
+### ✨ Features
+
+- **auto**: Auto build static icons ([ba4c214](https://github.com/lobehub/lobe-icons/commit/ba4c214))
+
 ## [Version 1.96.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.95.1...@lobehub/icons-static-svg@1.96.0)
 
 <sup>Released on **2026-10-21**</sup>
