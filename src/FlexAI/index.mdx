@@ -21,6 +21,37 @@ import { Flexbox } from '@lobehub/ui';
 export default () => <FlexAI size={64} />;
 ```
 
+## Text
+
+<DocsPreview>{<FlexAI.Text size={48} />}</DocsPreview>
+
+```tsx
+import { FlexAI } from '@lobehub/icons';
+
+export default () => <FlexAI.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <FlexAI.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { FlexAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <FlexAI.Combine size={64} />
+  </Flexbox>
+);
+```
+
 ## Avatars
 
 <DocsPreview>

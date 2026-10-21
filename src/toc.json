@@ -2283,8 +2283,8 @@
       "hasBrand": false,
       "hasBrandColor": false,
       "hasColor": false,
-      "hasCombine": false,
-      "hasText": false,
+      "hasCombine": true,
+      "hasText": true,
       "hasTextCn": false,
       "hasTextColor": false
     },
