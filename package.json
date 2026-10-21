@@ -135,7 +135,7 @@
     "@commitlint/cli": "^19.8.1",
     "@lobehub/docs-kit": "^6.1.0",
     "@lobehub/fluent-emoji": "^5.0.0-beta.1",
-    "@lobehub/lint": "^2.1.5",
+    "@lobehub/lint": "^2.1.6",
     "@lobehub/ui": "^6.0.0",
     "@qiwi/multi-semantic-release": "^7.1.2",
     "@react-router/dev": "8.2.0",
