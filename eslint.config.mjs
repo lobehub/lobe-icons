@@ -1,6 +1,8 @@
 import { defineConfig } from '@lobehub/lint';
 import { restrictedImports } from '@lobehub/ui/eslint';
 
+import icons from './scripts/eslint-plugin-icons/index.mjs';
+
 export default defineConfig(
   {
     ignores: [
@@ -43,6 +45,18 @@ export default defineConfig(
           html: true,
         },
       ],
+    },
+  },
+  {
+    // Icon component conventions, see scripts/eslint-plugin-icons:
+    // square marks use a 0 0 24 24 viewBox, wordmarks (Text*, Brand*) use 0 0 W 24 sized by height only,
+    // and gradient / mask / clipPath / filter ids come from useFillId / useFillIds.
+    files: ['src/*/components/**/*.{jsx,tsx}'],
+    plugins: { icons },
+    rules: {
+      'icons/brand-viewbox': 'error',
+      'icons/no-hardcoded-svg-id': 'error',
+      'icons/text-viewbox': 'error',
     },
   },
 );
