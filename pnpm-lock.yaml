@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@semantic-release/release-notes-generator@^11.0.0': ^11.0.1
+
 importers:
 
   .:
@@ -2810,8 +2813,8 @@ packages:
     peerDependencies:
       semantic-release: '>=20.1.0'
 
-  '@semantic-release/release-notes-generator@11.0.0':
-    resolution: {integrity: sha512-va/taCWCHK11QbVoALKPI8B+lVF3UNZ2xOQOHEeHRd8YPpsY/9lymlWEuUQaTWKQpkgYbGpZD/Sap/SRlqob5g==}
+  '@semantic-release/release-notes-generator@11.0.1':
+    resolution: {integrity: sha512-4deWsiY4Rg80oc9Ms11N20BIDgYkPMys4scNYQpi2Njdrtw5Z55nXKNsUN3kn6Sy/nI9dqqbp5L63TL4luI5Bw==}
     engines: {node: '>=18'}
     peerDependencies:
       semantic-release: '>=20.1.0'
@@ -13586,7 +13589,7 @@ snapshots:
       semver: 7.8.5
       tempy: 3.2.0
 
-  '@semantic-release/release-notes-generator@11.0.0(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)':
+  '@semantic-release/release-notes-generator@11.0.1(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)':
     dependencies:
       conventional-changelog-angular: 5.0.0
       conventional-changelog-writer: 5.0.0
@@ -21456,7 +21459,7 @@ snapshots:
       '@semantic-release/error': 4.0.0
       '@semantic-release/github': 9.0.0(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)
       '@semantic-release/npm': 10.0.2(semantic-release@21.1.2(supports-color@9.4.0))
-      '@semantic-release/release-notes-generator': 11.0.0(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)
+      '@semantic-release/release-notes-generator': 11.0.1(semantic-release@21.1.2(supports-color@9.4.0))(supports-color@9.4.0)
       aggregate-error: 5.0.0
       cosmiconfig: 8.0.0
       debug: 4.4.3(supports-color@9.4.0)
