@@ -1,6 +1,6 @@
 export const TITLE = 'Appwrite';
-export const COMBINE_TEXT_MULTIPLE = 0.75;
-export const COMBINE_SPACE_MULTIPLE = 0.2;
+export const COMBINE_TEXT_MULTIPLE = 0.97;
+export const COMBINE_SPACE_MULTIPLE = 0.25;
 export const COLOR_PRIMARY = '#FD366E';
 
 // Avatar constants
