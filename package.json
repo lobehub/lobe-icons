@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/icons",
-  "version": "6.3.0",
+  "version": "6.4.0",
   "description": "Popular AI / LLM Model Brand SVG Logo and Icon Collection",
   "keywords": [
     "lobehub",
@@ -122,7 +122,8 @@
     ]
   },
   "overrides": {
-    "@semantic-release/release-notes-generator@^11.0.0": "^11.0.1"
+    "@semantic-release/release-notes-generator@^11.0.0": "^11.0.1",
+    "semantic-release@21>cosmiconfig": "^8.3.6"
   },
   "dependencies": {
     "es-toolkit": "^1.52.0",

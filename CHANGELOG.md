@@ -2,6 +2,28 @@
 
 # Changelog
 
+# [6.4.0](https://github.com/lobehub/lobe-icons/compare/v6.3.0...v6.4.0) (2026-10-21)
+
+### ✨ Features
+
+- **auto**: Auto build static icons ([ba4c214](https://github.com/lobehub/lobe-icons/commit/ba4c214))
+- **auto**: Auto build static icons ([9046e38](https://github.com/lobehub/lobe-icons/commit/9046e38))
+- **lint**: Add icon convention rules ([4cb27b2](https://github.com/lobehub/lobe-icons/commit/4cb27b2))
+
+### 🎫 Chores
+
+- **deps**: Refresh lockfile so semantic-release reads .releaserc.mjs ([995cb8c](https://github.com/lobehub/lobe-icons/commit/995cb8c))
+- **lint**: Upgrade @lobehub/lint to v2 with flat config ([abae668](https://github.com/lobehub/lobe-icons/commit/abae668))
+- **release**: @lobehub/icons-rn@2.15.0 [skip ci], closes [#FD366](https://github.com/lobehub/lobe-icons/issues/FD366) ([b0b7b42](https://github.com/lobehub/lobe-icons/commit/b0b7b42))
+- **release**: @lobehub/icons-static-avatar@2.0.0 [skip ci], closes [#432](https://github.com/lobehub/lobe-icons/issues/432) ([e6a84e8](https://github.com/lobehub/lobe-icons/commit/e6a84e8))
+- **release**: @lobehub/icons-static-png@2.0.0 [skip ci], closes [#432](https://github.com/lobehub/lobe-icons/issues/432) ([0da34dd](https://github.com/lobehub/lobe-icons/commit/0da34dd))
+- **release**: @lobehub/icons-static-svg@1.96.0 [skip ci] ([44d6353](https://github.com/lobehub/lobe-icons/commit/44d6353))
+- **release**: @lobehub/icons-static-webp@2.0.0 [skip ci], closes [#432](https://github.com/lobehub/lobe-icons/issues/432) ([b013369](https://github.com/lobehub/lobe-icons/commit/b013369))
+
+### 🐛 Bug Fixes
+
+- **lint**: Resolve lobe-lint v2 errors with autofix ([22b5633](https://github.com/lobehub/lobe-icons/commit/22b5633))
+
 ## [Version 6.3.0](https://github.com/lobehub/lobe-icons/compare/v6.2.0...v6.3.0)
 
 <sup>Released on **2026-10-21**</sup>
