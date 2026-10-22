@@ -136,6 +136,8 @@ export enum ModelProvider {
   TencentCloud = 'tencentcloud',
   TII = 'tii',
   TogetherAI = 'togetherai',
+  TypeSafe = 'typesafe',
+  Unsloth = 'unsloth',
   Upstage = 'upstage',
   V0 = 'v0',
   Vercel = 'vercel',
