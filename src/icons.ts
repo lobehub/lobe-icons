@@ -27,6 +27,7 @@ export { default as Anspire, type CompoundedIcon as AnspireProps } from './Anspi
 export { default as AntGroup, type CompoundedIcon as AntGroupProps } from './AntGroup';
 export { default as Anthropic, type CompoundedIcon as AnthropicProps } from './Anthropic';
 export { default as Antigravity, type CompoundedIcon as AntigravityProps } from './Antigravity';
+export { default as AnyApi, type CompoundedIcon as AnyApiProps } from './AnyApi';
 export { default as Anyscale, type CompoundedIcon as AnyscaleProps } from './Anyscale';
 export { default as Apertis, type CompoundedIcon as ApertisProps } from './Apertis';
 export { default as Apple, type CompoundedIcon as AppleProps } from './Apple';
