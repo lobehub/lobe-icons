@@ -12,12 +12,25 @@ import DocsPreview from '../components/DocsPreview';
 
 ## Icons
 
-<DocsPreview>{<DotHoosh size={64} />}</DocsPreview>
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <DotHoosh size={64} />
+      <DotHoosh.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
 
 ```tsx
 import { DotHoosh } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
 
-export default () => <DotHoosh size={64} />;
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <DotHoosh size={64} />
+    <DotHoosh.Color size={64} />
+  </Flexbox>
+);
 ```
 
 ## Text
