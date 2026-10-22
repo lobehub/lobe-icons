@@ -18,7 +18,8 @@ env:
 jobs:
   comment:
     name: Publish icon preview
-    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success'
+    if: >-
+      github.event.workflow_run.conclusion == 'success' && (github.event.workflow_run.event == 'pull_request' || github.event.workflow_run.event == 'workflow_dispatch')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -61,23 +62,40 @@ jobs:
 
       - name: Validate artifact and build comment
         id: publish
-        run: >-
-          bun scripts/prPreviewWorkflow/publish.ts --artifact "$RUNNER_TEMP/icon-preview" --dest "$RUNNER_TEMP/previews" --repo "$GITHUB_REPOSITORY" --branch "$PREVIEW_BRANCH" --head-sha "$HEAD_SHA" --comment "$RUNNER_TEMP/comment.md"
         env:
-          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          RUN_EVENT: ${{ github.event.workflow_run.event }}
+          RUN_HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |-
+          # pull_request runs build the PR head, so the artifact must match the run's head sha.
+          # Dispatched runs build refs/pull/N/*; their head sha is checked against the PR below.
+          expect=()
+          if [ "$RUN_EVENT" = 'pull_request' ]; then expect=(--head-sha "$RUN_HEAD_SHA"); fi
+          bun scripts/prPreviewWorkflow/publish.ts \
+            --artifact "$RUNNER_TEMP/icon-preview" \
+            --dest "$RUNNER_TEMP/previews" \
+            --repo "$GITHUB_REPOSITORY" \
+            --branch "$PREVIEW_BRANCH" \
+            --comment "$RUNNER_TEMP/comment.md" \
+            "${expect[@]}"
 
-      # The artifact names the PR; only trust it if that PR's head is the commit this run built.
+      # The artifact names the PR; only trust it if that PR's current head is the commit the run
+      # built (pull_request: the workflow_run head; dispatch: the validated artifact head sha).
       - name: Verify pull request
         id: verify
         uses: actions/github-script@v7
         env:
           PR_NUMBER: ${{ steps.publish.outputs.pr_number }}
+          ARTIFACT_HEAD_SHA: ${{ steps.publish.outputs.head_sha }}
         with:
           script: |
             const pull_number = Number(process.env.PR_NUMBER);
+            if (!Number.isSafeInteger(pull_number) || pull_number <= 0) throw new Error('Invalid PR number');
+            const run = context.payload.workflow_run;
+            const expected = run.event === 'pull_request' ? run.head_sha : process.env.ARTIFACT_HEAD_SHA;
+            if (!/^[0-9a-f]{40}$/.test(expected ?? '')) throw new Error('Invalid head sha');
             const { data: pr } = await github.rest.pulls.get({ ...context.repo, pull_number });
-            const ok = pr.state === 'open' && pr.head.sha === context.payload.workflow_run.head_sha;
-            if (!ok) core.notice(`Skipping #${pull_number}: closed or head moved past ${context.payload.workflow_run.head_sha}`);
+            const ok = pr.state === 'open' && pr.head.sha === expected;
+            if (!ok) core.notice(`Skipping #${pull_number}: closed or head ${pr.head.sha} is not the rendered ${expected}`);
             core.setOutput('ok', String(ok));
 
       - name: Push images
@@ -85,7 +103,7 @@ jobs:
         working-directory: ${{ runner.temp }}/previews
         env:
           PR_NUMBER: ${{ steps.publish.outputs.pr_number }}
-          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          HEAD_SHA: ${{ steps.publish.outputs.head_sha }}
         run: |-
           git add -A
           git diff --cached --quiet && exit 0

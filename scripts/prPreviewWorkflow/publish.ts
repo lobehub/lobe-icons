@@ -7,9 +7,12 @@
  * are copied, and the comment Markdown is rebuilt here from the validated data.
  *
  * Usage: bun scripts/prPreviewWorkflow/publish.ts --artifact <dir> --dest <pr-previews checkout>
- *          --repo owner/name --branch pr-previews --head-sha <sha from the workflow_run event>
- *          --comment <output .md>
- * Writes `pr_number`, `has_brands`, `has_images` to $GITHUB_OUTPUT.
+ *          --repo owner/name --branch pr-previews --comment <output .md>
+ *          [--head-sha <sha from the workflow_run event>]
+ * `--head-sha` is required for pull_request runs. Manually dispatched runs build a commit that
+ * is not the workflow_run head, so it is omitted and the workflow checks the artifact's head sha
+ * (the `head_sha` output) against the PR's current head instead.
+ * Writes `pr_number`, `head_sha`, `has_brands`, `has_images` to $GITHUB_OUTPUT.
  */
 import {
   appendFileSync,
@@ -37,9 +40,12 @@ const MAX_IMAGES = 300;
 const PNG_SIGNATURE = Buffer.from([0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A]);
 
 const args = process.argv.slice(2);
-const required = (name: string) => {
+const optional = (name: string) => {
   const index = args.indexOf(`--${name}`);
-  const value = index === -1 ? undefined : args[index + 1];
+  return index === -1 ? undefined : args[index + 1] || undefined;
+};
+const required = (name: string) => {
+  const value = optional(name);
   if (!value) throw new Error(`Missing --${name}`);
   return value;
 };
@@ -48,12 +54,13 @@ const artifactDir = resolve(required('artifact'));
 const destDir = resolve(required('dest'));
 const repo = required('repo');
 const branch = required('branch');
-const headSha = required('head-sha');
+const expectedHeadSha = optional('head-sha');
 const commentPath = resolve(required('comment'));
 
 if (!/^[\w.-]+\/[\w.-]+$/.test(repo)) throw new Error(`Invalid repo: ${repo}`);
 if (!/^[\w./-]+$/.test(branch)) throw new Error(`Invalid branch: ${branch}`);
-if (!SHA.test(headSha)) throw new Error(`Invalid head sha: ${headSha}`);
+if (expectedHeadSha !== undefined && !SHA.test(expectedHeadSha))
+  throw new Error(`Invalid head sha: ${expectedHeadSha}`);
 
 const output = (key: string, value: string) => {
   if (process.env.GITHUB_OUTPUT) appendFileSync(process.env.GITHUB_OUTPUT, `${key}=${value}\n`);
@@ -85,10 +92,12 @@ if (!summaryStat?.isFile() || summaryStat.size > MAX_SUMMARY_BYTES)
 
 const summary = validateSummary(JSON.parse(readFileSync(summaryFile, 'utf8')));
 if (!summary.pr) throw new Error('summary.json has no valid PR number');
-if (summary.headSha !== headSha)
+if (!summary.headSha) throw new Error('summary.json has no valid head sha');
+if (expectedHeadSha && summary.headSha !== expectedHeadSha)
   throw new Error(
-    `summary.json head sha ${summary.headSha} does not match workflow run ${headSha}`,
+    `summary.json head sha ${summary.headSha} does not match workflow run ${expectedHeadSha}`,
   );
+const headSha = summary.headSha;
 
 // Copy referenced images, dropping anything suspicious from the summary.
 const imagesRoot = join(artifactDir, 'images');
@@ -139,6 +148,7 @@ const imageBase = `https://raw.githubusercontent.com/${repo}/${branch}/pr-${summ
 writeFileSync(commentPath, renderComment(summary, { imageBase }));
 
 output('pr_number', String(summary.pr));
+output('head_sha', headSha);
 output('has_brands', String(summary.brands.length > 0 || summary.removed.length > 0));
 output('has_images', String(accepted.size > 0));
 console.log(`Accepted ${accepted.size} image(s), ${totalBytes} bytes`);
