@@ -1,0 +1,58 @@
+# Untrusted half of the PR icon preview: runs the PR's code with a read-only token and no
+# secrets, renders the changed brands and uploads the result as an artifact.
+# `pr-icon-preview-comment.yml` (workflow_run) publishes the images and the sticky comment.
+name: PR Icon Preview
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'src/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-icon-preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    name: Render icon preview
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      # The default pull_request checkout is the merge commit: HEAD^1 is the base branch tip.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.3.11'
+
+      - name: Install deps
+        run: bun i
+
+      - name: Install Chrome for Puppeteer
+        run: npx puppeteer browsers install chrome
+
+      - name: Render previews and check conventions
+        run: bun scripts/prPreviewWorkflow/index.tsx --base HEAD^1 --out "$RUNNER_TEMP/icon-preview"
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+
+      - name: Job summary
+        run: cat "$RUNNER_TEMP/icon-preview/comment.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: icon-preview
+          path: |
+            ${{ runner.temp }}/icon-preview/summary.json
+            ${{ runner.temp }}/icon-preview/images/
+          if-no-files-found: error
+          retention-days: 7
