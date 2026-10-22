@@ -122,8 +122,7 @@
     ]
   },
   "overrides": {
-    "@semantic-release/release-notes-generator@^11.0.0": "^11.0.1",
-    "semantic-release@21>cosmiconfig": "^8.3.6"
+    "@semantic-release/release-notes-generator@^11.0.0": "^11.0.1"
   },
   "dependencies": {
     "es-toolkit": "^1.52.0",
