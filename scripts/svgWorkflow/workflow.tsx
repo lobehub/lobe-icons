@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
@@ -68,6 +68,17 @@ export const loadIcons = async (only?: string[]): Promise<Record<string, Compoun
   );
   return Object.fromEntries(entries);
 };
+
+/** File-name suffixes written by `runSvg` (keep in sync with it). */
+export const VARIANT_SUFFIXES = [
+  '',
+  '-color',
+  '-text',
+  '-text-color',
+  '-text-cn',
+  '-brand',
+  '-brand-color',
+];
 
 export type ThemeMode = 'light' | 'dark';
 
@@ -298,6 +309,34 @@ export class SvgWorkflow {
     ]) {
       if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
     }
+  }
+
+  /**
+   * Delete every file the exporter writes for these (lower-cased) icon ids, so removed icons and
+   * dropped variants do not linger in packages/static-*.
+   */
+  removeIconFiles(ids: string[]): string[] {
+    const { avatar, png, svg, webp } = this.outputDirs;
+    const removed: string[] = [];
+    for (const id of ids) {
+      const files = [
+        ...VARIANT_SUFFIXES.flatMap((suffix) => [
+          resolve(svg, `${id}${suffix}.svg`),
+          ...(['light', 'dark'] as const).flatMap((theme) => [
+            resolve(png, theme, `${id}${suffix}.png`),
+            resolve(webp, theme, `${id}${suffix}.webp`),
+          ]),
+        ]),
+        resolve(avatar, `${id}.webp`),
+      ];
+      for (const file of files) {
+        if (existsSync(file)) {
+          rmSync(file);
+          removed.push(file);
+        }
+      }
+    }
+    return removed;
   }
 
   async runSvg() {
