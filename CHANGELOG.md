@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version&nbsp;6.5.0](https://github.com/lobehub/lobe-icons/compare/v6.4.0...v6.5.0)
+
+<sup>Released on **2026-10-22**</sup>
+
+#### ✨ Features
+
+- **misc**: Add TypeSafe AI icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add TypeSafe AI icon, closes [#443](https://github.com/lobehub/lobe-icons/issues/443) [#E551](https://github.com/lobehub/lobe-icons/issues/E551) [#421](https://github.com/lobehub/lobe-icons/issues/421) ([3e13462](https://github.com/lobehub/lobe-icons/commit/3e13462))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 # [6.4.0](https://github.com/lobehub/lobe-icons/compare/v6.3.0...v6.4.0) (2026-10-21)
 
 ### ✨ Features
