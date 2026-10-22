@@ -395,6 +395,7 @@ export { default as TopazLabs, type CompoundedIcon as TopazLabsProps } from './i
 export { default as Trae, type CompoundedIcon as TraeProps } from './icons/Trae';
 export { default as Tripo, type CompoundedIcon as TripoProps } from './icons/Tripo';
 export { default as TuriX, type CompoundedIcon as TuriXProps } from './icons/TuriX';
+export { default as TypeSafeAI, type CompoundedIcon as TypeSafeAIProps } from './icons/TypeSafeAI';
 export { default as Udio, type CompoundedIcon as UdioProps } from './icons/Udio';
 export { default as UnionAlpha, type CompoundedIcon as UnionAlphaProps } from './icons/UnionAlpha';
 export { default as Unsloth, type CompoundedIcon as UnslothProps } from './icons/Unsloth';
