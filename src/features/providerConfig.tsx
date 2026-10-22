@@ -124,6 +124,7 @@ import SubModel from '@/SubModel';
 import Targon from '@/Targon';
 import Tencent from '@/Tencent';
 import TencentCloud from '@/TencentCloud';
+import TheGrid from '@/TheGrid';
 import TII from '@/TII';
 import Together from '@/Together';
 import type { IconType } from '@/types';
@@ -405,6 +406,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
   { Icon: CometAPI, keywords: [ModelProvider.CometAPI] },
+  { Icon: TheGrid, keywords: [ModelProvider.TheGrid] },
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine

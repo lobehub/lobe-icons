@@ -134,6 +134,7 @@ export enum ModelProvider {
   Targon = 'targon',
   Tencent = 'tencent',
   TencentCloud = 'tencentcloud',
+  TheGrid = 'thegrid',
   TII = 'tii',
   TogetherAI = 'togetherai',
   Upstage = 'upstage',
