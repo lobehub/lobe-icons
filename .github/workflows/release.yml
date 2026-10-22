@@ -25,6 +25,14 @@ on:
           - 'patch'
           - 'minor'
           - 'major'
+      full_static:
+        description: 'Re-export every static icon instead of only the changed ones'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
 
 # Every job here ends by pushing a release commit to the branch, so two runs
 # must never overlap.
@@ -44,6 +52,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history: Build Static diffs against the last "Auto build static icons" commit.
+          fetch-depth: 0
 
       # tsdown loads tsdown.config.ts natively on Node 22.18+. Node 20 falls through to optional peer `unrun`.
       - name: Setup Node.js environment
@@ -78,10 +89,16 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
+      # Incremental: only icons changed since the last "Auto build static icons" commit are
+      # re-exported (removed icons are deleted); shared code / dependency changes, a missing
+      # baseline or full_static=true export everything. See scripts/svgWorkflow/changes.ts.
       - name: Build Static
         run: |-
-          bun run build:static
+          npx puppeteer browsers install chrome
+          bun scripts/svgWorkflow/index.tsx --since auto
           bun run sync:md
+        env:
+          STATIC_FULL: ${{ github.event.inputs.full_static == 'true' }}
 
       - name: Commit changes
         run: |-

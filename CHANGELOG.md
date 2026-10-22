@@ -17,7 +17,7 @@
 
 #### What's improved
 
-- **misc**: Add TypeSafe AI icon, closes [#443](https://github.com/lobehub/lobe-icons/issues/443) [#E551](https://github.com/lobehub/lobe-icons/issues/E551) [#421](https://github.com/lobehub/lobe-icons/issues/421) ([3e13462](https://github.com/lobehub/lobe-icons/commit/3e13462))
+- **misc**: Add TypeSafe AI icon, closes [#443](https://github.com/lobehub/lobe-icons/issues/443) [#421](https://github.com/lobehub/lobe-icons/issues/421) ([3e13462](https://github.com/lobehub/lobe-icons/commit/3e13462))
 
 </details>
 
