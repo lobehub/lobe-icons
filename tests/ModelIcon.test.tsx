@@ -52,4 +52,28 @@ describe('ModelIcon brand resolution', () => {
 
     expect(markup).toContain('<title>Meta</title>');
   });
+
+  it.each([
+    'typesafe/jev-1.14',
+    'jev-1.14',
+    'jev-1.14.0',
+    'jev-1.13.0',
+    'jev-latest',
+    'jev-preview',
+    'Jev-1.14',
+    'TypeSafe/Jev-1.14',
+  ])('uses TypeSafe AI for Jev model %s', (model) => {
+    const markup = renderToStaticMarkup(<ModelIcon model={model} type={'mono'} />);
+
+    expect(markup).toContain('<title>TypeSafe AI</title>');
+  });
+
+  it.each(['kjev-1.14', 'jevons-1', 'abc/jevx-1', 'gpt-4o'])(
+    'does not use TypeSafe AI for unrelated model %s',
+    (model) => {
+      const markup = renderToStaticMarkup(<ModelIcon model={model} type={'mono'} />);
+
+      expect(markup).not.toContain('<title>TypeSafe AI</title>');
+    },
+  );
 });

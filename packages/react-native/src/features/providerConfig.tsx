@@ -214,7 +214,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Targon, keywords: [RNModelProvider.Targon] },
   { Icon: Tencent, keywords: [RNModelProvider.Tencent] },
   { Icon: TII, keywords: [RNModelProvider.TII] },
-  { Icon: TypeSafeAI, keywords: [RNModelProvider.TypeSafe] },
+  { Icon: TypeSafeAI, keywords: [RNModelProvider.TypeSafe, 'typesafe-ai', 'typesafeai'] },
   { Icon: Unsloth, keywords: [RNModelProvider.Unsloth] },
   { Icon: Yandex, keywords: [RNModelProvider.Yandex] },
 

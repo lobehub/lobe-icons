@@ -89,6 +89,7 @@ import Stepfun from '@/Stepfun';
 import Suno from '@/Suno';
 import TII from '@/TII';
 import type { IconType } from '@/types';
+import TypeSafeAI from '@/TypeSafeAI';
 import Udio from '@/Udio';
 import UnionAlpha from '@/UnionAlpha';
 import Upstage from '@/Upstage';
@@ -329,4 +330,5 @@ export const modelMappings: ModelMapping[] = [
   { Icon: BAAI, keywords: ['^baai', '^bge-', '/beg-', 'touchd', 'robobrain'] },
   { Icon: Ace, keywords: ['ace-step'] },
   { Icon: Cursor, keywords: ['^composer', '/composer', '-composer'] },
+  { Icon: TypeSafeAI, keywords: ['(^|/)jev($|-)', 'typesafe'] },
 ];
