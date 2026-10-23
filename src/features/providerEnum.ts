@@ -91,6 +91,7 @@ export enum ModelProvider {
   MiniMaxCodingPlan = 'minimaxcodingplan',
   Mistral = 'mistral',
   ModelScope = 'modelscope',
+  Modelflare = 'modelflare',
   Moonshot = 'moonshot',
   Nebius = 'nebius',
   NewAPI = 'newapi',
