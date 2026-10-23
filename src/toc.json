@@ -2005,6 +2005,25 @@
     "title": "Dolphin"
   },
   {
+    "color": "#F4600C",
+    "desc": "https://gateway.dothoosh.com",
+    "docsUrl": "dot-hoosh",
+    "fullTitle": "DotHoosh",
+    "group": "provider",
+    "id": "DotHoosh",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "DotHoosh"
+  },
+  {
     "color": "#a3e6d9",
     "desc": "https://studio.dots.ai",
     "docsUrl": "dots-studio",
