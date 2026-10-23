@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version&nbsp;2.17.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.16.0...@lobehub/icons-rn@2.17.0)
+
+<sup>Released on **2026-10-23**</sup>
+
+#### ✨ Features
+
+- **misc**: Add TypeSafe and Unsloth provider mappings.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add TypeSafe and Unsloth provider mappings ([e7c7ba9](https://github.com/lobehub/lobe-icons/commit/e7c7ba9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;2.16.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.15.0...@lobehub/icons-rn@2.16.0)
 
 <sup>Released on **2026-10-22**</sup>
