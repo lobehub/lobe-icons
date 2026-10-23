@@ -2016,7 +2016,7 @@
       "hasBrand": false,
       "hasBrandColor": false,
       "hasColor": true,
-      "hasCombine": false,
+      "hasCombine": true,
       "hasText": true,
       "hasTextCn": false,
       "hasTextColor": false
