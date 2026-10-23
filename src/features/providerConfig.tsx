@@ -127,6 +127,8 @@ import TencentCloud from '@/TencentCloud';
 import TII from '@/TII';
 import Together from '@/Together';
 import type { IconType } from '@/types';
+import TypeSafeAI from '@/TypeSafeAI';
+import Unsloth from '@/Unsloth';
 import Upstage from '@/Upstage';
 import V0 from '@/V0';
 import Vercel from '@/Vercel';
@@ -216,6 +218,8 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Targon, keywords: [ModelProvider.Targon] },
   { Icon: Tencent, keywords: [ModelProvider.Tencent] },
   { Icon: TII, keywords: [ModelProvider.TII] },
+  { Icon: TypeSafeAI, keywords: [ModelProvider.TypeSafe] },
+  { Icon: Unsloth, keywords: [ModelProvider.Unsloth] },
   { Icon: Yandex, keywords: [ModelProvider.Yandex] },
 
   { Icon: AiMass, keywords: [ModelProvider.AiMass] },
