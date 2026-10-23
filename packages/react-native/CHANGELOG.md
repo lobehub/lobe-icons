@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version&nbsp;2.18.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.17.0...@lobehub/icons-rn@2.18.0)
+
+<sup>Released on **2026-10-23**</sup>
+
+#### ✨ Features
+
+- **model**: Add jev model and typesafe provider matching.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **model**: Add jev model and typesafe provider matching, closes [#448](https://github.com/lobehub/lobe-icons/issues/448) ([57ef4c3](https://github.com/lobehub/lobe-icons/commit/57ef4c3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;2.17.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.16.0...@lobehub/icons-rn@2.17.0)
 
 <sup>Released on **2026-10-23**</sup>
