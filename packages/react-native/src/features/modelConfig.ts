@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import type { FC } from 'react';
 
 import Ace from '../icons/Ace';
 import Adobe from '../icons/Adobe';
@@ -37,9 +37,9 @@ import EssentialAI from '../icons/EssentialAI';
 import Fireworks from '../icons/Fireworks';
 import FishAudio from '../icons/FishAudio';
 import Flux from '../icons/Flux';
-import GLMV from '../icons/GLMV';
 import Gemini from '../icons/Gemini';
 import Gemma from '../icons/Gemma';
+import GLMV from '../icons/GLMV';
 import Google from '../icons/Google';
 import Grok from '../icons/Grok';
 import Hunyuan from '../icons/Hunyuan';
@@ -54,8 +54,8 @@ import Kling from '../icons/Kling';
 import Kolors from '../icons/Kolors';
 import Kwaipilot from '../icons/Kwaipilot';
 import LG from '../icons/LG';
-import LLaVA from '../icons/LLaVA';
 import Liquid from '../icons/Liquid';
+import LLaVA from '../icons/LLaVA';
 import LongCat from '../icons/LongCat';
 import Menlo from '../icons/Menlo';
 import Meta from '../icons/Meta';
@@ -86,6 +86,7 @@ import Stability from '../icons/Stability';
 import Stepfun from '../icons/Stepfun';
 import Suno from '../icons/Suno';
 import TII from '../icons/TII';
+import TypeSafeAI from '../icons/TypeSafeAI';
 import Udio from '../icons/Udio';
 import UnionAlpha from '../icons/UnionAlpha';
 import Upstage from '../icons/Upstage';
@@ -327,4 +328,5 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: BAAI, keywords: ['^baai', '^bge-', '/beg-', 'touchd', 'robobrain'] },
   { Icon: Ace, keywords: ['ace-step'] },
   { Icon: Cursor, keywords: ['^composer', '/composer', '-composer'] },
+  { Icon: TypeSafeAI, keywords: ['(^|/)jev($|-)', 'typesafe'] },
 ];

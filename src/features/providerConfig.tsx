@@ -218,7 +218,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Targon, keywords: [ModelProvider.Targon] },
   { Icon: Tencent, keywords: [ModelProvider.Tencent] },
   { Icon: TII, keywords: [ModelProvider.TII] },
-  { Icon: TypeSafeAI, keywords: [ModelProvider.TypeSafe] },
+  { Icon: TypeSafeAI, keywords: [ModelProvider.TypeSafe, 'typesafe-ai', 'typesafeai'] },
   { Icon: Unsloth, keywords: [ModelProvider.Unsloth] },
   { Icon: Yandex, keywords: [ModelProvider.Yandex] },
 
