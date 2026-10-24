@@ -45,6 +45,7 @@ import DeepInfra from '@/DeepInfra';
 import DeepMind from '@/DeepMind';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
+import EmpirioLabs from '@/EmpirioLabs';
 import Exa from '@/Exa';
 import Fal from '@/Fal';
 import Featherless from '@/Featherless';
@@ -185,6 +186,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Crusoe, keywords: [ModelProvider.Crusoe] },
   { Icon: DeepInfra, keywords: [ModelProvider.DeepInfra] },
   { Icon: DeepMind, keywords: [ModelProvider.DeepMind] },
+  { Icon: EmpirioLabs, keywords: [ModelProvider.EmpirioLabs] },
   { Icon: Exa, keywords: [ModelProvider.Exa] },
   { Icon: Featherless, keywords: [ModelProvider.Featherless] },
   { Icon: Friendli, keywords: [ModelProvider.Friendli] },
