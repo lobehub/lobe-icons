@@ -327,7 +327,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Kwaipilot, keywords: ['kat-'] },
   { Icon: Nova, keywords: ['^nova-', '/nova-'] },
   { Icon: XiaomiMiMo, keywords: ['^mimo-', '/mimo-'] },
-  { Icon: BAAI, keywords: ['^baai', '^bge-', '/beg-', 'touchd', 'robobrain'] },
+  { Icon: BAAI, keywords: ['^baai', '^bge-', '/bge-', 'touchd', 'robobrain'] },
   { Icon: Ace, keywords: ['ace-step'] },
   { Icon: Cursor, keywords: ['^composer', '/composer', '-composer'] },
   { Icon: TypeSafeAI, keywords: ['(^|/)jev($|-)', 'typesafe'] },
