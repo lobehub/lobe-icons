@@ -14,9 +14,6 @@ importers:
       es-toolkit:
         specifier: ^1.52.0
         version: 1.52.0
-      lucide-react:
-        specifier: ^0.469.0
-        version: 0.469.0(react@19.3.0)
       polished:
         specifier: ^4.3.1
         version: 4.3.1
@@ -99,6 +96,9 @@ importers:
       lint-staged:
         specifier: ^16.4.0
         version: 16.4.0
+      lucide-react:
+        specifier: ^1.57.0
+        version: 1.57.0(@types/react@19.3.0)(react@19.3.0)
       markdown-table:
         specifier: ^3.0.4
         version: 3.0.4

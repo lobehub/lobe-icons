@@ -126,7 +126,6 @@
   },
   "dependencies": {
     "es-toolkit": "^1.52.0",
-    "lucide-react": "^0.469.0",
     "polished": "^4.3.1"
   },
   "devDependencies": {
@@ -156,6 +155,7 @@
     "husky": "^9.1.7",
     "jsdom": "^27.4.0",
     "lint-staged": "^16.4.0",
+    "lucide-react": "^1.57.0",
     "markdown-table": "^3.0.4",
     "p-map": "^7.0.8",
     "postcss-styled-syntax": "^0.7.2",
@@ -180,6 +180,7 @@
   },
   "peerDependencies": {
     "@lobehub/ui": "^6.0.0",
+    "lucide-react": "^0.469.0 || ^1.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
