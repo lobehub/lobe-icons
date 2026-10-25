@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version&nbsp;6.11.0](https://github.com/lobehub/lobe-icons/compare/v6.10.0...v6.11.0)
+
+<sup>Released on **2026-10-25**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **magpie**: Add Magpie brand icon set.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([20c96f6](https://github.com/lobehub/lobe-icons/commit/20c96f6))
+- **magpie**: Add Magpie brand icon set, closes [#451](https://github.com/lobehub/lobe-icons/issues/451) [#4D6](https://github.com/lobehub/lobe-icons/issues/4D6) ([09362f2](https://github.com/lobehub/lobe-icons/commit/09362f2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;6.10.0](https://github.com/lobehub/lobe-icons/compare/v6.9.1...v6.10.0)
 
 <sup>Released on **2026-10-25**</sup>
