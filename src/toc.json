@@ -2691,6 +2691,25 @@
     "title": "Grok"
   },
   {
+    "color": "#000",
+    "desc": "https://x.ai/bot",
+    "docsUrl": "grok-bot",
+    "fullTitle": "Grok Bot",
+    "group": "application",
+    "id": "GrokBot",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Grok Bot"
+  },
+  {
     "color": "#F55036",
     "desc": "https://wow.groq.com",
     "docsUrl": "groq",
@@ -4161,6 +4180,26 @@
       "hasTextColor": false
     },
     "title": "Moxt"
+  },
+  {
+    "color": "#0082FB",
+    "colorGradient": "linear-gradient(135deg, #0082FB 0%, #0064E0 70%, #0040DC 100%)",
+    "desc": "https://muse.ai",
+    "docsUrl": "muse",
+    "fullTitle": "Muse (Meta)",
+    "group": "model",
+    "id": "Muse",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Muse"
   },
   {
     "color": "#fff",

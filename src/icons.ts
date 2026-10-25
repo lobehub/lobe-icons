@@ -151,6 +151,7 @@ export { default as Gradio, type CompoundedIcon as GradioProps } from './Gradio'
 export { default as GreenPT, type CompoundedIcon as GreenPTProps } from './GreenPT';
 export { default as Greptile, type CompoundedIcon as GreptileProps } from './Greptile';
 export { default as Grok, type CompoundedIcon as GrokProps } from './Grok';
+export { default as GrokBot, type CompoundedIcon as GrokBotProps } from './GrokBot';
 export { default as Groq, type CompoundedIcon as GroqProps } from './Groq';
 export { default as Hailuo, type CompoundedIcon as HailuoProps } from './Hailuo';
 export { default as Haiper, type CompoundedIcon as HaiperProps } from './Haiper';
@@ -228,6 +229,7 @@ export { default as Monica, type CompoundedIcon as MonicaProps } from './Monica'
 export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moonshot';
 export { default as Morph, type CompoundedIcon as MorphProps } from './Morph';
 export { default as Moxt, type CompoundedIcon as MoxtProps } from './Moxt';
+export { default as Muse, type CompoundedIcon as MuseProps } from './Muse';
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './MyShell';
 export { default as N8n, type CompoundedIcon as N8nProps } from './N8n';
 export { default as NanoBanana, type CompoundedIcon as NanoBananaProps } from './NanoBanana';

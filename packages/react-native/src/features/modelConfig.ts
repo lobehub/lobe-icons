@@ -64,6 +64,7 @@ import Minimax from '../icons/Minimax';
 import Mistral from '../icons/Mistral';
 import Moonshot from '../icons/Moonshot';
 import Morph from '../icons/Morph';
+import Muse from '../icons/Muse';
 import NanoBanana from '../icons/NanoBanana';
 import NousResearch from '../icons/NousResearch';
 import Nova from '../icons/Nova';
@@ -281,8 +282,8 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: SenseNova, keywords: ['SenseChat', 'SenseNova'] },
   { Icon: Grok, keywords: ['^grok-', '/grok-'] },
   { Icon: Ideogram, keywords: ['ideogram', '^v_1', '^v_2', '^v3$', '^upscale$', '^describe$'] },
-  /** Meta Muse models; match Muse Spark before the broad iFlyTek Spark keyword. */
-  { Icon: Meta, keywords: ['(^|/)muse-(spark|wonder)($|-)'] },
+  /** Muse (Meta) models; match before the broad iFlyTek Spark keyword. */
+  { Icon: Muse, keywords: ['(^|/)muse-(spark|wonder|image|video)($|-)'] },
   {
     Icon: Spark,
     keywords: [
