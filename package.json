@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/icons",
-  "version": "6.9.1",
+  "version": "6.10.0",
   "description": "Popular AI / LLM Model Brand SVG Logo and Icon Collection",
   "keywords": [
     "lobehub",
@@ -29,6 +29,7 @@
     "./es/icons": "./es/icons.mjs",
     "./es/toc": "./es/toc.mjs",
     "./es/*/Avatar": "./es/*/Avatar.mjs",
+    "./es/*/AvatarGlyph": "./es/*/AvatarGlyph.mjs",
     "./es/*/Brand": "./es/*/Brand.mjs",
     "./es/*/BrandColor": "./es/*/BrandColor.mjs",
     "./es/*/BrandMono": "./es/*/BrandMono.mjs",

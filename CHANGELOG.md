@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version&nbsp;6.10.0](https://github.com/lobehub/lobe-icons/compare/v6.9.1...v6.10.0)
+
+<sup>Released on **2026-10-25**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Grok Bot and Muse brand icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Grok Bot and Muse brand icons, closes [#450](https://github.com/lobehub/lobe-icons/issues/450) ([2ee864a](https://github.com/lobehub/lobe-icons/commit/2ee864a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;6.9.1](https://github.com/lobehub/lobe-icons/compare/v6.9.0...v6.9.1)
 
 <sup>Released on **2026-10-25**</sup>
