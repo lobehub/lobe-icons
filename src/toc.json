@@ -3818,6 +3818,25 @@
     "title": "Magic"
   },
   {
+    "color": "#4D6BFE",
+    "desc": "https://usemagpie.ai",
+    "docsUrl": "magpie",
+    "fullTitle": "Magpie",
+    "group": "provider",
+    "id": "Magpie",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Magpie"
+  },
+  {
     "color": "#ff009a",
     "desc": "https://make.com",
     "docsUrl": "make",

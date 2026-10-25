@@ -1,0 +1,93 @@
+---
+title: Magpie
+description: https://usemagpie.ai
+category: Provider
+---
+
+import { Magpie } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Magpie size={64} />}</DocsPreview>
+
+```tsx
+import { Magpie } from '@lobehub/icons';
+
+export default () => <Magpie size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Magpie.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Magpie } from '@lobehub/icons';
+
+export default () => <Magpie.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Magpie.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Magpie } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Magpie.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Magpie.Avatar size={64} />
+      <Magpie.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Magpie } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Magpie.Avatar size={64} />
+    <Magpie.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Magpie.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Magpie } from '@lobehub/icons';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => <ColorPreview color={Magpie.colorPrimary} />;
+```

@@ -84,6 +84,7 @@ export enum ModelProvider {
   LmStudio = 'lmstudio',
   LobeHub = 'lobehub',
   LongCat = 'longcat',
+  Magpie = 'magpie',
   Menlo = 'menlo',
   Meta = 'meta',
   Microsoft = 'microsoft',
