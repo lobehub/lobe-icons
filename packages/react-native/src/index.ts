@@ -195,6 +195,7 @@ export { default as Gradio, type CompoundedIcon as GradioProps } from './icons/G
 export { default as GreenPT, type CompoundedIcon as GreenPTProps } from './icons/GreenPT';
 export { default as Greptile, type CompoundedIcon as GreptileProps } from './icons/Greptile';
 export { default as Grok, type CompoundedIcon as GrokProps } from './icons/Grok';
+export { default as GrokBot, type CompoundedIcon as GrokBotProps } from './icons/GrokBot';
 export { default as Groq, type CompoundedIcon as GroqProps } from './icons/Groq';
 export { default as Hailuo, type CompoundedIcon as HailuoProps } from './icons/Hailuo';
 export { default as Haiper, type CompoundedIcon as HaiperProps } from './icons/Haiper';
