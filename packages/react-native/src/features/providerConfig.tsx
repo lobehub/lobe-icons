@@ -81,6 +81,7 @@ import LlmGateway from '../icons/LlmGateway';
 import LmStudio from '../icons/LmStudio';
 import LobeHub from '../icons/LobeHub';
 import LongCat from '../icons/LongCat';
+import Magpie from '../icons/Magpie';
 import Menlo from '../icons/Menlo';
 import MetaAI from '../icons/MetaAI';
 import Microsoft from '../icons/Microsoft';
@@ -369,6 +370,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: SenseNova, combineMultiple: 0.95, keywords: [RNModelProvider.SenseNova] },
   { Icon: HuggingFace, combineMultiple: 1.16, keywords: [RNModelProvider.HuggingFace] },
   { Icon: LmStudio, keywords: [RNModelProvider.LmStudio] },
+  { Icon: Magpie, keywords: [RNModelProvider.Magpie, 'magpie'] },
   { Icon: XAI, combineMultiple: 0.85, keywords: [RNModelProvider.XAI] },
   { Icon: Grok, keywords: [RNModelProvider.SuperGrok] },
   {

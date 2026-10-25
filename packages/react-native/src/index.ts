@@ -269,6 +269,7 @@ export { default as Lovable, type CompoundedIcon as LovableProps } from './icons
 export { default as Lovart, type CompoundedIcon as LovartProps } from './icons/Lovart';
 export { default as Luma, type CompoundedIcon as LumaProps } from './icons/Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './icons/Magic';
+export { default as Magpie, type CompoundedIcon as MagpieProps } from './icons/Magpie';
 export { default as Make, type CompoundedIcon as MakeProps } from './icons/Make';
 export { default as Manus, type CompoundedIcon as ManusProps } from './icons/Manus';
 export { default as Mastra, type CompoundedIcon as MastraProps } from './icons/Mastra';
