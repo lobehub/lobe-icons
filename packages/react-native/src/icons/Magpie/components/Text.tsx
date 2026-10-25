@@ -7,7 +7,7 @@ const Icon = memo<RNIconProps>(({ size = 24, style, color = '#000000', ...rest }
   return (
     <Svg
       color={color}
-      fillRule="evenodd"
+      fillRule="nonzero"
       height={size}
       style={style}
       viewBox="0 0 64.65 24"
