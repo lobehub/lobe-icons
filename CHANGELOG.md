@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;6.9.1](https://github.com/lobehub/lobe-icons/compare/v6.9.0...v6.9.1)
+
+<sup>Released on **2026-10-25**</sup>
+
+#### 🐛 Bug Fixes
+
+- **deps**: Make lucide-react a peer dependency.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **deps**: Make lucide-react a peer dependency ([eb24e61](https://github.com/lobehub/lobe-icons/commit/eb24e61))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;6.9.0](https://github.com/lobehub/lobe-icons/compare/v6.8.0...v6.9.0)
 
 <sup>Released on **2026-10-23**</sup>
