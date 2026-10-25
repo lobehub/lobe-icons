@@ -4,6 +4,6 @@ export const COMBINE_SPACE_MULTIPLE = 0.12;
 export const COLOR_PRIMARY = '#000';
 
 // Avatar constants
-export const AVATAR_BACKGROUND = '#000';
+export const AVATAR_BACKGROUND = '#191919';
 export const AVATAR_COLOR = '#fff';
 export const AVATAR_ICON_MULTIPLE = 1;
