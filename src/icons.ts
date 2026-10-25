@@ -229,6 +229,7 @@ export { default as Monica, type CompoundedIcon as MonicaProps } from './Monica'
 export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './Moonshot';
 export { default as Morph, type CompoundedIcon as MorphProps } from './Morph';
 export { default as Moxt, type CompoundedIcon as MoxtProps } from './Moxt';
+export { default as Muse, type CompoundedIcon as MuseProps } from './Muse';
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './MyShell';
 export { default as N8n, type CompoundedIcon as N8nProps } from './N8n';
 export { default as NanoBanana, type CompoundedIcon as NanoBananaProps } from './NanoBanana';
