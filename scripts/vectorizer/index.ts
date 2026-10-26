@@ -12,9 +12,23 @@ const svgPath = resolve(rootPath, 'logo.svg');
 const apiUrl = process.env.VECTORIZE_URL;
 const secretAccessKey = process.env.VECTORIZE_SECRET_ACCESS_KEY;
 
+const isAllowedVectorizeUrl = (url: string) => {
+  try {
+    const parsed = new URL(url);
+    return parsed.protocol === 'https:';
+  } catch {
+    return false;
+  }
+};
+
 const convertPngToSvg = async () => {
   if (!apiUrl || !secretAccessKey) {
     consola.error('Please provide VECTORIZE_URL and VECTORIZE_SECRET_ACCESS_KEY in .env file');
+    return;
+  }
+
+  if (!isAllowedVectorizeUrl(apiUrl)) {
+    consola.error('VECTORIZE_URL must be a valid https URL');
     return;
   }
 
