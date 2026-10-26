@@ -47,8 +47,9 @@ export default () => <EasyAI.Text size={48} />;
 
 <DocsPreview>
   {
-    <Flexbox gap={16} horizontal>
+    <Flexbox gap={16} align={'flex-start'}>
       <EasyAI.Combine size={64} />
+      <EasyAI.Combine size={64} type={'color'} />
     </Flexbox>
   }
 </DocsPreview>
@@ -58,8 +59,9 @@ import { EasyAI } from '@lobehub/icons';
 import { Flexbox } from '@lobehub/ui';
 
 export default () => (
-  <Flexbox gap={16} horizontal>
+  <Flexbox gap={16} align={'flex-start'}>
     <EasyAI.Combine size={64} />
+    <EasyAI.Combine size={64} type={'color'} />
   </Flexbox>
 );
 ```
