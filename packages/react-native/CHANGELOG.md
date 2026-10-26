@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;2.20.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.20.0...@lobehub/icons-rn@2.20.1)
+
+<sup>Released on **2026-10-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **model**: Match BAAI BGE models behind a provider prefix.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **model**: Match BAAI BGE models behind a provider prefix ([37ecf2d](https://github.com/lobehub/lobe-icons/commit/37ecf2d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;2.20.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.19.0...@lobehub/icons-rn@2.20.0)
 
 <sup>Released on **2026-10-25**</sup>
