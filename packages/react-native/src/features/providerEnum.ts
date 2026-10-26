@@ -44,6 +44,7 @@ export enum RNModelProvider {
   DeepMind = 'deepmind',
   DeepSeek = 'deepseek',
   Doubao = 'doubao',
+  EveryAPI = 'everyapi',
   Exa = 'exa',
   Fal = 'fal',
   Featherless = 'featherless',
