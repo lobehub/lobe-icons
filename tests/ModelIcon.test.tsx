@@ -85,4 +85,13 @@ describe('ModelIcon brand resolution', () => {
       expect(markup).not.toContain('<title>TypeSafe AI</title>');
     },
   );
+
+  it.each(['bge-m3', 'BAAI/bge-m3', 'Pro/BAAI/bge-m3', '@cf/baai/bge-base-en-v1.5'])(
+    'uses BAAI for BGE model %s',
+    (model) => {
+      const markup = renderToStaticMarkup(<ModelIcon model={model} type={'mono'} />);
+
+      expect(markup).toContain('<title>BAAI</title>');
+    },
+  );
 });
