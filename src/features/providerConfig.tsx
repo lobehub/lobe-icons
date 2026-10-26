@@ -108,6 +108,7 @@ import Qiniu from '@/Qiniu';
 import Qwen from '@/Qwen';
 import Replicate from '@/Replicate';
 import SambaNova from '@/SambaNova';
+import SayGM from '@/SayGM';
 import Search1API from '@/Search1API';
 import SearchApi from '@/SearchApi';
 import SenseNova from '@/SenseNova';
@@ -209,6 +210,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: NPLCloud, keywords: [ModelProvider.NPLCloud] },
   { Icon: NousResearch, keywords: [ModelProvider.NousResearch] },
   { Icon: Parasail, keywords: [ModelProvider.Parasail] },
+  { Icon: SayGM, keywords: [ModelProvider.SayGM] },
   { Icon: SearchApi, keywords: [ModelProvider.SearchApi] },
   { Icon: Snowflake, keywords: [ModelProvider.Snowflake] },
   { Icon: Stability, keywords: [ModelProvider.Stability] },
