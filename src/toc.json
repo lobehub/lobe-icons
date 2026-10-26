@@ -4144,6 +4144,25 @@
     "title": "Mistral"
   },
   {
+    "color": "#FF6512",
+    "desc": "https://modelflare.dev",
+    "docsUrl": "modelflare",
+    "fullTitle": "Modelflare",
+    "group": "provider",
+    "id": "Modelflare",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Modelflare"
+  },
+  {
     "color": "#624AFF",
     "desc": "https://modelscope.cn",
     "docsUrl": "model-scope",
