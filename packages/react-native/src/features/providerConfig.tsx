@@ -44,6 +44,7 @@ import DeepInfra from '../icons/DeepInfra';
 import DeepMind from '../icons/DeepMind';
 import DeepSeek from '../icons/DeepSeek';
 import Doubao from '../icons/Doubao';
+import EmpirioLabs from '../icons/EmpirioLabs';
 import Exa from '../icons/Exa';
 import Fal from '../icons/Fal';
 import Featherless from '../icons/Featherless';
@@ -182,6 +183,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Crusoe, keywords: [RNModelProvider.Crusoe] },
   { Icon: DeepInfra, keywords: [RNModelProvider.DeepInfra] },
   { Icon: DeepMind, keywords: [RNModelProvider.DeepMind] },
+  { Icon: EmpirioLabs, keywords: [RNModelProvider.EmpirioLabs] },
   { Icon: Exa, keywords: [RNModelProvider.Exa] },
   { Icon: Featherless, keywords: [RNModelProvider.Featherless] },
   { Icon: Friendli, keywords: [RNModelProvider.Friendli] },
