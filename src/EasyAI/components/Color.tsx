@@ -8,7 +8,7 @@ import type { IconType } from '@/types';
 import { TITLE } from '../style';
 
 const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
-  const [a, b] = useFillIds(TITLE, 2);
+  const [a, b, c] = useFillIds(TITLE, 3);
   return (
     <svg
       height={size}
@@ -19,22 +19,36 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
       {...rest}
     >
       <title>{TITLE}</title>
-      <path
-        d="M12 .494C13.513 6.567 17.902 10.679 24 12c-6.098 1.321-10.487 5.433-12 11.506C10.487 17.433 6.098 13.321 0 12 6.098 10.679 10.487 6.567 12 .494"
-        fill={a.fill}
-      />
-      <path
-        d="M12 .494C13.513 6.567 17.902 10.679 24 12c-6.098 1.321-10.487 5.433-12 11.506C10.487 17.433 6.098 13.321 0 12 6.098 10.679 10.487 6.567 12 .494"
-        fill={b.fill}
-      />
+      <g transform="scale(0.046875)">
+        <rect fill={a.fill} height="512" rx="128" width="512" />
+        <path d="M256 60.73c25.72 103.19 100.29 173.07 203.91 195.51C356.29 278.68 281.72 348.56 256 451.75 230.28 348.56 155.71 278.68 52.09 256.24 155.71 233.8 230.28 163.92 256 60.73" fill={b.fill} />
+        <path d="M256 60.73c25.72 103.19 100.29 173.07 203.91 195.51C356.29 278.68 281.72 348.56 256 451.75 230.28 348.56 155.71 278.68 52.09 256.24 155.71 233.8 230.28 163.92 256 60.73" fill={c.fill} />
+      </g>
       <defs>
         <linearGradient
           gradientUnits="userSpaceOnUse"
           id={a.id}
+          x1=".1"
+          x2="520.7"
+          y1=".1"
+          y2="502.8"
+        >
+          <stop offset="0" stopColor="#ab5fa6" />
+          <stop offset=".08" stopColor="#a95da4" />
+          <stop offset=".25" stopColor="#9a509f" />
+          <stop offset=".4" stopColor="#834299" />
+          <stop offset=".48" stopColor="#773a92" />
+          <stop offset=".64" stopColor="#68338b" />
+          <stop offset=".74" stopColor="#5f2d83" />
+          <stop offset="1" stopColor="#4a2b76" />
+        </linearGradient>
+        <linearGradient
+          gradientUnits="userSpaceOnUse"
+          id={b.id}
           x1="0"
           x2="0"
-          y1="-3.08"
-          y2="27.051"
+          y1="0"
+          y2="512"
         >
           <stop offset=".13" stopColor="#d660a5" />
           <stop offset=".26" stopColor="#d670ac" />
@@ -47,9 +61,9 @@ const Icon: IconType = memo(({ size = '1em', style, ...rest }) => {
         </linearGradient>
         <linearGradient
           gradientUnits="userSpaceOnUse"
-          id={b.id}
-          x1="-3.065"
-          x2="27.065"
+          id={c.id}
+          x1="0"
+          x2="512"
           y1="0"
           y2="0"
         >
