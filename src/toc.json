@@ -1165,6 +1165,25 @@
     "title": "ChatGLM"
   },
   {
+    "color": "#FB6B12",
+    "desc": "https://cheapaimodel.ai",
+    "docsUrl": "cheapaimodel",
+    "fullTitle": "cheapaimodel",
+    "group": "provider",
+    "id": "Cheapaimodel",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "cheapaimodel"
+  },
+  {
     "color": "#CFF331",
     "desc": "https://cheaperinference.com",
     "docsUrl": "cheaper-inference",
