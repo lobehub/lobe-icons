@@ -4717,6 +4717,25 @@
     "title": "OpenWebUI"
   },
   {
+    "color": "#1B2E40",
+    "desc": "https://opper.ai",
+    "docsUrl": "opper",
+    "fullTitle": "Opper",
+    "group": "provider",
+    "id": "Opper",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Opper"
+  },
+  {
     "color": "#FFF",
     "desc": "https://ai.google/discover/palm2",
     "docsUrl": "pa-lm",
