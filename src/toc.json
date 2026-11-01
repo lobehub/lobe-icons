@@ -5155,6 +5155,25 @@
     "title": "Recraft"
   },
   {
+    "color": "#1E3207",
+    "desc": "https://reflection.ai",
+    "docsUrl": "reflection",
+    "fullTitle": "Reflection",
+    "group": "provider",
+    "id": "Reflection",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Reflection"
+  },
+  {
     "color": "#fff",
     "desc": "https://reka.ai",
     "docsUrl": "reka",

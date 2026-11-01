@@ -280,6 +280,7 @@ export { default as Qoder, type CompoundedIcon as QoderProps } from './Qoder';
 export { default as Qwen, type CompoundedIcon as QwenProps } from './Qwen';
 export { default as Railway, type CompoundedIcon as RailwayProps } from './Railway';
 export { default as Recraft, type CompoundedIcon as RecraftProps } from './Recraft';
+export { default as Reflection, type CompoundedIcon as ReflectionProps } from './Reflection';
 export { default as Reka, type CompoundedIcon as RekaProps } from './Reka';
 export { default as Relace, type CompoundedIcon as RelaceProps } from './Relace';
 export { default as Replicate, type CompoundedIcon as ReplicateProps } from './Replicate';
