@@ -4,23 +4,28 @@ import { fileURLToPath } from 'node:url';
 
 import ts from 'typescript';
 
+import sharedSourceFiles from './source-files.json';
+
 const { dirname, join, relative, resolve } = path;
 
 const packageDir = fileURLToPath(new URL('..', import.meta.url));
 const root = resolve(packageDir, '../..');
 const sourceDir = join(root, 'src');
 const sources = new Map<string, string>();
+const vueSources = new Set<string>();
 const read = (path: string) => readFileSync(join(sourceDir, path), 'utf8');
 const icons = read('icons.ts');
 const brands = [...icons.matchAll(/from '\.\/([^']+)'/g)].map((match) => match[1]);
 if (!brands.length) throw new Error('No brands found in src/icons.ts');
 
-function collect(directory: string, prefix = '') {
+function collect(directory: string, prefix = '', isVue = false) {
   for (const entry of readdirSync(directory, { withFileTypes: true })) {
     const name = `${prefix}${entry.name}`;
-    if (entry.isDirectory()) collect(join(directory, entry.name), `${name}/`);
+    if (entry.isDirectory()) collect(join(directory, entry.name), `${name}/`, isVue);
     else if (/\.tsx?$/.test(name)) {
-      sources.set(name.replace(/\.tsx$/, '.ts'), readFileSync(join(directory, entry.name), 'utf8'));
+      const file = name.replace(/\.tsx$/, '.ts');
+      sources.set(file, readFileSync(join(directory, entry.name), 'utf8'));
+      if (isVue) vueSources.add(file);
     }
   }
 }
@@ -31,22 +36,7 @@ for (const brand of brands) {
   collect(join(sourceDir, brand, 'components'), `${brand}/components/`);
 }
 
-for (const file of [
-  'index.ts',
-  'features/index.ts',
-  'features/modelConfig.ts',
-  'features/agentConfig.ts',
-  'features/providerConfig.tsx',
-  'features/providerEnum.ts',
-  'types/toc.ts',
-  'features/getLobeIconCDN/index.tsx',
-  'features/ModelIcon/index.tsx',
-  'features/ProviderIcon/index.tsx',
-  'features/AgentIcon/index.tsx',
-  'features/ProviderCombine/index.tsx',
-  'features/ProviderCombine/Combine.tsx',
-])
-  sources.set(file.replace(/\.tsx$/, '.ts'), read(file));
+for (const file of sharedSourceFiles) sources.set(file.replace(/\.tsx$/, '.ts'), read(file));
 
 sources.set('icons.ts', icons);
 sources.set(
@@ -62,7 +52,7 @@ for (const feature of ['ModelIcon', 'ProviderIcon', 'AgentIcon']) {
   );
 }
 // Handwritten Vue primitives replace React-specific layout and UI dependencies.
-collect(join(packageDir, 'src'));
+collect(join(packageDir, 'src'), '', true);
 
 const f = ts.factory;
 const printer = ts.createPrinter({ newLine: ts.NewLineKind.LineFeed });
@@ -95,7 +85,47 @@ function convert(name: string, content: string) {
   let usesJsx = false;
   let usesMapping = false;
   let usesStyle = false;
+  let usesReactStyle = false;
   const transform: ts.TransformerFactory<ts.SourceFile> = (context) => {
+    const isStyle = (name: ts.PropertyName) =>
+      (ts.isIdentifier(name) || ts.isStringLiteral(name)) && /^(?:style|\w+Style)$/.test(name.text);
+    const reactStyle = (node: ts.Expression): ts.Expression => {
+      if (ts.isObjectLiteralExpression(node)) {
+        return f.updateObjectLiteralExpression(
+          node,
+          node.properties.map((property) => {
+            if (
+              ts.isPropertyAssignment(property) &&
+              (ts.isIdentifier(property.name) || ts.isStringLiteral(property.name))
+            ) {
+              usesReactStyle = true;
+              return f.updatePropertyAssignment(
+                property,
+                property.name,
+                f.createCallExpression(identifier('__reactStyleValue'), undefined, [
+                  string(property.name.text),
+                  ts.visitNode(property.initializer, visit) as ts.Expression,
+                ]),
+              );
+            }
+            // Spreads belong to Vue consumers. Preserve their native style
+            // semantics instead of interpreting their numbers as React CSS.
+            return ts.visitNode(property, visit) as ts.ObjectLiteralElementLike;
+          }),
+        );
+      }
+      if (ts.isConditionalExpression(node)) {
+        return f.updateConditionalExpression(
+          node,
+          ts.visitNode(node.condition, visit) as ts.Expression,
+          node.questionToken,
+          reactStyle(node.whenTrue),
+          node.colonToken,
+          reactStyle(node.whenFalse),
+        );
+      }
+      return ts.visitNode(node, visit) as ts.Expression;
+    };
     const visit: ts.Visitor = (node) => {
       if (
         ts.isExpressionStatement(node) &&
@@ -183,6 +213,9 @@ function convert(name: string, content: string) {
       ) {
         usesMapping = true;
         return f.createTypeReferenceNode('ComponentType', node.typeArguments);
+      }
+      if (!vueSources.has(name) && ts.isPropertyAssignment(node) && isStyle(node.name)) {
+        return f.updatePropertyAssignment(node, node.name, reactStyle(node.initializer));
       }
       if (
         ts.isSpreadAssignment(node) &&
@@ -273,17 +306,19 @@ function convert(name: string, content: string) {
               return f.createSpreadAssignment(
                 ts.visitNode(attribute.expression, visit) as ts.Expression,
               );
+            const attributeName = attribute.name.getText(source);
+            const expression =
+              attribute.initializer && ts.isJsxExpression(attribute.initializer)
+                ? attribute.initializer.expression
+                : attribute.initializer;
             const value = !attribute.initializer
               ? f.createTrue()
               : ts.isStringLiteral(attribute.initializer)
                 ? string(attribute.initializer.text)
-                : (ts.visitNode(
-                    ts.isJsxExpression(attribute.initializer)
-                      ? attribute.initializer.expression!
-                      : attribute.initializer,
-                    visit,
-                  ) as ts.Expression);
-            return f.createPropertyAssignment(string(attribute.name.getText(source)), value);
+                : !vueSources.has(name) && /^(?:style|\w+Style)$/.test(attributeName)
+                  ? reactStyle(expression as ts.Expression)
+                  : (ts.visitNode(expression, visit) as ts.Expression);
+            return f.createPropertyAssignment(string(attributeName), value);
           }) || [];
         const children: ts.Expression[] = [];
         if (!ts.isJsxSelfClosingElement(node))
@@ -326,6 +361,9 @@ function convert(name: string, content: string) {
       : '',
     usesStyle
       ? `import { normalizeIconStyle as __style } from '${modulePath(name, '@/runtime')}';`
+      : '',
+    usesReactStyle
+      ? `import { normalizeReactStyleValue as __reactStyleValue } from '${modulePath(name, '@/reactStyle')}';`
       : '',
   ]
     .filter(Boolean)

@@ -11,6 +11,21 @@ import {
 
 import type { IconProps } from './types';
 
+const componentProps = new Set([
+  'className',
+  'extraClassName',
+  'extraStyle',
+  'forceMono',
+  'iconClassName',
+  'iconMultiple',
+  'iconProps',
+  'iconStyle',
+  'showLogo',
+  'showText',
+  'spaceMultiple',
+  'textMultiple',
+]);
+
 // The generator moves SVG id composables into setup. Render callbacks receive
 // fresh attributes on every update, including attributes passed with v-bind.
 export function defineIcon<P extends object = IconProps>(
@@ -32,11 +47,12 @@ export function defineIcon<P extends object = IconProps>(
           if (value !== undefined) props[key] = value;
         }
         for (const [key, value] of Object.entries(attrs)) {
-          // Vue only camelizes declared props; these components also accept
-          // arbitrary SVG attributes. Keep data-* and aria-* attributes intact.
-          const name = /^(?:aria|data)-/.test(key)
-            ? key
-            : key.replaceAll(/-([a-z])/g, (_, letter: string) => letter.toUpperCase());
+          // Vue only camelizes declared props. Normalize the remaining business
+          // props while preserving native SVG, HTML, data-* and aria-* spelling.
+          const camelName = key.replaceAll(/-([a-z])/g, (_, letter: string) =>
+            letter.toUpperCase(),
+          );
+          const name = componentProps.has(camelName) ? camelName : key;
           props[name] = value;
         }
         if (slots.default) props.children = slots.default();

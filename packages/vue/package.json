@@ -39,7 +39,7 @@
   "scripts": {
     "build": "bun run generate --clean-dist && tsc -p tsconfig.build.json",
     "generate": "bun scripts/generate.ts",
-    "lint": "eslint \"{src,scripts,tests}/**/*.ts\" vitest.config.ts",
+    "lint": "eslint \"{src,scripts,tests}/**/*.{ts,cjs}\" vitest.config.ts .releaserc.cjs",
     "prepack": "bun run build",
     "test": "bun run build && tsc -p tsconfig.test.json && vitest run --config vitest.config.ts",
     "type-check": "bun run generate && tsc -p tsconfig.build.json --noEmit"
