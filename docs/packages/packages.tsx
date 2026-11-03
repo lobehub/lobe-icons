@@ -1,0 +1,82 @@
+'use client';
+
+import { FeatureGrid, type LandingLinkRender } from '@lobehub/ui/awesome';
+import { Box, CircleUser,FileCode2, FileImage, Globe, Package, Smartphone } from 'lucide-react';
+import { Link } from 'react-router';
+
+const renderLink: LandingLinkRender = ({ external, href, ...props }) =>
+  external ? (
+    <a href={href} rel="noreferrer" target="_blank" {...props} />
+  ) : (
+    <Link to={href} {...props} />
+  );
+
+const frameworkPackages = [
+  {
+    description: 'React components for AI model and provider logos.',
+    href: 'https://www.npmjs.com/package/@lobehub/icons',
+    icon: Package,
+    title: '@lobehub/icons',
+  },
+  {
+    description: 'React Native / Expo icon components (requires react-native-svg).',
+    href: 'https://www.npmjs.com/package/@lobehub/icons-rn',
+    icon: Smartphone,
+    title: '@lobehub/icons-rn',
+  },
+  {
+    description: 'Vue 3 components for AI / LLM brand icons (Vue 3.5+).',
+    href: 'https://www.npmjs.com/package/@lobehub/icons-vue',
+    icon: Box,
+    title: '@lobehub/icons-vue',
+  },
+];
+
+const staticPackages = [
+  {
+    description: 'Static SVG files for CDN and plain HTML usage.',
+    href: 'https://www.npmjs.com/package/@lobehub/icons-static-svg',
+    icon: FileCode2,
+    title: '@lobehub/icons-static-svg',
+  },
+  {
+    description: 'Static PNG files (light & dark) for CDN and plain HTML usage.',
+    href: 'https://www.npmjs.com/package/@lobehub/icons-static-png',
+    icon: FileImage,
+    title: '@lobehub/icons-static-png',
+  },
+  {
+    description: 'Static WEBP files (light & dark) for CDN and plain HTML usage.',
+    href: 'https://www.npmjs.com/package/@lobehub/icons-static-webp',
+    icon: Globe,
+    title: '@lobehub/icons-static-webp',
+  },
+  {
+    description: 'Static avatar images (WEBP) for CDN usage.',
+    href: 'https://www.npmjs.com/package/@lobehub/icons-static-avatar',
+    icon: CircleUser,
+    title: '@lobehub/icons-static-avatar',
+  },
+];
+
+export default function Packages() {
+  return (
+    <>
+      <p>
+        Official first-party packages for using Lobe Icons across frameworks and static assets.
+        Framework packages share the same brand catalog; static packages are CDN-friendly files.
+      </p>
+
+      <h2 id="framework">Framework</h2>
+      <FeatureGrid columns={2} items={[...frameworkPackages]} renderLink={renderLink} />
+
+      <h2 id="static">Static / CDN</h2>
+      <FeatureGrid columns={2} items={[...staticPackages]} renderLink={renderLink} />
+
+      <p>
+        Resolve CDN URLs in React with <Link to="/features/cdn-utils">getLobeIconCDN</Link>. For Vue
+        and React Native usage details, see the package READMEs on GitHub.
+      </p>
+    </>
+  );
+}

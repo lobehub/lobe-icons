@@ -31,6 +31,7 @@ export default defineDocsConfig({
     'docs/features/provider-combine.mdx',
     'docs/features/agent-icon.mdx',
     'docs/features/icon-avatar.mdx',
+    'docs/packages/index.mdx',
   ],
   siteUrl: 'https://icons.lobehub.com',
   themeConfig: {
@@ -59,11 +60,15 @@ export default defineDocsConfig({
           'https://repository-images.githubusercontent.com/750129442/edc2a03a-a6c4-4f11-89c8-8ffafbb85a7a',
       },
     },
-    navItems: [{ href: '/changelog', label: 'Changelog' }],
+    navItems: [
+      { href: '/packages', icon: 'package', label: 'Packages' },
+      { href: '/changelog', label: 'Changelog' },
+    ],
     prefersColor: 'auto',
     sidebarGroups: [
-      { dir: 'docs/editor', icon: 'file-code', order: 1, title: 'Editor' },
-      { dir: 'docs/features', icon: 'sparkles', order: 2, title: 'Features' },
+      { dir: 'docs/packages', icon: 'package', order: 1, title: 'Packages' },
+      { dir: 'docs/editor', icon: 'file-code', order: 2, title: 'Editor' },
+      { dir: 'docs/features', icon: 'sparkles', order: 3, title: 'Features' },
     ],
     socialLinks: [
       {
