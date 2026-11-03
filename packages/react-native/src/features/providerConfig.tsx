@@ -125,6 +125,7 @@ import SubModel from '../icons/SubModel';
 import Targon from '../icons/Targon';
 import Tencent from '../icons/Tencent';
 import TencentCloud from '../icons/TencentCloud';
+import TheGrid from '../icons/TheGrid';
 import TII from '../icons/TII';
 import Together from '../icons/Together';
 import TypeSafeAI from '../icons/TypeSafeAI';
@@ -412,6 +413,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Ai302, combineMultiple: 0.9, keywords: [RNModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [RNModelProvider.AiHubMix] },
   { Icon: CometAPI, keywords: [RNModelProvider.CometAPI] },
+  { Icon: TheGrid, keywords: [RNModelProvider.TheGrid] },
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine
