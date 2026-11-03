@@ -2,6 +2,321 @@
 
 # Changelog
 
+## [Version&nbsp;6.15.0](https://github.com/lobehub/lobe-icons/compare/v6.14.0...v6.15.0)
+
+<sup>Released on **2026-11-03**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **vue**: Ship Vue package + docs Packages/Editor/nav.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([cfd0e17](https://github.com/lobehub/lobe-icons/commit/cfd0e17))
+- **vue**: Ship Vue package + docs Packages/Editor/nav, closes [#462](https://github.com/lobehub/lobe-icons/issues/462) [#461](https://github.com/lobehub/lobe-icons/issues/461) ([f708d87](https://github.com/lobehub/lobe-icons/commit/f708d87))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;6.14.0](https://github.com/lobehub/lobe-icons/compare/v6.13.0...v6.14.0)
+
+<sup>Released on **2026-11-02**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add Reflection icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([d044bd0](https://github.com/lobehub/lobe-icons/commit/d044bd0))
+- **misc**: Add Reflection icon, closes [#459](https://github.com/lobehub/lobe-icons/issues/459) ([865e746](https://github.com/lobehub/lobe-icons/commit/865e746))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;6.13.0](https://github.com/lobehub/lobe-icons/compare/v6.12.0...v6.13.0)
+
+<sup>Released on **2026-10-26**</sup>
+
+#### ✨ Features
+
+- **misc**: Add DotHoosh icon, add EmpirioLabs AI icon and provider mapping.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add DotHoosh icon, closes [#446](https://github.com/lobehub/lobe-icons/issues/446) ([94a0cfe](https://github.com/lobehub/lobe-icons/commit/94a0cfe))
+- **misc**: Add EmpirioLabs AI icon and provider mapping, closes [#338](https://github.com/lobehub/lobe-icons/issues/338) ([54fed74](https://github.com/lobehub/lobe-icons/commit/54fed74))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;6.12.0](https://github.com/lobehub/lobe-icons/compare/v6.11.0...v6.12.0)
+
+<sup>Released on **2026-10-26**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 🐛 Bug Fixes
+
+- **model**: Match BAAI BGE models behind a provider prefix.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([b5f7817](https://github.com/lobehub/lobe-icons/commit/b5f7817))
+
+#### What's fixed
+
+- **model**: Match BAAI BGE models behind a provider prefix ([37ecf2d](https://github.com/lobehub/lobe-icons/commit/37ecf2d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;6.11.0](https://github.com/lobehub/lobe-icons/compare/v6.10.0...v6.11.0)
+
+<sup>Released on **2026-10-25**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **magpie**: Add Magpie brand icon set.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([20c96f6](https://github.com/lobehub/lobe-icons/commit/20c96f6))
+- **magpie**: Add Magpie brand icon set, closes [#451](https://github.com/lobehub/lobe-icons/issues/451) [#4D6](https://github.com/lobehub/lobe-icons/issues/4D6) ([09362f2](https://github.com/lobehub/lobe-icons/commit/09362f2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;6.10.0](https://github.com/lobehub/lobe-icons/compare/v6.9.1...v6.10.0)
+
+<sup>Released on **2026-10-25**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Grok Bot and Muse brand icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Grok Bot and Muse brand icons, closes [#450](https://github.com/lobehub/lobe-icons/issues/450) ([2ee864a](https://github.com/lobehub/lobe-icons/commit/2ee864a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version&nbsp;6.9.1](https://github.com/lobehub/lobe-icons/compare/v6.9.0...v6.9.1)
+
+<sup>Released on **2026-10-25**</sup>
+
+#### 🐛 Bug Fixes
+
+- **deps**: Make lucide-react a peer dependency.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **deps**: Make lucide-react a peer dependency ([eb24e61](https://github.com/lobehub/lobe-icons/commit/eb24e61))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;6.9.0](https://github.com/lobehub/lobe-icons/compare/v6.8.0...v6.9.0)
+
+<sup>Released on **2026-10-23**</sup>
+
+#### ✨ Features
+
+- **model**: Add jev model and typesafe provider matching.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **model**: Add jev model and typesafe provider matching, closes [#448](https://github.com/lobehub/lobe-icons/issues/448) ([57ef4c3](https://github.com/lobehub/lobe-icons/commit/57ef4c3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;6.8.0](https://github.com/lobehub/lobe-icons/compare/v6.7.0...v6.8.0)
+
+<sup>Released on **2026-10-23**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([42033f3](https://github.com/lobehub/lobe-icons/commit/42033f3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;6.7.0](https://github.com/lobehub/lobe-icons/compare/v6.6.0...v6.7.0)
+
+<sup>Released on **2026-10-23**</sup>
+
+#### ✨ Features
+
+- **misc**: Add TypeSafe and Unsloth provider mappings.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add TypeSafe and Unsloth provider mappings ([e7c7ba9](https://github.com/lobehub/lobe-icons/commit/e7c7ba9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;6.6.0](https://github.com/lobehub/lobe-icons/compare/v6.5.0...v6.6.0)
+
+<sup>Released on **2026-10-22**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([2790e33](https://github.com/lobehub/lobe-icons/commit/2790e33))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;6.5.0](https://github.com/lobehub/lobe-icons/compare/v6.4.0...v6.5.0)
+
+<sup>Released on **2026-10-22**</sup>
+
+#### ✨ Features
+
+- **misc**: Add TypeSafe AI icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add TypeSafe AI icon, closes [#443](https://github.com/lobehub/lobe-icons/issues/443) [#421](https://github.com/lobehub/lobe-icons/issues/421) ([3e13462](https://github.com/lobehub/lobe-icons/commit/3e13462))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 # [6.4.0](https://github.com/lobehub/lobe-icons/compare/v6.3.0...v6.4.0) (2026-10-21)
 
 ### ✨ Features

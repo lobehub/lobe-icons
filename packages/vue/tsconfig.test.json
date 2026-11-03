@@ -1,0 +1,5 @@
+{
+  "compilerOptions": { "rootDir": ".", "noEmit": true },
+  "extends": "./tsconfig.build.json",
+  "include": ["tests/types.ts"]
+}

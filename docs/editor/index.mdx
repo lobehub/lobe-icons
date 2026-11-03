@@ -2,12 +2,12 @@
 title: Icon Editor
 description: Icon Editor for @lobehub/icons
 category: Editor
+order: 2
 ---
 
-import DemoIndex from '../../src/components/Editor/demos/index.tsx?demo';
+import EditorDemo from '../../src/components/Editor';
+import Editor from './editor';
 
-## SVG Editor
-
-- SVG Minifier: [https://svgminify.com](https://svgminify.com)
-
-<Demo of={DemoIndex} />
+<Editor>
+  <EditorDemo />
+</Editor>

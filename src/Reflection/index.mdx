@@ -1,0 +1,85 @@
+---
+title: Reflection
+description: https://reflection.ai
+category: Provider
+---
+
+import { Reflection } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  <Flexbox gap={16} horizontal>
+    <Reflection size={64} />
+    <Reflection.Color size={64} />
+  </Flexbox>
+</DocsPreview>
+
+```tsx
+import { Reflection } from '@lobehub/icons';
+
+export default () => (
+  <>
+    <Reflection size={64} />
+    <Reflection.Color size={64} />
+  </>
+);
+```
+
+## Text
+
+<DocsPreview>{<Reflection.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Reflection } from '@lobehub/icons';
+
+export default () => <Reflection.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>{<Reflection.Combine size={64} />}</DocsPreview>
+
+```tsx
+import { Reflection } from '@lobehub/icons';
+
+export default () => <Reflection.Combine size={64} />;
+```
+
+## Avatars
+
+<DocsPreview>
+  <Flexbox gap={16} horizontal>
+    <Reflection.Avatar size={64} />
+    <Reflection.Avatar size={64} shape={'square'} />
+  </Flexbox>
+</DocsPreview>
+
+```tsx
+import { Reflection } from '@lobehub/icons';
+
+export default () => (
+  <>
+    <Reflection.Avatar size={64} />
+    <Reflection.Avatar size={64} shape={'square'} />
+  </>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  <ColorPreview color={Reflection.colorPrimary} />
+</DocsPreview>
+
+```tsx
+import { Reflection } from '@lobehub/icons';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => <ColorPreview color={Reflection.colorPrimary} />;
+```

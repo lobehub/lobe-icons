@@ -1,0 +1,14 @@
+[
+  "features/index.ts",
+  "features/modelConfig.ts",
+  "features/agentConfig.ts",
+  "features/providerConfig.tsx",
+  "features/providerEnum.ts",
+  "types/toc.ts",
+  "features/getLobeIconCDN/index.tsx",
+  "features/ModelIcon/index.tsx",
+  "features/ProviderIcon/index.tsx",
+  "features/AgentIcon/index.tsx",
+  "features/ProviderCombine/index.tsx",
+  "features/ProviderCombine/Combine.tsx"
+]

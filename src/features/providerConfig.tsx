@@ -45,6 +45,7 @@ import DeepInfra from '@/DeepInfra';
 import DeepMind from '@/DeepMind';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
+import EmpirioLabs from '@/EmpirioLabs';
 import Exa from '@/Exa';
 import Fal from '@/Fal';
 import Featherless from '@/Featherless';
@@ -82,6 +83,7 @@ import LlmGateway from '@/LlmGateway';
 import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
 import LongCat from '@/LongCat';
+import Magpie from '@/Magpie';
 import Menlo from '@/Menlo';
 import MetaAI from '@/MetaAI';
 import Microsoft from '@/Microsoft';
@@ -128,6 +130,8 @@ import TheGrid from '@/TheGrid';
 import TII from '@/TII';
 import Together from '@/Together';
 import type { IconType } from '@/types';
+import TypeSafeAI from '@/TypeSafeAI';
+import Unsloth from '@/Unsloth';
 import Upstage from '@/Upstage';
 import V0 from '@/V0';
 import Vercel from '@/Vercel';
@@ -184,6 +188,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Crusoe, keywords: [ModelProvider.Crusoe] },
   { Icon: DeepInfra, keywords: [ModelProvider.DeepInfra] },
   { Icon: DeepMind, keywords: [ModelProvider.DeepMind] },
+  { Icon: EmpirioLabs, keywords: [ModelProvider.EmpirioLabs] },
   { Icon: Exa, keywords: [ModelProvider.Exa] },
   { Icon: Featherless, keywords: [ModelProvider.Featherless] },
   { Icon: Friendli, keywords: [ModelProvider.Friendli] },
@@ -217,6 +222,8 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Targon, keywords: [ModelProvider.Targon] },
   { Icon: Tencent, keywords: [ModelProvider.Tencent] },
   { Icon: TII, keywords: [ModelProvider.TII] },
+  { Icon: TypeSafeAI, keywords: [ModelProvider.TypeSafe, 'typesafe-ai', 'typesafeai'] },
+  { Icon: Unsloth, keywords: [ModelProvider.Unsloth] },
   { Icon: Yandex, keywords: [ModelProvider.Yandex] },
 
   { Icon: AiMass, keywords: [ModelProvider.AiMass] },
@@ -370,6 +377,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: SenseNova, combineMultiple: 0.95, keywords: [ModelProvider.SenseNova] },
   { Icon: HuggingFace, combineMultiple: 1.16, keywords: [ModelProvider.HuggingFace] },
   { Icon: LmStudio, keywords: [ModelProvider.LmStudio] },
+  { Icon: Magpie, keywords: [ModelProvider.Magpie, 'magpie'] },
   { Icon: XAI, combineMultiple: 0.85, keywords: [ModelProvider.XAI] },
   { Icon: Grok, keywords: [ModelProvider.SuperGrok] },
   {

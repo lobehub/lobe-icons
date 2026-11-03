@@ -3,7 +3,7 @@ import { elementName, getAttribute } from '../utils.mjs';
 const ID_ELEMENTS = new Set(['clipPath', 'filter', 'linearGradient', 'mask', 'radialGradient']);
 const HOOKS = new Set(['useFillId', 'useFillIds']);
 /** `url(#` followed by a literal id character (not the start of a `${…}` interpolation). */
-const LITERAL_URL_REF = /url\(\s*['"]?#(?!\$\{)[^\s)'"]/;
+const LITERAL_URL_REF = /url\(\s*["']?#(?!\$\{)[^\s"')]/u;
 
 const calleeName = (call) => {
   const { callee } = call;
@@ -80,16 +80,16 @@ export default {
     };
 
     return {
-      'JSXOpeningElement'(node) {
+      'JSXOpeningElement': function (node) {
         const element = elementName(node);
         if (!ID_ELEMENTS.has(element)) return;
         const attr = getAttribute(node, 'id');
         if (attr) pendingIds.push({ attr, element });
       },
-      'Literal'(node) {
+      'Literal': function (node) {
         checkUrl(node, node.value);
       },
-      'Program:exit'() {
+      'Program:exit': function () {
         for (const { attr, element } of pendingIds) {
           const { value } = attr;
           if (!value) continue;
@@ -121,10 +121,10 @@ export default {
           }
         }
       },
-      'TemplateElement'(node) {
+      'TemplateElement': function (node) {
         checkUrl(node, node.value.cooked);
       },
-      'VariableDeclarator'(node) {
+      'VariableDeclarator': function (node) {
         const init = node.init?.type === 'CallExpression' ? node.init : undefined;
         if (!init) return;
         const name = calleeName(init);

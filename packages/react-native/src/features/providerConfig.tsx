@@ -1,4 +1,5 @@
-import { FC, memo } from 'react';
+import type { FC } from 'react';
+import { memo } from 'react';
 
 import Ai21 from '../icons/Ai21';
 import Ai302 from '../icons/Ai302';
@@ -43,6 +44,7 @@ import DeepInfra from '../icons/DeepInfra';
 import DeepMind from '../icons/DeepMind';
 import DeepSeek from '../icons/DeepSeek';
 import Doubao from '../icons/Doubao';
+import EmpirioLabs from '../icons/EmpirioLabs';
 import Exa from '../icons/Exa';
 import Fal from '../icons/Fal';
 import Featherless from '../icons/Featherless';
@@ -72,14 +74,15 @@ import Infinigence from '../icons/Infinigence';
 import InternLM from '../icons/InternLM';
 import Jina from '../icons/Jina';
 import Kluster from '../icons/Kluster';
-import LG from '../icons/LG';
 import Lambda from '../icons/Lambda';
 import LeptonAI from '../icons/LeptonAI';
+import LG from '../icons/LG';
 import LlmApi from '../icons/LlmApi';
 import LlmGateway from '../icons/LlmGateway';
 import LmStudio from '../icons/LmStudio';
 import LobeHub from '../icons/LobeHub';
 import LongCat from '../icons/LongCat';
+import Magpie from '../icons/Magpie';
 import Menlo from '../icons/Menlo';
 import MetaAI from '../icons/MetaAI';
 import Microsoft from '../icons/Microsoft';
@@ -87,20 +90,20 @@ import Minimax from '../icons/Minimax';
 import Mistral from '../icons/Mistral';
 import ModelScope from '../icons/ModelScope';
 import Moonshot from '../icons/Moonshot';
-import NPLCloud from '../icons/NPLCloud';
 import Nebius from '../icons/Nebius';
 import NewAPI from '../icons/NewAPI';
 import NousResearch from '../icons/NousResearch';
 import Novita from '../icons/Novita';
+import NPLCloud from '../icons/NPLCloud';
 import Nvidia from '../icons/Nvidia';
 import Ollama from '../icons/Ollama';
 import OpenAI from '../icons/OpenAI';
 import OpenCode from '../icons/OpenCode';
 import OpenRouter from '../icons/OpenRouter';
-import PPIO from '../icons/PPIO';
 import Parasail from '../icons/Parasail';
 import Perplexity from '../icons/Perplexity';
 import Player2 from '../icons/Player2';
+import PPIO from '../icons/PPIO';
 import Qiniu from '../icons/Qiniu';
 import Qwen from '../icons/Qwen';
 import Replicate from '../icons/Replicate';
@@ -119,12 +122,14 @@ import Straico from '../icons/Straico';
 import StreamLake from '../icons/StreamLake';
 import Sub2API from '../icons/Sub2API';
 import SubModel from '../icons/SubModel';
-import TII from '../icons/TII';
 import Targon from '../icons/Targon';
 import Tencent from '../icons/Tencent';
 import TencentCloud from '../icons/TencentCloud';
 import TheGrid from '../icons/TheGrid';
+import TII from '../icons/TII';
 import Together from '../icons/Together';
+import TypeSafeAI from '../icons/TypeSafeAI';
+import Unsloth from '../icons/Unsloth';
 import Upstage from '../icons/Upstage';
 import V0 from '../icons/V0';
 import Vercel from '../icons/Vercel';
@@ -157,8 +162,8 @@ type RNProviderIconType = FC<RNIconProps & any> & {
 
 export interface RNProviderMapping {
   Combine?: FC<{ size: number; type: 'color' | 'mono' }>;
-  Icon: RNProviderIconType;
   combineMultiple?: number;
+  Icon: RNProviderIconType;
   keywords: string[];
   props?: any;
 }
@@ -179,6 +184,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Crusoe, keywords: [RNModelProvider.Crusoe] },
   { Icon: DeepInfra, keywords: [RNModelProvider.DeepInfra] },
   { Icon: DeepMind, keywords: [RNModelProvider.DeepMind] },
+  { Icon: EmpirioLabs, keywords: [RNModelProvider.EmpirioLabs] },
   { Icon: Exa, keywords: [RNModelProvider.Exa] },
   { Icon: Featherless, keywords: [RNModelProvider.Featherless] },
   { Icon: Friendli, keywords: [RNModelProvider.Friendli] },
@@ -212,6 +218,8 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Targon, keywords: [RNModelProvider.Targon] },
   { Icon: Tencent, keywords: [RNModelProvider.Tencent] },
   { Icon: TII, keywords: [RNModelProvider.TII] },
+  { Icon: TypeSafeAI, keywords: [RNModelProvider.TypeSafe, 'typesafe-ai', 'typesafeai'] },
+  { Icon: Unsloth, keywords: [RNModelProvider.Unsloth] },
   { Icon: Yandex, keywords: [RNModelProvider.Yandex] },
 
   { Icon: AiMass, keywords: [RNModelProvider.AiMass] },
@@ -239,6 +247,8 @@ export const rnProviderMappings: RNProviderMapping[] = [
   {
     Combine: memo(({ size = 24, type = 'color', ...props }) => (
       <Combine
+        right={<Gemini.Combine size={size} type={type} />}
+        size={size}
         left={
           type === 'color' ? (
             <Google.BrandColor size={size * 0.95} />
@@ -246,8 +256,6 @@ export const rnProviderMappings: RNProviderMapping[] = [
             <Google.Brand size={size * 0.95} />
           )
         }
-        right={<Gemini.Combine size={size} type={type} />}
-        size={size}
         {...props}
       />
     )),
@@ -365,6 +373,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: SenseNova, combineMultiple: 0.95, keywords: [RNModelProvider.SenseNova] },
   { Icon: HuggingFace, combineMultiple: 1.16, keywords: [RNModelProvider.HuggingFace] },
   { Icon: LmStudio, keywords: [RNModelProvider.LmStudio] },
+  { Icon: Magpie, keywords: [RNModelProvider.Magpie, 'magpie'] },
   { Icon: XAI, combineMultiple: 0.85, keywords: [RNModelProvider.XAI] },
   { Icon: Grok, keywords: [RNModelProvider.SuperGrok] },
   {

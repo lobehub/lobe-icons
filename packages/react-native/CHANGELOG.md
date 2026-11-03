@@ -2,6 +2,181 @@
 
 # Changelog
 
+## [Version&nbsp;2.21.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.20.1...@lobehub/icons-rn@2.21.0)
+
+<sup>Released on **2026-10-26**</sup>
+
+#### ✨ Features
+
+- **misc**: Add EmpirioLabs AI icon and provider mapping.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add EmpirioLabs AI icon and provider mapping, closes [#338](https://github.com/lobehub/lobe-icons/issues/338) ([54fed74](https://github.com/lobehub/lobe-icons/commit/54fed74))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version&nbsp;2.20.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.20.0...@lobehub/icons-rn@2.20.1)
+
+<sup>Released on **2026-10-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **model**: Match BAAI BGE models behind a provider prefix.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **model**: Match BAAI BGE models behind a provider prefix ([37ecf2d](https://github.com/lobehub/lobe-icons/commit/37ecf2d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;2.20.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.19.0...@lobehub/icons-rn@2.20.0)
+
+<sup>Released on **2026-10-25**</sup>
+
+#### ✨ Features
+
+- **magpie**: Add Magpie brand icon set.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **magpie**: Add Magpie brand icon set, closes [#451](https://github.com/lobehub/lobe-icons/issues/451) [#4D6](https://github.com/lobehub/lobe-icons/issues/4D6) ([09362f2](https://github.com/lobehub/lobe-icons/commit/09362f2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;2.19.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.18.0...@lobehub/icons-rn@2.19.0)
+
+<sup>Released on **2026-10-25**</sup>
+
+#### ✨ Features
+
+- **misc**: Add Grok Bot and Muse brand icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add Grok Bot and Muse brand icons, closes [#450](https://github.com/lobehub/lobe-icons/issues/450) ([2ee864a](https://github.com/lobehub/lobe-icons/commit/2ee864a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;2.18.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.17.0...@lobehub/icons-rn@2.18.0)
+
+<sup>Released on **2026-10-23**</sup>
+
+#### ✨ Features
+
+- **model**: Add jev model and typesafe provider matching.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **model**: Add jev model and typesafe provider matching, closes [#448](https://github.com/lobehub/lobe-icons/issues/448) ([57ef4c3](https://github.com/lobehub/lobe-icons/commit/57ef4c3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;2.17.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.16.0...@lobehub/icons-rn@2.17.0)
+
+<sup>Released on **2026-10-23**</sup>
+
+#### ✨ Features
+
+- **misc**: Add TypeSafe and Unsloth provider mappings.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add TypeSafe and Unsloth provider mappings ([e7c7ba9](https://github.com/lobehub/lobe-icons/commit/e7c7ba9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;2.16.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.15.0...@lobehub/icons-rn@2.16.0)
+
+<sup>Released on **2026-10-22**</sup>
+
+#### ✨ Features
+
+- **misc**: Add TypeSafe AI icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add TypeSafe AI icon, closes [#443](https://github.com/lobehub/lobe-icons/issues/443) [#E551](https://github.com/lobehub/lobe-icons/issues/E551) [#421](https://github.com/lobehub/lobe-icons/issues/421) ([3e13462](https://github.com/lobehub/lobe-icons/commit/3e13462))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 2.15.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.14.0...@lobehub/icons-rn@2.15.0)
 
 <sup>Released on **2026-10-21**</sup>

@@ -2,6 +2,131 @@
 
 # Changelog
 
+## [Version&nbsp;1.102.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.101.0...@lobehub/icons-static-svg@1.102.0)
+
+<sup>Released on **2026-11-02**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([cfd0e17](https://github.com/lobehub/lobe-icons/commit/cfd0e17))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;1.101.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.100.0...@lobehub/icons-static-svg@1.101.0)
+
+<sup>Released on **2026-10-26**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([d044bd0](https://github.com/lobehub/lobe-icons/commit/d044bd0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;1.100.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.99.0...@lobehub/icons-static-svg@1.100.0)
+
+<sup>Released on **2026-10-25**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([b5f7817](https://github.com/lobehub/lobe-icons/commit/b5f7817))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;1.99.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.98.0...@lobehub/icons-static-svg@1.99.0)
+
+<sup>Released on **2026-10-25**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([20c96f6](https://github.com/lobehub/lobe-icons/commit/20c96f6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version&nbsp;1.98.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.97.0...@lobehub/icons-static-svg@1.98.0)
+
+<sup>Released on **2026-10-22**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([2790e33](https://github.com/lobehub/lobe-icons/commit/2790e33))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 # @lobehub/icons-static-svg [1.97.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-static-svg@1.96.0...@lobehub/icons-static-svg@1.97.0) (2026-10-21)
 
 ### ✨ Features

@@ -4,8 +4,8 @@ import { Flexbox, type FlexboxProps } from '@lobehub/ui';
 import type { CSSProperties } from 'react';
 import { memo } from 'react';
 
-import type { IconAvatarProps } from '@/features/IconAvatar';
 import type IconAvatar from '@/features/IconAvatar';
+import type { IconAvatarProps } from '@/features/IconAvatar';
 import type { IconType } from '@/types';
 
 export interface IconCombineProps extends FlexboxProps {

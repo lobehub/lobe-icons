@@ -1,0 +1,102 @@
+---
+title: Muse (Meta)
+description: https://muse.ai
+category: Model
+---
+
+import { Muse } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Muse size={64} />
+      <Muse.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Muse } from '@lobehub/icons';
+
+export default () => <Muse size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Muse.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Muse } from '@lobehub/icons';
+
+export default () => <Muse.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Muse.Combine size={64} />
+      <Muse.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Muse } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Muse.Combine size={64} />
+    <Muse.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Muse.Avatar size={64} />
+      <Muse.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Muse } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Muse.Avatar size={64} />
+    <Muse.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Muse.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Muse } from '@lobehub/icons';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => <ColorPreview color={Muse.colorPrimary} />;
+```

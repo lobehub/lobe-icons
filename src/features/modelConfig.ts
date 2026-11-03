@@ -66,6 +66,7 @@ import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import Moonshot from '@/Moonshot';
 import Morph from '@/Morph';
+import Muse from '@/Muse';
 import NanoBanana from '@/NanoBanana';
 import NousResearch from '@/NousResearch';
 import Nova from '@/Nova';
@@ -89,6 +90,7 @@ import Stepfun from '@/Stepfun';
 import Suno from '@/Suno';
 import TII from '@/TII';
 import type { IconType } from '@/types';
+import TypeSafeAI from '@/TypeSafeAI';
 import Udio from '@/Udio';
 import UnionAlpha from '@/UnionAlpha';
 import Upstage from '@/Upstage';
@@ -282,8 +284,8 @@ export const modelMappings: ModelMapping[] = [
   { Icon: SenseNova, keywords: ['SenseChat', 'SenseNova'] },
   { Icon: Grok, keywords: ['^grok-', '/grok-'] },
   { Icon: Ideogram, keywords: ['ideogram', '^v_1', '^v_2', '^v3$', '^upscale$', '^describe$'] },
-  /** Meta Muse models; match Muse Spark before the broad iFlyTek Spark keyword. */
-  { Icon: Meta, keywords: ['(^|/)muse-(spark|wonder)($|-)'] },
+  /** Muse (Meta) models; match before the broad iFlyTek Spark keyword. */
+  { Icon: Muse, keywords: ['(^|/)muse-(spark|wonder|image|video)($|-)'] },
   {
     Icon: Spark,
     keywords: [
@@ -326,7 +328,8 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Kwaipilot, keywords: ['kat-'] },
   { Icon: Nova, keywords: ['^nova-', '/nova-'] },
   { Icon: XiaomiMiMo, keywords: ['^mimo-', '/mimo-'] },
-  { Icon: BAAI, keywords: ['^baai', '^bge-', '/beg-', 'touchd', 'robobrain'] },
+  { Icon: BAAI, keywords: ['^baai', '^bge-', '/bge-', 'touchd', 'robobrain'] },
   { Icon: Ace, keywords: ['ace-step'] },
   { Icon: Cursor, keywords: ['^composer', '/composer', '-composer'] },
+  { Icon: TypeSafeAI, keywords: ['(^|/)jev($|-)', 'typesafe'] },
 ];

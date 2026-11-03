@@ -1,0 +1,42 @@
+# Remove a PR's rendered previews from the pr-previews branch once it is closed.
+# pull_request_target is safe here: nothing from the PR is checked out or executed.
+name: PR Icon Preview Cleanup
+on:
+  pull_request_target:
+    types: [closed]
+    paths:
+      - 'src/**'
+
+permissions:
+  contents: write
+
+env:
+  PREVIEW_BRANCH: pr-previews
+
+jobs:
+  cleanup:
+    name: Delete previews
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Remove pr-${{ github.event.pull_request.number }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |-
+          git init -q previews && cd previews
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git config http.https://github.com/.extraheader "AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
+          git ls-remote --exit-code --heads origin "$PREVIEW_BRANCH" > /dev/null || exit 0
+          for attempt in 1 2 3 4 5; do
+            git fetch -q --depth=1 origin "$PREVIEW_BRANCH"
+            git checkout -q -B "$PREVIEW_BRANCH" FETCH_HEAD
+            [ -d "pr-${PR_NUMBER}" ] || exit 0
+            git rm -rq "pr-${PR_NUMBER}"
+            git commit -q -m "preview: remove #${PR_NUMBER}"
+            git push -q origin "HEAD:refs/heads/${PREVIEW_BRANCH}" && exit 0
+            sleep $((attempt * 3))
+          done
+          exit 1

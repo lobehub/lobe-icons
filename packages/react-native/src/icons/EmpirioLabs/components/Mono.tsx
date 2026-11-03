@@ -1,0 +1,27 @@
+import React, { memo } from 'react';
+import { Path, Svg } from 'react-native-svg';
+
+import type { RNIconProps } from '@/features';
+
+const Icon = memo<RNIconProps>(({ size = 24, style, color = '#000000', ...rest }) => {
+  return (
+    <Svg
+      color={color}
+      fillRule="evenodd"
+      height={size}
+      style={style}
+      viewBox="0 0 24 24"
+      width={size}
+      {...rest}
+    >
+      <Path
+        d="M11.61 0.0L1.65 6.26L1.65 17.79L12.05 24.0L21.56 18.18L19.74 16.8L12.37 21.39L12.32 15.25L10.52 16.21L10.5 20.77L4.63 17.17L22.35 6.36ZM3.57 7.42L10.23 11.53L3.6 15.57ZM11.68 2.51L18.31 6.63L12.1 10.37L5.47 6.51Z"
+        fill={color}
+      />
+    </Svg>
+  );
+});
+
+Icon.displayName = 'EmpirioLabsMono';
+
+export default Icon;

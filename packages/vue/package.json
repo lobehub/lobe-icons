@@ -1,0 +1,63 @@
+{
+  "name": "@lobehub/icons-vue",
+  "version": "1.0.0",
+  "description": "AI / LLM brand SVG icons for Vue 3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lobehub/lobe-icons.git",
+    "directory": "packages/vue"
+  },
+  "license": "MIT",
+  "author": "LobeHub <i@lobehub.com>",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./icons": {
+      "types": "./dist/icons.d.ts",
+      "import": "./dist/icons.js"
+    },
+    "./es/*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js"
+    },
+    "./*": {
+      "types": "./dist/*/index.d.ts",
+      "import": "./dist/*/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun run generate --clean-dist && tsc -p tsconfig.build.json",
+    "generate": "bun scripts/generate.ts",
+    "lint": "eslint \"{src,scripts,tests}/**/*.{ts,cjs}\" vitest.config.ts .releaserc.cjs",
+    "prepack": "bun run build",
+    "test": "bun run build && tsc -p tsconfig.test.json && vitest run --config vitest.config.ts",
+    "type-check": "bun run generate && tsc -p tsconfig.build.json --noEmit"
+  },
+  "dependencies": {
+    "es-toolkit": "^1.52.0"
+  },
+  "devDependencies": {
+    "@vue/server-renderer": "^3.5.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7",
+    "vue": "^3.5.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

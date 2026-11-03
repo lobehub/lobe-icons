@@ -1,0 +1,19 @@
+import React, { memo } from 'react';
+import { Path, Svg } from 'react-native-svg';
+
+import type { RNIconProps } from '@/features';
+
+const Icon = memo<RNIconProps>(({ size = 24, style, color = '#000000', ...rest }) => {
+  return (
+    <Svg color={color} height={size} style={style} viewBox="0 0 24 24" width={size} {...rest}>
+      <Path
+        d="M16.512 2.928L16.512 7.067 20.242 9.487 20.243 18.652 12 24 7.489 21.073 7.489 16.82 3.756 14.399 3.756 5.35 4.111 5.118 12 0ZM9.697 20.65L11.998 22.144 18.032 18.227 15.732 16.735ZM12.779 10.332L12.779 14.4 9.046 16.822 9.046 19.216 14.953 15.383 14.953 8.921ZM16.512 15.384L18.684 16.794 18.684 10.332 16.512 8.922ZM5.966 13.976L8.268 15.47 10.569 13.976 8.268 12.485ZM5.316 6.193L5.316 12.544 7.487 11.134 7.487 7.066 11.221 4.643 11.221 2.36 5.316 6.193ZM9.047 11.132L11.22 12.542 11.22 10.332 9.049 8.921 9.049 11.132ZM9.697 7.487L12 8.981 14.3 7.488 12 5.994ZM12.78 4.643L14.953 6.054 14.953 3.774 12.78 2.359Z"
+        fill={color}
+      />
+    </Svg>
+  );
+});
+
+Icon.displayName = 'TypeSafeAIMono';
+
+export default Icon;

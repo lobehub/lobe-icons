@@ -153,6 +153,10 @@ export {
 export { default as ElevenLabs, type CompoundedIcon as ElevenLabsProps } from './icons/ElevenLabs';
 export { default as ElevenX, type CompoundedIcon as ElevenXProps } from './icons/ElevenX';
 export {
+  default as EmpirioLabs,
+  type CompoundedIcon as EmpirioLabsProps,
+} from './icons/EmpirioLabs';
+export {
   default as EssentialAI,
   type CompoundedIcon as EssentialAIProps,
 } from './icons/EssentialAI';
@@ -195,6 +199,7 @@ export { default as Gradio, type CompoundedIcon as GradioProps } from './icons/G
 export { default as GreenPT, type CompoundedIcon as GreenPTProps } from './icons/GreenPT';
 export { default as Greptile, type CompoundedIcon as GreptileProps } from './icons/Greptile';
 export { default as Grok, type CompoundedIcon as GrokProps } from './icons/Grok';
+export { default as GrokBot, type CompoundedIcon as GrokBotProps } from './icons/GrokBot';
 export { default as Groq, type CompoundedIcon as GroqProps } from './icons/Groq';
 export { default as Hailuo, type CompoundedIcon as HailuoProps } from './icons/Hailuo';
 export { default as Haiper, type CompoundedIcon as HaiperProps } from './icons/Haiper';
@@ -268,6 +273,7 @@ export { default as Lovable, type CompoundedIcon as LovableProps } from './icons
 export { default as Lovart, type CompoundedIcon as LovartProps } from './icons/Lovart';
 export { default as Luma, type CompoundedIcon as LumaProps } from './icons/Luma';
 export { default as Magic, type CompoundedIcon as MagicProps } from './icons/Magic';
+export { default as Magpie, type CompoundedIcon as MagpieProps } from './icons/Magpie';
 export { default as Make, type CompoundedIcon as MakeProps } from './icons/Make';
 export { default as Manus, type CompoundedIcon as ManusProps } from './icons/Manus';
 export { default as Mastra, type CompoundedIcon as MastraProps } from './icons/Mastra';
@@ -287,6 +293,7 @@ export { default as Monica, type CompoundedIcon as MonicaProps } from './icons/M
 export { default as Moonshot, type CompoundedIcon as MoonshotProps } from './icons/Moonshot';
 export { default as Morph, type CompoundedIcon as MorphProps } from './icons/Morph';
 export { default as Moxt, type CompoundedIcon as MoxtProps } from './icons/Moxt';
+export { default as Muse, type CompoundedIcon as MuseProps } from './icons/Muse';
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './icons/MyShell';
 export { default as N8n, type CompoundedIcon as N8nProps } from './icons/N8n';
 export { default as NanoBanana, type CompoundedIcon as NanoBananaProps } from './icons/NanoBanana';
@@ -396,6 +403,7 @@ export { default as TopazLabs, type CompoundedIcon as TopazLabsProps } from './i
 export { default as Trae, type CompoundedIcon as TraeProps } from './icons/Trae';
 export { default as Tripo, type CompoundedIcon as TripoProps } from './icons/Tripo';
 export { default as TuriX, type CompoundedIcon as TuriXProps } from './icons/TuriX';
+export { default as TypeSafeAI, type CompoundedIcon as TypeSafeAIProps } from './icons/TypeSafeAI';
 export { default as Udio, type CompoundedIcon as UdioProps } from './icons/Udio';
 export { default as UnionAlpha, type CompoundedIcon as UnionAlphaProps } from './icons/UnionAlpha';
 export { default as Unsloth, type CompoundedIcon as UnslothProps } from './icons/Unsloth';
