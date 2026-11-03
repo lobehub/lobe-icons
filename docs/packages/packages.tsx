@@ -1,7 +1,8 @@
 'use client';
 
 import { FeatureGrid, type LandingLinkRender } from '@lobehub/ui/awesome';
-import { Box, CircleUser,FileCode2, FileImage, Globe, Package, Smartphone } from 'lucide-react';
+import { CircleUser, FileCode2, FileImage, Image } from 'lucide-react';
+import type { ReactNode } from 'react';
 import { Link } from 'react-router';
 
 const renderLink: LandingLinkRender = ({ external, href, ...props }) =>
@@ -11,23 +12,36 @@ const renderLink: LandingLinkRender = ({ external, href, ...props }) =>
     <Link to={href} {...props} />
   );
 
+/** Lucide-style framework logos (same assets as lucide.dev/packages). */
+function FrameworkLogo({ name, alt }: { name: string; alt: string }): ReactNode {
+  return (
+    <img
+      alt={alt}
+      height={16}
+      src={`/framework-logos/${name}.svg`}
+      style={{ display: 'block', objectFit: 'contain' }}
+      width={16}
+    />
+  );
+}
+
 const frameworkPackages = [
   {
     description: 'React components for AI model and provider logos.',
     href: 'https://www.npmjs.com/package/@lobehub/icons',
-    icon: Package,
+    icon: <FrameworkLogo alt="React" name="react" />,
     title: '@lobehub/icons',
   },
   {
     description: 'React Native / Expo icon components (requires react-native-svg).',
     href: 'https://www.npmjs.com/package/@lobehub/icons-rn',
-    icon: Smartphone,
+    icon: <FrameworkLogo alt="React Native" name="react-native" />,
     title: '@lobehub/icons-rn',
   },
   {
     description: 'Vue 3 components for AI / LLM brand icons (Vue 3.5+).',
     href: 'https://www.npmjs.com/package/@lobehub/icons-vue',
-    icon: Box,
+    icon: <FrameworkLogo alt="Vue" name="vue" />,
     title: '@lobehub/icons-vue',
   },
 ];
@@ -48,7 +62,7 @@ const staticPackages = [
   {
     description: 'Static WEBP files (light & dark) for CDN and plain HTML usage.',
     href: 'https://www.npmjs.com/package/@lobehub/icons-static-webp',
-    icon: Globe,
+    icon: Image,
     title: '@lobehub/icons-static-webp',
   },
   {

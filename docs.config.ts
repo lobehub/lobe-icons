@@ -65,11 +65,7 @@ export default defineDocsConfig({
       { href: '/changelog', label: 'Changelog' },
     ],
     prefersColor: 'auto',
-    sidebarGroups: [
-      { dir: 'docs/packages', icon: 'package', order: 1, title: 'Packages' },
-      { dir: 'docs/editor', icon: 'file-code', order: 2, title: 'Editor' },
-      { dir: 'docs/features', icon: 'sparkles', order: 3, title: 'Features' },
-    ],
+    sidebarGroups: [{ dir: 'docs/features', icon: 'sparkles', order: 1, title: 'Features' }],
     socialLinks: [
       {
         href: 'https://github.com/lobehub/lobe-icons',
