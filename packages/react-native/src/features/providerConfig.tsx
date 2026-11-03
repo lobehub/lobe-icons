@@ -40,6 +40,7 @@ import CometAPI from '../icons/CometAPI';
 import ComfyUI from '../icons/ComfyUI';
 import Copilot from '../icons/Copilot';
 import Crusoe from '../icons/Crusoe';
+import DeAPI from '../icons/DeAPI';
 import DeepInfra from '../icons/DeepInfra';
 import DeepMind from '../icons/DeepMind';
 import DeepSeek from '../icons/DeepSeek';
@@ -181,6 +182,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: CentML, keywords: [RNModelProvider.CentML] },
   { Icon: Civitai, keywords: [RNModelProvider.Civitai] },
   { Icon: Crusoe, keywords: [RNModelProvider.Crusoe] },
+  { Icon: DeAPI, keywords: [RNModelProvider.DeAPI] },
   { Icon: DeepInfra, keywords: [RNModelProvider.DeepInfra] },
   { Icon: DeepMind, keywords: [RNModelProvider.DeepMind] },
   { Icon: EmpirioLabs, keywords: [RNModelProvider.EmpirioLabs] },
