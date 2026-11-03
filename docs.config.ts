@@ -20,8 +20,8 @@ export default defineDocsConfig({
   },
   homePage: './docs/index.tsx',
   legacyRedirects,
-  navSections: {},
   publicDocs: [
+    'docs/packages/index.mdx',
     'docs/editor/index.mdx',
     'docs/features/model-tag.mdx',
     'docs/features/icon-combine.mdx',
@@ -31,7 +31,6 @@ export default defineDocsConfig({
     'docs/features/provider-combine.mdx',
     'docs/features/agent-icon.mdx',
     'docs/features/icon-avatar.mdx',
-    'docs/packages/index.mdx',
   ],
   siteUrl: 'https://icons.lobehub.com',
   themeConfig: {
@@ -62,6 +61,7 @@ export default defineDocsConfig({
     },
     navItems: [
       { href: '/packages', icon: 'package', label: 'Packages' },
+      { href: '/editor', icon: 'file-code', label: 'Editor' },
       { href: '/changelog', label: 'Changelog' },
     ],
     prefersColor: 'auto',
