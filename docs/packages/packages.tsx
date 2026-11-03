@@ -17,10 +17,10 @@ function FrameworkLogo({ name, alt }: { name: string; alt: string }): ReactNode 
   return (
     <img
       alt={alt}
-      height={16}
+      height={24}
       src={`/framework-logos/${name}.svg`}
       style={{ display: 'block', objectFit: 'contain' }}
-      width={16}
+      width={24}
     />
   );
 }
@@ -50,25 +50,25 @@ const staticPackages = [
   {
     description: 'Static SVG files for CDN and plain HTML usage.',
     href: 'https://www.npmjs.com/package/@lobehub/icons-static-svg',
-    icon: FileCode2,
+    icon: <FileCode2 size={24} />,
     title: '@lobehub/icons-static-svg',
   },
   {
     description: 'Static PNG files (light & dark) for CDN and plain HTML usage.',
     href: 'https://www.npmjs.com/package/@lobehub/icons-static-png',
-    icon: FileImage,
+    icon: <FileImage size={24} />,
     title: '@lobehub/icons-static-png',
   },
   {
     description: 'Static WEBP files (light & dark) for CDN and plain HTML usage.',
     href: 'https://www.npmjs.com/package/@lobehub/icons-static-webp',
-    icon: Image,
+    icon: <Image size={24} />,
     title: '@lobehub/icons-static-webp',
   },
   {
     description: 'Static avatar images (WEBP) for CDN usage.',
     href: 'https://www.npmjs.com/package/@lobehub/icons-static-avatar',
-    icon: CircleUser,
+    icon: <CircleUser size={24} />,
     title: '@lobehub/icons-static-avatar',
   },
 ];
