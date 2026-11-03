@@ -1,5 +1,4 @@
 [
-  "index.ts",
   "features/index.ts",
   "features/modelConfig.ts",
   "features/agentConfig.ts",

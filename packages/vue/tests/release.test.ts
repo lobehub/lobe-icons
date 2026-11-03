@@ -43,6 +43,7 @@ async function fixture() {
   git(directory, 'config', 'user.name', 'Vue release test');
   git(directory, 'config', 'user.email', 'vue-release@example.com');
   git(directory, 'config', 'core.autocrlf', 'false');
+  write(directory, 'src/index.ts', "export * from './icons';\n");
   write(directory, 'src/icons.ts', "export { default as OpenAI } from './OpenAI';\n");
   write(directory, 'src/OpenAI/components/Mono.tsx', 'export default 1;\n');
   write(directory, 'src/features/modelConfig.ts', 'export const modelMappings = [];\n');
@@ -120,6 +121,12 @@ describe('Vue shared-source release', () => {
       '🐛 fix(vue): update runtime',
       'patch',
     ],
+    [
+      'packages/vue/src/index.ts',
+      "export * from './icons';\n",
+      '✨ feat(vue): update Vue exports',
+      'minor',
+    ],
   ])(
     'releases changes to %s and includes them in release notes',
     async (file, content, message, type) => {
@@ -130,11 +137,36 @@ describe('Vue shared-source release', () => {
       // changes must be read again rather than relying on analyzeCommits mutation.
       const notes = await inline.generateNotes({}, context());
       expect(notes.toLowerCase()).toContain(
-        message.replace(/^\S+ (?:fix(?:\(vue\))?|feat): /, '').toLowerCase(),
+        message.replace(/^\S+ (?:fix|feat)(?:\(vue\))?: /, '').toLowerCase(),
       );
       expect(notes).toContain(hash.slice(0, 7));
     },
   );
+
+  it('excludes overwritten React entry-point changes from releases and notes', async () => {
+    const { commit, context, inline } = await fixture();
+    const reactHash = commit(
+      'src/index.ts',
+      "export * from './icons';\nexport * from './features/ReactOnlyHelper';\n",
+      '✨ feat: export a React-only helper',
+    );
+    expect(await inline.analyzeCommits({}, context())).toBeUndefined();
+    const notes = await inline.generateNotes({}, context());
+    expect(notes.toLowerCase()).not.toContain('react-only helper');
+    expect(notes).not.toContain(reactHash.slice(0, 7));
+
+    const iconHash = commit(
+      'src/OpenAI/components/Mono.tsx',
+      'export default 2;\n',
+      '🐛 fix: repair shared icon',
+    );
+    expect(await inline.analyzeCommits({}, context())).toBe('patch');
+    const releaseNotes = await inline.generateNotes({}, context());
+    expect(releaseNotes.toLowerCase()).toContain('repair shared icon');
+    expect(releaseNotes).toContain(iconHash.slice(0, 7));
+    expect(releaseNotes.toLowerCase()).not.toContain('react-only helper');
+    expect(releaseNotes).not.toContain(reactHash.slice(0, 7));
+  });
 
   it('ignores unrelated source, docs, and other packages', async () => {
     const { commit, context, inline } = await fixture();
