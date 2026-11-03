@@ -33,7 +33,7 @@ curl -s https://lobehub.com/only-ai/skills/icons/reference/providers > "$SKILL_D
 
 ## Installation
 
-For React:
+For React 19 projects (`react` and `react-dom` must both satisfy `^19.0.0`):
 
 ```bash
 npm install @lobehub/icons
@@ -53,23 +53,25 @@ Use `@lobehub/icons-vue` in Vue projects. It does not require React or `@lobehub
 
 ## React Components
 
-Each icon exports a base component and variant sub-components:
+Each icon exports a base component and its supported variant sub-components.
+The examples below use brands that export each demonstrated variant; check the
+`param` flags in `toc` before using a variant with another brand.
 
 ```tsx
-import { OpenAI } from '@lobehub/icons';
+import { Ai21, AlibabaCloud, Civitai, DeepSeek, OpenAI } from '@lobehub/icons';
 
 // Base (mono)
 <OpenAI size={24} />
 
-// Variants (availability depends on icon, check `param` flags in toc)
-<OpenAI.Color size={24} />       // hasColor
-<OpenAI.Brand size={24} />       // hasBrand
-<OpenAI.BrandColor size={24} />  // hasBrandColor
+// Variants (see the corresponding brand's `param` flags in toc)
+<DeepSeek.Color size={24} />     // hasColor
+<Ai21.Brand size={24} />         // hasBrand
+<Ai21.BrandColor size={24} />    // hasBrandColor
 <OpenAI.Text size={32} />        // hasText
-<OpenAI.TextCn size={32} />      // hasTextCn
-<OpenAI.TextColor size={32} />   // hasTextColor
+<AlibabaCloud.TextCn size={32} /> // hasTextCn
+<Civitai.TextColor size={32} />  // hasTextColor
 <OpenAI.Combine size={64} />     // hasCombine
-<OpenAI.Combine size={64} type="color" />  // hasCombine (color variant)
+<DeepSeek.Combine size={64} type="color" /> // hasCombine (color variant)
 <OpenAI.Avatar size={64} />      // hasAvatar
 ```
 
@@ -79,7 +81,7 @@ Common props: `size`, `style`, `className`.
 
 Icons are exported by PascalCase id. Examples: `OpenAI`, `Claude`, `DeepSeek`, `Google`, `Aws`, `Bedrock`, `Microsoft`, `LobeHub`, `Github`, `Anthropic`, `Gemini`, `Meta`, `Mistral`, `Perplexity`, `Cohere`, `Zhipu`, `ByteDance`, `AlibabaCloud`, etc.
 
-For the full list, see [reference/providers.md](reference/providers.md).
+For the full list, see the [hosted provider reference](https://lobehub.com/only-ai/skills/icons/reference/providers).
 
 ## Vue Components
 
@@ -245,7 +247,7 @@ https://unpkg.com/@lobehub/icons-static-png@latest/{light|dark}/{id}.png
 **Avatar** (WebP only):
 
 ```
-https://raw.githubusercontent.com/.../packages/static-png/avatars/{id}.webp
+https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-avatar/avatars/{id}.webp
 ```
 
 Slug naming: `{id}` = lowercase icon id. Variant suffix: `-color`, `-text`, `-text-cn`, `-brand`, `-brand-color`. Mono has no suffix.
