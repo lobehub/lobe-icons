@@ -1,4 +1,4 @@
-export const TITLE = 'The Grid';
+export const TITLE = 'The Grid AI';
 export const COLOR_PRIMARY = '#0049E6';
 
 // Avatar constants
