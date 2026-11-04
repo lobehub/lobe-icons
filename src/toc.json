@@ -2081,6 +2081,25 @@
     "title": "DreamMachine"
   },
   {
+    "color": "#7B458E",
+    "desc": "https://geteasy.ai",
+    "docsUrl": "easy-ai",
+    "fullTitle": "Easy AI",
+    "group": "application",
+    "id": "EasyAI",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Easy AI"
+  },
+  {
     "color": "#fff",
     "desc": "https://elevenlabs.io",
     "docsUrl": "eleven-labs",
