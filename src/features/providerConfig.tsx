@@ -61,6 +61,7 @@ import GoogleCloud from '@/GoogleCloud';
 import GreenPT from '@/GreenPT';
 import Grok from '@/Grok';
 import Groq from '@/Groq';
+import HeFu from '@/HeFu';
 import Higress from '@/Higress';
 import Huawei from '@/Huawei';
 import HuaweiCloud from '@/HuaweiCloud';
@@ -413,6 +414,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
   { Icon: CometAPI, keywords: [ModelProvider.CometAPI] },
+  { Icon: HeFu, keywords: [ModelProvider.HeFu] },
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine
