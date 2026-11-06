@@ -5690,6 +5690,25 @@
     "title": "StateCloud"
   },
   {
+    "color": "#0f766e",
+    "desc": "https://www.steadyrouter.com",
+    "docsUrl": "steady-router",
+    "fullTitle": "SteadyRouter",
+    "group": "provider",
+    "id": "SteadyRouter",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": false,
+      "hasText": false,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "SteadyRouter"
+  },
+  {
     "color": "#000",
     "desc": "https://stepfun.com",
     "docsUrl": "stepfun",

@@ -117,6 +117,7 @@ import SophNet from '../icons/SophNet';
 import Spark from '../icons/Spark';
 import Stability from '../icons/Stability';
 import StateCloud from '../icons/StateCloud';
+import SteadyRouter from '../icons/SteadyRouter';
 import Stepfun from '../icons/Stepfun';
 import Straico from '../icons/Straico';
 import StreamLake from '../icons/StreamLake';
@@ -458,6 +459,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
     keywords: [RNModelProvider.ZenMux],
     props: { inverse: true },
   },
+  { Icon: SteadyRouter, keywords: [RNModelProvider.SteadyRouter] },
   { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [RNModelProvider.XiaomiMiMo] },
   { Icon: WaveSpeed, combineMultiple: 0.7, keywords: [RNModelProvider.WaveSpeed] },
   { Icon: CheaperInference, combineMultiple: 0.8, keywords: [RNModelProvider.CheaperInference] },
