@@ -125,6 +125,7 @@ export enum RNModelProvider {
   Spark = 'spark',
   Stability = 'stability',
   StateCloud = 'statecloud',
+  SteadyRouter = 'steadyrouter',
   Stepfun = 'stepfun',
   StepfunCodingPlan = 'stepfuncodingplan',
   Straico = 'straico',
