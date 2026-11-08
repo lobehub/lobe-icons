@@ -124,6 +124,7 @@ export enum RNModelProvider {
   SophNet = 'sophnet',
   Spark = 'spark',
   Stability = 'stability',
+  StandardCompute = 'standardcompute',
   StateCloud = 'statecloud',
   Stepfun = 'stepfun',
   StepfunCodingPlan = 'stepfuncodingplan',
