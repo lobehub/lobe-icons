@@ -117,6 +117,7 @@ import Snowflake from '@/Snowflake';
 import SophNet from '@/SophNet';
 import Spark from '@/Spark';
 import Stability from '@/Stability';
+import StandardCompute from '@/StandardCompute';
 import StateCloud from '@/StateCloud';
 import Stepfun from '@/Stepfun';
 import Straico from '@/Straico';
@@ -454,6 +455,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Cerebras, combineMultiple: 1, keywords: [ModelProvider.Cerebras] },
   { Icon: Straico, combineMultiple: 0.85, keywords: [ModelProvider.Straico] },
   { Icon: ZenMux, combineMultiple: 1, keywords: [ModelProvider.ZenMux], props: { inverse: true } },
+  { Icon: StandardCompute, keywords: [ModelProvider.StandardCompute] },
   { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [ModelProvider.XiaomiMiMo] },
   { Icon: WaveSpeed, combineMultiple: 0.7, keywords: [ModelProvider.WaveSpeed] },
   { Icon: CheaperInference, combineMultiple: 0.8, keywords: [ModelProvider.CheaperInference] },

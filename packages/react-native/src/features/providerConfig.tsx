@@ -116,6 +116,7 @@ import Snowflake from '../icons/Snowflake';
 import SophNet from '../icons/SophNet';
 import Spark from '../icons/Spark';
 import Stability from '../icons/Stability';
+import StandardCompute from '../icons/StandardCompute';
 import StateCloud from '../icons/StateCloud';
 import Stepfun from '../icons/Stepfun';
 import Straico from '../icons/Straico';
@@ -458,6 +459,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
     keywords: [RNModelProvider.ZenMux],
     props: { inverse: true },
   },
+  { Icon: StandardCompute, keywords: [RNModelProvider.StandardCompute] },
   { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [RNModelProvider.XiaomiMiMo] },
   { Icon: WaveSpeed, combineMultiple: 0.7, keywords: [RNModelProvider.WaveSpeed] },
   { Icon: CheaperInference, combineMultiple: 0.8, keywords: [RNModelProvider.CheaperInference] },
