@@ -1,0 +1,99 @@
+---
+title: oMLX
+description: https://omlx.ai
+category: Provider
+---
+
+import { OMLX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<OMLX size={64} />}</DocsPreview>
+
+```tsx
+import { OMLX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <OMLX size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<OMLX.Text size={48} />}</DocsPreview>
+
+```tsx
+import { OMLX } from '@lobehub/icons';
+
+export default () => <OMLX.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <OMLX.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { OMLX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <OMLX.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <OMLX.Avatar size={64} />
+      <OMLX.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { OMLX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <OMLX.Avatar size={64} />
+    <OMLX.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={OMLX.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { OMLX } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={OMLX.colorPrimary} />
+  </Flexbox>
+);
+```
