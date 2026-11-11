@@ -6456,6 +6456,25 @@
     "title": "Windsurf"
   },
   {
+    "color": "#000",
+    "desc": "https://wiro.ai",
+    "docsUrl": "wiro",
+    "fullTitle": "Wiro AI",
+    "group": "provider",
+    "id": "Wiro",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": false,
+      "hasText": false,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Wiro AI"
+  },
+  {
     "color": "#01C886",
     "colorGradient": "radial-gradient(66.67% 66.67% at 87.5% 102.08%, #94d378 0%, #01C886 100%)",
     "desc": "https://workbuddy.ai",
