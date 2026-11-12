@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version&nbsp;6.15.1](https://github.com/lobehub/lobe-icons/compare/v6.15.0...v6.15.1)
+
+<sup>Released on **2026-11-12**</sup>
+
+#### 💄 Styles
+
+- **model**: Show the ElevenLabs icon for eleven_* TTS models, show the MiniMax icon for speech-* TTS models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **model**: Show the ElevenLabs icon for eleven_* TTS models ([c659075](https://github.com/lobehub/lobe-icons/commit/c659075))
+- **model**: Show the MiniMax icon for speech-* TTS models ([3e20735](https://github.com/lobehub/lobe-icons/commit/3e20735))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;6.15.0](https://github.com/lobehub/lobe-icons/compare/v6.14.0...v6.15.0)
 
 <sup>Released on **2026-11-03**</sup>
