@@ -196,7 +196,7 @@ export const modelMappings: ModelMapping[] = [
     Icon: Qwen,
     keywords: ['qwen', 'qwq', 'qvq', 'wanx', 'wan\\d/', 'wan\\d\\.\\d-', 'tongyi', 'gte-rerank'],
   },
-  { Icon: Minimax, keywords: ['minimax', 'abab', '^image-'] },
+  { Icon: Minimax, keywords: ['minimax', 'abab', '^image-', '^speech-'] },
   {
     Icon: Mistral,
     keywords: [
