@@ -534,6 +534,25 @@
     "title": "Apertis"
   },
   {
+    "color": "#5B5BD6",
+    "desc": "https://apiko.app",
+    "docsUrl": "apiko",
+    "fullTitle": "APIKO",
+    "group": "provider",
+    "id": "Apiko",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "APIKO"
+  },
+  {
     "color": "#fff",
     "desc": "https://apple.com",
     "docsUrl": "apple",
