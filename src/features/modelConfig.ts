@@ -33,6 +33,7 @@ import DeepMind from '@/DeepMind';
 import DeepSeek from '@/DeepSeek';
 import Dolphin from '@/Dolphin';
 import Doubao from '@/Doubao';
+import ElevenLabs from '@/ElevenLabs';
 import EssentialAI from '@/EssentialAI';
 import type { IconAvatarProps } from '@/features/IconAvatar';
 import type { IconCombineProps } from '@/features/IconCombine';
@@ -196,7 +197,7 @@ export const modelMappings: ModelMapping[] = [
     Icon: Qwen,
     keywords: ['qwen', 'qwq', 'qvq', 'wanx', 'wan\\d/', 'wan\\d\\.\\d-', 'tongyi', 'gte-rerank'],
   },
-  { Icon: Minimax, keywords: ['minimax', 'abab', '^image-'] },
+  { Icon: Minimax, keywords: ['minimax', 'abab', '^image-', '^speech-'] },
   {
     Icon: Mistral,
     keywords: [
@@ -255,6 +256,7 @@ export const modelMappings: ModelMapping[] = [
   { Icon: Kling, keywords: ['^kling', 'kling-', 'klingai'] },
   { Icon: Hunyuan, keywords: ['hunyuan', 'hy3', 'hy4'] },
   { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
+  { Icon: ElevenLabs, keywords: ['^eleven_'] },
   { Icon: ByteDance, keywords: ['skylark', 'seed-', 'bytedance'] },
   { Icon: BurnCloud, keywords: ['burncloud'] },
   {
