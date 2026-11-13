@@ -5862,6 +5862,25 @@
     "title": "Targon"
   },
   {
+    "color": "#FF2D60",
+    "desc": "https://www.taskade.com",
+    "docsUrl": "taskade",
+    "fullTitle": "Taskade",
+    "group": "application",
+    "id": "Taskade",
+    "param": {
+      "hasAvatar": false,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": false,
+      "hasText": false,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Taskade"
+  },
+  {
     "color": "#fff",
     "desc": "https://tavily.com",
     "docsUrl": "tavily",

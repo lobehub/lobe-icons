@@ -317,6 +317,7 @@ export { default as Suno, type CompoundedIcon as SunoProps } from './Suno';
 export { default as Sync, type CompoundedIcon as SyncProps } from './Sync';
 export { default as Tabbit, type CompoundedIcon as TabbitProps } from './Tabbit';
 export { default as Targon, type CompoundedIcon as TargonProps } from './Targon';
+export { default as Taskade, type CompoundedIcon as TaskadeProps } from './Taskade';
 export { default as Tavily, type CompoundedIcon as TavilyProps } from './Tavily';
 export { default as Tencent, type CompoundedIcon as TencentProps } from './Tencent';
 export { default as TencentCloud, type CompoundedIcon as TencentCloudProps } from './TencentCloud';

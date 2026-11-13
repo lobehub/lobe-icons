@@ -1,0 +1,32 @@
+---
+title: Taskade
+description: https://www.taskade.com
+category: Application
+---
+
+import { Taskade } from '@lobehub/icons';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Taskade size={64} />}</DocsPreview>
+
+```tsx
+import { Taskade } from '@lobehub/icons';
+
+export default () => <Taskade size={64} />;
+```
+
+<DocsPreview>{<Taskade.Color size={64} />}</DocsPreview>
+
+```tsx
+import { Taskade } from '@lobehub/icons';
+
+export default () => <Taskade.Color size={64} />;
+```
+
+## Colors
+
+<ColorPreview color={Taskade.colorPrimary} />
