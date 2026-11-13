@@ -249,6 +249,7 @@ export { default as NPLCloud, type CompoundedIcon as NPLCloudProps } from './NPL
 export { default as Nvidia, type CompoundedIcon as NvidiaProps } from './Nvidia';
 export { default as Obsidian, type CompoundedIcon as ObsidianProps } from './Obsidian';
 export { default as Ollama, type CompoundedIcon as OllamaProps } from './Ollama';
+export { default as OMLX, type CompoundedIcon as OMLXProps } from './OMLX';
 export { default as OpenAI, type CompoundedIcon as OpenAIProps } from './OpenAI';
 export { default as OpenChat, type CompoundedIcon as OpenChatProps } from './OpenChat';
 export { default as OpenClaw, type CompoundedIcon as OpenClawProps } from './OpenClaw';
