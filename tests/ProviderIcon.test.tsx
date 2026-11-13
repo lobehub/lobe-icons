@@ -19,4 +19,12 @@ describe('ProviderIcon brand resolution', () => {
 
     expect(markup).toContain('TypeSafe AI');
   });
+
+  it('uses deAPI for provider deapi', () => {
+    const icon = renderToStaticMarkup(<ProviderIcon provider={'deapi'} type={'avatar'} />);
+    const combine = renderToStaticMarkup(<ProviderCombine provider={'deapi'} type={'mono'} />);
+
+    expect(icon).toContain('<title>deAPI</title>');
+    expect(combine).toContain('deAPI');
+  });
 });

@@ -128,6 +128,7 @@ export { default as Cursor, type CompoundedIcon as CursorProps } from './icons/C
 export { default as CyberCut, type CompoundedIcon as CyberCutProps } from './icons/CyberCut';
 export { default as Dalle, type CompoundedIcon as DalleProps } from './icons/Dalle';
 export { default as Dbrx, type CompoundedIcon as DbrxProps } from './icons/Dbrx';
+export { default as DeAPI, type CompoundedIcon as DeAPIProps } from './icons/DeAPI';
 export { default as Decart, type CompoundedIcon as DecartProps } from './icons/Decart';
 export { default as DeepAI, type CompoundedIcon as DeepAIProps } from './icons/DeepAI';
 export { default as DeepCogito, type CompoundedIcon as DeepCogitoProps } from './icons/DeepCogito';

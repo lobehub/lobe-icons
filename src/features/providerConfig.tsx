@@ -41,6 +41,7 @@ import CometAPI from '@/CometAPI';
 import ComfyUI from '@/ComfyUI';
 import Copilot from '@/Copilot';
 import Crusoe from '@/Crusoe';
+import DeAPI from '@/DeAPI';
 import DeepInfra from '@/DeepInfra';
 import DeepMind from '@/DeepMind';
 import DeepSeek from '@/DeepSeek';
@@ -185,6 +186,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: CentML, keywords: [ModelProvider.CentML] },
   { Icon: Civitai, keywords: [ModelProvider.Civitai] },
   { Icon: Crusoe, keywords: [ModelProvider.Crusoe] },
+  { Icon: DeAPI, keywords: [ModelProvider.DeAPI] },
   { Icon: DeepInfra, keywords: [ModelProvider.DeepInfra] },
   { Icon: DeepMind, keywords: [ModelProvider.DeepMind] },
   { Icon: EmpirioLabs, keywords: [ModelProvider.EmpirioLabs] },
