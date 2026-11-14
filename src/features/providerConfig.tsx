@@ -91,6 +91,7 @@ import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import ModelScope from '@/ModelScope';
 import Moonshot from '@/Moonshot';
+import NagaAI from '@/NagaAI';
 import Nebius from '@/Nebius';
 import NewAPI from '@/NewAPI';
 import NousResearch from '@/NousResearch';
@@ -457,4 +458,5 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [ModelProvider.XiaomiMiMo] },
   { Icon: WaveSpeed, combineMultiple: 0.7, keywords: [ModelProvider.WaveSpeed] },
   { Icon: CheaperInference, combineMultiple: 0.8, keywords: [ModelProvider.CheaperInference] },
+  { Icon: NagaAI, keywords: [ModelProvider.NagaAI] },
 ];
