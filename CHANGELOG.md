@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version&nbsp;6.15.2](https://github.com/lobehub/lobe-icons/compare/v6.15.1...v6.15.2)
+
+<sup>Released on **2026-11-14**</sup>
+
+#### 💄 Styles
+
+- **icons**: Map Fish Audio, Doubao Speech and ElevenLabs TTS models and providers, mirror the TTS icon mappings into the React Native package.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **icons**: Map Fish Audio, Doubao Speech and ElevenLabs TTS models and providers ([2d693de](https://github.com/lobehub/lobe-icons/commit/2d693de))
+- **icons**: Mirror the TTS icon mappings into the React Native package, closes [#471](https://github.com/lobehub/lobe-icons/issues/471) ([cd2185a](https://github.com/lobehub/lobe-icons/commit/cd2185a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;6.15.1](https://github.com/lobehub/lobe-icons/compare/v6.15.0...v6.15.1)
 
 <sup>Released on **2026-11-12**</sup>
