@@ -94,4 +94,44 @@ describe('ModelIcon brand resolution', () => {
       expect(markup).toContain('<title>BAAI</title>');
     },
   );
+
+  it.each([
+    's2.1-pro',
+    's2.1-pro-free',
+    's2-pro',
+    's1',
+    'drama-3',
+    'fish-audio/s2.1-pro',
+    'fish-audio/drama-3',
+  ])('uses Fish Audio for TTS model %s', (model) => {
+    const markup = renderToStaticMarkup(<ModelIcon model={model} type={'mono'} />);
+
+    expect(markup).toContain('<title>FishAudio</title>');
+  });
+
+  it.each(['seed-tts-2.0', 'seed-tts-1.0', 'seed-icl-2.0'])(
+    'uses Doubao for Doubao Speech model %s instead of OpenAI',
+    (model) => {
+      const markup = renderToStaticMarkup(<ModelIcon model={model} type={'mono'} />);
+
+      expect(markup).toContain('<title>Doubao</title>');
+      expect(markup).not.toContain('<title>OpenAI</title>');
+    },
+  );
+
+  it.each(['tts-1', 'tts-1-hd', 'gpt-4o-mini-tts'])('keeps OpenAI for %s', (model) => {
+    const markup = renderToStaticMarkup(<ModelIcon model={model} type={'mono'} />);
+
+    expect(markup).toContain('<title>OpenAI</title>');
+  });
+
+  it.each(['s10-chat', 'my-s1-model', 'seedream-5-0', 'seed-oss-36b'])(
+    'does not claim unrelated model %s for Fish Audio or Doubao Speech',
+    (model) => {
+      const markup = renderToStaticMarkup(<ModelIcon model={model} type={'mono'} />);
+
+      expect(markup).not.toContain('<title>FishAudio</title>');
+      expect(markup).not.toContain('<title>Doubao</title>');
+    },
+  );
 });
