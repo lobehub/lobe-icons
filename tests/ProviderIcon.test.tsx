@@ -19,4 +19,14 @@ describe('ProviderIcon brand resolution', () => {
 
     expect(markup).toContain('TypeSafe AI');
   });
+
+  it.each([
+    ['elevenlabs', 'ElevenLabs'],
+    ['fishaudio', 'FishAudio'],
+    ['doubaospeech', 'Doubao'],
+  ])('maps the TTS provider %s to %s', (provider, title) => {
+    const markup = renderToStaticMarkup(<ProviderIcon provider={provider} type={'mono'} />);
+
+    expect(markup).toContain(`<title>${title}</title>`);
+  });
 });
