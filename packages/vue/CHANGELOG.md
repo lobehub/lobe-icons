@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;1.0.2](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-vue@1.0.1...@lobehub/icons-vue@1.0.2)
+
+<sup>Released on **2026-11-14**</sup>
+
+#### 💄 Styles
+
+- **icons**: Map Fish Audio, Doubao Speech and ElevenLabs TTS models and providers.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **icons**: Map Fish Audio, Doubao Speech and ElevenLabs TTS models and providers ([2d693de](https://github.com/lobehub/lobe-icons/commit/2d693de))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.0.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-vue@1.0.0...@lobehub/icons-vue@1.0.1)
 
 <sup>Released on **2026-11-12**</sup>
