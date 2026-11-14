@@ -45,11 +45,13 @@ import DeepInfra from '@/DeepInfra';
 import DeepMind from '@/DeepMind';
 import DeepSeek from '@/DeepSeek';
 import Doubao from '@/Doubao';
+import ElevenLabs from '@/ElevenLabs';
 import EmpirioLabs from '@/EmpirioLabs';
 import Exa from '@/Exa';
 import Fal from '@/Fal';
 import Featherless from '@/Featherless';
 import Fireworks from '@/Fireworks';
+import FishAudio from '@/FishAudio';
 import FlexAI from '@/FlexAI';
 import Friendli from '@/Friendli';
 import Gemini from '@/Gemini';
@@ -357,7 +359,9 @@ export const providerMappings: ProviderMapping[] = [
     keywords: [ModelProvider.GithubCopilot, 'github-copilot'],
   },
   { Icon: Copilot, combineMultiple: 0.95, keywords: [ModelProvider.Copilot] },
-  { Icon: Doubao, keywords: [ModelProvider.Doubao] },
+  { Icon: Doubao, keywords: [ModelProvider.Doubao, ModelProvider.DoubaoSpeech] },
+  { Icon: ElevenLabs, keywords: [ModelProvider.ElevenLabs] },
+  { Icon: FishAudio, keywords: [ModelProvider.FishAudio] },
   { Icon: Hunyuan, keywords: [ModelProvider.Hunyuan] },
   { Icon: Nvidia, keywords: [ModelProvider.Nvidia] },
   { Icon: TencentCloud, keywords: [ModelProvider.TencentCloud] },
