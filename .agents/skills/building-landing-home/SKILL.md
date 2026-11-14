@@ -22,7 +22,7 @@ have not seen here: `https://ui.lobehub.com/skills/components/awesome/<kebab-nam
 | Band                    | Component                 | Use it for                                                                                                         |
 | ----------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Opening                 | `LandingHero`             | Badge, title with gradient `accent`, description, up to two `actions`, optional `aside` column.                    |
-| Beside the hero text    | `AgentSkillCard`          | "I'm an Agent / I'm a Human" card: a prompt for coding agents and an install command for people.                   |
+| Beside the hero text    | `AgentSkillCard`          | "Use with AI Agent / Install Manually" tabs: a prompt to send to an agent and an install command to run yourself.  |
 | Under the hero          | `LogoMarquee`             | Integrations or supported providers. Icons from `@lobehub/icons`.                                                  |
 | Any middle band         | `LandingSection`          | Tag, title and description on the left, small `actions` on the right, content below. Wrap every middle band in it. |
 | Live component gallery  | `BentoGrid` + `BentoCard` | Tiles that render real components; `colSpan`/`rowSpan` for emphasis; `href` to the docs page.                      |
@@ -71,10 +71,12 @@ export default function Home() {
             agent={{
               code: 'Read https://kit.acme.dev/skills.md and follow it to build UI with @acme/kit.',
               description: 'Send this prompt to your agent to pick the right components',
+              label: 'Use with AI Agent',
             }}
             human={{
               code: 'npx skills add acme/kit',
               description: 'Install the skills into your project',
+              label: 'Install Manually',
             }}
           />
         }

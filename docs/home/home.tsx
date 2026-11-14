@@ -114,6 +114,7 @@ export default function Home({
             agent={{
               code: 'Read https://icons.lobehub.com/skills.md and follow it to add AI brand icons with @lobehub/icons.',
               description: 'Send this prompt to your agent to use the icon set',
+              label: 'Use with AI Agent',
             }}
             footer={
               <>
@@ -128,6 +129,7 @@ export default function Home({
             human={{
               code: 'npm i @lobehub/icons',
               description: 'Install @lobehub/icons and start using the icon set',
+              label: 'Install Manually',
             }}
           />
         }
