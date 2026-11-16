@@ -33,6 +33,7 @@ import DeepMind from '../icons/DeepMind';
 import DeepSeek from '../icons/DeepSeek';
 import Dolphin from '../icons/Dolphin';
 import Doubao from '../icons/Doubao';
+import ElevenLabs from '../icons/ElevenLabs';
 import EssentialAI from '../icons/EssentialAI';
 import Fireworks from '../icons/Fireworks';
 import FishAudio from '../icons/FishAudio';
@@ -129,6 +130,8 @@ export const rnModelMappings: RNModelMapping[] = [
     props: { type: 'o1' },
   },
   { Icon: Dalle, keywords: ['dalle', 'dall-e'] },
+  // Doubao Speech ids (`seed-tts-2.0`, `seed-icl-2.0`) would otherwise match OpenAI's `tts-`.
+  { Icon: Doubao, keywords: ['^seed-(tts|icl)-'] },
   {
     Icon: OpenAI,
     keywords: [
@@ -194,7 +197,7 @@ export const rnModelMappings: RNModelMapping[] = [
     Icon: Qwen,
     keywords: ['qwen', 'qwq', 'qvq', 'wanx', 'wan\\d/', 'wan\\d\\.\\d-', 'tongyi', 'gte-rerank'],
   },
-  { Icon: Minimax, keywords: ['minimax', 'abab', '^image-'] },
+  { Icon: Minimax, keywords: ['minimax', 'abab', '^image-', '^speech-'] },
   {
     Icon: Mistral,
     keywords: [
@@ -252,7 +255,11 @@ export const rnModelMappings: RNModelMapping[] = [
   { Icon: Doubao, keywords: ['^ep-', 'doubao-'] },
   { Icon: Kling, keywords: ['^kling', 'kling-', 'klingai'] },
   { Icon: Hunyuan, keywords: ['hunyuan', 'hy3', 'hy4'] },
-  { Icon: FishAudio, keywords: ['^d_', '^g_', '^wd_'] },
+  {
+    Icon: FishAudio,
+    keywords: ['^d_', '^g_', '^wd_', '^s2(\\.1)?-pro', '^drama-\\d', '^s1$', '^fish-audio/'],
+  },
+  { Icon: ElevenLabs, keywords: ['^eleven_'] },
   { Icon: ByteDance, keywords: ['skylark', 'seed-', 'bytedance'] },
   { Icon: BurnCloud, keywords: ['burncloud'] },
   {

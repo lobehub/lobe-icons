@@ -93,6 +93,7 @@ Browse every brand and variant in the [documentation](https://icons.lobehub.com)
 
 - **CDN / plain HTML**: `<img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg" />`. PNG and WEBP come in `light` / `dark` folders, e.g. `https://unpkg.com/@lobehub/icons-static-png@latest/dark/openai.png`, and npmmirror works as a mirror. In React, build these URLs with [`getLobeIconCDN`](https://icons.lobehub.com/features/cdn-utils).
 - **React Native / Expo**: `npm i @lobehub/icons-rn react-native-svg`, see the [package README](./packages/react-native/README.md).
+- **Vue 3**: `npm i @lobehub/icons-vue`, see the [package README](./packages/vue/README.md).
 
 <div align="right">
 
@@ -218,6 +219,7 @@ Read https://icons.lobehub.com/skills.md and follow the instructions to use @lob
 | ------------------------------------------------------------------------------------------ | ------------------------------- | -------------------------------------------------------------------------------- |
 | [@lobehub/icons](https://www.npmjs.com/package/@lobehub/icons)                             | React components                | ![](https://img.shields.io/npm/v/@lobehub/icons?style=flat-square)               |
 | [@lobehub/icons-rn](https://www.npmjs.com/package/@lobehub/icons-rn)                       | React Native / Expo             | ![](https://img.shields.io/npm/v/@lobehub/icons-rn?style=flat-square)            |
+| [@lobehub/icons-vue](https://www.npmjs.com/package/@lobehub/icons-vue)                     | Vue 3                           | ![](https://img.shields.io/npm/v/@lobehub/icons-vue?style=flat-square)           |
 | [@lobehub/icons-static-svg](https://www.npmjs.com/package/@lobehub/icons-static-svg)       | SVG files / CDN                 | ![](https://img.shields.io/npm/v/@lobehub/icons-static-svg?style=flat-square)    |
 | [@lobehub/icons-static-png](https://www.npmjs.com/package/@lobehub/icons-static-png)       | PNG files / CDN (light & dark)  | ![](https://img.shields.io/npm/v/@lobehub/icons-static-png?style=flat-square)    |
 | [@lobehub/icons-static-webp](https://www.npmjs.com/package/@lobehub/icons-static-webp)     | WEBP files / CDN (light & dark) | ![](https://img.shields.io/npm/v/@lobehub/icons-static-webp?style=flat-square)   |

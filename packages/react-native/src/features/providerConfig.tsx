@@ -45,11 +45,13 @@ import DeepInfra from '../icons/DeepInfra';
 import DeepMind from '../icons/DeepMind';
 import DeepSeek from '../icons/DeepSeek';
 import Doubao from '../icons/Doubao';
+import ElevenLabs from '../icons/ElevenLabs';
 import EmpirioLabs from '../icons/EmpirioLabs';
 import Exa from '../icons/Exa';
 import Fal from '../icons/Fal';
 import Featherless from '../icons/Featherless';
 import Fireworks from '../icons/Fireworks';
+import FishAudio from '../icons/FishAudio';
 import FlexAI from '../icons/FlexAI';
 import Friendli from '../icons/Friendli';
 import Gemini from '../icons/Gemini';
@@ -355,7 +357,9 @@ export const rnProviderMappings: RNProviderMapping[] = [
     keywords: [RNModelProvider.GithubCopilot, 'github-copilot'],
   },
   { Icon: Copilot, combineMultiple: 0.95, keywords: [RNModelProvider.Copilot] },
-  { Icon: Doubao, keywords: [RNModelProvider.Doubao] },
+  { Icon: Doubao, keywords: [RNModelProvider.Doubao, RNModelProvider.DoubaoSpeech] },
+  { Icon: ElevenLabs, keywords: [RNModelProvider.ElevenLabs] },
+  { Icon: FishAudio, keywords: [RNModelProvider.FishAudio] },
   { Icon: Hunyuan, keywords: [RNModelProvider.Hunyuan] },
   { Icon: Nvidia, keywords: [RNModelProvider.Nvidia] },
   { Icon: TencentCloud, keywords: [RNModelProvider.TencentCloud] },

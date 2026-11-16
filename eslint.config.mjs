@@ -13,6 +13,7 @@ export default defineConfig(
       '**/_test_',
       '**/__test__',
       '**/dist',
+      '**/.generated',
       '**/es',
       '**/lib',
       '**/logs',

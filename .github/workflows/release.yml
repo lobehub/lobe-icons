@@ -114,6 +114,9 @@ jobs:
       - name: Build RN
         run: bun run build:rn
 
+      - name: Build Vue
+        run: bun run build:vue
+
       - name: Release Static
         run: bun run release:static
         env:

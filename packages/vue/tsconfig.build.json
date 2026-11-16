@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "noEmitOnError": true,
+    "rootDir": ".generated",
+    "outDir": "dist",
+    "types": []
+  },
+  "include": [".generated/**/*.ts"]
+}

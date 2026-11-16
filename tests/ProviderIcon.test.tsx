@@ -27,4 +27,14 @@ describe('ProviderIcon brand resolution', () => {
     expect(icon).toContain('<title>deAPI</title>');
     expect(combine).toContain('deAPI');
   });
+
+  it.each([
+    ['elevenlabs', 'ElevenLabs'],
+    ['fishaudio', 'FishAudio'],
+    ['doubaospeech', 'Doubao'],
+  ])('maps the TTS provider %s to %s', (provider, title) => {
+    const markup = renderToStaticMarkup(<ProviderIcon provider={provider} type={'mono'} />);
+
+    expect(markup).toContain(`<title>${title}</title>`);
+  });
 });

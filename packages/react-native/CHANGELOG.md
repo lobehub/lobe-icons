@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;2.21.1](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.21.0...@lobehub/icons-rn@2.21.1)
+
+<sup>Released on **2026-11-14**</sup>
+
+#### 💄 Styles
+
+- **icons**: Mirror the TTS icon mappings into the React Native package.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **icons**: Mirror the TTS icon mappings into the React Native package, closes [#471](https://github.com/lobehub/lobe-icons/issues/471) ([cd2185a](https://github.com/lobehub/lobe-icons/commit/cd2185a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;2.21.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.20.1...@lobehub/icons-rn@2.21.0)
 
 <sup>Released on **2026-10-26**</sup>

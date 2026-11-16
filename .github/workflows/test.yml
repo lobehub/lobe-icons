@@ -25,5 +25,8 @@ jobs:
       - name: Test and coverage
         run: bun run test:coverage
 
+      - name: Test Vue package
+        run: bun run --cwd packages/vue lint && bun run test:vue
+
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4

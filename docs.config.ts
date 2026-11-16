@@ -20,8 +20,8 @@ export default defineDocsConfig({
   },
   homePage: './docs/index.tsx',
   legacyRedirects,
-  navSections: {},
   publicDocs: [
+    'docs/packages/index.mdx',
     'docs/editor/index.mdx',
     'docs/features/model-tag.mdx',
     'docs/features/icon-combine.mdx',
@@ -59,12 +59,13 @@ export default defineDocsConfig({
           'https://repository-images.githubusercontent.com/750129442/edc2a03a-a6c4-4f11-89c8-8ffafbb85a7a',
       },
     },
-    navItems: [{ href: '/changelog', label: 'Changelog' }],
-    prefersColor: 'auto',
-    sidebarGroups: [
-      { dir: 'docs/editor', icon: 'file-code', order: 1, title: 'Editor' },
-      { dir: 'docs/features', icon: 'sparkles', order: 2, title: 'Features' },
+    navItems: [
+      { href: '/packages', icon: 'package', label: 'Packages' },
+      { href: '/editor', icon: 'file-code', label: 'Editor' },
+      { href: '/changelog', label: 'Changelog' },
     ],
+    prefersColor: 'auto',
+    sidebarGroups: [{ dir: 'docs/features', icon: 'sparkles', order: 1, title: 'Features' }],
     socialLinks: [
       {
         href: 'https://github.com/lobehub/lobe-icons',
