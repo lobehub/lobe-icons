@@ -1,0 +1,113 @@
+---
+title: Autolith
+description: https://autolith.rocks
+category: Application
+---
+
+import { Autolith } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Autolith size={64} />
+      <Autolith.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Autolith } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Autolith size={64} />
+    <Autolith.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<Autolith.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Autolith } from '@lobehub/icons';
+
+export default () => <Autolith.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Autolith.Combine size={64} />
+      <Autolith.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Autolith } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Autolith.Combine size={64} />
+    <Autolith.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Autolith.Avatar size={64} />
+      <Autolith.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Autolith } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Autolith.Avatar size={64} />
+    <Autolith.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Autolith.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Autolith } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={Autolith.colorPrimary} />
+  </Flexbox>
+);
+```
