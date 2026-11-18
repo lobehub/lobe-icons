@@ -139,6 +139,7 @@ export enum RNModelProvider {
   Targon = 'targon',
   Tencent = 'tencent',
   TencentCloud = 'tencentcloud',
+  TheGrid = 'thegrid',
   TII = 'tii',
   TogetherAI = 'togetherai',
   TypeSafe = 'typesafe',
