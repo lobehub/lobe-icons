@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;2.21.3](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.21.2...@lobehub/icons-rn@2.21.3)
+
+<sup>Released on **2026-11-18**</sup>
+
+#### 💄 Styles
+
+- **misc**: Refine Recraft icon, avatar and combine per brand guidelines.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Refine Recraft icon, avatar and combine per brand guidelines, closes [#478](https://github.com/lobehub/lobe-icons/issues/478) ([203e319](https://github.com/lobehub/lobe-icons/commit/203e319))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;2.21.2](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.21.1...@lobehub/icons-rn@2.21.2)
 
 <sup>Released on **2026-11-16**</sup>
