@@ -1,9 +1,11 @@
 import type { FlexboxProps } from '@lobehub/ui';
 import { createStaticStyles, cx, Flexbox } from '@lobehub/ui';
 import type { ReactNode, Ref } from 'react';
-import { memo, useRef } from 'react';
+import { memo, useId, useRef } from 'react';
 
 import DownloadButton from '@/components/DownloadButton';
+
+import { scopeSvgIds } from './scopeSvgIds';
 
 const styles = createStaticStyles(({ css, cssVar }) => {
   return {
@@ -58,7 +60,9 @@ export interface IconPreviewProps extends FlexboxProps {
 
 const IconPreview = memo<IconPreviewProps>(({ className, children, ...rest }) => {
   const ref = useRef<HTMLDivElement>(null);
+  const scopeId = useId();
   const isString = typeof children === 'string';
+  const markup = isString ? scopeSvgIds(children, scopeId) : null;
 
   return (
     <Flexbox
@@ -69,7 +73,7 @@ const IconPreview = memo<IconPreviewProps>(({ className, children, ...rest }) =>
       {...rest}
     >
       {isString ? (
-        <div className={styles.inner} dangerouslySetInnerHTML={{ __html: children }} />
+        <div className={styles.inner} dangerouslySetInnerHTML={{ __html: markup! }} />
       ) : (
         <div className={styles.inner}>{children}</div>
       )}
