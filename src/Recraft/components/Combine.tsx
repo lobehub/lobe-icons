@@ -5,23 +5,19 @@ import { memo } from 'react';
 import IconCombine, { type IconCombineProps } from '@/features/IconCombine';
 
 import { COMBINE_SPACE_MULTIPLE, COMBINE_TEXT_MULTIPLE, TITLE } from '../style';
-import Avatar from './Avatar';
 import Text from './Text';
 
 export type CombineProps = Omit<IconCombineProps, 'Icon' | 'Text'>;
 
-const Combine = memo<CombineProps>(({ iconProps, ...rest }) => {
+// The Recraft brand guidelines don't allow placing the icon next to the wordmark,
+// so the combined logo is the wordmark on its own.
+const Combine = memo<CombineProps>(({ ...rest }) => {
   return (
     <IconCombine
-      Icon={Avatar}
-      Text={Text as any}
+      Text={Text}
       aria-label={TITLE}
       spaceMultiple={COMBINE_SPACE_MULTIPLE}
       textMultiple={COMBINE_TEXT_MULTIPLE}
-      iconProps={{
-        shape: 'square',
-        ...iconProps,
-      }}
       {...rest}
     />
   );
