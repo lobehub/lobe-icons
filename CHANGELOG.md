@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version&nbsp;6.18.0](https://github.com/lobehub/lobe-icons/compare/v6.17.0...v6.18.0)
+
+<sup>Released on **2026-11-18**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 🐛 Bug Fixes
+
+- **docs**: Scope editor preview svg ids.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([39715c4](https://github.com/lobehub/lobe-icons/commit/39715c4))
+
+#### What's fixed
+
+- **docs**: Scope editor preview svg ids, closes [#480](https://github.com/lobehub/lobe-icons/issues/480) ([604d579](https://github.com/lobehub/lobe-icons/commit/604d579))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;6.17.0](https://github.com/lobehub/lobe-icons/compare/v6.16.0...v6.17.0)
 
 <sup>Released on **2026-11-18**</sup>
