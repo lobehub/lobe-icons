@@ -348,6 +348,7 @@ export { default as Wandb, type CompoundedIcon as WandbProps } from './Wandb';
 export { default as WaveSpeed, type CompoundedIcon as WaveSpeedProps } from './WaveSpeed';
 export { default as Wenxin, type CompoundedIcon as WenxinProps } from './Wenxin';
 export { default as Windsurf, type CompoundedIcon as WindsurfProps } from './Windsurf';
+export { default as Wiro, type CompoundedIcon as WiroProps } from './Wiro';
 export { default as WorkBuddy, type CompoundedIcon as WorkBuddyProps } from './WorkBuddy';
 export { default as WorkersAI, type CompoundedIcon as WorkersAIProps } from './WorkersAI';
 export { default as WorldRouter, type CompoundedIcon as WorldRouterProps } from './WorldRouter';
