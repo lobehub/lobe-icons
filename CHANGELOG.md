@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version&nbsp;6.17.0](https://github.com/lobehub/lobe-icons/compare/v6.16.0...v6.17.0)
+
+<sup>Released on **2026-11-18**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+
+#### 💄 Styles
+
+- **misc**: Refine Recraft icon, avatar and combine per brand guidelines.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([c696626](https://github.com/lobehub/lobe-icons/commit/c696626))
+
+#### Styles
+
+- **misc**: Refine Recraft icon, avatar and combine per brand guidelines, closes [#478](https://github.com/lobehub/lobe-icons/issues/478) ([203e319](https://github.com/lobehub/lobe-icons/commit/203e319))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;6.16.0](https://github.com/lobehub/lobe-icons/compare/v6.15.2...v6.16.0)
 
 <sup>Released on **2026-11-16**</sup>
