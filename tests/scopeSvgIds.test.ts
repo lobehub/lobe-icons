@@ -28,6 +28,19 @@ describe('scopeSvgIds', () => {
     expect(scoped).not.toContain('url(#Gradient)');
   });
 
+  it('rewrites ARIA idrefs and leaves data-id attributes alone', () => {
+    const svg =
+      '<svg data-id="layer" aria-labelledby="title hint"><title id="title">Logo</title><desc id="hint">Mark</desc></svg>';
+
+    const scoped = scopeSvgIds(svg, 'preview');
+
+    expect(scoped).toContain('data-id="layer"');
+    expect(scoped).toContain('id="preview-title"');
+    expect(scoped).toContain('id="preview-hint"');
+    expect(scoped).toContain('aria-labelledby="preview-title preview-hint"');
+    expect(scoped).not.toContain('id="title"');
+  });
+
   it('is a no-op when the svg has no ids', () => {
     const svg = '<svg><path fill="#3762FF" /></svg>';
     expect(scopeSvgIds(svg, 'preview')).toBe(svg);
