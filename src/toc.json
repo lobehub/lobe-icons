@@ -1758,6 +1758,25 @@
     "title": "DBRX"
   },
   {
+    "color": "#FFBA00",
+    "desc": "https://deapi.ai",
+    "docsUrl": "de-api",
+    "fullTitle": "deAPI",
+    "group": "provider",
+    "id": "DeAPI",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "deAPI"
+  },
+  {
     "color": "#2548F6",
     "desc": "https://decart.ai",
     "docsUrl": "decart",

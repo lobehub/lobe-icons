@@ -40,6 +40,7 @@ export enum RNModelProvider {
   ComfyUI = 'comfyui',
   Copilot = 'copilot',
   Crusoe = 'crusoe',
+  DeAPI = 'deapi',
   DeepInfra = 'deepinfra',
   DeepMind = 'deepmind',
   DeepSeek = 'deepseek',
