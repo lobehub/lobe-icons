@@ -380,6 +380,7 @@ export { default as Spark, type CompoundedIcon as SparkProps } from './icons/Spa
 export { default as SpeedAI, type CompoundedIcon as SpeedAIProps } from './icons/SpeedAI';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './icons/Stability';
 export { default as StateCloud, type CompoundedIcon as StateCloudProps } from './icons/StateCloud';
+export { default as SteadyRouter, type CompoundedIcon as SteadyRouterProps } from './icons/SteadyRouter';
 export { default as Stepfun, type CompoundedIcon as StepfunProps } from './icons/Stepfun';
 export { default as Straico, type CompoundedIcon as StraicoProps } from './icons/Straico';
 export { default as StreamLake, type CompoundedIcon as StreamLakeProps } from './icons/StreamLake';
