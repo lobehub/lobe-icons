@@ -4566,6 +4566,25 @@
   },
   {
     "color": "#000",
+    "desc": "https://omlx.ai",
+    "docsUrl": "omlx",
+    "fullTitle": "oMLX",
+    "group": "provider",
+    "id": "OMLX",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "oMLX"
+  },
+  {
+    "color": "#000",
     "desc": "https://openai.com",
     "docsUrl": "open-ai",
     "fullTitle": "OpenAI (ChatGPT)",
