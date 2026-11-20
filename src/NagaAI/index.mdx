@@ -1,0 +1,113 @@
+---
+title: NagaAI
+description: https://naga.ac
+category: Provider
+---
+
+import { NagaAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <NagaAI size={64} />
+      <NagaAI.Color size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { NagaAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <NagaAI size={64} />
+    <NagaAI.Color size={64} />
+  </Flexbox>
+);
+```
+
+## Text
+
+<DocsPreview>{<NagaAI.Text size={64} />}</DocsPreview>
+
+```tsx
+import { NagaAI } from '@lobehub/icons';
+
+export default () => <NagaAI.Text size={64} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <NagaAI.Combine size={64} />
+      <NagaAI.Combine size={64} type={'color'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { NagaAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <NagaAI.Combine size={64} />
+    <NagaAI.Combine size={64} type={'color'} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <NagaAI.Avatar size={64} />
+      <NagaAI.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { NagaAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <NagaAI.Avatar size={64} />
+    <NagaAI.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={NagaAI.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { NagaAI } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={NagaAI.colorPrimary} />
+  </Flexbox>
+);
+```

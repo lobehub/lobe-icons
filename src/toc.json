@@ -4298,6 +4298,25 @@
     "title": "n8n"
   },
   {
+    "color": "#000",
+    "desc": "https://naga.ac",
+    "docsUrl": "naga-ai",
+    "fullTitle": "NagaAI",
+    "group": "provider",
+    "id": "NagaAI",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "NagaAI"
+  },
+  {
     "color": "#FCD53F",
     "desc": "https://gemini.google/overview/image-generation",
     "docsUrl": "nano-banana",
