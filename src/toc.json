@@ -5671,6 +5671,25 @@
     "title": "Stability"
   },
   {
+    "color": "#E2C07F",
+    "desc": "https://standardcompute.com",
+    "docsUrl": "standard-compute",
+    "fullTitle": "Standard Compute",
+    "group": "provider",
+    "id": "StandardCompute",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Standard Compute"
+  },
+  {
     "color": "#DF0428",
     "desc": "https://ctyun.cn/act/xirang/deepseek",
     "docsUrl": "state-cloud",

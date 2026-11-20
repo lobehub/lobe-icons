@@ -379,6 +379,10 @@ export { default as Sora, type CompoundedIcon as SoraProps } from './icons/Sora'
 export { default as Spark, type CompoundedIcon as SparkProps } from './icons/Spark';
 export { default as SpeedAI, type CompoundedIcon as SpeedAIProps } from './icons/SpeedAI';
 export { default as Stability, type CompoundedIcon as StabilityProps } from './icons/Stability';
+export {
+  default as StandardCompute,
+  type CompoundedIcon as StandardComputeProps,
+} from './icons/StandardCompute';
 export { default as StateCloud, type CompoundedIcon as StateCloudProps } from './icons/StateCloud';
 export { default as Stepfun, type CompoundedIcon as StepfunProps } from './icons/Stepfun';
 export { default as Straico, type CompoundedIcon as StraicoProps } from './icons/Straico';
