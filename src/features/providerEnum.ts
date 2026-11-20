@@ -11,6 +11,7 @@ export enum ModelProvider {
   AlibabaCloud = 'alibabacloud',
   AntGroup = 'antgroup',
   Anthropic = 'anthropic',
+  AnyApi = 'anyapi',
   Anyscale = 'anyscale',
   Apple = 'apple',
   AtlasCloud = 'atlascloud',
