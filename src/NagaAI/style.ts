@@ -1,6 +1,6 @@
 export const TITLE = 'NagaAI';
-export const COMBINE_TEXT_MULTIPLE = 0.95;
-export const COMBINE_SPACE_MULTIPLE = 0.15;
+export const COMBINE_TEXT_MULTIPLE = 0.91;
+export const COMBINE_SPACE_MULTIPLE = 0.28;
 export const COLOR_PRIMARY = '#5B5BF0';
 
 // Avatar constants
