@@ -12,14 +12,7 @@ import DocsPreview from '../components/DocsPreview';
 
 ## Icons
 
-<DocsPreview>
-  {
-    <Flexbox gap={16} horizontal>
-      <Lobot size={64} />
-      <Lobot.Color size={64} />
-    </Flexbox>
-  }
-</DocsPreview>
+<DocsPreview>{<Lobot size={64} />}</DocsPreview>
 
 ```tsx
 import { Lobot } from '@lobehub/icons';
@@ -29,7 +22,7 @@ export default () => <Lobot size={64} />;
 
 ## Text
 
-<DocsPreview>{\<Lobot.Text size={48} />}</DocsPreview>
+<DocsPreview>{<Lobot.Text size={48} />}</DocsPreview>
 
 ```tsx
 import { Lobot } from '@lobehub/icons';
@@ -43,7 +36,6 @@ export default () => <Lobot.Text size={48} />;
   {
     <Flexbox gap={16} align={'flex-start'}>
       <Lobot.Combine size={64} />
-      <Lobot.Combine size={64} type={'mono'} />
     </Flexbox>
   }
 </DocsPreview>
@@ -55,7 +47,6 @@ import { Flexbox } from '@lobehub/ui';
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
     <Lobot.Combine size={64} />
-    <Lobot.Combine size={64} type={'mono'} />
   </Flexbox>
 );
 ```

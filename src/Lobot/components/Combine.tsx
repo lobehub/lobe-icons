@@ -3,23 +3,37 @@
 import { memo } from 'react';
 
 import IconCombine, { type IconCombineProps } from '@/features/IconCombine';
+import type { IconType } from '@/types';
 
-import { COMBINE_SPACE_MULTIPLE, COMBINE_TEXT_MULTIPLE, TITLE } from '../style';
-import Color from './Color';
+import {
+  COMBINE_SPACE_MULTIPLE,
+  COMBINE_TEXT_MULTIPLE,
+  COMBINE_TEXT_SHIFT_MULTIPLE,
+  TITLE,
+} from '../style';
 import Mono from './Mono';
 import Text from './Text';
 
-export interface CombineProps extends Omit<IconCombineProps, 'Icon' | 'Text'> {
-  type?: 'color' | 'mono';
-}
+export type CombineProps = Omit<IconCombineProps, 'Icon' | 'Text'>;
 
-const Combine = memo<CombineProps>(({ type = 'color', ...rest }) => {
-  const Icon = type === 'color' ? Color : Mono;
+const CombineText: IconType = memo(({ size = '1em', style, ...rest }) => {
+  const shift =
+    typeof size === 'number' ? (size / COMBINE_TEXT_MULTIPLE) * COMBINE_TEXT_SHIFT_MULTIPLE : 0;
 
   return (
+    <Text
+      size={size}
+      style={{ transform: shift ? `translateY(${shift}px)` : undefined, ...style }}
+      {...rest}
+    />
+  );
+});
+
+const Combine = memo<CombineProps>(({ ...rest }) => {
+  return (
     <IconCombine
-      Icon={Icon}
-      Text={Text}
+      Icon={Mono}
+      Text={CombineText}
       aria-label={TITLE}
       spaceMultiple={COMBINE_SPACE_MULTIPLE}
       textMultiple={COMBINE_TEXT_MULTIPLE}
