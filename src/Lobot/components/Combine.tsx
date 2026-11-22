@@ -13,7 +13,7 @@ export interface CombineProps extends Omit<IconCombineProps, 'Icon' | 'Text'> {
   type?: 'color' | 'mono';
 }
 
-const Combine = memo<CombineProps>(({ type = 'mono', ...rest }) => {
+const Combine = memo<CombineProps>(({ type = 'color', ...rest }) => {
   const Icon = type === 'color' ? Color : Mono;
 
   return (

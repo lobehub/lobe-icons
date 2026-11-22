@@ -1,5 +1,5 @@
 export const TITLE = 'Lobot';
-export const COMBINE_TEXT_MULTIPLE = 0.8;
+export const COMBINE_TEXT_MULTIPLE = 0.69;
 export const COMBINE_SPACE_MULTIPLE = 0.16;
 export const COLOR_PRIMARY = '#FD8B00';
 

@@ -11,7 +11,7 @@ export interface CombineProps extends Omit<RNIconCombineProps, 'Icon' | 'Text'> 
   type?: 'color' | 'mono';
 }
 
-const Combine = memo<CombineProps>(({ type = 'mono', ...rest }) => {
+const Combine = memo<CombineProps>(({ type = 'color', ...rest }) => {
   const Icon = type === 'color' ? Color : Mono;
 
   return (
