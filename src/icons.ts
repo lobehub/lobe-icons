@@ -207,6 +207,7 @@ export { default as LlmApi, type CompoundedIcon as LlmApiProps } from './LlmApi'
 export { default as LlmGateway, type CompoundedIcon as LlmGatewayProps } from './LlmGateway';
 export { default as LmStudio, type CompoundedIcon as LmStudioProps } from './LmStudio';
 export { default as LobeHub, type CompoundedIcon as LobeHubProps } from './LobeHub';
+export { default as Lobot, type CompoundedIcon as LobotProps } from './Lobot';
 export { default as LongCat, type CompoundedIcon as LongCatProps } from './LongCat';
 export { default as Lovable, type CompoundedIcon as LovableProps } from './Lovable';
 export { default as Lovart, type CompoundedIcon as LovartProps } from './Lovart';
