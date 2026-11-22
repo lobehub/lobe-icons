@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version&nbsp;2.22.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.21.3...@lobehub/icons-rn@2.22.0)
+
+<sup>Released on **2026-11-22**</sup>
+
+#### ✨ Features
+
+- **lobot**: Add Lobot brand icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **lobot**: Add Lobot brand icons, closes [#481](https://github.com/lobehub/lobe-icons/issues/481) ([01d4caa](https://github.com/lobehub/lobe-icons/commit/01d4caa))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;2.21.3](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-rn@2.21.2...@lobehub/icons-rn@2.21.3)
 
 <sup>Released on **2026-11-18**</sup>
