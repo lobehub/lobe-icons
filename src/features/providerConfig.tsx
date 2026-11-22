@@ -93,6 +93,7 @@ import Minimax from '@/Minimax';
 import Mistral from '@/Mistral';
 import ModelScope from '@/ModelScope';
 import Moonshot from '@/Moonshot';
+import NagaAI from '@/NagaAI';
 import Nebius from '@/Nebius';
 import NewAPI from '@/NewAPI';
 import NousResearch from '@/NousResearch';
@@ -210,6 +211,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Menlo, keywords: [ModelProvider.Menlo] },
   { Icon: MetaAI, keywords: [ModelProvider.Meta] },
   { Icon: Microsoft, keywords: [ModelProvider.Microsoft] },
+  { Icon: NagaAI, keywords: [ModelProvider.NagaAI] },
   { Icon: NPLCloud, keywords: [ModelProvider.NPLCloud] },
   { Icon: NousResearch, keywords: [ModelProvider.NousResearch] },
   { Icon: Parasail, keywords: [ModelProvider.Parasail] },
