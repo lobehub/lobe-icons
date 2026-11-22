@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version&nbsp;6.19.0](https://github.com/lobehub/lobe-icons/compare/v6.18.0...v6.19.0)
+
+<sup>Released on **2026-11-22**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **lobot**: Add Lobot brand icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([05baacb](https://github.com/lobehub/lobe-icons/commit/05baacb))
+- **lobot**: Add Lobot brand icons, closes [#481](https://github.com/lobehub/lobe-icons/issues/481) ([01d4caa](https://github.com/lobehub/lobe-icons/commit/01d4caa))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;6.18.0](https://github.com/lobehub/lobe-icons/compare/v6.17.0...v6.18.0)
 
 <sup>Released on **2026-11-18**</sup>
