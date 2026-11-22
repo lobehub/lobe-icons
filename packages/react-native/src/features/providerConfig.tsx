@@ -92,6 +92,7 @@ import Minimax from '../icons/Minimax';
 import Mistral from '../icons/Mistral';
 import ModelScope from '../icons/ModelScope';
 import Moonshot from '../icons/Moonshot';
+import NagaAI from '../icons/NagaAI';
 import Nebius from '../icons/Nebius';
 import NewAPI from '../icons/NewAPI';
 import NousResearch from '../icons/NousResearch';
@@ -206,6 +207,7 @@ export const rnProviderMappings: RNProviderMapping[] = [
   { Icon: Menlo, keywords: [RNModelProvider.Menlo] },
   { Icon: MetaAI, keywords: [RNModelProvider.Meta] },
   { Icon: Microsoft, keywords: [RNModelProvider.Microsoft] },
+  { Icon: NagaAI, keywords: [RNModelProvider.NagaAI] },
   { Icon: NPLCloud, keywords: [RNModelProvider.NPLCloud] },
   { Icon: NousResearch, keywords: [RNModelProvider.NousResearch] },
   { Icon: Parasail, keywords: [RNModelProvider.Parasail] },
