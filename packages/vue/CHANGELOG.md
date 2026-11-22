@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version&nbsp;1.1.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-vue@1.0.4...@lobehub/icons-vue@1.1.0)
+
+<sup>Released on **2026-11-22**</sup>
+
+#### ✨ Features
+
+- **lobot**: Add Lobot brand icons.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **lobot**: Add Lobot brand icons, closes [#481](https://github.com/lobehub/lobe-icons/issues/481) ([01d4caa](https://github.com/lobehub/lobe-icons/commit/01d4caa))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.0.4](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-vue@1.0.3...@lobehub/icons-vue@1.0.4)
 
 <sup>Released on **2026-11-18**</sup>
