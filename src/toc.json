@@ -3762,6 +3762,25 @@
     "title": "LobeHub"
   },
   {
+    "color": "#FD8B00",
+    "desc": "https://lobot.im",
+    "docsUrl": "lobot",
+    "fullTitle": "Lobot",
+    "group": "application",
+    "id": "Lobot",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "Lobot"
+  },
+  {
     "color": "#fff",
     "desc": "https://longcat.chat/",
     "docsUrl": "long-cat",

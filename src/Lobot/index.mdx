@@ -1,0 +1,93 @@
+---
+title: Lobot
+description: https://lobot.im
+category: Application
+---
+
+import { Lobot } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<Lobot size={64} />}</DocsPreview>
+
+```tsx
+import { Lobot } from '@lobehub/icons';
+
+export default () => <Lobot size={64} />;
+```
+
+## Text
+
+<DocsPreview>{<Lobot.Text size={48} />}</DocsPreview>
+
+```tsx
+import { Lobot } from '@lobehub/icons';
+
+export default () => <Lobot.Text size={48} />;
+```
+
+## Combine
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} align={'flex-start'}>
+      <Lobot.Combine size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Lobot } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} align={'flex-start'}>
+    <Lobot.Combine size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <Lobot.Avatar size={64} />
+      <Lobot.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Lobot } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <Lobot.Avatar size={64} />
+    <Lobot.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={Lobot.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { Lobot } from '@lobehub/icons';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => <ColorPreview color={Lobot.colorPrimary} />;
+```

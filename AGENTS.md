@@ -83,8 +83,33 @@ First check `src/` and `src/icons.ts`. If the brand already exists and only an i
 6. **React Native (usually a follow-up)**: `bun run auto-converter-web-icons-to-rn` converts new web icons into `packages/react-native/src/icons/` and syncs the RN configs (`scripts/rn-conversion/README.md`).
 7. **Generated assets: leave them to CI.** On release, `.github/workflows/release.yml` runs `build:static` (renders `packages/static-*` with puppeteer) and `sync:md` (README icon list), then commits `✨ feat(auto): Auto build static icons`. Do not commit hand-made static files or README icon rows.
    To render only some icons locally: `bun scripts/svgWorkflow/index.tsx --only Brand,Other` (same exporter, filtered). The release job runs it with `--since auto`: only brands changed since the last `Auto build static icons` commit are re-exported and removed brands are deleted, while changes to `scripts/svgWorkflow`, shared `src/` code, rendering dependencies or a missing baseline fall back to a full export (`--dry-run` prints the plan, the `full_static` dispatch input forces a full export).
-   On pull requests, `.github/workflows/pr-icon-preview.yml` renders the changed brands (`scripts/prPreviewWorkflow`) and `pr-icon-preview-comment.yml` posts them as a sticky comment with the convention issues; try it locally with `bun scripts/prPreviewWorkflow/index.tsx --base origin/master` and open `tmp/pr-preview/comment.md`.
+   On pull requests, `.github/workflows/pr-icon-preview.yml` renders the changed brands and `pr-icon-preview-comment.yml` posts a sticky comment. After adding or changing icons, preview them locally with the same script — see **Icon preview** below. Do not invent a separate render script for routine previews, and do not run a full-library `build:static` just to look at one brand.
 8. **Check**: `bun run type-check`, `bun run lint`, `bun run test`, `bun scripts/check-svg-ids.tsx` (if you used gradients or ids), then view the page with `bun run dev` in light and dark mode at several sizes.
+
+## Icon preview
+
+After adding or changing icons, **always reuse** the script that `.github/workflows/pr-icon-preview.yml` runs. Do not write a one-off renderer for routine previews, and do not export the whole static icon library just to check a brand (`build:static` / `scripts/svgWorkflow` is the exporter the preview already calls internally, into a scratch folder).
+
+```bash
+bun scripts/prPreviewWorkflow/index.tsx --base <baseline> --out <output-dir>
+```
+
+Typical local command:
+
+```bash
+bun scripts/prPreviewWorkflow/index.tsx --base origin/master --out tmp/pr-preview
+```
+
+Then open `tmp/pr-preview/comment.md`.
+
+- **Baseline**: `origin/master` is the usual comparison. The script runs `git diff --name-status <base> [<head>] -- src` and renders every touched brand under `src/<Brand>/`. If you omit `--head`, the diff is `<base>` against the **working tree** (staged and unstaged edits to tracked files).
+- **You do not have to commit first.** New brand folders that are still untracked will not show up in `git diff`, so either `git add src/<Brand>` or skip detection with `--brands Brand,Other`. Already-tracked edits are picked up without a commit.
+- **Output** (do not commit; `tmp/` is gitignored):
+  - `comment.md` — the PR comment body
+  - `summary.json` — machine-readable summary
+  - `images/<brand>/*-{light,dark}.png` — one tile per variant (Mono, Color, Text, Combine, Avatar, plus TextColor / Brand / … when those components exist)
+- **Convention issues** in the comment are not a visual sign-off. Always compare the tiles with the official artwork for lockup ratio and spacing, the dark-mode mark (do not treat inverted Mono as a dark Color lockup), and Avatar crop.
+- You may composite the existing tiles into one labelled light/dark sheet for review. That is layout only — do not re-render the icons with a different pipeline.
 
 ## Conventions & Checks
 
