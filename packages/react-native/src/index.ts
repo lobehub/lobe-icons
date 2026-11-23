@@ -297,7 +297,6 @@ export { default as Moxt, type CompoundedIcon as MoxtProps } from './icons/Moxt'
 export { default as Muse, type CompoundedIcon as MuseProps } from './icons/Muse';
 export { default as MyShell, type CompoundedIcon as MyShellProps } from './icons/MyShell';
 export { default as N8n, type CompoundedIcon as N8nProps } from './icons/N8n';
-export { default as NagaAI, type CompoundedIcon as NagaAIProps } from './icons/NagaAI';
 export { default as NanoBanana, type CompoundedIcon as NanoBananaProps } from './icons/NanoBanana';
 export { default as Nebius, type CompoundedIcon as NebiusProps } from './icons/Nebius';
 export { default as NewAPI, type CompoundedIcon as NewAPIProps } from './icons/NewAPI';
