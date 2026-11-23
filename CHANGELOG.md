@@ -2,6 +2,33 @@
 
 # Changelog
 
+## [Version&nbsp;6.20.0](https://github.com/lobehub/lobe-icons/compare/v6.19.0...v6.20.0)
+
+<sup>Released on **2026-11-23**</sup>
+
+#### ✨ Features
+
+- **auto**: Auto build static icons.
+- **misc**: Add oMLX icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **auto**: Auto build static icons ([86fdda6](https://github.com/lobehub/lobe-icons/commit/86fdda6))
+- **misc**: Add oMLX icon, closes [#468](https://github.com/lobehub/lobe-icons/issues/468) ([7edf76d](https://github.com/lobehub/lobe-icons/commit/7edf76d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;6.19.0](https://github.com/lobehub/lobe-icons/compare/v6.18.0...v6.19.0)
 
 <sup>Released on **2026-11-22**</sup>
