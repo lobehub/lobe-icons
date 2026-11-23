@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version&nbsp;1.2.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-vue@1.1.0...@lobehub/icons-vue@1.2.0)
+
+<sup>Released on **2026-11-23**</sup>
+
+#### ✨ Features
+
+- **misc**: Add oMLX icon.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add oMLX icon, closes [#468](https://github.com/lobehub/lobe-icons/issues/468) ([7edf76d](https://github.com/lobehub/lobe-icons/commit/7edf76d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;1.1.0](https://github.com/lobehub/lobe-icons/compare/@lobehub/icons-vue@1.0.4...@lobehub/icons-vue@1.1.0)
 
 <sup>Released on **2026-11-22**</sup>
