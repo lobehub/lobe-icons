@@ -15,6 +15,7 @@ import AlibabaCloud from '@/AlibabaCloud';
 import AntGroup from '@/AntGroup';
 import Anthropic from '@/Anthropic';
 import Anyscale from '@/Anyscale';
+import APIStore from '@/APIStore';
 import Apple from '@/Apple';
 import AtlasCloud from '@/AtlasCloud';
 import Aws from '@/Aws';
@@ -417,6 +418,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: Ai302, combineMultiple: 0.9, keywords: [ModelProvider.Ai302] },
   { Icon: AiHubMix, combineMultiple: 0.9, keywords: [ModelProvider.AiHubMix] },
   { Icon: CometAPI, keywords: [ModelProvider.CometAPI] },
+  { Icon: APIStore, keywords: [ModelProvider.APIStore] },
   {
     Combine: memo(({ size = 24, ...props }) => (
       <Combine
