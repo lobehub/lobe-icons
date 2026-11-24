@@ -534,6 +534,25 @@
     "title": "Apertis"
   },
   {
+    "color": "#1662D9",
+    "desc": "https://apistore.cloud",
+    "docsUrl": "api-store",
+    "fullTitle": "API Store",
+    "group": "provider",
+    "id": "APIStore",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "API Store"
+  },
+  {
     "color": "#fff",
     "desc": "https://apple.com",
     "docsUrl": "apple",

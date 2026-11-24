@@ -12,6 +12,7 @@ export enum ModelProvider {
   AntGroup = 'antgroup',
   Anthropic = 'anthropic',
   Anyscale = 'anyscale',
+  APIStore = 'apistore',
   Apple = 'apple',
   AtlasCloud = 'atlascloud',
   Aws = 'aws',
