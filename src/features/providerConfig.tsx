@@ -120,6 +120,7 @@ import SophNet from '@/SophNet';
 import Spark from '@/Spark';
 import Stability from '@/Stability';
 import StateCloud from '@/StateCloud';
+import SteadyRouter from '@/SteadyRouter';
 import Stepfun from '@/Stepfun';
 import Straico from '@/Straico';
 import StreamLake from '@/StreamLake';
@@ -457,6 +458,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: LongCat, combineMultiple: 1, keywords: [ModelProvider.LongCat] },
   { Icon: Cerebras, combineMultiple: 1, keywords: [ModelProvider.Cerebras] },
   { Icon: Straico, combineMultiple: 0.85, keywords: [ModelProvider.Straico] },
+  { Icon: SteadyRouter, keywords: [ModelProvider.SteadyRouter] },
   { Icon: ZenMux, combineMultiple: 1, keywords: [ModelProvider.ZenMux], props: { inverse: true } },
   { Icon: XiaomiMiMo, combineMultiple: 0.7, keywords: [ModelProvider.XiaomiMiMo] },
   { Icon: WaveSpeed, combineMultiple: 0.7, keywords: [ModelProvider.WaveSpeed] },

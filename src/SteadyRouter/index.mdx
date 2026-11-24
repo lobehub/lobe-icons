@@ -1,0 +1,78 @@
+---
+title: SteadyRouter
+description: https://www.steadyrouter.com
+category: Provider
+---
+
+import { SteadyRouter } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <SteadyRouter size={64} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { SteadyRouter } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <SteadyRouter size={64} />
+  </Flexbox>
+);
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <SteadyRouter.Avatar size={64} />
+      <SteadyRouter.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { SteadyRouter } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <SteadyRouter.Avatar size={64} />
+    <SteadyRouter.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={SteadyRouter.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { SteadyRouter } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={SteadyRouter.colorPrimary} />
+  </Flexbox>
+);
+```
