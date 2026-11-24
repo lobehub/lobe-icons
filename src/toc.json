@@ -496,6 +496,25 @@
     "title": "Antigravity"
   },
   {
+    "color": "#009BF2",
+    "desc": "https://anyapi.ai",
+    "docsUrl": "any-api",
+    "fullTitle": "AnyAPI",
+    "group": "provider",
+    "id": "AnyApi",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "AnyAPI"
+  },
+  {
     "color": "#0163FB",
     "desc": "https://anyscale.com",
     "docsUrl": "anyscale",
