@@ -177,6 +177,7 @@ export { default as Infinigence, type CompoundedIcon as InfinigenceProps } from 
 export { default as Inflection, type CompoundedIcon as InflectionProps } from './Inflection';
 export { default as InternLM, type CompoundedIcon as InternLMProps } from './InternLM';
 export { default as IoNet, type CompoundedIcon as IoNetProps } from './IoNet';
+export { default as JeikCode, type CompoundedIcon as JeikCodeProps } from './JeikCode';
 export { default as Jimeng, type CompoundedIcon as JimengProps } from './Jimeng';
 export { default as Jina, type CompoundedIcon as JinaProps } from './Jina';
 export { default as Junie, type CompoundedIcon as JunieProps } from './Junie';

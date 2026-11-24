@@ -3188,6 +3188,26 @@
     "title": "IoNet"
   },
   {
+    "color": "#38BDF8",
+    "colorGradient": "linear-gradient(135deg, #00F2FE 0%, #38BDF8 45%, #818CF8 75%, #C084FC 100%)",
+    "desc": "https://jeikcode.top",
+    "docsUrl": "jeik-code",
+    "fullTitle": "JeikCode",
+    "group": "application",
+    "id": "JeikCode",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": true,
+      "hasCombine": true,
+      "hasText": true,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "JeikCode"
+  },
+  {
     "color": "#000",
     "desc": "https://jimeng.jianying.com",
     "docsUrl": "jimeng",
