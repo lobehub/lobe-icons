@@ -86,6 +86,7 @@ import LmStudio from '@/LmStudio';
 import LobeHub from '@/LobeHub';
 import LongCat from '@/LongCat';
 import Magpie from '@/Magpie';
+import MartLLM from '@/MartLLM';
 import Menlo from '@/Menlo';
 import MetaAI from '@/MetaAI';
 import Microsoft from '@/Microsoft';
@@ -381,6 +382,7 @@ export const providerMappings: ProviderMapping[] = [
   { Icon: HuggingFace, combineMultiple: 1.16, keywords: [ModelProvider.HuggingFace] },
   { Icon: LmStudio, keywords: [ModelProvider.LmStudio] },
   { Icon: Magpie, keywords: [ModelProvider.Magpie, 'magpie'] },
+  { Icon: MartLLM, keywords: [ModelProvider.MartLLM] },
   { Icon: XAI, combineMultiple: 0.85, keywords: [ModelProvider.XAI] },
   { Icon: Grok, keywords: [ModelProvider.SuperGrok] },
   {

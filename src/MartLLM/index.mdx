@@ -1,0 +1,68 @@
+---
+title: MartLLM
+description: https://martllm.com
+category: Provider
+---
+
+import { MartLLM } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+import DocsPreview from '../components/DocsPreview';
+
+## Icons
+
+<DocsPreview>{<MartLLM size={64} />}</DocsPreview>
+
+```tsx
+import { MartLLM } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => <MartLLM size={64} />;
+```
+
+## Avatars
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <MartLLM.Avatar size={64} />
+      <MartLLM.Avatar size={64} shape={'square'} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { MartLLM } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <MartLLM.Avatar size={64} />
+    <MartLLM.Avatar size={64} shape={'square'} />
+  </Flexbox>
+);
+```
+
+## Colors
+
+<DocsPreview>
+  {
+    <Flexbox gap={16} horizontal>
+      <ColorPreview color={MartLLM.colorPrimary} />
+    </Flexbox>
+  }
+</DocsPreview>
+
+```tsx
+import { MartLLM } from '@lobehub/icons';
+import { Flexbox } from '@lobehub/ui';
+
+import ColorPreview from '../components/ColorPreview';
+
+export default () => (
+  <Flexbox gap={16} horizontal>
+    <ColorPreview color={MartLLM.colorPrimary} />
+  </Flexbox>
+);
+```

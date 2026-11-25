@@ -3934,6 +3934,25 @@
   },
   {
     "color": "#000",
+    "desc": "https://martllm.com",
+    "docsUrl": "mart-llm",
+    "fullTitle": "MartLLM",
+    "group": "provider",
+    "id": "MartLLM",
+    "param": {
+      "hasAvatar": true,
+      "hasBrand": false,
+      "hasBrandColor": false,
+      "hasColor": false,
+      "hasCombine": false,
+      "hasText": false,
+      "hasTextCn": false,
+      "hasTextColor": false
+    },
+    "title": "MartLLM"
+  },
+  {
+    "color": "#000",
     "desc": "https://mastra.ai",
     "docsUrl": "mastra",
     "fullTitle": "Mastra",
