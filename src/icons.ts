@@ -328,6 +328,10 @@ export { default as Together, type CompoundedIcon as TogetherProps } from './Tog
 export { default as TopazLabs, type CompoundedIcon as TopazLabsProps } from './TopazLabs';
 export { default as Trae, type CompoundedIcon as TraeProps } from './Trae';
 export { default as Tripo, type CompoundedIcon as TripoProps } from './Tripo';
+export {
+  default as TrustedRouter,
+  type CompoundedIcon as TrustedRouterProps,
+} from './TrustedRouter';
 export { default as TuriX, type CompoundedIcon as TuriXCompoundedIcon } from './TuriX';
 export { default as TypeSafeAI, type CompoundedIcon as TypeSafeAIProps } from './TypeSafeAI';
 export { default as Udio, type CompoundedIcon as UdioProps } from './Udio';
