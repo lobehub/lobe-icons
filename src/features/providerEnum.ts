@@ -67,6 +67,7 @@ export enum ModelProvider {
   Higress = 'higress',
   Huawei = 'huawei',
   HuaweiCloud = 'huaweicloud',
+  Hubris = 'hubris',
   HuggingFace = 'huggingface',
   Hunyuan = 'hunyuan',
   Hyperbolic = 'hyperbolic',
