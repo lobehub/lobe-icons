@@ -89,6 +89,7 @@ export enum RNModelProvider {
   LobeHub = 'lobehub',
   LongCat = 'longcat',
   Magpie = 'magpie',
+  MartLLM = 'martllm',
   Menlo = 'menlo',
   Meta = 'meta',
   Microsoft = 'microsoft',
