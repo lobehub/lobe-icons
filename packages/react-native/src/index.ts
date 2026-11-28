@@ -277,6 +277,7 @@ export { default as Magic, type CompoundedIcon as MagicProps } from './icons/Mag
 export { default as Magpie, type CompoundedIcon as MagpieProps } from './icons/Magpie';
 export { default as Make, type CompoundedIcon as MakeProps } from './icons/Make';
 export { default as Manus, type CompoundedIcon as ManusProps } from './icons/Manus';
+export { default as MartLLM, type CompoundedIcon as MartLLMProps } from './icons/MartLLM';
 export { default as Mastra, type CompoundedIcon as MastraProps } from './icons/Mastra';
 export { default as MCP, type CompoundedIcon as MCPProps } from './icons/MCP';
 export { default as McpSo, type CompoundedIcon as McpSoProps } from './icons/McpSo';
